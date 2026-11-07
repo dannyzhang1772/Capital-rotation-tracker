@@ -13,6 +13,8 @@ pipeline/   Python scripts that fetch data and compute everything the site shows
   fetch_etf_flows.py  issuer shares-outstanding and NAV -> daily ETF creation/redemption flows
   fetch_13f.py        SEC Form 13F structured data -> institutional and hedge-fund ownership by ticker
   compute.py          bucket indices, weights, relative strength, factor betas, heat scores -> site/data/*.js
+  event_response.py   measures what each sub-industry did (vs S&P and vs its sector) after every researched event
+  calibrate.py        Beta Mode: blind materiality ratings (research/event_ratings.json) vs measured reactions, calibration fit, backtest, long/short stances -> site/data/beta.js
 research/   events_*.json (dated, sourced rotation events), regimes.json, per-sector narratives (.md), blurbs.json (catalyst notes)
 site/       the website (plain HTML/CSS/JS + Chart.js from CDN; data embedded as JS globals so it also opens from disk)
 data/       raw and processed data (parquet/CSV); large raw files are git-ignored
@@ -31,6 +33,8 @@ python fetch_macro.py
 python fetch_etf_flows.py
 python fetch_13f.py                # slow on first run (downloads ~50 quarterly SEC zips)
 python compute.py
+python event_response.py
+python calibrate.py
 ```
 
 Then open `site/index.html` in a browser, or serve it: `python -m http.server 8765 --directory site`.
@@ -50,4 +54,4 @@ The SEC's fair-access policy requires a contact in the User-Agent header. Set `C
 
 - Change baskets, ETFs or drivers in `pipeline/taxonomy.json`, then run `python pipeline/validate_taxonomy.py` and `python compute.py`.
 - Catalyst notes live in `research/blurbs.json`; each note records the heat score at the time it was written and the pipeline flags it as stale when the score moves more than 30 points.
-- Event annotations live in `research/events_*.json` and are merged automatically.
+- Event annotations live in `research/events_*.json` and are merged automatically. Every event needs a rating in `research/event_ratings.json` (rubric components e/p/b/c, see the file header) or Beta Mode will skip it.
