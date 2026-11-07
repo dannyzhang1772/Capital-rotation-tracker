@@ -38,6 +38,42 @@ for sec in all_sectors(T):
 WINDOWS = [21, 63, 126, 252, 504]
 idx = D.index
 
+# bucket-specific volatility of the sector-relative return (trailing 252d before the event), scaled to 63 days
+def vol63(col, seccol, p):
+    r = D[col].iloc[max(0, p - 252):p]; sr = D[seccol].iloc[max(0, p - 252):p] if seccol in D.columns else 0
+    x = (r - sr).dropna()
+    return float(x.std() * math.sqrt(63)) if len(x) > 120 else np.nan
+
+# ETF flow z: rolling 63-day flow as % of AUM, standardised by that ETF's own history
+flow_sd = {}
+if flows is not None:
+    for tk, g in flows.groupby('ticker'):
+        g = g.set_index('date').sort_index()
+        f = g['flow_usd'].rolling('91D').sum() / g['aum_usd'].shift(63)
+        f = f.replace([np.inf, -np.inf], np.nan).dropna()
+        if len(f) > 250: flow_sd[tk] = float(f.std())
+
+# 13F: hedge-fund share of each bucket per quarter; change from the last quarter-end before the event to the first quarter-end >= 60 days after
+hf_share = {}
+fp13 = os.path.join(PROC, '13f_by_ticker.csv'); fpt = os.path.join(PROC, '13f_totals.csv')
+if os.path.exists(fp13) and os.path.exists(fpt):
+    f13 = pd.read_csv(fp13, parse_dates=['period']); f13 = f13[f13.period >= '2013-06-30']
+    tot = pd.read_csv(fpt, parse_dates=['period']).set_index('period')['hf_value_usd']
+    members = {}
+    for sec in all_sectors(T):
+        for si in sec['subindustries']: members[si['id']] = si['basket']
+        members['sector:' + sec['id']] = [x for si in sec['subindustries'] for x in si['basket']]
+    for b, mem in members.items():
+        g = f13[f13.ticker.isin(mem)].groupby('period')['hf_value_usd'].sum()
+        hf_share[b] = (g / tot.reindex(g.index)).dropna()
+def hf_change(b, date):
+    s = hf_share.get(b)
+    if s is None or s.empty: return np.nan
+    d = pd.Timestamp(date)
+    before = s[s.index < d]; after = s[s.index >= d + pd.Timedelta(days=60)]
+    if before.empty or after.empty: return np.nan
+    return float((after.iloc[0] - before.iloc[-1]) * 100)  # percentage points of hedge-fund 13F value
+
 def cum(series, i0, i1):
     s = series.iloc[i0:i1].dropna()
     if len(s) < max(3, int(0.6 * (i1 - i0))): return np.nan
@@ -80,7 +116,11 @@ for e in events:
             else:
                 rec[f'sec_{n}'] = rec[f'rel_{n}']
             rec[f'complete_{n}'] = bool(p + n <= len(idx))
-        rec['flow_63'] = flow_after(etf_of.get(bid if kind == 'sub' else 'sector:' + bid), e['date'])
+        etf = etf_of.get(bid if kind == 'sub' else 'sector:' + bid)
+        rec['flow_63'] = flow_after(etf, e['date'])
+        rec['flow_z'] = rec['flow_63'] / flow_sd[etf] if (etf in flow_sd and not math.isnan(rec['flow_63'])) else np.nan
+        rec['vol63'] = vol63(col, seccol, p)
+        rec['hf_chg_pp'] = hf_change(bid if kind == 'sub' else 'sector:' + bid, e['date'])
         rows.append(rec)
 
 R = pd.DataFrame(rows)

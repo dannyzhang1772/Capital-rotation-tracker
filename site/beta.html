@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Beta Mode: Opportunities · Capital Rotation Tracker</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794036940">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794065036">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body data-page="beta">
@@ -24,13 +24,18 @@
     <div class="card"><h3 style="margin-top:0">Long candidates</h3><div id="longs"></div></div>
     <div class="card"><h3 style="margin-top:0">Short candidates</h3><div id="shorts"></div></div>
   </div>
-  <p class="tier" style="margin-top:8px">Fundamental score = recency-weighted average rating of the sub-industry's events in the last 18 months (half-life six months). Residual z = how far the measured 3-month sector-relative reaction sat from what the calibration expects for events of that rating, in standard deviations. Stance rules are in the methodology note at the bottom.</p>
+  <p class="tier" style="margin-top:8px">Fundamental score = recency-weighted average rating of the sub-industry's catalysts in the last 18 months (half-life six months). Capital moved = blend of price residual, ETF flows, 13F hedge-fund share change and pre-event move, in standard deviations; positive means capital arrived beyond what fundamentals explain. Stance rules are chosen by the backtest (table below).</p>
+  <h2>On watch: one catalyst, no confirmation yet</h2>
+  <div class="card" style="overflow:auto;padding:0 8px" id="watch"></div>
+  <h2>Stance rules chosen by the data</h2>
+  <p class="sub">For every combination of fundamentals (rating sign) and what capital did in the first three months, the table shows what the sub-industry did against its sector over the following nine months. Only combinations that paid become rules.</p>
+  <div class="card" style="overflow:auto;padding:0 8px" id="rules"></div>
 
   <h2>Calibration: rating vs measured reaction</h2>
   <div class="grid cols-2">
-    <div class="chart-card"><h3>Each event: rating vs 3-month sector-relative move</h3><div class="note">One dot per event and sub-industry. Amber line is the weighted fit; white diamonds are bin medians. Distance from the line is the residual.</div><div class="chart-box tall"><canvas id="scatter"></canvas></div></div>
+    <div class="chart-card"><h3>Each catalyst: rating vs 3-month move in bucket-volatility units</h3><div class="note">One dot per catalyst and sub-industry, move divided by that sub-industry's own volatility. Amber line is the pooled weighted fit; distance from the line is the residual.</div><div class="chart-box tall"><canvas id="scatter"></canvas></div></div>
     <div class="chart-card"><h3>Does the rating predict the next 12 months?</h3><div class="note">Catalyst events only. Mean and median sector-relative return over the following 12 months, by rating bucket.</div><div class="chart-box"><canvas id="fundChart"></canvas></div>
-      <h3>Do over- and under-reactions revert?</h3><div class="note">Clean catalysts (no overlapping event). Sector-relative drift from month 4 to month 12 after the event, grouped by the 3-month verdict. Negative drift after "overbought" would mean reversion.</div><div class="chart-box short"><canvas id="revertChart"></canvas></div></div>
+      <h3>Do over- and under-reactions revert?</h3><div class="note">Clean catalysts. Sector-relative drift from month 4 to month 12, by quintile of the 3-month residual. Reversion would show as negative drift on the right and positive on the left.</div><div class="chart-box short"><canvas id="revertChart"></canvas></div></div>
   </div>
   <div class="card" id="backtestTable" style="margin-top:10px"></div>
 
@@ -46,7 +51,7 @@
   <div class="prose card" id="method"></div>
   <footer>Ratings are analyst judgment applied through a fixed rubric; reactions are measured from Yahoo Finance prices. Not investment advice.</footer>
 </main>
-<script src="data/taxonomy.js?v=1794036940"></script><script src="data/snapshot.js?v=1794036940"></script><script src="data/beta.js?v=1794036940"></script>
-<script src="assets/charts.js?v=1794036940"></script><script src="assets/app.js?v=1794036940"></script><script src="assets/beta.js?v=1794036940"></script>
+<script src="data/taxonomy.js?v=1794065036"></script><script src="data/snapshot.js?v=1794065036"></script><script src="data/beta.js?v=1794065036"></script>
+<script src="assets/charts.js?v=1794065036"></script><script src="assets/app.js?v=1794065036"></script><script src="assets/beta.js?v=1794065036"></script>
 </body>
 </html>
