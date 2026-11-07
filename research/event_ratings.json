@@ -3174,5 +3174,1035 @@
   "b": 3,
   "c": 2,
   "why": "new national competitor"
+ },
+ "media-2025-wbd-split-announcement": {
+  "e": 1,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "separation unlocks studio value, cable left with debt"
+ },
+ "media-2025-gta-vi-second-delay": {
+  "e": -1.5,
+  "p": 1,
+  "b": 1,
+  "c": 3,
+  "why": "one publisher's revenue pushed out"
+ },
+ "media-2026-versant-spin-debut": {
+  "e": -0.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "declining cable networks listed separately"
+ },
+ "media-2026-paramount-wbd-state-ag-settlement": {
+  "e": 1,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "deal clears to close"
+ },
+ "en-2025-0531-opec-july-hike": {
+  "e": -1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "more supply, smaller than feared"
+ },
+ "en-2025-0613-israel-strikes-iran-oil-spike": {
+  "e": 2,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "risk premium, short-lived"
+ },
+ "en-2025-0718-chevron-wins-hess-arbitration": {
+  "e": 1.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "Guyana growth secured for one major"
+ },
+ "en-2025-0728-venture-global-cp2-fid": {
+  "e": 1.5,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "LNG volume growth for pipelines"
+ },
+ "en-2025-0729-baker-hughes-chart-deal": {
+  "e": 0.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "diversification, leverage"
+ },
+ "en-2025-0822-epa-small-refinery-exemptions": {
+  "e": 1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "RIN costs cut for small refiners"
+ },
+ "en-2025-0828-ferc-reissues-nese-certificate": {
+  "e": 1,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "Northeast expansion revived"
+ },
+ "en-2025-1022-rosneft-lukoil-sanctions": {
+  "e": 1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "Russian supply constrained"
+ },
+ "en-2025-1102-opec-pauses-q1-2026-hikes": {
+  "e": 1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "supply discipline returns"
+ },
+ "en-2026-0121-winter-storm-fern-gas-spike": {
+  "e": 1,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "weather spike, temporary"
+ },
+ "en-2026-0202-devon-coterra-merger": {
+  "e": 0.5,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "scale, no premium"
+ },
+ "en-2026-0401-epa-rfs-set2-final-rule": {
+  "e": -1,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "higher blending obligations, reallocation"
+ },
+ "en-2026-0408-us-iran-ceasefire-oil-plunge": {
+  "e": -3,
+  "p": 2,
+  "b": 3,
+  "c": 2,
+  "why": "war premium removed"
+ },
+ "en-2026-0422-golden-pass-first-cargo": {
+  "e": 1,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "more feedgas demand"
+ },
+ "en-2026-0428-uae-exits-opec": {
+  "e": -2,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "cartel discipline weakens"
+ },
+ "en-2026-0615-hormuz-reopening-mou": {
+  "e": -3,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "supply shock ends"
+ },
+ "en-2026-0730-valero-record-q2-2026": {
+  "e": 2,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "record margins confirmed"
+ },
+ "en-2026-1020-ofs-q3-2026-earnings": {
+  "e": 0.5,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "mixed prints"
+ },
+ "financials-2025-june-reinsurance-renewals-soften": {
+  "e": -1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "pricing cycle turning"
+ },
+ "financials-2026-jan-renewals-rates-down-12": {
+  "e": -2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "accelerated softening"
+ },
+ "financials-2026-progressive-june-growth-slowdown": {
+  "e": -2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "auto pricing pressure"
+ },
+ "financials-2026-aon-usi-17bn": {
+  "e": 1,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "broker consolidation"
+ },
+ "materials-2025-gold-record-3600-fed-cut-bets": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "gold price, margins"
+ },
+ "materials-2025-gold-plunge-gdx-worst-since-2020": {
+  "e": -1.5,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "gold correction"
+ },
+ "materials-2026-equinox-orla-consolidation": {
+  "e": 0.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "M&A, no premium"
+ },
+ "re-2025-0506-marriott-revpar-guidance-cut": {
+  "e": -1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "RevPAR outlook lowered"
+ },
+ "re-2025-0512-us-china-tariff-truce-reits": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 2,
+  "why": "import volumes restored"
+ },
+ "re-2025-0521-trump-gse-ipo-post": {
+  "e": 1,
+  "p": 3,
+  "b": 3,
+  "c": 1,
+  "why": "GSE release talk"
+ },
+ "re-2025-0623-compass-sues-zillow-listing-standards": {
+  "e": -0.5,
+  "p": 3,
+  "b": 2,
+  "c": 2,
+  "why": "listing-access fight"
+ },
+ "re-2025-0625-equinix-analyst-day-guidance-cut": {
+  "e": -2,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "five-year growth cut"
+ },
+ "re-2025-0704-obbb-medicaid-snf-reits": {
+  "e": -1,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "Medicaid cuts, SNF relief"
+ },
+ "re-2025-0716-prologis-q2-2025-guidance-raise": {
+  "e": 1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "guidance raised"
+ },
+ "re-2025-0724-digital-realty-q2-record-bookings": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "record bookings"
+ },
+ "re-2025-0728-welltower-q2-2025-shop-surge": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "NOI +23%"
+ },
+ "re-2025-0729-cbre-q2-beat-raises-guidance": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "transaction recovery"
+ },
+ "re-2025-0731-host-park-q2-2025-prints": {
+  "e": -0.5,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "mixed guidance"
+ },
+ "re-2025-0804-elme-cortland-sale-liquidation": {
+  "e": 0.5,
+  "p": 1,
+  "b": 1,
+  "c": 3,
+  "why": "private-market bid validates NAV"
+ },
+ "re-2025-0804-simon-q2-2025-occupancy-guidance": {
+  "e": 1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "occupancy and guidance up"
+ },
+ "re-2025-0825-public-storage-withdraws-abacus-bid": {
+  "e": 0,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "no change"
+ },
+ "re-2025-0826-att-echostar-spectrum-towers": {
+  "e": -2,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "fourth tenant exits"
+ },
+ "re-2025-0908-spacex-echostar-spectrum-tower-selloff": {
+  "e": -2,
+  "p": 3,
+  "b": 2,
+  "c": 2,
+  "why": "satellite substitution fear"
+ },
+ "re-2025-0910-opendoor-names-nejatian-ceo": {
+  "e": 0.5,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "management change, one name"
+ },
+ "re-2025-0917-rithm-buys-paramount-group": {
+  "e": 1,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "private bid for office"
+ },
+ "re-2025-1015-prologis-q3-record-leasing": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "record leasing, guidance up"
+ },
+ "re-2025-1015-sl-green-q3-manhattan-leasing": {
+  "e": 0.5,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "leasing strong, print disappointed"
+ },
+ "re-2025-1027-welltower-23b-senior-housing-deals": {
+  "e": 2,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "accretive scale in senior housing"
+ },
+ "re-2025-1029-fed-cut-ends-qt": {
+  "e": 2,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "QT ends, MBS spreads tighten"
+ },
+ "re-2025-1029-public-storage-q3-raises-outlook": {
+  "e": 1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "storage bottoming"
+ },
+ "re-2025-1030-avalonbay-q3-guidance-cut": {
+  "e": -1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "demand softens"
+ },
+ "re-2025-1103-simon-q3-2025-record-occupancy": {
+  "e": 1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "occupancy record"
+ },
+ "re-2025-1201-barclays-downgrades-amt-cci": {
+  "e": -1,
+  "p": 2,
+  "b": 2,
+  "c": 2,
+  "why": "collection risk flagged"
+ },
+ "re-2025-1203-alexandria-dividend-cut": {
+  "e": -3,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "life-science demand cratered"
+ },
+ "re-2026-0107-trump-institutional-sfr-ban": {
+  "e": -3,
+  "p": 3,
+  "b": 2,
+  "c": 1,
+  "why": "SFR acquisition ban threat"
+ },
+ "re-2026-0108-trump-200b-mbs-purchase-order": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 2,
+  "why": "MBS spread compression"
+ },
+ "re-2026-0109-compass-closes-anywhere-deal": {
+  "e": 1,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "synergies secured"
+ },
+ "re-2026-0205-digital-realty-q4-2025-record-backlog": {
+  "e": 1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "record backlog, EPS miss"
+ },
+ "re-2026-0220-scotus-strikes-ieepa-tariffs": {
+  "e": 1.5,
+  "p": 2,
+  "b": 3,
+  "c": 2,
+  "why": "tariffs voided, partly replaced"
+ },
+ "re-2026-0625-nyc-rgb-two-year-rent-freeze": {
+  "e": -1.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "rent freeze on stabilised units"
+ },
+ "re-2026-0716-prologis-q2-2026-record-leasing": {
+  "e": 1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "record leasing again"
+ },
+ "re-2026-1029-cubesmart-heitman-jv-q3": {
+  "e": 0.5,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "capital recycling"
+ },
+ "re-2026-1102-kimco-louisville-acquisition-guidance": {
+  "e": 0.5,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "guidance raise, small deal"
+ },
+ "re-2026-1105-host-q3-2026-world-cup-revpar": {
+  "e": 1.5,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "RevPAR +7% event-driven"
+ },
+ "software-2025-figma-ipo": {
+  "e": 1,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "IPO window reopens"
+ },
+ "software-2026-salesforce-q2-fy27-rally": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "AI upsell proven"
+ },
+ "software-2026-servicenow-q3-record-drop": {
+  "e": -2.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "growth deceleration at a bellwether"
+ },
+ "software-2026-midterm-ai-trade-unwind": {
+  "e": -1.5,
+  "p": 2,
+  "b": 3,
+  "c": 1,
+  "why": "policy risk, unenacted"
+ },
+ "utilities-2025-pjm-auction-record-329": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "capacity revenue for IPP-exposed names"
+ },
+ "utilities-2025-california-sb254-wildfire-fund": {
+  "e": 1.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "liability backstop extended"
+ },
+ "utilities-2026-nextera-dominion-67bn": {
+  "e": 0.5,
+  "p": 3,
+  "b": 2,
+  "c": 2,
+  "why": "scale deal, approval risk"
+ },
+ "utilities-2026-bond-selloff-xlu-oversold": {
+  "e": -1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "yields up"
+ },
+ "apparel-2025-nike-turnaround-rally": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "worst of the reset behind, tariff cost still large"
+ },
+ "internet-retail-2025-de-minimis-ends": {
+  "e": -1.5,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "marketplace sellers lose duty-free imports"
+ },
+ "housing-2025-fed-cut-lennar-miss": {
+  "e": 0.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "easing begins but margins weak"
+ },
+ "autos-2025-gm-q3-record-close": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "guidance raised, tariff cost cut"
+ },
+ "housing-2026-lennar-q1-margin-collapse": {
+  "e": -3,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "incentives at 14%, margins collapse"
+ },
+ "apparel-2026-nike-q3-china-warning": {
+  "e": -2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "China down 20%, sales guided lower"
+ },
+ "autos-2026-tesla-q1-capex-shock": {
+  "e": -1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "near-zero auto profit, capex up"
+ },
+ "autos-2026-gm-ford-ieepa-refunds": {
+  "e": 1.5,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "one-off refunds, guidance up"
+ },
+ "specialty-retail-2026-tjx-q1-raise": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "share gains, guidance raised"
+ },
+ "specialty-retail-2026-ross-record-comps": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "comps +17%"
+ },
+ "internet-retail-2026-amazon-q2-aws-reacceleration": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "AWS re-accelerates"
+ },
+ "specialty-retail-2026-burlington-q2-slip": {
+  "e": 0,
+  "p": 1,
+  "b": 1,
+  "c": 3,
+  "why": "mixed print"
+ },
+ "apparel-2026-lululemon-q2-plunge": {
+  "e": -3,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "comps -9%"
+ },
+ "specialty-retail-2026-autozone-fq4-tariff-refund": {
+  "e": 0.5,
+  "p": 1,
+  "b": 1,
+  "c": 3,
+  "why": "refund-aided beat"
+ },
+ "travel-2026-mcdonalds-investor-day": {
+  "e": -2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "franchisee rescue costs"
+ },
+ "apparel-2026-nike-13-year-low": {
+  "e": -3,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "revenue guided down high single digits"
+ },
+ "autos-2026-tesla-q3-robotaxi-pushout": {
+  "e": -1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "monetisation pushed to 2027"
+ },
+ "travel-2026-royal-caribbean-q3-raise": {
+  "e": 1,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "guidance raised"
+ },
+ "housing-2026-dr-horton-fq4-orders-down": {
+  "e": -2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "orders -7%, guide below"
+ },
+ "internet-retail-2026-amazon-q3-negative-fcf": {
+  "e": -2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "negative free cash flow"
+ },
+ "travel-2026-cruise-oil-drop-rally": {
+  "e": 1,
+  "p": 1,
+  "b": 1,
+  "c": 3,
+  "why": "fuel relief"
+ },
+ "housing-2026-midterm-affordability-rally": {
+  "e": 1.5,
+  "p": 3,
+  "b": 3,
+  "c": 1,
+  "why": "affordability policy hopes"
+ },
+ "travel-2026-mcdonalds-q3-relief-rally": {
+  "e": 1,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "EPS beat, comps negative"
+ },
+ "staples-retail-2026-target-q2-tariff-refund-turnaround": {
+  "e": 1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "traffic turns positive"
+ },
+ "staples-retail-2026-walmart-q2-9pct-drop": {
+  "e": -1,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "beat but guide below hopes"
+ },
+ "staples-retail-2026-dollar-general-q2-raise": {
+  "e": 1,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "guidance raised"
+ },
+ "staples-retail-2026-walmart-inflation-defensive-bid": {
+  "e": 0.5,
+  "p": 1,
+  "b": 3,
+  "c": 3,
+  "why": "defensive rotation"
+ },
+ "lstools-2025-thermo-fisher-worst-is-over": {
+  "e": 1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "beat and raise, cycle turning"
+ },
+ "facilities-2025-hca-q3-record-high": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "EBITDA +18.5%, guidance up"
+ },
+ "biotech-smid-2025-pfizer-metsera-bidding-war": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "big pharma bids up SMID"
+ },
+ "meddev-2026-boston-scientific-penumbra": {
+  "e": 0.5,
+  "p": 3,
+  "b": 1,
+  "c": 3,
+  "why": "premium paid"
+ },
+ "biotech-smid-2026-biogen-apellis": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "140% premium take-out"
+ },
+ "lstools-2026-danaher-bioprocessing-orders": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "orders +30% after two years"
+ },
+ "meddev-2026-boston-scientific-q1-guidance-cut": {
+  "e": -3,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "growth cut to 6.5-8%"
+ },
+ "hctech-2026-hims-q1-loss": {
+  "e": -3,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "loss, margins crushed"
+ },
+ "facilities-2026-hca-exchange-coverage-cut": {
+  "e": -3,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "exchange losses turn patients uninsured"
+ },
+ "lstools-2026-thermo-fisher-q2-surge": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "growth 10%, guidance up"
+ },
+ "facilities-2026-tenet-q2-blowout": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "beat by 44%"
+ },
+ "hctech-2026-tempus-first-profit-personalis": {
+  "e": 1.5,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "first GAAP profit"
+ },
+ "hctech-2026-hims-q2-margin-miss": {
+  "e": -0.5,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "EPS miss on strong revenue"
+ },
+ "biotech-smid-2026-xbi-peak-and-fade": {
+  "e": -1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "ep": true,
+  "why": "readouts, rates, policy risk"
+ },
+ "meddev-2026-intuitive-q3-us-slowdown": {
+  "e": 0,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "mixed"
+ },
+ "lstools-2026-danaher-q3-new-ceo": {
+  "e": 1,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "beat, guidance up"
+ },
+ "facilities-2026-hca-q3-upper-half": {
+  "e": 1,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "beat within cut guidance"
+ },
+ "meddev-2026-boston-scientific-third-cut-cyberattack": {
+  "e": -1.5,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "cyberattack cost"
+ },
+ "hctech-2026-tempus-q3-ebitda-positive": {
+  "e": 1,
+  "p": 2,
+  "b": 1,
+  "c": 3,
+  "why": "EBITDA positive"
+ },
+ "biotech-smid-2026-astrazeneca-rhythm-bid": {
+  "e": 1,
+  "p": 2,
+  "b": 1,
+  "c": 2,
+  "why": "take-out interest"
+ },
+ "defense-2025-lockheed-q2-charges": {
+  "e": -2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "$1.6bn program charges"
+ },
+ "transport-2025-union-pacific-norfolk-southern-merger": {
+  "e": 1.5,
+  "p": 3,
+  "b": 2,
+  "c": 2,
+  "why": "transcontinental rail, approval risk"
+ },
+ "aero-2025-faa-737-rate-42": {
+  "e": 2,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "production cap lifted"
+ },
+ "waste-2025-wm-q3-miss-commodity-prices": {
+  "e": -1,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "commodity price drag"
+ },
+ "machinery-2025-caterpillar-q3-record-high": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "record backlog"
+ },
+ "elec-2026-ge-vernova-q1-backlog-pull-forward": {
+  "e": 2.5,
+  "p": 3,
+  "b": 2,
+  "c": 3,
+  "why": "orders +59%"
+ },
+ "defense-2026-lockheed-q1-miss": {
+  "e": -1,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "execution miss"
+ },
+ "defense-2026-lockheed-rtx-q2-record-backlogs": {
+  "e": 2.5,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "record backlogs, THAAD award"
+ },
+ "aero-2026-boeing-q2-cash-flow-positive": {
+  "e": 2,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "cash flow turns positive"
+ },
+ "transport-2026-ups-q2-amazon-glide-down": {
+  "e": -1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "volume glide-down"
+ },
+ "machinery-2026-caterpillar-q2-tariff-relief": {
+  "e": 2,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "sales +24%"
+ },
+ "machinery-2026-deere-ag-cycle-low": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 2,
+  "why": "ag cycle bottom called"
+ },
+ "proserv-2026-paychex-guidance-disappointment": {
+  "e": -1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "growth slows"
+ },
+ "transport-2026-delta-fuel-guidance-cut": {
+  "e": -2,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "fuel bill +62%"
+ },
+ "proserv-2026-equifax-q3-beat": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "non-mortgage growth"
+ },
+ "aero-2026-ge-aerospace-q3-raise-sell-the-news": {
+  "e": 1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "orders +49%, guidance up"
+ },
+ "aero-2026-faa-certifies-737-10": {
+  "e": 1.5,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "30% of order book unlocked"
+ },
+ "elec-2026-meta-capex-ai-power-selloff": {
+  "e": -1.5,
+  "p": 2,
+  "b": 3,
+  "c": 2,
+  "why": "financing of AI build-out in doubt"
+ },
+ "defense-2026-q3-rebound-into-midterms": {
+  "e": 2,
+  "p": 3,
+  "b": 3,
+  "c": 3,
+  "why": "record backlog, guidance raised"
+ },
+ "waste-2026-waste-connections-q3-second-raise": {
+  "e": 1.5,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "second guidance raise"
+ },
+ "transport-2026-ups-q3-beat-raise": {
+  "e": 1,
+  "p": 2,
+  "b": 2,
+  "c": 3,
+  "why": "beat and raise"
+ },
+ "waste-2026-wm-q3-miss-ceo-transition": {
+  "e": -0.5,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "small miss"
+ },
+ "elec-2026-vertiv-ge-vernova-q3-split": {
+  "e": 1.5,
+  "p": 2,
+  "b": 3,
+  "c": 3,
+  "why": "Vertiv +61% sales; GEV deal"
+ },
+ "machinery-2026-caterpillar-q3-capacity-selloff": {
+  "e": -0.5,
+  "p": 1,
+  "b": 2,
+  "c": 3,
+  "why": "capacity limits cap upside"
+ },
+ "proserv-2026-verisk-q3": {
+  "e": 0.5,
+  "p": 1,
+  "b": 1,
+  "c": 3,
+  "why": "in line"
+ },
+ "elec-2026-bloom-midterm-moratorium-fears": {
+  "e": -1.5,
+  "p": 3,
+  "b": 2,
+  "c": 1,
+  "why": "moratoria risk, unenacted"
  }
 }

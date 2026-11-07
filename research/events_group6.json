@@ -1,0 +1,2037 @@
+{
+  "events": [
+    {
+      "id": "re-2025-0506-marriott-revpar-guidance-cut",
+      "date": "2025-05-06",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "lodging_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "Marriott cuts 2025 RevPAR outlook to 1.5-3.5% as Hyatt and Wyndham also trim; hotel REIT guidance seen 300-400 bp too high",
+      "summary": "On its Q1 call on May 6, 2025 Marriott lowered its full-year 2025 RevPAR growth guidance to 1.5%-3.5% from 2%-4%, citing economic uncertainty, weaker consumer confidence and 'tougher visibility into the back half of the year', despite Q1 global RevPAR of +4.1%. Hyatt and Wyndham made similar cuts in their Q1 reports, confirming a broad US lodging demand slowdown tied to tariff uncertainty and softer government and inbound travel. Baird had already warned on April 21 that US RevPAR was tracking 300-400 bp below prior expectations while lodging REITs (HST, PK, PEB, RLJ, DRH, SHO) had guided to 1%-3% growth, describing investor sentiment as 'extremely negative'.",
+      "evidence": "Marriott 2025 RevPAR guidance cut to +1.5%-3.5% from +2%-4% on 2025-05-06.",
+      "sources": [
+        {
+          "title": "Hotel Dive: Marriott touts development bright spot as it lowers 2025 RevPAR guidance",
+          "url": "https://www.hoteldive.com/news/marriott-development-revpar-earnings-q1-2025/747242/"
+        },
+        {
+          "title": "Hotel Management: Marriott lowers U.S. RevPAR guidance as uncertainty looms",
+          "url": "https://www.hotelmanagement.net/operate/marriott-lowers-us-revpar-guidance-uncertainty-looms"
+        },
+        {
+          "title": "Skift Daily Lodging Report: Hotel REITs See Softer U.S. RevPARs (Baird, Apr 21 2025)",
+          "url": "https://dlr.skift.com/2025/04/21/hotel-reits-see-softer-u-s-revpars/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0512-us-china-tariff-truce-reits",
+      "date": "2025-05-12",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits",
+        "lodging_reits",
+        "retail_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "US-China 90-day tariff truce sends industrial, lodging and mall REITs sharply higher",
+      "summary": "After weekend talks in Geneva, the US and China agreed on May 12, 2025 to cut reciprocal tariffs for 90 days, with the US rate on Chinese goods falling to 30% from as high as 145%. The trade-sensitive REIT groups that had been crushed after Liberation Day rebounded hardest: Bisnow reported the FTSE Nareit US industrial REIT index up 4.9% in early trading, lodging/resort REITs up nearly 6%, regional mall REITs up more than 5% and shopping-center REITs up more than 3%, versus roughly +0.4% for the FTSE Nareit All Equity REITs index. The Dow rose more than 1,000 points and the 10-year yield rose 6 bp to 4.44%, so the move was a cyclical/import-volume trade rather than a rates trade.",
+      "evidence": "FTSE Nareit US industrial REIT index +4.9% and lodging REITs +~6% in early trading on 2025-05-12 (Bisnow).",
+      "sources": [
+        {
+          "title": "Bisnow: Markets Rally On China-U.S. Tariff Reprieve, Lodging And Industrial REITs Soar",
+          "url": "https://www.bisnow.com/national/news/capital-markets/markets-rally-on-china-us-tariff-reprieve-lodging-and-industrial-reits-soar-129331"
+        },
+        {
+          "title": "CBS News: Dow jumps more than 1,000 points as U.S. and China agree to slash tariffs for 90 days",
+          "url": "https://www.cbsnews.com/news/stocks-up-china-tariffs-pause-agreement-may-12-2025/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0521-trump-gse-ipo-post",
+      "date": "2025-05-21",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "mortgage_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Trump floats Fannie/Freddie public offering; GSE shares soar 40%",
+      "summary": "On May 21, 2025 President Trump posted on Truth Social that Fannie Mae and Freddie Mac were 'doing very well' and that he was giving 'very serious consideration' to taking them public; on May 22 common shares of both GSEs rose more than 40% to 52-week highs, with preferreds up double digits. A May 27 follow-up post said the government would keep its implicit guarantee. For agency mortgage REITs (NLY, AGNC, DX, ARR, ORC) the episode reopened the GSE-reform/guarantee debate that drives agency MBS spread risk, while the White House later (Aug 2025) discussed an IPO of up to 15% of the companies.",
+      "evidence": "Fannie Mae and Freddie Mac common shares rose more than 40% on 2025-05-22 after Trump's May 21 post (Inman).",
+      "sources": [
+        {
+          "title": "Trump's Interest Sends Shares In Fannie, Freddie Soaring (Inman, May 22 2025)",
+          "url": "https://www.inman.com/2025/05/22/trumps-interest-sends-shares-in-fannie-mae-freddie-mac-soaring/"
+        },
+        {
+          "title": "Trump says Fannie Mae, Freddie Mac IPO still on the table (HousingWire)",
+          "url": "https://www.housingwire.com/articles/fannie-freddie-ipo-trump/"
+        },
+        {
+          "title": "Trump is planning a massive IPO of the government's mortgage companies (CNN, Aug 8 2025)",
+          "url": "https://www.cnn.com/2025/08/08/business/fannie-freddie-ipo"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0531-opec-july-hike",
+      "date": "2025-05-31",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "OPEC+ adds a third 411,000 b/d hike for July; relief rally as market feared bigger",
+      "summary": "On Saturday May 31, 2025 the eight OPEC+ voluntary cutters agreed to raise July output by 411,000 b/d, matching the May and June hikes and unwinding about 62% of the 2.2 mb/d cut, despite Russian and Algerian pushback. Markets had feared a larger increase after Kazakhstan refused to cut, so crude rallied on Monday June 2: WTI +2.85% to $62.52 and Brent +2.95% to $64.63, helped by a US rig count at its lowest since 2021. The steady-pace outcome eased the worst-case scenario for E&Ps but kept the group on a market-share path that weighed on the integrateds through the summer.",
+      "evidence": "WTI closed +$1.73 (2.85%) at $62.52/bbl on 2025-06-02 after the 411,000 b/d July decision",
+      "sources": [
+        {
+          "title": "CNBC - U.S. crude oil rises about 3% as rig count falls, OPEC+ increases output at steady rate",
+          "url": "https://www.cnbc.com/2025/06/02/us-crude-oil-rises-after-opec-increases-output-at-steady-rate.html"
+        },
+        {
+          "title": "World Oil - OPEC+ to increase July supply by 411,000 bpd despite pushback from Russia",
+          "url": "https://worldoil.com/news/2025/5/30/opec-to-increase-july-supply-by-411-000-bpd-despite-pushback-from-russia/"
+        }
+      ]
+    },
+    {
+      "id": "financials-2025-june-reinsurance-renewals-soften",
+      "date": "2025-06-01",
+      "end_date": null,
+      "sector": "financials",
+      "subindustries": [
+        "insurance"
+      ],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "June 1 2025 Florida reinsurance renewals: first real rate cut in years (-10.7%)",
+      "summary": "At the June 1, 2025 Florida-focused renewals, Gallagher Re data showed cedents secured a risk-adjusted property-catastrophe price decrease of 10.7% with reductions across all layers, the first significant decline after several hard-market years, as tort reform and abundant capital outweighed the January LA wildfire losses. Softer reinsurance costs help primary carriers such as Allstate, Progressive and Travelers while signalling the top of the pricing cycle for reinsurers like RenaissanceRe and Arch.",
+      "evidence": "Florida 6/1/2025 risk-adjusted reinsurance pricing -10.7% (Gallagher Re)",
+      "sources": [
+        {
+          "title": "Artemis: June reinsurance renewals highlight Florida's recovery following tort reforms - Gallagher Re",
+          "url": "https://www.artemis.bm/news/june-reinsurance-renewals-highlight-floridas-recovery-following-tort-reforms-gallagher-re/"
+        },
+        {
+          "title": "Reinsurance News: Reinsurance rates seen down 10-15% ahead of Jan 1 - Florida Chamber panel",
+          "url": "https://www.reinsurancene.ws/reinsurance-rates-seen-down-10-15-ahead-of-jan-1-florida-chamber-panel/"
+        }
+      ]
+    },
+    {
+      "id": "media-2025-wbd-split-announcement",
+      "date": "2025-06-09",
+      "end_date": null,
+      "sector": "communication_media",
+      "subindustries": [
+        "media_entertainment"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Warner Bros. Discovery announces split into streaming/studios and cable networks",
+      "summary": "On 2025-06-09 WBD said it would separate into a Streaming & Studios company (Warner Bros., HBO, HBO Max, led by David Zaslav) and a Global Networks company (CNN, TNT, Discovery, led by CFO Gunnar Wiedenfels) by mid-2026, with most of its ~$38bn debt assigned to the networks entity. WBD shares jumped as much as 12% at the open but closed down about 3%, and the move framed the industry-wide pattern of carving out declining linear TV (Comcast's Versant, Disney's ABC/FX review) ahead of the Paramount-WBD bidding war.",
+      "evidence": "WBD +12% intraday, closed about -3% on 2025-06-09",
+      "sources": [
+        {
+          "title": "CNBC: Warner Bros. Discovery to split into two public companies by next year",
+          "url": "https://www.cnbc.com/2025/06/09/warner-bros-discovery-to-split-into-two-public-companies-by-next-year.html"
+        },
+        {
+          "title": "Yahoo Finance: Warner Bros. Discovery stock pops as company confirms it will split into 2 companies",
+          "url": "https://finance.yahoo.com/news/warner-bros-discovery-stock-pops-as-company-confirms-it-will-split-into-2-companies-141412752.html"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0613-israel-strikes-iran-oil-spike",
+      "date": "2025-06-13",
+      "end_date": "2025-06-24",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Israel strikes Iran: crude posts biggest one-day jump since 2022, energy leads",
+      "summary": "Israel's June 13, 2025 strikes on Iranian nuclear and military sites sent Brent up as much as 13% intraday, its largest intraday jump since March 2022, with Brent closing +7.6% and WTI settling +7.26% at about $72.98. Energy stocks rose in premarket trading led by Exxon Mobil and Chevron while airlines and the broad market fell. The 12-day episode ended with the June 24 ceasefire, after which the risk premium bled out of crude and the group.",
+      "evidence": "WTI settled +7.26% at ~$72.98/bbl on 2025-06-13 (CNN); Brent +7.6% after a 13% intraday spike (Bloomberg)",
+      "sources": [
+        {
+          "title": "CNN - Oil prices jump 7% and stocks drop as Israel-Iran tensions escalate",
+          "url": "https://www.cnn.com/2025/06/13/business/oil-prices-markets-israel-iran-attack-intl-hnk"
+        },
+        {
+          "title": "World Oil - Oil prices surge following Israel's attack on Iran",
+          "url": "https://www.worldoil.com/news/2025/6/13/oil-prices-surge-following-israel-s-attack-on-iran/"
+        },
+        {
+          "title": "S&P Global - Oil futures: crude surges 6% as Israel launches preemptive strike on Iran",
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/crude-oil/061325-oil-futures-crude-surges-6-as-israel-launches-preemptive-strike-on-iran"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0623-compass-sues-zillow-listing-standards",
+      "date": "2025-06-23",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Compass sues Zillow over listing-access ban as enforcement starts June 30",
+      "summary": "On June 23, 2025 Compass filed an antitrust suit against Zillow in the Southern District of New York, alleging Zillow's Listing Access Standards (announced April 2025) unlawfully used its 60%-plus share of home-search traffic to block Compass's three-phase 'private exclusive' marketing; Zillow began blocking an agent's third non-compliant listing from Zillow and Trulia on June 30, 2025. The fight defined the private-listing/portal-power debate for Z, COMP, EXPI, RMAX and Redfin: Judge Vargas denied Compass an injunction in February 2026, Compass dropped the case on March 18, 2026 after Zillow carved out pre-marketing on Compass and Redfin sites, and Zillow then sued Compass and Chicago's MRED in May 2026.",
+      "evidence": "Compass v. Zillow filed 2025-06-23 in SDNY; Zillow enforcement of the one-business-day MLS rule began 2025-06-30 (Real Estate News).",
+      "sources": [
+        {
+          "title": "Zillow to Compass: We're not legally required to work with you (Real Estate News, Jul 17 2025)",
+          "url": "https://www.realestatenews.com/2025/07/17/zillow-to-compass-were-not-legally-required-to-work-with-you"
+        },
+        {
+          "title": "Compass challenges Zillow's listing policy in court (HousingWire)",
+          "url": "https://www.housingwire.com/articles/compass-zillow-lawsuit/"
+        },
+        {
+          "title": "Compass drops lawsuit after Zillow embraces pre-marketing (Real Estate News, Mar 18 2026)",
+          "url": "https://www.realestatenews.com/2026/03/18/compass-drops-lawsuit-after-zillow-embraces-pre-marketing"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0625-equinix-analyst-day-guidance-cut",
+      "date": "2025-06-25",
+      "end_date": "2025-06-26",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Equinix cuts 2025-2029 AFFO/share growth target to 5-9% at analyst day; shares plunge ~9-10%",
+      "summary": "At its June 25, 2025 analyst day Equinix lowered its five-year (2025-2029) AFFO-per-share growth outlook to 5%-9% from the 7%-10% set in 2023, blaming higher interest costs on refinancing and new debt plus a step-up in capex under its 'Build Bolder' plan to chase AI and hyperscale demand (revenue growth 7%-10%, EBITDA margin to 52%+). Shares fell about 9% to $824.31 and were down nearly 10% by midday on June 26 as Raymond James downgraded to Market Perform and JPMorgan, BofA and Wells Fargo cut targets; elevated churn and capex intensity became the market's concern for the data center REIT complex, including Digital Realty.",
+      "evidence": "EQIX 2025-2029 AFFO/share growth target cut to 5%-9% from 7%-10%; shares -9% to $824.31 on 2025-06-25 (Investing.com).",
+      "sources": [
+        {
+          "title": "Investing.com: Equinix stock falls as analyst maintains rating despite lower growth outlook",
+          "url": "https://www.investing.com/news/analyst-ratings/equinix-stock-falls-as-analyst-maintains-rating-despite-lower-growth-outlook-93CH-4112005"
+        },
+        {
+          "title": "Motley Fool: Why Shares in This Data Center REIT Slumped Today (June 26, 2025)",
+          "url": "https://www.fool.com/investing/2025/06/26/why-shares-in-this-data-center-reit-slumped-today"
+        },
+        {
+          "title": "Seeking Alpha: Equinix stock slides after five-year outlook sees AFFO growth slowing in 2026",
+          "url": "https://seekingalpha.com/news/4462778-equinix-stock-slides-after-five-year-outlook-sees-affo-growth-slowing-in-2026"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0704-obbb-medicaid-snf-reits",
+      "date": "2025-07-04",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "healthcare_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "One Big Beautiful Bill signed: ~$940B Medicaid cuts, but SNF rate cuts dropped and staffing mandate delayed 10 years",
+      "summary": "The House passed the One Big Beautiful Bill on July 3, 2025 and President Trump signed it on July 4. The law cuts federal Medicaid spending by roughly $940 billion over 10 years, mainly through work requirements, provider-tax limits (hospital provider-tax ceiling stepping down from 6% to 3.5% in expansion states) and state-directed-payment caps starting in 2027. For skilled-nursing landlords (OHI, SBRA, CTRE, LTC, NHI) the outcome was better than feared: the final text omitted the previously proposed Medicaid reimbursement cuts for SNFs and delayed the federal nursing-home staffing mandate by a decade, which CareTrust's 10-Q said should give 'continued stability' to tenants in high-Medicaid-census states.",
+      "evidence": "Signed 2025-07-04; ~$940B Medicaid reduction over 10 years with the federal SNF staffing mandate delayed 10 years (Skilled Nursing News).",
+      "sources": [
+        {
+          "title": "Skilled Nursing News: House Passes Big Beautiful Bill With Nursing Home-Friendly Provisions",
+          "url": "https://skillednursingnews.com/2025/07/house-passes-big-beautiful-bill-with-nursing-home-friendly-provisions-amid-reverberations-for-long-term-care/"
+        },
+        {
+          "title": "CareTrust REIT 10-Q for Q3 2025 (Medicaid SNF cuts omitted from final law)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1590717/000162828025049531/ctre-20250930.htm"
+        },
+        {
+          "title": "PALTmed: The One Big Beautiful Bill and Its Impact on Medicaid, Medicare, and Long-Term Care",
+          "url": "https://paltmed.org/news-media/one-big-beautiful-bill-and-its-impact-medicaid-medicare-and-long-term-care"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0716-prologis-q2-2025-guidance-raise",
+      "date": "2025-07-16",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Prologis Q2 2025: Core FFO beat, low end of guidance raised, development starts guidance lifted 43%",
+      "summary": "On July 16, 2025 Prologis reported Q2 Core FFO of $1.46 per share (up 9% y/y and 4 cents above consensus) on revenue of $2.18 billion (+9%). It raised the low end of full-year Core FFO guidance by 10 cents to $5.80-$5.85 (ex-promotes) and lifted development-starts guidance to $2.25-$2.75 billion, a 43% increase at the midpoint, signalling that tariff-driven paralysis in leasing decisions had eased. Average occupancy was 94.9% (period-end 95.1%) and new leases commenced rose 10% y/y to 51.2 million sq ft.",
+      "evidence": "Q2 2025 Core FFO $1.46/share, +9.0% y/y; FY Core FFO guidance low end raised $0.10 to $5.80-$5.85 (2025-07-16).",
+      "sources": [
+        {
+          "title": "FreightWaves: First look: Prologis Q2 earnings",
+          "url": "https://www.freightwaves.com/news/first-look-prologis-q2-earnings"
+        },
+        {
+          "title": "Prologis Q2 2025 results press release (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045609/000095017025096077/pld-ex99_2.htm"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0718-chevron-wins-hess-arbitration",
+      "date": "2025-07-18",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "integrated"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "ICC panel rules for Chevron over Exxon; $53B Hess deal closes same day",
+      "summary": "On July 18, 2025 the International Chamber of Commerce arbitration panel rejected ExxonMobil's claim that its right of first refusal covered Hess's 30% Stabroek stake, letting Chevron close its $53 billion all-stock Hess acquisition the same day. Chevron shares rose roughly 3.4%-3.6% premarket and Hess 7.4%-7.7%, while Exxon was marginally lower. The ruling removed an 18-month overhang on Chevron and reset the Guyana growth story inside the integrated group.",
+      "evidence": "Chevron +3.6% and Hess +7.4% premarket on 2025-07-18; deal closed same day (CNN)",
+      "sources": [
+        {
+          "title": "CNN - Chevron's megadeal for Hess gets approval after winning legal battle with Exxon",
+          "url": "https://edition.cnn.com/2025/07/18/business/chevron-hess-exxon"
+        },
+        {
+          "title": "Oil & Gas Journal - Arbitrator rules in favor of Chevron, Hess in Guyana dispute with ExxonMobil",
+          "url": "https://www.ogj.com/general-interest/companies/article/55304089/arbitrator-rules-in-favor-of-chevron-hess-in-guyana-dispute-with-exxonmobil"
+        }
+      ]
+    },
+    {
+      "id": "utilities-2025-pjm-auction-record-329",
+      "date": "2025-07-22",
+      "end_date": null,
+      "sector": "utilities",
+      "subindustries": [
+        "regulated_utilities"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "PJM capacity auction clears at record $329.17/MW-day cap on data-center load",
+      "summary": "PJM's 2026/27 Base Residual Auction, released 2025-07-22, cleared at the FERC-approved cap of $329.17/MW-day across the entire footprint, up 22% from $269.92, procuring 134,311 MW at a total cost of $16.1bn; PJM said the price would have been about $389 without the cap and attributed roughly 5,500 MW of peak-load growth mainly to data centers. The result validated the load-growth thesis behind regulated utilities and generators in PJM (Exelon, PSEG, AEP, Dominion, FirstEnergy, PPL) while raising political pressure on retail bills.",
+      "evidence": "PJM 2026/27 BRA cleared at $329.17/MW-day on 2025-07-22 (+22% y/y)",
+      "sources": [
+        {
+          "title": "PJM news release: auction procures 134,311 MW, supply responds to price signal",
+          "url": "https://www.pjm.com/-/media/DotCom/about-pjm/newsroom/2025-releases/20250722-pjm-auction-procures-134311-mw-of-generation-resources-supply-responds-to-price-signal.pdf"
+        },
+        {
+          "title": "Utility Dive: PJM capacity prices set another record with 22% jump",
+          "url": "https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-prices/753798/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0724-digital-realty-q2-record-bookings",
+      "date": "2025-07-24",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Digital Realty Q2 2025: record $90M 0-1MW bookings, Core FFO +13%, guidance raised $0.10",
+      "summary": "On July 24, 2025 Digital Realty reported Q2 Core FFO of $1.87 per share (+13% y/y, a record) and $177 million of gross bookings at 100% share ($135 million at DLR's share), including a record $90 million in the 0-1 MW plus interconnection category, 18% above the previous record, with year-to-date leasing of $575 million. It raised full-year 2025 Core FFO guidance by $0.10 to $7.15-$7.25 and lifted revenue and adjusted EBITDA guidance by $100 million and $75 million. Shares rose about 0.5% after hours to $180.15, a reassuring read-through for the AI leasing cycle a month after Equinix's analyst-day selloff.",
+      "evidence": "Record $90M 0-1MW+interconnection bookings and FY2025 Core FFO guidance raised $0.10 to $7.15-$7.25 (2025-07-24).",
+      "sources": [
+        {
+          "title": "Digital Realty Q2 2025 results (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1297996/000155837025009543/dlr-20250724xex99d1.htm"
+        },
+        {
+          "title": "Investing.com: Earnings call transcript: Digital Realty Q2 2025 earnings surpass expectations",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-digital-realty-q2-2025-earnings-surpass-expectations-93CH-4152177"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0728-venture-global-cp2-fid",
+      "date": "2025-07-28",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "Venture Global takes FID on CP2 Phase 1 with $15.1B financing; LNG FID wave of 2025",
+      "summary": "On July 28, 2025 Venture Global announced final investment decision and financial close on Phase 1 of its 28 mtpa CP2 LNG project in Louisiana, with $15.1 billion of project financing covering the plant and the CP Express pipeline and first LNG targeted for 2027. It capped a run of US export FIDs in mid-2025 (Cheniere's Corpus Christi midscale Trains 8-9 in June 2025 under a ~$2.9B Bechtel EPC, NextDecade's Rio Grande Train 4 in September 2025) that underpinned the gas-pipeline volume thesis for Kinder Morgan, Williams, Energy Transfer and Cheniere (LNG).",
+      "evidence": "$15.1 billion CP2 Phase 1 project financing closed 2025-07-28; project peak capacity 28 mtpa",
+      "sources": [
+        {
+          "title": "Venture Global - FID and Financial Close for Phase 1 of CP2 LNG",
+          "url": "https://ventureglobal.com/2025/07/28/venture-global-announces-final-investment-decision-and-financial-close-for-phase-1-of-cp2-lng/"
+        },
+        {
+          "title": "Cheniere Energy 8-K (June 2025) - Corpus Christi midscale Trains 8 & 9 notice to proceed",
+          "url": "https://www.sec.gov/Archives/edgar/data/3570/000000357025000088/lng-20250617.htm"
+        },
+        {
+          "title": "Natural Gas Intelligence - Venture Global poised to take US LNG export crown after FID on second phase of CP2",
+          "url": "https://naturalgasintel.com/news/venture-global-poised-to-take-us-lng-export-crown-after-reaching-fid-on-second-phase-of-cp2/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0728-welltower-q2-2025-shop-surge",
+      "date": "2025-07-28",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "healthcare_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Welltower Q2 2025: FFO +21.9%, senior housing NOI +23.4%, occupancy +420 bp; guidance raised, shares +3.5%",
+      "summary": "Welltower reported Q2 2025 after the close on July 28, 2025: normalized FFO of $1.28 per share (+21.9% y/y), revenue of $2.55 billion versus $2.45 billion expected, senior housing operating (SHOP) same-store NOI growth of 23.4%, a 420 bp y/y occupancy gain (the largest outside the post-COVID recovery) and RevPOR growth of 4.9%. It raised the midpoint of 2025 normalized FFO guidance by $0.13 to $5.10 ($5.06-$5.14) and disclosed $2 billion of equity raised in the quarter. Investing.com reported WELL shares up 3.47% to $160.52 after the print, extending the 80+ demographics / senior housing recovery trade that also lifts Ventas and American Healthcare REIT.",
+      "evidence": "Q2 2025 normalized FFO $1.28/share (+21.9%), SHOP SSNOI +23.4%; WELL +3.47% to $160.52 after the 2025-07-28 release.",
+      "sources": [
+        {
+          "title": "Welltower Q2 2025 earnings release (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670425000027/a2q25earningsrelease991.htm"
+        },
+        {
+          "title": "Investing.com: Earnings call transcript: Welltower Q2 2025 results show strong revenue growth",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-welltower-q2-2025-results-show-strong-revenue-growth-93CH-4157934"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0729-baker-hughes-chart-deal",
+      "date": "2025-07-29",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "oilfield_services"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Baker Hughes agrees to buy Chart Industries for $13.6B; OFS consolidation accelerates",
+      "summary": "On July 29, 2025 Baker Hughes agreed to acquire Chart Industries for $210 per share in cash, a $13.6 billion enterprise value and a 22% premium, ending Chart's pending merger with Flowserve; Chart shares surged about 16.5% to $200 after hours. The deal came two weeks after SLB closed its ~$4.9 billion all-stock ChampionX acquisition on July 16, 2025, marking a shift by the big-three service companies toward production, LNG and industrial equipment as North American drilling activity shrank. Baker Hughes' leverage from the deal (2.5x) later weighed on its stock after Q3 2026 results.",
+      "evidence": "$210/share cash, $13.6B EV, 22% premium announced 2025-07-29; Chart +16.5% after hours",
+      "sources": [
+        {
+          "title": "Baker Hughes - Baker Hughes to Acquire Chart Industries",
+          "url": "https://investors.bakerhughes.com/news/press-releases/news-details/2025/Baker-Hughes-to-Acquire-Chart-Industries-Accelerating-Energy-Industrial-Technology-Strategy-07-29-2025/default.aspx"
+        },
+        {
+          "title": "Bloomberg - Baker Hughes to Acquire Chart Industries in $13.6 Billion Deal",
+          "url": "https://www.bloomberg.com/news/articles/2025-07-29/baker-hughes-to-acquire-chart-industries-in-13-6-billion-deal"
+        },
+        {
+          "title": "SLB - SLB Completes Acquisition of ChampionX (July 16, 2025)",
+          "url": "https://www.slb.com/newsroom/press-release/2025/slb-completes-acquisition-of-championx"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0729-cbre-q2-beat-raises-guidance",
+      "date": "2025-07-29",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "CBRE Q2: revenue +16%, core EPS +47%, guidance raised; stock +5% premarket",
+      "summary": "On July 29, 2025 CBRE reported Q2 revenue of $9.75B (+16% YoY) and core EPS of $1.19 (+47%), and raised its 2025 core EPS outlook to $6.10-$6.20 from $5.80-$6.10, pointing to a recovery in capital-markets and leasing activity; shares were up 5.47% in premarket trading on the report. The print anchored the 'transaction-volume recovery' trade in commercial real-estate services (CBRE, JLL, CWK, NMRK) through the summer of 2025 as rate-cut expectations built ahead of the September FOMC.",
+      "evidence": "CBRE Q2 2025 (reported 2025-07-29): revenue $9.75B (+16%), core EPS $1.19 (+47%), 2025 core EPS guidance raised to $6.10-$6.20.",
+      "sources": [
+        {
+          "title": "CBRE Group, Inc. Reports Financial Results for Second-Quarter 2025 (company press release)",
+          "url": "https://www.cbre.com/press-releases/cbre-q2-2025-earnings"
+        },
+        {
+          "title": "CBRE Group Soars 5.47% on Strong Q2 Earnings Beat and Raised 2025 Guidance (Tiger Brokers, Jul 29 2025)",
+          "url": "https://www.itiger.com/news/1148380612"
+        },
+        {
+          "title": "CBRE Q2 2025 presentation: Revenue jumps 16%, company raises full-year guidance (Investing.com)",
+          "url": "https://www.investing.com/news/company-news/cbre-q2-2025-presentation-revenue-jumps-16-company-raises-fullyear-guidance-93CH-4156989"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0731-host-park-q2-2025-prints",
+      "date": "2025-07-31",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "lodging_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Lodging REIT Q2 2025 prints split: Host raises RevPAR outlook but guides Q3 negative (HST -2.2%); Park cuts RevPAR guidance 150 bp",
+      "summary": "Host Hotels reported Q2 2025 comparable RevPAR +3.0% and total RevPAR +4.2%, beat with EPS of $0.32 vs $0.22 expected, and raised its 2025 comparable RevPAR growth range to 1.5%-2.5% with the adjusted EBITDAre midpoint up $60 million to $1.705 billion, but told investors Q3 RevPAR would be negative on soft short-term group volume; Investing.com reported HST fell 2.17% to $16.13 in the regular session around the print. Park Hotels, reporting July 31, 2025, posted comparable RevPAR -1.6% (Hawaii -11.6% on occupancy of 78.6% vs 86.9%) and cut its 2025 comparable RevPAR guidance to -2.0% to 0.0% from -1.0% to +2.0%, a 150 bp midpoint reduction. The pair framed the mid-2025 lodging debate: coastal/luxury resilience versus weakening group, Hawaii and inbound demand.",
+      "evidence": "Park Hotels cut 2025 comparable RevPAR guidance to (2.0)%-0.0% from (1.0)%-2.0% on 2025-07-31; HST -2.17% to $16.13 on its Q2 print.",
+      "sources": [
+        {
+          "title": "Park Hotels & Resorts Inc. Reports Second Quarter 2025 Results",
+          "url": "https://www.pkhotelsandresorts.com/investors/news-and-events/press-releases/2025/07-31-2025-211622886"
+        },
+        {
+          "title": "Investing.com: Earnings call transcript: Host Hotels beats Q2 2025 forecasts, stock dips",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-host-hotels-beats-q2-2025-forecasts-stock-dips-93CH-4164268"
+        },
+        {
+          "title": "Host Hotels & Resorts Q2 2025 results (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1070750/000107075025000094/hst-ex991.htm"
+        }
+      ]
+    },
+    {
+      "id": "software-2025-figma-ipo",
+      "date": "2025-07-31",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": [
+        "application_software"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "tech_cycle",
+      "title": "Figma IPO prices at $33 and closes up ~250%",
+      "summary": "Figma priced its NYSE IPO at $33 (above the $30-32 range), raised about $1.2bn, opened at $85 and closed its first session near $115.50, a gain of roughly 250% that valued the design-software company around $68bn. The blowout debut reopened the software IPO window and briefly re-rated growth software sentiment, although the stock fell 27% on its third session and later gave back about half its pop.",
+      "evidence": "FIG closed at ~$115.50 on 2025-07-31 vs $33 IPO price (~+250%)",
+      "sources": [
+        {
+          "title": "CNBC: Figma's top VCs sitting on $24 billion worth of stock after massive IPO pop",
+          "url": "https://www.cnbc.com/2025/07/31/figmas-top-vcs-sitting-on-20-billion-in-stock-after-ipo-pop.html"
+        },
+        {
+          "title": "Crunchbase News: Figma first-day IPO trading triples",
+          "url": "https://news.crunchbase.com/public/saas-figma-first-day-ipo-trading-triples/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0804-elme-cortland-sale-liquidation",
+      "date": "2025-08-04",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Elme Communities sells 19 apartment assets to Cortland for $1.6B and will liquidate",
+      "summary": "On August 4, 2025 Elme Communities concluded its strategic review by agreeing to sell 19 multifamily properties (16 in the DC area, 3 in Atlanta) to Cortland for $1.6 billion in cash and announced a plan of liquidation, marketing its remaining nine apartment assets and the Watergate 600 office building over the following 12 months. The company guided to upfront distributions of roughly $14.68-$15.00 per share plus later residual payouts. The deal was read as a private-market mark for apartment REITs trading at discounts to NAV, supporting the public-to-private arbitrage thesis across the group (AVB, EQR, UDR, CPT, IRT, NXRT).",
+      "evidence": "19-property portfolio sale to Cortland for $1.6 billion announced 2025-08-04; estimated upfront distributions $14.68-$15.00 per share (Elme press release).",
+      "sources": [
+        {
+          "title": "Elme Communities Concludes Strategic Alternatives Review; Agreement to Sell 19 Properties to Cortland (press release)",
+          "url": "https://ir.elmecommunities.com/news-events/press-releases/detail/372/elme-communities-concludes-strategic-alternatives-review"
+        },
+        {
+          "title": "Elme Communities to Dissolve After $1.6B Multifamily Sale to Cortland (Commercial Observer, Aug 4 2025)",
+          "url": "https://commercialobserver.com/2025/08/elme-multifamily-dissolve-cortland/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0804-simon-q2-2025-occupancy-guidance",
+      "date": "2025-08-04",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "retail_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Simon Property Q2 2025: occupancy 96.0%, Mills at record 99.3%, FFO guidance raised despite 1.8M sq ft of bankruptcy fallout",
+      "summary": "Simon Property Group reported Q2 2025 on August 4, 2025 with Real Estate FFO of $3.05 per share (+4.1% y/y), US Malls and Premium Outlets occupancy of 96.0% (+40 bp y/y) and a record 99.3% at The Mills, and raised the midpoint of 2025 Real Estate FFO guidance to $12.45-$12.65. Roughly 1,000 leases for 3.6 million sq ft were signed in the quarter even as management said retailer bankruptcies (Forever 21, Joann, Rite Aid and others earlier in 2025) touched about 1.8 million sq ft of space, underscoring the lack-of-new-supply backfill story for Class A retail.",
+      "evidence": "US Malls & Premium Outlets occupancy 96.0% at 2025-06-30 vs 95.6% a year earlier; 2025 Real Estate FFO guidance midpoint raised to $12.45-$12.65 (reported 2025-08-04).",
+      "sources": [
+        {
+          "title": "Simon Property Group Q2 2025 results (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465925073630/tm2521096d2_ex99-1.htm"
+        },
+        {
+          "title": "Commercial Observer: Simon Property Group Raises Guidance After Q2 Earnings, Occupancy Gains",
+          "url": "https://commercialobserver.com/2025/08/simon-property-group-q2-earnings-retail/"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0822-epa-small-refinery-exemptions",
+      "date": "2025-08-22",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "EPA clears 175 small-refinery exemption petitions, grants 63 in full and 77 at 50%",
+      "summary": "On August 22, 2025 EPA ruled on 175 backlogged RFS small refinery exemption petitions from 38 refineries for 2016-2024, fully granting 63, partially (50%) granting 77 and denying 28, and formalized a partial-relief policy. D6 RINs jumped to $1.15 on the day (+8.2% per Platts) on reallocation fears, while small-refinery-exposed names benefited directly: Delek said the exemptions cut its net RIN obligation by about $280.8 million in Q3 2025. HF Sinclair units sued in October 2025 over denials, and EPA later reallocated 70% of the waived volumes into the 2026-27 standards.",
+      "evidence": "63 full and 77 partial exemptions granted 2025-08-22; Platts D6 RIN $1.15 (+8.2%) that day",
+      "sources": [
+        {
+          "title": "EPA - August 2025 Decisions on Petitions for RFS Small Refinery Exemptions",
+          "url": "https://www.epa.gov/renewable-fuel-standard/august-2025-decisions-petitions-rfs-small-refinery-exemptions"
+        },
+        {
+          "title": "S&P Global - US EPA fully grants 63 petitions from small refiners seeking exemptions from RFS",
+          "url": "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/082225-us-epa-fully-grants-63-petitions-from-small-refiners-seeking-exemptions-from-rfs"
+        },
+        {
+          "title": "Delek US Holdings 10-Q Q3 2025",
+          "url": "https://www.sec.gov/Archives/edgar/data/1694426/000162828025050541/dk-20250930.htm"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0825-public-storage-withdraws-abacus-bid",
+      "date": "2025-08-25",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Public Storage and Ki Corp walk away from A$2.2B Abacus Storage King bid",
+      "summary": "On August 25, 2025 Public Storage and Ki Corporation withdrew their non-binding offer for ASX-listed Abacus Storage King after due diligence, having raised the bid from A$1.47 to A$1.65 per security (about A$2.2B) in July; CEO Joe Russell said the consortium 'was unable to match their Independent Board Committee's value assessment.' The retreat ended PSA's first major overseas platform attempt and signalled pricing discipline from the sector's largest buyer during a period of flat street rates, ahead of PSA's domestic consolidation push (49 facilities for $511M in Q3 2025 and the 2026 NSA deal). Abacus Group later sold its 19.6% stake, with Ki taking much of it.",
+      "evidence": "Offer withdrawn 2025-08-25 after a revised A$1.65 per security proposal in July 2025 (Investing.com; Nasdaq press release).",
+      "sources": [
+        {
+          "title": "Public Storage withdraws bid for Abacus Storage King (Investing.com, Aug 25 2025)",
+          "url": "https://www.investing.com/news/company-news/public-storage-withdraws-bid-for-abacus-storage-king-93CH-4209972"
+        },
+        {
+          "title": "Ki Corporation and Public Storage Withdraw Offer to Acquire Abacus Storage King (press release via Nasdaq)",
+          "url": "https://www.nasdaq.com/press-release/ki-corporation-and-public-storage-withdraw-offer-acquire-abacus-storage-king-2025-08"
+        },
+        {
+          "title": "Ki Corporation and Public Storage scrap $2.2b Abacus Storage King buyout (Capital Brief)",
+          "url": "https://www.capitalbrief.com/briefing/ki-corporation-and-public-storage-scrap-22b-abacus-storage-king-buyout-4d0d84f0-785f-4956-92a2-1c0b32342314/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0826-att-echostar-spectrum-towers",
+      "date": "2025-08-26",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "AT&T buys $23B of EchoStar spectrum, signalling Dish's exit as the fourth tower tenant",
+      "summary": "On August 26, 2025 AT&T agreed to buy roughly 30 MHz of nationwide 3.45 GHz and 20 MHz of 600 MHz spectrum from EchoStar for about $23 billion in cash. The deal effectively ended EchoStar/Dish Wireless's standalone network build, the marginal source of new leasing for American Tower, Crown Castle and SBA since 2021; Dish leases represented an estimated 5.1%-7.0% of annual rental revenue across roughly 25,000 macro sites, with more than $9 billion of contracted tower revenue later judged at risk after EchoStar declared its master lease agreements 'excused'. AT&T closed the purchase on July 28, 2026.",
+      "evidence": "AT&T-EchoStar ~$23B spectrum purchase announced 2025-08-26; Dish estimated at 5.1%-7.0% of AMT/CCI/SBAC rental revenue.",
+      "sources": [
+        {
+          "title": "AT&T: AT&T to Acquire Spectrum Licenses from EchoStar",
+          "url": "https://about.att.com/story/2025/echostar.html"
+        },
+        {
+          "title": "Wireless Estimator: The DISH default crisis: How EchoStar's spectrum exit could endanger the wireless tower ecosystem",
+          "url": "https://wirelessestimator.com/articles/2026/the-dish-default-crisis-how-echostars-spectrum-exit-could-endanger-the-wireless-tower-ecosystem/"
+        },
+        {
+          "title": "DCD: EchoStar's tower payments dispute could cost industry $9bn",
+          "url": "https://www.datacenterdynamics.com/en/news/echostars-tower-payments-dispute-could-cost-industry-9bn-wia-warns-jobs-could-go/"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-0828-ferc-reissues-nese-certificate",
+      "date": "2025-08-28",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "FERC reissues Williams' NESE certificate; Northeast pipeline expansion revived",
+      "summary": "On August 28, 2025 FERC reissued the certificate for Transco's Northeast Supply Enhancement project, which Williams had abandoned in 2024 after New York and New Jersey denied water permits, clearing 400,000 Dth/d of new capacity into New York City targeted for Q4 2027. Williams had asked for re-approval in May citing the national energy emergency declaration; New York subsequently reversed itself on the Clean Water Act permits and New Jersey's Tidelands council gave the final license. The order was read as a template for reviving Constitution and other blocked Northeast gas lines, a key permitting-reform catalyst for Williams, Kinder Morgan and Enbridge.",
+      "evidence": "FERC reissued the NESE certificate on 2025-08-28 for up to 400,000 Dth/d, in-service targeted Q4 2027",
+      "sources": [
+        {
+          "title": "Oil & Gas Journal - FERC re-approves Williams' gas pipeline expansion into New York City",
+          "url": "https://www.ogj.com/general-interest/government/news/55313583/ferc-re-approves-williams-gas-pipeline-expansion-into-new-york-city"
+        },
+        {
+          "title": "Natural Gas Intelligence - FERC Reissues NESE Certificate to Boost Transco Natural Gas Volumes",
+          "url": "https://www.naturalgasintel.com/news/good-sign-for-constitution-ferc-reissues-nese-certificate-to-boost-transco-natural-gas-volumes/"
+        },
+        {
+          "title": "NJBIA - NESE Pipeline Clears Final Regulatory Hurdle",
+          "url": "https://njbia.org/nese-pipeline-clears-final-regulatory-hurdle/"
+        }
+      ]
+    },
+    {
+      "id": "materials-2025-gold-record-3600-fed-cut-bets",
+      "date": "2025-09-08",
+      "end_date": null,
+      "sector": "materials",
+      "subindustries": [
+        "gold_miners"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Gold tops $3,600 for the first time as weak jobs data cements Fed cut",
+      "summary": "Spot gold broke above $3,600/oz for the first time on 2025-09-08, hitting about $3,646 intraday, after weak August US payrolls pushed the market to price an ~88% probability of a September 17 Fed cut and Treasury yields hit five-month lows; gold was up roughly 37% year-to-date. The breakout, which followed Powell's dovish Jackson Hole pivot on August 22, extended the leg higher in gold-mining equities ahead of the October surge past $4,000.",
+      "evidence": "Spot gold record ~$3,646/oz on 2025-09-08",
+      "sources": [
+        {
+          "title": "CNBC: Gold rallies to record high above $3,600/oz as Fed rate cut bets firm",
+          "url": "https://www.cnbc.com/2025/09/08/gold-hovers-near-record-high-on-us-rate-cut-prospects.html"
+        },
+        {
+          "title": "Kitco (Reuters): Gold hits record high above $3,600/oz as traders weigh Fed rate-cut bets",
+          "url": "https://www.kitco.com/news/off-the-wire/2025-09-08/gold-hits-record-high-above-3600oz-traders-weigh-fed-rate-cut-bets"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0908-spacex-echostar-spectrum-tower-selloff",
+      "date": "2025-09-08",
+      "end_date": "2025-09-30",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "SpaceX pays $17B for EchoStar's AWS-4/H-block spectrum; tower REITs fall 2-4% in September as S&P rises 4%",
+      "summary": "On September 8, 2025 EchoStar agreed to sell its AWS-4 and H-block licenses to SpaceX for about $17 billion (up to $8.5 billion cash plus $8.5 billion of SpaceX stock, with SpaceX also funding ~$2 billion of EchoStar interest), completing EchoStar's exit from terrestrial wireless just two weeks after the AT&T deal and raising fears that direct-to-device satellite service could substitute for macro towers. Wireless Estimator reported that in September, when the sales were announced, American Tower fell 4%, SBA fell 4% and Crown Castle fell 2% while the S&P 500 rose 4%. EchoStar subsequently told the towercos their master leases were 'excused' and stopped paying; American Tower sued in October 2025, Crown Castle later sought more than $3.5 billion, and the FCC approved the ~$40 billion of sales.",
+      "evidence": "EchoStar-SpaceX ~$17B spectrum sale announced 2025-09-08; AMT -4%, SBAC -4%, CCI -2% in September 2025 vs S&P 500 +4% (Wireless Estimator).",
+      "sources": [
+        {
+          "title": "EchoStar: EchoStar Announces Spectrum Sale and Commercial Agreement with SpaceX",
+          "url": "https://ir.echostar.com/news-releases/news-release-details/echostar-announces-spectrum-sale-and-commercial-agreement-spacex"
+        },
+        {
+          "title": "Wireless Estimator: The DISH default crisis: How EchoStar's spectrum exit could endanger the wireless tower ecosystem",
+          "url": "https://wirelessestimator.com/articles/2026/the-dish-default-crisis-how-echostars-spectrum-exit-could-endanger-the-wireless-tower-ecosystem/"
+        },
+        {
+          "title": "Fierce Network: EchoStar payment dispute puts $9B tower industry impact in focus",
+          "url": "https://www.fierce-network.com/wireless/echostar-payment-dispute-puts-9b-tower-industry-impact-focus"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0910-opendoor-names-nejatian-ceo",
+      "date": "2025-09-10",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Opendoor names ex-Shopify COO Kaz Nejatian CEO, Rabois chairman; stock +78% next day",
+      "summary": "After the close on September 10, 2025 Opendoor named former Shopify COO Kaz Nejatian CEO and brought co-founders Keith Rabois (as chairman) and Eric Wu back to the board, weeks after CEO Carrie Wheeler resigned under investor pressure; shares jumped about 30% after hours and closed up 78% on September 11, taking the year-to-date gain past 500%. The retail-driven surge, which Rabois insisted was not a 'meme stock' phenomenon, pulled attention and flows toward the whole online-brokerage/iBuying cohort (OPEN, COMP, EXPI, Z) in the weeks before the Compass-Anywhere deal.",
+      "evidence": "Opendoor stock closed 78% higher on 2025-09-11 after the Sept 10 CEO announcement (CNBC).",
+      "sources": [
+        {
+          "title": "Opendoor stock closes 78% higher after company names new CEO (CNBC, Sep 11 2025)",
+          "url": "https://www.cnbc.com/2025/09/11/opendoor-stock-ceo-nejatian-keith-rabois.html"
+        },
+        {
+          "title": "Opendoor taps new CEO and names Keith Rabois chairman, boosting stock 36% (CNBC, Sep 10 2025)",
+          "url": "https://www.cnbc.com/2025/09/10/opendoor-stock-jumps-20percent-after-company-taps-ex-shopify-coo-as-new-ceo-.html"
+        },
+        {
+          "title": "Opendoor Names Kaz Nejatian as CEO; Founders Rabois and Wu Rejoin Board (press release via Nasdaq)",
+          "url": "https://www.nasdaq.com/press-release/opendoor-names-kaz-nejatian-ceo-founders-rabois-and-wu-rejoin-board-2025-09-10"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-0917-rithm-buys-paramount-group",
+      "date": "2025-09-17",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Rithm Capital agrees to buy office REIT Paramount Group for $1.6B",
+      "summary": "On September 17, 2025 Rithm Capital announced a definitive agreement to acquire Paramount Group (PGRE), owner of 13.1 million sq ft of Class A office in New York and San Francisco (85.4% leased), for $6.60 per share in cash, about $1.6 billion. The price was below PGRE's $7.38 close on Sept 16 but Rithm's CEO framed it as buying at roughly a 30% discount to replacement cost, a signal that credit-focused buyers see value in trophy office. The deal closed December 19, 2025 and the portfolio was later rebranded Elecor Properties with a $250M capex program; it was the first take-private of a listed gateway office REIT in this cycle and a read-across for discounted peers such as SLG, VNO, BXP, KRC and DEI.",
+      "evidence": "Rithm agreed on 2025-09-17 to pay $6.60 per share (~$1.6B) for Paramount Group; PGRE had closed at $7.38 on 2025-09-16.",
+      "sources": [
+        {
+          "title": "Rithm Capital Agrees to Acquire Paramount Group Office REIT for $1.6B (REBusinessOnline, Sep 17 2025)",
+          "url": "https://rebusinessonline.com/rithm-capital-agrees-to-acquire-paramount-group-for-1-6b/"
+        },
+        {
+          "title": "Rithm Capital Completes Acquisition of Paramount Group, Inc. (Business Wire, Dec 19 2025)",
+          "url": "https://www.businesswire.com/news/home/20251219150205/en/Rithm-Capital-Completes-Acquisition-of-Paramount-Group-Inc."
+        },
+        {
+          "title": "Paramount Group Gets New Name, $250M Portfolio Revamp Under New Owner (Bisnow)",
+          "url": "https://www.bisnow.com/news/national/office/rithm-infusing-250m-into-former-paramount-portfolio-rebranding-company-134320"
+        }
+      ]
+    },
+    {
+      "id": "utilities-2025-california-sb254-wildfire-fund",
+      "date": "2025-09-19",
+      "end_date": null,
+      "sector": "utilities",
+      "subindustries": [
+        "regulated_utilities"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Newsom signs SB 254, adding $18bn wildfire-fund continuation account",
+      "summary": "California Governor Gavin Newsom signed SB 254 on 2025-09-19, creating an $18bn Wildfire Fund Continuation Account split between utility shareholders and ratepayers, capping utility reimbursement at 20% of the equity portion of T&D rate base in the ignition year, and lowering PG&E's share of contributions from 64.2% to 47.85%. Shares of Edison International and PG&E rose as the bill advanced through the legislature in September, reducing the wildfire-liability overhang that had weighed on California utilities since the January 2025 Los Angeles fires.",
+      "evidence": "SB 254 signed 2025-09-19; $18bn continuation account, PG&E share cut to 47.85%",
+      "sources": [
+        {
+          "title": "Transition Economics Institute: California adds $18 billion to its wildfire fund, split between utility shareholders and customers",
+          "url": "https://tei-energy.org/news/2025-09-22-california-sb-254-wildfire-fund-continuation"
+        },
+        {
+          "title": "PG&E Corp Form 10-Q (Q1 2026) describing SB 254 provisions",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001004980/000100498026000033/pcg-20260331.htm"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1015-prologis-q3-record-leasing",
+      "date": "2025-10-15",
+      "end_date": "2025-10-17",
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Prologis posts record 62M sq ft of leasing, raises guidance; industrial REITs soar ~11% on the week",
+      "summary": "Prologis reported Q3 2025 on October 15, 2025 with a record 62 million sq ft of lease signings, Core FFO of $1.49 per share (+4.2% y/y), revenue of $2.21 billion (+9%) and portfolio occupancy of 95.3%, and raised full-year guidance for Core FFO, same-store NOI and development starts (GAAP EPS guidance to $3.40-$3.50). Management also said it had 5.2 GW of utility-fed power secured or in advanced stages for data-center conversions. The print re-rated the whole group: S&P Global's REIT Replay reported Prologis up 11.55% and Rexford up 11.18% for the week ended October 17, 2025, with industrial REITs the best-performing REIT sector that week.",
+      "evidence": "Prologis +11.55% and Rexford +11.18% for the week ended 2025-10-17 after the 62M sq ft record leasing quarter (S&P Global Market Intelligence).",
+      "sources": [
+        {
+          "title": "S&P Global: REIT Replay: Industrial REIT stocks soar during week ended Oct. 17",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/10/reit-replay-industrial-reit-stocks-soar-during-week-ended-oct-17-94045291"
+        },
+        {
+          "title": "Prologis Reports Third Quarter 2025 Results (Oct 15, 2025)",
+          "url": "https://d1io3yog0oux5.cloudfront.net/_98226a95dec5121cd8fa399fa643cbe1/prologis/news/2025-10-15_Prologis_Reports_Third_Quarter_2025_1025.pdf"
+        },
+        {
+          "title": "FreightWaves: Prologis sees 'record leasing' activity in Q3",
+          "url": "https://www.freightwaves.com/news/first-look-prologis-sees-record-leasing-activity-in-q3"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1015-sl-green-q3-manhattan-leasing",
+      "date": "2025-10-15",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits"
+      ],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "SL Green Q3: strong Manhattan leasing but shares drop 6% on results",
+      "summary": "SL Green reported Q3 2025 after the close on October 15, 2025: FFO of $1.58 per share, 52 Manhattan office leases totalling 657,942 sq ft in the quarter (143 leases, 1.8 million sq ft year-to-date) at $92.81 average rent, and same-store occupancy up to 92.4% from 91.5% with a 93.2% year-end target. Despite the leasing beat, SLG closed down 6.04% at $57.14 on October 16 as investors focused on heavy concessions (9.1 months free rent, $99 TI allowances) and earnings quality, a sell-the-news reaction that set the tone for the BXP/VNO prints that followed and for the 'Manhattan recovery vs. everywhere else' debate in office REITs.",
+      "evidence": "SLG closed at $57.14, down 6.04%, on 2025-10-16 after reporting Q3 FFO of $1.58 and 657,942 sq ft of Manhattan leasing.",
+      "sources": [
+        {
+          "title": "SL Green Realty Corp. Reports Third Quarter 2025 EPS of $0.34 and FFO of $1.58 Per Share (GlobeNewswire, Oct 15 2025)",
+          "url": "https://www.globenewswire.com/news-release/2025/10/15/3167526/0/en/SL-Green-Realty-Corp-Reports-Third-Quarter-2025-EPS-of-0-34-Per-Share-and-FFO-of-1-58-Per-Share.html"
+        },
+        {
+          "title": "SL Green Q3 2025 slides: Manhattan REIT beats expectations amid office challenges (Investing.com, Oct 16 2025)",
+          "url": "https://www.investing.com/news/company-news/sl-green-q3-2025-slides-manhattan-reit-beats-expectations-amid-office-challenges-93CH-4293057"
+        }
+      ]
+    },
+    {
+      "id": "materials-2025-gold-plunge-gdx-worst-since-2020",
+      "date": "2025-10-21",
+      "end_date": null,
+      "sector": "materials",
+      "subindustries": [
+        "gold_miners"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Gold's biggest drop since 2013 sends GDX down 9.5%",
+      "summary": "One day after spot gold set a record near $4,381, it fell as much as 6.3% to about $4,082 on 2025-10-21, the largest single-day decline since 2013, as a firmer dollar and profit-taking hit an overcrowded trade; silver fell 8.7%. Gold miners were hit harder: Newmont and Agnico Eagle fell about 9%, Barrick more than 8%, and the VanEck Gold Miners ETF (GDX) dropped 9.5%, its worst session since March 2020.",
+      "evidence": "GDX -9.5% on 2025-10-21; spot gold -6.3% intraday",
+      "sources": [
+        {
+          "title": "Bloomberg: Gold miners plummet after bullion falls most since 2013",
+          "url": "https://www.bloomberg.com/news/articles/2025-10-21/gold-miners-plummet-after-bullion-falls-most-since-2013"
+        },
+        {
+          "title": "Mining.com: Gold price falls by most in over a decade as rally cools",
+          "url": "https://www.mining.com/gold-price-falls-by-most-in-four-years-as-rally-cools-off/"
+        },
+        {
+          "title": "FinancialContent: Gold and silver plunge; Barrick and miners face steepest drops in years",
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2025-10-21-gold-and-silver-plunge-barrick-gold-nyse-gold-and-miners-face-steepest-drops-in-years"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-1022-rosneft-lukoil-sanctions",
+      "date": "2025-10-22",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "geopolitical",
+      "title": "US sanctions Rosneft and Lukoil; WTI jumps ~6%, XLE tops all sectors",
+      "summary": "On October 22, 2025 the Treasury sanctioned Rosneft and Lukoil, Russia's two largest oil exporters, citing Moscow's lack of commitment to a Ukraine peace process, with full effect from November 21. WTI, which had hit five-month lows days earlier, spiked nearly 6% to above $60 on October 23, and the Energy Select Sector SPDR (XLE) rose 1.9%, the best S&P 500 sector, with Valero up about 6.3% on expectations of tighter Russian product supply. The premium faded in November as the market refocused on the 2026 surplus.",
+      "evidence": "WTI +~6% to above $60/bbl on 2025-10-23; XLE +1.9% led all sectors (Benzinga market wrap)",
+      "sources": [
+        {
+          "title": "CNBC - Trump's Russia oil sanctions could just be starting as low prices leave room to escalate",
+          "url": "https://www.cnbc.com/2025/10/23/trump-russia-ukraine-oil-sanctions-rosneft-lukoil-brent-wti.html"
+        },
+        {
+          "title": "Benzinga - Markets Today: Wall Street, oil crude rally on Trump Russia sanctions on Rosneft, Lukoil",
+          "url": "https://www.benzinga.com/markets/market-summary/25/10/48386632/markets-today-thursday-wall-street-oil-crude-rally-wti-trump-russia-sanctions-rosneft-luko"
+        },
+        {
+          "title": "The Moscow Times - What New U.S. Sanctions on Rosneft and Lukoil Mean for Russia's Oil Trade",
+          "url": "https://www.themoscowtimes.com/2025/10/28/what-new-us-sanctions-on-rosneft-and-lukoil-mean-for-russias-oil-trade-a90957"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1027-welltower-23b-senior-housing-deals",
+      "date": "2025-10-27",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "healthcare_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "Welltower unveils $23B of transactions: $14B of senior housing buys (Barchester £5.2B, HC-One £1.2B) funded by $7.2B medical office sale",
+      "summary": "On October 27, 2025 Welltower announced a series of transactions totalling $23 billion, including $14 billion of pro rata senior housing acquisitions closed or under contract covering more than 700 communities and 46,000 units in the UK, US and Canada. The centerpiece is the £5.2 billion purchase of the Barchester-operated UK portfolio (111 RIDEA communities, 152 triple-net, 21 developments), plus taking 100% of the HC-One portfolio for £1.2 billion after converting a pandemic-era loan; another ~$4 billion across ~40 deals and 150+ communities is separately closed or contracted. Funding comes from cash and $9 billion of capital recycling, led by the ~$7.2 billion sale of an 18 million sq ft outpatient medical portfolio (first $2 billion tranche closed in October 2025). The package remakes the largest healthcare REIT into a near-pure senior housing operator and sets a global cap-rate marker for the whole group.",
+      "evidence": "$23B of transactions announced 2025-10-27, including £5.2B Barchester portfolio and $14B of senior housing acquisitions across 700+ communities.",
+      "sources": [
+        {
+          "title": "Welltower transactions press release, Oct 27 2025 (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/766704/000076670425000037/a3q25transactionspressrele.htm"
+        },
+        {
+          "title": "Senior Housing News: Welltower Announces $14B in Senior Housing Acquisitions Totaling More Than 700 Communities",
+          "url": "https://seniorhousingnews.com/2025/10/27/welltower-announces-14b-in-senior-housing-acquisitions-totaling-more-than-700-communities/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1029-fed-cut-ends-qt",
+      "date": "2025-10-29",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "mortgage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Fed cuts to 3.75-4.00% and announces end of balance-sheet runoff on Dec 1",
+      "summary": "At the October 29, 2025 FOMC the Fed cut the funds target by 25 bp to 3.75%-4.00% and stated it 'decided to conclude the reduction of its aggregate securities holdings on December 1.' Ending QT removes a steady source of agency-MBS supply pressure and lowers repo funding costs, the two core levers for agency mortgage REITs (NLY, AGNC, DX, TWO, ARR, ORC) and for REM. The Fed continues to let MBS paydowns roll into Treasury bills rather than new MBS, so the direct bid for mortgages still rests with private balance sheets.",
+      "evidence": "FOMC statement 2025-10-29: target range lowered to 3.75-4.00%; securities-holdings reduction concludes December 1, 2025.",
+      "sources": [
+        {
+          "title": "Federal Reserve FOMC statement, October 29 2025",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm"
+        },
+        {
+          "title": "The Fed Ends QT: What it Means for Markets (MFS)",
+          "url": "https://www.mfs.com/en-us/investment-professional/insights/market-insights/fed-ends-qt-what-it-means-markets.html"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1029-public-storage-q3-raises-outlook",
+      "date": "2025-10-29",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Public Storage raises 2025 outlook for second straight quarter as storage bottoms",
+      "summary": "Public Storage's Q3 2025 report on October 29, 2025 showed core FFO of $4.31 per share (+2.6% YoY) and lifted same-store revenue guidance to -0.3% to +0.3% from -1.3% to +0.8%, while narrowing expense growth to 1.8%-2.8%; CEO Joe Russell said 'we are raising our 2025 outlook for the second consecutive quarter,' and the company bought 49 facilities for $511M in the quarter. Coming after a Q2 in which same-store revenue was flat at EXR, down 0.5% at CUBE and down 3% at NSA, the raise was the clearest signal yet that street-rate declines had bottomed, supporting the troughing thesis for PSA, EXR, CUBE and NSA.",
+      "evidence": "PSA Q3 2025 core FFO $4.31/share (+2.6% YoY); 2025 same-store revenue guidance raised to -0.3% to +0.3% from -1.3% to +0.8% (release 2025-10-29).",
+      "sources": [
+        {
+          "title": "Public Storage Reports Results for the Three and Nine Months Ended September 30, 2025 (press release)",
+          "url": "https://investors.publicstorage.com/news-events/press-releases/news-details/2025/Public-Storage-Reports-Results-for-the-Three-and-Nine-Months-Ended-September-30-2025/default.aspx"
+        },
+        {
+          "title": "Public Storage Form 8-K exhibit 99.1, Q3 2025 (SEC)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1393311/000162828025047143/psa-102925xex99_1.htm"
+        },
+        {
+          "title": "Self-Storage REITs Release Financial Results for Second-Quarter 2025 (Inside Self-Storage)",
+          "url": "https://www.insideselfstorage.com/facility-operators/self-storage-reits-release-financial-results-for-second-quarter-2025"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1030-avalonbay-q3-guidance-cut",
+      "date": "2025-10-30",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "AvalonBay misses and cuts 2025 outlook as apartment demand softens; MAA also trims",
+      "summary": "AvalonBay's Q3 2025 results (released Oct 29 after the close, presented Oct 30) showed core FFO of $2.75 versus its own $2.80 midpoint, and the company cut full-year core FFO guidance by $0.14 to an $11.25 midpoint (2.2% growth vs 3.5% prior), lowered same-store revenue growth to 2.5% from 2.8% and NOI growth to 2.0% from 2.7%, blaming weaker job growth, lower consumer confidence and rate softness that began late in Q3 and continued into October. AVB was down 2.7% premarket on Oct 30 and touched a 52-week low intraday; Mid-America Apartment (MAA) also lowered its core FFO guidance in the same earnings cycle, and Bisnow described the big apartment owners turning bearish on rents.",
+      "evidence": "AvalonBay lowered 2025 core FFO guidance by $0.14 to $11.25 per share midpoint (2.2% growth) in its Q3 2025 report of 2025-10-29/30.",
+      "sources": [
+        {
+          "title": "AvalonBay Q3 2025 slides: results miss expectations, full-year outlook reduced (Investing.com, Oct 30 2025)",
+          "url": "https://www.investing.com/news/company-news/avalonbay-q3-2025-slides-results-miss-expectations-fullyear-outlook-reduced-93CH-4321268"
+        },
+        {
+          "title": "AvalonBay Q3 FFO & Revenues Miss Estimates, '25 Outlook Lowered (Zacks via Yahoo)",
+          "url": "https://finance.yahoo.com/news/avalonbay-q3-ffo-revenues-miss-164700387.html"
+        },
+        {
+          "title": "Major Apartment Owners Turn Bearish On Rents As Economy Falters (Bisnow)",
+          "url": "https://www.bisnow.com/news/national/multifamily/avalonbay-equity-residential-multifamily-reit-earnings-131657"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-1102-opec-pauses-q1-2026-hikes",
+      "date": "2025-11-02",
+      "end_date": "2025-11-30",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "integrated"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "commodity",
+      "title": "OPEC+ adds 137,000 b/d for December, then pauses hikes for Q1 2026",
+      "summary": "On November 2, 2025 the eight OPEC+ voluntary cutters raised December targets by 137,000 b/d but announced no increases for January-March 2026, the first pause since the April 2025 unwinding began, citing seasonal refinery maintenance. The move came with Brent near $63, down about 15% year to date, and after the IEA's October 2025 report projected a 2026 surplus approaching 4 mb/d; Rystad still saw a ~3.5 mb/d Q1 surplus. The full OPEC+ group confirmed the pause on November 30 and approved a capacity-assessment mechanism for 2027 quotas, putting a floor under sentiment for E&Ps heading into year-end.",
+      "evidence": "137,000 b/d December increase and Jan-Mar 2026 pause agreed 2025-11-02 (OGJ)",
+      "sources": [
+        {
+          "title": "Oil & Gas Journal - OPEC+ to pause oil production hikes for first-quarter 2026",
+          "url": "https://www.ogj.com/general-interest/economics-markets/news/55327719/opec-to-pause-oil-production-hikes-for-first-quarter-2026"
+        },
+        {
+          "title": "CNBC - OPEC+ holds 2026 group-wide oil output steady, agrees capacity mechanism",
+          "url": "https://www.cnbc.com/2025/11/30/opec-holds-2026-group-wide-oil-output-steady-agrees-capacity-mechanism.html"
+        },
+        {
+          "title": "IEA - Oil Market Report October 2025",
+          "url": "https://www.iea.org/reports/oil-market-report-october-2025"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1103-simon-q3-2025-record-occupancy",
+      "date": "2025-11-03",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "retail_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Simon Q3 2025: occupancy climbs to 96.4%, FFO +5.6%, guidance raised again",
+      "summary": "On November 3, 2025 Simon Property Group reported Q3 Real Estate FFO of $3.22 per diluted share (+5.6% y/y), US Malls and Premium Outlets occupancy of 96.4% (vs 96.2% a year earlier) with The Mills at 99.4%, base minimum rent of $59.14 per sq ft (+2.5%) and trailing-12-month retailer sales of $742 per sq ft. It raised full-year 2025 Real Estate FFO guidance to $12.60-$12.70, the second raise of the year, reinforcing the thesis that store closures by weak retailers were being absorbed by Class A landlords with pricing power.",
+      "evidence": "Q3 2025 Real Estate FFO $3.22/share (+5.6%); occupancy 96.4%; FY guidance raised to $12.60-$12.70 (2025-11-03).",
+      "sources": [
+        {
+          "title": "Simon Property Group Q3 2025 results (SEC 8-K exhibit)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1063761/000110465925105545/tm2528944d2_ex99-1.htm"
+        }
+      ]
+    },
+    {
+      "id": "media-2025-gta-vi-second-delay",
+      "date": "2025-11-06",
+      "end_date": null,
+      "sector": "communication_media",
+      "subindustries": [
+        "media_entertainment"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "tech_cycle",
+      "title": "Rockstar delays GTA VI again to Nov 19 2026; Take-Two sinks",
+      "summary": "On 2025-11-06 Rockstar Games pushed Grand Theft Auto VI from May 26, 2026 to November 19, 2026, the second delay after the original fall-2025 target, saying the extra months were needed for polish. Take-Two shares fell about 7% in after-hours trading (some reports cited a drop of more than 10% from $252.50 to as low as $219.87), pushing the single most important video-game cycle catalyst for the group into the final weeks of 2026.",
+      "evidence": "TTWO about -7% after hours on 2025-11-06; GTA VI moved to 2026-11-19",
+      "sources": [
+        {
+          "title": "CNBC: Take-Two stock sinks 7% on delay of Grand Theft Auto VI to November 2026",
+          "url": "https://www.cnbc.com/2025/11/06/take-two-gta-vi-delay.html"
+        },
+        {
+          "title": "Forbes: 'Grand Theft Auto VI' delayed again, Take-Two stock plummets",
+          "url": "https://www.forbes.com/sites/antoniopequenoiv/2025/11/06/rockstar-delays-grand-theft-auto-vi-release-until-november-2026/"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1201-barclays-downgrades-amt-cci",
+      "date": "2025-12-01",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Barclays downgrades American Tower and Crown Castle to Equal Weight on EchoStar collection risk",
+      "summary": "On December 1, 2025 Barclays cut American Tower (PT $200, 17x 2027 AFFO) and Crown Castle (PT $101, 19x 2027 AFFO) to Equal Weight while keeping SBA at Overweight ($212) for its smaller headline exposure. The broker argued the towercos have strong contract claims against EchoStar but that collecting cash is the problem, modelled a 50% payout on the contracts' NPV versus the 75% many investors assumed, and stripped EchoStar revenue out of its models from Q1 2026, projecting 2% 2026 AFFO/share growth for AMT versus 6.1% consensus. The note crystallised the 'Dish churn' overhang that weighed on towers into early 2026.",
+      "evidence": "Barclays cut AMT (PT $200) and CCI (PT $101) to Equal Weight on 2025-12-01, modelling a 50% NPV payout on EchoStar contracts.",
+      "sources": [
+        {
+          "title": "Yahoo Finance / Investing.com: American Tower, Crown Castle downgraded as EchoStar disputes cloud tower leasing",
+          "url": "https://finance.yahoo.com/news/american-tower-crown-castle-downgraded-161659007.html"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-1203-alexandria-dividend-cut",
+      "date": "2025-12-03",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Alexandria slashes dividend 45% as life-science demand craters; ARE -10%",
+      "summary": "On Wednesday December 3, 2025 Alexandria Real Estate Equities cut its quarterly dividend to $0.72 from $1.32 (a 45% reduction and the first payout under $1 since 2019), citing weak life-science leasing, federal research-funding cuts and a venture-funding drought; the REIT had posted a Q3 loss of nearly $235M and seen occupancy fall to 90.6%. ARE shares fell more than $5, about 10%, by 3 p.m. ET on the day. The cut freed roughly $410M a year for the balance sheet and buybacks and crystallised the lab-office distress narrative that has weighed on ARE, BXP's and KRC's life-science exposure.",
+      "evidence": "ARE dividend cut to $0.72 from $1.32 per share announced 2025-12-03; shares down about 10% intraday (Bisnow).",
+      "sources": [
+        {
+          "title": "Alexandria Slashes Dividend, Shares Drop Sharply (Bisnow, Dec 3 2025)",
+          "url": "https://www.bisnow.com/news/national/life-sciences/alexandria-cuts-dividend-amid-life-sciences-turbulence-132136"
+        },
+        {
+          "title": "Dividend Cut Slams Alexandria Amid Life Sciences Slowdown (CRE Daily)",
+          "url": "https://www.credaily.com/briefs/dividend-cut-slams-alexandria-amid-life-sciences-slowdown/"
+        },
+        {
+          "title": "Alexandria Cuts Dividend Amid Deepening Life Science Strains (Zacks via Yahoo)",
+          "url": "https://finance.yahoo.com/news/alexandria-cuts-dividend-amid-deepening-153600370.html"
+        }
+      ]
+    },
+    {
+      "id": "financials-2026-jan-renewals-rates-down-12",
+      "date": "2026-01-01",
+      "end_date": null,
+      "sector": "financials",
+      "subindustries": [
+        "insurance"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Jan 1 2026 renewals: global property-cat rates fall 12% in 'accelerated softening'",
+      "summary": "Guy Carpenter's Global Property Catastrophe Rate-on-Line Index fell 12% at the January 1, 2026 renewals, with US rates also down 12% and Continental Europe down 15%, which the broker attributed to 'accelerated softening' from excess capital and high attachment points. The data confirmed the reinsurance cycle had turned, pressuring reinsurer margins (RenaissanceRe, Arch) while lowering ceded costs for primary P&C carriers; declines deepened to 16% after the mid-year 2026 renewals.",
+      "evidence": "Guy Carpenter global property-cat ROL index -12% at 2026-01-01",
+      "sources": [
+        {
+          "title": "Artemis: Property catastrophe rates fall 12% globally, in the US and APAC, 15% in Europe - Guy Carpenter",
+          "url": "https://www.artemis.bm/news/property-catastrophe-rates-fall-12-globally-in-the-us-and-apac-15-in-europe-guy-carpenter/"
+        },
+        {
+          "title": "Reinsurance News: Global property cat ROL down 12% at Jan 1 renewals - Guy Carpenter",
+          "url": "https://www.reinsurancene.ws/global-property-cat-rol-down-12-at-jan-1-reinsurance-renewals-guy-carpenter/"
+        }
+      ]
+    },
+    {
+      "id": "media-2026-versant-spin-debut",
+      "date": "2026-01-05",
+      "end_date": null,
+      "sector": "communication_media",
+      "subindustries": [
+        "media_entertainment"
+      ],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Versant cable spin-off from Comcast falls more than 10% on Nasdaq debut",
+      "summary": "Comcast completed the spin-off of Versant (CNBC, MS NOW, USA Network, Golf Channel, Fandango, Rotten Tomatoes) after the close on 2026-01-02, distributing one VSNT share per 25 CMCSA shares, and Versant began trading on Nasdaq on 2026-01-05. Reuters reported the new stock fell more than 10% on its first day on doubts about the linear-TV business while Comcast rose about 1%, a read-through for the cable-network carve-outs at WBD and for Paramount and Fox's linear exposure.",
+      "evidence": "VSNT fell more than 10% in its 2026-01-05 debut; 1-for-25 distribution",
+      "sources": [
+        {
+          "title": "Versant press release (Business Wire): Versant begins trading on Nasdaq as independent company",
+          "url": "https://www.businesswire.com/news/home/20260104224814/en/VERSANT-Begins-Trading-on-Nasdaq-Today-as-Independent-Company-Following-Completion-of-Comcast-Spin-Off"
+        },
+        {
+          "title": "Investing.com: Versant completes spin-off from Comcast, begins trading on Nasdaq",
+          "url": "https://uk.investing.com/news/company-news/versant-completes-spinoff-from-comcast-begins-trading-on-nasdaq-93CH-4437143"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0107-trump-institutional-sfr-ban",
+      "date": "2026-01-07",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "Trump vows ban on large investors buying single-family homes; INVH, AMH plunge",
+      "summary": "On Wednesday January 7, 2026 President Trump posted on Truth Social that he was 'immediately taking steps' to ban large institutional investors from buying more single-family homes and would ask Congress to codify it, without defining 'large' or a mechanism. Invitation Homes (INVH) tumbled about 6% and American Homes 4 Rent (AMH) fell to a three-year low (reports cited drops of roughly 6%, with a volatility halt), while Blackstone and Apollo each fell more than 5%. Mizuho downgraded both INVH and AMH to neutral the next day; analysts noted institutions own only about 1% of single-family homes, limiting the policy's effect on prices.",
+      "evidence": "Invitation Homes fell 6% on 2026-01-07 after the Truth Social post (CNBC).",
+      "sources": [
+        {
+          "title": "Trump says U.S. to ban large investors from buying homes (CNBC, Jan 7 2026)",
+          "url": "https://www.cnbc.com/2026/01/07/trump-housing-affordability.html"
+        },
+        {
+          "title": "Investors, analysts react to Trump's single-family home buying ban (Multifamily Dive, Jan 8 2026)",
+          "url": "https://www.multifamilydive.com/news/investors-analysts-react-to-trumps-single-family-home-buying-ban/809152/"
+        },
+        {
+          "title": "Trump wants ban on large institutional investors buying homes (HousingWire)",
+          "url": "https://www.housingwire.com/articles/trump-institutional-home-ban/"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0108-trump-200b-mbs-purchase-order",
+      "date": "2026-01-08",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "mortgage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Trump orders $200B of GSE mortgage-bond purchases; MBS spreads compress 20 bp",
+      "summary": "On Thursday January 8, 2026 President Trump posted on Truth Social that he was instructing his representatives to buy $200 billion of mortgage-backed securities to push mortgage rates down; FHFA Director Bill Pulte confirmed Fannie Mae and Freddie Mac would make the purchases. Agency MBS spreads to Treasuries compressed roughly 20 bp within 24 hours and Lender Price's 30-year rate fell to 6.03% on Jan 9 from 6.32% a day earlier. Agency mortgage REITs were flagged as the immediate beneficiaries: AGNC rose about 2% to $11.41 on Friday Jan 9 with NLY, MFA and PMT also higher, and BTIG named Dynex (DX) its top pick for the move. Analysts (KBW, Cato) doubted the lasting rate impact given the GSEs' limited cash and $225B-per-entity portfolio caps.",
+      "evidence": "Lender Price 30-year fixed rate fell to 6.03% on 2026-01-09 from 6.32% a day earlier; MBS spreads compressed ~20 bp in 24 hours (National Mortgage News).",
+      "sources": [
+        {
+          "title": "Trump's MBS buying plan sparks rally, long-term doubts (National Mortgage News, Jan 9 2026)",
+          "url": "https://www.nationalmortgagenews.com/news/trumps-mbs-buying-plan-sparks-rally-long-term-doubts"
+        },
+        {
+          "title": "Pulte confirms Fannie and Freddie will buy $200 billion of mortgage bonds (Scotsman Guide, Jan 8 2026)",
+          "url": "https://www.scotsmanguide.com/news/pulte-confirms-fannie-and-freddie-will-buy-200-billion-of-mortgage-bonds/"
+        },
+        {
+          "title": "AGNC stock rises with mortgage REITs after Trump's $200B MBS order",
+          "url": "https://ts2.tech/en/agnc-stock-rises-with-mortgage-reits-after-trumps-200b-mbs-order-what-to-watch-next-week/"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0109-compass-closes-anywhere-deal",
+      "date": "2026-01-09",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Compass closes $1.6B Anywhere takeover months early after DOJ clears it",
+      "summary": "On Friday January 9, 2026 Compass completed its all-stock acquisition of Anywhere Real Estate (Coldwell Banker, Century 21, Sotheby's International Realty), paying 1.436 Compass shares per Anywhere share in a deal valued at about $1.6B, after the transaction cleared the HSR waiting period without a second request; Bloomberg reported DOJ staff had recommended an in-depth probe but were overruled by senior officials, and the close came well ahead of the original second-half-2026 guidance. Anywhere CEO Ryan Schneider departed and Robert Reffkin leads the combined company, now the largest US residential brokerage by agents and volume, raising the scale stakes for EXPI, RMAX and Redfin/Rocket and reshaping the private-listing fight with Zillow.",
+      "evidence": "Compass-Anywhere merger completed 2026-01-09 at 1.436 Compass shares per Anywhere share (~$1.6B), per SEC/NYSE notification and HousingWire.",
+      "sources": [
+        {
+          "title": "Compass closes $1.6B Anywhere merger, forms industry giant (HousingWire, Jan 9 2026)",
+          "url": "https://www.housingwire.com/articles/compass-closes-1-6b-anywhere-merger-forms-industry-giant/"
+        },
+        {
+          "title": "Compass Completes Acquisition and Privatization of Anywhere Real Estate (TipRanks)",
+          "url": "https://www.tipranks.com/news/company-announcements/compass-completes-acquisition-and-privatization-of-anywhere-real-estate"
+        },
+        {
+          "title": "Compass closes acquisition of Anywhere Real Estate after DOJ approval - Bloomberg (Investing.com)",
+          "url": "https://www.investing.com/news/stock-market-news/compass-closes-acquisition-of-anywhere-real-estate-after-doj-approval--bloomberg-93CH-4440001"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0121-winter-storm-fern-gas-spike",
+      "date": "2026-01-21",
+      "end_date": "2026-01-23",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "Winter Storm Fern: Henry Hub futures post record 70% weekly gain, gas E&Ps rally",
+      "summary": "Ahead of Winter Storm Fern, front-month Henry Hub futures rose roughly 70% in the week to January 23, 2026, settling at $5.275/MMBtu on Friday for the largest weekly percentage gain in records back to 1990, and the Henry Hub spot price printed a record $30.72 on January 23. Gas-weighted producers led: EQT rose 6% and Antero 4% on Wednesday January 21, and Expand Energy, Comstock and Antero gained mid-single digits to low teens on the week. The spike reversed quickly as record production and milder weather returned in February, with UNG giving back nearly all its storm gains.",
+      "evidence": "February Henry Hub futures +70% on the week, settled $5.275/MMBtu on 2026-01-23 (Bloomberg)",
+      "sources": [
+        {
+          "title": "Bloomberg - US Natural Gas Hits Record Weekly Gain Ahead of Arctic Blast",
+          "url": "https://www.bloomberg.com/news/articles/2026-01-23/us-natural-gas-falls-after-record-breaking-three-day-rally"
+        },
+        {
+          "title": "Yahoo Finance - Natural gas prices soar with massive winter storm, arctic blast set to impact almost half the country",
+          "url": "https://finance.yahoo.com/news/natural-gas-prices-soar-with-massive-winter-storm-arctic-blast-set-to-impact-almost-half-the-country-134413249.html"
+        },
+        {
+          "title": "Natural Gas Intelligence - Henry Hub Prices Smash All-Time Records as Winter Storm Fern, LNG Tag-Team to Tighten Balances",
+          "url": "https://naturalgasintel.com/news/henry-hub-prices-smash-all-time-records-as-winter-storm-fern-lng-tag-team-to-tighten-balances/"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0202-devon-coterra-merger",
+      "date": "2026-02-02",
+      "end_date": "2026-05-08",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Devon and Coterra agree $58B all-stock merger, largest shale deal of 2026",
+      "summary": "On February 2, 2026 Devon Energy and Coterra Energy announced an all-stock combination at 0.70 Devon shares per Coterra share, a ~$58 billion enterprise value, targeting $1.0 billion of annual synergies by end-2027 and pro forma output above 1.6 MMboe/d. Coterra shares had already risen about 14% since talks were reported in January. Shareholders approved on May 4 and the deal closed May 7-8, 2026 with Devon unveiling an $8 billion buyback; Enverus counted Q1 2026 US upstream M&A at a two-year-high $36 billion, reinforcing the consolidation premium for mid-cap E&Ps.",
+      "evidence": "0.70 exchange ratio and ~$58B enterprise value announced 2026-02-02; closed 2026-05-08",
+      "sources": [
+        {
+          "title": "Devon Energy - Devon Energy and Coterra Energy to Combine, Creating a Premier Shale Operator",
+          "url": "https://investors.devonenergy.com/investors/press-releases/press-release-details/2026/Devon-Energy-and-Coterra-Energy-to-Combine-Creating-a-Premier-Shale-Operator/"
+        },
+        {
+          "title": "CNBC - Devon, Coterra will merge to create $58 billion U.S. shale giant",
+          "url": "https://www.cnbc.com/2026/02/02/us-shale-producers-devon-and-coterra-to-merge-in-a-58-billion-deal.html"
+        },
+        {
+          "title": "Rigzone - Devon, Coterra Complete $58B Merger",
+          "url": "https://www.rigzone.com/news/devon_coterra_complete_58b_merger-08-may-2026-183649-article/"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0205-digital-realty-q4-2025-record-backlog",
+      "date": "2026-02-05",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Digital Realty Q4 2025: record $1.4B backlog and $1.2B full-year bookings, 2026 Core FFO guidance +8%, but EPS miss",
+      "summary": "On February 5, 2026 Digital Realty reported Q4 2025 bookings of $400 million at 100% share, full-year 2025 bookings of $1.2 billion, a record $339 million (+35% y/y) in the 0-1 MW plus interconnection category and a record $1.4 billion backlog equal to 20% of in-place rent. 2025 Core FFO was $7.39 per share and 2026 guidance was set at $7.90-$8.00 (about +8%), with cash renewal spreads of 6%-8% and occupancy up 50-100 bp from 84.7%. GAAP EPS of $0.24 missed the $0.29 consensus; shares slipped 1.12% in the regular session and were flat (+0.13% to ~$167) after hours, a muted reaction given the AI-driven bookings record.",
+      "evidence": "Record $1.4B backlog and 2026 Core FFO guidance of $7.90-$8.00/share (~+8%) reported 2026-02-05; DLR -1.12% in the regular session.",
+      "sources": [
+        {
+          "title": "Investing.com: Digital Realty Q4 2025 slides: Record bookings and backlog despite EPS miss",
+          "url": "https://www.investing.com/news/company-news/digital-realty-q4-2025-slides-record-bookings-and-backlog-despite-eps-miss-93CH-4489275"
+        },
+        {
+          "title": "Digital Realty Reports Fourth Quarter 2025 Results (Feb 5, 2026)",
+          "url": "https://investor.digitalrealty.com/node/20001/pdf"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0220-scotus-strikes-ieepa-tariffs",
+      "date": "2026-02-20",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits",
+        "retail_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Supreme Court strikes down IEEPA tariffs 6-3; administration pivots to 10% Section 122 global tariff",
+      "summary": "In Learning Resources v. Trump, decided February 20, 2026, the Supreme Court ruled 6-3 that IEEPA does not authorize the president to impose tariffs, voiding the Liberation Day 'reciprocal' tariffs (Section 232 and 301 tariffs were untouched). The administration revoked the IEEPA orders and imposed a replacement 10% global tariff under Section 122 of the Trade Act, which expires in late July absent Congress, leaving import-volume visibility for warehouse landlords muddled rather than resolved. The equity reaction was positive but muted: the S&P 500 rose, the Dow gained about 200 points and the retail ETF XRT hit a session high of +1.8%.",
+      "evidence": "Supreme Court 6-3 ruling on 2026-02-20 invalidating IEEPA tariffs; replacement 10% Section 122 tariff imposed.",
+      "sources": [
+        {
+          "title": "SCOTUSblog: Supreme Court strikes down tariffs",
+          "url": "https://www.scotusblog.com/2026/02/supreme-court-strikes-down-tariffs/"
+        },
+        {
+          "title": "Commercial Observer: The Supreme Court Tariffs Ruling and Commercial Real Estate Investment",
+          "url": "https://commercialobserver.com/2026/02/trump-supreme-court-tariffs-commercial-real-estate-investment-strategy/"
+        },
+        {
+          "title": "CNBC: S&P 500 rises, Dow gains 200 points after Supreme Court strikes down Trump emergency tariffs",
+          "url": "https://www.cnbc.com/2026/02/19/stock-market-today-live-updates.html"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0401-epa-rfs-set2-final-rule",
+      "date": "2026-04-01",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "EPA finalizes record 2026-27 RFS volumes with 70% SRE reallocation",
+      "summary": "EPA's final 'Set 2' Renewable Fuel Standard rule, published in the Federal Register on April 1, 2026 after being finalized in late March, set total obligations of 25.82 billion RINs for 2026 and 25.98 billion for 2027 (26.81 and 27.02 billion including SRE reallocation), the highest in program history, with biomass-based diesel at 9.07 and 9.20 billion RINs. It reallocated 70% of 2023-25 small-refinery exemption volumes onto obligated parties, deferred the half-RIN for imported feedstocks to 2028 and removed eRINs. Merchant refiners without blending (PBF, Delek, CVR, Par) face higher RIN costs while integrated marketers like Valero and Marathon are better hedged; AFPM petitioned the D.C. Circuit in June 2026.",
+      "evidence": "Final rule published in Federal Register 2026-04-01: 25.82B RINs (2026), 25.98B (2027), 70% SRE reallocation",
+      "sources": [
+        {
+          "title": "Beveridge & Diamond - EPA Finalizes Record-High 2026-2027 Renewable Fuel Standard Volume Obligations",
+          "url": "https://www.bdlaw.com/publications/epa-finalizes-record-high-2026-2027-renewable-fuel-standard-volume-obligations/"
+        },
+        {
+          "title": "DieselNet - US EPA finalizes renewable fuels volumes for 2026-2027",
+          "url": "https://dieselnet.com/news/2026/04epa.php"
+        },
+        {
+          "title": "Holland & Knight - EPA Boosts Biofuel Mandates in Final RFS Rule for 2026-2027",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/04/epa-boosts-biofuel-mandates-in-final-renewable-fuel-standard-rule"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0408-us-iran-ceasefire-oil-plunge",
+      "date": "2026-04-08",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services",
+        "refining"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Two-week US-Iran ceasefire: Brent -13%, WTI -16% in a day, energy sells off",
+      "summary": "On April 8, 2026 the US and Iran agreed a two-week ceasefire with safe passage through the Strait of Hormuz, roughly six weeks after the February 28 closure. Brent fell 13.3% to $94.75 and WTI 16.4% to $94.41 by late US trading, the sharpest one-day drop of the war, and shares of oil producers fell sharply while airlines and broad indices rallied; Shell and BP dropped in tandem with crude in London. The ceasefire proved fragile, with Iran stopping tankers again within days, but it marked the top of the first war-premium leg for the energy sector.",
+      "evidence": "Brent -13.3% to $94.75 and WTI -16.4% to $94.41 on 2026-04-08 (Gulf News/AFP)",
+      "sources": [
+        {
+          "title": "Gulf News - Oil prices plunge, stocks surge on US-Iran ceasefire",
+          "url": "https://gulfnews.com/business/energy/oil-prices-plunge-stocks-surge-on-us-iran-ceasefire-1.500499658"
+        },
+        {
+          "title": "Hargreaves Lansdown - Iran ceasefire relief sends shares soaring and energy prices sharply down",
+          "url": "https://www.hl.co.uk/news/iran-ceasefire-relief-sends-shares-soaring-and-energy-prices-sharply-down"
+        },
+        {
+          "title": "Euronews - Iran ceasefire pushes oil prices down as markets remain cautious",
+          "url": "https://euronews.com/2026/04/08/iran-ceasefire-pushes-oil-prices-down-as-markets-remain-cautious"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0422-golden-pass-first-cargo",
+      "date": "2026-04-22",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "Golden Pass ships first LNG cargo as US feedgas hits record 18.8 Bcf/d",
+      "summary": "QatarEnergy (70%) and ExxonMobil (30%) announced on April 22, 2026 that Golden Pass LNG in Sabine Pass, Texas had shipped its first export cargo, about three weeks after Train 1's first production in late March, with Train 2 due in H2 2026 and Train 3 in H1 2027 toward 18 mtpa. US LNG feedgas hit a monthly record of 18.8 Bcf/d in April per LSEG, with Qatar's Ras Laffan still constrained by the Hormuz war, cementing the volume case for Gulf Coast gas pipelines (Kinder Morgan, Williams, Energy Transfer, Enbridge) and Cheniere. By October Golden Pass was shipping four cargoes a month and feedgas was tracking ~18.9 Bcf/d.",
+      "evidence": "First Golden Pass export cargo announced 2026-04-22; US LNG feedgas monthly record 18.8 Bcf/d in April 2026 (LSEG)",
+      "sources": [
+        {
+          "title": "Oil & Gas Journal - Golden Pass LNG ships first LNG export cargo",
+          "url": "https://www.ogj.com/pipelines-transportation/lng/news/55372854/golden-pass-lng-ships-first-lng-export-cargo"
+        },
+        {
+          "title": "Euronews - QatarEnergy launches first LNG exports from $10bn Golden Pass project in Texas",
+          "url": "https://www.euronews.com/2026/04/23/qatarenergy-launches-first-lng-exports-from-10bn-golden-pass-project-in-texas"
+        },
+        {
+          "title": "Natural Gas Intelligence - Henry Hub Price Volatility in 2026 Seen Rising With LNG Feed Gas Demand",
+          "url": "https://naturalgasintel.com/news/henry-hub-price-volatility-in-2026-seen-rising-with-lng-feed-gas-demand-the-offtake/"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0428-uae-exits-opec",
+      "date": "2026-04-28",
+      "end_date": "2026-05-01",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "integrated"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "geopolitical",
+      "title": "UAE announces exit from OPEC and OPEC+ effective May 1",
+      "summary": "On April 28, 2026 the UAE said it would leave OPEC and OPEC+ after almost 60 years, effective May 1, removing the holder of the group's second-largest spare capacity (targeting 5 mb/d by 2027). Oil futures barely reacted on the day because Hormuz disruption dominated pricing, with deferred contracts down 2-3% before recovering, but analysts at Rystad and Again Capital called the cartel 'structurally weaker' and longer-term bearish for crude once the strait reopens. OPEC+ trimmed its June hike to 188,000 b/d to account for the exit, and President Trump welcomed the move as likely to lower prices.",
+      "evidence": "UAE announced OPEC exit 2026-04-28, effective 2026-05-01 (CNBC)",
+      "sources": [
+        {
+          "title": "CNBC - UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices",
+          "url": "https://www.cnbc.com/2026/04/28/oil-uae-opec-saudi-arabia.html"
+        },
+        {
+          "title": "Euronews - Oil prices rise despite UAE exit from OPEC as Iran war ceasefire hangs in balance",
+          "url": "https://www.euronews.com/2026/04/29/oil-prices-rise-despite-uae-exit-from-opec-as-iran-war-ceasefire-hangs-in-balance"
+        },
+        {
+          "title": "CNBC - OPEC+ approves fourth oil output quota hike since Hormuz closure",
+          "url": "https://www.cnbc.com/2026/06/07/opec-set-for-fourth-oil-quota-hike-since-strait-of-hormuz-closure.html"
+        }
+      ]
+    },
+    {
+      "id": "materials-2026-equinox-orla-consolidation",
+      "date": "2026-05-13",
+      "end_date": null,
+      "sector": "materials",
+      "subindustries": [
+        "gold_miners"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Equinox Gold buys Orla Mining for $5.1bn as gold M&A wave builds",
+      "summary": "Equinox Gold agreed on 2026-05-13 to acquire Orla Mining in a $5.1bn all-stock deal (one Equinox share per Orla share), creating a 1.1Moz/yr North American producer backed by Pierre Lassonde and Fairfax, with about $1.4bn of projected 2026 free cash flow. It followed Coeur's ~$7bn all-stock takeover of New Gold (announced 2025-11-03, closed 2026-03-20) and Agnico Eagle's roughly $2.1bn purchase of Rupert Resources in April 2026, taking 2026 gold M&A past $7.9bn and underscoring record-price cash flows being recycled into consolidation.",
+      "evidence": "Equinox-Orla deal value $5.1bn announced 2026-05-13",
+      "sources": [
+        {
+          "title": "Kitco: Equinox Gold acquires Orla Mining in $5.1 billion consolidation, backed by Pierre Lassonde",
+          "url": "https://www.kitco.com/news/article/2026-05-13/equinox-gold-acquires-orla-mining-51-billion-consolidation-backed-pierre"
+        },
+        {
+          "title": "The Oregon Group: Gold mining M&A is back",
+          "url": "https://theoregongroup.com/commodities/gold/gold-mining-ma-is-back/"
+        },
+        {
+          "title": "Startup Fortune: Coeur Mining's $7 billion gold megadeal",
+          "url": "https://startupfortune.com/coeur-minings-7-billion-gold-megadeal-is-already-missing-its-own-targets/"
+        }
+      ]
+    },
+    {
+      "id": "utilities-2026-nextera-dominion-67bn",
+      "date": "2026-05-18",
+      "end_date": null,
+      "sector": "utilities",
+      "subindustries": [
+        "regulated_utilities"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "NextEra agrees to buy Dominion for $67bn, largest utility deal this century",
+      "summary": "NextEra Energy announced an all-stock acquisition of Dominion Energy on 2026-05-18 at 0.8138 NEE shares per D share, valuing Dominion at about $67bn (a 23% premium to its May 15 market cap) and creating the world's largest regulated electric utility with a ~130 GW large-load pipeline and $59bn of annual capex. NEE fell almost 5% on concerns it was overpaying while Dominion rose 9%; the deal, which includes $2.25bn of customer bill credits and needs five regulatory approvals, kicked off an AI-era wave of utility mega-merger speculation across the group.",
+      "evidence": "NEE -5% and D +9% on 2026-05-18; exchange ratio 0.8138",
+      "sources": [
+        {
+          "title": "Fortune: NextEra's $67 billion Dominion takeover creates world's largest utility",
+          "url": "https://fortune.com/2026/05/18/nextera-dominion-67-billion-acquisition-ai-data-centers-largest-utility/"
+        },
+        {
+          "title": "NextEra Energy press release: NextEra Energy and Dominion Energy to combine",
+          "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2026/05-18-2026-123054903"
+        },
+        {
+          "title": "Bloomberg: NextEra to buy Dominion for $67 billion to form power giant",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/nextera-to-buy-dominion-for-67-billion-to-form-utility-colossus"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0615-hormuz-reopening-mou",
+      "date": "2026-06-15",
+      "end_date": "2026-07-08",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "refining",
+        "exploration_production"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "US-Iran MoU to reopen Hormuz: WTI under $80, Exxon -4%, Marathon -5%",
+      "summary": "Late on June 14, 2026 the US and Iran announced a memorandum of understanding to reopen the Strait of Hormuz after more than 100 days of closure, with a 60-day ceasefire allowing Iranian exports to resume pending a signing in Switzerland. WTI fell about 5% to below $80, its lowest since March (Brent -3.95% to $83.88 in early Asian trade), and energy stocks followed: ExxonMobil fell roughly 4.1%, Chevron 3.6%, Valero 3.7% and Marathon Petroleum about 5%. Brent was back near its pre-war $72 by July 3 even though Trump declared the MoU 'over' on July 8 after Iran struck ships in the strait.",
+      "evidence": "WTI below $80/bbl (lowest since March) in the first session after the 2026-06-14 announcement; Brent $83.88 (-3.95%) early 2026-06-15",
+      "sources": [
+        {
+          "title": "Oilprice.com - Oil Prices Plunge as U.S. and Iran Reach Deal to Reopen Strait of Hormuz",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-US-and-Iran-Reach-Deal-to-Reopen-Strait-of-Hormuz.html"
+        },
+        {
+          "title": "MarketWise - US-Iran Strait of Hormuz Deal: What It Means for Oil Stocks",
+          "url": "https://marketwise.com/investing/us-iran-deal-strait-of-hormuz-oil-stocks/"
+        },
+        {
+          "title": "Sherwood News - Energy stocks follow oil lower as Strait of Hormuz set to reopen",
+          "url": "https://sherwood.news/markets/energy-stocks-follow-oil-lower-as-strait-of-hormuz-set-to-reopen/"
+        },
+        {
+          "title": "CNBC - OPEC+ approves further oil output increase as Hormuz exports start to recover",
+          "url": "https://www.cnbc.com/2026/07/05/opec-set-to-approve-another-oil-output-increase.html"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0625-nyc-rgb-two-year-rent-freeze",
+      "date": "2026-06-25",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "NYC Rent Guidelines Board approves first-ever two-year rent freeze",
+      "summary": "On June 25, 2026 New York City's Rent Guidelines Board voted 7-1 to set 0% increases on both one- and two-year leases for roughly 1 million rent-stabilized apartments (leases starting Oct 1, 2026 through Sep 30, 2027), the first two-year freeze in the board's history and the fulfilment of Mayor Zohran Mamdani's campaign pledge; the landlord-side member resigned the morning of the vote and owner groups signalled litigation. The vote is the highest-profile rent-control action of the cycle and a negative read-across for coastal apartment landlords with New York exposure (AVB, EQR, UDR) and for regulatory risk across residential REITs generally.",
+      "evidence": "RGB vote on 2026-06-25: 0% for one-year and two-year leases on ~1 million rent-stabilized units, 7-1 tally.",
+      "sources": [
+        {
+          "title": "Rent Guidelines Board freezes rents, marking win for Mamdani (NY1, Jun 25 2026)",
+          "url": "https://ny1.com/nyc/all-boroughs/news/2026/06/25/nyc-rent-guidelines-board-final-vote"
+        },
+        {
+          "title": "Mamdani's Promised Rent Freeze Approved in New York (TIME, Jun 26 2026)",
+          "url": "https://time.com/article/2026/06/26/new-york-rent-freeze-stabilized-apartments-zohran-mamdani-housing-promise/"
+        },
+        {
+          "title": "NYC Rent Guidelines Board votes to freeze rent on 1 million apartments (Reason, Jun 26 2026)",
+          "url": "https://reason.com/2026/06/26/mamdani-got-his-rent-freeze-wish-dont-expect-new-york-city-housing-to-become-more-affordable/"
+        }
+      ]
+    },
+    {
+      "id": "financials-2026-progressive-june-growth-slowdown",
+      "date": "2026-07-15",
+      "end_date": null,
+      "sector": "financials",
+      "subindustries": [
+        "insurance"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Progressive drops ~9% as June results show slowing growth and pricing pressure",
+      "summary": "Progressive's June and Q2 2026 release on 2026-07-15 showed Q2 EPS of $5.67 (above the $5.30 estimate) but net premiums written of $21.08bn missed, June premium growth slowed to 3%, and the combined ratio of 87.3% was worse than last year's 86.2%. The stock fell about 9% on the day as investors read the numbers as the end of the auto-insurance margin peak, with Reuters citing weaker pricing and renewed competition from GEICO; the drop reverberated across personal-lines peers.",
+      "evidence": "PGR about -9% on 2026-07-15; June net premiums written +3%",
+      "sources": [
+        {
+          "title": "Yahoo Finance / Motley Fool: Why Progressive Insurance fell today",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-progressive-insurance-fell-today-195901091.html"
+        },
+        {
+          "title": "The Insurer (Reuters): Progressive shares fall 9% as June results signal slowing growth, pricing pressure",
+          "url": "https://www.theinsurer.com/ti/news/progressive-shares-fall-9-as-june-results-signal-slowing-growth-pricing-pressure-2026-07-16/"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-0716-prologis-q2-2026-record-leasing",
+      "date": "2026-07-16",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Prologis Q2 2026: record 67M sq ft leased, second guidance raise of the year, shares +3.2%",
+      "summary": "On July 16, 2026 Prologis reported Q2 Core FFO of $1.63 per share (vs $1.46 a year earlier), a record 67 million sq ft of leases signed and owned-and-managed occupancy of 95.5% (+20 bp q/q). It raised 2026 Core FFO guidance to $6.22-$6.30 from $6.07-$6.23 and net-earnings guidance to $4.40-$4.55 from $3.80-$4.05, its second raise of 2026. Quiver Quantitative reported PLD shares up 3.2% on the day.",
+      "evidence": "PLD +3.2% on 2026-07-16; 2026 Core FFO guidance raised to $6.22-$6.30 from $6.07-$6.23.",
+      "sources": [
+        {
+          "title": "Prologis Reports Second Quarter 2026 Results",
+          "url": "https://ir.prologis.com/news-events/press-releases/detail/1044/prologis-reports-second-quarter-2026-results"
+        },
+        {
+          "title": "Quiver Quantitative: Prologis Shares Rise After Q2 Results and Higher 2026 Outlook",
+          "url": "https://www.quiverquant.com/news/Prologis+Shares+Rise+After+Q2+Results+and+Higher+2026+Outlook"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-0730-valero-record-q2-2026",
+      "date": "2026-07-30",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Valero posts record Q2 profit of $12.54/share on $23.62/bbl margins",
+      "summary": "On July 30, 2026 Valero reported $12.54 per share for the second quarter against a $10.12 consensus, its highest Q2 profit on record, as refining margin per barrel of throughput nearly doubled year over year to $23.62 and refining adjusted operating earnings more than tripled to $4.4 billion. Hormuz-driven product tightness lifted gasoline and diesel prices faster than feedstock costs; Valero shares rose more than 2% in midday trading. The print confirmed the war-era crack-spread windfall for US Gulf Coast refiners (Marathon, Phillips 66) a year after Valero's Q2 2025 beat ($2.28 vs $1.74 on $12.35/bbl margins) had shown margins merely normalizing.",
+      "evidence": "Valero Q2 2026 EPS $12.54 vs $10.12 estimate; refining margin $23.62/bbl, reported 2026-07-30",
+      "sources": [
+        {
+          "title": "BNN Bloomberg/Reuters - U.S. refiner Valero Energy posts record Q2 profit, shares jump 2%",
+          "url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/30/us-refiner-valero-energy-posts-record-q2-profit-shares-jump-2/"
+        },
+        {
+          "title": "EnergyNow - US Refiner Valero Energy Posts Record Second-Quarter Profit, Shares Jump 2%",
+          "url": "https://energynow.com/2026/07/us-refiner-valero-energy-posts-record-second-quarter-profit-shares-jump-2/"
+        },
+        {
+          "title": "Hydrocarbon Processing - Valero Energy beats Q2 2025 profit estimates as refining margins improve",
+          "url": "https://www.hydrocarbonprocessing.com/news/2025/07/valero-energy-beats-q2-profit-estimates-as-refining-margins-improve/"
+        }
+      ]
+    },
+    {
+      "id": "software-2026-salesforce-q2-fy27-rally",
+      "date": "2026-08-27",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": [
+        "application_software"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Salesforce jumps 18% on Q2 FY27 beat and Agentforce ARR above $1.5bn",
+      "summary": "Salesforce reported fiscal Q2 2027 results on 2026-08-26 with revenue of $11.35bn (+11% y/y) and adjusted EPS of $5.90 (boosted by an Anthropic investment gain) versus $3.27 expected; Agentforce ARR topped $1.5bn, up 240% y/y, and full-year revenue guidance was raised to $46.1-46.4bn. CRM rose 18% on 2026-08-27 after being down 22% year-to-date going into the print, with CEO Marc Benioff declaring 'This is not the SaaSpocalypse', a relief signal for seat-based application software.",
+      "evidence": "CRM +18% on 2026-08-27; Agentforce ARR >$1.5bn (+240% y/y)",
+      "sources": [
+        {
+          "title": "CNBC: Salesforce (CRM) Q2 earnings report fiscal 2027",
+          "url": "https://www.cnbc.com/2026/08/26/salesforce-crm-q2-earnings-report-2027.html"
+        },
+        {
+          "title": "Salesforce 8-K exhibit 99.1, Q2 FY27 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001108524/000110852426000187/crm-q2fy27xexhibit991.htm"
+        }
+      ]
+    },
+    {
+      "id": "financials-2026-aon-usi-17bn",
+      "date": "2026-08-31",
+      "end_date": null,
+      "sector": "financials",
+      "subindustries": [
+        "insurance"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Aon agrees to buy USI for $17bn, biggest broker deal of 2026",
+      "summary": "On 2026-08-31 Aon confirmed a $17bn all-debt-funded acquisition of USI Insurance Services from KKR (net price $16.7bn, about 14.5x synergized EBITDA), doubling down on the US middle market and pausing buybacks to protect its Baa2/A- ratings. Aon shares rose on the announcement while KKR slipped, and the deal extended a wave of broker consolidation that includes Brown & Brown's $9.8bn Accession purchase (June 2025) and the $7.7bn Baldwin Group take-private (September 2026), supporting broker valuations (MMC, AJG, WTW).",
+      "evidence": "Aon-USI deal value $17bn announced 2026-08-31",
+      "sources": [
+        {
+          "title": "Insurance Business: Aon strikes $17 billion deal for USI, doubling down on the middle market",
+          "url": "https://www.insurancebusinessmag.com/us/news/benefits/aon-strikes-17-billion-deal-for-usi-doubling-down-on-the-middle-market-587920.aspx"
+        },
+        {
+          "title": "Bloomberg: Brown & Brown to buy Accession Risk Management for $9.8 billion",
+          "url": "https://www.bloomberg.com/news/articles/2025-06-10/brown-brown-to-buy-accession-risk-management-for-9-8-billion"
+        }
+      ]
+    },
+    {
+      "id": "media-2026-paramount-wbd-state-ag-settlement",
+      "date": "2026-09-21",
+      "end_date": "2026-10-06",
+      "sector": "communication_media",
+      "subindustries": [
+        "media_entertainment"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Paramount settles state AG antitrust suit, clearing WBD deal to close Oct 6",
+      "summary": "On 2026-09-21 Paramount settled the antitrust suit brought by a dozen state attorneys general led by California's Rob Bonta, agreeing to lift US production spending by at least $300m a year, release 30 theatrical films in two years, keep the Paramount and Warner lots in Los Angeles, and create an independent oversight board for CBS News and CNN, with Miramax or a suite of cable channels to be divested if targets are missed. Paramount shares rose early then fell 3% after Bonta's press conference; the ~$110bn Warner Bros. Discovery acquisition, already cleared by the DOJ (June 12) and EU (July 22), closed on 2026-10-06.",
+      "evidence": "Settlement 2026-09-21; Paramount-WBD deal closed 2026-10-06",
+      "sources": [
+        {
+          "title": "CNBC: Paramount and state AGs settle lawsuit, allowing Warner Bros. merger to proceed",
+          "url": "https://www.cnbc.com/2026/09/21/paramount-reaches-settlement-over-warner-bros-merger.html"
+        },
+        {
+          "title": "CNBC: Paramount's hard-fought takeover of Warner Bros. Discovery closed Tuesday",
+          "url": "https://www.cnbc.com/2026/10/06/paramount-wbd-deal-timeline.html"
+        }
+      ]
+    },
+    {
+      "id": "utilities-2026-bond-selloff-xlu-oversold",
+      "date": "2026-10-02",
+      "end_date": null,
+      "sector": "utilities",
+      "subindustries": [
+        "regulated_utilities"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Bond selloff pushes XLU down 6% in a month, most oversold since 2023",
+      "summary": "By 2026-10-02 the Utilities Select Sector SPDR (XLU) had fallen about 6% over the prior month while the S&P 500 rose, its sharpest selloff since October 2023, sitting 17% below its 52-week high as the 10-year Treasury yield pushed above 5% in what CNBC's Mike Khouw called the fastest rise in yields since 1994. Regulated names led by NextEra (13% of XLU) lagged while IPPs Constellation and Vistra held up on data-center demand; XLU had given back all of its Q1 2026 outperformance.",
+      "evidence": "XLU about -6% over the month to 2026-10-02, 17% below 52-week high",
+      "sources": [
+        {
+          "title": "24/7 Wall St: Utility stocks are the most oversold since 2023",
+          "url": "https://247wallst.com/investing/etf/2026/10/02/utility-stocks-are-the-most-oversold-since-2023/"
+        },
+        {
+          "title": "CNBC: The sector in the cross hairs of the bond sell-off looks poised for a bounce, says Mike Khouw",
+          "url": "https://www.cnbc.com/2026/10/02/the-sector-in-the-cross-hairs-of-the-bond-sell-off-looks-poised-for-a-bounce-says-mike-khouw.html"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-1020-ofs-q3-2026-earnings",
+      "date": "2026-10-20",
+      "end_date": "2026-10-28",
+      "sector": "energy",
+      "subindustries": [
+        "oilfield_services"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Q3 2026 OFS prints: Halliburton and SLB beat on international, Baker Hughes drops 6% on leverage",
+      "summary": "Halliburton opened the Q3 2026 oilfield-services season on October 20 with adjusted EPS of $0.60 vs $0.58 and revenue of $5.7 billion, but North America revenue fell 9% year over year to $2.2 billion on weaker US pressure pumping, offset by Latin America (+12.6%) and Europe/Africa (+22.7%); it took a $107 million severance charge, guided 2027 to mid-single-digit growth and ~15% margins assuming flat North America, and shares rose (up ~2% premarket, with intraday gains reported as high as 5.8%). SLB reported revenue of $9.45 billion (+5.8%) and EPS $0.64 vs ~$0.61 with Middle East revenue +13% sequentially. Baker Hughes on October 28 beat ($0.70 vs $0.60) but fell more than 6% after hours to about $55 as 2.5x post-Chart leverage and ~$200 million of integration costs overshadowed the quarter.",
+      "evidence": "Halliburton Q3 2026 adjusted EPS $0.60 vs $0.58, North America revenue -9% y/y, reported 2026-10-20; Baker Hughes -6% after hours 2026-10-28",
+      "sources": [
+        {
+          "title": "Halliburton - Halliburton Announces Third Quarter 2026 Results",
+          "url": "https://ir.halliburton.com/news-releases/news-release-details/halliburton-announces-third-quarter-2026-results"
+        },
+        {
+          "title": "Investing.com - Earnings call transcript: Halliburton tops Q3 2026 estimates as shares rise",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-halliburton-tops-q3-2026-estimates-as-shares-rise-93CH-4960442"
+        },
+        {
+          "title": "Investing.com - Baker Hughes Q3 2026 slides: earnings beat, stock falls on leverage",
+          "url": "https://ca.investing.com/news/stock-market-news/baker-hughes-q3-2026-slides-earnings-beat-stock-falls-on-leverage-93CH-4910171"
+        },
+        {
+          "title": "EnergyNow - Halliburton Tops Estimates as Latin America, Europe Cushion North American Weakness",
+          "url": "https://energynow.com/2026/10/halliburton-tops-estimates-as-latin-america-europe-cushion-north-american-weakness/"
+        },
+        {
+          "title": "Yahoo Finance - SLB's (NYSE:SLB) Q3 2026: beats on revenue",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/slb-nyse-slb-q3-2026-110655686.html"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-1029-cubesmart-heitman-jv-q3",
+      "date": "2026-10-29",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "CubeSmart forms $197M Heitman venture to recycle capital into buybacks; Q3 occupancy up",
+      "summary": "With its Q3 2026 results on October 29, 2026 CubeSmart announced it would contribute 15 stores (about 900,000 sq ft) to a $197M joint venture with Heitman, retaining 20%, to free capital for share repurchases (it had already bought back 2.1M shares for $83.9M in the quarter) rather than buy stabilized assets at private-market prices. Same-store NOI rose 2.1% and revenue 1.9% with occupancy at 89.9% vs 89.0% a year earlier, and 2026 adjusted FFO guidance was set at $2.58-$2.60. The transaction extends the 2026 self-storage consolidation/capital-recycling theme (PSA-NSA in March, CUBE's $250M CBRE IM venture in February) and underlines that public storage REITs see their own shares as cheaper than private deals.",
+      "evidence": "CubeSmart Q3 2026 release of 2026-10-29: $197M 15-property Heitman JV (CubeSmart keeps 20%); same-store NOI +2.1%, occupancy 89.9% vs 89.0%.",
+      "sources": [
+        {
+          "title": "CubeSmart Plans $197M Storage Venture With Heitman (WRE News, Oct 30 2026)",
+          "url": "https://wrenews.com/cubesmart-q3-2026-197-million-storage-joint-venture-heitman/"
+        },
+        {
+          "title": "CubeSmart taps Heitman venture to unlock cash, fund stock buybacks (CoStar)",
+          "url": "https://www.costar.com/article/1767870154/cubesmart-taps-heitman-venture-to-unlock-cash-fund-stock-buybacks"
+        }
+      ]
+    },
+    {
+      "id": "software-2026-servicenow-q3-record-drop",
+      "date": "2026-10-29",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": [
+        "application_software"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "ServiceNow falls 27%, its worst day ever, on Q3 2026 print",
+      "summary": "ServiceNow reported Q3 2026 revenue of $4.11bn (+20.5% y/y, in line) but adjusted EPS of $1.00 missed the $1.02 consensus, and the stock fell 27% on 2026-10-29, its largest single-day drop on record. Citi's Tyler Radke cited 'the lack of upside' as uncharacteristic, and the print revived SaaSpocalypse fears that AI agents are eroding seat-based enterprise software economics, weighing on application-software peers into the November selloff.",
+      "evidence": "NOW -27% on 2026-10-29; adjusted EPS $1.00 vs $1.02 est.",
+      "sources": [
+        {
+          "title": "CNBC: ServiceNow (NOW) earnings Q3 2026",
+          "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html"
+        },
+        {
+          "title": "Investing.com: ServiceNow Q3 2026 revenue beats, shares sink after hours",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-servicenow-q3-2026-revenue-beats-shares-sink-after-hours-93CH-4981127"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-1102-kimco-louisville-acquisition-guidance",
+      "date": "2026-11-02",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "retail_reits"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Kimco buys two grocery-anchored Louisville centers for $295M alongside higher guidance and a dividend raise",
+      "summary": "On November 2, 2026 Kimco Realty announced the $295 million acquisition of Paddock Shops and Shelbyville Road Plaza, two Trader Joe's/Fresh Market-anchored open-air centers totalling more than 741,000 sq ft in Louisville's East End, funded primarily with 1031 exchange proceeds from 2026 dispositions (self-funded and leverage-neutral), with NOI underwritten to grow ~4% a year. Coverage on November 3 tied the deal to Kimco's raised full-year earnings guidance and a larger common dividend; Simply Wall St noted KIM shares up 6.0% over the prior seven days and about 25% year-to-date, consistent with the grocery-anchored resilience trade.",
+      "evidence": "$295M purchase of 741,000+ sq ft of grocery-anchored centers announced 2026-11-02; KIM +6.0% over the prior seven days per Simply Wall St (2026-11-03).",
+      "sources": [
+        {
+          "title": "GlobeNewswire via Manila Times: Kimco Realty Acquires Two Dominant Grocery-Anchored Centers in Louisville",
+          "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/kimco-realty-acquires-two-dominant-grocery-anchored-centers-in-louisville/2460136"
+        },
+        {
+          "title": "Simply Wall St: Is Kimco Realty (KIM) A Bargain On Its Acquisition, Higher Guidance, And Dividend Raise?",
+          "url": "https://simplywall.st/stocks/us/real-estate/nyse-kim/kimco-realty/news/is-kimco-realty-kim-a-bargain-on-its-acquisition-higher-guid"
+        },
+        {
+          "title": "Connect CRE: Kimco Realty Completes $295M Acquisition of Louisville Retail Centers",
+          "url": "https://www.connectcre.com/stories/kimco-realty-completes-295m-acquisition-of-louisville-retail-centers/"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-1105-host-q3-2026-world-cup-revpar",
+      "date": "2026-11-05",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": [
+        "lodging_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Host Hotels Q3 2026: total RevPAR +7.3% on World Cup and business travel; full-year RevPAR outlook raised to +6%",
+      "summary": "Host Hotels' Q3 2026 results (call held November 5, 2026) showed comparable-hotel total RevPAR up 7.3% to $348.19, driven by a 5.6% rise in average rate and a 2.1% increase in occupancy, with transient demand 'aided by the World Cup and increased business travel' and stronger group bookings. Host raised its full-year outlook to comparable total RevPAR growth of 6% (about $392) from 5% and adjusted FFO per share to $2.21, a $0.05 increase. The Motley Fool noted HST shares had risen more than 60% over the prior year, capping a lodging-REIT re-rating from the 2025 trough.",
+      "evidence": "Q3 2026 comparable total RevPAR +7.3% to $348.19; FY2026 total RevPAR growth guidance raised to 6% from 5% (call 2026-11-05).",
+      "sources": [
+        {
+          "title": "Motley Fool: Is Host Hotels & Resorts a Buy After Its Latest Earnings Report? (Nov 5, 2026)",
+          "url": "https://www.fool.com/investing/2026/11/05/is-host-hotels-resorts-a-buy-after-its-latest-earnings-report/"
+        }
+      ]
+    },
+    {
+      "id": "software-2026-midterm-ai-trade-unwind",
+      "date": "2026-11-05",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": [
+        "application_software"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "election",
+      "title": "Post-midterm AI unwind: Nasdaq -5%, IGV -4%, Palantir -10%",
+      "summary": "Two days after Democrats won both chambers in the 2026-11-03 midterms on platforms that targeted AI data-center buildout, the Nasdaq fell about 5.2% intraday (biggest drop since April 2025) and the Philadelphia Semiconductor index had its worst day since March 2020. The retreat spread from chips to software: IGV fell about 4%, Palantir and Okta dropped about 10%, CrowdStrike 9%, Snowflake 6.4%, Salesforce 3.6% and Figma 17% despite a revenue beat.",
+      "evidence": "IGV -4% and PLTR -10% on 2026-11-05; Nasdaq -5.2% midday",
+      "sources": [
+        {
+          "title": "Fortune: Tech stocks suffering biggest selloff since Covid as investors see premature end to AI datacenter boom",
+          "url": "https://fortune.com/2026/11/05/tech-stocks-are-suffering-the-biggest-selloff-since-covid-as-investors-see-premature-end-to-ai-datacenter-boom"
+        },
+        {
+          "title": "TheStreet Pro: AI rout sends the tech sector to its worst day since the Covid crash",
+          "url": "https://pro.thestreet.com/market-commentary/ai-rout-sends-the-tech-sector-to-its-worst-day-since-the-covid-crash"
+        },
+        {
+          "title": "Yahoo Finance: Palantir tumbles 10%, CrowdStrike sinks 9% as Wall Street dumps software's AI winners",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palantir-tumbles-10-crowdstrike-sinks-181136741.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+{
+  "events": [
+    {
+      "id": "machinery-2025-caterpillar-q3-record-high",
+      "date": "2025-10-29",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["machinery"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Caterpillar jumps 12% to a record on a Q3 2025 beat and $39.9bn backlog despite $686m of tariff costs",
+      "summary": "Caterpillar reported Q3 2025 revenue of $17.64bn (+9.5%) and adjusted EPS of $4.95 against a $4.52 consensus, with backlog at an all-time high of about $39.9bn as power-generation demand from data centers offset weaker construction. Shares rose about 12% on October 29, 2025 to a 52-week high of $591.58 even though operating margin contracted to 17.3% from 19.5% on $686m of tariff-driven manufacturing costs. The print reset machinery from a tariff-victim narrative to an AI-power beneficiary.",
+      "evidence": "CAT +12.3% intraday to $591.58 on 2025-10-29; Q3 2025 adjusted EPS $4.95 vs ~$4.52 consensus; backlog ~$39.9bn record.",
+      "sources": [
+        {"title": "Caterpillar's stock up 12% after impressive Q3 earnings (24/7 Wall St., 2025-10-29)", "url": "https://247wallst.com/investing/2025/10/29/caterpillars-stock-up-12-after-impressive-q3-earnings/"},
+        {"title": "Caterpillar soars on Q3 earnings beat and better-than-expected outlook (Sherwood News)", "url": "https://sherwood.news/markets/caterpillar-soars-on-q3-earnings-beat-and-better-than-expected-outlook/"},
+        {"title": "Why is Caterpillar (CAT) stock rocketing higher today (Yahoo Finance)", "url": "https://finance.yahoo.com/news/why-caterpillar-cat-stock-rocketing-171100909.html"}
+      ]
+    },
+    {
+      "id": "machinery-2026-caterpillar-q2-tariff-relief",
+      "date": "2026-08-04",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["machinery"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Caterpillar Q2 2026: sales +24% to $20.5bn, tariff costs lower than feared, shares jump about 9%",
+      "summary": "On August 4, 2026 Caterpillar reported Q2 sales and revenues up 24% to $20.5bn and adjusted EPS of $8.17, well ahead of forecasts, and said tariff costs came in below the April estimate because of favorable adjustments to tariffs previously incurred (management had projected roughly $700m for the quarter and $2.2-2.4bn for the year in April). Shares rose nearly 9% in premarket trading. Management cautioned that the tariff favorability was not expected to persist.",
+      "evidence": "Q2 2026 sales and revenues $20.5bn (+24%), adjusted EPS $8.17; CAT shares +~9% premarket on 2026-08-04.",
+      "sources": [
+        {"title": "Earnings call transcript: Caterpillar Q2 2026 beats forecasts, shares jump 9% (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-caterpillar-q2-2026-beats-forecasts-shares-jump-9-93CH-4834724"},
+        {"title": "Caterpillar Q2 2026 earnings release (SEC 8-K exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000001823026000040/ex991toformcat2q2026earnin.htm"},
+        {"title": "Caterpillar Q1 2026 earnings: revenue beats but tariffs hit margins (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-q1-2026-earnings-revenue-112145516.html"}
+      ]
+    },
+    {
+      "id": "machinery-2026-deere-ag-cycle-low",
+      "date": "2026-08-20",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["machinery"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Deere calls fiscal 2026 the bottom of the ag cycle; construction carries a beat and the stock rises about 8%",
+      "summary": "Deere's fiscal Q3 2026 (quarter to August 2) delivered EPS of $5.10 on revenue of $12.61bn against expectations of $4.69 and $10.81bn, the first year-over-year profit gain in roughly three years. Construction and forestry sales rose 18% to $3.62bn with operating profit up 84%, offsetting still-weak large farm equipment; Deere raised the low end of its fiscal 2026 net income range to $4.75bn (top $5.0bn), lifted equipment cash flow guidance to $5.0-5.5bn and reaffirmed that 2026 marks the trough of the ag equipment cycle. Shares rose about 7.7% premarket toward a 12-month high.",
+      "evidence": "Fiscal Q3 2026 EPS $5.10 vs $4.69 consensus; FY26 net income guide low end raised to $4.75bn; DE +~7.7% premarket on 2026-08-20.",
+      "sources": [
+        {"title": "Earnings call transcript: Deere beats Q3 2026 estimates, raises outlook (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-deere-beats-q3-2026-estimates-raises-outlook-93CH-4870160"},
+        {"title": "Deere Q3 2026 earnings: profit rises as construction offsets farm weakness (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/deere-q3-2026-earnings-profit-120751377.html"},
+        {"title": "Deere stock climbs after strong Q3 earnings and higher 2026 guidance (ad-hoc-news)", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/deere-stock-climbs-after-strong-q3-earnings-and-higher-2026-guidance/69985958"}
+      ]
+    },
+    {
+      "id": "machinery-2026-caterpillar-q3-capacity-selloff",
+      "date": "2026-10-29",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["machinery"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Caterpillar falls about 8% on a Q3 2026 beat as capacity limits and a cautious Q4 outlook cap the AI-power story",
+      "summary": "Caterpillar's Q3 2026 sales rose 17% to $20.7bn with adjusted EPS of $7.20 (vs about $7.05 expected) and a record $78.1bn backlog, but the stock fell roughly 8% on October 29, 2026 (about -7.7% premarket to $658.84). Management said Power & Energy capacity is still limiting growth, that full-year guidance was unchanged, and that margins ex tariff recoveries would sit near the bottom of the target range; it plans to triple large-engine output by 2030. A Zacks note later put the post-earnings drawdown at roughly 17%.",
+      "evidence": "CAT -~8% on 2026-10-29 despite adjusted EPS $7.20 and record $78.1bn backlog; adjusted operating margin 20.6%.",
+      "sources": [
+        {"title": "Earnings call transcript: Caterpillar tops Q3 2026 estimates, shares drop (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-caterpillar-tops-q3-2026-estimates-shares-drop-93CH-4984633"},
+        {"title": "Caterpillar sales up 17%, margin hits 20.4%: rapid earnings reaction (Motley Fool, 2026-10-29)", "url": "https://www.fool.com/investing/2026/10/29/caterpillar-sales-up-17-margin-hits-20-4-rapid-earnings-reaction/"},
+        {"title": "CAT shares fall despite Q3 earnings beat (Zacks via TradingView)", "url": "https://www.tradingview.com/news/zacks:b4c459939094b:0-cat-shares-fall-despite-q3-earnings-beat-how-to-play-the-stock/"}
+      ]
+    },
+    {
+      "id": "proserv-2026-paychex-guidance-disappointment",
+      "date": "2026-09-23",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["professional_services"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Paychex drops 7-9% on a beat: reaffirmed guidance and slower Q2 growth punish a premium multiple",
+      "summary": "Paychex reported fiscal Q1 2027 adjusted EPS of $1.34 (vs $1.32) on $1.63bn of revenue on September 23, 2026, but only reaffirmed full-year guidance and flagged lower Q2 revenue growth with a key segment 'slightly below expectations'. The stock fell 7-9% on the day (TradingKey -7.07%; Seeking Alpha almost -9%), with a 24/7 Wall St. follow-up citing a double-digit multi-day decline. The reaction showed how little room the payroll processors' premium valuations leave for in-line results as employment growth cools.",
+      "evidence": "PAYX -7.07% on 2026-09-23 per TradingKey (Seeking Alpha: almost -9%); fiscal Q1 adjusted EPS $1.34 vs $1.32.",
+      "sources": [
+        {"title": "Why is Paychex stock falling Wednesday? (Benzinga)", "url": "https://www.benzinga.com/markets/earnings/26/09/61954978/paychex-says-key-segment-was-slightly-below-expectations-stock-sinks"},
+        {"title": "Paychex falls 9% after earnings (Seeking Alpha)", "url": "https://seekingalpha.com/news/4646307-paychex-falls-9-after-earnings"},
+        {"title": "Paychex (PAYX) moved down by 7.07% on Sep 23 (TradingKey)", "url": "https://www.tradingkey.com/news/market-movers/262183139-market-movers-payx-20260923"}
+      ]
+    },
+    {
+      "id": "proserv-2026-equifax-q3-beat",
+      "date": "2026-10-20",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["professional_services"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Equifax jumps about 10% on Q3 2026 as non-mortgage growth offsets a frozen mortgage market",
+      "summary": "Equifax reported Q3 2026 revenue of $1.693bn (+10%) and adjusted EPS of $2.26 (+11%, vs $2.20 expected) on October 20, 2026, with 8% growth in diversified markets offsetting flat Workforce Solutions mortgage revenue after 30-year mortgage rates rose about 75bp from July. Shares rose about 10% in premarket trading. Rival TransUnion beat a week later but slipped about 2% premarket on declining mortgage inquiry volumes, so the bid was for the diversified data story, not the credit-bureau group as a whole.",
+      "evidence": "EFX +10.44% premarket on 2026-10-20; Q3 revenue $1.693bn (+10%), adjusted EPS $2.26 vs $2.20 consensus.",
+      "sources": [
+        {"title": "Equifax delivers strong 10% revenue growth in third quarter 2026 (Equifax IR)", "url": "https://investor.equifax.com/news-events/press-releases/detail/1427/equifax-delivers-strong-10-revenue-growth-in-third-quarter"},
+        {"title": "Earnings call transcript: Equifax tops Q3 2026 profit view, shares jump 10% (Investing.com)", "url": "https://za.investing.com/news/stock-market-news/earnings-call-transcript-equifax-tops-q3-2026-profit-view-shares-jump-10-93CH-4514595"},
+        {"title": "Earnings call transcript: TransUnion tops Q3 2026 EPS forecast, shares slip (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-transunion-tops-q3-2026-eps-forecast-shares-slip-93CH-4976283"}
+      ]
+    },
+    {
+      "id": "proserv-2026-verisk-q3",
+      "date": "2026-11-05",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["professional_services"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Verisk rises 4.5% on in-line Q3 2026 revenue and 14% adjusted EPS growth",
+      "summary": "Verisk reported Q3 2026 revenue of $809m (+5.3%) and diluted adjusted EPS of $1.96 (+14%) on November 5, 2026 and executed a $100m accelerated share repurchase; shares rose 4.5% to $208.26 immediately after the report. In a week when the midterm result was sinking AI and defense names, the steady subscription-data compounder drew a defensive bid.",
+      "evidence": "VRSK +4.5% to $208.26 on 2026-11-05; Q3 revenue $809m (+5.3%), adjusted EPS $1.96 (+14%).",
+      "sources": [
+        {"title": "Verisk reports third quarter 2026 financial results (GlobeNewswire, 2026-11-05)", "url": "https://www.globenewswire.com/news-release/2026/11/05/3396290/0/en/verisk-reports-third-quarter-2026-financial-results.html"},
+        {"title": "Verisk's Q3 2026 earnings results: revenue in line with expectations (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/verisk-nasdaq-vrsk-q3-2026-131133034.html"}
+      ]
+    },
+    {
+      "id": "aero-2025-faa-737-rate-42",
+      "date": "2025-10-17",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["commercial_aerospace"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "FAA lifts Boeing's 737 MAX production cap from 38 to 42 a month",
+      "summary": "On October 17, 2025 the FAA approved Boeing's request to raise 737 MAX output from 38 to 42 jets a month, almost two years after the January 2024 Alaska Airlines door-plug blowout froze the rate. The FAA said key performance indicators and a rate-readiness process agreed with Boeing supported the increase and that it would keep oversight in place. Boeing shares ticked up about 1.6% after hours; the decision unlocked the supplier chain (Spirit, Howmet, Hexcel) that had been building to a higher rate than Boeing could ship.",
+      "evidence": "FAA approval dated 2025-10-17 raising the 737 MAX cap to 42/month; BA +~1.6% after hours.",
+      "sources": [
+        {"title": "FAA raises Boeing 737 Max production cap to 42 a month (CNBC)", "url": "https://www.cnbc.com/2025/10/17/boeing-737-max-production.html"},
+        {"title": "Boeing stock rises after FAA reportedly approves production increase (Yahoo Finance)", "url": "https://finance.yahoo.com/news/boeing-stock-rises-faa-reportedly-221021060.html"},
+        {"title": "FAA authorizes Boeing to increase 737 MAX production rate (AeroMorning)", "url": "https://aeromorning.com/en/faa-authorizes-boeing-to-increase-737-max-production-rate/"}
+      ]
+    },
+    {
+      "id": "aero-2026-boeing-q2-cash-flow-positive",
+      "date": "2026-07-28",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["commercial_aerospace"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Boeing turns free cash flow positive on 171 deliveries; stock rises 4% despite a VC-25B charge",
+      "summary": "Boeing's Q2 2026 revenue rose 8% to $24.6bn on 171 commercial deliveries and free cash flow was +$631m versus -$200m a year earlier, while a $280m charge on the VC-25B (Air Force One) program pushed the core loss to $0.76 a share against a $0.34 loss expected. Shares closed up about 4% at $219.92 on July 28, 2026 as investors focused on the record $715bn backlog, the start of the 737 transition to 47 a month and the low-rate start of the North Line in July. The full-year free cash flow outlook was held at $1-3bn.",
+      "evidence": "BA +3.98% to $219.92 on 2026-07-28; Q2 FCF +$631m; 171 deliveries; core loss $0.76/share incl. $280m VC-25B charge.",
+      "sources": [
+        {"title": "Earnings call transcript: Boeing Q2 2026 revenue beats as loss widens (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-boeing-q2-2026-revenue-beats-as-loss-widens-93CH-4817578"},
+        {"title": "Boeing stock rises 2% as cash flow turns positive (ScanX)", "url": "https://scanx.trade/stock-market-news/companies/boeing-q2-results-revenue-rises-8-to-24-56b-cash-flow-turns-positive/46797369"},
+        {"title": "Boeing Q2 earnings: $24.6B revenue, $0.67 loss/share (StockTitan)", "url": "https://www.stocktitan.net/news/BA/boeing-reports-second-quarter-iajg461ldaeq.html"}
+      ]
+    },
+    {
+      "id": "aero-2026-ge-aerospace-q3-raise-sell-the-news",
+      "date": "2026-10-20",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["commercial_aerospace"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "GE Aerospace raises 2026 guidance again on 49% order growth; shares slip 3% on shop-visit timing",
+      "summary": "GE Aerospace's Q3 2026 orders jumped 49% to $19.0bn and adjusted EPS of $2.25 beat consensus for a sixth straight quarter; the company lifted 2026 adjusted EPS guidance to $8.00-8.10 (from $7.65-7.85, above the $7.92 consensus), operating profit to $10.9-11.0bn and free cash flow to $9.1-9.4bn, with commercial services now expected to grow in the low-20% range on a backlog above $170bn. Shares nevertheless fell about 3% on October 20, 2026 as analysts flagged a modest hit to 2026 services from shop-visit timing. The aftermarket engine story remained the healthiest part of commercial aerospace while Boeing's ramp slipped a week later.",
+      "evidence": "GE -~3% on 2026-10-20 despite 2026 adjusted EPS guide raised to $8.00-8.10 (consensus $7.92); Q3 orders +49% to $19.0bn.",
+      "sources": [
+        {"title": "GE Aerospace raises 2026 guidance as orders surge (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-raises-2026-guidance-125500735.html"},
+        {"title": "GE Aerospace Q3 2026 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000040545/000004054526000063/ge3q2026earningsrelease.htm"},
+        {"title": "GE Aerospace raises profit outlook in Q3 2026 earnings report (Quartz)", "url": "https://qz.com/ge-aerospace-raises-2026-profit-forecast-engine-demand-102026"}
+      ]
+    },
+    {
+      "id": "aero-2026-faa-certifies-737-10",
+      "date": "2026-10-20",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["commercial_aerospace"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "FAA certifies the 737-10, the largest MAX and more than 30% of the 737 order book",
+      "summary": "On October 20, 2026 the FAA issued an amended type certificate and production approval for the Boeing 737-10 after a program of nearly 1,000 test flights, clearing deliveries 'in the coming months' (Safran's release points to 2027). The 737-10 accounts for more than 30% of the 737 MAX backlog and its certification removes a multi-year overhang for Boeing, CFM/Safran and the 40-odd built-but-undelivered 737-7/-10 airframes in inventory; the enhanced angle-of-attack system will become standard across the MAX family. The relief was short-lived: a week later Boeing pushed the 737 rate ramp out a year.",
+      "evidence": "FAA amended type certificate for the 737-10 issued 2026-10-20; 737-10 is >30% of the 737 MAX order book per Boeing.",
+      "sources": [
+        {"title": "FAA certifies Boeing 737-10 (Boeing)", "url": "https://www.boeing.com/features/2026/10/faa-certifies-boeing-737-10"},
+        {"title": "U.S. FAA certifies Boeing 737-10, largest member of 737 MAX family (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/us-faa-certifies-boeing-737-10-largest-member-of-737-max-family-302914559.html"},
+        {"title": "Boeing 737 MAX 10 receives FAA certification (Aviation Week)", "url": "https://aviationweek.com/air-transport/safety-ops-regulation/boeing-737-max-10-receives-faa-certification"}
+      ]
+    },
+    {
+      "id": "transport-2025-union-pacific-norfolk-southern-merger",
+      "date": "2025-07-29",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["transportation"],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "Union Pacific agrees to buy Norfolk Southern for $85bn: the first transcontinental railroad",
+      "summary": "On July 29, 2025 Union Pacific agreed to acquire Norfolk Southern for one UNP share plus $88.82 in cash per NSC share (about $320 a share, $85bn including debt), creating the first coast-to-coast US railroad. Norfolk Southern fell about 3% to around $277 on announcement because the price was below where it had run on talk reports, Union Pacific slipped about 2% on dilution and regulatory risk, and CSX, which had risen on the July talks reports as the next target, lost 1.4%. UNP holders approved the issuance with 99.5% support in November 2025; the STB lifted its abeyance in August 2026 and set a statutory decision deadline of August 28, 2027.",
+      "evidence": "Deal terms: 1.0 UNP share + $88.82 cash per NSC share (~$320); NSC -~3% to $277.40 on 2025-07-29; STB decision deadline 2027-08-28.",
+      "sources": [
+        {"title": "Union Pacific to buy Norfolk Southern in $85 billion deal (Transport Topics)", "url": "https://www.ttnews.com/articles/ns-up-railroad-merger"},
+        {"title": "Union Pacific to buy rival Norfolk Southern in $320 per share deal (Investing.com)", "url": "https://ng.investing.com/news/stock-market-news/union-pacific-to-buy-rival-norfolk-southernin-320-per-share-deal-2031352"},
+        {"title": "STB lifts abeyance in Union Pacific-Norfolk Southern merger and sets procedural schedule (Thompson Hine)", "url": "https://www.thompsonhine.com/insights/stb-lifts-abeyance-in-union-pacific-norfolk-southern-merger-and-sets-procedural-schedule/"}
+      ]
+    },
+    {
+      "id": "transport-2026-ups-q2-amazon-glide-down",
+      "date": "2026-07-28",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["transportation"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "UPS falls about 6% as the Amazon volume glide-down and flat Q3 domestic revenue overshadow a beat-and-raise",
+      "summary": "UPS beat Q2 2026 estimates (adjusted EPS $1.76; GAAP $0.71 after transformation charges) and raised its full-year outlook on July 28, 2026, but guided to flat US domestic revenue in Q3 and a mid-single-digit decline in domestic average daily volume as the planned Amazon glide-down took hold; Q2 ADV was down 3.3% and revenue fell 2.7%. Shares closed down roughly 6% after surging premarket. Amazon had been more than 13% of UPS revenue at the peak and 8.8% by the end of Q1; Bank of America later cut its target saying Amazon volumes fell faster than expected.",
+      "evidence": "UPS closed down ~6% on 2026-07-28 (CNBC); Q2 2026 average daily volume -3.3%, revenue -2.7%, Q3 domestic revenue guided flat.",
+      "sources": [
+        {"title": "UPS expects third-quarter domestic revenue to be flat (CNBC, 2026-07-28)", "url": "https://www.cnbc.com/2026/07/28/ups-ups-q2-2026-earnings.html"},
+        {"title": "Earnings call transcript: UPS beats Q2 2026 estimates but shares fall (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ups-beats-q2-2026-estimates-but-shares-fall-93CH-4817084"},
+        {"title": "UPS Q2 revenue falls 2.7% amid economic uncertainty, Amazon volume glide down takes hold (Logistics Management)", "url": "https://www.logisticsmgmt.com/article/ups_q2_revenue_falls_2.7_amid_economic_uncertainty_amazon_volume_glide_down_takes_hold"}
+      ]
+    },
+    {
+      "id": "transport-2026-delta-fuel-guidance-cut",
+      "date": "2026-10-09",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["transportation"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "Delta's first miss in two years: fuel bill +62% forces a cut in 2026 EPS guidance to $5.10-5.60",
+      "summary": "On October 9, 2026 Delta reported Q3 adjusted EPS of about $1.72-1.76 against roughly $1.77 expected, its first miss in two years, as adjusted fuel expense surged 62% to $4.14bn with the average price up 60% to $3.61 a gallon after the Iran war. Delta cut full-year adjusted EPS guidance to $5.10-5.60 from the $6.50-7.50 set in July and guided Q4 to $1.15-1.65 on $4.25 fuel, while CEO Ed Bastian said demand remained strong and fares were rising. Shares fell 3-4% in early trading; reports on United and American conflicted, with 24/7 Wall St. saying they slipped under 1%.",
+      "evidence": "Delta 2026 adjusted EPS guide cut to $5.10-5.60 from $6.50-7.50 on 2026-10-09; Q3 fuel expense +62% to $4.143bn ($3.61/gal); DAL -3% to -4.4% early.",
+      "sources": [
+        {"title": "Delta falls 3% on cut full-year profit outlook as fuel costs jump 62% (24/7 Wall St., 2026-10-09)", "url": "https://247wallst.com/investing/2026/10/09/delta-falls-3-on-cut-full-year-profit-outlook-as-fuel-costs-jump-62-united-and-american-airlines-slip/"},
+        {"title": "Delta Air Lines (DAL) Q3 2026 earnings (CNBC)", "url": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html"},
+        {"title": "Delta Air Lines announces September quarter 2026 financial results (Delta IR)", "url": "https://ir.delta.com/news/news-details/2026/Delta-Air-Lines-Announces-September-Quarter-2026-Financial-Results/default.aspx"}
+      ]
+    },
+    {
+      "id": "transport-2026-ups-q3-beat-raise",
+      "date": "2026-10-27",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["transportation"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "UPS rises 5.8% on a Q3 2026 beat and raised full-year outlook; FedEx inches higher",
+      "summary": "UPS reported Q3 2026 adjusted EPS of $1.69 against $1.62 expected on revenue of $22.9bn ($22.3bn expected) on October 27, 2026 and raised its full-year outlook to about $92.6bn of revenue, $8.75bn of adjusted operating profit and $7.28 of adjusted EPS. Shares rose 5.8% against a 0.6% gain for the S&P 500, their largest move since the 6.6% drop after Q2, and FedEx gained about 2% ahead of its own report. The print suggested the Amazon glide-down and network reconfiguration were finally showing up in margins rather than just volume losses.",
+      "evidence": "UPS +5.8% on 2026-10-27; Q3 adjusted EPS $1.69 vs $1.62 consensus; FY26 adjusted EPS guide ~$7.28.",
+      "sources": [
+        {"title": "UPS rises 5% as Q3 beat lifts full-year outlook; FedEx inches higher (24/7 Wall St., 2026-10-27)", "url": "https://247wallst.com/investing/2026/10/27/ups-rises-5-as-q3-beat-lifts-full-year-outlook-fedex-inches-higher/"},
+        {"title": "What sent UPS stock higher? (Trefis, 2026-10-28)", "url": "https://www.trefis.com/stock/ups/articles/621061/what-sent-ups-stock-higher/2026-10-28"},
+        {"title": "UPS Q3 2026 earnings press release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001090727/000162828026067381/exhibit991-earningspressre.htm"}
+      ]
+    },
+    {
+      "id": "elec-2026-ge-vernova-q1-backlog-pull-forward",
+      "date": "2026-04-22",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["electrical_equipment"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "GE Vernova jumps about 14% on 59% order growth and pulls its $200bn backlog target forward to 2027; Vertiv slips on 'only' a raise",
+      "summary": "On April 22, 2026 GE Vernova reported Q1 revenue of $9.3bn (+16%), orders of $10bn (+59% organic) and a $163bn backlog, raised 2026 guidance for revenue ($44.5-45.5bn), EBITDA margin and free cash flow, pulled its $200bn total-backlog target forward from 2028 to 2027 and said gas-turbine backlog and slot reservations would reach at least 110 GW by year-end; the stock rose nearly 14%. Vertiv the same day grew sales 30% to $2.65bn with a 20.8% adjusted margin and raised its 2026 net sales guide to $13.5-14.0bn, yet fell about 2.3-2.5% because its Q2 guide trailed the most bullish estimates after a 300% twelve-month run.",
+      "evidence": "GEV +~14% on 2026-04-22; Q1 orders $10bn (+59% organic), backlog $163bn, 2026 revenue guide $44.5-45.5bn; VRT -2.3% despite raising 2026 sales guide to $13.5-14.0bn.",
+      "sources": [
+        {"title": "Vertiv, GE Vernova earnings: how AI data centers are bypassing America's grid (Yahoo Finance video)", "url": "https://finance.yahoo.com/video/vertiv-ge-vernova-earnings-how-ai-data-centers-are-bypassing-americas-grid-135827662.html"},
+        {"title": "Inside the AIPO ETF: what GE Vernova and Vertiv's Q1 earnings just revealed about the AI power trade (TipRanks)", "url": "https://www.tipranks.com/news/inside-the-aipo-etf-what-ge-vernova-and-vertivs-q1-earnings-just-revealed-about-the-ai-power-trade"},
+        {"title": "Vertiv Q1 2026 earnings release (SEC 8-K, 2026-04-22)", "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026026379/q12026exhibit991vrt04222026.htm"}
+      ]
+    },
+    {
+      "id": "elec-2026-meta-capex-ai-power-selloff",
+      "date": "2026-10-22",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["electrical_equipment"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Meta's negative free cash flow and 'no financing plans' hit AI power: GE Vernova -11%, Vertiv -7%, Eaton -6%",
+      "summary": "After Meta raised its AI spending outlook on October 21, 2026, reported negative quarterly free cash flow and said it had 'no specific financing plans to announce', electrical-equipment names sold off on October 22: GE Vernova fell 11% to $826.01, Vertiv 7% to $196.42, Eaton 6% to $369.80 and the GRID ETF 4% against a 1.4% drop in SPY. Investors worried that hyperscaler financing strain would slow the long-lead gas-turbine, switchgear and cooling orders that the group's backlogs depend on; over the week through the following Tuesday GE Vernova was down about 11%, Vertiv 14% and Bloom Energy 15%, with hot inflation data and CoreWeave credit stress adding to the pressure.",
+      "evidence": "On 2026-10-22: GEV -11% to $826.01, VRT -7% to $196.42, ETN -6% to $369.80, GRID -4% vs SPY -1.43%.",
+      "sources": [
+        {"title": "GE Vernova slumps 11% as Meta's spending outlook stokes AI financing worries; Vertiv drops 7%, Eaton slides 6% (24/7 Wall St., 2026-10-22)", "url": "https://247wallst.com/investing/2026/10/22/ge-vernova-slumps-11-as-metas-spending-outlook-stokes-ai-financing-worries-vertiv-holdings-drops-7-eaton-slides-6/"},
+        {"title": "GE Vernova sinks 11%, Vertiv 14%, Bloom Energy 15% in a week as AI power stocks slide (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-sinks-11-vertiv-134456087.html"},
+        {"title": "Ranking 4 AI power stocks by balance sheet after the sell-off (Motley Fool, 2026-10-27)", "url": "https://www.fool.com/investing/2026/10/27/ranking-4-ai-power-stocks-by-balance-sheet-after-t/"}
+      ]
+    },
+    {
+      "id": "elec-2026-vertiv-ge-vernova-q3-split",
+      "date": "2026-10-28",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["electrical_equipment"],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Q3 2026 AI-power earnings split: Vertiv +13% on 61% sales growth, GE Vernova -6% on a $9bn Trench deal",
+      "summary": "On October 28, 2026 Vertiv reported Q3 net sales of $4.313bn (+61%), orders more than doubled, and raised full-year sales guidance by $650m; the stock rose about 13% to $236. GE Vernova the same day beat with adjusted EPS of $4.81, raised guidance, reported a $197bn backlog and doubled its buyback authorization, but fell about 6% (as much as 11% intraday before recovering) as investors balked at the roughly $9bn half-cash, half-debt acquisition of Trench Group that will not close until late 2027. Eaton and Quanta ticked up, showing the trade had become selective about which AI-power balance sheets to own after the previous week's selloff.",
+      "evidence": "VRT +~13% on 2026-10-28 with Q3 net sales $4,313m (+61%) and FY sales guide raised $650m; GEV -6% despite adjusted EPS $4.81 and $197bn backlog.",
+      "sources": [
+        {"title": "GE Vernova falls 6% despite beat, raise and $9B Trench deal; Vertiv soars 13%, Eaton and Quanta tick up (24/7 Wall St., 2026-10-28)", "url": "https://247wallst.com/investing/2026/10/28/ge-vernova-falls-6-despite-beat-raise-and-9b-trench-deal-vertiv-holdings-soars-13-eaton-and-quanta-services-tick-up/"},
+        {"title": "Vertiv Q3 2026 earnings release (SEC 8-K, 2026-10-28)", "url": "https://www.sec.gov/Archives/edgar/data/0001674101/000162828026067707/q32026exhibit991vrt10282026.htm"},
+        {"title": "GE Vernova stock rebounds, AI sell-off gives way to earnings focus (Benzinga)", "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62557401/ge-vernova-stock-rebounds-ai-sell-off-gives-way-to-earnings-focus"}
+      ]
+    },
+    {
+      "id": "elec-2026-bloom-midterm-moratorium-fears",
+      "date": "2026-11-05",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["electrical_equipment"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "election",
+      "title": "Bloom Energy drops 15-16% despite a 900 MW NTT DATA deal as a Democratic Congress and a Texas data-center moratorium pledge hit AI power",
+      "summary": "On Thursday November 5, 2026, two days after Democrats took Congress, Bloom Energy fell about 15-16% even as it announced its largest international deal, a 900 MW agreement with NTT DATA, and behind-the-meter power names sold off on fears that the data-center build-out could stall under new federal scrutiny and state restrictions, with Texas's incoming governor promising a moratorium on new data-center approvals. The move extended the group's post-earnings slide and showed that political risk to siting and interconnection had overtaken order books as the marginal driver.",
+      "evidence": "BE -15% to -16.4% on 2026-11-05 despite a 900 MW NTT DATA agreement.",
+      "sources": [
+        {"title": "Bloom Energy sinks 16% despite 900 MW NTT DATA deal as midterm fears hit AI power stocks (TIKR)", "url": "https://www.tikr.com/blog/bloom-energy-sinks-16-despite-900-mw-ntt-data-deal-as-midterm-fears-hit-ai-power-stocks"},
+        {"title": "Bloom Energy slides 15% amid AI data center concerns (Seeking Alpha)", "url": "https://seekingalpha.com/news/4667142-bloom-energy-slides-15-amid-ai-data-center-concerns"},
+        {"title": "GE Vernova has something Nvidia needs under a Democratic Congress (24/7 Wall St., 2026-11-06)", "url": "https://247wallst.com/investing/2026/11/06/ge-vernova-has-something-nvidia-needs-under-a-democratic-congress/"}
+      ]
+    },
+    {
+      "id": "defense-2025-lockheed-q2-charges",
+      "date": "2025-07-22",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["defense"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Lockheed Martin takes $1.6bn of program charges and falls 11%, its worst day since 2021",
+      "summary": "On July 22, 2025 Lockheed Martin disclosed $1.6bn of program losses plus $169m of other charges, mainly on a classified Skunk Works aeronautics program and helicopter programs for Canada and Turkey, after a review by its new CFO; Q2 profit fell about 80% and 2025 EPS guidance was cut to $21.70-22.00 from $27.00-27.30. Shares plunged nearly 11%, the biggest drop since October 2021, and Truist downgraded the stock. The episode revived fixed-price-contract fears across the primes even as F-35 deliveries continued (50 in the quarter).",
+      "evidence": "LMT -~11% on 2025-07-22; $1.6bn program losses; 2025 EPS guide cut to $21.70-22.00 from $27.00-27.30.",
+      "sources": [
+        {"title": "Lockheed flags $1.6 billion in charges as new CFO digs deep (Bloomberg)", "url": "https://www.bloomberg.com/news/articles/2025-07-22/lockheed-cuts-earnings-outlook-after-booking-program-charges"},
+        {"title": "Lockheed Martin sinks after surprise program losses slash Q2 earnings (Seeking Alpha)", "url": "https://seekingalpha.com/news/4469862-lockheed-martin-sinks-after-surprise-program-losses-slash-q2-earnings"},
+        {"title": "Lockheed Martin shares fell 8% after company cuts earnings outlook (Invezz)", "url": "https://invezz.com/news/2025/07/22/lockheed-martin-shares-fell-8-after-company-cuts-earnings-outlook/"}
+      ]
+    },
+    {
+      "id": "defense-2026-lockheed-q1-miss",
+      "date": "2026-04-23",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["defense"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Lockheed misses on Q1 2026 as F-16 and C-130 problems drag Aeronautics; shares fall 3-5% from the war-rally high",
+      "summary": "Lockheed Martin's Q1 2026 sales of $18.0bn missed forecasts and EPS fell to $6.44 from $7.28 a year earlier (consensus about $6.73) as Aeronautics operating profit dropped 14% on F-16 and C-130 program issues and free cash flow swung to -$291m. Shares fell 4.8-6.3% premarket and closed down about 3-5% on April 23, 2026, extending a slide of roughly 25% from the March 2026 high reached during the Iran-war defense rally even though full-year guidance ($77.5-80.0bn sales, $29.35-30.25 EPS) was reaffirmed.",
+      "evidence": "Q1 2026 EPS $6.44 vs ~$6.73 consensus; FCF -$291m; LMT -3.1% close (up to -6.3% premarket) on 2026-04-23.",
+      "sources": [
+        {"title": "Earnings call transcript: Lockheed Martin misses Q1 2026 EPS and revenue forecasts (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-lockheed-martin-misses-q1-2026-eps-and-revenue-forecasts-93CH-4632962"},
+        {"title": "Why Lockheed Martin (LMT) shares are falling today (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-lockheed-martin-lmt-shares-114923507.html"},
+        {"title": "Lockheed Martin has fallen nearly 25% from its 2026 high (TIKR)", "url": "https://www.tikr.com/blog/lockheed-martin-has-fallen-nearly-25-from-its-2026-high-is-it-finally-time-to-buy"}
+      ]
+    },
+    {
+      "id": "defense-2026-lockheed-rtx-q2-record-backlogs",
+      "date": "2026-07-23",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["defense"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Lockheed rockets 10% and RTX 7% on beat-and-raise quarters; a $35bn THAAD award lifts Lockheed's backlog to $230bn",
+      "summary": "Lockheed Martin reported Q2 2026 sales of $20.1bn (vs $19.37bn expected) and EPS of $7.94 (vs $7.23) on July 23, 2026, with $65bn of new orders including a $35bn multi-year Missile Defense Agency THAAD contract taking backlog to a record $230bn; it raised full-year guidance and the stock rose about 10% to $567.71. RTX, which had also beaten and raised its 2026 EPS outlook to $7.65-7.75 on rearmament demand, gained 7% to $208.48. The quarter marked the turn from the spring drawdown as the Iran-war supplemental and European rearmament converted into booked orders.",
+      "evidence": "LMT +10% to $567.71 and RTX +7% to $208.48 around 2026-07-23; LMT Q2 EPS $7.94 vs $7.23 consensus; backlog $230bn incl. $35bn THAAD award.",
+      "sources": [
+        {"title": "Lockheed Martin rockets 10%, RTX jumps 7% on beat-and-raise quarters and record backlogs (24/7 Wall St., 2026-07-23)", "url": "https://247wallst.com/investing/2026/07/23/lockheed-martin-rockets-10-rtx-jumps-7-on-beat-and-raise-quarters-and-record-backlogs/"},
+        {"title": "Lockheed Martin reports second quarter 2026 financial results (Lockheed Martin IR)", "url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-second-quarter-2026-financial-results/"},
+        {"title": "RTX and Northrop Grumman raise 2026 profit outlooks on military rearmament demand (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/article/rtx-and-northrop-grumman-raise-2026-profit-outlooks-on-military-rearmament-demand-170122722.html"}
+      ]
+    },
+    {
+      "id": "defense-2026-q3-rebound-into-midterms",
+      "date": "2026-10-22",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["defense"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Lockheed's $292bn backlog and second straight guidance raise lift the primes 9% into the midterms",
+      "summary": "On October 22, 2026 Lockheed Martin reported Q3 sales of $20.7bn, EPS of $7.97 (+14%), free cash flow of $3.0bn and a record $292bn backlog (+27% in a quarter, including $52.5bn for the PAC-3 MSE interceptor award), and raised 2026 guidance for the second consecutive quarter; 24/7 Wall St. recorded the stock up 9% with RTX +2% and Northrop +3%. Benzinga put Lockheed up about 26% and Northrop 15% for October as strong Q3 prints reversed a two-month election-jitters slump, while drone makers lagged. The rally set up the November 4 reversal when Democrats swept Congress.",
+      "evidence": "LMT backlog $292.0bn at 2026-09-30 (+27% q/q); LMT +9%, RTX +2%, NOC +3% on 2026-10-22 per 24/7 Wall St.",
+      "sources": [
+        {"title": "Lockheed Martin rises 9% as record backlog lifts outlook; RTX gains 2%, Northrop Grumman advances 3% (24/7 Wall St., 2026-10-22)", "url": "https://247wallst.com/investing/2026/10/22/lockheed-martin-rises-9-as-record-backlog-lifts-outlook-rtx-gains-2-northrop-grumman-advances-3/"},
+        {"title": "Lockheed Martin reports third quarter 2026 financial results (Lockheed Martin IR)", "url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-third-quarter-2026-financial-results"},
+        {"title": "Defense stocks rebound into midterms as drone makers lag (Benzinga)", "url": "https://www.benzinga.com/markets/equities/26/10/62763999/defense-stocks-rebound-into-midterms-as-drone-makers-lag"}
+      ]
+    },
+    {
+      "id": "waste-2025-wm-q3-miss-commodity-prices",
+      "date": "2025-10-27",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["waste"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Waste Management misses Q3 2025 and guides revenue to the low end on recycled-commodity prices",
+      "summary": "After the close on October 27, 2025 Waste Management reported Q3 adjusted EPS of $2.15 against a $2.18 consensus and said full-year revenue would land at the low end of its range because of falling recycled commodity prices and softer healthcare-solutions (Stericycle) revenue, while holding EBITDA and free cash flow guidance. Shares fell 2.4-3.5% in extended trading. The miss capped a 2025 in which the waste group lagged a risk-on tape despite pricing above CPI.",
+      "evidence": "Q3 2025 adjusted EPS $2.15 vs $2.18 Zacks consensus; WM -2.35% to -3.5% after hours on 2025-10-27.",
+      "sources": [
+        {"title": "Waste Management falls as quarterly earnings miss estimates, costs rise (Seeking Alpha)", "url": "https://seekingalpha.com/news/4658480-waste-management-falls-as-quarterly-earnings-miss-estimates-costs-rise"},
+        {"title": "Earnings call transcript: Waste Management Q3 2025 results miss forecasts (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-waste-management-q3-2025-results-miss-forecasts-93CH-4314254"},
+        {"title": "Waste Management Q3 2025 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/823768/000110465925102615/tm2529298d1_ex99-1.htm"}
+      ]
+    },
+    {
+      "id": "waste-2026-waste-connections-q3-second-raise",
+      "date": "2026-10-22",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["waste"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Waste Connections soars about 10% on a 'top to bottom beat' and its second 2026 guidance raise",
+      "summary": "On October 22, 2026 Waste Connections reported Q3 revenue of $2.638bn and adjusted EPS of $1.58 (vs $1.52 expected, $1.44 a year earlier) with a 34% adjusted EBITDA margin and 5.5% core pricing, raised its 2026 outlook for the second time to about $10.09bn of revenue, $3.345bn of EBITDA and at least $1.4bn of free cash flow, and lifted its payout. The stock rose about 10% in the afternoon session toward a 52-week high as investors rotated into defensive compounders during the AI-power selloff.",
+      "evidence": "WCN +~10% on 2026-10-22; Q3 adjusted EPS $1.58 vs $1.52 consensus; 2026 revenue outlook raised to ~$10.09bn.",
+      "sources": [
+        {"title": "Waste Connections soars 10% on raised 2026 outlook after 'another top to bottom beat' (TIKR)", "url": "https://www.tikr.com/blog/waste-connections-soars-10-on-raised-2026-outlook-after-another-top-to-bottom-beat"},
+        {"title": "Waste Connections reports third quarter 2026 results and raises full year outlook (Nasdaq)", "url": "https://www.nasdaq.com/press-release/waste-connections-reports-third-quarter-2026-results-and-raises-full-year-outlook"},
+        {"title": "Why Waste Connections stock is up today (Motley Fool, 2026-10-22)", "url": "https://www.fool.com/investing/2026/10/22/why-waste-connections-stock-is-up-today/"}
+      ]
+    },
+    {
+      "id": "waste-2026-wm-q3-miss-ceo-transition",
+      "date": "2026-10-27",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["waste"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Waste Management slips 3% on a Q3 2026 EPS miss as Republic and Waste Connections raise",
+      "summary": "Waste Management reported Q3 2026 revenue of $6.846bn and adjusted EPS of $2.15, a cent or so short of consensus, and merely affirmed 2026 guidance (revenue and free cash flow at the high end of $26.275-26.475bn and $3.75-3.85bn, EBITDA within $8.15-8.25bn) on October 27, 2026; the stock fell about 3.2% to $228.36 the next session. The muted print contrasted with Waste Connections' raise five days earlier and Republic's guidance raise and $5bn buyback two days later, and came as CEO Jim Fish prepared to hand over to John Morris in January.",
+      "evidence": "Q3 2026 revenue $6,846m, adjusted EPS $2.15 (GAAP $2.05) per 2026-10-27 release; WM -3.16% to $228.36 on 2026-10-28.",
+      "sources": [
+        {"title": "Waste Management Q3 2026 earnings release (SEC 8-K, 2026-10-27)", "url": "https://www.sec.gov/Archives/edgar/data/0000823768/000110465926119188/tm2628322d1_ex99-1.htm"},
+        {"title": "Waste Management earnings analysis: questions answered and next catalysts (Investing.com)", "url": "https://www.investing.com/news/stock-market-news/waste-management-earnings-analysis-questions-answered-and-next-catalysts-93CH-4980282"},
+        {"title": "Waste Management's Q3 2026: beats on revenue (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/waste-management-nyse-wm-q3-205241569.html"}
+      ]
+    },
+    {
+      "id": "lstools-2025-thermo-fisher-worst-is-over",
+      "date": "2025-10-22",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["life_sciences_tools"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Thermo Fisher's Q3 2025 beat and raise: William Blair says 'the worst is over' for tools",
+      "summary": "On October 22, 2025 Thermo Fisher reported Q3 revenue of $11.12bn (+5%, 3% organic) and adjusted EPS of $5.79 (+10%) against a $5.49 consensus and lifted its 2025 revenue outlook to $44.1-44.5bn. With Danaher's report the same week, William Blair argued the prints supported the view that the worst was over for scientific tools after two years of biopharma destocking, NIH cuts and China weakness, while cautioning that the 2026 outlook would set the pace of recovery.",
+      "evidence": "Q3 2025 adjusted EPS $5.79 vs $5.49 consensus; revenue $11.12bn (+5%); 2025 revenue guide raised to $44.1-44.5bn.",
+      "sources": [
+        {"title": "Thermo Fisher Scientific reports third quarter 2025 results (Thermo Fisher IR)", "url": "https://ir.thermofisher.com/investors/news-events/news/news-details/2025/Thermo-Fisher-Scientific-Reports-Third-Quarter-2025-Results/default.aspx"},
+        {"title": "Thermo Fisher's upbeat earnings suggest worst is over for scientific tools sector, analyst says (Sahm Capital, 2025-10-22)", "url": "https://www.sahmcapital.com/news/content/thermo-fishers-upbeat-earnings-suggest-worst-is-over-for-scientific-tools-sector-analyst-says-2025-10-22"},
+        {"title": "Thermo Fisher Q3 2025 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/97745/000009774525000150/q32025earnings8kex99_1.htm"}
+      ]
+    },
+    {
+      "id": "lstools-2026-danaher-bioprocessing-orders",
+      "date": "2026-04-21",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["life_sciences_tools"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Danaher's bioprocessing equipment orders rise 30%, the first growth in nearly two years",
+      "summary": "On April 21, 2026 Danaher reported Q1 revenue of about $6.0bn with core growth of just 0.5%, but said bioprocessing equipment orders rose more than 30% year over year, the first year-over-year increase in almost two years, and raised the top end of 2026 adjusted EPS guidance to $8.35-8.55 from $8.35-8.50 while keeping core growth at 3-6%. The order inflection was the data point the tools group had waited for since the post-COVID destocking began, and it preceded Thermo Fisher's 10% growth quarter in July.",
+      "evidence": "Q1 2026 bioprocessing equipment orders +30% y/y (first growth in ~2 years); 2026 adjusted EPS guide top end raised to $8.55.",
+      "sources": [
+        {"title": "Danaher Q1 2026 earnings call: lifts 2026 EPS guidance on 30% bioprocessing orders surge (BigGo Finance)", "url": "https://finance.biggo.com/news/US_DHR_2026-04-21"},
+        {"title": "Thermo Fisher (TMO) vs Danaher (DHR): which life sciences stock looks better positioned? (Yahoo Finance)", "url": "https://finance.yahoo.com/healthcare/articles/thermo-fisher-tmo-vs-danaher-000131616.html"}
+      ]
+    },
+    {
+      "id": "lstools-2026-thermo-fisher-q2-surge",
+      "date": "2026-07-23",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["life_sciences_tools"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Thermo Fisher jumps about 9% as pharma spending lifts growth to 10% and 2026 guidance rises",
+      "summary": "Thermo Fisher reported Q2 2026 revenue of $11.99bn (+10%, 5% organic) and adjusted EPS of $6.03 against a $5.71 consensus on July 23, 2026, and raised 2026 guidance to $47.4-48.1bn of revenue and $24.93-25.33 of adjusted EPS (9-11% growth). Shares rose about 9% premarket and closed up 8.7% at $572.32, the largest earnings-day move for the tools bellwether in years, confirming the bioprocessing and pharma-services recovery flagged by Danaher's April order inflection.",
+      "evidence": "TMO +8.71% to $572.32 on 2026-07-23; Q2 adjusted EPS $6.03 vs $5.71 consensus; 2026 adjusted EPS guide $24.93-25.33.",
+      "sources": [
+        {"title": "Thermo Fisher Scientific reports second quarter 2026 results (Nasdaq, 2026-07-23)", "url": "https://www.nasdaq.com/press-release/thermo-fisher-scientific-reports-second-quarter-2026-results-2026-07-23"},
+        {"title": "Thermo Fisher raises 2026 outlook after 10% growth in Q2 (Medical Device Network)", "url": "https://www.medicaldevice-network.com/news/thermo-fisher-raises-2026-outlook-after-10-growth-in-q2/"},
+        {"title": "Earnings call transcript: Thermo Fisher tops Q2 2026 estimates and lifts outlook (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-thermo-fisher-tops-q2-2026-estimates-and-lifts-outlook-93CH-4809188"}
+      ]
+    },
+    {
+      "id": "lstools-2026-danaher-q3-new-ceo",
+      "date": "2026-10-21",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["life_sciences_tools"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Danaher beats Q3 2026 with 5.5% core growth and raises EPS guidance; shares dip then bounce",
+      "summary": "On October 21, 2026 Danaher reported Q3 adjusted EPS of $2.11 against a $1.91 FactSet mean on revenue of $6.6bn, with core growth accelerating to 5.5%, and raised 2026 adjusted EPS guidance to $8.57-8.62 from $8.45-8.60 while keeping core growth at 4-5%; its new CEO pledged 'unambiguous share gain'. Shares fell about 3.7% premarket on a respiratory-testing headwind before bouncing higher during the session, a muted reaction for a tools group that had already re-rated on the bioprocessing recovery.",
+      "evidence": "Q3 2026 adjusted EPS $2.11 vs $1.91 FactSet mean; 2026 adjusted EPS guide raised to $8.57-8.62; DHR -3.67% premarket on 2026-10-21 before recovering.",
+      "sources": [
+        {"title": "Earnings call transcript: Danaher tops Q3 2026 estimates but shares fall premarket (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-danaher-tops-q3-2026-estimates-but-shares-fall-premarket-93CH-4963206"},
+        {"title": "Why Danaher stock bounced higher today (Motley Fool, 2026-10-21)", "url": "https://www.fool.com/investing/2026/10/21/why-danaher-stock-bounced-higher-today/"},
+        {"title": "Danaher 3Q net up sharply as company boosts 2026 adjusted EPS view (MarketScreener)", "url": "https://www.marketscreener.com/news/danaher-3q-net-up-sharply-as-company-boosts-2026-adjusted-eps-view-ce785cd8d08eff24"}
+      ]
+    },
+    {
+      "id": "meddev-2026-boston-scientific-penumbra",
+      "date": "2026-01-15",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["medical_devices"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Boston Scientific buys Penumbra for $14.5bn, a 19% premium, and its shares fall about 4%",
+      "summary": "On January 15, 2026 Boston Scientific agreed to acquire thrombectomy specialist Penumbra at $374 a share in cash or 3.8721 BSX shares (about 73% cash), an enterprise value of roughly $14.5bn and a 19% premium to Penumbra's prior close, funding the $11bn cash portion with cash and new debt. Boston Scientific shares fell nearly 4% premarket and about 6% over the following days as investors questioned the price for a decelerating vascular franchise, while Penumbra rose toward the offer. The deal turned out to be the start of a difficult year for the acquirer, which cut 2026 guidance three times.",
+      "evidence": "Deal announced 2026-01-15 at $374 per Penumbra share (~$14.5bn EV, 19% premium); BSX -~4% premarket.",
+      "sources": [
+        {"title": "Boston Scientific to acquire Penumbra for $14.5B (MedTech Dive)", "url": "https://www.medtechdive.com/news/boston-scientific-acquire-penumbra/809734/"},
+        {"title": "Boston Scientific to snap up thrombectomy specialist Penumbra in deal valued at $14.5B (Fierce Biotech)", "url": "https://www.fiercebiotech.com/medtech/boston-scientific-snap-thrombectomy-specialist-penumbra-deal-valued-145b"},
+        {"title": "Boston Scientific announces agreement to acquire Penumbra (SEC 8-K exhibit)", "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787126000034/ss5822817_ex9901.htm"}
+      ]
+    },
+    {
+      "id": "meddev-2026-boston-scientific-q1-guidance-cut",
+      "date": "2026-04-22",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["medical_devices"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Boston Scientific cuts 2026 organic growth to 6.5-8% from 10-11% on electrophysiology competition; stock drops about 12% to a 52-week low",
+      "summary": "With Q1 2026 results on April 22, 2026 (sales $5.203bn, +9.4% organic, adjusted EPS $0.80), Boston Scientific slashed full-year organic growth guidance to 6.5-8% from 10-11%, citing competitive erosion in electrophysiology (Medtronic's pulsed-field ablation), slower stand-alone Watchman procedures and urology underperformance. Shares fell as much as 11-12% to a 52-week low. The cut broke the med-tech sector's highest-multiple growth story and anchored a 2026 in which devices became health care's laggard group, with BSX down more than 50% year to date by the autumn.",
+      "evidence": "2026 organic growth guide cut to 6.5-8% from 10-11% on 2026-04-22; BSX -11% to -12% intraday to a 52-week low.",
+      "sources": [
+        {"title": "Boston Scientific Q1 2026 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000885725/000088572526000031/q12026earningsrelease.htm"},
+        {"title": "Boston Scientific cuts 2026 organic growth guidance, shares fall 12% (Rallies.ai)", "url": "https://rallies.ai/news/boston-scientific-cuts-2026-organic-growth-guidance-shares-fall-12"},
+        {"title": "BSX Q1 2026 earnings transcript (Motley Fool, 2026-04-22)", "url": "https://www.fool.com/earnings/call-transcripts/2026/04/22/bsx-q1-2026-earnings-transcript/"}
+      ]
+    },
+    {
+      "id": "meddev-2026-intuitive-q3-us-slowdown",
+      "date": "2026-10-20",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["medical_devices"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Intuitive Surgical grows revenue 22% and places 546 systems, but US da Vinci procedure growth slows to 10%",
+      "summary": "Intuitive Surgical's Q3 2026 revenue rose 22% to $3.05bn with worldwide procedures up about 15% and 546 da Vinci placements (427 a year earlier), and non-GAAP EPS of $3.00 versus $2.40, while GAAP EPS fell to $1.49 on a proposed $450m antitrust settlement. US da Vinci procedure growth decelerated to 10% from 12% the prior quarter and management narrowed 2026 procedure growth guidance to 14-15%. The quarter kept the robotics leader as the relative winner in a device group where Boston Scientific was cutting guidance for a third time.",
+      "evidence": "Q3 2026 revenue $3.05bn (+22%); US da Vinci procedure growth 10% vs 20% outside the US; 2026 procedure growth guide 14-15%.",
+      "sources": [
+        {"title": "Intuitive announces third quarter earnings (Intuitive IR)", "url": "https://isrg.intuitive.com/news-releases/news-release-details/intuitive-announces-third-quarter-earnings-6"},
+        {"title": "Intuitive Surgical (ISRG) Q3 2026 earnings call transcript (Motley Fool, 2026-10-21)", "url": "https://www.fool.com/earnings/call-transcripts/2026/10/21/intuitive-surgical-isrg-q3-2026-earnings-call-transcript/"},
+        {"title": "Intuitive Surgical reports strong Q3 growth as $450 million settlement adds pressure (MedReps)", "url": "https://medreps.com/news/intuitive-surgical-q3-2026-growth-settlement/"}
+      ]
+    },
+    {
+      "id": "meddev-2026-boston-scientific-third-cut-cyberattack",
+      "date": "2026-10-28",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["medical_devices"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Boston Scientific's third 2026 guidance cut: an August cyberattack costs $150m and Q4 sales are guided down",
+      "summary": "On October 28, 2026 Boston Scientific reported Q3 revenue of $5.14bn (+1.5%) after a cyberattack that began on August 25 shut down ordering, manufacturing and shipping and cost an estimated $150m of sales, and cut 2026 guidance for the third time this year: reported revenue growth to 4.25% (from 5.5-6.5%), adjusted EPS to $3.16-3.18 (from $3.28-3.32), with Q4 sales guided to decline 1-3%. Shares fell nearly 7% to $42.02 at the open (as much as 12% intraday by other accounts). The company had already cut in April and July on electrophysiology and Watchman weakness, so the business was slowing before the attack.",
+      "evidence": "2026 adjusted EPS guide cut to $3.16-3.18 from $3.28-3.32 on 2026-10-28; Q3 revenue $5.14bn (+1.5%); BSX -~7% to $42.02 at the open.",
+      "sources": [
+        {"title": "Boston Scientific cuts 2026 guidance for third time this year (MedTech Dive, 2026-10-28)", "url": "https://www.medtechdive.com/news/boston-scientific-cuts-2026-guidance-for-third-time-this-year/873037/"},
+        {"title": "Boston Scientific sinks 12% as cyberattack forces guidance cut (TIKR)", "url": "https://www.tikr.com/blog/boston-scientific-sinks-12-as-cyberattack-forces-guidance-cut-a-challenging-year"},
+        {"title": "BSX Q3 results reset growth expectations as 2027 outlook stays weak (Yahoo Finance)", "url": "https://finance.yahoo.com/healthcare/articles/bsx-q3-results-reset-growth-135500158.html"}
+      ]
+    },
+    {
+      "id": "biotech-smid-2025-pfizer-metsera-bidding-war",
+      "date": "2025-11-07",
+      "end_date": "2025-11-08",
+      "sector": "healthcare",
+      "subindustries": ["biotech_smid"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Pfizer wins the $10bn Metsera bidding war against Novo Nordisk",
+      "summary": "On Friday November 7, 2025 Metsera accepted a sweetened Pfizer offer of up to $86.25 a share ($65.60 cash plus a CVR worth up to $20.65), about $10bn, citing US antitrust risk in Novo Nordisk's rival bid of up to $86.20, and Novo withdrew the next day after FTC pressure and a Pfizer lawsuit. Metsera stock rose about 8% after hours to above $77, and the first open bidding war between two large pharmas for a pre-revenue obesity biotech showed how aggressively big pharma would pay for SMID-cap assets ahead of the 2026-2030 patent cliff, a signal the XBI rallied on into 2026.",
+      "evidence": "Pfizer final offer up to $86.25 per Metsera share (cash $65.60 + CVR $20.65) accepted 2025-11-07; Novo exited 2025-11-08.",
+      "sources": [
+        {"title": "Pfizer wins $10 billion bidding war for Metsera as Novo Nordisk exits (PharmaLive)", "url": "https://www.pharmalive.com/pfizer-wins-10-billion-bidding-war-for-metsera-as-novo-nordisk-exits/"},
+        {"title": "Pfizer wins Metsera bidding war over Novo with final $10B price tag (BioSpace)", "url": "https://www.biospace.com/business/pfizer-wins-metsera-bidding-war-over-novo-with-final-9b-price-tag"},
+        {"title": "Pfizer-Novo Nordisk bidding war escalates: 5 updates (Becker's)", "url": "https://www.beckershospitalreview.com/pharmacy/pfizer-novo-nordisk-bidding-war-escalates-5-updates/"}
+      ]
+    },
+    {
+      "id": "biotech-smid-2026-biogen-apellis",
+      "date": "2026-03-31",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["biotech_smid"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Biogen pays a 140% premium for Apellis: $5.6bn deal marks the floor of the spring 2026 biotech selloff",
+      "summary": "On March 31, 2026 Biogen agreed to buy Apellis for $41 a share in cash plus a CVR of up to $4 tied to Syfovre sales, about $5.6bn, an 86% premium to the 90-day VWAP and 35% above the 52-week high; Apellis jumped roughly 135-140% and Biogen fell 3-7%. The deal landed near the XBI's March low and was one of the takeouts that drove the ETF up about 34% from March to August, as large-caps with cash paid record premiums (median public-target premium 37.8% in 2026) for commercial-stage SMID assets.",
+      "evidence": "Apellis +135.4% on 2026-03-31 on a $41 cash + $4 CVR offer (~$5.6bn); Biogen -3% to -7%.",
+      "sources": [
+        {"title": "Biogen to acquire immunology biotech Apellis for $5.6 billion (STAT)", "url": "https://www.statnews.com/2026/03/31/biogen-acquisition-apellis-immunology/"},
+        {"title": "Biogen to buy Apellis Pharmaceuticals for $5.6 billion in rare disease push (CNBC)", "url": "https://www.cnbc.com/2026/03/31/biogen-to-buy-apellis-pharmaceuticals.html"},
+        {"title": "APLS stock soars 140% today (Stocktwits)", "url": "https://stocktwits.com/news-articles/markets/equity/apls-stock-soars-after-biogen-acquire-5-6b-deal/cZEPMW3RIVe"}
+      ]
+    },
+    {
+      "id": "biotech-smid-2026-xbi-peak-and-fade",
+      "date": "2026-08-19",
+      "end_date": "2026-10-31",
+      "sector": "healthcare",
+      "subindustries": ["biotech_smid"],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "XBI peaks near $170, more than double a year earlier, then fades on readouts, rates and midterm risk",
+      "summary": "The SPDR S&P Biotech ETF closed at $169.55 on August 19, 2026 (52-week high $169.89), having more than doubled in twelve months and risen about 34% from March on a record M&A wave (biopharma deal value about $199bn for 2026, SMID takeouts roughly $143bn over a year) and lower rates. The gains then stalled: XBI lost about 3.5% in September and traded in the mid-140s to high-150s in October as a run of disappointing clinical readouts, rising interest rates after the Fed's September hike, a slowdown in public-company acquisitions and apprehension about the midterms weighed; it closed at $159.10 on November 4. Removal of acquired winners from the index also changed its composition.",
+      "evidence": "XBI closed $169.55 on 2026-08-19 (52-week high $169.89, low $106.30); September 2026 -3.5%; close $159.10 on 2026-11-04.",
+      "sources": [
+        {"title": "XBI historical stock price data (StockAnalysis)", "url": "https://stockanalysis.com/etf/xbi/history/"},
+        {"title": "This week in charts: what's driving biotech's recent pullback? (BioPharma Dive)", "url": "https://www.biopharmadive.com/news/biotech-charts-xbi-private-public-merger-acquisition-deals/832398/"},
+        {"title": "Blockbusters lift 2026 biopharma deal value to record $199B (BioWorld)", "url": "https://www.bioworld.com/articles/734411-blockbusters-lift-2026-biopharma-deal-value-to-record-199b"}
+      ]
+    },
+    {
+      "id": "biotech-smid-2026-astrazeneca-rhythm-bid",
+      "date": "2026-11-04",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["biotech_smid"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Rhythm Pharmaceuticals jumps 28% on reports of a $10bn AstraZeneca approach",
+      "summary": "On November 4, 2026 Rhythm Pharmaceuticals closed up 28% at $110.68 (market value about $7.64bn), its best day in nearly 16 months, after reports that AstraZeneca had made a non-binding roughly $10bn approach worth up to $134 a share including milestones, following a $124-a-share bid the Wall Street Journal said was made in October. Neither company confirmed the talks and at least three analyst teams suggested a bidding war could follow. The move showed big-pharma appetite for commercial-stage obesity and rare-disease SMID names was intact even as XBI faded from its August peak and the midterm result rattled the broader tape.",
+      "evidence": "RYTM +28% to $110.68 on 2026-11-04 on reports of an AstraZeneca proposal of up to $134/share incl. milestones ($124 upfront per WSJ).",
+      "sources": [
+        {"title": "AstraZeneca weighs roughly $10 billion takeover of Rhythm Pharmaceuticals, sending shares up 28% (BigGo Finance, 2026-11-04)", "url": "https://finance.biggo.com/news/66633248-fdcc-42d9-ad4f-0cdc834e6943"},
+        {"title": "AstraZeneca said to offer $10B to acquire Rhythm, analysts whisper of a bidding war (Fierce Pharma)", "url": "https://www.fiercepharma.com/pharma/astrazeneca-offers-10b-acquire-rhythm-analysts-whisper-bidding-war"},
+        {"title": "Coveted metabolic gem Rhythm reportedly gets $10B offer from AstraZeneca (BioSpace)", "url": "https://www.biospace.com/business/coveted-metabolic-gem-rhythm-reportedly-gets-10b-offer-from-astrazeneca"}
+      ]
+    },
+    {
+      "id": "facilities-2025-hca-q3-record-high",
+      "date": "2025-10-24",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "HCA raises 2025 guidance on 18.5% EBITDA growth and hits a 52-week high",
+      "summary": "On October 24, 2025 HCA Healthcare reported Q3 EPS of $6.96 (vs $4.88 a year earlier), adjusted EBITDA up 18.5% to $3.87bn, same-facility admissions +2.1% and revenue per equivalent admission +6.6%, and raised 2025 EPS guidance to $27.00-28.00 from $25.50-27.00 (revenue $75.0-76.5bn). Shares rose about 3.9% to a 52-week high near $457 as the company bought back $2.5bn of stock in the quarter. The print showed hospital volumes and Medicaid supplemental payments still strong ahead of the 2026 ACA subsidy expiry that would later hit the group.",
+      "evidence": "HCA +3.9% to ~$457 (52-week high) on 2025-10-24; 2025 EPS guide raised to $27.00-28.00; Q3 adjusted EBITDA +18.5% to $3.87bn.",
+      "sources": [
+        {"title": "HCA Healthcare shares jump on strong Q3 results, raised guidance (Investing.com)", "url": "https://ng.investing.com/news/earnings/hca-healthcare-shares-jump-on-strong-q3-results-raised-guidance-2163080"},
+        {"title": "HCA Healthcare raises 2025 guidance (Nasdaq)", "url": "https://www.nasdaq.com/articles/hca-healthcare-raises-2025-guidance"},
+        {"title": "HCA Healthcare reports third quarter 2025 results (Business Wire, 2025-10-24)", "url": "https://www.businesswire.com/news/home/20251024490832/en"}
+      ]
+    },
+    {
+      "id": "facilities-2026-hca-exchange-coverage-cut",
+      "date": "2026-07-14",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "HCA pre-announces a 2026 guidance cut as ACA exchange losses turn patients uninsured one-for-one; hospitals sell off",
+      "summary": "On July 14, 2026 HCA previewed Q2 results and cut 2026 guidance (EPS to $28.70-30.50 from $29.10-31.50; adjusted EBITDA to $15.4-16.1bn from $15.55-16.45bn), saying a payer-mix shift cost about $400m of pre-tax income in the quarter: patients losing exchange coverage after the enhanced subsidies expired were becoming uninsured roughly one-for-one rather than the 80-85% assumed, lifting the full-year exchange headwind to $1.0-1.2bn from $600-900m. Shares fell about 7% (nearly 10% premarket) and dragged Tenet, Universal Health and Community Health lower; Yahoo tallied a 14% decline over the following days. When HCA printed the full quarter on July 24 the stock rose 3.6%.",
+      "evidence": "HCA 2026 EPS guide cut to $28.70-30.50 from $29.10-31.50 on 2026-07-14; $400m Q2 payer-mix hit; HCA -6.7% to -10% on the day.",
+      "sources": [
+        {"title": "HCA Healthcare previews second quarter 2026 results (HCA IR)", "url": "https://investor.hcahealthcare.com/news/news-details/2026/HCA-Healthcare-Previews-Second-Quarter-2026-Results/default.aspx"},
+        {"title": "HCA cuts 2026 earnings forecast on insurance coverage losses (Healthcare Dive)", "url": "https://www.healthcaredive.com/news/hca-cuts-2026-earnings-ACA-coverage-losses/825147/"},
+        {"title": "HCA stock falls on uninsured warning despite earnings beat (TheStreet)", "url": "https://www.thestreet.com/investing/stocks/hca-healthcare-stock-earnings-coverage-loss-guidance-cut"}
+      ]
+    },
+    {
+      "id": "facilities-2026-tenet-q2-blowout",
+      "date": "2026-07-23",
+      "end_date": "2026-07-24",
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Tenet's ambulatory-led Q2 beat by 44% and $2bn buyback send the stock up about 15%",
+      "summary": "Tenet Healthcare reported Q2 2026 adjusted EPS of $6.12 against a $4.26 consensus on revenue of $5.63bn ($5.43bn expected) after the close on July 23, 2026, raised its 2026 adjusted EBITDA outlook to $4.83-5.03bn and added $2.0bn to its buyback authorization. Shares jumped 14.6% premarket on July 24. Nine days after HCA's exchange-driven guidance cut, Tenet's USPI surgery-center mix showed the provider group was splitting between acute-care operators exposed to uninsured volumes and ambulatory platforms that were not.",
+      "evidence": "Tenet Q2 2026 adjusted EPS $6.12 vs $4.26 consensus; THC +14.6% premarket on 2026-07-24; 2026 adjusted EBITDA guide $4.83-5.03bn.",
+      "sources": [
+        {"title": "Tenet reports strong second quarter 2026 results; raises 2026 financial outlook (Tenet IR)", "url": "https://investor.tenethealth.com/press-releases/press-release-details/2026/Tenet-Reports-Strong-Second-Quarter-2026-Results-Raises-2026-Financial-Outlook/default.aspx"},
+        {"title": "Tenet Healthcare shares jump after second-quarter earnings and guidance top forecasts (Yahoo Finance)", "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-shares-jump-second-103508861.html"},
+        {"title": "Tenet Healthcare tops Q2 earnings estimates, raises 2026 outlook (Yahoo Finance)", "url": "https://finance.yahoo.com/healthcare/articles/tenet-healthcare-tops-q2-earnings-191100509.html"}
+      ]
+    },
+    {
+      "id": "facilities-2026-hca-q3-upper-half",
+      "date": "2026-10-27",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "HCA beats Q3 2026 and points to the upper half of its cut guidance; Tenet slips 2.6%",
+      "summary": "On October 27, 2026 HCA reported Q3 EPS of $7.22 against a $6.65 consensus on revenue of $19.85bn (+3.6%) and said full-year results would land in the upper half of the ranges set on July 14, stabilising the hospital group after the summer's exchange-coverage shock. Tenet closed down 2.6% at $262.05 the same day, so the relief was HCA-specific rather than a group re-rating, with investors still weighing uninsured volumes and 2027 site-neutral and Medicaid policy under a Democratic Congress.",
+      "evidence": "HCA Q3 2026 EPS $7.22 vs $6.65 consensus; revenue $19.85bn; THC -2.57% to $262.05 on 2026-10-27.",
+      "sources": [
+        {"title": "HCA Healthcare Q3 2026 results (SEC 8-K, 2026-10-27)", "url": "https://www.sec.gov/Archives/edgar/data/0000860730/000119312526432665/hca-ex99_1.htm"},
+        {"title": "HCA Healthcare (HCA) earnings date and reports (MarketBeat)", "url": "https://www.marketbeat.com/stocks/NYSE/HCA/earnings/"},
+        {"title": "Tenet Healthcare (THC) stock price: Oct 27 close $262.05 (HeyGoTrade)", "url": "https://www.heygotrade.com/en/us-stock/thc/"}
+      ]
+    },
+    {
+      "id": "hctech-2026-hims-q1-loss",
+      "date": "2026-05-11",
+      "end_date": "2026-05-12",
+      "sector": "healthcare",
+      "subindustries": ["healthcare_technology"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Hims & Hers swings to a $92m loss as the weight-loss pivot crushes margins; stock falls 12-14%",
+      "summary": "Hims & Hers reported Q1 2026 revenue of $608.1m (+3.8%, vs $616.8m expected) and a net loss of $92.1m, or -$0.40 a share against a $0.04 profit expected, with gross margin down to 65% from 73% and adjusted EBITDA halved to $44.3m, as it pivoted its US weight-loss business away from compounded GLP-1s after the Novo breakup. Shares fell 12-14% to about $25 on May 12 even though 2026 revenue guidance was raised to $2.8-3.0bn; total liabilities had grown 431% to $1.82bn on about $1bn of converts, and the CEO had sold 436,000 shares before the print.",
+      "evidence": "Q1 2026 EPS -$0.40 vs +$0.04 consensus; revenue $608.1m vs $616.8m; HIMS -14.1% to $25.03 on 2026-05-12.",
+      "sources": [
+        {"title": "Hims & Hers Health falls as Q1 results miss on both lines (Seeking Alpha)", "url": "https://seekingalpha.com/news/4590895-hims-and-hers-health-falls-q1-results-miss-both-lines"},
+        {"title": "Why Hims & Hers Health stock just crashed (Motley Fool, 2026-05-12)", "url": "https://www.fool.com/investing/2026/05/12/why-hims-hers-health-stock-just-crashed/"},
+        {"title": "Hims & Hers shares plummet on first quarter earnings miss (Proactive)", "url": "https://www.proactiveinvestors.com/companies/news/1092145/hims-hers-shares-plummet-on-first-quarter-earnings-miss-1092145.html"}
+      ]
+    },
+    {
+      "id": "hctech-2026-tempus-first-profit-personalis",
+      "date": "2026-07-30",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_technology"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Tempus AI posts its first GAAP profit and raises guidance after agreeing to buy the rest of Personalis",
+      "summary": "On July 30, 2026 Tempus AI reported Q2 revenue of $382.5m (+22%), oncology volume +31%, data-licensing revenue +36% and net income of $5.6m, its first quarterly GAAP profit, and raised 2026 revenue guidance to $1.595-1.605bn; the stock rose 6.6% to $44.28 in the session near the low end of its 52-week range before giving back about 3% after hours on dilution worries over the July 20 agreement to buy the Personalis shares it did not own at $16.25 a share (about $1.5bn net). The print started a rerating that took TEM above $70 by November.",
+      "evidence": "Q2 2026 revenue $382.5m (+22%), net income $5.6m (first GAAP profit); TEM +6.57% to $44.28 on 2026-07-30; 2026 revenue guide $1.595-1.605bn.",
+      "sources": [
+        {"title": "Tempus reports second quarter 2026 results (Tempus IR, 2026-07-30)", "url": "https://investors.tempus.com/files/doc_news/2026/07/Tempus-Reports-Second-Quarter-2026-Results.pdf"},
+        {"title": "Tempus Q2 2026 slides: first profit, FDA win drive growth outlook (Investing.com)", "url": "https://www.investing.com/news/company-news/tempus-q2-2026-slides-first-profit-fda-win-drive-growth-outlook-93CH-4826329"},
+        {"title": "Tempus AI Personalis agreement (SEC 8-K, 2026-07-20)", "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526308469/d124162dex991.htm"}
+      ]
+    },
+    {
+      "id": "hctech-2026-hims-q2-margin-miss",
+      "date": "2026-08-10",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_technology"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Hims & Hers grows revenue 38% to $753m but misses on EPS; shares fall 6% after hours",
+      "summary": "Hims & Hers reported Q2 2026 revenue of about $753m, up roughly 38-40% and ahead of estimates, and raised full-year revenue guidance on August 10, 2026, but missed on EPS as margins stayed compressed by the weight-loss transition; shares fell 6.3% after hours to $29.77. The telehealth leader had become a revenue-growth story without the profitability investors had paid for in 2025, with the stock still down more than 50% from its 52-week high of $44.",
+      "evidence": "Q2 2026 revenue ~$753m (+38-40%), EPS miss; HIMS -6.3% after hours to $29.77 on 2026-08-10.",
+      "sources": [
+        {"title": "Earnings call transcript: Hims & Hers Q2 2026 revenue beats, EPS misses (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-hims--hers-q2-2026-revenue-beats-eps-misses-93CH-4850552"},
+        {"title": "Hims & Hers Q2 2026 earnings release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001773751/000177375126000161/hims-20260630x8xkearningsr.htm"}
+      ]
+    },
+    {
+      "id": "hctech-2026-tempus-q3-ebitda-positive",
+      "date": "2026-11-02",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_technology"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Tempus turns adjusted-EBITDA positive and clears the Personalis deal; stock holds near $71 after a 22% year",
+      "summary": "On November 2, 2026 Tempus AI reported Q3 revenue of $411.5m (+23%), adjusted EPS of $0.07 against $0.01 expected and its first quarter of positive adjusted EBITDA ($25.6m), raised full-year revenue guidance and said regulators had cleared the Personalis acquisition ahead of a November 30 shareholder vote. Shares edged down 1.35% to $71.25 after a 31% six-month run that left the stock up 22% for 2026. The report confirmed that AI-enabled diagnostics, not telehealth, had become the profitable end of health-care technology.",
+      "evidence": "Q3 2026 revenue $411.5m (+23%), adjusted EBITDA +$25.6m (first positive quarter); TEM -1.35% to $71.25 on 2026-11-02.",
+      "sources": [
+        {"title": "Earnings call transcript: Tempus AI beats Q3 2026 EPS forecast, lifts outlook (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-tempus-ai-beats-q3-2026-eps-forecast-lifts-outlook-93CH-4992054"},
+        {"title": "Tempus AI Q3 2026 results (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001717115/000119312526442619/tem-ex99_1.htm"}
+      ]
+    },
+    {
+      "id": "housing-2025-fed-cut-lennar-miss",
+      "date": "2025-09-17",
+      "end_date": "2025-09-18",
+      "sector": "consumer_discretionary",
+      "subindustries": ["housing"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "The Fed's first 2025 cut caps a 16% summer homebuilder rally; Lennar misses the next day",
+      "summary": "Homebuilders rallied into the Federal Reserve's 25bp cut on September 17, 2025, with the SPDR Homebuilders ETF (XHB) up more than 16% from the end of June as D.R. Horton, Lennar, KB Home, Toll and Pulte priced in lower mortgage rates. On September 18 Lennar reported a fiscal Q3 miss and gave no improvement in outlook despite falling rates, and shares slid about 3.5% after hours, an early sign that incentives rather than demand were driving volume and that the rate cut alone would not fix builder margins.",
+      "evidence": "Fed cut 25bp on 2025-09-17; XHB +16% from end-June to mid-September 2025; LEN -~3.5% after hours on 2025-09-18 after a Q3 miss.",
+      "sources": [
+        {"title": "Berkshire-backed Lennar slides after weak Q3 earnings (MarketBeat)", "url": "https://www.marketbeat.com/articles/berkshire-backed-lennar-slides-after-weak-q3-earnings/"},
+        {"title": "Housing giant Lennar looks to rate cuts to stimulate demand after earnings miss (Yahoo Finance)", "url": "https://finance.yahoo.com/news/housing-giant-lennar-looks-rate-143908929.html"},
+        {"title": "As Fed rate cut bets surge, Wednesday's homebuilder rally signals housing market optimism (Benzinga)", "url": "https://benzinga.com/trading-ideas/movers/25/08/47104468/as-fed-rate-cut-bets-surge-wednesdays-homebuilder-rally-signals-housing-market-optimism"}
+      ]
+    },
+    {
+      "id": "housing-2026-lennar-q1-margin-collapse",
+      "date": "2026-03-12",
+      "end_date": "2026-03-31",
+      "sector": "consumer_discretionary",
+      "subindustries": ["housing"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Lennar's gross margin falls to 15.2% on 14% incentives; the stock loses 24% in March 2026",
+      "summary": "Lennar's fiscal Q1 2026 (reported March 12, 2026) showed net earnings of $229m, or $0.93 a share, versus $1.96 a year earlier, revenue down 13% to about $6.6bn, deliveries down to 16,863 and a home-sales gross margin of 15.2% against 18.7%, as incentives of roughly 14% of sales price and an average selling price of $374,000 were needed to hold orders up 1%. Shares fell 2% after hours and management called 15.2% the low point, but the stock lost 24.1% over March as the Iran-war rate spike and the geopolitical shock hit affordability; builders would not recover until the November midterm rally.",
+      "evidence": "Fiscal Q1 2026 EPS $0.93 vs $1.96 y/y; gross margin 15.2% vs 18.7%; LEN -24.1% in March 2026 (S&P Global Market Intelligence).",
+      "sources": [
+        {"title": "Lennar reports first quarter 2026 results (Lennar newsroom, 2026-03-12)", "url": "https://newsroom.lennar.com/2026-03-12-Lennar-Reports-First-Quarter-2026-Results"},
+        {"title": "Why Lennar Corporation stock fell 24.1% in March (Motley Fool, 2026-04-06)", "url": "https://www.fool.com/investing/2026/04/06/why-lennar-corporation-stock-fell-241-in-march/"},
+        {"title": "Lennar Q1: revenue falls 13% as deliveries dip and shares slip after earnings (Alpha Spread)", "url": "https://www.alphaspread.com/market-news/earnings/lennar-q1-revenue-falls-13-as-deliveries-dip-and-shares-slip-after-earnings"}
+      ]
+    },
+    {
+      "id": "housing-2026-dr-horton-fq4-orders-down",
+      "date": "2026-10-29",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["housing"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "D.R. Horton misses as orders fall 7% and guides fiscal Q1 revenue well below consensus; Raymond James downgrades",
+      "summary": "D.R. Horton reported fiscal Q4 2026 EPS of $2.67 against about $3.01-3.03 expected on October 29, 2026 (revenue $9.4bn beat), with net income down 18% to $741.8m including $91.4m of rental-segment impairments, net sales orders down 7% to 18,619 homes (-9% in value) and fiscal Q1 revenue guided to $5.9-6.4bn versus a $6.96bn consensus as mortgage rates above 7% after the Fed's September hike squeezed affordability. Shares fell about 4.2% despite an 11% dividend increase and a $3bn buyback plan, and Raymond James cut the stock to Underperform.",
+      "evidence": "Fiscal Q4 2026 EPS $2.67 vs ~$3.01 consensus; net orders -7% to 18,619; DHI -4.2% on 2026-10-29.",
+      "sources": [
+        {"title": "D.R. Horton reports Q4 earnings below estimates despite $9.4 billion revenue, shares fall 4.2% (Yahoo Finance)", "url": "https://finance.yahoo.com/real-estate/articles/d-r-horton-reports-q4-145619903.html"},
+        {"title": "D.R. Horton reports fourth quarter and fiscal 2026 earnings (Business Wire, 2026-10-28)", "url": "https://www.businesswire.com/news/home/20261028498589/en/D.R.-Horton-Inc.-Americas-Builder-Reports-Fourth-Quarter-and-Fiscal-2026-Earnings-and-Increases-Quarterly-Dividend-to-$0.50-Per-Share"},
+        {"title": "Raymond James downgrades D.R. Horton stock rating on valuation concerns (Investing.com)", "url": "https://investing.com/news/analyst-ratings/raymond-james-downgrades-dr-horton-stock-rating-on-valuation-concerns-93CH-4993860"}
+      ]
+    },
+    {
+      "id": "housing-2026-midterm-affordability-rally",
+      "date": "2026-11-04",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["housing"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "election",
+      "title": "Democratic sweep sparks an affordability trade: Lennar +8%, Home Depot up as much as 17% intraday, yields dip",
+      "summary": "On November 4, 2026, the day after Democrats took both chambers, housing stocks rallied on bets that federal affordability measures and lower rates were coming: Lennar rose more than 8% and D.R. Horton and PulteGroup about 8% at midday, Home Depot jumped as much as 17% before closing up about 3-5%, Lowe's rose 7%, and Treasury yields fell. By the close D.R. Horton was up 4.9% and Pulte 4.4%. Analysts doubted new housing legislation would pass and fundamentals were still weak (Horton's orders -7%, Lennar's margin 15.8%), making this a positioning reversal in the year's most-shorted consumer group rather than a demand signal.",
+      "evidence": "On 2026-11-04: LEN +8% intraday, DHI +4.9% and PHM +4.4% at the close, HD up to +17% intraday (closing ~+3-5%), LOW +7%.",
+      "sources": [
+        {"title": "Home Depot soars 7% as housing stocks rally on midterm election results (TIKR)", "url": "https://www.tikr.com/blog/home-depot-soars-7-as-housing-stocks-rally-on-midterm-election-results"},
+        {"title": "Housing stocks rally following midterm elections, Treasury yields dip lower (AOL)", "url": "https://www.aol.com/articles/housing-stocks-rally-following-midterm-171937000.html"},
+        {"title": "Homebuilder stocks jump after midterms: Lennar, D.R. Horton, PulteGroup gain (IndexBox)", "url": "https://www.indexbox.io/blog/homebuilder-and-housing-supplier-shares-surge-after-midterm-elections-on-affordability-hopes/"}
+      ]
+    },
+    {
+      "id": "internet-retail-2025-de-minimis-ends",
+      "date": "2025-08-29",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["internet_retail"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Global de minimis exemption ends: Etsy falls 15% in a week, eBay 7%, as sub-$800 parcels become dutiable",
+      "summary": "At 12:01 a.m. on August 29, 2025 the US ended the de minimis exemption for all countries, making every parcel import dutiable regardless of value after the China-specific cutoff on May 2 had already cut Temu's US daily active users by 52% and Shein's by 25%. Cross-border marketplaces took the hit: Etsy fell about 15% over the five sessions into the deadline and eBay 7%, PDD lost about 4% on the week, while Shopify slipped 1%; Cantor called the order the removal of 'a key channel for low value cross-border shipments'. Exempt shipments had been worth about $65bn a year, around 2% of US imports.",
+      "evidence": "De minimis ended for all origins at 12:01 a.m. 2025-08-29; ETSY -15% and EBAY -7% over the prior five sessions; Temu US DAU -52% after the May China cutoff.",
+      "sources": [
+        {"title": "Etsy, eBay, Shein: de minimis tariff exemption ends, adding charges (Fortune, 2025-08-29)", "url": "https://fortune.com/2025/08/29/etsy-ebay-shein-de-minimis-tariff-exemption-ends-adding-charges"},
+        {"title": "When de minimis rules ended, ecommerce changed (Digital Commerce 360)", "url": "https://www.digitalcommerce360.com/2025/09/04/when-de-minimis-rules-ended-ecommerce-changed/"},
+        {"title": "Explainer: how the end of de minimis exemption will impact U.S. shoppers and businesses (Reuters via Tiger)", "url": "https://www.itiger.com/hans/news/2563979260"}
+      ]
+    },
+    {
+      "id": "internet-retail-2026-amazon-q2-aws-reacceleration",
+      "date": "2026-07-30",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["internet_retail"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Amazon jumps about 9% after hours on AWS strength in Q2 2026",
+      "summary": "Amazon's Q2 2026 report on July 30, 2026 sent the stock up roughly 9% in extended trading as AWS growth re-accelerated and the cloud business carried results, although EPS was flattered by a gain on its Anthropic stake. The move was the biggest post-earnings pop for the internet-retail bellwether since 2024 and masked a retail and advertising business that was growing more slowly; three months later the same AI capex that powered AWS would produce the first back-to-back negative free-cash-flow quarters and a sharp reversal.",
+      "evidence": "AMZN +~9% after hours on 2026-07-30 on AWS strength; EPS included an Anthropic-related gain.",
+      "sources": [
+        {"title": "Amazon (AMZN) Q2 earnings report 2026 (CNBC, 2026-07-30)", "url": "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html"},
+        {"title": "Amazon (AMZN) Q2 2026 earnings: +9% after-hours jump on AWS strength (Tickeron)", "url": "https://tickeron.com/blogs/amazon-amzn-q2-2026-earnings-9-after-hours-jump-on-aws-strength-15172/"}
+      ]
+    },
+    {
+      "id": "internet-retail-2026-amazon-q3-negative-fcf",
+      "date": "2026-10-29",
+      "end_date": "2026-10-30",
+      "sector": "consumer_discretionary",
+      "subindustries": ["internet_retail"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Amazon posts $42bn of negative trailing free cash flow and misses on EPS; shares drop 6-7%",
+      "summary": "Amazon's Q3 2026 revenue of $201.9bn and EPS of $1.89 (vs $1.96 expected) came in slightly short on October 29, 2026 even as operating income rose 61% and AWS grew 39.3% to $46bn; trailing-twelve-month free cash flow was -$42.4bn, the second straight negative quarter, as 2026 capex was held at $220bn. Shares fell 4.25% in the regular session to $243.79 and another 6-7% in extended and premarket trading toward $226, with the retail and advertising units flagged as weak spots. The print, a week after Alphabet's own cash-flow shock, made AI capex the dominant driver for the internet-retail bucket.",
+      "evidence": "Q3 2026 EPS $1.89 vs $1.96 consensus; TTM free cash flow -$42.4bn; AMZN -6% to -7% in extended/premarket trading after 2026-10-29.",
+      "sources": [
+        {"title": "Amazon posts negative free cash flow of $42.4 billion, holds 2026 capex unchanged (CNBC, 2026-10-29)", "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html"},
+        {"title": "Earnings call transcript: Amazon Q3 2026 misses EPS as shares fall after hours (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-amazon-q3-2026-misses-eps-as-shares-fall-after-hours-93CH-4985489"},
+        {"title": "Amazon stock fell after earnings. Should investors be worried? (Motley Fool, 2026-11-04)", "url": "https://www.fool.com/investing/2026/11/04/amazon-stock-fell-after-earnings-should-investors/"}
+      ]
+    },
+    {
+      "id": "autos-2025-gm-q3-record-close",
+      "date": "2025-10-21",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["autos"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "GM soars 15% to a record close as truck demand dulls tariff pain and guidance is raised",
+      "summary": "On October 21, 2025 General Motors raised its 2025 adjusted EBIT outlook to $12-13bn from $10-12.5bn, cut its estimated tariff cost to $3.5-4.5bn from as much as $5bn and reported Q3 operating profit of $3.4bn on $48.6bn of revenue on strong truck and SUV demand. The stock rose $8.62, or 15%, to a record close of $66.62, its biggest gain in five years, and lifted Ford with it; GM was near $70 by the end of the month. Six months after pulling guidance over tariffs, the print marked the moment Detroit's tariff absorption stopped being a 2025 bear case.",
+      "evidence": "GM +15% to a record close of $66.62 on 2025-10-21; 2025 EBIT-adjusted guide raised to $12-13bn; tariff cost estimate cut to $3.5-4.5bn.",
+      "sources": [
+        {"title": "General Motors third quarter earnings: stock surge, beats expectations (Fortune, 2025-10-21)", "url": "https://fortune.com/2025/10/21/general-motors-third-quarter-earnings-stock-surge-beats-expectations/"},
+        {"title": "GM soars most in five years as truck demand spurs outlook boost (Bloomberg Government)", "url": "https://news.bgov.com/international-trade/gm-raises-outlook-as-strong-truck-demand-dulls-tariff-pain"},
+        {"title": "Why did GM stock suddenly jump 20% higher (Motley Fool, 2025-10-30)", "url": "https://www.fool.com/investing/2025/10/30/why-did-gm-stock-suddenly-jump-20-higher"}
+      ]
+    },
+    {
+      "id": "autos-2026-tesla-q1-capex-shock",
+      "date": "2026-04-22",
+      "end_date": "2026-04-23",
+      "sector": "consumer_discretionary",
+      "subindustries": ["autos"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Tesla beats on Q1 2026 but a $25bn-plus capex plan and near-zero auto profit send the stock down about 4%",
+      "summary": "Tesla reported Q1 2026 revenue of $22.39bn (+16%) and non-GAAP EPS of $0.41 (+52%) after the close on April 22, 2026, with margins at a five-quarter high but deliveries still falling (US sales -8.4%) and almost nothing earned on cars; the CFO guided 2026 capex to 'over $25 billion', up from $20bn, with free cash flow expected to be negative for the rest of the year. Shares fell about 3.6% to $373.60 on April 23. The reaction showed the robotaxi/AI narrative being asked to fund itself while the auto business stalled.",
+      "evidence": "Q1 2026 revenue $22.39bn, non-GAAP EPS $0.41; 2026 capex guide raised to >$25bn; TSLA -3.56% to $373.60 on 2026-04-23.",
+      "sources": [
+        {"title": "Tesla stock dives on news that it earned next to nothing on cars in Q1, and plans to spend $25 billion in capex anyway (Fortune, 2026-04-23)", "url": "https://fortune.com/2026/04/23/tesla-stock-price-earnings-call-outlook/"},
+        {"title": "Tesla Q1 2026 earnings beat so why did the stock fall 3.56%? (TIKR)", "url": "https://www.tikr.com/blog/tesla-q1-2026-earnings-beat-so-why-did-the-stock-fall-3-56"},
+        {"title": "Tesla Q1 2026 update (SEC 8-K, 2026-04-22)", "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026026551/tsla-20260422.htm"}
+      ]
+    },
+    {
+      "id": "autos-2026-gm-ford-ieepa-refunds",
+      "date": "2026-04-28",
+      "end_date": "2026-04-29",
+      "sector": "consumer_discretionary",
+      "subindustries": ["autos"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "IEEPA tariff refunds flow to Detroit: GM and Ford each raise 2026 guidance by about $500m",
+      "summary": "On April 28, 2026 GM beat Q1 estimates and raised 2026 guidance, including a favorable adjustment of about $0.5bn from refunds of IEEPA tariffs struck down by the Supreme Court in February; shares closed up 1.3% at $78.95. Ford followed on April 29 with its own $500m guidance increase, which its CFO attributed to underlying performance with further refunds excluded, though the stock fell 1.3% and another 2% after hours to about $12. The refunds quantified the February ruling for autos, the sector most exposed to the Mexico/Canada/Japan/EU vehicle tariffs, while Section 232 auto tariffs remained in place.",
+      "evidence": "GM 2026 guidance raised incl. ~$0.5bn IEEPA tariff refund adjustment on 2026-04-28 (GM +1.3% to $78.95); Ford guidance +$500m on 2026-04-29.",
+      "sources": [
+        {"title": "GM raises 2026 guidance amid $500 million tariff refund, topping Wall Street's earnings expectations (CNBC, 2026-04-28)", "url": "https://www.cnbc.com/2026/04/28/general-motors-gm-earnings-q1-2026.html"},
+        {"title": "Ford's guidance hike reflects more than tariff refund, CFO says (Detroit News, 2026-04-29)", "url": "https://www.detroitnews.com/story/business/autos/ford/2026/04/29/ford-first-quarter-earnings-tariff-refund-trump-guidance-wall-street/89856352007/"},
+        {"title": "GM raises 2026 outlook after tariff ruling (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/gm-raises-2026-outlook-tariff-160824281.html"}
+      ]
+    },
+    {
+      "id": "autos-2026-tesla-q3-robotaxi-pushout",
+      "date": "2026-10-21",
+      "end_date": "2026-10-22",
+      "sector": "consumer_discretionary",
+      "subindustries": ["autos"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Tesla trims capex to $20bn and pushes robotaxi and Optimus monetization to 2027; GM narrows guidance",
+      "summary": "Tesla's Q3 2026 results beat on EPS but the stock fell 3.1% on October 22, 2026 after management cut the 2026 capex plan to $20bn from $25bn, pushed profit contribution from robotaxi and Optimus to the second half of 2027 and beyond (cumulative unsupervised robotaxi miles rose eightfold to nearly 2 million), disclosed more than $400m of quarterly tariff costs on imported parts and flagged about $2bn of commodity, memory and logistics headwinds for 2027 at a forward multiple above 200x. GM the previous day narrowed 2026 EBIT-adjusted guidance to $14.5-15.5bn with tariff costs at the low end of $2.5-3.5bn, while analysts questioned 2027 pricing.",
+      "evidence": "TSLA -3.08% on 2026-10-22; 2026 capex cut to $20bn from $25bn; robotaxi/Optimus monetization pushed to 2H27+; GM 2026 EBIT-adjusted guide narrowed to $14.5-15.5bn on 2026-10-20.",
+      "sources": [
+        {"title": "Tesla shares slip despite solid Q3 results as robot monetization pushed to 2027 (BigGo Finance)", "url": "https://finance.biggo.com/news/a2d5a057-fc9c-4267-9f38-c4969f9e5819"},
+        {"title": "Tesla vs. Ford: which stock has an edge after Q3 earnings? (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-vs-ford-stock-edge-143900506.html"},
+        {"title": "General Motors (GM) earnings Q3 2026 (CNBC, 2026-10-20)", "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"}
+      ]
+    },
+    {
+      "id": "travel-2026-mcdonalds-investor-day",
+      "date": "2026-09-23",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["travel_leisure_restaurants"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "McDonald's NEXT: an $8.5bn franchisee rescue plan sends the stock down 4.8%, its worst day since March 2020",
+      "summary": "At its September 23, 2026 investor day McDonald's unveiled 'McDonald's NEXT', about $8.5bn of rent relief and capital support to franchisees through 2036 (roughly $5bn by 2030), pushed its 50,000-restaurant target from 2027 to 2028 and warned of flat traffic after Q2 US comps of just 0.8% with negative guest counts. Shares closed down 4.81% at $238.32 on three times normal volume, the worst session since March 2020, taking the stock to its lowest since 2022 and about 29% below its March high. The plan confirmed that low-income traffic erosion had reached the largest QSR, not just Chipotle and casual dining.",
+      "evidence": "MCD -4.81% to $238.32 on 2026-09-23 (worst day since March 2020); $8.5bn franchisee support through 2036; 50,000-unit target moved to 2028.",
+      "sources": [
+        {"title": "McDonald's shares fall as $8.5 billion franchisee plan raises spending concerns (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonald-shares-fall-8-5-150000011.html"},
+        {"title": "McDonald's stock hits lowest level since 2022 as CEO warns of flat traffic at investor day (TIKR)", "url": "https://www.tikr.com/blog/mcdonalds-stock-lowest-since-2022-investor-day-next-plan"},
+        {"title": "McDonald's stock is down 29%, its comeback plan could make things worse (Forbes, 2026-09-25)", "url": "https://www.forbes.com/sites/jimosman/2026/09/25/mcdonalds-stock-fell-29-its-turnaround-plan-could-make-things-worse/"}
+      ]
+    },
+    {
+      "id": "travel-2026-royal-caribbean-q3-raise",
+      "date": "2026-10-27",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["travel_leisure_restaurants"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Royal Caribbean rises about 6% on a Q3 beat and a 2026 EPS outlook of $17.85-17.95",
+      "summary": "On October 27, 2026 Royal Caribbean reported Q3 adjusted EPS of $6.57 against a $6.38 consensus on revenue of $5.6bn (+9%) and raised full-year adjusted EPS guidance to $17.85-17.95, and the stock rose about 6.3% in early trading (up to 7.5% intraday) despite Q4 guidance that trailed estimates. With Carnival having also beaten ($1.43 vs $1.35) but carrying a $150m unhedged fuel hit, the print showed cruise demand absorbing the 2026 oil shock far better than airlines, which were cutting guidance on the same jet-fuel costs.",
+      "evidence": "RCL +6.3% early on 2026-10-27; Q3 adjusted EPS $6.57 vs $6.38 consensus; 2026 adjusted EPS guide $17.85-17.95.",
+      "sources": [
+        {"title": "Royal Caribbean shares rise 6.3% as Q3 earnings beat estimates and 2026 profit guidance increases (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/royal-caribbean-shares-rise-6-142904290.html"},
+        {"title": "Royal Caribbean Group reports third quarter results above expectations and raises full year guidance (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/royal-caribbean-group-reports-third-quarter-results-above-expectations-and-raises-full-year-guidance-302920572.html"},
+        {"title": "Earnings call transcript: Royal Caribbean tops profit view in Q3 2026, shares jump (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-royal-caribbean-tops-profit-view-in-q3-2026-shares-jump-93CH-4976286"}
+      ]
+    },
+    {
+      "id": "travel-2026-cruise-oil-drop-rally",
+      "date": "2026-11-02",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["travel_leisure_restaurants"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "commodity",
+      "title": "Cruise lines rally 4-5% as oil prices drop; Carnival's unhedged fuel bill makes it the high-beta play",
+      "summary": "On November 2, 2026 Carnival and Royal Caribbean rose about 5% and Norwegian 4% as crude fell, repeating an October 20 session in which the three gained about 3% while energy shares slipped. Carnival does not hedge fuel and had built a $150m fuel impact into guidance, so it trades as the most direct beneficiary of any retreat in the 2026 oil shock; RCL was up about 17% year to date at $321.77 while CCL was roughly flat near $30, showing how fuel sensitivity had split the group.",
+      "evidence": "On 2026-11-02: CCL +~5%, RCL +~5%, NCLH +~4% as oil prices fell; CCL ~+0.7% YTD vs RCL +17% YTD.",
+      "sources": [
+        {"title": "Carnival and Royal Caribbean climb 5%, Norwegian Cruise Line rises 4% as oil prices drop (24/7 Wall St., 2026-11-02)", "url": "https://247wallst.com/investing/2026/11/02/carnival-and-royal-caribbean-climb-5-norwegian-cruise-line-rises-4-as-oil-prices-drop/"},
+        {"title": "Cruise stocks rally while energy shares slip: Norwegian, Royal Caribbean and Carnival rise 3% (24/7 Wall St., 2026-10-20)", "url": "https://247wallst.com/investing/2026/10/20/cruise-stocks-rally-while-energy-shares-slip-norwegian-royal-caribbean-and-carnival-rise-3/"}
+      ]
+    },
+    {
+      "id": "travel-2026-mcdonalds-q3-relief-rally",
+      "date": "2026-11-04",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["travel_leisure_restaurants"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "McDonald's rises 5.6% on an EPS beat despite its first US comp decline in over a year; Chipotle +4%, Starbucks +3%",
+      "summary": "On November 4, 2026 McDonald's reported Q3 adjusted EPS of $3.57 against $3.38 expected (+11%) even as US same-store sales fell for the first time in more than a year; shares jumped 5.6% as the beat and the post-investor-day washout outweighed the traffic data, and restaurants rallied as a group with Chipotle up 4% and Starbucks 3% to $107.69. The rotation into consumer names on the day after the midterms, with yields falling, added a macro bid; Starbucks was up about 25% for 2026 on its turnaround while McDonald's was still down.",
+      "evidence": "MCD +5.6% on 2026-11-04; Q3 adjusted EPS $3.57 vs $3.38 consensus; CMG +4%, SBUX +3% to $107.69.",
+      "sources": [
+        {"title": "McDonald's rises 5% as earnings beat outweighs U.S. sales dip; Chipotle climbs 4%, Starbucks gains 3% (24/7 Wall St., 2026-11-04)", "url": "https://247wallst.com/investing/2026/11/04/mcdonalds-rises-5-as-earnings-beat-outweighs-u-s-sales-dip-chipotle-climbs-4-starbucks-gains-3/"},
+        {"title": "McDonald's (MCD) shares skyrocket, what you need to know (StockStory via FinancialContent, 2026-11-04)", "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-11-4-mcdonalds-mcd-shares-skyrocket-what-you-need-to-know"},
+        {"title": "McDonald's is down 4% and Starbucks is up 25% in 2026 (Barchart)", "url": "https://www.barchart.com/story/news/1657472/mcdonalds-is-down-4-and-starbucks-is-up-25-in-2026-the-better-dividend-stock-might-surprise-you"}
+      ]
+    },
+    {
+      "id": "apparel-2025-nike-turnaround-rally",
+      "date": "2025-06-26",
+      "end_date": "2025-06-27",
+      "sector": "consumer_discretionary",
+      "subindustries": ["apparel_luxury"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Nike jumps 15% as a 'better than feared' quarter marks the peak of the turnaround drag despite a $1bn tariff bill",
+      "summary": "Nike's fiscal Q4 2025 results on June 26, 2025 showed revenue of $11.1bn, down 12% but above the $10.72bn consensus, and EPS of $0.14 versus $0.12 expected; management said the quarter was the peak of the financial drag from CEO Elliott Hill's 'Win Now' reset and that tariffs would add about $1bn of cost in fiscal 2026, to be offset by 'surgical' price increases and shifting US-bound sourcing out of China to a high-single-digit share by May 2026. Shares surged about 15% on June 27, the stock's best day in years, lifting the whole footwear and apparel complex that had been sold on Vietnam and China tariff exposure.",
+      "evidence": "NKE +15% on 2025-06-27; fiscal Q4 2025 revenue $11.1bn vs $10.72bn consensus, EPS $0.14 vs $0.12; ~$1bn fiscal-2026 tariff cost estimate.",
+      "sources": [
+        {"title": "Why Nike stock is skyrocketing today (Motley Fool, 2025-06-27)", "url": "https://www.fool.com/investing/2025/06/27/why-nike-stock-is-skyrocketing-today"},
+        {"title": "Nike shares rally as turnaround takes shape (RTE, 2025-06-27)", "url": "https://www.rte.ie/news/business/2025/0627/1520651-nike-shares-rally-as-turnaround-takes-shape"},
+        {"title": "Nike jumps 18% after Q4 beat and signs turnaround headwinds are easing (Financial Modeling Prep)", "url": "https://site.financialmodelingprep.com/market-news/fmp-nike-jumps-18-after-q4-beat-and-signs-turnaround-headwinds-are-easing"}
+      ]
+    },
+    {
+      "id": "apparel-2026-nike-q3-china-warning",
+      "date": "2026-03-31",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["apparel_luxury"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Nike guides fiscal Q4 sales down 2-4% and China down 20%; shares fall 8-9% after hours",
+      "summary": "Nike beat on fiscal Q3 2026 (revenue $11.28bn flat, EPS $0.35 vs $0.28) on March 31, 2026 but said Q4 sales would fall 2-4% against expectations of a 1.9% rise, that Greater China sales would drop about 20% in the current quarter and that sales would decline by a low-single-digit rate through the end of calendar 2026, with gross margin down 130bp to 40.2% on North American tariffs. Shares fell more than 8% in extended trading (8.7% at the Frankfurt open), resetting the turnaround timeline that the June 2025 rally had priced.",
+      "evidence": "Fiscal Q3 2026 EPS $0.35 vs $0.28; Q4 sales guided -2% to -4% vs +1.9% consensus; NKE -8% to -9% after hours on 2026-03-31.",
+      "sources": [
+        {"title": "Nike (NKE) earnings Q3 2026 (CNBC, 2026-03-31)", "url": "https://www.cnbc.com/2026/03/31/nike-nke-earnings-q3-2026.html"},
+        {"title": "The Swoosh seeks support: Nike investors eye rebound after 2026 earnings turbulence (FinancialContent, 2026-04-01)", "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-1-the-swoosh-seeks-support-nike-investors-eye-rebound-after-2026-earnings-turbulence"}
+      ]
+    },
+    {
+      "id": "apparel-2026-lululemon-q2-plunge",
+      "date": "2026-09-03",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["apparel_luxury"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Lululemon plunges 20% as comps fall 9% and a $134.5m tariff refund masks margin pressure",
+      "summary": "Lululemon's fiscal Q2 2026 results on September 3, 2026 showed revenue down 4% and comparable sales down 9%, with diluted EPS of $2.92 (vs $3.10 a year earlier) including $0.86 from a $134.5m refund of IEEPA tariffs; full-year EPS guidance was cut to $9.48-9.73. Shares fell about 20% in premarket trading, leaving the stock down roughly 48% for 2026 at an 8x multiple. Nike's own fiscal Q1 miss four weeks later confirmed that brand heat, not tariffs, had become the apparel group's problem.",
+      "evidence": "LULU -20% premarket on 2026-09-03; Q2 comparable sales -9%; FY26 EPS guide cut to $9.48-9.73; $134.5m tariff refund added $0.86 to EPS.",
+      "sources": [
+        {"title": "Lululemon stock plunges 20% on disappointing earnings and outlook (CNBC, 2026-09-03)", "url": "https://www.cnbc.com/2026/09/03/lululemon-lulu-q2-2026-earnings.html"},
+        {"title": "lululemon athletica inc. announces second quarter fiscal 2026 results (lululemon)", "url": "https://corporate.lululemon.com/newsroom/press-releases/2026/09-03-2026-210528733"},
+        {"title": "LULU Q2 earnings show tariff refunds but demand remains under pressure (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/lulu-q2-earnings-show-tariff-153000058.html"}
+      ]
+    },
+    {
+      "id": "apparel-2026-nike-13-year-low",
+      "date": "2026-10-01",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["apparel_luxury"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Nike hits a 13-year low after guiding fiscal 2027 revenue down high-single digits and starting a cost overhaul",
+      "summary": "On October 1, 2026 Nike reported fiscal Q1 2027 EPS of $0.48, ahead of estimates, but revenue of about $11.2bn fell short and the company said fiscal 2027 revenue would decline by a high-single-digit percentage as it cut guidance and launched a cost overhaul. Shares fell 6.2% after hours to $32.96 (as much as 9% by some accounts), the lowest since September 2013, after a roughly 43% year-to-date decline. The print, after Lululemon's 20% drop in September, cemented apparel and footwear as 2026's worst consumer group even after the Supreme Court tariff ruling had removed the IEEPA cost.",
+      "evidence": "NKE -6.24% after hours to $32.96 on 2026-10-01, lowest since September 2013; fiscal 2027 revenue guided down high-single digits.",
+      "sources": [
+        {"title": "Nike earnings: stock sinks nearly 4% to 13-year low as revenue falls short (Forbes, 2026-10-01)", "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/10/01/nike-shares-hit-new-13-year-low-after-q1-revenue-falls-short-of-expectations/"},
+        {"title": "Nike cuts guidance as sales slide and a cost overhaul begins (Forbes, 2026-10-01)", "url": "https://www.forbes.com/sites/jimosman/2026/10/01/nike-stocks-turnaround-just-became-a-25-billion-retreat/"},
+        {"title": "Earnings call transcript: Nike posts Q1 2026 EPS beat, shares sink on weak sales (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nike-posts-q1-2026-eps-beat-shares-sink-on-weak-sales-93CH-4928594"}
+      ]
+    },
+    {
+      "id": "specialty-retail-2026-tjx-q1-raise",
+      "date": "2026-05-20",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["specialty_retail"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "TJX posts 6% comps and raises its fiscal 2027 outlook as off-price takes share from tariff-hit full-price retail",
+      "summary": "TJX reported fiscal Q1 2027 (quarter to early May 2026) comparable sales up 6% and diluted EPS of $1.19 on May 20, 2026 and raised its full-year outlook, confirming that the trade-down and the flood of excess inventory from tariff-disrupted brands were accruing to off-price. Ross Stores followed a day later with 17% comps. The pair's results set up the year's clearest specialty-retail divergence: off-price and auto parts compounding while mall apparel and department stores fell.",
+      "evidence": "TJX fiscal Q1 2027 comparable sales +6%, diluted EPS $1.19, full-year FY27 outlook raised (release 2026-05-20).",
+      "sources": [
+        {"title": "TJX Q1 fiscal 2027 earnings press release (SEC 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000109198/000010919826000023/tjxq1fy27earningspressrele.htm"},
+        {"title": "TJX (TJX) Q1 earnings and revenues surpass estimates (Yahoo Finance / Zacks)", "url": "https://finance.yahoo.com/markets/stocks/articles/tjx-tjx-q1-earnings-revenues-124002275.html"},
+        {"title": "TJX Companies: the retail stock that actually benefits from tariffs and inflation (Motley Fool, 2026-01-15)", "url": "https://www.fool.com/investing/2026/01/15/tjx-the-retail-stock-that-benefits-from-tariffs/"}
+      ]
+    },
+    {
+      "id": "specialty-retail-2026-ross-record-comps",
+      "date": "2026-05-21",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["specialty_retail"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Ross Stores' comps jump 17%, EPS beats guidance by 25% and the full-year comp outlook doubles",
+      "summary": "On May 21, 2026 Ross Stores reported fiscal Q1 comparable-store sales up 17% (flat a year earlier), total sales up 21% to $6.01bn and EPS of $2.02 (+37%) against guidance of $1.60-1.67 and a $1.73 consensus, and raised its fiscal 2026 comp outlook to 6-7% from 3-4% and EPS to $7.50-7.74; shares rose about 6% after hours. Tax refunds, BNPL and tariff-driven excess inventory from full-price retailers combined into the strongest off-price quarter on record, and Ross raised again in August ($8.61-8.77) even as the stock dipped 2.4% on that print.",
+      "evidence": "Fiscal Q1 2026 comparable sales +17%, EPS $2.02 vs $1.60-1.67 guidance; ROST +~6% after hours on 2026-05-21; FY26 comp guide raised to 6-7%.",
+      "sources": [
+        {"title": "Ross Stores reports robust first quarter sales and earnings results, significantly exceeding guidance (Ross IR)", "url": "https://investors.rossstores.com/news-releases/news-release-details/ross-stores-reports-robust-first-quarter-sales-and-earnings"},
+        {"title": "Ross Stores Q1 2026 earnings beat guidance, stock rises (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/ross-stores-q1-2026-earnings-120825086.html"},
+        {"title": "Earnings call transcript: Ross Stores tops Q2 2026 estimates, shares jump after hours (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ross-stores-tops-q2-2026-estimates-shares-jump-after-hours-93CH-4870582"}
+      ]
+    },
+    {
+      "id": "specialty-retail-2026-burlington-q2-slip",
+      "date": "2026-08-27",
+      "end_date": null,
+      "sector": "consumer_discretionary",
+      "subindustries": ["specialty_retail"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Burlington beats on EPS but comps slow to 2% and shares slip; off-price passes tariff refunds to prices",
+      "summary": "Burlington reported fiscal Q2 2026 adjusted EPS of $2.37 against $2.17 expected on August 27, 2026, but revenue of about $3.0bn missed slightly and comparable sales slowed to 2% from 5% a year earlier; shares fell about 2.2% to $307.22 and the stock had lost nearly 40% over three months by late summer. Management said it would use IEEPA tariff refunds to lower prices, a reminder that the off-price share gains of the spring were partly a one-off inventory windfall rather than a permanent margin step-up.",
+      "evidence": "Fiscal Q2 2026 adjusted EPS $2.37 vs $2.17 consensus; comparable sales +2% vs +5% y/y; BURL -2.16% to $307.22 on 2026-08-27.",
+      "sources": [
+        {"title": "Earnings call transcript: Burlington tops Q2 2026 profit forecasts, shares slip (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-burlington-tops-q2-2026-profit-forecasts-shares-slip-93CH-4879615"},
+        {"title": "Burlington Stores Q2 2026 earnings: tariff refunds to lower prices (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/burlington-stores-q2-2026-earnings-123742994.html"},
+        {"title": "Bear of the day: Burlington Stores (Zacks via TradingView)", "url": "https://www.tradingview.com/news/zacks:be242e5fd094b:0-bear-of-the-day-burlington-stores-burl/"}
+      ]
+    },
+    {
+      "id": "specialty-retail-2026-autozone-fq4-tariff-refund",
+      "date": "2026-09-22",
+      "end_date": "2026-09-23",
+      "sector": "consumer_discretionary",
+      "subindustries": ["specialty_retail"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "AutoZone's EPS rises 15% to $56.05 with $100m of tariff refunds in gross margin; stock up 3%",
+      "summary": "AutoZone reported fiscal Q4 2026 EPS of $56.05 (+15.1%, vs $53.84 expected) on September 22, 2026 with same-store sales up 1.5% in constant currency; tariff refunds added about 145bp (roughly $100m) to gross margin, so underlying growth was far smaller. Shares rose more than 3% the next day after a 12-month stretch in which the stock had lost about 22%, as the aging-fleet auto-parts trade re-rated on cheaper multiples while O'Reilly and AutoZone's DIY customers stayed under affordability pressure.",
+      "evidence": "Fiscal Q4 2026 EPS $56.05 vs $53.84 consensus; same-store sales +1.5% (constant currency); AZO +~3% on 2026-09-23.",
+      "sources": [
+        {"title": "Is AutoZone a buy after its latest earnings report? (Motley Fool, 2026-09-23)", "url": "https://www.fool.com/investing/2026/09/23/is-autozone-a-buy-after-its-latest-earnings-report/"},
+        {"title": "What could lift AutoZone stock after its fall? (Trefis, 2026-10-21)", "url": "https://www.trefis.com/stock/azo/articles/619671/what-could-lift-autozone-stock-after-its-fall/2026-10-21"}
+      ]
+    },
+    {
+      "id": "staples-retail-2026-target-q2-tariff-refund-turnaround",
+      "date": "2026-08-19",
+      "end_date": null,
+      "sector": "consumer_staples",
+      "subindustries": ["staples_retail"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Target's traffic turns positive (+3.6%) and a $994m tariff refund lifts guidance, but the stock slides after a 60%-plus year",
+      "summary": "On August 19, 2026 Target reported Q2 comparable sales up 3.8% against a 2.4% estimate with traffic up 3.6% after multiple quarters of declines, digital comps up 8.7% and a $994m pre-tax benefit from IEEPA tariff refunds, and raised full-year adjusted EPS guidance to $9.90-10.90 (about $1.65 of it refund-related) and sales growth to about 5%. The stock slid despite the beat because the turnaround under CEO Michael Fiddelke had already driven a 60-78% year-to-date rally, and Guggenheim said the contrarian stage of the story had run its course. Target's rotation gain came at Walmart's expense, with WMT down 5% year to date at the time.",
+      "evidence": "Q2 2026 comparable sales +3.8% vs +2.4% consensus; traffic +3.6%; $994m tariff refund benefit; FY adjusted EPS guide raised to $9.90-10.90; TGT fell on the day after a ~60%+ YTD run.",
+      "sources": [
+        {"title": "Target (TGT) Q2 2026 earnings (CNBC, 2026-08-19)", "url": "https://www.cnbc.com/2026/08/19/target-tgt-q2-2026-earnings.html"},
+        {"title": "Target Q2 2026 earnings beat: sales up 5.3%, guidance raised (Quartz)", "url": "https://qz.com/target-earnings-sales-beat-full-year-guidance-raised-081926"},
+        {"title": "Target has surged in 2026, Wall Street may be ready to hit pause (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/target-surged-2026-wall-street-111800019.html"}
+      ]
+    },
+    {
+      "id": "staples-retail-2026-walmart-q2-9pct-drop",
+      "date": "2026-08-20",
+      "end_date": null,
+      "sector": "consumer_staples",
+      "subindustries": ["staples_retail"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Walmart falls 9% on a beat as comps and a below-consensus fiscal 2027 EPS raise disappoint",
+      "summary": "Walmart reported fiscal Q2 2027 adjusted EPS of $0.81 against $0.74 and revenue up 5.9% to $187.94bn on August 20, 2026, and raised fiscal 2027 guidance to $2.80-2.87 of adjusted EPS (from $2.75-2.85) and 4-5% sales growth, but the new EPS range sat below the $2.89 consensus and comparable sales and Q3 guidance (sales +3-3.75%, EPS $0.62-0.64) disappointed; CFO John David Rainey said Q2 tariff refunds were being reinvested. Shares closed about 9% lower, the worst earnings day for the staples-retail leader in years and a sharp contrast with Target's turnaround print the day before.",
+      "evidence": "WMT closed ~-9% on 2026-08-20; adjusted EPS $0.81 vs $0.74; FY27 adjusted EPS guide $2.80-2.87 vs $2.89 consensus.",
+      "sources": [
+        {"title": "Walmart (WMT) Q2 2027 earnings (CNBC, 2026-08-20)", "url": "https://www.cnbc.com/2026/08/20/walmart-wmt-q2-2027-earnings.html"},
+        {"title": "Walmart Q2 2027 earnings call transcript (MarketBeat)", "url": "https://www.marketbeat.com/earnings/reports/2026-8-20-walmart-inc-stock/"},
+        {"title": "Walmart fiscal 2027 Q2 earnings release (SEC 8-K, 2026-08-20)", "url": "https://www.sec.gov/Archives/edgar/data/0000104169/000010416926000145/earningsreleasefy27q2.htm"}
+      ]
+    },
+    {
+      "id": "staples-retail-2026-dollar-general-q2-raise",
+      "date": "2026-08-27",
+      "end_date": null,
+      "sector": "consumer_staples",
+      "subindustries": ["staples_retail"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Dollar General raises fiscal 2026 EPS to $7.80-8.00 on 5.2% sales growth; shares up 2.5%",
+      "summary": "On August 27, 2026 Dollar General reported Q2 net sales up 5.2% to $11.3bn and raised fiscal 2026 EPS guidance to $7.80-8.00; shares rose about 2.5%. A week after Walmart's 9% drop, the dollar-store print showed low-income trade-down still supporting discount volumes even as SNAP cuts from the 2025 budget law began to phase in, and the group held its 2026 outperformance as a defensive, domestic-sourcing alternative to general-merchandise retail.",
+      "evidence": "Q2 2026 net sales +5.2% to $11.3bn; FY26 EPS guide raised to $7.80-8.00; DG +2.5% on 2026-08-27.",
+      "sources": [
+        {"title": "Can Dollar General keep expanding earnings in fiscal 2026? (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-general-keep-expanding-earnings-130600251.html"},
+        {"title": "Dollar General's quarterly earnings preview: what you need to know (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/dollar-generals-quarterly-earnings-preview-143220999.html"}
+      ]
+    },
+    {
+      "id": "staples-retail-2026-walmart-inflation-defensive-bid",
+      "date": "2026-10-14",
+      "end_date": null,
+      "sector": "consumer_staples",
+      "subindustries": ["staples_retail"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "macro",
+      "title": "Hot inflation print sends money into defensives: Walmart +3%, Costco and Target edge higher",
+      "summary": "On October 14, 2026 a hotter-than-expected US inflation reading revived worries about borrowing costs after the Fed's September hike and pushed investors into defensive retailers, with Walmart rising about 3% and Costco and Target edging higher while AI-power and semiconductor names fell. The session was part of the October rotation that also lifted Procter & Gamble and Waste Connections, as staples retail recovered from Walmart's August earnings drop; Costco was up about 20% for the year by early November after its fiscal Q4 beat ($6.75 vs $6.53).",
+      "evidence": "WMT +~3% on 2026-10-14 on an inflation-driven move into defensives; COST and TGT higher the same session.",
+      "sources": [
+        {"title": "Walmart advances 3% as inflation data sends money into defensives; Costco and Target edge higher (24/7 Wall St., 2026-10-14)", "url": "https://247wallst.com/investing/2026/10/14/walmart-advances-3-as-inflation-data-sends-money-into-defensives-costco-and-target-edge-higher/"},
+        {"title": "Costco stock: earnings growth could shape the next big move (24/7 Wall St., 2026-11-06)", "url": "https://247wallst.com/investing/2026/11/06/costco-stock-earnings-growth-could-shape-the-next-big-move/"}
+      ]
+    }
+  ]
+}
