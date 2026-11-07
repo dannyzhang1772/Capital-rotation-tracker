@@ -46,6 +46,12 @@ Then open `site/index.html` in a browser, or serve it: `python -m http.server 87
 3. Under Actions, allow workflows to write to the repository (Settings > Actions > General > Workflow permissions > Read and write).
 4. The `Publish site` workflow deploys on every push; `Refresh tracker data` runs each weekday evening and commits fresh data, which triggers a new deploy.
 
+## Automated event scoring (weekly)
+
+`pipeline/auto_events.py` pulls each sub-industry's headlines from Google News RSS, asks Claude (`claude-opus-5-5`) to extract dated catalysts and rate them blind with the same rubric and worked examples as the hand ratings, and writes them to `research/events_auto.json` plus `research/event_ratings.json` with `"auto": true, "reviewed": false`. The refresh workflow runs it on Mondays (and on a manual run) when the repository has an `ANTHROPIC_API_KEY` secret (Settings > Secrets and variables > Actions). Expect roughly 60 model calls per run.
+
+Unreviewed auto events are quarantined: they show in the Beta tab's review queue, count at half weight in stances, and are excluded from the calibration fits and backtest. To accept one, set `"reviewed": true` on its entry in `research/event_ratings.json` (edit the components first if you disagree); to reject one, delete it from both files. Dry run locally without a key: `python auto_events.py --dry-run --max-buckets 3`.
+
 ## Optional: SEC share counts back to 2009
 
 The SEC's fair-access policy requires a contact in the User-Agent header. Set `CRT_SEC_CONTACT="Your Name you@example.com"` (locally or as a GitHub Actions secret) and run `python fetch_shares.py --sec` to add XBRL share counts from 2009, which replaces the held-constant approximation before 2015.

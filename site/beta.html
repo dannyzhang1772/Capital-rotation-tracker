@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Beta Mode: Opportunities · Capital Rotation Tracker</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794065691">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794067447">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body data-page="beta">
@@ -25,6 +25,9 @@
     <div class="card"><h3 style="margin-top:0">Short candidates</h3><div id="shorts"></div></div>
   </div>
   <p class="tier" style="margin-top:8px">Fundamental score = recency-weighted average rating of the sub-industry's catalysts in the last 18 months (half-life six months). Capital moved = blend of price residual, ETF flows, 13F hedge-fund share change and pre-event move, in standard deviations; positive means capital arrived beyond what fundamentals explain. Stance rules are chosen by the backtest (table below).</p>
+  <h2>Review queue: events scored automatically, not yet reviewed <span class="muted small" id="rqCount"></span></h2>
+  <p class="sub">Added by the weekly Claude job from the week's headlines and rated blind with the same rubric. Until a human marks them reviewed in research/event_ratings.json they count at half weight in stances and are excluded from the calibration and backtest.</p>
+  <div class="card" style="overflow:auto;padding:0 8px" id="reviewQueue"></div>
   <h2>On watch: one catalyst, no confirmation yet</h2>
   <div class="card" style="overflow:auto;padding:0 8px" id="watch"></div>
   <h2>Stance rules chosen by the data</h2>
@@ -51,7 +54,7 @@
   <div class="prose card" id="method"></div>
   <footer>Ratings are analyst judgment applied through a fixed rubric; reactions are measured from Yahoo Finance prices. Not investment advice.</footer>
 </main>
-<script src="data/taxonomy.js?v=1794065691"></script><script src="data/snapshot.js?v=1794065691"></script><script src="data/beta.js?v=1794065691"></script>
-<script src="assets/charts.js?v=1794065691"></script><script src="assets/app.js?v=1794065691"></script><script src="assets/beta.js?v=1794065691"></script>
+<script src="data/taxonomy.js?v=1794067447"></script><script src="data/snapshot.js?v=1794067447"></script><script src="data/beta.js?v=1794067447"></script>
+<script src="assets/charts.js?v=1794067447"></script><script src="assets/app.js?v=1794067447"></script><script src="assets/beta.js?v=1794067447"></script>
 </body>
 </html>

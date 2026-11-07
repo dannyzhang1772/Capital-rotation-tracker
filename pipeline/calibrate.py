@@ -52,7 +52,9 @@ for _, x in R.iterrows():
     s = score(x.event_id, x.bucket)
     if s is None: missing.add(x.event_id); continue
     rating, comp, ep, why = s
-    rows.append({**x.to_dict(), 'rating': rating, **{f'c_{k}': v for k, v in comp.items()}, 'episode': ep, 'why': why, 'weight': (0.5 if ep else 1.0) / (1 + 0.5 * x.overlap)})
+    rr = ratings.get(x.event_id, {}); quarantined = bool(rr.get('auto')) and not bool(rr.get('reviewed'))
+    rows.append({**x.to_dict(), 'rating': rating, **{f'c_{k}': v for k, v in comp.items()}, 'episode': ep, 'why': why, 'auto': bool(rr.get('auto')), 'quarantined': quarantined,
+                 'weight': (0.5 if (ep or quarantined) else 1.0) / (1 + 0.5 * x.overlap)})
 D = pd.DataFrame(rows); D['date_ts'] = pd.to_datetime(D['date'])
 D['group'] = D.apply(lambda r: GROUP_OVERRIDE.get(r.bucket, GROUP.get(sector_of.get(r.bucket, r.sector), 'cyclical')), axis=1)
 D['blind'] = D['date_ts'] >= pd.Timestamp(BLIND_FROM)
@@ -83,7 +85,7 @@ def wfit(x, y, w, clip=(-4, 6)):
     beta, *_ = np.linalg.lstsq(X * W[:, None], y * W, rcond=None); resid = y - X @ beta
     return {'intercept': float(beta[0]), 'slope': float(beta[1]), 'resid_sd': float(np.sqrt(np.average(resid ** 2, weights=w))), 'n': int(len(x)), 'corr': float(np.corrcoef(x, y)[0, 1]) if len(x) > 2 else None}
 
-CAT = D[~D.episode]
+CAT = D[(~D.episode) & (~D.quarantined)]
 pooled = {n: wfit(CAT['rating'].values.astype(float), CAT[f'nv_{n}'].values.astype(float), CAT['weight'].values.astype(float)) for n in (21, 63, 126, 252) if (CAT[f'complete_{n}'] == True).any()}
 cells = {}
 for (sign, grp), g in CAT.groupby([np.where(CAT['rating'] >= 0, 'pos', 'neg'), CAT['group']]):
@@ -114,7 +116,7 @@ D['verdict'] = D.apply(verdict, axis=1)
 D['confidence'] = D.apply(lambda r: 'high' if (r.overlap == 0 and not r.episode and r.window == '3m') else 'medium' if (r.overlap <= 1 and r.window == '3m') else 'low', axis=1)
 
 # ---------------------------------------------------------------- 6. capital-moved gauge (positive = capital arrived beyond what fundamentals explain)
-CAT = D[~D.episode]
+CAT = D[(~D.episode) & (~D.quarantined)]
 flow_sd_all = float(CAT['flow_z'].std()) if CAT['flow_z'].notna().sum() > 50 else 1.0
 hf_sd = float(CAT['hf_chg_pp'].std()) if CAT['hf_chg_pp'].notna().sum() > 50 else 1.0
 pre_sd = float(CAT['nv_pre'].std()) if CAT['nv_pre'].notna().sum() > 50 else 1.0
@@ -124,7 +126,8 @@ def gauge(r):
     if not parts: return np.nan
     return float(sum(w * max(-3, min(3, v)) for w, v in parts) / sum(w for w, _ in parts))
 D['capital_moved'] = D.apply(gauge, axis=1)
-CAT = D[~D.episode]
+CAT = D[(~D.episode) & (~D.quarantined)]
+STANCE_POOL = D[~D.episode]  # includes quarantined auto events at half weight
 
 # ---------------------------------------------------------------- 5. data-chosen stance rules (clean catalysts, forward drift months 4-12)
 H = CAT[(CAT['complete_252'] == True) & CAT['resid_nv_63'].notna() & CAT['sec_252'].notna()].copy()
@@ -161,7 +164,7 @@ backtest['hindsight'] = {'blind_from': BLIND_FROM, 'blind_21': quick(BL, 21), 'b
                          'note': 'Events dated on or after the blind date were rated without knowing what the stock did; earlier events were rated by an analyst who knew the history. Compare the two to gauge hindsight inflation.'}
 
 # ---------------------------------------------------------------- 7. stances per bucket with the evidence gate
-recent = CAT[CAT['date_ts'] >= asof - pd.Timedelta(days=RECENT_DAYS)].copy()
+recent = STANCE_POOL[STANCE_POOL['date_ts'] >= asof - pd.Timedelta(days=RECENT_DAYS)].copy()
 recent['age'] = (asof - recent['date_ts']).dt.days
 recent['rw'] = np.exp(-np.log(2) * recent['age'] / HALF_LIFE_DAYS) * recent['weight']
 def confirm(h, fund):
@@ -194,7 +197,7 @@ for bid, g in recent.groupby('bucket'):
     if stance in ('Long', 'Lean long') and hs is not None and hs >= 60: setup += '; note the bucket is already Hot on the tracker (crowding risk)'
     if stance in ('Short', 'Lean short') and hs is not None and hs <= -60: setup += '; note the bucket is already Cold on the tracker (late)'
     buckets.append({'id': bid, 'name': names.get(bid, bid), 'sector': g['sector'].iloc[0], 'sector_name': sector_name.get(g['sector'].iloc[0], g['sector'].iloc[0]), 'level': g['level'].iloc[0], 'group': g['group'].iloc[0],
-                    'n_events': n_cat, 'n_measured': int(len(gg)), 'fundamental': fund, 'z': zsum, 'capital_moved': moved, 'unexplained': unexpl, 'rating_sign': rs, 'reaction_class': rc,
+                    'n_events': n_cat, 'n_measured': int(len(gg)), 'n_quarantined': int(g['quarantined'].sum()), 'fundamental': fund, 'z': zsum, 'capital_moved': moved, 'unexplained': unexpl, 'rating_sign': rs, 'reaction_class': rc,
                     'stance': stance, 'setup': setup, 'rule': {k: rule.get(k) for k in ('n', 'mean_drift', 'hit_rate', 'decision')} if rule else None, 'confirming': conf_sig, 'gate_ok': gate_ok,
                     'confidence': 'high' if (n_cat >= 3 and (gg['confidence'] == 'high').mean() >= 0.5) else 'medium' if n_cat >= 2 else 'low',
                     'heat': hs, 'label': h.get('label'), 'weight_pctile': pct, 'rel_3m': h.get('rel_3m'), 'rel_12m': h.get('rel_12m'),
@@ -208,14 +211,15 @@ ev_out = []
 for r in D.sort_values('date', ascending=False).itertuples():
     e = events.get(r.event_id, {})
     ev_out.append({'event_id': r.event_id, 'date': r.date, 'sector': r.sector, 'sector_name': sector_name.get(r.sector, r.sector), 'bucket': r.bucket, 'bucket_name': names.get(r.bucket, r.bucket), 'level': r.level, 'group': r.group,
-                   'title': r.title, 'direction': r.direction, 'magnitude': r.magnitude, 'driver_type': r.driver_type, 'episode': bool(r.episode), 'blind': bool(r.blind), 'why': r.why,
+                   'title': r.title, 'direction': r.direction, 'magnitude': r.magnitude, 'driver_type': r.driver_type, 'episode': bool(r.episode), 'blind': bool(r.blind), 'auto': bool(r.auto), 'quarantined': bool(r.quarantined), 'why': r.why,
                    'rating': r.rating, 'components': {'e': r.c_e, 'p': r.c_p, 'b': r.c_b, 'c': r.c_c}, 'attr': float(r.attr), 'overlap': int(r.overlap),
                    'pre_63': f(r.pre_63), 'sec_21': f(r.sec_21), 'sec_63': f(r.sec_63), 'sec_126': f(r.sec_126), 'sec_252': f(r.sec_252), 'sec_504': f(r.sec_504), 'rel_63': f(r.rel_63), 'rel_252': f(r.rel_252),
                    'flow_63': f(r.flow_63), 'flow_z': f(r.flow_z), 'hf_chg_pp': f(r.hf_chg_pp), 'vol63': f(r.vol63),
                    'expected': f(r.exp_ret), 'actual': f(r.act_ret), 'z': f(r.z), 'capital_moved': f(r.capital_moved), 'window': r.window, 'verdict': r.verdict, 'confidence': r.confidence,
                    'summary': e.get('summary'), 'evidence': e.get('evidence'), 'sources': (e.get('sources') or [])[:2]})
 cell_out = [{'sign': k[0], 'group': k[1], 'window': k[2], **v} for k, v in cells.items()]
-out = {'asof': snap['asof'], 'generated': dt.datetime.now().strftime('%Y-%m-%d %H:%M'), 'pooled': {str(k): v for k, v in pooled.items()}, 'cells': cell_out, 'resid_sd': {'63': sd63, '21': sd21},
+review_queue = [{'event_id': r.event_id, 'date': r.date, 'bucket': r.bucket, 'bucket_name': names.get(r.bucket, r.bucket), 'title': r.title, 'rating': r.rating, 'components': {'e': r.c_e, 'p': r.c_p, 'b': r.c_b, 'c': r.c_c}, 'why': r.why, 'source': (events.get(r.event_id, {}).get('sources') or [{}])[0]} for r in D[D.quarantined].sort_values('date', ascending=False).itertuples()]
+out = {'review_queue': review_queue, 'asof': snap['asof'], 'generated': dt.datetime.now().strftime('%Y-%m-%d %H:%M'), 'pooled': {str(k): v for k, v in pooled.items()}, 'cells': cell_out, 'resid_sd': {'63': sd63, '21': sd21},
        'backtest': backtest, 'buckets': buckets, 'events': ev_out, 'rubric': rubric, 'n_rated': int(D.event_id.nunique()), 'n_unrated': len(missing),
        'params': {'half_life_days': HALF_LIFE_DAYS, 'recent_days': RECENT_DAYS, 'z_threshold': 0.75, 'cluster_days': CLUSTER_DAYS, 'shrink_k': SHRINK_K, 'blind_from': BLIND_FROM, 'gauge_weights': {'price_residual': 0.5, 'etf_flow': 0.2, 'hf_13f_change': 0.2, 'pre_event_move': 0.1}}}
 def clean(o):

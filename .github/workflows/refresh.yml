@@ -23,6 +23,10 @@ jobs:
         run: cd pipeline && python fetch_etf_flows.py || echo "flow refresh failed; keeping last file"
       - name: 13F (new quarters only)
         run: cd pipeline && python fetch_13f.py || echo "13F refresh failed; keeping last file"
+      - name: Automated event scoring (Mondays or manual run; needs ANTHROPIC_API_KEY secret)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: cd pipeline && if [ "$(date +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python auto_events.py || echo "auto scoring failed; continuing"; fi
       - name: Compute site data
         run: cd pipeline && python compute.py
       - name: Beta Mode (event responses, calibration, opportunities)
