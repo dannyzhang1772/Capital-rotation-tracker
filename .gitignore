@@ -1,0 +1,7 @@
+data/raw/*.parquet
+data/raw/etf_issuer/
+data/raw/*.out
+data/raw/*.log
+data/processed/13f_quarters/
+__pycache__/
+*.pyc

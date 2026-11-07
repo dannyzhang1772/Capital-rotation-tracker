@@ -1,0 +1,32 @@
+name: Refresh tracker data
+on:
+  schedule:
+    - cron: '30 22 * * 1-5'   # 22:30 UTC on weekdays, after the US close
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install -r pipeline/requirements.txt
+      - name: Prices (incremental)
+        run: cd pipeline && python fetch_prices.py
+      - name: Shares outstanding (weekly on Mondays, otherwise skipped)
+        run: cd pipeline && if [ "$(date +%u)" = "1" ]; then python fetch_shares.py --yahoo; fi
+      - name: Macro
+        run: cd pipeline && python fetch_macro.py
+      - name: ETF flows
+        run: cd pipeline && python fetch_etf_flows.py || echo "flow refresh failed; keeping last file"
+      - name: 13F (new quarters only)
+        run: cd pipeline && python fetch_13f.py || echo "13F refresh failed; keeping last file"
+      - name: Compute site data
+        run: cd pipeline && python compute.py
+      - name: Commit
+        run: |
+          git config user.name "tracker-bot"; git config user.email "tracker-bot@users.noreply.github.com"
+          git add -A data site/data && git commit -m "data refresh $(date -u +%F)" || echo "nothing to commit"
+          git push

@@ -1,0 +1,3 @@
+zip_quarter,period,total_value_usd,n_filings,n_filers,n_positions,hf_value_usd,hf_n_filings,hf_n_filers,hf_names_matched_all,taxonomy_value_usd,unit_detected,median_implied_aapl_raw,n_filings_rescaled,infotable_rows,infotable_rows_sh,sel_n_submissions,sel_n_hr_all_periods,sel_n_hr_primary_period,sel_n_hr_other_periods,sel_n_kept,sel_n_dropped_superseded,sel_n_filers,processed_at
+2013q2,2013-03-31,337586646140.0,69,68,26147,30792000.0,1,1,1,172983669250.0,thousands,0.44266326279333673,1,87715,75744,166,141,74,67,70,4,69,2026-11-06 17:18:39
+01jun2026-31aug2026,2026-06-30,75655491816521.0,8785,8751,3299045,1408176715663.0,80,80,94,54782699650099.0,dollars,289.36,320,3830274,3691395,11852,9900,9000,900,8891,109,8857,2026-11-06 17:21:09

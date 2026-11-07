@@ -1,0 +1,1 @@
+window.CRT_EVENTS = {"events":[],"regimes":[]};

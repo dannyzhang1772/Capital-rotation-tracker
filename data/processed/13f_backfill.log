@@ -1,0 +1,56 @@
+2026-11-06 17:21:53 INFO data sets to consider: 2013q2(2013-03-31) 2013q3(2013-06-30) 2013q4(2013-09-30) 2014q1(2013-12-31) 2014q2(2014-03-31) 2014q3(2014-06-30) 2014q4(2014-09-30) 2015q1(2014-12-31) 2015q2(2015-03-31) 2015q3(2015-06-30) 2015q4(2015-09-30) 2016q1(2015-12-31) 2016q2(2016-03-31) 2016q3(2016-06-30) 2016q4(2016-09-30) 2017q1(2016-12-31) 2017q2(2017-03-31) 2017q3(2017-06-30) 2017q4(2017-09-30) 2018q1(2017-12-31) 2018q2(2018-03-31) 2018q3(2018-06-30) 2018q4(2018-09-30) 2019q1(2018-12-31) 2019q2(2019-03-31) 2019q3(2019-06-30) 2019q4(2019-09-30) 2020q1(2019-12-31) 2020q2(2020-03-31) 2020q3(2020-06-30) 2020q4(2020-09-30) 2021q1(2020-12-31) 2021q2(2021-03-31) 2021q3(2021-06-30) 2021q4(2021-09-30) 2022q1(2021-12-31) 2022q2(2022-03-31) 2022q3(2022-06-30) 2022q4(2022-09-30) 2023q1(2022-12-31) 2023q2(2023-03-31) 2023q3(2023-06-30) 2023q4(2023-09-30) 01jan2024-29feb2024(2023-12-31) 01mar2024-31may2024(2024-03-31) 01jun2024-31aug2024(2024-06-30) 01sep2024-30nov2024(2024-09-30) 01dec2024-28feb2025(2024-12-31) 01mar2025-31may2025(2025-03-31) 01jun2025-31aug2025(2025-06-30) 01sep2025-30nov2025(2025-09-30) 01dec2025-28feb2026(2025-12-31) 01mar2026-31may2026(2026-03-31) 01jun2026-31aug2026(2026-06-30)
+2026-11-06 17:21:53 INFO using cached 2013q2_form13f.zip
+2026-11-06 17:21:53 INFO 2013q2 period 2013-03-31: 166 submissions, 74 13F-HR(/A) for this period, kept 70 filings from 69 filers (4 superseded dropped, 67 filings for other periods ignored)
+2026-11-06 17:21:54 INFO 2013q2 INFOTABLE: 87715 rows, 75744 SH/no-option rows, 26147 in kept filings (0s)
+2026-11-06 17:21:54 INFO 2013q2 unit: thousands (median implied AAPL price 0.4427 raw units); 1 filings rescaled (0 x1000, 1 /1000)
+2026-11-06 17:21:54 INFO 2013q2 done: total 13F value $0.338T from 68 filers; taxonomy CUSIPs $0.173T; HF filers 1 ($0.0B) [1s]
+2026-11-06 17:21:54 ERROR 2013q2 FAILED: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\danny\\AppData\\Local\\Temp\\crt_bulk\\2013q2_form13f.zip'
+Traceback (most recent call last):
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 662, in main
+    process_zip(ds, cusips, funds, keep_zip=args.keep_zip)
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 572, in process_zip
+    zpath.unlink(missing_ok=True)
+  File "C:\Users\danny\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\danny\\AppData\\Local\\Temp\\crt_bulk\\2013q2_form13f.zip'
+2026-11-06 17:21:56 INFO downloaded 2013q3_form13f.zip (36.5 MB in 2s)
+2026-11-06 17:22:03 INFO 2013q3 period 2013-06-30: 5227 submissions, 3564 13F-HR(/A) for this period, kept 3386 filings from 3372 filers (178 superseded dropped, 239 filings for other periods ignored)
+2026-11-06 17:22:07 INFO 2013q3 INFOTABLE: 1533636 rows, 1420569 SH/no-option rows, 1231150 in kept filings (13s)
+2026-11-06 17:22:07 INFO 2013q3 unit: thousands (median implied AAPL price 0.3965 raw units); 70 filings rescaled (0 x1000, 70 /1000)
+2026-11-06 17:22:07 INFO 2013q3 done: total 13F value $18.937T from 3344 filers; taxonomy CUSIPs $9.389T; HF filers 74 ($397.3B) [13s]
+2026-11-06 17:22:07 ERROR 2013q3 FAILED: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\danny\\AppData\\Local\\Temp\\crt_bulk\\2013q3_form13f.zip'
+Traceback (most recent call last):
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 662, in main
+    process_zip(ds, cusips, funds, keep_zip=args.keep_zip)
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 572, in process_zip
+    zpath.unlink(missing_ok=True)
+  File "C:\Users\danny\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1342, in unlink
+    os.unlink(self)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'C:\\Users\\danny\\AppData\\Local\\Temp\\crt_bulk\\2013q3_form13f.zip'
+2026-11-06 17:22:09 INFO downloaded 2013q4_form13f.zip (36.2 MB in 2s)
+2026-11-07 01:27:24 INFO data sets to consider: 2013q2(2013-03-31) 2013q3(2013-06-30) 2013q4(2013-09-30) 2014q1(2013-12-31) 2014q2(2014-03-31) 2014q3(2014-06-30) 2014q4(2014-09-30) 2015q1(2014-12-31) 2015q2(2015-03-31) 2015q3(2015-06-30) 2015q4(2015-09-30) 2016q1(2015-12-31) 2016q2(2016-03-31) 2016q3(2016-06-30) 2016q4(2016-09-30) 2017q1(2016-12-31) 2017q2(2017-03-31) 2017q3(2017-06-30) 2017q4(2017-09-30) 2018q1(2017-12-31) 2018q2(2018-03-31) 2018q3(2018-06-30) 2018q4(2018-09-30) 2019q1(2018-12-31) 2019q2(2019-03-31) 2019q3(2019-06-30) 2019q4(2019-09-30) 2020q1(2019-12-31) 2020q2(2020-03-31) 2020q3(2020-06-30) 2020q4(2020-09-30) 2021q1(2020-12-31) 2021q2(2021-03-31) 2021q3(2021-06-30) 2021q4(2021-09-30) 2022q1(2021-12-31) 2022q2(2022-03-31) 2022q3(2022-06-30) 2022q4(2022-09-30) 2023q1(2022-12-31) 2023q2(2023-03-31) 2023q3(2023-06-30) 2023q4(2023-09-30) 01jan2024-29feb2024(2023-12-31) 01mar2024-31may2024(2024-03-31) 01jun2024-31aug2024(2024-06-30) 01sep2024-30nov2024(2024-09-30) 01dec2024-28feb2025(2024-12-31) 01mar2025-31may2025(2025-03-31) 01jun2025-31aug2025(2025-06-30) 01sep2025-30nov2025(2025-09-30) 01dec2025-28feb2026(2025-12-31) 01mar2026-31may2026(2026-03-31) 01jun2026-31aug2026(2026-06-30)
+2026-11-07 01:27:24 INFO 2013q2 already processed - skipping
+2026-11-07 01:27:24 INFO 2013q3 already processed - skipping
+2026-11-07 01:27:24 INFO using cached 2013q4_form13f.zip
+2026-11-07 01:27:29 INFO 2013q4 period 2013-09-30: 5043 submissions, 3552 13F-HR(/A) for this period, kept 3424 filings from 3402 filers (128 superseded dropped, 127 filings for other periods ignored)
+2026-11-07 01:27:34 INFO 2013q4 INFOTABLE: 1519317 rows, 1399101 SH/no-option rows, 1290475 in kept filings (10s)
+2026-11-07 01:27:34 INFO 2013q4 unit: thousands (median implied AAPL price 0.4768 raw units); 61 filings rescaled (0 x1000, 61 /1000)
+2026-11-07 01:27:34 INFO 2013q4 done: total 13F value $18.489T from 3376 filers; taxonomy CUSIPs $9.941T; HF filers 72 ($424.0B) [10s]
+2026-11-07 01:27:36 INFO downloaded 2014q1_form13f.zip (38.1 MB in 2s)
+2026-11-07 01:27:42 INFO 2014q1 period 2013-12-31: 5425 submissions, 3883 13F-HR(/A) for this period, kept 3733 filings from 3704 filers (150 superseded dropped, 155 filings for other periods ignored)
+2026-11-07 01:27:46 INFO 2014q1 INFOTABLE: 1584857 rows, 1444810 SH/no-option rows, 1302630 in kept filings (12s)
+2026-11-07 01:27:46 INFO 2014q1 unit: thousands (median implied AAPL price 0.5610 raw units); 62 filings rescaled (0 x1000, 62 /1000)
+2026-11-07 01:27:47 INFO 2014q1 done: total 13F value $20.520T from 3682 filers; taxonomy CUSIPs $11.069T; HF filers 77 ($484.5B) [13s]
+2026-11-07 01:27:49 INFO downloaded 2014q2_form13f.zip (38.4 MB in 2s)
+2026-11-07 01:27:55 INFO 2014q2 period 2014-03-31: 5415 submissions, 3850 13F-HR(/A) for this period, kept 3740 filings from 3721 filers (110 superseded dropped, 164 filings for other periods ignored)
+2026-11-07 01:27:59 INFO 2014q2 INFOTABLE: 1588232 rows, 1459728 SH/no-option rows, 1331996 in kept filings (12s)
+2026-11-07 01:27:59 INFO 2014q2 unit: thousands (median implied AAPL price 0.5367 raw units); 73 filings rescaled (0 x1000, 73 /1000)
+2026-11-07 01:27:59 INFO 2014q2 done: total 13F value $20.921T from 3700 filers; taxonomy CUSIPs $10.958T; HF filers 76 ($502.9B) [13s]
+2026-11-07 01:28:02 INFO downloaded 2014q3_form13f.zip (39.6 MB in 2s)
+2026-11-07 01:28:08 INFO 2014q3 period 2014-06-30: 5482 submissions, 3921 13F-HR(/A) for this period, kept 3785 filings from 3756 filers (136 superseded dropped, 161 filings for other periods ignored)
+2026-11-07 01:28:12 INFO 2014q3 INFOTABLE: 1638747 rows, 1507177 SH/no-option rows, 1356659 in kept filings (12s)
+2026-11-07 01:28:12 INFO 2014q3 unit: thousands (median implied AAPL price 0.0929 raw units); 77 filings rescaled (0 x1000, 77 /1000)
+2026-11-07 01:28:12 INFO 2014q3 done: total 13F value $21.410T from 3729 filers; taxonomy CUSIPs $11.533T; HF filers 77 ($545.7B) [13s]
+2026-11-07 01:28:15 INFO downloaded 2014q4_form13f.zip (39.1 MB in 2s)
+2026-11-07 01:28:20 INFO 2014q4 period 2014-09-30: 5465 submissions, 3881 13F-HR(/A) for this period, kept 3776 filings from 3750 filers (105 superseded dropped, 169 filings for other periods ignored)
+2026-11-07 01:28:25 INFO 2014q4 INFOTABLE: 1636491 rows, 1483545 SH/no-option rows, 1362545 in kept filings (13s)

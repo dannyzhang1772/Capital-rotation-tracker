@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology · Capital Rotation Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+</head>
+<body data-page="methodology">
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Capital Rotation Tracker</a>
+  <nav><a href="index.html" data-page="dashboard">1) Tracker</a><a href="history.html" data-page="history">2) History</a><select id="sectorNav" class="ghost"></select><a href="methodology.html" data-page="methodology">9) Method</a></nav>
+  <span class="asof" id="asof"></span><button class="ghost" id="themeBtn" title="Toggle light/dark">◐</button>
+</div></header>
+<main class="wrap prose">
+  <h1>Methodology and data tiers</h1>
+  <p class="sub" id="uni"></p>
+  <h2>What "capital flow" means here</h2>
+  <p>No free dataset reports net institutional flows by sub-industry back to 2000, so the tracker layers four proxies and labels each with its reliable start date:</p>
+  <ul>
+    <li><b>Market-cap weight (1999 sector, 2006 sub-industry).</b> Each bucket's share of the tracked universe's market value. This is where capital <i>sits</i>. It conflates price with earnings and share issuance, so it is read against its own ten-year mean (z-score and percentile), not in isolation.</li>
+    <li><b>Relative strength (1999 / 2006).</b> Bucket total return divided by the S&amp;P 500, with a three-year z-score of the log ratio. This is the cleanest free signal of rotation because it strips out the market.</li>
+    <li><b>ETF creations and redemptions (2006 onward for most sub-industry ETFs).</b> Daily change in shares outstanding times NAV, from issuer disclosures. These are real dollars, but ETFs are a minority of institutional ownership, so they are a sentiment gauge rather than a census.</li>
+    <li><b>SEC Form 13F (2013 onward).</b> Quarterly long positions of institutions above $100m, aggregated by ticker, with a curated hedge-fund subset. Reported with a 45-day lag; shorts and derivatives are not included.</li>
+  </ul>
+  <h2>Universe and baskets</h2>
+  <p>Seven deep-dive sectors (Industrials, Health Care, Technology, Consumer Discretionary, Consumer Staples, Energy, Real Estate) are split into 54 sub-industries. Four context sectors (Financials, Utilities, Materials, Communication Services) are tracked at lighter depth so rotations out of the deep-dive sectors have somewhere to go. Every ticker belongs to exactly one bucket; cross-sector themes (AI, hyperscalers, data-center power, GLP-1, reshoring, cybersecurity, nuclear) are overlays and may overlap. The basket file is <code>pipeline/taxonomy.json</code> and is meant to be edited.</p>
+  <p>Bucket return series are cap-weighted daily returns chain-linked from January 2006 (equal-weighted series are computed as well). Where a sub-industry has an investable ETF it is listed; for SMID biotech the ETF (XBI) is the primary series to avoid survivorship bias in a basket of small names.</p>
+  <h2>Known limitations</h2>
+  <ul>
+    <li><b>Survivorship.</b> Yahoo Finance does not carry delisted names, so baskets before each ETF's launch are survivor-biased. The dot-com bust, for example, is understated in sub-industry baskets; sector ETFs (SPDR, 1998) carry it correctly.</li>
+    <li><b>Share counts.</b> Yahoo's share history starts around late 2015. Before that, each name's first observed count is held constant, so weights from 2006 to 2015 reflect price moves and not buybacks or issuance. SEC XBRL counts (2009 onward) can replace this once an SEC contact e-mail is configured for the pipeline.</li>
+    <li><b>Composition drift.</b> IPOs and spin-offs enter the universe when they list, which raises the universe's total cap. Weights are shares of a growing universe, which is the right denominator for "where capital sits" but means the universe is not a fixed index.</li>
+    <li><b>Multi-class shares.</b> Where Yahoo's share history covers one class, the series is rescaled to the implied total from current market cap.</li>
+    <li><b>Factor betas.</b> Trailing 252-day regressions of bucket excess returns on growth-minus-value (IWF−IWD), size (IWM−SPY), momentum (MTUM−SPY), quality (QUAL−SPY), low-vol (USMV−SPY), the daily change in the 10-year yield, oil (USO) and the dollar (UUP). They describe the last year, not a structural truth.</li>
+  </ul>
+  <h2>Heat score</h2>
+  <p>Heat = tanh(z / 1.5) × 100 where z is a weighted blend of the available z-scores: relative strength (3y, weight 0.4), market-cap weight (10y, 0.3), 3-month ETF flows (5y, 0.2) and the change in hedge-fund 13F share (0.1). Missing layers are dropped and the remaining weights renormalised. Labels: Hot above 40, Warm 10 to 40, Neutral, Cool −10 to −40, Cold below −40.</p>
+  <h2>Update cadence</h2>
+  <p>Prices, weights, relative strength and ETF flows refresh daily on the scheduled job. 13F positioning updates quarterly, about 45 days after each quarter end. Catalyst notes are written by hand; the pipeline flags a note as stale when its bucket's heat score moves more than 30 points since the note was written.</p>
+  <h2>Coverage by bucket</h2>
+  <div class="card" style="overflow:auto;padding:0 8px" id="coverage"></div>
+  <footer>Prices and share counts from Yahoo Finance; ETF flows from issuer disclosures; institutional positioning from SEC Form 13F; macro from FRED. Not investment advice.</footer>
+</main>
+<script src="data/taxonomy.js"></script><script src="data/snapshot.js"></script><script src="data/history.js"></script><script src="data/events.js"></script><script src="data/narratives.js"></script><script src="data/blurbs.js"></script>
+<script src="assets/charts.js"></script><script src="assets/app.js"></script>
+</body>
+</html>
