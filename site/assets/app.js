@@ -229,8 +229,9 @@
   }
 
   function render() {
-    C.refresh();
     const page = document.body.dataset.page;
+    if (page === 'beta') return;  // beta.js owns its own charts
+    C.refresh();
     if (page === 'dashboard') renderDashboard(); else if (page === 'sector') renderSector(); else if (page === 'history') renderHistory(); else if (page === 'methodology') renderMethodology();
   }
   document.addEventListener('DOMContentLoaded', () => { initTheme(); initNav(); render(); });

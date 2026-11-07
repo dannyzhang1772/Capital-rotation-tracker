@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beta Mode: Opportunities · Capital Rotation Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794036940">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+</head>
+<body data-page="beta">
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">Capital Rotation Tracker</a>
+  <nav><a href="index.html" data-page="dashboard">1) Tracker</a><a href="history.html" data-page="history">2) History</a><select id="sectorNav" class="ghost"></select><a href="beta.html" data-page="beta">4) Beta: Opportunities</a><a href="methodology.html" data-page="methodology">9) Method</a></nav>
+  <span class="asof" id="asof"></span><button class="ghost" id="themeBtn" title="Toggle light/dark">◐</button>
+</div></header>
+<main class="wrap">
+  <h1>Beta Mode: Opportunities</h1>
+  <p class="sub">Every researched event is rated for how material it was to the sub-industry's fundamentals on a blind rubric (-100 to +100), then compared with what capital actually did afterwards. The gap between the two is the mispricing candidate. The backtest below reports, without editing, whether such gaps have historically closed. Research project, not advice.</p>
+  <div class="kpis" id="kpis"></div>
+  <div class="callout" id="verdictNote"></div>
+
+  <h2>Shortlist: where fundamentals and capital disagree right now</h2>
+  <div class="grid cols-2">
+    <div class="card"><h3 style="margin-top:0">Long candidates</h3><div id="longs"></div></div>
+    <div class="card"><h3 style="margin-top:0">Short candidates</h3><div id="shorts"></div></div>
+  </div>
+  <p class="tier" style="margin-top:8px">Fundamental score = recency-weighted average rating of the sub-industry's events in the last 18 months (half-life six months). Residual z = how far the measured 3-month sector-relative reaction sat from what the calibration expects for events of that rating, in standard deviations. Stance rules are in the methodology note at the bottom.</p>
+
+  <h2>Calibration: rating vs measured reaction</h2>
+  <div class="grid cols-2">
+    <div class="chart-card"><h3>Each event: rating vs 3-month sector-relative move</h3><div class="note">One dot per event and sub-industry. Amber line is the weighted fit; white diamonds are bin medians. Distance from the line is the residual.</div><div class="chart-box tall"><canvas id="scatter"></canvas></div></div>
+    <div class="chart-card"><h3>Does the rating predict the next 12 months?</h3><div class="note">Catalyst events only. Mean and median sector-relative return over the following 12 months, by rating bucket.</div><div class="chart-box"><canvas id="fundChart"></canvas></div>
+      <h3>Do over- and under-reactions revert?</h3><div class="note">Clean catalysts (no overlapping event). Sector-relative drift from month 4 to month 12 after the event, grouped by the 3-month verdict. Negative drift after "overbought" would mean reversion.</div><div class="chart-box short"><canvas id="revertChart"></canvas></div></div>
+  </div>
+  <div class="card" id="backtestTable" style="margin-top:10px"></div>
+
+  <h2>All sub-industries: recent fundamentals vs capital</h2>
+  <div class="filters"><select id="fSector"></select><select id="fStance"><option value="">All stances</option><option>Long</option><option>Short</option><option>Neutral</option></select><span class="muted small" id="bCount"></span></div>
+  <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr id="bHead"></tr></thead><tbody id="bBody"></tbody></table></div>
+
+  <h2>Recent events: rating, reaction, verdict <span class="muted small" id="eCount"></span></h2>
+  <div class="filters"><select id="eSector"></select><select id="eVerdict"><option value="">All verdicts</option><option>justified</option><option>oversold</option><option>overbought</option><option>underbought</option><option>undersold</option></select><label><input type="checkbox" id="eRecent" checked> Last 18 months only</label><input type="search" id="eSearch" placeholder="Search title or ticker"></div>
+  <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr id="eHead"></tr></thead><tbody id="eBody"></tbody></table></div>
+
+  <h2>Method</h2>
+  <div class="prose card" id="method"></div>
+  <footer>Ratings are analyst judgment applied through a fixed rubric; reactions are measured from Yahoo Finance prices. Not investment advice.</footer>
+</main>
+<script src="data/taxonomy.js?v=1794036940"></script><script src="data/snapshot.js?v=1794036940"></script><script src="data/beta.js?v=1794036940"></script>
+<script src="assets/charts.js?v=1794036940"></script><script src="assets/app.js?v=1794036940"></script><script src="assets/beta.js?v=1794036940"></script>
+</body>
+</html>

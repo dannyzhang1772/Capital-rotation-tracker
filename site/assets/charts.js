@@ -144,5 +144,6 @@
 
   function refresh() { for (const [id, ch] of charts) { ch.destroy(); } charts.clear(); }
 
-  window.CRTCharts = { lines, stackedArea, divergingBars, flowBars, tok, refresh, idxFor };
+  function raw(id, config) { return make(id, config); }
+  window.CRTCharts = { lines, stackedArea, divergingBars, flowBars, raw, tok, refresh, idxFor };
 })();

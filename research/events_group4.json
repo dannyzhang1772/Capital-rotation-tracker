@@ -1,0 +1,895 @@
+{
+  "events": [
+    {
+      "id": "healthcare-2017-skinny-repeal-fails",
+      "date": "2017-07-28",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services", "managed_care"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Senate 'skinny repeal' fails 49-51; ACA-exposed hospitals and Medicaid insurers keep their 2017 rally",
+      "summary": "In the early hours of July 28, 2017 John McCain, Susan Collins and Lisa Murkowski voted no on the 'skinny' Obamacare repeal, ending the seven-year Republican repeal effort at 49-51. Hospital operators (HCA, Tenet, Community Health) and exchange/Medicaid insurers (Centene, Molina) had traded all year as repeal proxies, jumping on each failure (Tenet +7.4% and Community Health +9.5% on March 24 when the House bill was pulled; Centene hit a record $87.94 on July 25). The vote removed the coverage-loss overhang for the group, although HCA's guidance cut three days earlier capped the hospital names.",
+      "evidence": "Senate rejected the Health Care Freedom Act 49-51 on 2017-07-28; Tenet +7.4% and Community Health +9.5% on the prior repeal failure (2017-03-24).",
+      "sources": [
+        {"title": "Obamacare repeal fails: three GOP senators rebel in 49-51 vote (NBC News)", "url": "https://www.nbcnews.com/politics/congress/senate-gop-effort-repeal-obamacare-fails-n787311"},
+        {"title": "McCain's 'no' vote kills 'skinny repeal' (STAT)", "url": "https://www.statnews.com/2017/07/28/mccain-obamacare-skinny-repeal/"},
+        {"title": "Winners and losers after Friday's pulled health-care bill (CNBC, 2017-03-24)", "url": "https://www.cnbc.com/2017/03/24/winners-and-losers-after-fridays-pulled-health-care-bill.html"}
+      ]
+    },
+    {
+      "id": "managed-care-2015-megamergers",
+      "date": "2015-07-03",
+      "end_date": "2015-07-24",
+      "sector": "healthcare",
+      "subindustries": ["managed_care"],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "Aetna-Humana ($37bn) and Anthem-Cigna ($54bn): the summer-2015 insurer merger wave",
+      "summary": "Aetna agreed to buy Humana for $230 a share in cash and stock (about $37bn) on July 3, 2015, and Anthem agreed to buy Cigna for about $54bn on July 24, deals that would have cut the five national insurers to three. Humana rose as much as 4% and Aetna fell as much as 6% on announcement day, while Cigna fell from $154.36 to $145.91 and Anthem from $155.23 to $150.76 on July 24 as the Street doubted antitrust approval. Humana closed at $181.76, far below the offer value, a merger-arb spread that foreshadowed the DOJ suits of July 2016.",
+      "evidence": "Aetna offer of $230 per Humana share (2015-07-03); Cigna closed $145.91 on 2015-07-24 vs $154.36 the day before.",
+      "sources": [
+        {"title": "Anthem to buy Cigna, creating biggest U.S. health insurer (Reuters via Yahoo)", "url": "https://www.yahoo.com/news/health-insurer-anthem-buy-cigna-101732902.html"},
+        {"title": "Wall Street hates the Anthem-Cigna deal (Forbes)", "url": "https://www.forbes.com/sites/dandiamond/2015/07/24/since-announcing-merger-anthem-and-cigna-have-already-lost-3-billion-on-wall-street/"},
+        {"title": "$34 billion Aetna-Humana merger: bad news for ANTM, CI (InvestorPlace)", "url": "https://investorplace.com/2015/07/aetna-humana-merger-aet-stock-hum-stock-bad-news-for-antm-ci/"}
+      ]
+    },
+    {
+      "id": "managed-care-2017-mergers-blocked",
+      "date": "2017-01-23",
+      "end_date": "2017-02-14",
+      "sector": "healthcare",
+      "subindustries": ["managed_care"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Courts block Aetna-Humana and Anthem-Cigna; horizontal insurer consolidation ends",
+      "summary": "Judge John Bates blocked Aetna's acquisition of Humana on antitrust grounds on January 23, 2017 (Humana closed up 2.2% at $205.02, Aetna down about 2.5% near $119), and a second federal judge blocked Anthem-Cigna on February 9. Aetna and Humana terminated on February 14 with Aetna paying a $1bn break fee, and Cigna sued Anthem to exit. The rulings were widely expected and the stocks shrugged, but they rerouted managed-care capital into vertical deals (CVS-Aetna in December 2017, Cigna-Express Scripts in March 2018).",
+      "evidence": "Humana closed +2.2% at $205.02 on 2017-01-23; Aetna paid Humana a $1bn termination fee on 2017-02-14.",
+      "sources": [
+        {"title": "Aetna-Humana shares fall after judge blocks deal (CNBC)", "url": "https://www.cnbc.com/2017/01/23/judge-blocks-humanaaetna-deal-on-antitrust-grounds-reports.html"},
+        {"title": "Aetna, Humana end $34 billion merger agreement (CNBC)", "url": "https://www.cnbc.com/2017/02/14/aetna-and-humana-end-merger-agreement.html"},
+        {"title": "Aetna, Humana call off merger; Cigna sues Anthem (AJMC)", "url": "https://www.ajmc.com/view/aetna-humana-call-off-37-billion-merger"}
+      ]
+    },
+    {
+      "id": "distributors-2019-opioid-ohio-settlement",
+      "date": "2019-10-21",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Drug distributors settle the Ohio opioid bellwether for $260m hours before trial",
+      "summary": "McKesson, Cardinal Health and AmerisourceBergen agreed to pay a combined $215m, and Teva $20m in cash plus Suboxone, to Cuyahoga and Summit counties on the morning the first federal opioid trial was due to start. The deal removed a near-term binary that had weighed on distributor multiples through 2018-19 and signalled that a global settlement framework was achievable. Walgreens did not settle and remained a defendant.",
+      "evidence": "Three distributors to pay $215m combined to the two Ohio counties, announced 2019-10-21.",
+      "sources": [
+        {"title": "Companies reach $260 million deal to settle opioids lawsuit (Marketplace)", "url": "https://www.marketplace.org/story/2019/10/21/ohio-opioid-lawsuit-settlement"},
+        {"title": "4 drug companies agree to $260M opioid settlement with 2 Ohio counties (ABA Journal)", "url": "https://www.abajournal.com/news/article/4-drug-companies-agree-to-260m-opioid-settlement-with-two-ohio-counties"}
+      ]
+    },
+    {
+      "id": "distributors-2021-opioid-global-settlement",
+      "date": "2021-07-21",
+      "end_date": "2022-02-25",
+      "sector": "healthcare",
+      "subindustries": ["healthcare_facilities_services"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "$26bn global opioid settlement lifts the liability overhang from MCK, CAH and ABC",
+      "summary": "State attorneys general unveiled a $26bn agreement on July 21, 2021: McKesson $7.9bn, Cardinal Health $6.4bn and AmerisourceBergen $6.4bn over 18 years, plus Johnson & Johnson $5bn over nine years, with an independent monitor and data sharing. The deal became effective on February 25, 2022 after enough states and localities joined. Capping the liability at a known, multi-decade payment stream let the drug distributors re-rate as steady GLP-1 and specialty-volume compounders rather than litigation risks.",
+      "evidence": "McKesson's share of the settlement: $7.9bn paid over 18 years (announced 2021-07-21).",
+      "sources": [
+        {"title": "Big 3 U.S. drug distributors, J&J reach landmark $26 billion opioid settlement (CNBC)", "url": "https://www.cnbc.com/2021/07/21/drug-distributors-jj-reach-landmark-26-billion-opioid-settlement-.html"},
+        {"title": "Drug distributors, J&J reach $26 billion opioids settlement (Axios)", "url": "https://www.axios.com/2021/07/21/jnj-mckesson-cardinal-amerisourcebergen-opioids-settlement"},
+        {"title": "4 U.S. companies will pay $26 billion to settle opioid claims (NPR, 2022-02-25)", "url": "https://www.npr.org/2022/02/25/1082901958/opioid-settlement-johnson-26-billion"}
+      ]
+    },
+    {
+      "id": "housing-2012-recovery",
+      "date": "2012-01-03",
+      "end_date": "2012-12-31",
+      "sector": "consumer_discretionary",
+      "subindustries": ["housing"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "2012 housing recovery: PulteGroup +169% as builders lead the market",
+      "summary": "After six years of bust, home prices rose for eight straight months through October 2012 (CoreLogic), QE3 in September pushed mortgage rates to record lows, and homebuilders became the year's best-performing group. PulteGroup gained 169%, Lennar 92% and Toll Brothers 54% in 2012, and the group kept rallying into early 2013 before the taper tantrum. Capital that had avoided housing since 2006 rotated back into builders, building products and home improvement.",
+      "evidence": "PulteGroup +169% and Lennar +92% in 2012 (InvestorPlace year-end ranking).",
+      "sources": [
+        {"title": "Best & worst stocks of 2012: homebuilders rule (InvestorPlace)", "url": "https://investorplace.com/2012/12/best-worst-stocks-of-2012-homebuilders-rule-pcs-drool/"},
+        {"title": "Homebuilders rally, ignore Case-Shiller drop (24/7 Wall St., March 2012)", "url": "https://247wallst.com/housing/2012/03/27/homebuilders-rally-ignore-case-shiller-drop-len-phm-bzh-dhi/"}
+      ]
+    },
+    {
+      "id": "biotech-2024-fed-50bp-cut",
+      "date": "2024-09-18",
+      "end_date": "2024-09-19",
+      "sector": "healthcare",
+      "subindustries": ["biotech_smid"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Fed's 50bp cut: XBI's 'anticlimactic' reaction after a six-month pre-rally",
+      "summary": "The Fed opened its easing cycle with a 50bp cut on September 18, 2024, the largest since 2008. XBI spiked about $2 at the 2pm announcement, closed flat near $100, and rose about 2% the next morning; analysts called the reaction a net positive but anticlimactic because SMID biotech had already rallied hard from its spring lows in anticipation. The episode showed that cost-of-capital trades in long-duration biotech are front-run rather than bought on the news.",
+      "evidence": "XBI closed near $100 on 2024-09-18 after an intraday spike; up about 2% on 2024-09-19 morning.",
+      "sources": [
+        {"title": "After Fed rate cut, biotech stocks face 'anticlimactic' reality (BioSpace)", "url": "https://www.biospace.com/business/after-fed-rate-cut-biotech-stocks-face-anticlimactic-reality"},
+        {"title": "Can the Fed's rate cut change biotech's 'new normal'? (BioPharma Dive)", "url": "https://www.biopharmadive.com/news/biotech-interest-rates-impact-startups-venture-capital/727479/"}
+      ]
+    },
+    {
+      "id": "housing-2024-fed-50bp-cut",
+      "date": "2024-09-18",
+      "end_date": "2024-09-19",
+      "sector": "consumer_discretionary",
+      "subindustries": ["housing"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Fed's 50bp cut: homebuilders pop, then mortgage rates rise anyway",
+      "summary": "Homebuilders rallied on the 50bp cut: XHB rose more than 3% before the open on September 19, 2024, Lennar nearly 4%, and D.R. Horton, PulteGroup and Toll 1-3%, with the S&P 500 Homebuilding index already up more than 30% year to date against 17% for the S&P 500. The rally proved to be the top: the 10-year yield rose roughly 80bp over the following two months and mortgage rates went back above 7%, so the group gave back its gains into early 2025. It is the clearest recent example of builders pricing the easing cycle before it arrived.",
+      "evidence": "S&P 500 Homebuilding index +30% year-to-date vs S&P 500 +17% as of 2024-09-19; XHB +3% premarket.",
+      "sources": [
+        {"title": "US homebuilder stocks surge on hopes for demand boost after Fed rate cuts (Reuters via Yahoo)", "url": "https://finance.yahoo.com/news/us-homebuilder-stocks-surge-hopes-121147068.html/"},
+        {"title": "Stock market news for September 19, 2024 (CNBC)", "url": "https://www.cnbc.com/2024/09/18/stock-market-today-live-updates.html"}
+      ]
+    },
+    {
+      "id": "staples-retail-2024-kroger-albertsons-blocked",
+      "date": "2024-12-10",
+      "end_date": "2024-12-11",
+      "sector": "consumer_staples",
+      "subindustries": ["staples_retail"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Judge blocks the $25bn Kroger-Albertsons merger; Kroger rises, Albertsons sues",
+      "summary": "U.S. District Judge Adrienne Nelson sided with the FTC on December 10, 2024, finding the proposed divestiture of hundreds of stores to C&S Wholesale would not replace lost competition. Kroger closed up 5.14% at $60.73 as investors welcomed the end of a leveraged deal, while Albertsons fell 2-4%; Albertsons terminated the agreement the next day and sued Kroger for breach. The ruling closed the door on scale M&A as a response to Walmart and Costco share gains in grocery.",
+      "evidence": "Kroger closed +5.14% at $60.73 on 2024-12-10.",
+      "sources": [
+        {"title": "Kroger stock up after judge blocks Albertsons deal (Benzinga)", "url": "https://benzinga.com/z/42424808"},
+        {"title": "Judge blocks Albertsons-Kroger $25 billion supermarket merger (NBC News)", "url": "https://www.nbcnews.com/business/business-news/judge-blocks-albertsons-kroger-25-billion-supermarket-merger-rcna183677"}
+      ]
+    },
+    {
+      "id": "pharma-2025-acip-overhaul",
+      "date": "2025-06-09",
+      "end_date": "2025-06-10",
+      "sector": "healthcare",
+      "subindustries": ["pharma", "biotech_large"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "policy",
+      "title": "RFK Jr. fires all 17 ACIP vaccine advisers; vaccine makers barely move because the risk is priced",
+      "summary": "HHS Secretary Robert F. Kennedy Jr. dismissed the entire CDC Advisory Committee on Immunization Practices on June 9, 2025 and named eight replacements days later. Moderna fell about 2% and Novavax was flat on June 10 while Pfizer and Merck rose 1.4-2%; analysts at Leerink called the overhaul a risk for every vaccine manufacturer, but BMO and Morningstar argued the stocks' weak 2025 already discounted Kennedy's scepticism. The muted reaction marked the shift from vaccine-policy shock (the November 2024 nomination selloff) to a slow grind of narrower recommendations.",
+      "evidence": "Moderna -2% on 2025-06-10, the first session after the dismissals.",
+      "sources": [
+        {"title": "Vaccine stocks muted as investors assess Kennedy's overhaul of key panel (Globe and Mail / Reuters)", "url": "https://www.theglobeandmail.com/investing/article-vaccine-stocks-muted-as-investors-assess-kennedys-overhaul-of-key/"},
+        {"title": "BMO Capital warns of potential risks for vaccine stocks after ACIP changes (Investing.com)", "url": "https://www.investing.com/news/analyst-ratings/bmo-capital-warns-of-potential-risks-for-vaccine-stocks-after-rfk-jrs-acip-changes-93CH-4089168"},
+        {"title": "RFK Jr. reveals picks for influential vaccine panel (BioPharma Dive)", "url": "https://www.biopharmadive.com/news/rfk-kennedy-names-acip-cdc-panel-vaccines/750528/"}
+      ]
+    },
+    {
+      "id": "restaurants-2025-low-income-stress",
+      "date": "2025-07-23",
+      "end_date": "2025-10-30",
+      "sector": "consumer_discretionary",
+      "subindustries": ["travel_leisure_restaurants"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "Chipotle cuts guidance three times as younger and lower-income diners pull back",
+      "summary": "Chipotle reported a 4% same-store sales decline for Q2 2025 (worse than the -2.9% expected) on July 23 and cut its full-year comp outlook to flat, sending the shares down about 9%. On October 29 it cut for a third time, to a low-single-digit decline, citing younger and lower-income consumers cutting back; the stock fell 13% after hours and as much as 19% the next day, dragging Sweetgreen and Cava. The sequence turned the 'K-shaped consumer' from a thesis into reported numbers for fast casual and QSR.",
+      "evidence": "Chipotle Q2 2025 same-store sales -4.0% vs -2.9% consensus (reported 2025-07-23).",
+      "sources": [
+        {"title": "Chipotle stock tumbles 9% after chain cuts same-store sales forecast (CNBC)", "url": "https://www.cnbc.com/2025/07/23/chipotle-mexican-grill-cmg-q2-2025-earnings.html"},
+        {"title": "Chipotle stock plunges 13% as chain lowers sales forecast, says younger diners are cutting back (CNBC)", "url": "https://www.cnbc.com/2025/10/29/chipotle-cmg-earnings-q3-2025.html"},
+        {"title": "Chipotle cuts same-store sales forecast as traffic slumps (eMarketer)", "url": "https://www.emarketer.com/content/chipotle-cuts-same-store-sales-forecast-traffic-slumps"}
+      ]
+    },
+    {
+      "id": "rails-2017-csx-psr-rally",
+      "date": "2017-01-19",
+      "end_date": "2019-12-31",
+      "sector": "industrials",
+      "subindustries": ["transportation"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Hunter Harrison and Mantle Ridge: CSX +23% in a day starts the precision-scheduled-railroading rally",
+      "summary": "CSX rose 23.4% on January 19, 2017, its best day since 1980, after the Wall Street Journal reported that Hunter Harrison would leave Canadian Pacific and partner with Paul Hilal's Mantle Ridge to run CSX; Harrison was named CEO on March 6 with the stock up 35% since the report. Precision scheduled railroading then spread to Union Pacific (Unified Plan 2020, 2018), Norfolk Southern and Kansas City Southern, and rails re-rated on falling operating ratios through 2019 even as carload volumes declined. Harrison died in December 2017 but the margin playbook outlived him.",
+      "evidence": "CSX +23.4% on 2017-01-19 from a $36.88 prior close (Mantle Ridge DFAN14A).",
+      "sources": [
+        {"title": "CSX shares see best day in 36 years amid reported activist interest (CNBC)", "url": "https://www.cnbc.com/2017/01/19/csx-shares-tracking-for-best-day-in-36-years-amid-reported-activist-interest.html"},
+        {"title": "CSX attracts new CEO and stock price rises sharply (Harvard Law corporate governance forum)", "url": "https://corpgov.law.harvard.edu/2017/09/04/csx-attracts-new-ceo-and-stock-price-rises-sharply/"},
+        {"title": "CSX reports improved progress in implementing precision scheduled railroading (CSX IR)", "url": "https://investors.csx.com/news-and-events/news/news-details/2017/CSX-Reports-Improved-Progress-in-Implementing-Precision-Scheduled-Railroading-20170906080900/default.aspx"}
+      ]
+    },
+    {
+      "id": "defense-2023-israel-hamas",
+      "date": "2023-10-09",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["defense"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "geopolitical",
+      "title": "October 7 attack on Israel: Northrop +11%, Lockheed's best non-earnings day since 2020",
+      "summary": "On the first trading day after Hamas's October 7, 2023 attack, Northrop Grumman rose about 11%, Lockheed Martin 8-9% (its biggest non-earnings gain since March 2020), General Dynamics 9% and RTX 4-5% while the S&P 500 slipped. The move came with Ukraine aid stalled in Congress and ahead of the White House's $106bn supplemental request on October 20, and it started a defense re-rating that ran through 2024 as munitions demand and the Red Sea conflict widened.",
+      "evidence": "Northrop Grumman +11% and Lockheed Martin +8-9% on 2023-10-09.",
+      "sources": [
+        {"title": "Lockheed Martin, Northrop Grumman stocks notch best days in years amid Israel-Hamas conflict (Forbes)", "url": "https://www.forbes.com/sites/dereksaul/2023/10/09/lockheed-martin-northrop-grumman-stocks-notch-best-days-in-years-amid-israel-hamas-conflict/"},
+        {"title": "Defense stocks jump as war rages between Israel and Hamas (Yahoo Finance)", "url": "https://finance.yahoo.com/news/defense-stocks-jump-war-rages-000436010.html"}
+      ]
+    },
+    {
+      "id": "real-estate-services-2021-record-year",
+      "date": "2021-01-04",
+      "end_date": "2021-12-31",
+      "sector": "real_estate",
+      "subindustries": ["real_estate_services"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "2021: record $1.3 trillion of global CRE investment makes CBRE's best year ever",
+      "summary": "Global commercial real estate investment hit a record $1.3 trillion in 2021, up 55% from 2020 and 21% from 2019, with the Americas near $775bn (+83%) as cheap debt and reopening demand released pent-up transactions. CBRE reported record revenue, earnings and free cash flow for 2021 (GAAP EPS $5.41, +143%; free cash flow $2.2bn), and brokers rallied through the year. Transaction-driven services were the biggest beneficiaries of the zero-rate era and the first casualties of the 2022 rate shock.",
+      "evidence": "Global CRE investment volume $1.3 trillion in 2021, +55% y/y (CBRE Research); CBRE 2021 GAAP EPS $5.41, +143%.",
+      "sources": [
+        {"title": "2021 global investment volume hits record level (CBRE)", "url": "https://www.cbre.com/insights/briefs/2021-global-investment-volume-hits-record-level"},
+        {"title": "CBRE Group reports financial results for Q4 and full year 2021 (CBRE IR)", "url": "https://ir.cbre.com/press-releases/detail/38/cbre-group-inc-reports-financial-results-for-q4-and-full"}
+      ]
+    },
+    {
+      "id": "towers-2017-rerating-2018-sprint-scare",
+      "date": "2017-01-03",
+      "end_date": "2018-05-24",
+      "sector": "real_estate",
+      "subindustries": ["data_center_tower_reits"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "tech_cycle",
+      "title": "Cell towers return 35% in 2017, then wobble on the Sprint/T-Mobile merger",
+      "summary": "Tower REITs were the best REIT sector of 2017 with a 35.38% total return (infrastructure was up 22% by mid-year) as carriers densified 4G networks and investors paid for escalator-driven growth; American Tower was up 38% year-to-date by late 2017. The run paused when the Sprint/T-Mobile merger was announced in April 2018: the tower group returned -7.2% from March 31 to May 24, 2018 against +2.9% for the RMZ on fears of losing a tenant. The 5G capex narrative then carried towers to a 42% return in 2019.",
+      "evidence": "Cell tower REITs total return 35.38% in 2017; -7.2% from 2018-03-31 to 2018-05-24 vs RMZ +2.9%.",
+      "sources": [
+        {"title": "Spirit of America Investment Fund annual report 2017 (SEC N-CSR; cites tower REIT 35.38% return)", "url": "https://www.sec.gov/Archives/edgar/data/0001039667/000119312518073113/d492317dncsr.htm"},
+        {"title": "Cell tower REITs: for 5G, 4 beats 3 (Seeking Alpha)", "url": "https://seekingalpha.com/article/4280713-cell-tower-reits-for-5g-4-beats-3"},
+        {"title": "Mortgage REITs lead REIT market gains in 2017's first half (Nareit)", "url": "https://www.reit.com/news/blog/nareit-media/mortgage-reits-lead-reit-market-gains-2017s-first-half"}
+      ]
+    },
+    {
+      "id": "semicap-2024-asml-bookings-miss",
+      "date": "2024-10-15",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": ["semicap"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "ASML's bookings miss: -16%, the worst day since 1998, and equipment stocks' worst since 2020",
+      "summary": "ASML's Q3 2024 results leaked a day early on October 15, 2024 showing net bookings of EUR 2.6bn against roughly EUR 5.4bn expected and a 2025 revenue guide cut to EUR 30-35bn, the lower half of the prior range, as non-AI demand (China, logic node delays) recovered slower than hoped. The stock fell 16% in Amsterdam, Applied Materials and Lam had their worst days since 2020, KLA its biggest drop in nearly a decade and the SOX lost 5.3%. It split the semiconductor trade into AI-exposed winners and a WFE cycle that was not recovering.",
+      "evidence": "ASML Q3 2024 net bookings EUR 2.6bn vs ~EUR 5.4bn consensus; shares -16% on 2024-10-15.",
+      "sources": [
+        {"title": "ASML shares plunge as bookings miss signals chipmaker woes (Japan Times / Bloomberg)", "url": "https://www.japantimes.co.jp/business/2024/10/16/companies/asml-shares-bookings-chipmaker/"},
+        {"title": "ASML shares plunge as Q3 net bookings miss estimates (StreetInsider)", "url": "https://www.streetinsider.com/Earnings/ASML+shares+plunge+as+Q3+net+bookings+miss+estimates,+outlook+disappoints/23836836.html"},
+        {"title": "Why ASML stock lost 17% in October (Motley Fool)", "url": "https://www.fool.com/investing/2024/11/04/why-asml-stock-lost-17-in-october/"}
+      ]
+    },
+    {
+      "id": "media-2015-disney-espn-selloff",
+      "date": "2015-08-04",
+      "end_date": "2015-08-05",
+      "sector": "communication_media",
+      "subindustries": ["media_entertainment"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "Disney admits ESPN subscriber losses; media stocks suffer double-digit cord-cutting drops",
+      "summary": "On August 4, 2015 Disney trimmed its cable-network outlook and Bob Iger acknowledged 'modest sub losses' at ESPN; the stock fell more than 9% on August 5, its worst day in almost four years, and media peers (Viacom, Time Warner, Fox, CBS, Discovery) dropped double digits that week. Disney's annual filing later showed ESPN lost 3m subscribers in fiscal 2015 and about 7m over two years, to 92m. The week is generally treated as the market's first repricing of linear TV for cord-cutting.",
+      "evidence": "Disney shares -9% on 2015-08-05; ESPN subscribers fell 3m in FY2015 to 92m.",
+      "sources": [
+        {"title": "Disney stock hit by ESPN fears (CNN Money)", "url": "https://money.cnn.com/2015/08/05/media/disney-stock-down-espn/"},
+        {"title": "Disney lowers forecast citing ESPN sub drop (Deadline)", "url": "https://deadline.com/2015/08/disney-lower-financial-forecast-espn-subscriber-loss-1201491732/"},
+        {"title": "Hollywood's stock crash one year later (Hollywood Reporter)", "url": "https://www.hollywoodreporter.com/lists/hollywoods-stock-crash-one-year-918528/"}
+      ]
+    },
+    {
+      "id": "banks-2024-election-rally",
+      "date": "2024-11-06",
+      "end_date": null,
+      "sector": "financials",
+      "subindustries": ["banks", "capital_markets"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "election",
+      "title": "Trump's 2024 win: regional banks +13%, Goldman +13%, the biggest bank day since 2020",
+      "summary": "Banks were the sharpest winners of the November 6, 2024 post-election rally: KRE rose 13.4%, its largest gain since November 2020, Goldman Sachs 13%, JPMorgan 12% and the KBW Bank index 11% against a 2.5% rise in the S&P 500. Investors priced a lighter Basel III endgame, faster merger approvals and a steeper curve; the trade persisted into 2025 and was validated by the 2025 enhanced-SLR cut and the 2026 Basel re-proposal.",
+      "evidence": "KRE +13.4% on 2024-11-06, its largest one-day gain since November 2020.",
+      "sources": [
+        {"title": "Regional bank stocks notch strongest day in 4 years (Benzinga)", "url": "https://www.benzinga.com/etfs/sector-etfs/24/11/41788181/regional-bank-stocks-notch-strongest-day-in-4-years-why-analysts-expect-several-tailwinds-from-t"},
+        {"title": "Bank stock prices soar on hopes that Trump will ease regulation (American Banker)", "url": "https://www.americanbanker.com/news/bank-stock-prices-soar-on-hopes-that-trump-will-ease-regulation"},
+        {"title": "Wall Street's Trump party could end in a hangover (Euromoney)", "url": "https://www.euromoney.com/article/2dzrjdd21riuri4tnzeo0/banking/wall-streets-trump-party-could-end-in-a-hangover/"}
+      ]
+    },
+    {
+      "id": "biotech-2014-gilead-hepc-formulary-fight",
+      "date": "2014-12-22",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["biotech_large"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "Express Scripts drops Sovaldi for AbbVie's Viekira Pak; Gilead -12% and PBM pricing power becomes a sector risk",
+      "summary": "After a year of political fire over Sovaldi's $84,000 list price, Express Scripts announced on December 22, 2014 that AbbVie's newly approved Viekira Pak would be the exclusive genotype-1 hepatitis C regimen on its national formulary from January 1, 2015 in exchange for a large discount, the first major specialty-drug exclusion of its kind. Gilead fell about 12% to roughly $95.70 and the Nasdaq Biotech index dropped 4.6% as investors re-priced the ability of PBMs to force rebates. Gilead and Express Scripts later made peace with a 2017 formulary deal, but net pricing for hepatitis C never recovered.",
+      "evidence": "Gilead -11.8% to about $95.70 on 2014-12-22; Nasdaq Biotechnology index -4.6%.",
+      "sources": [
+        {"title": "Gilead Sciences falls amid AbbVie deal with Express Scripts (Benzinga)", "url": "https://www.benzinga.com/news/14/12/5099689/gilead-sciences-plummets-amid-abbvie-deal-with-express-scripts"},
+        {"title": "Express Scripts drops Gilead hep C drugs for cheaper AbbVie rival (Reuters via Yahoo)", "url": "https://www.yahoo.com/news/express-scripts-cover-abbvie-hepatitis-c-drug-drops-050323412--finance.html"},
+        {"title": "Gilead and Express Scripts make peace in hep C with 2017 formulary deal (FiercePharma)", "url": "https://www.fiercepharma.com/pharma/gilead-and-express-scripts-make-peace-hep-c-2017-formulary-deal"}
+      ]
+    },
+    {
+      "id": "biotech-2023-svb-cash-fears",
+      "date": "2023-03-10",
+      "end_date": "2023-03-13",
+      "sector": "healthcare",
+      "subindustries": ["biotech_smid", "life_sciences_tools"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "SVB fails: biotech's house bank disappears and XBI falls 3.5% on cash-exposure fears",
+      "summary": "Silicon Valley Bank, the lender behind roughly half of venture-backed health-care companies, was closed on March 10, 2023; venture-backed health firms made up 12% of its $173bn deposits and 36% of $168bn in off-balance-sheet funds. XBI dropped about 3.5% that day as companies disclosed exposure (Vir about $220m, Sangamo $34m, Zealand 15% of cash) before the March 12 deposit backstop capped the damage. Public biotechs were largely shielded, but losing SVB's venture-debt channel deepened the 2023 funding drought for private and early-stage companies and for the tools and CRO suppliers that depend on them.",
+      "evidence": "XBI -3.5% on 2023-03-10; venture-backed health companies were 12% of SVB's $173bn deposits.",
+      "sources": [
+        {"title": "SVB collapse brings another blow to cash-starved biotech industry (Bloomberg)", "url": "https://www.bloomberg.com/news/articles/2023-03-10/svb-sivb-collapse-brings-another-blow-to-cash-starved-biotech-industry"},
+        {"title": "SVB, biotech's bank of choice, just failed (STAT)", "url": "https://www.statnews.com/2023/03/10/svb-biotechs-bank-of-choice-just-failed-it-could-have-ripple-effects/"},
+        {"title": "SVB failure triggers shock waves across biotech industry (Fierce Biotech)", "url": "https://www.fiercebiotech.com/biotech/biotech-bank-svbs-capital-crunch-sparks-bank-run-companies-huddle-consider-exposure"}
+      ]
+    },
+    {
+      "id": "semis-2018-q4-bottom",
+      "date": "2018-12-26",
+      "end_date": "2019-12-31",
+      "sector": "technology",
+      "subindustries": ["semiconductors"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "Semiconductor bottom of December 2018: Nvidia's crypto glut, then a 60% SOX year",
+      "summary": "The SOX fell about 25% from October to late December 2018 (-15.5% in Q4) as the trade war, Fed hikes and a crypto-mining inventory glut hit the group; Nvidia lost 54% in Q4 alone and Micron bottomed at $28.39 on December 26. The index put in its low in the last week of December and then returned 60.1% in 2019, more than 20% of it in Q1, as the Fed pivoted and inventories cleared. The episode set the template later used in 2022: semis bottom on inventory capitulation, roughly two quarters before fundamentals.",
+      "evidence": "PHLX Semiconductor index Q4 2018 return -15.48% and 2019 return +60.12% (Nasdaq index fact sheet).",
+      "sources": [
+        {"title": "PHLX Semiconductor Sector Index fact sheet (Nasdaq)", "url": "https://indexes.nasdaqomx.com/docs/FS_SOX.pdf"},
+        {"title": "Chip stocks are bleeding today: the 2018 and 2022 selloffs tell you what comes next (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/05/12/chip-stocks-are-bleeding-today-the-2018-and-2022-selloffs-tell-you-exactly-what-comes-next/"},
+        {"title": "Why Micron Technology stock fell 22.8% in 2018 (Motley Fool)", "url": "https://www.fool.com/investing/2019/01/14/why-micron-technology-stock-fell-228-in-2018.aspx"}
+      ]
+    },
+    {
+      "id": "memory-2018-supercycle-peak",
+      "date": "2018-06-01",
+      "end_date": "2018-12-26",
+      "sector": "technology",
+      "subindustries": ["memory"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "The 2016-18 DRAM supercycle peaks: Micron -56% from its June 2018 high",
+      "summary": "Two years of DRAM and NAND price inflation driven by cloud over-ordering took Micron from under $10 in 2016 to an intraday high of $64.66 in June 2018. Hyperscalers then worked down inventory through 2018, Micron guided below expectations on September 20, 2018, and the stock fell 56% to $28.39 by December 26 (down 22.8% for the calendar year). Fiscal 2019 revenue fell 23% to $23.4bn, yet the shares rose 69% in 2019 as the market looked through the trough, the classic memory-cycle pattern.",
+      "evidence": "Micron fell 56% from its 2018 high to $28.39 on 2018-12-26; weak fiscal Q1 guidance on 2018-09-20.",
+      "sources": [
+        {"title": "Wall Street analysts are worried about a memory chip downturn as Micron shares keep falling (CNBC)", "url": "https://www.cnbc.com/2018/09/21/wall-street-is-worried-about-a-memory-chip-downturn-as-micron-shares-keep-falling.html"},
+        {"title": "Why Micron Technology stock fell 22.8% in 2018 (Motley Fool)", "url": "https://www.fool.com/investing/2019/01/14/why-micron-technology-stock-fell-228-in-2018.aspx"},
+        {"title": "Why it's (kind of) different this time for Micron stock (Motley Fool, 2020)", "url": "https://www.fool.com/investing/2020/01/16/why-its-kind-of-different-this-time-for-micron-sto.aspx"}
+      ]
+    },
+    {
+      "id": "energy-2016-opec-vienna-cut",
+      "date": "2016-11-30",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": ["exploration_production", "oilfield_services"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "OPEC's Vienna deal: first cut since 2008 sends E&Ps and drillers up double digits",
+      "summary": "On November 30, 2016 OPEC agreed in Vienna to cut output by 1.2m b/d to 32.5m b/d from January 2017, its first cut in eight years, with Russia and other non-OPEC producers pledging a further 600k b/d. Brent rose $3.79 (8.2%) to $50.17 on the day and about 16% over two sessions; EOG, Apache and Chesapeake rose more than 8%, Marathon Oil 22% and Transocean 16%. The deal underwrote the 2017 shale recovery and the services rebound, though U.S. production growth capped crude below $60 for most of 2017.",
+      "evidence": "Brent +$3.79 to $50.17 (+8.2%) on 2016-11-30; Marathon Oil +22% and Transocean +16% the same day.",
+      "sources": [
+        {"title": "Oil prices surge as OPEC reaches production deal (Al Jazeera)", "url": "https://www.aljazeera.com/economy/2016/11/30/oil-prices-surge-as-opec-reaches-production-deal/"},
+        {"title": "OPEC agrees to lower output to push up oil prices (CBS News)", "url": "https://www.cbsnews.com/amp/news/opec-agrees-to-lower-output-to-push-up-oil-prices"},
+        {"title": "What the OPEC production cut will really mean for oil prices (Fortune)", "url": "https://fortune.com/2016/11/30/oil-prices-opec-meeting/"}
+      ]
+    },
+    {
+      "id": "energy-2020-negative-wti-day",
+      "date": "2020-04-20",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": ["exploration_production", "oilfield_services"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "WTI settles at -$37.63: S&P energy -3.7% on the day oil went negative",
+      "summary": "With Cushing storage nearly full a day before expiry, the May 2020 WTI contract settled at -$37.63 on April 20, 2020, the first negative price in the contract's history; the June contract stayed above $20. S&P 500 energy stocks fell 3.7% and XLE 3.6%, the sharpest sector loss of the session, while Halliburton reported a $1.1bn impairment the same morning. The print accelerated the shale bankruptcy wave (Whiting had filed April 1; Chesapeake followed in June) and the shift of E&Ps to capital-return models.",
+      "evidence": "May 2020 WTI futures settled at -$37.63 on 2020-04-20; S&P 500 energy sector -3.7%.",
+      "sources": [
+        {"title": "Oil price goes negative as demand collapses; stocks dip (AP via News3LV)", "url": "https://news3lv.com/amp/news/nation-world/oil-price-goes-negative-as-demand-collapses-stocks-dip-04-20-2020-195435591"},
+        {"title": "Energy sector update for 04/20/2020 (MT Newswires via Nasdaq)", "url": "https://www.nasdaq.com/articles/energy-sector-update-for-04-20-2020:-bambam-a.totopshalchk-2020-04-20"},
+        {"title": "Halliburton books $1.1 billion charge in low price outlook (CNBC)", "url": "https://www.cnbc.com/2020/04/20/halliburton-hal-earnings-q1-2020.html"}
+      ]
+    },
+    {
+      "id": "clean-energy-2021-georgia-runoff",
+      "date": "2021-01-06",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": ["new_energy_power"],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "election",
+      "title": "Georgia runoffs hand Democrats the Senate: solar ETF +9%, SunPower +25% at the cycle top",
+      "summary": "As Raphael Warnock and Jon Ossoff won Georgia's Senate runoffs on January 6, 2021, giving Democrats a 50-50 Senate with the vice-president's tie-break, clean energy stocks surged on the prospect of reconciliation-passed climate credits: the Invesco Solar ETF rose 8-10%, SunPower 25%, Sunrun 16% and Enphase and SolarEdge more than 12%. The day sits within weeks of the clean-energy peak (ICLN topped in early February 2021), making it the final blow-off of the 2020 ESG/zero-rate mania before rising yields cut the group by a quarter.",
+      "evidence": "Invesco Solar ETF (TAN) +9.8% and SunPower +25% on 2021-01-06.",
+      "sources": [
+        {"title": "Clean energy stocks jump as Georgia results roll in (CNBC)", "url": "https://www.cnbc.com/2021/01/06/clean-energy-stocks-jump-as-georgia-results-roll-in.html"},
+        {"title": "Why residential solar stocks jumped today (Motley Fool)", "url": "https://www.fool.com/investing/2021/01/06/why-residential-solar-stocks-jumped-today/"},
+        {"title": "Solar ETF lights up as Georgia's Senate race fuels green energy outlook (ETF Trends)", "url": "https://www.etftrends.com/esg-content-hub/solar-etf-lights-up-as-georgias-senate-race-fuels-green-energy-outlook/"}
+      ]
+    },
+    {
+      "id": "media-2023-hollywood-double-strike",
+      "date": "2023-07-14",
+      "end_date": "2023-11-09",
+      "sector": "communication_media",
+      "subindustries": ["media_entertainment"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "SAG-AFTRA joins the writers: Hollywood's first double strike since 1960 shuts production",
+      "summary": "Actors walked out on July 14, 2023, two months into the Writers Guild strike, halting most scripted film and TV production. Warner Bros. Discovery fell more than 5%, Paramount 4.6%, Disney 2% and Netflix 1.8% that day, and WBD later cut 2023 adjusted EBITDA guidance by $300-500m for strike costs; levered studios were hit hardest while Netflix's global library insulated it. The actors settled on November 9 and media shares popped, but the four-month stoppage pushed content releases into 2024-25 and deepened the linear-TV earnings hole.",
+      "evidence": "Warner Bros. Discovery cut 2023 adjusted EBITDA guidance by $300-500m due to the strikes (announced 2023-09-05).",
+      "sources": [
+        {"title": "Entertainment stocks slump as Hollywood strike widens to SAG-AFTRA (TheWrap)", "url": "https://www.thewrap.com/sag-aftra-strike-disney-warner-bros-discovery-netflix-stocks/"},
+        {"title": "Warner Bros. Discovery says strikes will cost it up to $500 million this year (CNN)", "url": "https://www.cnn.com/2023/09/05/media/warner-bros-discovery-strike-impact/index.html"},
+        {"title": "Media stocks pop as SAG-AFTRA strike settles (Deadline)", "url": "https://deadline.com/2023/11/media-shares-actors-sag-aftra-strike-settlement-1235598215/"}
+      ]
+    },
+    {
+      "id": "reits-2025-moodys-downgrade",
+      "date": "2025-05-16",
+      "end_date": "2025-05-19",
+      "sector": "real_estate",
+      "subindustries": ["net_lease_specialty_reits", "regulated_utilities"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "rates",
+      "title": "Moody's strips the last Aaa: 30-year Treasury tops 5%, bond-proxy REITs and utilities wobble",
+      "summary": "Moody's cut the U.S. to Aa1 after the close on May 16, 2025, citing deficits heading toward 9% of GDP by 2035, the last of the three agencies to remove the top rating. The 30-year yield rose above 5% (5.02%) on May 19 and S&P futures fell 1.1% before the index closed up 0.1%, so the equity damage was concentrated in rate-sensitive groups rather than the market. For net-lease REITs and utilities, the move reinforced the term-premium problem: long yields at 5% leave dividend yields of 4-6% without a spread, a theme that recurred in the 2026 selloff.",
+      "evidence": "30-year Treasury yield 5.023% on 2025-05-19, the first close above 5% since late 2023.",
+      "sources": [
+        {"title": "Moody's downgrade pushes yields to 5%: what it means for stocks (Benzinga)", "url": "https://www.benzinga.com/economics/macro-economic-events/25/05/45500872/30-year-treasury-yields-hit-5-what-that-means-for-stocks"},
+        {"title": "Stock market news for May 19, 2025 (CNBC)", "url": "https://www.cnbc.com/2025/05/18/stock-futures-slide-after-us-debt-downgrade-highlights-deficit-risk-live-updates.html"}
+      ]
+    },
+    {
+      "id": "staples-2017-kraft-heinz-unilever-bid",
+      "date": "2017-02-17",
+      "end_date": "2017-02-19",
+      "sector": "consumer_staples",
+      "subindustries": ["household_personal", "food_beverage_tobacco"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Kraft Heinz's $143bn bid for Unilever: a 3G cost-cut premium lands on every staple for a weekend",
+      "summary": "Kraft Heinz disclosed a $50-a-share, $143bn cash-and-stock approach for Unilever on February 17, 2017, which Unilever rejected as fundamentally undervaluing it; Unilever's U.S.-listed shares jumped 14% and Kraft Heinz 10% to a record. The bid was withdrawn on February 19 after the leak made a friendly deal impossible, but it forced Unilever into margin targets and buybacks and put a takeover premium on slow-growth food and household names (Campbell, General Mills, Kellogg, Mondelez were named as next targets). It marked the high-water mark of the 3G zero-based-budgeting era that Kraft Heinz's 2019 writedown ended.",
+      "evidence": "Unilever U.S.-listed shares +14% and Kraft Heinz +10% on 2017-02-17; bid withdrawn 2017-02-19.",
+      "sources": [
+        {"title": "Kraft Heinz spurned in $143 billion Unilever takeover bid (Bloomberg)", "url": "https://www.bloomberg.com/news/articles/2017-02-17/kraft-heinz-says-unilever-rejected-approach-on-combination"},
+        {"title": "Kraft Heinz withdraws its $143 billion bid for Unilever (Forbes)", "url": "https://www.forbes.com/sites/antoinegara/2017/02/19/kraft-heinz-withdraws-its-143-billion-bid-for-unilever/"},
+        {"title": "How Unilever dodged a bullet (Axios)", "url": "https://www.axios.com/2019/02/24/unilever-kraft-heinz-takeover-bid-stock-prices"}
+      ]
+    },
+    {
+      "id": "waste-2018-china-national-sword",
+      "date": "2018-01-01",
+      "end_date": "2018-12-31",
+      "sector": "industrials",
+      "subindustries": ["waste"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "policy",
+      "title": "China's National Sword: recycled-commodity collapse costs Waste Management $90m of 2018 earnings",
+      "summary": "China's National Sword policy banned 24 categories of imported scrap and imposed a 0.5% contamination limit from January 1, 2018, collapsing prices for mixed paper and plastics in the U.S. Waste Management's recycling revenue fell $197m and recycling earnings $90m in 2018 with another $100m decline guided for 2019, and Waste Connections' recycling revenue fell 43%. The haulers responded by adding processing fees and renegotiating municipal contracts, which turned recycling from a commodity exposure into a fee-for-service line and, by 2021-22, into a tailwind when prices recovered.",
+      "evidence": "Waste Management 2018 recycling earnings down $90m y/y; recycling revenue down $197m.",
+      "sources": [
+        {"title": "National Sword bruises hauler recycling businesses (Resource Recycling)", "url": "https://resource-recycling.com/recycling/2019/02/19/national-sword-bruises-hauler-recycling-businesses/"},
+        {"title": "From Green Fence to red alert: a China timeline (Resource Recycling)", "url": "https://resource-recycling.com/recycling/2018/02/13/green-fence-red-alert-china-timeline/"}
+      ]
+    },
+    {
+      "id": "waste-2024-wm-stericycle",
+      "date": "2024-06-03",
+      "end_date": "2024-11-04",
+      "sector": "industrials",
+      "subindustries": ["waste"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Waste Management buys Stericycle for $7.2bn to enter medical waste",
+      "summary": "WM agreed on June 3, 2024 to acquire Stericycle for $62 a share in cash (about $7.2bn including debt), its largest deal since Advanced Disposal, to add regulated medical waste and document destruction. Stericycle closed up 14.6% while WM traded flat to lower as investors weighed the turnaround risk and leverage against a stated path to synergies; the deal cleared DOJ review in September and closed on November 4, 2024. It extended the sector's pattern of using M&A and pricing, rather than volume, to compound earnings.",
+      "evidence": "Stericycle holders received $62.00 per share in cash; SRCL +14.6% on 2024-06-03.",
+      "sources": [
+        {"title": "WM completes acquisition of Stericycle (WM investor relations)", "url": "https://investors.wm.com/news-releases/news-release-details/wm-completes-acquisition-stericycle"},
+        {"title": "Stericycle's $7.2B sale to WM clears DOJ antitrust review (Waste Dive)", "url": "https://www.wastedive.com/news/stericycle-shareholder-vote-wm-transaction-doj/724310/"},
+        {"title": "Waste Management's big move is a win for Stericycle (Seeking Alpha)", "url": "https://seekingalpha.com/article/4697290-waste-managements-big-move-is-a-win-for-stericycle"}
+      ]
+    },
+    {
+      "id": "distribution-2025-uri-he-herc-bidding-war",
+      "date": "2025-01-14",
+      "end_date": "2025-02-19",
+      "sector": "industrials",
+      "subindustries": ["industrial_distribution"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "United Rentals bids $4.8bn for H&E, then Herc tops it: rental consolidation reprices",
+      "summary": "United Rentals agreed in January 2025 to buy H&E Equipment Services for $92 a share (about $4.8bn including debt) to extend its branch density in the Gulf Coast and Southeast. During the go-shop Herc Holdings offered $78.75 cash plus 0.1287 Herc shares, valued at $104.89 a share or $5.3bn, and United Rentals declined to match on February 19; H&E rose about 13% while Herc fell 7.3% at the close on dilution and integration worries. The contest showed that rental-penetration and mega-project narratives were still attracting strategic capital even as short-cycle industrial demand stagnated.",
+      "evidence": "Herc's winning offer: $78.75 cash plus 0.1287 Herc shares per H&E share, valued at $104.89 (2025-02-19).",
+      "sources": [
+        {"title": "Herc's surprise bid for H&E makes rival United Rentals walk away (Reuters via Investing.com)", "url": "https://www.investing.com/news/stock-market-news/united-rentals-to-walk-away-after-he-receives-superior-takeover-bid-from-herc-3874940"},
+        {"title": "United Rentals drops $3.4 billion purchase of H&E Equipment (Transport Topics)", "url": "https://www.ttnews.com/articles/united-rentals-drops-buy"},
+        {"title": "Herc's $5.3bn power play snags H&E from United Rentals (International Rental News)", "url": "https://www.internationalrentalnews.com/news/hercs-53b-power-play-snags-h-e-from-united-/8050928.article"}
+      ]
+    },
+    {
+      "id": "telecom-2017-verizon-unlimited-price-war",
+      "date": "2017-02-13",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": ["telecom"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Verizon brings back unlimited data: the 2017 wireless price war and telecom's lost year",
+      "summary": "Verizon reintroduced an $80-a-month unlimited plan on February 12, 2017, reversing its 2011 stance and matching T-Mobile and Sprint, after admitting in January that competition was biting harder than expected. AT&T, Sprint and Verizon shares each fell about 1% on February 13 as analysts warned of eroding margins across the industry. The plan locked in a year of service-revenue declines for the two incumbents and kept telecom among the S&P's worst sectors in 2017 while the market rose 20%.",
+      "evidence": "Verizon unlimited plan priced at $80 a month for a single line, announced 2017-02-12; VZ and T about -1% on 2017-02-13.",
+      "sources": [
+        {"title": "Verizon's move to unlimited data ups ante in wireless war (Reuters via Fox Business)", "url": "https://www.foxbusiness.com/markets/verizons-move-to-unlimited-data-ups-ante-in-wireless-war"},
+        {"title": "Verizon jumps back into unlimited data, shares fall (Motley Fool)", "url": "https://www.fool.com/investing/2017/02/13/verizon-jumps-back-into-unlimited-data-shares-fall.aspx"},
+        {"title": "Verizon unlimited wireless data plan (Fortune)", "url": "https://fortune.com/2017/02/12/verizon-unlimited-wireless-data-plan"}
+      ]
+    },
+    {
+      "id": "telecom-2023-lead-cables",
+      "date": "2023-07-10",
+      "end_date": "2023-07-19",
+      "sector": "technology",
+      "subindustries": ["telecom"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "WSJ lead-cable report: AT&T at a 30-year low, Verizon at a 2010 low",
+      "summary": "A July 9, 2023 Wall Street Journal investigation found more than 2,000 lead-sheathed legacy Bell System cables in waterways and on poles. Verizon fell 7.5% to $31.46 on July 10, its lowest close since 2010, and AT&T closed at $13.45 on July 18, its lowest since 1993; over the stretch AT&T lost about 14%, Verizon 10% and Frontier 33% as JPMorgan and others downgraded on remediation and litigation risk. AT&T rebounded 6.4% on July 19 after saying lead cables were a small share of its wireline footprint, but the episode added a new tail risk to an already yield-driven sector.",
+      "evidence": "AT&T closed at $13.45 on 2023-07-18, its lowest since 1993; Verizon -7.5% to $31.46 on 2023-07-10.",
+      "sources": [
+        {"title": "AT&T shares hit 30-year low after toxic lead cable report (Reuters via Yahoo)", "url": "https://finance.yahoo.com/news/t-shares-hit-30-low-221423480.html"},
+        {"title": "AT&T, Verizon stocks plunge as concerns mount over lead cables (Yahoo Finance)", "url": "https://finance.yahoo.com/news/att-verizon-stocks-plunge-as-concerns-mount-over-lead-cables-193156681.html"},
+        {"title": "AT&T bounces back after it eases fears over lead cable exposure (Yahoo Finance)", "url": "https://finance.yahoo.com/news/t-bounces-back-eases-fears-120920672.html"}
+      ]
+    },
+    {
+      "id": "net-lease-2021-realty-income-vereit",
+      "date": "2021-04-29",
+      "end_date": "2021-11-01",
+      "sector": "real_estate",
+      "subindustries": ["net_lease_specialty_reits"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Realty Income buys VEREIT: a $50bn net-lease consolidator is born",
+      "summary": "Realty Income agreed on April 29, 2021 to acquire VEREIT in an all-stock deal at 0.705 Realty Income shares per VEREIT share, creating a company with about $50bn of enterprise value and spinning the combined office assets into Orion Office REIT. VEREIT jumped about 16% to $48 while Realty Income rose less than 2%, and the merger closed on November 1, 2021. With cap rates at cycle lows and the cost of capital at record lows, scale and an A-rated balance sheet became the net-lease sector's main source of accretion, a model that was stress-tested by the 2022 rate shock.",
+      "evidence": "Exchange ratio 0.705 Realty Income shares per VEREIT share; VEREIT +16.3% intraday on 2021-04-29.",
+      "sources": [
+        {"title": "Realty Income to merge with VEREIT (SEC 8-K exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465921056901/tm2114533d1_ex99-1.htm"},
+        {"title": "What's going on with VEREIT and Realty Income today? (Benzinga)", "url": "https://benzinga.com/m-a/21/04/20861591/whats-going-on-with-vereit-and-realty-income-today"},
+        {"title": "Realty Income closes merger with VEREIT (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/realty-income-closes-merger-with-vereit-301412667.html"}
+      ]
+    },
+    {
+      "id": "net-lease-2023-realty-income-spirit",
+      "date": "2023-10-30",
+      "end_date": "2024-01-23",
+      "sector": "real_estate",
+      "subindustries": ["net_lease_specialty_reits"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "Realty Income buys Spirit Realty for $9.3bn with the 10-year near 5%",
+      "summary": "Realty Income announced an all-stock acquisition of Spirit Realty Capital on October 30, 2023 at 0.762 shares per Spirit share, a 15% premium, for an enterprise value of about $9.3bn and a combined company of roughly $63bn. The deal came in the same fortnight the 10-year Treasury touched 5%, when net-lease REITs traded at their widest discounts to NAV since 2020 and external growth through equity issuance had stalled; buying a peer at a discount was the only accretive use of expensive stock. Spirit holders approved the deal with 99.8% support and it closed in January 2024.",
+      "evidence": "Exchange ratio 0.762 Realty Income shares per Spirit share, a 15% premium (announced 2023-10-30).",
+      "sources": [
+        {"title": "Realty Income to acquire Spirit Realty Capital in $9.3 billion transaction (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/realty-income-to-acquire-spirit-realty-capital-in-9-3-billion-transaction-301971059.html"},
+        {"title": "Realty Income 8-K on Spirit merger (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/726728/000110465923112361/tm2329370d1_ex99-1.htm"}
+      ]
+    },
+    {
+      "id": "real-estate-services-2021-zillow-exits-ibuying",
+      "date": "2021-11-02",
+      "end_date": "2021-11-03",
+      "sector": "real_estate",
+      "subindustries": ["real_estate_services"],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Zillow shuts Zillow Offers: the iBuying model breaks before rates even rise",
+      "summary": "Zillow announced on November 2, 2021 that it would wind down Zillow Offers, cut 25% of its staff (about 2,000 people) and sell roughly 7,000 homes after its pricing algorithm overpaid; the unit lost $422m in Q3 and the company had $2.9bn of related debt to repay. The stock fell 15% in the session and another 7.5% after hours, Opendoor dropped about 15% and Offerpad 6%. The exit removed the largest buyer from the iBuying market and proved that algorithmic home-flipping could not survive a mere flattening of prices, a year before mortgage rates doubled.",
+      "evidence": "Zillow Offers lost $422m in Q3 2021; Zillow cut about 2,000 jobs (25% of staff) on 2021-11-02.",
+      "sources": [
+        {"title": "Zillow says it's closing homebuying business, cutting 25% of workforce (CNBC)", "url": "https://www.cnbc.com/2021/11/02/zillow-shares-plunge-after-announcing-it-will-close-home-buying-business.html"},
+        {"title": "Zillow says it's making good progress on home sales as it exits house-flipping business (GeekWire)", "url": "https://www.geekwire.com/2021/zillow-says-its-making-good-progress-on-home-sales-as-it-exits-house-flipping-business-announces-750m-stock-repurchase/"},
+        {"title": "Zillow exits iBuying: five key takeaways (Mike DelPrete)", "url": "https://www.mikedp.com/articles/2021/11/3/zillow-exits-ibuying-five-key-takeaways"}
+      ]
+    },
+    {
+      "id": "staples-retail-2015-walmart-investor-day",
+      "date": "2015-10-14",
+      "end_date": null,
+      "sector": "consumer_staples",
+      "subindustries": ["staples_retail"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Walmart's investor day: -10%, its worst day since 1988, on wage and e-commerce investment",
+      "summary": "At its October 14, 2015 investor meeting Walmart guided fiscal 2017 EPS down 6-12% as wage and training investments ($1.5bn) and e-commerce and technology spending compressed margins, and said sales would be flat for the current year. The stock fell 10% to a three-year low, its worst day since 1988, and dragged the Dow, even though Walmart paired the guidance with a $20bn buyback. The reset marked the bottom of Walmart's reinvestment cycle; the omnichannel spending it financed underpinned the 2017-18 re-rating and the share gains that made staples retail a growth group by 2023-26.",
+      "evidence": "Walmart -10% on 2015-10-14; fiscal 2017 EPS guided to decline 6-12%.",
+      "sources": [
+        {"title": "Walmart stock falls after retailer says wage hikes are killing its profits (CNN Money)", "url": "https://money.cnn.com/2015/10/14/investing/walmart-outlook-wages/index.html"},
+        {"title": "Walmart is having its worst day on Wall Street in more than 15 years (Slate)", "url": "https://slate.com/business/2015/10/walmart-is-having-its-worst-day-on-wall-street-in-more-than-15-years-on-lowered-guidance.html"},
+        {"title": "Dow slumps as Wal-Mart hammered after weak forecast (Reuters via Business Standard)", "url": "https://www.business-standard.com/amp/article/reuters/dow-slumps-as-wal-mart-hammered-after-weak-forecast-115101401502_1.html"}
+      ]
+    },
+    {
+      "id": "energy-2019-abqaiq-attack",
+      "date": "2019-09-16",
+      "end_date": null,
+      "sector": "energy",
+      "subindustries": ["exploration_production", "integrated", "oilfield_services"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "geopolitical",
+      "title": "Abqaiq-Khurais attack removes 5.7m b/d: oil's largest one-day jump in a decade, faded within weeks",
+      "summary": "Drone and missile strikes on September 14, 2019 knocked out 5.7m b/d of Saudi output, about 5% of world supply and the largest gross supply loss on record. Brent rose about 15% on September 16, its biggest single-day increase in a decade (nearly 20% at the open), and U.S. energy stocks jumped while the broad market fell. Saudi Arabia restored output by the end of the month and crude gave back the entire spike within two weeks, a demonstration of how little geopolitical premium the market would hold with shale growing and energy at a record-low index weight.",
+      "evidence": "Attack removed 5.7m b/d of Saudi production; Brent and WTI posted their largest single-day gains in a decade on 2019-09-16 (EIA).",
+      "sources": [
+        {"title": "Saudi Arabia crude oil production outage affects global crude oil and gasoline prices (EIA)", "url": "https://www.eia.gov/todayinenergy/detail.php?id=41413"},
+        {"title": "Aramco attack: worst disruption ever sends oil prices soaring (Al Jazeera)", "url": "https://www.aljazeera.com/economy/2019/9/16/aramco-attack-worst-disruption-ever-sends-oil-prices-soaring"},
+        {"title": "Oil prices jump by 20% after weekend attacks on Saudi facility (ABC News)", "url": "https://abcnews.com/International/oil-prices-jump-20-weekend-attacks-saudi-facility/story?id=65640002"}
+      ]
+    },
+    {
+      "id": "biotech-2019-bms-celgene",
+      "date": "2019-01-03",
+      "end_date": null,
+      "sector": "healthcare",
+      "subindustries": ["biotech_large", "pharma"],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "Bristol-Myers buys Celgene for $74bn: big pharma becomes biotech's bid in 2019",
+      "summary": "On January 3, 2019 Bristol-Myers Squibb agreed to buy Celgene for one BMY share plus $50 in cash and a CVR per share, about $74bn and then the largest pharma deal ever, funded with roughly $32bn of new debt. Bristol fell about 12% to $45.55 while Celgene rose 25-28%, and the deal lifted other depressed large biotechs (Gilead, Biogen) on the read-through that patent-cliff pharma would pay for pipelines; AbbVie-Allergan ($63bn) followed in June. It set the tone for the 2019 recovery in IBB after the Q4 2018 selloff.",
+      "evidence": "Celgene holders received 1 BMY share plus $50 cash per share; BMY -12% to $45.55 on 2019-01-03.",
+      "sources": [
+        {"title": "Bristol-Myers Squibb shares fall on $74 billion Celgene acquisition (CNBC)", "url": "https://www.cnbc.com/2019/01/03/bristol-myers-squibb-shares-fall-on-74-billion-celgene-acquisition.html"},
+        {"title": "Bristol-Myers to buy Celgene in a $74 billion deal; Celgene shares surge (CNBC)", "url": "https://www.cnbc.com/2019/01/03/bristol-myers-to-buy-celgene-in-a-74-billion-deal.html"},
+        {"title": "Bristol-Myers to buy Celgene in $74 billion cancer-drug bet (Bloomberg)", "url": "https://www.bloomberg.com/news/articles/2019-01-03/bristol-myers-squibb-to-buy-celgene-in-74-billion-pharma-deal"}
+      ]
+    },
+    {
+      "id": "pharma-2015-valeant-citron",
+      "date": "2015-10-21",
+      "end_date": "2015-10-30",
+      "sector": "healthcare",
+      "subindustries": ["pharma"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Citron's Philidor report: Valeant -39% intraday and the specialty-pharma roll-up model collapses",
+      "summary": "On October 21, 2015 short-seller Citron Research alleged Valeant used the specialty pharmacy Philidor to inflate sales; the shares fell as much as 39% (about $20bn of value) and were down 60% over three months by month-end, when Valeant cut ties with Philidor. Endo, Mallinckrodt and Horizon tumbled in sympathy and a large-cap pharma index fell 1.7% as investors abandoned the acquisition-plus-price-hike model. Coming a month after the Clinton drug-pricing tweet, it turned pricing power from an asset into a liability for the whole group and helped push health care to its 2016 underperformance.",
+      "evidence": "Valeant fell as much as 39% on 2015-10-21 after the Citron report.",
+      "sources": [
+        {"title": "Valeant plunges 30% after short seller Citron Research makes fraud allegation (Forbes)", "url": "https://www.forbes.com/sites/antoinegara/2015/10/21/valeant-plunges-30-after-short-seller-citron-research-makes-fraud-allegation/"},
+        {"title": "Valeant drop ripples through drug stocks (Bloomberg)", "url": "https://www.bloomberg.com/news/articles/2015-10-21/valeant-rout-rips-drugmakers-with-endo-mallinckrodt-tumbling"},
+        {"title": "Valeant scandal timeline (Fortune)", "url": "https://dc.fortune.com/2015/10/31/valeant-scandal"}
+      ]
+    },
+    {
+      "id": "household-2017-pg-peltz-proxy-fight",
+      "date": "2017-10-10",
+      "end_date": "2017-11-15",
+      "sector": "consumer_staples",
+      "subindustries": ["household_personal"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "positioning",
+      "title": "Peltz vs P&G: the largest proxy fight ever ends in a recount and a board seat",
+      "summary": "Procter & Gamble declared a preliminary win over Nelson Peltz's Trian at its October 10, 2017 annual meeting and the stock slipped; on November 15 Trian claimed victory on the IVS tabulation by roughly 43,000 votes out of about 2 billion, and P&G rose 2-3%. P&G seated Peltz in March 2018 and accelerated its restructuring, after which the stock began a multi-year re-rating. The fight established activism as the lever for underperforming staples (later replayed at Unilever, Kellogg and Kenvue) at the end of the sector's 2017 bond-proxy de-rating.",
+      "evidence": "Trian's margin in the IVS preliminary tabulation was about 42,700 votes (announced 2017-11-15).",
+      "sources": [
+        {"title": "Procter & Gamble shareholders vote against adding Peltz to board (CNBC)", "url": "https://www.cnbc.com/2017/10/10/procter-gamble-shareholders-vote-against-adding-nelson-peltz-to-board.html"},
+        {"title": "Nelson Peltz claims victory in P&G proxy fight (WCPO / CNBC)", "url": "https://www.wcpo.com/money/local-business-news/nelson-peltz-wins-procter-gamble-proxy-fight-after-recount-sources-tell-cnbc"},
+        {"title": "Procter & Gamble claims narrow win over Peltz (Reuters via Business Standard)", "url": "https://www.business-standard.com/amp/article/reuters/procter-gamble-foresees-proxy-war-victory-peltz-refuses-to-concede-117101100028_1.html"}
+      ]
+    },
+    {
+      "id": "media-2018-att-time-warner-approved",
+      "date": "2018-06-12",
+      "end_date": "2018-06-14",
+      "sector": "communication_media",
+      "subindustries": ["media_entertainment", "telecom"],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "Judge Leon clears AT&T-Time Warner without conditions; the media bidding war begins",
+      "summary": "On June 12, 2018 Judge Richard Leon rejected the Justice Department's challenge and approved AT&T's $85bn acquisition of Time Warner with no conditions. Time Warner rose about 5% after hours, AT&T slipped, Discovery gained 3.7%, and the next day Comcast launched a $65bn all-cash bid for Fox's entertainment assets, which Disney topped at $71.3bn on June 20. The ruling unleashed the 2018-19 media consolidation wave and loaded AT&T with debt that led to the 2022 WarnerMedia spin-off.",
+      "evidence": "Time Warner +~5% after hours on 2018-06-12; Comcast's $65bn Fox bid followed on 2018-06-13.",
+      "sources": [
+        {"title": "U.S. judge approves AT&T's $85 billion merger with Time Warner (NPR)", "url": "https://www.npr.org/2018/06/12/614092532/u-s-judge-approves-at-ts-85-billion-merger-with-time-warner"},
+        {"title": "Time Warner shares shoot higher after judge rules in favor of merger with AT&T; other media stocks gain (CNBC)", "url": "https://www.cnbc.com/2018/06/12/time-warner-shares-shoot-higher-after-judge-rules-in-favor-of-merger-with-att.html"},
+        {"title": "Time Warner stock jumps, AT&T falls after ruling clears path to merger (Variety)", "url": "https://variety.com/2018/biz/news/att-time-warner-stocks-doj-antitrust-ruling-1202843216/"}
+      ]
+    },
+    {
+      "id": "distribution-2025-home-depot-gms-qxo",
+      "date": "2025-06-18",
+      "end_date": "2025-09-04",
+      "sector": "industrials",
+      "subindustries": ["industrial_distribution", "building_products_construction"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "ma",
+      "title": "QXO's hostile bid and Home Depot's $5.5bn win for GMS reprice building-products distribution",
+      "summary": "Brad Jacobs's QXO went public with an unsolicited $95.20-a-share (about $5bn) offer for drywall distributor GMS on June 18, 2025, two months after closing its $11bn Beacon deal; GMS jumped as much as 30% on June 20. Home Depot's SRS unit then agreed on June 30 to pay $110 a share, about $4.3bn of equity and $5.5bn of enterprise value (a 36% premium to the undisturbed price), and QXO declined to raise. The contest put a strategic premium on specialty distribution (SiteOne, Builders FirstSource, Core & Main) as Home Depot pursued the pro contractor and QXO signalled more roll-ups.",
+      "evidence": "Home Depot paid $110 per GMS share, about $5.5bn enterprise value, a 36% premium to the 2025-06-18 close.",
+      "sources": [
+        {"title": "Home Depot wins the bidding war against QXO, acquires GMS (Yahoo Finance)", "url": "https://finance.yahoo.com/news/home-depot-wins-bidding-war-120828795.html"},
+        {"title": "QXO won't raise its offer for GMS after Home Depot bid (Transport Topics)", "url": "https://www.ttnews.com/articles/qxo-wont-raise-offer-gms"},
+        {"title": "Home Depot expands B2B reach with $5.5 billion acquisition of GMS (Digital Commerce 360)", "url": "https://www.digitalcommerce360.com/2025/06/30/home-depot-b2b-5-billion-srs-distribution-acquisition-gms/"}
+      ]
+    },
+    {
+      "id": "distribution-2026-q3-earnings-dispersion",
+      "date": "2026-11-04",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["industrial_distribution"],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Q3 2026 distribution earnings: Grainger +8% on a guidance raise while United Rentals and Fastenal slip on beats",
+      "summary": "W.W. Grainger rose about 7.8% on November 4, 2026 after reporting adjusted EPS of $12.54 (+22.8%) and lifting full-year guidance, a rare rally in an industrial tape dominated by the post-midterm tech selloff. United Rentals fell about 1.4% despite record Q3 results and higher guidance as investors questioned margin durability and elevated fleet capex, and Fastenal slipped 2% on 15.5% revenue growth after losing nearly 7% on its Q1 report. The dispersion shows the market rewarding self-help pricing and share gains in MRO while discounting capital-intensive rental growth at premium multiples.",
+      "evidence": "Grainger Q3 2026 adjusted EPS $12.54, +22.8% y/y; shares +7.8% intraday on 2026-11-04.",
+      "sources": [
+        {"title": "Grainger earnings rally raises the valuation hurdle (FinChannel)", "url": "https://finchannel.com/grainger-earnings-rally-raises-the-valuation-hurdle/140540/american-business-trends/2026/11/"},
+        {"title": "Earnings call transcript: W.W. Grainger tops Q3 2026 estimates, lifts outlook (Investing.com)", "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-ww-grainger-tops-q3-2026-estimates-lifts-outlook-93CH-4957972"},
+        {"title": "Earnings call transcript: United Rentals tops Q3 2026 forecasts but shares slip (Investing.com)", "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-united-rentals-tops-q3-2026-forecasts-but-shares-slip-93CH-4966497"}
+      ]
+    },
+    {
+      "id": "waste-2026-republic-guidance-raise",
+      "date": "2026-10-29",
+      "end_date": null,
+      "sector": "industrials",
+      "subindustries": ["waste"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Republic Services raises 2026 guidance and authorises a $5bn buyback as waste reclaims its defensive bid",
+      "summary": "Republic Services reported Q3 2026 adjusted EPS of $1.94 (vs $1.90 a year earlier) on October 29, 2026, raised full-year revenue guidance to $17.425-17.475bn and adjusted EBITDA to $5.55-5.575bn, and approved a $5bn repurchase authorisation starting January 1, 2027. Waste Management reaffirmed its guidance with revenue at the high end of $26.275-26.475bn and $2bn of 2026 buybacks. With the 10-year above 5% and the AI complex selling off into the midterms, pricing-led haulers regained the low-volatility bid they had lost during the 2025 risk-on summer.",
+      "evidence": "Republic Services 2026 adjusted EBITDA guidance raised to $5.550-5.575bn; $5bn buyback authorised from 2027-01-01.",
+      "sources": [
+        {"title": "Republic Services reports third quarter 2026 results (Republic Services IR)", "url": "https://investor.republicservices.com/news-releases/news-release-details/republic-services-inc-reports-third-quarter-2026-results"},
+        {"title": "Waste Management Q3 2026 earnings release (SEC 8-K exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000823768/000110465926119188/tm2628322d1_ex99-1.htm"},
+        {"title": "Republic Services raises fiscal 2026 revenue guidance on Oct. 29 (GuruFocus)", "url": "https://www.gurufocus.com/news/9158490/republic-services-raises-fiscal-2026-revenue-guidance-on-oct-29"}
+      ]
+    },
+    {
+      "id": "self-storage-2026-psa-nsa-merger",
+      "date": "2026-03-16",
+      "end_date": "2026-07-22",
+      "sector": "real_estate",
+      "subindustries": ["self_storage_reits"],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Public Storage buys National Storage Affiliates for $10.5bn: storage consolidates into the housing freeze",
+      "summary": "Public Storage agreed on March 16, 2026 to acquire National Storage Affiliates in an all-stock deal at 0.14 PSA shares per NSA share ($41.68, about $10.5bn including debt), backed by $2bn of bridge financing from Goldman Sachs and Wells Fargo plus a $2bn joint-venture bridge. NSA holders approved on July 14 and the deal closed July 22, giving PSA more than 4,500 properties, 327m square feet and about 14% of U.S. storage space; PSA raised its 2026 core FFO guidance twice afterwards. With move-in demand frozen by the locked-up housing market, scale and longer-staying 'can't let go' tenants, not street rates, became the sector's growth story.",
+      "evidence": "Exchange ratio 0.14 Public Storage shares per NSA share, implying $41.68 per share (announced 2026-03-16; closed 2026-07-22).",
+      "sources": [
+        {"title": "Public Storage to buy National Storage Affiliates for $10.5B (Multi-Housing News)", "url": "https://www.multihousingnews.com/public-storage-to-buy-national-storage-affiliates-for-10-5b/"},
+        {"title": "Public Storage announces anticipated closing date of pending acquisition of NSA (Public Storage IR)", "url": "https://investors.publicstorage.com/news-events/press-releases/news-details/2026/Public-Storage-Announces-Anticipated-Closing-Date-of-Pending-Acquisition-of-National-Storage-Affiliates-Following-Approval-by-NSA-Shareholders/default.aspx"},
+        {"title": "Self-storage REITs are collecting rent from Americans who cannot let go (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/10/05/self-storage-reits-are-collecting-rent-from-americans-who-cannot-let-go/"}
+      ]
+    },
+    {
+      "id": "net-lease-2026-realty-income-five-percent-tens",
+      "date": "2026-10-27",
+      "end_date": null,
+      "sector": "real_estate",
+      "subindustries": ["net_lease_specialty_reits"],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "rates",
+      "title": "Net lease vs a 5% ten-year: Realty Income's dividend yield converges on Treasuries",
+      "summary": "Into its Q3 2026 report Realty Income yielded about 5.9% at $55 with the 10-year Treasury between 5.0% and 5.2% after the Fed's September hike, leaving almost no spread for the 'bond proxy' trade. The company kept buying (Q2 acquisitions at a 7.3% initial cash yield, 2026 volume target raised to $10bn from $9.5bn, and a push into private capital), but with its own cost of capital rising the 150bp target spread was thinning and the stock lagged the REIT index through the autumn. Net lease was the clearest casualty of the 2026 term-premium shock after mortgage REITs.",
+      "evidence": "Realty Income 2026 investment-volume target raised to $10.0bn from $9.5bn; Q2 2026 acquisitions at a 7.3% initial cash yield.",
+      "sources": [
+        {"title": "Realty Income Q3 earnings: will rising Treasury yields break 'The Monthly Dividend Company'? (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/10/27/realty-income-q3-earnings-will-rising-treasury-yields-break-the-monthly-dividend-company/"},
+        {"title": "Realty Income Q2 2026 slides: $89B REIT eyes $15T market via private capital (Investing.com)", "url": "https://ng.investing.com/news/company-news/realty-income-q2-2026-slides-89b-reit-eyes-15t-market-via-private-capital-93CH-2641529"},
+        {"title": "Realty Income Form 10-Q for the quarter ended June 30, 2026 (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0000726728/000072672826000048/o-20260630.htm"}
+      ]
+    },
+    {
+      "id": "household-2026-pg-defensive-bid",
+      "date": "2026-10-22",
+      "end_date": null,
+      "sector": "consumer_staples",
+      "subindustries": ["household_personal"],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "P&G jumps 6% on an earnings beat as the AI selloff sends buyers into household staples",
+      "summary": "Procter & Gamble rose about 6% on October 22, 2026 after its September-quarter beat, with Johnson & Johnson up 3% and Coca-Cola higher the same day, as investors rotated out of the AI complex into defensive cash generators. The move came after a year in which P&G had guided fiscal 2026 core EPS to $6.83-7.09 and then toward the low end, and in which Colgate (+23% over the trailing year to late October) had outrun P&G (+10%) on gross-margin expansion. Household products, the least-loved staples group of 2023-25, became part of the 2026 record run in XLP.",
+      "evidence": "Procter & Gamble +6% on 2026-10-22 after its fiscal Q1 2027 earnings beat.",
+      "sources": [
+        {"title": "Procter & Gamble jumps 6% as earnings beat draws defensive buyers (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/10/22/procter-gamble-jumps-6-as-earnings-beat-draws-defensive-buyers-johnson-johnson-rises-3-coca-cola-ticks-up/"},
+        {"title": "PG vs. CL: which household giant deserves your retirement dollars? (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/10/26/pg-vs-cl-which-household-giant-deserves-your-retirement-dollars/"},
+        {"title": "Procter & Gamble fiscal 2026 Q3 earnings release (SEC 8-K exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000080424/000008042426000056/fy2526q3jfm8-kexhibit991.htm"}
+      ]
+    },
+    {
+      "id": "telecom-2026-spacex-starlink-mobile",
+      "date": "2026-10-09",
+      "end_date": "2026-10-23",
+      "sector": "technology",
+      "subindustries": ["telecom"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "Starlink Mobile: SpaceX's spectrum deal knocks 10-14% off AT&T, Verizon and T-Mobile in a day",
+      "summary": "On October 9, 2026 SpaceX announced a nationwide low-band spectrum deal for a 'Starlink Mobile' service combining its satellites with terrestrial sites, building on the EchoStar spectrum it bought in 2025. AT&T closed down 11.0% at $22.13, Verizon 10.4% at $41.52 and T-Mobile 13.6% at $148.02, a rare same-day double-digit sweep; on October 23 reports that SpaceX wanted access to 80,000 cell sites took another 7-8% off AT&T and T-Mobile, and AT&T's October 21 earnings beat was overshadowed by a $2.6bn Mexico impairment (-6.1%). The threat to the three-player oligopoly reversed telecom's defensive bid while tower REITs, which would host the new sites, jumped 18% in October.",
+      "evidence": "T-Mobile -13.6% to $148.02, Verizon -10.4% to $41.52 and AT&T -11.0% to $22.13 on 2026-10-09.",
+      "sources": [
+        {"title": "AT&T, Verizon and T-Mobile stocks slump as SpaceX announces key 'Starlink Mobile' deal (Forbes)", "url": "https://www.forbes.com/sites/siladityaray/2026/10/09/att-verizon-and-t-mobile-stocks-slump-as-spacex-announces-key-starlink-mobile-deal/"},
+        {"title": "Telecom stocks fall as SpaceX eyes 80,000 cell sites (24/7 Wall St.)", "url": "https://247wallst.com/investing/2026/10/23/telecom-stocks-fall-as-spacex-eyes-80000-cell-sites-t-mobile-sinks-5-att-drops-4-verizon-slides-3/"},
+        {"title": "AT&T Q3 2026 earnings: six straight beats and a raised outlook (24/7 Wall St.)", "url": "https://247wallst.com/cards/at-t-q3-2026-earnings-t-01m5f0j31psck1tt7c1qcf4a0f"},
+        {"title": "Elon Musk's growing SpaceX empire sends AT&T, Verizon and T-Mobile shares plunging (NBC News)", "url": "https://www.nbcnews.com/business/corporations/elon-musk-spacex-verizon-tmobile-att-rcna602525"}
+      ]
+    },
+    {
+      "id": "internet-2025-meta-capex-day",
+      "date": "2025-10-30",
+      "end_date": null,
+      "sector": "technology",
+      "subindustries": ["internet_platforms"],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Meta's capex day: -11%, the worst session since 2022, on 'notably larger' 2026 spending",
+      "summary": "Meta reported 26% revenue growth for Q3 2025 but took a one-time $15.93bn non-cash tax charge tied to the One Big Beautiful Bill Act, raised 2025 capex to $70-72bn and said 2026 capex growth would be 'notably larger'. The stock fell more than 11% on October 30, 2025, its biggest one-day loss since October 2022, while Alphabet rose the same week after lifting its own capex to $91-93bn with cloud growth to show for it. The split marked the start of the 'reward only monetised capex' regime that dominated internet platforms through 2026.",
+      "evidence": "Meta 2025 capex guidance raised to $70-72bn (from $66-72bn); shares -11% on 2025-10-30.",
+      "sources": [
+        {"title": "Meta stock has worst day in 3 years, dropping 11% on higher AI spend (CNBC)", "url": "https://www.cnbc.com/2025/10/30/meta-stock-earnings-ai-spend.html"},
+        {"title": "Meta shares drop 9% despite earnings beat as company takes one-time tax charge (CNBC)", "url": "https://www.cnbc.com/2025/10/29/meta-q3-earnings-report-2025.html"},
+        {"title": "Meta plans 'notably larger' capex spend on AI data centers in 2026 (DCD)", "url": "https://www.datacenterdynamics.com/en/news/meta-plans-notably-larger-capex-spend-on-ai-data-centers-in-2026-compute-expectations-already-higher-than-last-quarter-prediction/"}
+      ]
+    }
+  ]
+}

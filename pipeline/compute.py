@@ -215,6 +215,7 @@ def monthly(series, start=SEC_START, digits=4):
     s = series.reindex(P.index).ffill(limit=5).resample('ME').last().reindex(month_ends)
     return [None if pd.isna(v) else round(float(v), digits) for v in s.values]
 
+DAILY = {'SPY': R[B['market']]}
 snapshot = {'asof': str(P.index.max().date()), 'generated': dt.datetime.now().strftime('%Y-%m-%d %H:%M'), 'buckets': [], 'sectors': [], 'themes': []}
 history = {'dates': [d.strftime('%Y-%m-%d') for d in month_ends], 'buckets': {}, 'sectors': {}, 'themes': {}, 'spy': monthly(SPY_IDX, digits=2)}
 if macro is not None:
@@ -224,6 +225,8 @@ for bid, (sec, si) in bucket_info.items():
     etf = si.get('etf'); ref = si.get('reference_etf')
     ret, src = series_for(bucket_cw[bid], etf, SUB_START, si.get('etf_primary', False))
     if ret is None: continue
+    DAILY[bid] = ret
+    if etf and etf in R.columns: DAILY['etf:' + bid] = R[etf]
     idx = to_index(ret, SUB_START)
     rs = (idx / SPY_IDX.reindex(idx.index)); rs = rs / rs.dropna().iloc[0] * 100
     lrs = np.log(rs)
@@ -277,6 +280,8 @@ for sec in all_sectors(T):
     caps = pd.DataFrame({si['id']: bucket_caps[si['id']].shift(1) for si in sec['subindustries']}).reindex(columns=cw.columns)
     basket_ret = (cw * caps).sum(axis=1, min_count=1) / caps.where(cw.notna()).sum(axis=1, min_count=1)
     idx_etf = to_index(r_etf, SEC_START) if r_etf is not None else None
+    DAILY['sector:' + sid] = r_etf if r_etf is not None else basket_ret
+    DAILY['sectorbasket:' + sid] = basket_ret
     idx_b = to_index(basket_ret, SUB_START)
     rs_e = (idx_etf / SPY_IDX.reindex(idx_etf.index)) if idx_etf is not None else None
     if rs_e is not None: rs_e = rs_e / rs_e.dropna().iloc[0] * 100
@@ -328,6 +333,7 @@ snapshot['universe'] = {'cap_usd_tn': round(last(UNIV) / 1e12, 2) if last(UNIV) 
                         'flows_available': flows is not None, 'f13_available': f13 is not None, 'tiers': T['meta']['history_tiers']}
 history['universe_cap'] = monthly(UNIV / 1e12, digits=3)
 
+pd.DataFrame(DAILY).to_parquet(os.path.join(PROC, 'daily_returns.parquet'))
 # events / regimes / narratives / blurbs
 events = []
 for fp in sorted(glob.glob(os.path.join(ROOT, 'research', 'events_*.json'))):
