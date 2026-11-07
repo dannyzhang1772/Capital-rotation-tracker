@@ -129,7 +129,9 @@ f13 = None
 fp = os.path.join(PROC, '13f_by_ticker.csv')
 if os.path.exists(fp):
     f13 = pd.read_csv(fp, parse_dates=['period'])
+    f13 = f13[f13.period >= '2013-06-30']  # the SEC's first (2013q2) data set is a tiny partial sample
     f13tot = pd.read_csv(os.path.join(PROC, '13f_totals.csv'), parse_dates=['period']) if os.path.exists(os.path.join(PROC, '13f_totals.csv')) else None
+    if f13tot is not None: f13tot = f13tot[f13tot.period >= '2013-06-30']
 macro = pd.read_csv(os.path.join(RAW, 'macro.csv'), index_col=0, parse_dates=True) if os.path.exists(os.path.join(RAW, 'macro.csv')) else None
 if macro is not None: macro.index.name = 'date'
 

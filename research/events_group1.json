@@ -1,0 +1,3575 @@
+{
+  "events": [
+    {
+      "id": "en-2000-old-economy-rotation",
+      "date": "2000-03-10",
+      "end_date": "2000-12-29",
+      "sector": "energy",
+      "subindustries": [],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Dot-com peak: capital rotates into 'old economy' energy",
+      "summary": "As the Nasdaq topped in March 2000, value investors rotated into energy, which had been shunned at a 6% S&P weight; crude recovered from the 1998-99 lows above $30 and the sector delivered its first big relative year in a decade. XLE returned 24.4% in 2000 while the S&P 500 lost 9.7%, then gave ground in the 2001-02 recession as oil fell back below $20.",
+      "evidence": "XLE +24.4% in 2000 vs SPY -9.7%; XLE -18.1% in 2001 and -14.7% in 2002",
+      "sources": [
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        },
+        {
+          "title": "ChartRow SPY calendar-year returns",
+          "url": "https://chartrow.com/quote/spy/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2000-tech-bust-rotation",
+      "date": "2000-03-10",
+      "end_date": "2002-12-31",
+      "sector": "real_estate",
+      "subindustries": [],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Dot-com bust: REITs become the anti-Nasdaq",
+      "summary": "Ignored during the tech bubble (REITs lost 17.5% in 1998 and 4.6% in 1999), listed real estate absorbed the rotation out of growth: the FTSE Nareit All Equity REITs index returned 26.4% in 2000, 13.9% in 2001 and 3.8% in 2002 while the S&P 500 fell 9.7%, 11.8% and 21.6%. Mortgage REITs returned 77% in 2001 as the Fed slashed rates and the curve steepened.",
+      "evidence": "All Equity REITs +26.4% (2000), +13.9% (2001), +3.8% (2002) vs SPY -9.7%, -11.8%, -21.6%; Mortgage REITs +77.3% in 2001",
+      "sources": [
+        {
+          "title": "Nareit annual index values and returns (AnnualReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "ChartRow SPY calendar-year returns",
+          "url": "https://chartrow.com/quote/spy/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2000-dotcom-bust",
+      "date": "2000-03-24",
+      "end_date": "2002-10-09",
+      "sector": "industrials",
+      "subindustries": [],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Dot-com bust drags industrials into a three-year bear market",
+      "summary": "The tech bust of 2000-2002 spilled into capital-goods and transport names as business investment collapsed after the telecom/IT overbuild. XLI lost 10.2% in 2001 and 24.6% in 2002, roughly matching the S&P 500, with airlines and conglomerates (GE, Tyco) the worst performers; the sector did not regain leadership until the 2003 China-driven capex cycle.",
+      "evidence": "XLI total return: +6.7% in 2000, -10.2% in 2001, -24.6% in 2002 (SPY -9.7%, -11.8%, -21.6%)",
+      "sources": [
+        {
+          "title": "ChartRow XLI calendar-year returns",
+          "url": "https://chartrow.com/quote/xli/returns"
+        },
+        {
+          "title": "ChartRow SPY calendar-year returns",
+          "url": "https://chartrow.com/quote/spy/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2001-911-airlines",
+      "date": "2001-09-17",
+      "end_date": "2002-08-11",
+      "sector": "industrials",
+      "subindustries": [],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "9/11 shuts US airspace; airline equities collapse and bankruptcies follow",
+      "summary": "When markets reopened on September 17, 2001 UAL fell 42% and US Airways 52% in a single session, and the AMEX airline index dropped 40% in a week. The industry lost $13bn in 2001 and $11.3bn in 2002; US Airways filed Chapter 11 in August 2002 and United in December 2002, starting a wave of legacy-carrier restructurings that ran to 2005.",
+      "evidence": "AMEX Airline Index -40% in the week after 9/11 and -60% YTD by late Oct 2001 vs Dow -13%",
+      "sources": [
+        {
+          "title": "CS Monitor: Analysts suggest airline stocks have hit bottom (Oct 2001)",
+          "url": "https://www.csmonitor.com/layout/set/amphtml/2001/1029/p15s1-wmpi.html"
+        },
+        {
+          "title": "NZ Herald: US airline industry in tailspin",
+          "url": "https://nzherald.co.nz/business/us-airline-industry-in-tailspin/DDBR3WFD2NWORLLBEAYIJUWRFM"
+        }
+      ]
+    },
+    {
+      "id": "ind-2003-china-supercycle",
+      "date": "2003-03-12",
+      "end_date": "2007-12-31",
+      "sector": "industrials",
+      "subindustries": [],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "China commodity supercycle lifts machinery and capital goods",
+      "summary": "Chinese infrastructure and mining demand, plus a global capex rebound, made heavy machinery the leadership group of the 2003-2007 bull market. Caterpillar returned 86% in 2003 and Deere 99% in 2007, and XLI gained 31.9% in 2003 versus 28.2% for the S&P 500; mining-equipment and ag names rode commodity prices until the 2008 crash.",
+      "evidence": "CAT total return +86.1% in 2003 and DE +98.7% in 2007; XLI +31.9% in 2003 vs SPY +28.2%",
+      "sources": [
+        {
+          "title": "ChartRow CAT calendar-year returns",
+          "url": "https://chartrow.com/quote/cat/returns"
+        },
+        {
+          "title": "ChartRow DE calendar-year returns",
+          "url": "https://chartrow.com/quote/de/returns"
+        },
+        {
+          "title": "Cambridge: Twenty-first century supercycle",
+          "url": "https://www.cambridge.org/core/books/commodity-markets-and-the-global-economy/twentyfirstcentury-supercycle-longterm-trends-in-metal-and-energy-prices/6E93073217153ADEDA8E0629C3A32421"
+        }
+      ]
+    },
+    {
+      "id": "en-2003-commodity-supercycle",
+      "date": "2003-03-12",
+      "end_date": "2008-07-11",
+      "sector": "energy",
+      "subindustries": [],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "China supercycle: energy rises ~300% from the 2003 low to the 2008 peak",
+      "summary": "Chinese demand, OPEC discipline and under-investment took WTI from the $20s to $147, and energy became the market's leadership sector for five years. XLE returned 25.8%, 33.9%, 40.2%, 18.1% and 36.9% in 2003-2007, beating the S&P 500 every year, and the sector's S&P weight rose from about 6% to roughly 16% by mid-2008.",
+      "evidence": "XLE +40.2% in 2005 and +36.9% in 2007 vs SPY +4.8% and +5.1%; energy sector ~+300% from 2003 bottom to 2008 peak",
+      "sources": [
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        },
+        {
+          "title": "Investing Daily: The new super-cycle",
+          "url": "https://investingdaily.com/articles/2300/the-new-super-cycle"
+        }
+      ]
+    },
+    {
+      "id": "re-2003-reit-bull-market",
+      "date": "2003-03-12",
+      "end_date": "2007-02-07",
+      "sector": "real_estate",
+      "subindustries": [],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "2003-2006 REIT bull market: seven straight years of beating every benchmark",
+      "summary": "Cheap debt, CMBS growth and private-equity takeovers (culminating in Blackstone's $39bn Equity Office buyout in February 2007) compressed cap rates and pushed REIT prices up 99% from Q4 2003 to Q4 2006. All Equity REITs returned 37.1% in 2003, 31.6% in 2004, 12.2% in 2005 and 35.1% in 2006, with office (+45.2%), health care (+44.6%), self storage (+40.9%) and apartments (+40.0%) leading 2006; Nareit noted REITs beat all major equity benchmarks for the seventh straight year.",
+      "evidence": "All Equity REITs +35.1% in 2006 vs S&P 500 +15.8%; office +45.2% and apartments +40.0% in 2006",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "Facilities Net: REIT 2006 returns (NAREIT)",
+          "url": "https://facilitiesnet.com/facilitiesmanagement/article.aspx?id=6024"
+        }
+      ]
+    },
+    {
+      "id": "en-2005-refining-golden-age",
+      "date": "2004-01-02",
+      "end_date": "2007-07-31",
+      "sector": "energy",
+      "subindustries": [],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Refining's first golden age: tight capacity and Katrina",
+      "summary": "No new US refinery had been built since 1976, demand was growing and hurricanes Katrina and Rita (Aug-Sep 2005) knocked out Gulf Coast capacity, sending crack spreads to records. Valero returned 98% in 2004 and 128% in 2005, the best large-cap performance in the S&P 500, before margins normalized in 2006-07 and collapsed in 2008.",
+      "evidence": "VLO +97.6% in 2004 and +128.5% in 2005 vs SPY +10.7% and +4.8%",
+      "sources": [
+        {
+          "title": "ChartRow VLO calendar-year returns",
+          "url": "https://chartrow.com/quote/vlo/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2005-mortgage-reit-flat-curve",
+      "date": "2005-01-03",
+      "end_date": "2005-12-30",
+      "sector": "real_estate",
+      "subindustries": [],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Fed hikes flatten the curve; mortgage REITs lose a quarter of their value",
+      "summary": "Seventeen consecutive Fed hikes from mid-2004 squeezed the repo-funded spread between short rates and MBS yields; the Nareit Mortgage REITs index lost 23.2% in 2005 (home financing -26%) and Annaly 41%, while equity REITs still gained 12%. The episode is the template for every later mortgage-REIT drawdown: the sub-sector trades on the yield curve, not on property.",
+      "evidence": "Nareit Mortgage REITs -23.2% and Home Financing -25.95% in 2005; NLY -40.6% in 2005",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "ChartRow NLY calendar-year returns",
+          "url": "https://chartrow.com/quote/nly/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2007-credit-crunch",
+      "date": "2007-02-08",
+      "end_date": "2007-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "mortgage_reits",
+        "office_reits",
+        "residential_reits",
+        "retail_reits",
+        "lodging_reits",
+        "real_estate_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Subprime and the CMBS freeze: REITs peak and roll over in 2007",
+      "summary": "REIT prices peaked in February 2007 with the Equity Office buyout; subprime lender failures from February and the August 2007 money-market seizure then closed the CMBS market and REITs lost 15.7% for the year. Mortgage REITs collapsed 42% (commercial financing -49%), apartments fell 25% and office 19%, with SL Green down 28% and CBRE down 35%.",
+      "evidence": "All Equity REITs -15.7% in 2007; Mortgage REITs -42.4%; Residential -25.2%, Office -19.0%, Lodging -22.4%",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "Russell Investment Co. N-CSR FY2009 (CMBS lockdown and REIT solvency)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000351601/000119312510052773/dncsr.htm"
+        }
+      ]
+    },
+    {
+      "id": "ind-2008-gfc",
+      "date": "2007-10-09",
+      "end_date": "2009-03-09",
+      "sector": "industrials",
+      "subindustries": [
+        "transportation",
+        "machinery",
+        "industrial_distribution",
+        "building_products_construction",
+        "commercial_aerospace",
+        "electrical_equipment",
+        "professional_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Global financial crisis: industrials fall further than the market",
+      "summary": "Industrials were hit harder than the S&P 500 in the GFC because of leverage (GE Capital), collapsing freight and capex, and the housing bust. XLI lost 38.7% in 2008 and its peak-to-trough drawdown reached 62% versus 55% for SPY; United Rentals fell 50%, Deere 58%, Boeing 50% and staffing-sector stock indices fell 37.5% through November 2008 as unemployment surged.",
+      "evidence": "XLI max drawdown -62.3% (Oct 9, 2007 to Mar 9, 2009) vs SPY -55.2%; XLI -38.7% in 2008",
+      "sources": [
+        {
+          "title": "PortfoliosLab XLI drawdown statistics",
+          "url": "https://portfolioslab.com/symbol/XLI"
+        },
+        {
+          "title": "ChartRow XLI calendar-year returns",
+          "url": "https://chartrow.com/quote/xli/returns"
+        },
+        {
+          "title": "ERE: Recruitment/HR stocks hit harder than market (2008)",
+          "url": "https://www.ere.net/recruitment-hr-stocks-hit-harder-than-market"
+        }
+      ]
+    },
+    {
+      "id": "ind-2008-defensives-hold-up",
+      "date": "2008-01-02",
+      "end_date": "2008-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "waste",
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Waste and defense act as the sector's bunkers in 2008",
+      "summary": "Inside a sector that fell almost 40%, the non-cyclical sub-industries attracted relative capital. Waste Management posted a positive total return in 2008 on contracted, pricing-led revenue, and Lockheed Martin fell about half as much as the market because the defense budget was still growing through the Iraq/Afghanistan wars.",
+      "evidence": "WM +4.5% and LMT -18.6% in 2008 vs SPY -36.8% and XLI -38.7%",
+      "sources": [
+        {
+          "title": "ChartRow WM calendar-year returns",
+          "url": "https://chartrow.com/quote/wm/returns"
+        },
+        {
+          "title": "ChartRow LMT calendar-year returns",
+          "url": "https://chartrow.com/quote/lmt/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2008-gfc-reit-crash",
+      "date": "2008-01-02",
+      "end_date": "2009-03-09",
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits",
+        "lodging_reits",
+        "retail_reits",
+        "office_reits",
+        "mortgage_reits",
+        "real_estate_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "GFC: REITs lose 38%, ProLogis and General Growth nearly fail",
+      "summary": "Lehman's bankruptcy raised solvency fears for leveraged landlords; All Equity REITs fell 37.7% in 2008 and another 23% to the March 9, 2009 low, with short interest peaking near 12% of shares. Industrial REITs lost 67% (ProLogis -58%, CEO ousted), lodging 60%, regional malls 61% (General Growth missed a $900m loan in November 2008 and filed the largest REIT bankruptcy on April 16, 2009 with $27.3bn of debt), commercial mortgage REITs 75%, and CBRE lost 80%.",
+      "evidence": "All Equity REITs -37.7% in 2008; Industrial REITs -67.5%, Lodging -59.7%, Regional Malls -60.6%, Commercial Financing mREITs -74.8% in 2008",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "NPR: Major shopping mall owner files for bankruptcy (Apr 2009)",
+          "url": "https://www.npr.org/2009/04/16/103166380/major-shopping-mall-owner-files-for-bankruptcy"
+        },
+        {
+          "title": "ChartRow PLD calendar-year returns",
+          "url": "https://chartrow.com/quote/pld/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2008-storage-healthcare-defensive",
+      "date": "2008-01-02",
+      "end_date": "2008-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits",
+        "healthcare_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Self storage and health care REITs hold up through the crash",
+      "summary": "Short leases, low leverage and need-based demand made self storage the only REIT sector with a positive 2008 (+5.1%, Public Storage +11.3%), and health care REITs fell only 12% (Welltower flat) on triple-net leases to senior-housing and skilled-nursing operators. Both sectors attracted the defensive capital that fled leveraged office, mall and hotel landlords.",
+      "evidence": "Self Storage REITs +5.05% and Health Care REITs -11.98% in 2008 vs All Equity REITs -37.7%; PSA +11.3%, WELL +0.2%",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "ChartRow PSA calendar-year returns",
+          "url": "https://chartrow.com/quote/psa/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2008-airline-fuel-shock",
+      "date": "2008-04-14",
+      "end_date": "2008-07-11",
+      "sector": "industrials",
+      "subindustries": [
+        "transportation"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "$147 oil crushes airlines; Delta-Northwest merger as a survival move",
+      "summary": "Crude's run to a record $147 in July 2008 created a cash crunch for US carriers: AMR fell from $41 to $4 over 18 months, Aloha and other small carriers folded, and Delta and Northwest announced their merger on April 14, 2008. Even after the merger both stocks fell more than 40%; the group only rebounded when oil collapsed in the second half of 2008.",
+      "evidence": "AMR shares fell from $41 to $4 as crude went from $55 to $145 by mid-July 2008; Delta -47% and Northwest -44% after the Apr 14 merger announcement",
+      "sources": [
+        {
+          "title": "Honolulu Advertiser: airline stocks and oil (Jan 2009)",
+          "url": "https://archives-new.honoluluadvertiser.com/article/2009/Jan/04/bz/hawaii901040340.html"
+        },
+        {
+          "title": "NBC News: 2008 a look back at one wacky year in travel",
+          "url": "https://www.nbcnews.com/id/wbna28355794"
+        }
+      ]
+    },
+    {
+      "id": "en-2008-solar-bust",
+      "date": "2008-05-15",
+      "end_date": "2009-03-09",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "First solar bust: polysilicon at $460/kg, then the credit crunch",
+      "summary": "Solar had been the hottest trade of 2007 (First Solar +795%) on German and Spanish feed-in tariffs, but polysilicon prices peaked near $460/kg in early 2008 and project finance vanished in the crisis. TAN lost three-quarters of its value over five months in late 2008 and First Solar fell 48% for the year, the first of three solar boom-bust cycles.",
+      "evidence": "TAN lost ~75% of its value in a five-month period in late 2008; FSLR +795.2% in 2007 then -48.4% in 2008",
+      "sources": [
+        {
+          "title": "24/7 Wall St: Solar stocks, does the punishment fit the crime? (Oct 2011)",
+          "url": "https://247wallst.com/energy-business/2011/10/06/solar-stocks-does-the-punishment-fit-the-crime-fslr-spwra-stp-jaso-tsl-ldk-tan/"
+        },
+        {
+          "title": "ChartRow FSLR calendar-year returns",
+          "url": "https://chartrow.com/quote/fslr/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2008-oil-spike-and-crash",
+      "date": "2008-07-11",
+      "end_date": "2008-12-19",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services",
+        "refining",
+        "midstream"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "WTI $147 to $32: the 2008 energy crash",
+      "summary": "Crude peaked at $147 on July 11, 2008 and fell to about $32 by December as the financial crisis destroyed demand; XLE fell from near $90 to a $45 low. The ETF lost 39% in 2008, E&Ps (XOP -43%) and services (OIH -60%, SLB -56%) fell far more than the integrateds (XOM -13%), and refiners were crushed by the demand collapse (VLO -68.5%).",
+      "evidence": "WTI fell from $147 (Jul 11, 2008) to ~$32 (Dec 2008); XLE -39.0%, XOP -42.7%, OIH -60.2%, XOM -13.1% in 2008",
+      "sources": [
+        {
+          "title": "Convextrade: what happens to XLE when oil spikes",
+          "url": "https://convextrade.com/what-happens-when/oil-price-spikes/xle"
+        },
+        {
+          "title": "ChartRow XOP calendar-year returns",
+          "url": "https://chartrow.com/quote/xop/returns"
+        },
+        {
+          "title": "ChartRow OIH calendar-year returns",
+          "url": "https://chartrow.com/quote/oih/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2009-recovery-cyclicals",
+      "date": "2009-03-09",
+      "end_date": "2010-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery",
+        "industrial_distribution",
+        "transportation",
+        "electrical_equipment",
+        "commercial_aerospace"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "2009-2010 recovery: early-cycle industrials lead the rebound",
+      "summary": "Once credit markets reopened, capital rotated back into the most cyclical, most leveraged industrials. XLI returned 22% in 2009 and 27.8% in 2010 (vs SPY 26.4% and 15.1%), United Rentals rose 132% in 2010, Deere gained 45% and 56%, and Old Dominion 56% in 2010 as freight volumes recovered; Boeing added 33% in 2009 on the 787 program.",
+      "evidence": "XLI +27.8% in 2010 vs SPY +15.1%; URI +131.9% and DE +56.3% in 2010",
+      "sources": [
+        {
+          "title": "ChartRow XLI calendar-year returns",
+          "url": "https://chartrow.com/quote/xli/returns"
+        },
+        {
+          "title": "ChartRow URI calendar-year returns",
+          "url": "https://chartrow.com/quote/uri/returns"
+        },
+        {
+          "title": "ChartRow ODFL calendar-year returns",
+          "url": "https://chartrow.com/quote/odfl/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2009-recovery-services-lead",
+      "date": "2009-03-09",
+      "end_date": "2010-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "oilfield_services",
+        "exploration_production",
+        "integrated"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "2009-10 recovery: oilfield services and shale E&Ps lead energy back",
+      "summary": "With China stimulus restoring oil to $80 and the shale gas/oil boom starting, high-beta services and E&Ps led the rebound: OIH returned 63.5% in 2009 and 20% in 2010, XOP 40% and 29%, while XLE gained 21.8% both years. The Macondo spill (April 2010) briefly hit offshore drillers but the land-rig count and pressure-pumping demand surged into 2011.",
+      "evidence": "OIH +63.5% in 2009; XOP +40.2% (2009) and +28.6% (2010); XLE +21.8% in both years",
+      "sources": [
+        {
+          "title": "ChartRow OIH calendar-year returns",
+          "url": "https://chartrow.com/quote/oih/returns"
+        },
+        {
+          "title": "ChartRow XOP calendar-year returns",
+          "url": "https://chartrow.com/quote/xop/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2009-recapitalization-rally",
+      "date": "2009-03-09",
+      "end_date": "2009-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits",
+        "lodging_reits",
+        "retail_reits",
+        "real_estate_services",
+        "mortgage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "2009 REIT recapitalization: $37.5bn of equity raises end the solvency panic",
+      "summary": "Starting with Simon's March 2009 offering, REITs raised $37.5bn through 91 secondary offerings in 2009 and unsecured spreads narrowed from ~1,200bp to ~500bp; the capital came at dilutive prices but ended the bankruptcy scare. All Equity REITs returned 28% in 2009, with the most distressed groups leading: regional malls +63%, lodging +67%, SL Green +102% and CBRE +214% from the March low.",
+      "evidence": "REITs raised $37.5bn via 91 secondary offerings in 2009; All Equity REITs +28.0%, Lodging +67.2%, Regional Malls +63.0%, SLG +101.6% in 2009",
+      "sources": [
+        {
+          "title": "Nareit: 2009 REIT capital raising",
+          "url": "https://www.reit.com/node/120379"
+        },
+        {
+          "title": "InvestmentNews: REITs took devastating early hit but finished on upswing",
+          "url": "https://investmentnews.com/alternatives/reits-took-devastating-early-hit-but-finished-on-upswing/24869"
+        },
+        {
+          "title": "ChartRow SLG calendar-year returns",
+          "url": "https://chartrow.com/quote/slg/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2011-caterpillar-mining-peak",
+      "date": "2010-01-04",
+      "end_date": "2012-04-27",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "Mining capex boom carries Caterpillar to a 2012 peak",
+      "summary": "China-led commodity demand produced a second machinery boom after the GFC: Caterpillar returned 68.5% in 2010, bought Bucyrus for $8.6bn in 2011 and reported record profit on mining demand. The peak came in 2012; by 2015 Caterpillar said sales were 31% below the 2012 high with two-thirds of the decline from mining, making 2012 the top of the resource-capex cycle for machinery investors.",
+      "evidence": "CAT +68.5% total return in 2010; Caterpillar's 2015 8-K says sales were ~31% below the 2012 peak, nearly two-thirds of the decline from Resource Industries/mining",
+      "sources": [
+        {
+          "title": "Caterpillar 8-K (Sept 2015) restructuring presentation",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000110465915072042/a15-21496_1ex99d2.htm"
+        },
+        {
+          "title": "ChartRow CAT calendar-year returns",
+          "url": "https://chartrow.com/quote/cat/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2010-mlp-shale-boom",
+      "date": "2010-08-25",
+      "end_date": "2014-08-29",
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "MLP yield boom: shale build-out plus zero rates pull retail money into pipelines",
+      "summary": "Near-zero rates and the need for new pipelines out of the Bakken, Eagle Ford and Marcellus made master limited partnerships a favored yield vehicle; the AMLP ETF launched in August 2010 and the Alerian index compounded through 2014 while Cheniere, the first US LNG exporter, returned 128% in 2010, 116% in 2012 and 130% in 2013. Record MLP IPOs and drop-downs built the leverage that failed in 2015.",
+      "evidence": "AMLP +10.1% (2011), +18.5% (2013); LNG (Cheniere) +128.1% in 2010, +116.1% in 2012, +129.6% in 2013",
+      "sources": [
+        {
+          "title": "ChartRow AMLP calendar-year returns",
+          "url": "https://chartrow.com/quote/amlp/returns"
+        },
+        {
+          "title": "ChartRow LNG calendar-year returns",
+          "url": "https://chartrow.com/quote/lng/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2010-qe-yield-trade",
+      "date": "2010-11-03",
+      "end_date": "2012-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits",
+        "self_storage_reits",
+        "data_center_tower_reits",
+        "net_lease_specialty_reits",
+        "healthcare_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "QE2/Operation Twist: the REIT yield trade and the apartment boom",
+      "summary": "With the 10-year yield falling from 3.30% to 1.78% between 2010 and 2012, yield-starved capital poured into REITs (+28% in 2010, +8.3% in 2011, +19.7% in 2012) while the homeownership rate fell and apartment REITs returned 47% in 2010 and 15% in 2011. Self storage gained 35% in 2011, Realty Income 39% in 2010, and 2012 brought the first data-center/tower REIT conversions (American Tower, Equinix +103%).",
+      "evidence": "All Equity REITs +27.95% (2010) and +19.7% (2012) as the 10-year fell from 3.30% to 1.78%; Apartments +47.0% in 2010; EQIX +103.4% in 2012",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2020 (index levels and 10-year yields)",
+          "url": "https://www.reit.com/sites/default/files/2021-01/MediaFactSheet_Dec-2020.pdf"
+        },
+        {
+          "title": "ChartRow EQIX calendar-year returns",
+          "url": "https://chartrow.com/quote/eqix/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2011-budget-control-act",
+      "date": "2011-08-02",
+      "end_date": "2013-03-01",
+      "sector": "industrials",
+      "subindustries": [
+        "defense",
+        "professional_services"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Debt ceiling and Budget Control Act put defense and federal services in limbo",
+      "summary": "The August 2011 debt-ceiling deal created $1.2 trillion of automatic cuts (sequestration) if the supercommittee failed, which it did. Defense primes had already trailed the S&P 500 for the 12 months before signing and hit valuation lows 'not seen since the end of the Cold War'; federal IT and professional services stocks lagged the market in both 2011 and 2012 as award decisions stalled ahead of the March 1, 2013 sequester.",
+      "evidence": "ITA +4.6% in 2011 and +12.7% in 2012 vs SPY +1.9% and +16.0%; federal IT/services stocks underperformed the broader market in 2011 and 2012",
+      "sources": [
+        {
+          "title": "Fox Business: Is this the biggest risk to defense stocks right now?",
+          "url": "https://www.foxbusiness.com/markets/is-this-the-biggest-risk-to-defense-stocks-right-now"
+        },
+        {
+          "title": "CSIS: What has the Budget Control Act of 2011 meant for defense?",
+          "url": "https://www.csis.org/analysis/what-has-budget-control-act-2011-meant-defense"
+        },
+        {
+          "title": "Washington Technology: Budget uncertainty puts damper on contractor stocks",
+          "url": "https://www.washingtontechnology.com/2012/05/budget-uncertainty-puts-damper-on-contractor-stocks/336864/"
+        }
+      ]
+    },
+    {
+      "id": "en-2011-solyndra-solar-crash",
+      "date": "2011-08-31",
+      "end_date": "2012-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "regulatory",
+      "title": "Solyndra bankruptcy and Chinese oversupply: solar's second bust",
+      "summary": "Chinese capacity expansion collapsed module prices just as European subsidies were cut, and Solyndra's August 31, 2011 bankruptcy after a $535m DOE loan made solar politically toxic. TAN lost 70% in nine months and 63% for 2011, First Solar fell 74% (and 25% in one day when its CEO left on October 25), and the group kept falling in 2012.",
+      "evidence": "TAN -63.4% in 2011 and -30.8% in 2012; FSLR -74.1% in 2011, trading 89% below its May 2008 high by late 2011",
+      "sources": [
+        {
+          "title": "CNN Money: The Solyndra curse",
+          "url": "https://money.cnn.com/2011/09/27/markets/thebuzz/index.htm"
+        },
+        {
+          "title": "CNN Money: First Solar shares tumble 25% as CEO leaves",
+          "url": "https://money.cnn.com/2011/10/25/technology/first_solar_ceo/index.htm"
+        },
+        {
+          "title": "ChartRow TAN calendar-year returns",
+          "url": "https://chartrow.com/quote/tan/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2012-housing-recovery-building-products",
+      "date": "2012-01-03",
+      "end_date": "2014-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "building_products_construction"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Housing recovery and QE3 re-rate building products",
+      "summary": "Housing starts bottomed in 2011 and the Fed's open-ended MBS buying from September 2012 pushed mortgage rates to record lows, pulling capital into building products, HVAC and construction names. The PKB building ETF returned 41.2% in 2013 and 25.4% in 2014 versus 32.3% and 13.5% for the S&P 500.",
+      "evidence": "PKB +41.2% in 2013 and +25.4% in 2014 vs SPY +32.3% and +13.5%",
+      "sources": [
+        {
+          "title": "ChartRow PKB calendar-year returns",
+          "url": "https://chartrow.com/quote/pkb/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2012-refiners-brent-wti-spread",
+      "date": "2012-01-03",
+      "end_date": "2013-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Cushing glut: Brent-WTI spread of $15-22 makes mid-continent refiners the trade",
+      "summary": "Shale oil trapped at Cushing drove WTI to a $15-22 discount to Brent, ending the year near $19, so refiners bought cheap domestic crude and sold product at world prices. Marathon Petroleum returned 89% and Valero 66% in 2012, HollyFrontier and Tesoro about 85%, and Valero added 65% in 2013 before new pipelines compressed the spread.",
+      "evidence": "MPC +88.6% and VLO +66.2% in 2012; Brent-WTI spread ended 2012 just under $19",
+      "sources": [
+        {
+          "title": "Motley Fool: A new golden age for refiners (Feb 2013)",
+          "url": "https://www.fool.com/investing/general/2013/02/06/a-new-golden-age-for-refiners.aspx"
+        },
+        {
+          "title": "ChartRow VLO calendar-year returns",
+          "url": "https://chartrow.com/quote/vlo/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2013-boeing-production-supercycle",
+      "date": "2013-01-02",
+      "end_date": "2014-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "commercial_aerospace"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Boeing's 737/787 rate ramp drives an aerospace supercycle",
+      "summary": "With a $415bn backlog (4.5x annual sales) Boeing lifted 737 output from 31.5 to 38 a month and 787 output to 10 a month, and commercial margins rose to nearly 11%. The stock returned 84.7% in 2013, the best Dow component, and aftermarket suppliers (TransDigm, HEICO) re-rated as the installed base grew.",
+      "evidence": "BA total return +84.7% in 2013; backlog $415bn at Oct 2013",
+      "sources": [
+        {
+          "title": "Motley Fool: Boeing delivers strong quarter (Oct 2013)",
+          "url": "https://www.fool.com/investing/general/2013/10/23/boeing-delivers-strong-quarter-and-should-continue.aspx"
+        },
+        {
+          "title": "Motley Fool: Boeing 3 key indicators to follow in 2015",
+          "url": "https://www.fool.com/investing/general/2015/01/20/boeing-cos-ba-3-key-indicators-to-follow-in-2015.aspx"
+        },
+        {
+          "title": "ChartRow BA calendar-year returns",
+          "url": "https://chartrow.com/quote/ba/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2013-solar-rebound",
+      "date": "2013-01-02",
+      "end_date": "2014-03-07",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "2013 solar rebound: module price stabilization and the yieldco model",
+      "summary": "After two years of collapse, polysilicon stabilized at $50-70/kg, Chinese demand replaced European demand and the yieldco structure (SunEdison's TerraForm) brought cheap capital to solar developers. TAN returned 128% in 2013 and First Solar 77%, the sector's best year until 2020.",
+      "evidence": "TAN +127.9% in 2013; ICLN +49.1% and FSLR +77.1% in 2013",
+      "sources": [
+        {
+          "title": "ChartRow TAN calendar-year returns",
+          "url": "https://chartrow.com/quote/tan/returns"
+        },
+        {
+          "title": "VentureBeat: polysilicon prices fall (2011)",
+          "url": "https://venturebeat.com/2011/05/16/polysilicon-prices-fall-slow"
+        }
+      ]
+    },
+    {
+      "id": "ind-2013-sequester-relief-rally",
+      "date": "2013-03-01",
+      "end_date": "2013-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Sequestration arrives and defense stocks rally anyway",
+      "summary": "Once the sequester took effect, the worst case was priced in and primes responded with buybacks and margin discipline. Defense became one of the best groups of 2013: ITA returned 55.9% versus 32.3% for the S&P 500 and Lockheed Martin 68.1%, and the Bipartisan Budget Act of December 2013 then partially lifted the caps for FY14-15.",
+      "evidence": "ITA +55.9% and LMT +68.1% in 2013 vs SPY +32.3%",
+      "sources": [
+        {
+          "title": "Business Insider: investors unconcerned about defense budget cuts (2013)",
+          "url": "https://businessinsider.in/heres-another-sign-that-investors-are-totally-unconcerned-about-defense-budget-cuts/articleshow/21240800.cms"
+        },
+        {
+          "title": "ChartRow ITA calendar-year returns",
+          "url": "https://chartrow.com/quote/ita/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2013-taper-tantrum",
+      "date": "2013-05-22",
+      "end_date": "2013-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "mortgage_reits",
+        "net_lease_specialty_reits",
+        "residential_reits",
+        "healthcare_reits",
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Taper tantrum: mortgage REITs and bond-proxy REITs de-rate",
+      "summary": "Bernanke's May 22, 2013 taper comments took the 10-year from 1.6% to 3.0%; mortgage REITs fell 21% from the end of April, Annaly cut its dividend from $0.45 to $0.30 and lost 20% for the year, and the longest-duration equity REITs (net lease, health care, apartments) went negative while the S&P 500 gained 32%. All Equity REITs returned just 2.9% in 2013, the first big relative loss of the QE era.",
+      "evidence": "Mortgage REIT stocks -21% from Apr 30 to late June 2013; NLY -20.0% in 2013; All Equity REITs +2.9% in 2013 vs S&P 500 +32.4%; Health Care REITs -7.1%, Apartments -6.2%",
+      "sources": [
+        {
+          "title": "Motley Fool: Why did Annaly and peers get crushed in the Fed's wake",
+          "url": "https://www.fool.com/investing/general/2013/06/20/why-did-annaly-and-peers-get-crushed-in-the-feds-w.aspx"
+        },
+        {
+          "title": "InvestmentNews: Mortgage REITs in the cellar",
+          "url": "https://investmentnews.com/alternatives/mortgage-reits-in-the-cellar/52487"
+        },
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2014-rate-reversal-rally",
+      "date": "2014-01-02",
+      "end_date": "2014-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits",
+        "healthcare_reits",
+        "net_lease_specialty_reits",
+        "mortgage_reits",
+        "self_storage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "2014: yields fall back and REITs double the S&P 500",
+      "summary": "The taper happened but rates fell anyway (10-year 3.04% to 2.17%), and the sectors punished in 2013 led a 28% REIT year: apartments +39.6%, health care +33.3%, self storage +31.4%, Realty Income +34.4% and mortgage REITs +17.9%. It was the clearest demonstration that the post-2013 REIT market trades as a duration asset.",
+      "evidence": "All Equity REITs +28.0% in 2014 vs S&P 500 +13.7%; Apartments +39.6%, Health Care +33.3%, Self Storage +31.4%",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "ChartRow O calendar-year returns",
+          "url": "https://chartrow.com/quote/o/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2014-opec-price-war",
+      "date": "2014-06-20",
+      "end_date": "2016-02-11",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "oilfield_services",
+        "integrated"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "OPEC refuses to cut (Nov 27, 2014): the 2014-16 oil crash",
+      "summary": "With US shale adding a million barrels a day a year, OPEC held output at its November 27, 2014 meeting and crude dropped 10% that day to four-year lows; XOP was already down 40% from its June high by December 5 and WTI fell under $30 in February 2016. XOP lost 29% in 2014 and 36% in 2015, OIH 24% and 25%, and XLE 8.7% and 21.5% in years the S&P 500 rose, with dozens of E&P and service bankruptcies.",
+      "evidence": "XOP -40% from June 2014 high by Dec 5, 2014; XOP -29.4% (2014) and -35.8% (2015); XLE -21.5% in 2015 vs SPY +1.2%",
+      "sources": [
+        {
+          "title": "CNN Money: Oil stocks plunge after OPEC decision",
+          "url": "https://money.cnn.com/2014/11/28/investing/oil-stocks-plunge-opec/"
+        },
+        {
+          "title": "Market Realist: Why the bottom fell out of crude oil (Dec 2014)",
+          "url": "https://marketrealist.com/2014/12/bottom-fell-crude-oil"
+        },
+        {
+          "title": "ChartRow XOP calendar-year returns",
+          "url": "https://chartrow.com/quote/xop/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2015-industrial-recession",
+      "date": "2014-12-01",
+      "end_date": "2016-02-11",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery",
+        "industrial_distribution",
+        "transportation",
+        "electrical_equipment"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "2015-16 industrial recession: oil capex collapse, strong dollar, rail bear market",
+      "summary": "The oil crash, a 20% dollar rally and Chinese slowdown produced a manufacturing recession without a broad one. Fastenal's CEO said in October 2015 that 44 of its top 100 customers were shrinking, Caterpillar guided to a fourth straight down year, railroads entered a bear market on collapsing coal and crude carloads, and Dow Transports underperformed the S&P 500 by 1,800bp in 2015-early 2016.",
+      "evidence": "XLI -4.3% in 2015 vs SPY +1.2%; CAT -23.0%, URI -28.9%, ODFL -23.9% in 2015; Transports lagged S&P 500 by 1,800bp (BofA, Feb 2016)",
+      "sources": [
+        {
+          "title": "Global Fastener News: Fastenal CEO on industrial recession",
+          "url": "https://www.globalfastenernews.com/?p=64524"
+        },
+        {
+          "title": "Caterpillar 8-K Sept 2015",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000018230/000110465915072042/a15-21496_1ex99d2.htm"
+        },
+        {
+          "title": "Benzinga: BofA says move back into transports (Feb 2016)",
+          "url": "https://feeds2.benzinga.com/analyst-ratings/analyst-color/16/02/6492444/bofa-says-move-back-in-to-transports-upgrades-industry-e"
+        },
+        {
+          "title": "Peak-oil.org/Bloomberg: US rails skid into bear market",
+          "url": "https://news.peak-oil.org/2015/06/u-s-rails-skid-into-bear-market-on-triple-whammy-cargo-slump/"
+        }
+      ]
+    },
+    {
+      "id": "en-2015-refiners-cheap-crude",
+      "date": "2015-01-02",
+      "end_date": "2015-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "Refiners are the only energy winners of the 2015 crash",
+      "summary": "Cheap crude, record US gasoline demand and strong export margins let refiners decouple from the rest of energy in 2015: Valero returned 47% in a year XLE lost 21.5% and XOP 36%. The episode cemented refiners' role as the counter-cyclical hedge inside the sector.",
+      "evidence": "VLO +46.8% in 2015 vs XLE -21.5% and XOP -35.8%",
+      "sources": [
+        {
+          "title": "ChartRow VLO calendar-year returns",
+          "url": "https://chartrow.com/quote/vlo/returns"
+        },
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2015-storage-peak-oversupply",
+      "date": "2015-01-02",
+      "end_date": "2019-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "Self storage peaks in 2015 then stalls under a development wave",
+      "summary": "Self storage was the best REIT sector of 2015 (+40.7%, Public Storage +38%) on 95% occupancy and double-digit rent growth, which triggered a national development boom; the sector then returned -8.1% in 2016, +3.7% in 2017 and +2.9% in 2018 as new supply saturated markets and street rates fell. The cycle set up the pandemic-era rebound.",
+      "evidence": "Self Storage REITs +40.65% in 2015, then -8.14% (2016), +3.74% (2017), +2.94% (2018)",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "Motley Fool: Self storage in 2022, what to expect (oversupply after 2019 development)",
+          "url": "https://www.fool.com/real-estate/2021/12/07/self-storage-in-2022-what-to-expect"
+        }
+      ]
+    },
+    {
+      "id": "en-2015-kinder-morgan-mlp-crash",
+      "date": "2015-06-01",
+      "end_date": "2016-02-11",
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Kinder Morgan cuts its dividend 75%: the MLP model breaks",
+      "summary": "Falling oil, over-leveraged balance sheets and a closed equity window ended the MLP yield trade: the Alerian MLP index fell 47% between June 2015 and February 2016, and on December 8, 2015 bellwether Kinder Morgan cut its dividend 75% to protect its investment-grade rating. KMI lost 63% in 2015 and AMLP 26%; Plains and others cut distributions in the following months, pushing the sector toward C-corp conversions and self-funding.",
+      "evidence": "KMI dividend cut 75% on Dec 8, 2015; KMI -62.8% and AMLP -25.7% in 2015; Alerian MLP index -47% Jun 2015-Feb 2016",
+      "sources": [
+        {
+          "title": "Fortune: Kinder Morgan dividend and oil prices (Dec 2015)",
+          "url": "https://dc.fortune.com/2015/12/09/kinder-morgan-dividend-oil-prices"
+        },
+        {
+          "title": "Mauldin Economics: Steer clear of these oil MLPs",
+          "url": "https://www.mauldineconomics.com/the-weekly-profit/whatever-you-do-steer-clear-of-these-oil-mlps"
+        },
+        {
+          "title": "ChartRow KMI calendar-year returns",
+          "url": "https://chartrow.com/quote/kmi/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2016-sunedison-yieldco-bust",
+      "date": "2015-07-20",
+      "end_date": "2016-12-30",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "SunEdison collapse ends the yieldco era",
+      "summary": "SunEdison, briefly the world's largest renewable developer, buckled under $16bn of debt and filed for bankruptcy on April 21, 2016, discrediting the yieldco funding model and freezing capital for solar developers. TAN fell 43% in 2016, First Solar 51% and Enphase 71%, even as installations kept growing.",
+      "evidence": "TAN -43.2%, FSLR -51.4%, ENPH -71.2% in 2016",
+      "sources": [
+        {
+          "title": "ChartRow TAN calendar-year returns",
+          "url": "https://chartrow.com/quote/tan/returns"
+        },
+        {
+          "title": "ChartRow ENPH calendar-year returns",
+          "url": "https://chartrow.com/quote/enph/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2015-hcp-manorcare-skilled-nursing",
+      "date": "2015-10-01",
+      "end_date": "2016-10-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "healthcare_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "HCR ManorCare blows up HCP: the skilled-nursing reimbursement risk",
+      "summary": "Medicare reimbursement pressure and a DOJ probe crushed HCP's largest tenant, HCR ManorCare: HCP took $1.3bn of 2015 impairments on the leases, fell 18% on February 9, 2016 when it guided below consensus, and spun the portfolio into QCP in October 2016. Health care REITs lost 7.3% in 2015 while Welltower and Ventas also de-rated on operator credit, and investors began paying up for private-pay senior housing over SNFs.",
+      "evidence": "HCP recorded an $817m Q4 2015 impairment ($1.3bn for the year) on HCRMC; HCP -18% on Feb 9, 2016; Health Care REITs -7.25% in 2015",
+      "sources": [
+        {
+          "title": "Motley Fool: Why HCP stock plunged today (Feb 9, 2016)",
+          "url": "https://www.fool.com/investing/general/2016/02/09/why-hcp-inc-stock-plunged-today.aspx"
+        },
+        {
+          "title": "HCP 10-K FY2016",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000765880/000155837017000535/hcp-20161231x10k.htm"
+        }
+      ]
+    },
+    {
+      "id": "re-2016-ecommerce-logistics-and-digital",
+      "date": "2016-01-04",
+      "end_date": "2019-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits",
+        "data_center_tower_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "E-commerce and the cloud: logistics, data centers and towers become the growth REITs",
+      "summary": "Amazon's same-day push and cloud adoption shifted REIT leadership to the 'new economy' sectors: industrial REITs returned 30.7% in 2016, 20.6% in 2017 and 48.7% in 2019 (Prologis +56%), data centers 35.4% in 2017 and 44.2% in 2019 (Equinix +69%), and towers/infrastructure 42% in 2019 on 5G densification (American Tower +48%). By 2019 these three groups were roughly a third of REIT market cap.",
+      "evidence": "Industrial REITs +48.7%, Data Centers +44.2%, Infrastructure +42.0% in 2019; PLD +55.9% and EQIX +68.9% in 2019",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2020 (2019 sector returns)",
+          "url": "https://www.reit.com/sites/default/files/2021-01/MediaFactSheet_Dec-2020.pdf"
+        },
+        {
+          "title": "ChartRow PLD calendar-year returns",
+          "url": "https://chartrow.com/quote/pld/returns"
+        },
+        {
+          "title": "ChartRow AMT calendar-year returns",
+          "url": "https://chartrow.com/quote/amt/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2016-opec-vienna-cut",
+      "date": "2016-02-11",
+      "end_date": "2016-12-30",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "oilfield_services",
+        "integrated",
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Oil bottoms at $26 and OPEC agrees its first cut since 2008",
+      "summary": "After WTI bottomed near $26 in February 2016, energy rallied all year and OPEC's November 30 Vienna agreement to cut 1.2m b/d (plus 0.6m from non-OPEC) sent oil up 8% and XLE up 5.1% in a day. XLE returned 28% in 2016, XOP 38%, OIH 28% and KMI 43%, the sector's best year relative to the S&P 500 (+12%) since 2007.",
+      "evidence": "XLE +5.1% on Nov 30, 2016 (S&P -0.3%); XLE +28.0%, XOP +38.3%, OIH +27.8% in 2016 vs SPY +12.0%",
+      "sources": [
+        {
+          "title": "24/7 Wall St: Did OPEC production cut make speculative oil stocks rally too much?",
+          "url": "https://247wallst.com/energy/2016/11/30/did-opec-production-cut-make-more-speculative-oil-stocks-rally-too-much/"
+        },
+        {
+          "title": "FX Empire: OPEC agrees to first production cuts since 2008",
+          "url": "https://www.fxempire.com/news/article/opec-agrees-to-first-production-cuts-since-2008-oil-soars-8-percent-375434"
+        },
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2016-gics-sector-bond-proxy",
+      "date": "2016-02-11",
+      "end_date": "2016-11-08",
+      "sector": "real_estate",
+      "subindustries": [
+        "net_lease_specialty_reits",
+        "mortgage_reits",
+        "industrial_logistics_reits",
+        "data_center_tower_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Record-low yields and the new GICS Real Estate sector",
+      "summary": "The 10-year fell to a record 1.36% in July 2016 and REITs rallied as bond proxies into the September 1, 2016 creation of Real Estate as the 11th GICS sector, which forced generalist funds to reassess a structural underweight. Industrial (+30.7%), data centers (+26.4%) and mortgage REITs (+22.9%) led 2016; the trade reversed sharply after the November election as yields jumped.",
+      "evidence": "All Equity REITs +8.6% in 2016; Industrial +30.7%, Data Centers +26.4%, Mortgage REITs +22.9%; O +15.8%",
+      "sources": [
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        },
+        {
+          "title": "ChartRow O calendar-year returns",
+          "url": "https://chartrow.com/quote/o/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2016-election-reflation",
+      "date": "2016-11-09",
+      "end_date": "2018-01-26",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery",
+        "industrial_distribution",
+        "building_products_construction",
+        "transportation",
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "election",
+      "title": "Trump election: infrastructure, tax-cut and reflation trade floods into industrials",
+      "summary": "Expectations of a $1 trillion infrastructure plan, corporate tax cuts and deregulation triggered an immediate rotation: industrials rose 4.4% in the three days after the election and about 9% in the first month, with Caterpillar and US Steel leading. The move extended through 2017's synchronized global growth, with XLI up 24% and United Rentals 63%.",
+      "evidence": "S&P industrials +4.4% in the three sessions after Nov 8, 2016; CAT +42.1% in 2016 and +75.0% in 2017; XLI +24.0% in 2017",
+      "sources": [
+        {
+          "title": "Business Insider: industrials and construction stocks rally after Trump victory",
+          "url": "https://businessinsider.in/industrials-and-construction-stocks-are-rallying-after-trumps-victory/articleshow/55341094.cms"
+        },
+        {
+          "title": "CNBC: Trump stock market rally (Aug 2017)",
+          "url": "https://www.cnbc.com/2017/08/03/trump-stock-market-rally.html"
+        },
+        {
+          "title": "ChartRow CAT calendar-year returns",
+          "url": "https://chartrow.com/quote/cat/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2017-shale-growth-underperformance",
+      "date": "2017-01-03",
+      "end_date": "2019-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "oilfield_services",
+        "integrated"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "2017-19: shale over-production, Q4 2018 crash and energy's shrinking index weight",
+      "summary": "Three years of shale volume growth over returns kept energy the worst sector of the bull market: XOP lost 9.5%, 28.1% and 9.4% in 2017-19 and OIH 20%, 45% and 3%, while the S&P 500 compounded strongly. Brent fell 37% from its October 3, 2018 high to year-end, the Morningstar energy index dropped 22% in Q4 2018 and Exxon lost 14% in December 2018 alone; by 2019 energy was about 4% of the S&P 500 and generalists had largely exited.",
+      "evidence": "XOP -9.5% (2017), -28.1% (2018), -9.4% (2019); OIH -45.0% in 2018; Brent -37% from Oct 3, 2018 peak to year-end",
+      "sources": [
+        {
+          "title": "Motley Fool: Why these three oil company stocks collapsed in December 2018",
+          "url": "https://www.fool.com/investing/2019/01/07/why-these-three-oil-company-stocks-collapsed-in-de.aspx"
+        },
+        {
+          "title": "Anadolu: Energy commodity prices fall significantly in 4Q18 (EIA)",
+          "url": "https://www.aa.com.tr/en/energy/stock-market/energy-commodity-prices-fall-significantly-in-4q18-eia/22931"
+        },
+        {
+          "title": "ChartRow OIH calendar-year returns",
+          "url": "https://chartrow.com/quote/oih/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2017-retail-apocalypse",
+      "date": "2017-01-04",
+      "end_date": "2019-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "retail_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Retail apocalypse: 7,000 store closures and a three-year mall de-rating",
+      "summary": "Macy's January 2017 closure list opened a year with 6,985 announced store closures (+200% y/y) and bankruptcies of Toys R Us, Sears and Payless; shopping-center REITs lost 11.4% in 2017 and 14.6% in 2018, regional malls fell three years running (-2.7%, -7.0%, -9.1%) and Simon traded a third below its 2016 high by 2019. Capital rotated from retail to industrial as the same e-commerce shift created logistics demand.",
+      "evidence": "6,985 store closures announced in 2017 (+200% y/y); Shopping Centers -11.4% (2017) and -14.6% (2018); Regional Malls -9.1% in 2019",
+      "sources": [
+        {
+          "title": "CNBC: Store closures rocked retail in 2017",
+          "url": "https://www.cnbc.com/2017/12/26/store-closures-rocked-retail-in-2017-and-more-should-come-next-year.html"
+        },
+        {
+          "title": "Motley Fool: Simon Property Group in 5 charts (2019)",
+          "url": "https://www.fool.com/investing/2019/11/24/simon-property-group-in-5-charts.aspx"
+        },
+        {
+          "title": "Nareit annual sector returns (AnnualSectorReturns.xlsx)",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2017-defense-budget-boom",
+      "date": "2017-07-12",
+      "end_date": "2018-02-09",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Defense re-rates on Trump budget push and the Bipartisan Budget Act of 2018",
+      "summary": "Lockheed and Northrop hit all-time highs in July 2017 as the administration proposed a ~10% defense increase, and the February 9, 2018 Bipartisan Budget Act raised the caps to $700bn for FY2018 and $716bn for FY2019, 15% above the original cap. ITA returned 34.6% in 2017 and defense's budget overhang was removed for two years.",
+      "evidence": "ITA +34.6% in 2017 vs SPY +21.7%; BBA 2018 set defense at $700bn (FY18) and $716bn (FY19)",
+      "sources": [
+        {
+          "title": "CNBC: Lockheed, Northrop reach all-time highs (Jul 2017)",
+          "url": "https://www.cnbc.com/2017/07/12/lockheed-northrop-reach-all-time-highs-as-investors-see-weapons-boost.html"
+        },
+        {
+          "title": "CSIS: Making sense of the Bipartisan Budget Act of 2018",
+          "url": "https://www.csis.org/analysis/making-sense-bipartisan-budget-act-2018-and-what-it-means-defense"
+        }
+      ]
+    },
+    {
+      "id": "ind-2018-ge-collapse",
+      "date": "2017-11-13",
+      "end_date": "2018-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "electrical_equipment",
+        "commercial_aerospace"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "GE's power-business implosion and exit from the Dow",
+      "summary": "GE halved its dividend in November 2017 as the gas-turbine (Power) business collapsed with the shift to renewables, took large insurance charges, and was removed from the Dow on June 26, 2018 after 110 years. The stock fell 57% in the two years to June 2018 while the Dow rose 44%, dragging the electrical-equipment group and forcing the eventual breakup that produced GE Vernova and GE Aerospace.",
+      "evidence": "GE shares -57% over the two years to June 19, 2018 vs Dow +44%; GE -42.4% in 2017 and -55.1% in 2018",
+      "sources": [
+        {
+          "title": "Fortune: GE, last original Dow stock, out; Walgreens in",
+          "url": "https://fortune.com/2018/06/19/ge-last-original-dow-industrial-stock-out-walgreens-in/"
+        },
+        {
+          "title": "ChartRow GE calendar-year returns",
+          "url": "https://chartrow.com/quote/ge/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2018-trade-war",
+      "date": "2018-03-01",
+      "end_date": "2018-12-24",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery",
+        "industrial_distribution",
+        "transportation",
+        "commercial_aerospace",
+        "building_products_construction"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "Section 232/301 tariffs: industrials become the trade-war proxy",
+      "summary": "Steel and aluminum tariffs in March 2018 and escalating China tariffs made Boeing and Caterpillar the market's trade-war barometers; Boeing fell 6% premarket when China retaliated on April 4 and Caterpillar's record profits could not stop a 12% year-to-date slide by December. XLI lost 13.2% in 2018 versus 4.6% for the S&P 500, with United Rentals down 40% and EMCOR 27%.",
+      "evidence": "XLI -13.2% in 2018 vs SPY -4.6%; CAT -17.6%, URI -40.4%, EME -26.7% in 2018",
+      "sources": [
+        {
+          "title": "NBR: Trade tariff threats weigh on Wall Street industrials",
+          "url": "https://www.nbr.co.nz/trade-tariff-threats-weigh-on-wall-street-industrials"
+        },
+        {
+          "title": "Engineering News: Caterpillar's record profit can't save it from trade-war carnage",
+          "url": "https://www.engineeringnews.co.za/article/caterpillars-record-profit-cant-save-it-from-trade-war-carnage-2018-06-20"
+        },
+        {
+          "title": "ChartRow XLI calendar-year returns",
+          "url": "https://chartrow.com/quote/xli/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2019-fed-pivot-rally",
+      "date": "2019-01-04",
+      "end_date": "2019-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits",
+        "residential_reits",
+        "healthcare_reits",
+        "mortgage_reits",
+        "industrial_logistics_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Powell pivot: REITs return 28.7% in 2019",
+      "summary": "After a -4% 2018 driven by the 10-year reaching 3.2%, the Fed's January 2019 pivot and three cuts pulled yields to 1.9% and REITs returned 28.7%, nearly matching the S&P 500 with half the volatility. Office (+31.4%), residential (+30.9%, manufactured homes +49%), health care (+21.2%) and mortgage REITs (+21.3%) all re-rated; REITs raised a record $113bn of capital.",
+      "evidence": "All Equity REITs +28.66% in 2019; Office +31.42%, Residential +30.89%, Health Care +21.20%, Mortgage REITs +21.33%",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2020 (2019 sector returns)",
+          "url": "https://www.reit.com/sites/default/files/2021-01/MediaFactSheet_Dec-2020.pdf"
+        },
+        {
+          "title": "Nareit annual index values and returns",
+          "url": "https://www.reit.com/data-research/reit-market-data/report/annual-index-values-returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2019-737-max-grounding",
+      "date": "2019-03-10",
+      "end_date": "2020-11-18",
+      "sector": "industrials",
+      "subindustries": [
+        "commercial_aerospace"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "regulatory",
+      "title": "Boeing 737 MAX grounded after second crash",
+      "summary": "The Ethiopian Airlines crash on March 10, 2019 led regulators worldwide to ground the 737 MAX; Boeing fell 11% in two days, its biggest two-day drop in a decade, wiping ~$16bn of market value, and production was halted in January 2020. The 20-month grounding, then COVID, turned the sector's growth engine into its biggest drag and pushed Spirit AeroSystems and other MAX suppliers down with it.",
+      "evidence": "BA -11% over Mar 11-12, 2019 (biggest two-day drop in a decade); BA +3.3% in 2019 vs SPY +31.2%",
+      "sources": [
+        {
+          "title": "Fortune: Boeing stock tumbles after 737 MAX grounding",
+          "url": "https://fortune.com/2019/03/12/boeing-stock-tumbles-737-max"
+        },
+        {
+          "title": "ChartRow BA calendar-year returns",
+          "url": "https://chartrow.com/quote/ba/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2020-covid-crash-travel",
+      "date": "2020-02-20",
+      "end_date": "2020-03-23",
+      "sector": "industrials",
+      "subindustries": [
+        "transportation",
+        "commercial_aerospace",
+        "professional_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "pandemic",
+      "title": "COVID lockdowns: airlines and aerospace crash, Buffett sells",
+      "summary": "Air travel collapsed 95% and the JETS airline ETF fell 59% between February 21 and March 23, 2020 versus 33% for SPY; United lost 49% in March alone and Berkshire sold its airline stakes. Boeing lost two-thirds of its value peak to trough as MAX and COVID combined, and staffing names fell on the unemployment spike before the CARES Act payroll support stabilized the group.",
+      "evidence": "JETS -59.1% from Feb 21 to Mar 23, 2020 vs SPY -32.7%; UAL -48.8% in March 2020",
+      "sources": [
+        {
+          "title": "ETF Strategy: Airline ETF assets surge as Buffett hits eject",
+          "url": "https://www.etfstrategy.com/airline-etf-jets-us-assets-surge-as-warren-buffett-berkshire-hathaway-hits-eject-button-48593"
+        },
+        {
+          "title": "Motley Fool: Why shares of major airlines lost altitude in March 2020",
+          "url": "https://www.fool.com/investing/2020/04/02/why-shares-of-major-airlines-lost-altitude-in-marc.aspx"
+        },
+        {
+          "title": "ChartRow BA calendar-year returns",
+          "url": "https://chartrow.com/quote/ba/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2020-covid-crash",
+      "date": "2020-02-20",
+      "end_date": "2020-11-06",
+      "sector": "real_estate",
+      "subindustries": [
+        "lodging_reits",
+        "mortgage_reits",
+        "retail_reits",
+        "office_reits",
+        "residential_reits",
+        "healthcare_reits",
+        "net_lease_specialty_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "pandemic",
+      "title": "COVID: hotels, malls and mortgage REITs crash; dividends suspended",
+      "summary": "REITs lost 23.4% in Q1 2020 and mortgage REITs 56% as repo lenders issued margin calls (MFA faced ~$800m, Western Asset $116m on March 23; MFA fell from $7.64 to $0.32); Host Hotels suspended its dividend after April, lodging REITs were down 48% by August, malls fell 37% and EPR's theater tenants stopped paying. Full-year 2020: lodging -23.6%, retail -25.2% (malls -37.2%), office -18.4%, apartments -15.3% (urban exodus), health care -9.9% (senior-housing occupancy), free-standing net lease -10.5%.",
+      "evidence": "FTSE Nareit Mortgage REITs -56.1% in Q1 2020; Lodging/Resorts -47.7% YTD at Aug 31, 2020 and -23.6% for 2020; Regional Malls -37.2% in 2020",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2020",
+          "url": "https://www.reit.com/sites/default/files/2021-01/MediaFactSheet_Dec-2020.pdf"
+        },
+        {
+          "title": "Western Asset Mortgage Capital 10-Q Q1 2020 (margin calls)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1465885/000162828020007474/wmc-20200331.htm"
+        },
+        {
+          "title": "Bisnow: Retail and hospitality REITs battered",
+          "url": "https://www.bisnow.com/news/national/capital-markets/retail-and-hospitality-reits-battered-but-other-classes-in-good-shape-105850"
+        },
+        {
+          "title": "Host Hotels 10-K FY2020 (dividend suspension)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1070750/000156459021008676/hst-10k_20201231.htm"
+        }
+      ]
+    },
+    {
+      "id": "en-2020-covid-negative-oil",
+      "date": "2020-03-06",
+      "end_date": "2020-08-31",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services",
+        "refining",
+        "midstream"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "pandemic",
+      "title": "COVID demand collapse and negative WTI; Exxon leaves the Dow",
+      "summary": "The OPEC+ breakdown on March 6, 2020 and lockdowns pushed the energy sector down about 50% in Q1; on April 20 the May WTI contract settled at -$37.63, the first negative oil price in history, and on August 24 Exxon was removed from the Dow after 92 years with energy at ~2.4% of the S&P 500. XLE lost 32.7% in 2020, XOP 36%, OIH 41%, AMLP 32% and Valero 36%, and several shale producers (Whiting, Chesapeake) went bankrupt.",
+      "evidence": "May 2020 WTI contract settled at -$37.63 on Apr 20, 2020; energy sector -~50% in Q1 2020; XLE -32.7% in 2020 vs SPY +18.3%",
+      "sources": [
+        {
+          "title": "Convextrade daily recap Apr 20, 2020: WTI crude goes negative",
+          "url": "https://convextrade.com/recap/daily/2020-04-20"
+        },
+        {
+          "title": "LPL: What happened to oil",
+          "url": "https://qa65.lpl.com/news-media/research-insights/weekly-market-commentary/what-happened-to-oil.html"
+        },
+        {
+          "title": "CNBC: Exxon Mobil replaced by a software stock after 92 years in the Dow",
+          "url": "https://www.cnbc.com/2020/08/25/exxon-mobil-replaced-by-a-software-stock-after-92-years-in-the-dow-is-a-sign-of-the-times.html"
+        },
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2020-waste-commercial-volume-hit",
+      "date": "2020-03-16",
+      "end_date": "2020-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "waste"
+      ],
+      "direction": "mixed",
+      "magnitude": "minor",
+      "driver_type": "pandemic",
+      "title": "Lockdowns cut commercial waste volumes; haulers lag the 2020 rebound",
+      "summary": "Business closures cut commercial and industrial collection volumes in Q2 2020 while residential volumes rose, so the haulers' defensive reputation held in the March crash but they lagged the recovery: Waste Management returned 5.5% in 2020 against 10.9% for XLI and 18.3% for the S&P 500. Pricing power and landfill scarcity kept estimates stable, and the group resumed outperforming in 2021 (WM +43.8%).",
+      "evidence": "WM +5.5% in 2020 vs XLI +10.9% and SPY +18.3%; WM +43.8% in 2021",
+      "sources": [
+        {
+          "title": "ChartRow WM calendar-year returns",
+          "url": "https://chartrow.com/quote/wm/returns"
+        },
+        {
+          "title": "ChartRow XLI calendar-year returns",
+          "url": "https://chartrow.com/quote/xli/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2020-defense-esg-lag",
+      "date": "2020-03-23",
+      "end_date": "2021-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Defense sits out the 2020-21 bull market",
+      "summary": "With budgets flat after the BBA boom, Afghanistan withdrawal looming and ESG mandates excluding weapons makers, defense primes missed the post-COVID rally entirely. ITA lost 14% in 2020 and gained only 9.4% in 2021 while the S&P 500 returned 18.3% and 28.7%; Lockheed was down in 2020 and flat in 2021, setting up the cheap valuations that the Ukraine invasion would re-rate.",
+      "evidence": "ITA -14.0% in 2020 and +9.4% in 2021 vs SPY +18.3% and +28.7%; LMT -6.5% (2020) and +3.2% (2021)",
+      "sources": [
+        {
+          "title": "ChartRow ITA calendar-year returns",
+          "url": "https://chartrow.com/quote/ita/returns"
+        },
+        {
+          "title": "ChartRow LMT calendar-year returns",
+          "url": "https://chartrow.com/quote/lmt/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2020-clean-energy-mania",
+      "date": "2020-03-23",
+      "end_date": "2021-02-10",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "2020 clean-energy mania: zero rates, ESG flows and the Biden election",
+      "summary": "Zero rates, record ESG fund inflows, falling solar costs and expectations of a Biden climate program produced the biggest clean-energy bubble on record: ICLN returned 142% in 2020, TAN 234% and Enphase 572%, with the peak in February 2021. Fossil-fuel energy meanwhile had its worst year, so the rotation between the two sub-sectors was the widest ever recorded.",
+      "evidence": "ICLN +141.8%, TAN +234.0%, ENPH +571.5% in 2020 vs XLE -32.7%",
+      "sources": [
+        {
+          "title": "ChartRow ICLN calendar-year returns",
+          "url": "https://chartrow.com/quote/icln/returns"
+        },
+        {
+          "title": "ChartRow TAN calendar-year returns",
+          "url": "https://chartrow.com/quote/tan/returns"
+        },
+        {
+          "title": "FlowBank: Top performing ETFs of 2020 sink in 2021",
+          "url": "https://www.flowbank.com/en/livewire/top-performing-etfs-of-2020-sink-in-2021"
+        }
+      ]
+    },
+    {
+      "id": "re-2020-digital-and-logistics-winners",
+      "date": "2020-03-23",
+      "end_date": "2020-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits",
+        "industrial_logistics_reits",
+        "self_storage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "pandemic",
+      "title": "Pandemic winners: data centers, warehouses and storage",
+      "summary": "Lockdowns accelerated e-commerce and cloud demand, so the digital REITs were the only groups to finish 2020 positive: data centers +21%, industrial +12.2% (Prologis +15%), self storage +12.9% (moving and home-office demand) and infrastructure/towers +7.3%, against -5.1% for all equity REITs. The dispersion between 'COVID winners' and hotels/malls was the widest in REIT history.",
+      "evidence": "Data Centers +21.0%, Industrial +12.17%, Self Storage +12.91% in 2020 vs All Equity REITs -5.12%",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2020",
+          "url": "https://www.reit.com/sites/default/files/2021-01/MediaFactSheet_Dec-2020.pdf"
+        },
+        {
+          "title": "ChartRow EQIX calendar-year returns",
+          "url": "https://chartrow.com/quote/eqix/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2021-reopening-capex-boom",
+      "date": "2020-11-09",
+      "end_date": "2021-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery",
+        "industrial_distribution",
+        "transportation",
+        "professional_services",
+        "building_products_construction"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Vaccine rotation and the 2021 goods boom",
+      "summary": "Pfizer's vaccine news on November 9, 2020 started a rotation into reopening cyclicals, and 2021's inventory restocking, record freight rates and labor shortage produced a broad industrial earnings surge. Old Dominion returned 85% in 2021, Robert Half 81%, United Rentals 43% and ADP 43%, with XLI up 21.1%; farm income headed to a 2022 record and Deere rallied 29%.",
+      "evidence": "ODFL +84.7%, RHI +81.3%, URI +43.3%, ADP +42.6% in 2021; XLI +21.1%",
+      "sources": [
+        {
+          "title": "ChartRow ODFL calendar-year returns",
+          "url": "https://chartrow.com/quote/odfl/returns"
+        },
+        {
+          "title": "ChartRow RHI calendar-year returns",
+          "url": "https://chartrow.com/quote/rhi/returns"
+        },
+        {
+          "title": "United Rentals 2021 Annual Report",
+          "url": "https://s21.q4cdn.com/336331232/files/doc_financials/2021/ar/United-Rentals-Inc.-2021-Annual-Report.pdf"
+        }
+      ]
+    },
+    {
+      "id": "en-2021-energy-reopening-rebound",
+      "date": "2020-11-09",
+      "end_date": "2021-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services",
+        "refining",
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Vaccine rotation and capital discipline: energy's 2021 comeback",
+      "summary": "From the November 2020 vaccine news, reopening demand and the new shale model of flat volumes, buybacks and variable dividends produced the best energy year since 2005: XLE returned 53.3% in 2021, XOP 66.7%, AMLP 39%, SLB 40%, Exxon 58% and Cheniere 70%, versus 28.7% for the S&P 500. Free cash flow replaced growth as the sector's investment case.",
+      "evidence": "XLE +53.3%, XOP +66.7%, AMLP +39.1%, XOM +57.6% in 2021 vs SPY +28.7%",
+      "sources": [
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        },
+        {
+          "title": "ChartRow AMLP calendar-year returns",
+          "url": "https://chartrow.com/quote/amlp/returns"
+        },
+        {
+          "title": "ChartRow XOM calendar-year returns",
+          "url": "https://chartrow.com/quote/xom/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2021-vaccine-reopening-boom",
+      "date": "2020-11-09",
+      "end_date": "2021-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "retail_reits",
+        "self_storage_reits",
+        "residential_reits",
+        "industrial_logistics_reits",
+        "lodging_reits",
+        "office_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Vaccine rotation and the 2021 REIT boom: best year on record",
+      "summary": "REITs jumped 9.2% in November 2020 on the Pfizer vaccine (mortgage REITs +18%) and 2021 became the best REIT year ever at +41.3%: regional malls +92% (Simon +96%), shopping centers +65%, self storage +79% (Public Storage +67%, Extra Space occupancy 97.2%), apartments +64% on record rent growth and industrial +62% (Prologis +72%). Lodging (+18%) and office (+22%) lagged as business travel and return-to-office stalled.",
+      "evidence": "All Equity REITs +41.3% in 2021; Regional Malls +92.05%, Self Storage +79.43%, Apartments +63.61%, Industrial +62.03%; SPG +95.7%",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2022 (2021 sector returns)",
+          "url": "https://www.reit.com/sites/default/files/2023-01/MediaFactSheet_Dec-2022.pdf"
+        },
+        {
+          "title": "GlobeSt: Self-storage REITs gear up for growth (Nareit 2021 data)",
+          "url": "https://globest.com/2022/03/25/self-storage-reits-gear-up-for-growth"
+        },
+        {
+          "title": "ChartRow SPG calendar-year returns",
+          "url": "https://chartrow.com/quote/spg/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2021-clean-energy-bust",
+      "date": "2021-02-10",
+      "end_date": "2021-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Clean energy peaks and loses a quarter of its value as yields rise",
+      "summary": "When 10-year yields rose in early 2021 and the stimulus-driven retail bid faded, the 2020 winners reversed: ICLN lost 24% and TAN 25% in 2021, ESG inflows slowed sharply and concentration issues forced ICLN to rebalance. The bust began a three-year de-rating that was only interrupted by the IRA.",
+      "evidence": "ICLN -24.2% and TAN -25.1% in 2021 vs SPY +28.7%",
+      "sources": [
+        {
+          "title": "FlowBank: Top performing ETFs of 2020 sink in 2021",
+          "url": "https://www.flowbank.com/en/livewire/top-performing-etfs-of-2020-sink-in-2021"
+        },
+        {
+          "title": "Energy Connects: Hot corner of ESG investing is cooling fast and losing cash (May 2021)",
+          "url": "https://energyconnects.com/news/renewables/2021/may/hot-corner-of-esg-investing-is-cooling-fast-and-losing-cash"
+        }
+      ]
+    },
+    {
+      "id": "ind-2021-iija-infrastructure",
+      "date": "2021-11-15",
+      "end_date": "2025-01-20",
+      "sector": "industrials",
+      "subindustries": [
+        "building_products_construction",
+        "machinery",
+        "industrial_distribution",
+        "electrical_equipment"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "Infrastructure Investment and Jobs Act creates a multi-year construction tailwind",
+      "summary": "The $1.2 trillion IIJA (with $550bn of new spending) signed November 15, 2021 funded roads, grid, water and broadband, and together with the CHIPS Act and IRA produced a mega-project wave in semiconductors, EV plants and LNG. The PAVE infrastructure ETF returned 36.4% in 2021, 31% in 2023 and 17.9% in 2024, and investors who bought at passage earned a total return above 96%; by early 2025 only $400-450bn of the money had been announced or awarded, leaving a long outlay tail.",
+      "evidence": "PAVE total return >96% from Nov 2021 passage; PAVE +31.0% in 2023 and +17.9% in 2024",
+      "sources": [
+        {
+          "title": "Nasdaq/MarketBeat: 3 infrastructure stocks riding the US building boom",
+          "url": "https://www.nasdaq.com/articles/3-infrastructure-stocks-riding-us-building-boom"
+        },
+        {
+          "title": "ChartRow PAVE calendar-year returns",
+          "url": "https://chartrow.com/quote/pave/returns"
+        },
+        {
+          "title": "Global X PAVE fund page",
+          "url": "https://globalxetfs.com/funds/pave/"
+        }
+      ]
+    },
+    {
+      "id": "ind-2022-rate-shock-housing-linked",
+      "date": "2022-01-03",
+      "end_date": "2022-10-12",
+      "sector": "industrials",
+      "subindustries": [
+        "building_products_construction",
+        "industrial_distribution"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "2022 rate shock: mortgage rates go from 3% to 7% and building products de-rate",
+      "summary": "The fastest Fed tightening since the 1980s pushed 30-year mortgage rates from about 3.1% to 7% during 2022, collapsing housing turnover. A basket of builders, building products and home-improvement names fell 28% versus 20% for the S&P 500, the S&P 400 building products index fell nearly 20%, and PKB lost 21.7% for the year; repair-and-remodel names like Masco held up better than new-construction exposure.",
+      "evidence": "PKB -21.7% in 2022 vs SPY -18.2%; S&P 400 Building Products sub-index -~20% in 2022 as mortgage rates rose from ~3% to 7%",
+      "sources": [
+        {
+          "title": "Trefis: Housing stocks are pricing in a big downturn (2022)",
+          "url": "https://www.trefis.com/stock/hd/articles/540858/housing-stocks-are-pricing-in-a-big-downturn/2022-06-22"
+        },
+        {
+          "title": "National Mortgage News: repair-and-remodeling stock rally hits a wall",
+          "url": "https://www.nationalmortgagenews.com/articles/repair-and-remodeling-stock-rally-hits-a-wall"
+        },
+        {
+          "title": "ChartRow PKB calendar-year returns",
+          "url": "https://chartrow.com/quote/pkb/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2022-waste-defensive-bid",
+      "date": "2022-01-03",
+      "end_date": "2022-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "waste"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Waste stocks absorb the 2022 defensive rotation",
+      "summary": "With inflation running at 8-9%, waste haulers' CPI-plus pricing and landfill scarcity made them the sector's inflation hedge: Waste Management was beating the S&P, Nasdaq and Dow by May 2022 and WM and Republic made new all-time highs in August. WM finished 2022 down only 4.5% versus 18.2% for the S&P 500, though the group's premium multiple became a headwind once risk appetite returned in 2023.",
+      "evidence": "WM -4.5% in 2022 vs SPY -18.2%; WM/RSG set new all-time monthly highs in Aug 2022",
+      "sources": [
+        {
+          "title": "Motley Fool: Recession or not, this aspiring Dividend Aristocrat (May 2022)",
+          "url": "https://www.fool.com/investing/2022/05/19/recession-or-not-this-aspiring-dividend-aristocrat"
+        },
+        {
+          "title": "Zacks: Waste Management and Republic Services feature (Aug 2022)",
+          "url": "https://zacks.com/stock/news/1967646/zacks-investment-ideas-feature-highlights-waste-management-and-republic-services"
+        },
+        {
+          "title": "ChartRow WM calendar-year returns",
+          "url": "https://chartrow.com/quote/wm/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2022-rate-shock-derating",
+      "date": "2022-01-03",
+      "end_date": "2022-10-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits",
+        "residential_reits",
+        "net_lease_specialty_reits",
+        "self_storage_reits",
+        "healthcare_reits",
+        "mortgage_reits",
+        "lodging_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "2022 rate shock: worst REIT year since 2008",
+      "summary": "The 10-year yield rose 243bp to 3.88% and the Fed funds rate went from zero to above 4%, and the FTSE Nareit All Equity REITs index lost 24.95%, its worst year since 2008 (XLRE fell from $50 to $36.93). Office (-37.6%) was hit by hybrid work on top of rates, apartments fell 32%, self storage 27%, health care 22%, mortgage REITs 27% as MBS spreads blew out, while free-standing net lease (-6.5%, Realty Income -7.4%) and specialty (-0.8%) held up best.",
+      "evidence": "All Equity REITs -24.95% in 2022 (10-year yield +243bp to 3.88%); Office -37.62%, Apartments -31.95%, Self Storage -26.73%, Mortgage REITs -26.61%, Free Standing -6.53%",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2022",
+          "url": "https://www.reit.com/sites/default/files/2023-01/MediaFactSheet_Dec-2022.pdf"
+        },
+        {
+          "title": "Benzinga: The 2 REIT benchmark ETFs end 2022 down by more than 25%",
+          "url": "https://www.benzinga.com/real-estate/reit/23/01/30261356/the-2-reit-benchmark-etfs-end-2022-down-by-more-than-25"
+        },
+        {
+          "title": "The Real Deal: REITs post worst year since 2008",
+          "url": "https://therealdeal.com/2022/12/14/reits-post-worst-year-since-2008-have-they-hit-bottom"
+        }
+      ]
+    },
+    {
+      "id": "ind-2022-ukraine-defense-rerating",
+      "date": "2022-02-24",
+      "end_date": "2022-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Russia invades Ukraine; defense primes re-rate in a bear market",
+      "summary": "Northrop and Lockheed rose 3% and 2% on the day of the invasion and kept going as Europe pledged rearmament and US supplementals flowed; Northrop returned 41% and Lockheed 40.5% in 2022 while the S&P 500 lost 18%. The SPADE defense index gained 8.6% and ITA 10% in the market's worst year since 2008, ending defense's ESG-era underperformance.",
+      "evidence": "LMT +40.5% and NOC +41% in 2022 vs SPY -18.2%; ITA +10.0%",
+      "sources": [
+        {
+          "title": "Business Insider: US defense stocks rally after Russia attacks Ukraine",
+          "url": "https://businessinsider.in/stock-market/news/us-defense-stocks-rally-after-russia-launches-attacks-on-ukraine/amp_articleshow/89807316.cms"
+        },
+        {
+          "title": "Defense News: defense stocks flourish after Russian invasion",
+          "url": "https://www.defensenews.com/?p=65234"
+        },
+        {
+          "title": "ChartRow LMT calendar-year returns",
+          "url": "https://chartrow.com/quote/lmt/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2022-ukraine-only-positive-sector",
+      "date": "2022-02-24",
+      "end_date": "2022-12-30",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services",
+        "refining",
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Russia invades Ukraine: energy is the only positive S&P sector in 2022",
+      "summary": "Sanctions and the loss of Russian supply pushed Brent above $120 and European gas to records; XLE returned 64.3% in 2022 while the S&P 500 fell 19.6%, the widest outperformance on record. Exxon gained 87%, SLB 81% as international and offshore spending resumed, refiners hit records on $60 diesel cracks (Marathon Petroleum earned $28.17 a share, +1,287%), and Cheniere/LNG exporters re-rated on Europe's scramble for gas.",
+      "evidence": "XLE +64.3% in 2022 vs S&P 500 -19.6%; XOM +87.4%, SLB +81.2%, VLO +75.0%, AMLP +25.5% in 2022",
+      "sources": [
+        {
+          "title": "Nasdaq: 3 must-know energy sector ETFs",
+          "url": "https://www.nasdaq.com/articles/3-must-know-energy-sector-etfs-with-upside-potential"
+        },
+        {
+          "title": "Business Insider: Energy outperforming S&P 500 by widest margin on record",
+          "url": "https://businessinsider.in/stock-market/news/the-energy-sector-is-outperforming-the-sp-500-by-the-widest-margin-on-record-amid-war-in-ukraine-investment-research-firm-says/amp_articleshow/90143931.cms"
+        },
+        {
+          "title": "Nasdaq: 2 oil refiners posting record margins",
+          "url": "https://www.nasdaq.com/articles/2-oil-refiners-posting-record-margins:-can-the-trend-continue"
+        }
+      ]
+    },
+    {
+      "id": "re-2022-prologis-amazon-pullback",
+      "date": "2022-04-28",
+      "end_date": "2022-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Amazon says it has too much warehouse space; logistics REITs de-rate",
+      "summary": "Amazon's April 28, 2022 admission that it over-built warehouse capacity, days after Prologis's Q1 results, ended the sector's premium: Prologis fell nine straight sessions (about 28%) and finished 2022 down 31%, and industrial REITs lost 28.6% for the year despite record rent growth. Management called the Amazon reports 'much ado about nothing' for Prologis itself, but the group never regained its 2021 multiple.",
+      "evidence": "PLD -31.3% in 2022; Industrial REITs -28.58% in 2022; PLD slid for 9 sessions (~-28%) after its Apr 19, 2022 results",
+      "sources": [
+        {
+          "title": "Motley Fool: Down 26%, is Prologis still a buy? (May 2022)",
+          "url": "https://www.fool.com/investing/2022/05/16/down-26-is-prologis-still-a-buy"
+        },
+        {
+          "title": "The Real Deal: Prologis CEO denies Amazon, FedEx industrial pullback",
+          "url": "https://therealdeal.com/2022/10/19/prologis-ceo-denies-amazon-fedex-industrial-pullback/"
+        },
+        {
+          "title": "ChartRow PLD calendar-year returns",
+          "url": "https://chartrow.com/quote/pld/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2022-freight-recession",
+      "date": "2022-06-01",
+      "end_date": "2025-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "transportation"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "The long freight recession: spot rates collapse, trucking and intermodal de-rate",
+      "summary": "After the 2021 goods binge, import volumes and truckload spot rates rolled over in mid-2022 and stayed depressed for three years: dry-van spot rates were down 24% year on year in May 2023, J.B. Hunt fell 13% in a day on its April 2023 miss, and Yellow's August 2023 bankruptcy only briefly helped LTL. Old Dominion lost 20% in 2022, 12% in 2024 and 11% in 2025, and the trucking downturn was still being described as 'prolonged' entering 2026.",
+      "evidence": "Dry-van spot rates -23.9% y/y in May 2023; ODFL -20.1% (2022), -12.4% (2024), -10.5% (2025)",
+      "sources": [
+        {
+          "title": "Talk Business: Freight recession about 40% complete (Jun 2023)",
+          "url": "https://talkbusiness.net/2023/06/analysts-freight-recession-about-40-complete/"
+        },
+        {
+          "title": "Loadstar: JB Hunt riding a new pricing cycle",
+          "url": "https://theloadstar.com/fasten-your-seat-belts-us-trucking-slowdown-ominous-for-smaller-players/"
+        },
+        {
+          "title": "ChartRow ODFL calendar-year returns",
+          "url": "https://chartrow.com/quote/odfl/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2022-chanos-data-center-short",
+      "date": "2022-06-29",
+      "end_date": "2022-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Chanos shorts 'legacy' data centers; DLR and EQIX lose a third",
+      "summary": "Jim Chanos raised a fund to short Digital Realty and Equinix in June 2022, arguing hyperscalers would self-build; data-center REITs fell more than 5% on the report and finished 2022 down 28% (Digital Realty -41%, Equinix -21%), while towers lost 28.6% on rates and Sprint-merger churn. The thesis was reversed within a year by AI leasing, but the 2022 drawdown was the sector's worst since 2008.",
+      "evidence": "Data Center REITs -27.97% and Infrastructure/Tower REITs -28.61% in 2022; DLR -41.0%, EQIX -21.1%, AMT -25.7% in 2022",
+      "sources": [
+        {
+          "title": "Benzinga: Short seller Jim Chanos betting against data centers",
+          "url": "https://benzinga.com/news/22/06/27900928/short-seller-jim-chanos-betting-against-data-centers-heres-why"
+        },
+        {
+          "title": "Data Center Dynamics: Data center REITs outperform S&P 500 in November but worse off YTD",
+          "url": "https://www.datacenterdynamics.com/en/news/data-center-reits-outperform-sp-500-in-november-but-are-worse-off-ytd"
+        },
+        {
+          "title": "ChartRow DLR calendar-year returns",
+          "url": "https://chartrow.com/quote/dlr/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2022-inflation-reduction-act",
+      "date": "2022-07-27",
+      "end_date": "2022-12-30",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "Inflation Reduction Act: $369bn of clean-energy credits",
+      "summary": "The surprise Manchin-Schumer deal on July 27, 2022 and the IRA's signing on August 16 extended and expanded solar, wind, storage, nuclear and hydrogen credits for a decade; in the two weeks to August 8 ICLN rose 15%, TAN 18.5% and QCLN 17%. Enphase finished 2022 up 45% and First Solar up 72% on domestic-manufacturing credits, bucking the broader market.",
+      "evidence": "TAN +18.5% and ICLN +15.4% in the two weeks to Aug 8, 2022; FSLR +71.9% and ENPH +44.8% in 2022",
+      "sources": [
+        {
+          "title": "VanEck: Clean energy boost (IRA)",
+          "url": "https://vaneck.com.au/blog/etfs/clean-energy-boost"
+        },
+        {
+          "title": "CMC Markets: US climate bill benefits Bloom, SunPower, Brookfield",
+          "url": "https://www.cmcmarkets.com/en/optox/us-climate-bill-benefits-bloom-energy-sunpower-and-brookfield"
+        },
+        {
+          "title": "ChartRow FSLR calendar-year returns",
+          "url": "https://chartrow.com/quote/fslr/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2023-waste-pricing-rng",
+      "date": "2023-01-03",
+      "end_date": "2024-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "waste"
+      ],
+      "direction": "in",
+      "magnitude": "minor",
+      "driver_type": "earnings",
+      "title": "Waste compounders grind higher on pricing and renewable natural gas",
+      "summary": "Pricing above CPI, landfill-gas (RNG) projects and steady M&A kept waste names compounding through the 2023-24 bull market even as they lost their 2022 defensive premium. Waste Management returned 16.2% in 2023 and 14.3% in 2024, lagging the S&P 500 but with low volatility, and analysts flagged that both WM and Republic traded at significant premiums to the market.",
+      "evidence": "WM +16.2% in 2023 and +14.3% in 2024 vs SPY +26.2% and +24.9%",
+      "sources": [
+        {
+          "title": "ChartRow WM calendar-year returns",
+          "url": "https://chartrow.com/quote/wm/returns"
+        },
+        {
+          "title": "Simply Wall St: Waste Management positive expectations are priced in",
+          "url": "https://simplywall.st/stocks/us/commercial-services/nyse-wm/waste-management/news/waste-management-incs-nysewm-positive-expectations-are-price"
+        }
+      ]
+    },
+    {
+      "id": "en-2023-clean-energy-rate-bust",
+      "date": "2023-01-03",
+      "end_date": "2024-11-06",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "5% yields and the Trump election: clean energy's third bust",
+      "summary": "Rising rates hit project economics and residential solar demand (California NEM 3.0, Europe inventory glut): TAN fell 27% in 2023 and 38% in 2024, Enphase 50% and 48%, ICLN 20% and 26%. Solar stocks nosedived again on November 6, 2024 when Trump's win raised the odds of IRA repeal.",
+      "evidence": "TAN -26.8% (2023) and -37.6% (2024); ENPH -50.1% (2023) and -48.0% (2024); TAN down 36% YTD at Dec 8, 2023",
+      "sources": [
+        {
+          "title": "Zacks: After a tough 2023, solar ETFs likely to make a comeback in 2024",
+          "url": "https://www.zacks.com/amp/stock/news/2197852/after-a-tough-2023-solar-etfs-likely-to-make-a-comeback-in-2024"
+        },
+        {
+          "title": "pv magazine: Solar stocks nosedive as Trump victory is secured",
+          "url": "https://pv-magazine.com/2024/11/07/solar-stocks-nosedive-as-trump-victory-is-secured"
+        },
+        {
+          "title": "ChartRow ENPH calendar-year returns",
+          "url": "https://chartrow.com/quote/enph/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2023-mpw-steward",
+      "date": "2023-01-03",
+      "end_date": "2024-05-06",
+      "sector": "real_estate",
+      "subindustries": [
+        "healthcare_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Medical Properties Trust and the Steward bankruptcy",
+      "summary": "Hospital landlord MPW lost 82% from its 2021 peak, about four times the health-care REIT decline, as its largest tenant Steward stopped paying rent; the dividend was slashed, $11.5bn of market value evaporated and Steward's May 6, 2024 Chapter 11 filing sent MPW down another 17%. The failure pushed capital from leased hospital and skilled-nursing exposure toward operating senior housing (Welltower, Ventas).",
+      "evidence": "MPW -82% from 2021 peak (about 4x the health-care REIT decline); MPW -17% on May 6, 2024 Steward bankruptcy",
+      "sources": [
+        {
+          "title": "Boston Globe: For supporting Steward, landlord pays a steep price",
+          "url": "https://www.bostonglobe.com/2024/05/08/business/steward-health-care-bankruptcy-medical-properties-trust-hospitals"
+        },
+        {
+          "title": "TipRanks: Medical Properties plunges on largest tenant's bankruptcy",
+          "url": "https://www.tipranks.com/news/medical-properties-nysempw-plunges-on-largest-tenants-bankruptcy"
+        }
+      ]
+    },
+    {
+      "id": "re-2023-data-center-ai-leasing",
+      "date": "2023-01-03",
+      "end_date": "2024-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "AI leasing boom: data-center REITs lead for two years",
+      "summary": "Generative-AI demand produced record hyperscale leasing (Digital Realty signed more than $520m of new leases in Q3 2024 alone, backlog at historic highs) and power-constrained supply, and data-center REITs returned 30.1% in 2023 and 25.2% in 2024, the top sector both years. Digital Realty gained 40% and 36%, Equinix 25% and 20%, reversing the 2022 Chanos narrative.",
+      "evidence": "Data Center REITs +30.08% (2023) and +25.22% (2024); DLR new leasing >$520m in Q3 2024",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2024 (sector returns)",
+          "url": "https://www.reit.com/sites/default/files/2025-01/MediaFactSheet_Dec-2024.pdf"
+        },
+        {
+          "title": "Barchart: 2 AI data center stocks to buy for momentum into 2025",
+          "url": "https://www.barchart.com/story/news/28938523/2-ai-data-center-stocks-to-buy-now-for-strong-momentum-into-2025"
+        },
+        {
+          "title": "ChartRow DLR calendar-year returns",
+          "url": "https://chartrow.com/quote/dlr/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2023-tower-reit-slump",
+      "date": "2023-01-03",
+      "end_date": "2025-03-13",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Towers lag for three years: rates, Sprint churn and Crown Castle's fiber exit",
+      "summary": "While data centers boomed, towers were the REIT market's laggard: telecom REITs returned -1.5% in 2023 and -14.2% in 2024 as carriers cut capex after 5G, T-Mobile removed Sprint sites and DISH wrote down, and leverage met 5% yields; from end-2022 Crown Castle fell 22% and SBA 29% while the S&P 500 rose 49%. Crown Castle cut 2023 guidance, then sold its fiber and small-cell units for $8.5bn in March 2025 and cut its dividend 32%.",
+      "evidence": "Telecommunications REITs -1.52% (2023) and -14.15% (2024); CCI -22% and SBAC -29% total return from end-2022 vs S&P 500 +49%; CCI dividend cut 32% to $1.0625/qtr (Mar 2025)",
+      "sources": [
+        {
+          "title": "Inside Towers: US tower stocks have had a rough road the past 18 months",
+          "url": "https://insidetowers.com/?p=60721"
+        },
+        {
+          "title": "Barchart: Crown Castle lowers dividend by 32%",
+          "url": "https://www.barchart.com/story/news/32528902/crown-castle-lowers-dividend-by-32"
+        },
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2024",
+          "url": "https://www.reit.com/sites/default/files/2025-01/MediaFactSheet_Dec-2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "re-2023-senior-housing-supercycle",
+      "date": "2023-01-03",
+      "end_date": "2026-11-05",
+      "sector": "real_estate",
+      "subindustries": [
+        "healthcare_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Senior-housing supercycle makes health care the best REIT sector",
+      "summary": "The 80-plus population wave, near-zero new senior-housing construction and post-COVID occupancy recovery produced double-digit same-store NOI growth (Welltower's senior-housing NOI +14.5% y/y): health care REITs returned 13.9% in 2023, 24.2% in 2024 and 28.5% in 2025, the top sector, and 18.9% through September 2026. Welltower returned 42%, 43% and 50% in 2023-25, sold its $7.2bn outpatient-medical portfolio in October 2025 to go all-in on senior housing, and is the only REIT sector trading above NAV (+10%).",
+      "evidence": "Health Care REITs +28.45% in 2025 (best sector) and +18.9% YTD at Sep 30, 2026; WELL +49.9% (2025) and +33.7% YTD 2026",
+      "sources": [
+        {
+          "title": "Nareit: REITs post narrow gains in 2025",
+          "url": "https://www.reit.com/news/blog/market-commentary/reits-post-narrow-gains-2025"
+        },
+        {
+          "title": "Stockopedia/Reuters: Welltower boosts FFO forecast, unveils senior housing expansion",
+          "url": "https://www.stockopedia.com/share-prices/welltower-NYQ:WELL/news/welltower-boosts-annual-ffo-forecast-unveils-23-billion-senior-housing-expansion-019e69ef-f8d0-70b4-8aa3-80de32e38d9e/"
+        },
+        {
+          "title": "ChartRow WELL calendar-year returns",
+          "url": "https://chartrow.com/quote/well/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2024-retail-reit-recovery",
+      "date": "2023-01-03",
+      "end_date": "2024-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "retail_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "No new supply: malls and shopping centers quietly recover",
+      "summary": "A decade without new retail construction, record occupancy at Simon and Kimco and the failure of weak tenants (Bed Bath, Rite Aid, Big Lots) turning into re-leasing spreads lifted regional malls 29.9% in 2023 and 27.4% in 2024 and shopping centers 17% in 2024; Simon returned 29% and 27%. Retail went from the 2017-20 pariah to a core holding.",
+      "evidence": "Regional Malls +29.94% (2023) and +27.42% (2024); Shopping Centers +17.04% in 2024; SPG +29.2% (2023), +26.9% (2024)",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2024",
+          "url": "https://www.reit.com/sites/default/files/2025-01/MediaFactSheet_Dec-2024.pdf"
+        },
+        {
+          "title": "ChartRow SPG calendar-year returns",
+          "url": "https://chartrow.com/quote/spg/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2023-regional-bank-office-collapse",
+      "date": "2023-03-10",
+      "end_date": "2023-05-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits",
+        "mortgage_reits",
+        "real_estate_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "SVB fails: office REITs collapse on the CRE-lending freeze",
+      "summary": "Silicon Valley Bank's March 10, 2023 failure hit the small and mid-sized banks that make 70% of commercial real-estate loans; the MSCI REIT index fell 8.3% in two weeks, SL Green 37% in a month, Vornado 27% and Boston Properties 21%, and office was down 24% year to date by late May. Commercial mortgage REITs and the brokers (CBRE and JLL transaction revenue down ~50% as global CRE investment fell 48% y/y) were hit by the same freeze; office returned 2% in 2023 versus 11.4% for all REITs.",
+      "evidence": "SLG -37% and VNO -27% in the month to Mar 31, 2023; MSCI US REIT index -8.3% in the two weeks after Mar 10; Office REITs +2.03% in 2023 vs All Equity REITs +11.36%",
+      "sources": [
+        {
+          "title": "Blue Vault: Investors sold REITs in response to the banking crisis",
+          "url": "https://bluevaultpartners.com/investors-sold-reits-in-response-to-the-banking-crisis-they-may-have-overreacted/"
+        },
+        {
+          "title": "Inquirer/Reuters: Banking crisis scars struggling US real estate stocks",
+          "url": "https://business.inquirer.net/396630/banking-crisis-scars-struggling-u-s-real-estate-stocks"
+        },
+        {
+          "title": "CoStar: JLL earnings drop 99% as sales, leasing and financing decline",
+          "url": "https://www.costar.com/article/1525935567/jll-earnings-drop-99-as-sales-leasing-and-financing-decline"
+        },
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2024 (2023 sector returns)",
+          "url": "https://www.reit.com/sites/default/files/2025-01/MediaFactSheet_Dec-2024.pdf"
+        }
+      ]
+    },
+    {
+      "id": "re-2023-storage-merger-and-turnover-slump",
+      "date": "2023-04-03",
+      "end_date": "2025-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Extra Space buys Life Storage, then housing turnover freezes storage demand",
+      "summary": "Extra Space's $12.7bn all-stock acquisition of Life Storage (announced April 3, 2023, closed July) made it the largest operator with 3,500 stores; self storage returned 18.5% in 2023 on consolidation, but 7% mortgage rates cut home sales to 30-year lows, move-in street rates fell double digits and the sector returned -0.5% in 2024 and -10% in 2025 (Public Storage -9.7%).",
+      "evidence": "EXR-LSI deal $12.7bn (Apr 3, 2023); Self Storage REITs +18.49% (2023), -0.52% (2024), -9.98% (2025)",
+      "sources": [
+        {
+          "title": "Inside Self-Storage: Extra Space, Life Storage complete merger",
+          "url": "https://www.insideselfstorage.com/reits/self-storage-reits-extra-space-life-storage-complete-merger"
+        },
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2025 (2024-25 sector returns)",
+          "url": "https://www.reit.com/sites/default/files/2026-01/MediaFactSheet_Dec-2025.pdf"
+        },
+        {
+          "title": "ChartRow PSA calendar-year returns",
+          "url": "https://chartrow.com/quote/psa/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2023-ai-datacenter-power-trade",
+      "date": "2023-05-25",
+      "end_date": "2025-12-31",
+      "sector": "industrials",
+      "subindustries": [
+        "electrical_equipment",
+        "building_products_construction",
+        "machinery"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "AI data-center build-out turns electrical equipment into the sector's growth engine",
+      "summary": "Nvidia's May 2023 guidance started a capital rotation into everything that powers and cools data centers: Vertiv returned 252% in 2023 and 137% in 2024, Eaton 56% and 40%, EMCOR 111% in 2024 as hyperscale backlog exploded, and GE Vernova, spun out in April 2024, returned 99% in 2025. Comfort Systems' backlog rose from $9.4bn to $17.8bn in a year and Eaton's data-center orders jumped 240%, while Caterpillar's turbine and genset business gave machinery a share of the trade (CAT +60% in 2025).",
+      "evidence": "VRT +251.8% (2023) and +136.8% (2024); GEV +99.0% in 2025; EME +111.3% in 2024; Comfort Systems backlog $17.81bn vs $9.38bn a year earlier",
+      "sources": [
+        {
+          "title": "ChartRow VRT calendar-year returns",
+          "url": "https://chartrow.com/quote/vrt/returns"
+        },
+        {
+          "title": "Motley Fool: 2 industrial stocks worth watching (GE Vernova, Vertiv)",
+          "url": "https://www.fool.com/investing/2026/06/17/2-industrial-stocks-worth-watching/"
+        },
+        {
+          "title": "Zacks: Comfort Systems order momentum",
+          "url": "https://www.zacks.com/stock/news/2899078/comfort-systems-order-momentum-strong-multi-year-growth"
+        },
+        {
+          "title": "ChartRow EME calendar-year returns",
+          "url": "https://chartrow.com/quote/eme/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2023-shale-consolidation-wave",
+      "date": "2023-10-11",
+      "end_date": "2024-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "integrated"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "ma",
+      "title": "Exxon-Pioneer and Chevron-Hess: the shale M&A wave",
+      "summary": "Exxon's ~$60bn all-stock deal for Pioneer (October 11, 2023) and Chevron's $53bn deal for Hess (October 23) started a consolidation wave (Diamondback-Endeavor, ConocoPhillips-Marathon Oil) driven by scarce Tier-1 Permian inventory. The deals shrank the public E&P universe and shifted capital toward the integrateds, but with oil flat around $75 the sector lagged: XLE -0.6% in 2023 and +5.6% in 2024 versus 26% and 25% for the S&P 500.",
+      "evidence": "XOM-Pioneer ~$60bn (Oct 11, 2023) and CVX-Hess $53bn (Oct 23, 2023); XLE -0.6% in 2023 vs SPY +26.2%",
+      "sources": [
+        {
+          "title": "Hart Energy: Chevron buys Hess for $53B, historic M&A bonanza continues",
+          "url": "https://hartenergy.com/exclusives/chevron-buys-hess-53b-historic-ma-bonanza-continues-206929"
+        },
+        {
+          "title": "Natural Gas World: Two mega-deals mark major step in US oil and gas consolidation",
+          "url": "https://naturalgasworld.com/two-mega-deals-mark-major-step-in-us-oil-and-gas-consolidation-gas-in-transition-108522"
+        },
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2024-office-rto-bounce-and-relapse",
+      "date": "2023-11-01",
+      "end_date": "2026-09-30",
+      "sector": "real_estate",
+      "subindustries": [
+        "office_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Office REITs: 2024 return-to-office bounce, then renewed de-rating",
+      "summary": "From the November 2023 low, return-to-office mandates, falling rates and trophy-asset leasing produced a violent short squeeze: office returned 21.5% in 2024 and SL Green 49% in 2023 and 58% in 2024. The trade reversed as rates rose and CMBS maturities hit: office lost 14% in 2025 (SL Green -29%) and was down 10.8% for the first nine months of 2026, the worst equity sector, with only 2.7% YTD by Nareit's Q3 cut.",
+      "evidence": "Office REITs +21.50% in 2024, -13.99% in 2025, -10.77% YTD through Sep 2026 (2nd Market Capital); SLG +58.3% (2024) and -29.0% (2025)",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2025",
+          "url": "https://www.reit.com/sites/default/files/2026-01/MediaFactSheet_Dec-2025.pdf"
+        },
+        {
+          "title": "2nd Market Capital: The State of REITs, October 2026 edition",
+          "url": "https://www.2ndmarketcapital.com/2026/10/28/the-state-of-reits-october-2026-edition/"
+        },
+        {
+          "title": "ChartRow SLG calendar-year returns",
+          "url": "https://chartrow.com/quote/slg/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2024-midstream-gas-demand",
+      "date": "2024-01-02",
+      "end_date": "2024-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "Pipelines re-rate on LNG exports and data-center gas demand",
+      "summary": "Natural-gas pipelines became an AI derivative in 2024 as analysts projected 3.5% annual gas demand growth from LNG, reshoring and roughly 300 data centers under construction: Williams returned 49%, Kinder Morgan 64% (including a 15% November post-election jump on permitting hopes), AMLP 23% and Cheniere 27%, all beating the S&P 500. The group also offered yield with less commodity beta than E&Ps.",
+      "evidence": "KMI +64.4% and WMB +49.3% in 2024; AMLP +22.8% in 2024",
+      "sources": [
+        {
+          "title": "Zacks via Tiger: Williams up 49% in 2024",
+          "url": "https://itiger.com/news/2492110694"
+        },
+        {
+          "title": "Seeking Alpha: Does the Kinder Morgan AI-rally have further to run?",
+          "url": "https://seekingalpha.com/article/4746959-does-the-kinder-morgan-ai-rally-have-further-to-run"
+        },
+        {
+          "title": "ChartRow KMI calendar-year returns",
+          "url": "https://chartrow.com/quote/kmi/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2024-oilfield-services-downturn",
+      "date": "2024-01-02",
+      "end_date": "2025-10-20",
+      "sector": "energy",
+      "subindustries": [
+        "oilfield_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Services slump: falling US rig count and E&P capital discipline",
+      "summary": "With US producers prioritizing buybacks and consolidation cutting the number of customers, the US rig count fell steadily and pressure-pumping pricing eroded; OIH lost 10.5% in 2024 and SLB 24.5%, and Halliburton traded at multiyear lows in summer 2025 with North American revenue down 7% sequentially in Q4 2025. International and offshore work (Middle East, deepwater) was the only growth, and the group only recovered after Halliburton's October 2025 cost-cut plan.",
+      "evidence": "OIH -10.5% and SLB -24.5% in 2024 vs XLE +5.6%; HAL at multiyear lows in summer 2025, NAM revenue -7% q/q in Q4 2025",
+      "sources": [
+        {
+          "title": "Motley Fool: Cost cuts power Halliburton's big run (Feb 2026)",
+          "url": "https://www.fool.com/investing/2026/02/11/cost-cuts-power-halliburtons-big-run"
+        },
+        {
+          "title": "ChartRow SLB calendar-year returns",
+          "url": "https://chartrow.com/quote/slb/returns"
+        },
+        {
+          "title": "ChartRow OIH calendar-year returns",
+          "url": "https://chartrow.com/quote/oih/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2024-refiner-margin-normalization",
+      "date": "2024-01-02",
+      "end_date": "2024-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "Crack spreads normalize after the 2022-23 windfall",
+      "summary": "New capacity in the Middle East, Nigeria and China plus softer diesel demand pulled margins back toward mid-cycle in 2024; the CRAK refiners ETF fell 15% and Valero 3% in a year the S&P 500 gained 25%. Announced closures (LyondellBasell Houston, Phillips 66 Los Angeles) set up the 2025-26 rebound.",
+      "evidence": "CRAK -15.1% and VLO -3.0% in 2024 vs SPY +24.9%",
+      "sources": [
+        {
+          "title": "ChartRow CRAK calendar-year returns",
+          "url": "https://chartrow.com/quote/crak/returns"
+        },
+        {
+          "title": "ChartRow VLO calendar-year returns",
+          "url": "https://chartrow.com/quote/vlo/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2024-sunbelt-supply-wave",
+      "date": "2024-01-02",
+      "end_date": "2026-05-14",
+      "sector": "real_estate",
+      "subindustries": [
+        "residential_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "macro",
+      "title": "Sunbelt apartment supply peaks; coastal landlords outperform",
+      "summary": "Record 2021-22 starts delivered a Sunbelt supply wave in 2024-25: Bank of America downgraded Camden and MAA as new-lease rents turned negative, apartments returned 20.5% in 2024 on rate-cut hopes but -8.6% in 2025 and single-family rentals -10.2%. By May 2026 coastal and California REITs (Equity Residential, AvalonBay, Essex) were posting the strongest pricing while Austin, Phoenix and Denver lagged; residential is the only REIT sector negative for 2026.",
+      "evidence": "Apartment REITs +20.48% (2024) then -8.56% (2025); Single Family Homes -10.24% in 2025; Residential -3.8% YTD at Sep 30, 2026",
+      "sources": [
+        {
+          "title": "Multifamily Dive: Apartment REITs hit with analyst downgrades on supply",
+          "url": "https://www.multifamilydive.com/news/Apartment-REITs-analyst-downgrades-aprtment-supply/700779/"
+        },
+        {
+          "title": "GlobeSt: Multifamily REITs point to pricing outperformance in California and coastal markets (May 2026)",
+          "url": "https://www.globest.com/amp/2026/05/14/multifamily-reits-point-to-pricing-outperformance-in-california-and-coastal-markets/"
+        },
+        {
+          "title": "Nareit property sector returns Sep 30, 2026",
+          "url": "https://www.reit.com/sites/default/files/returns/prop.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ind-2024-boeing-door-plug",
+      "date": "2024-01-05",
+      "end_date": "2024-11-04",
+      "sector": "industrials",
+      "subindustries": [
+        "commercial_aerospace"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "regulatory",
+      "title": "Alaska Airlines door-plug blowout, FAA production cap and the machinists' strike",
+      "summary": "A door plug blew off a 737 MAX 9 on January 5, 2024; Boeing fell 8% on the first session and Spirit AeroSystems 11%, and on January 24 the FAA capped MAX output at 38 a month. An eight-week machinists' strike from September idled factories, Boeing raised $24bn of equity and lost roughly $35bn of market value in 2024, returning -32% in a year the S&P 500 gained 25%.",
+      "evidence": "BA -8% on Jan 8, 2024 and -32.1% for 2024 vs SPY +24.9%; FAA cap of 38 MAX/month imposed Jan 24, 2024",
+      "sources": [
+        {
+          "title": "Spokesman-Review: Boeing's stock drops as investors assess fallout",
+          "url": "https://www.spokesman.com/stories/2024/jan/08/boeings-stock-drops-as-investors-assess-fallout-fr"
+        },
+        {
+          "title": "Skift: FAA halts Boeing 737 MAX production expansion",
+          "url": "https://skift.com/2024/01/24/faa-halts-boeing-737-max-production-expansion"
+        },
+        {
+          "title": "AOL: Boeing lost $35 billion in market cap this year",
+          "url": "https://www.aol.com/boeing-lost-35-billion-market-195847020.html"
+        }
+      ]
+    },
+    {
+      "id": "ind-2024-deere-ag-downturn",
+      "date": "2024-02-15",
+      "end_date": "2025-05-15",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "commodity",
+      "title": "Farm income slides 25% and Deere cuts guidance twice",
+      "summary": "After net farm income hit a record $182bn in 2022 with corn near $6, prices fell toward $4 and USDA projected 2024 farm income down 25.5%, the biggest drop since 2006. Deere cut its FY2024 profit outlook in February and again in May 2024, shares fell as much as 5.5% on the first cut and traded 18% below their July 2023 record, and ag equipment entered a two-year dealer destocking cycle.",
+      "evidence": "USDA projected 2024 farm income -25.5% to $116.1bn; Deere cut FY24 net income guidance to $7.5-7.75bn (Feb 2024) then ~$7bn (May 2024)",
+      "sources": [
+        {
+          "title": "Grainews/Reuters: Deere cuts 2024 profit forecast",
+          "url": "https://www.grainews.ca/daily/deere-cuts-2024-profit-forecast-as-sliding-farm-income-stifles-demand"
+        },
+        {
+          "title": "BNN Bloomberg: Deere cuts outlook with farmer demand easing",
+          "url": "https://www.bnnbloomberg.ca/deere-cuts-2024-profit-outlook-with-farmer-demand-easing-1.2035230"
+        }
+      ]
+    },
+    {
+      "id": "en-2024-nuclear-ipp-ai-power",
+      "date": "2024-03-04",
+      "end_date": "2025-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "Data-center power trade: nuclear PPAs, record PJM auctions and the IPP re-rating",
+      "summary": "Amazon's $650m purchase of Talen's Susquehanna data-center campus (March 2024), the July 2024 PJM capacity auction clearing at $269.92/MW-day (from $28.92), and Constellation's 20-year Microsoft PPA to restart Three Mile Island (September 20, 2024) turned merchant generators into AI plays: Vistra returned 262% and Constellation 93% in 2024. Trump's May 23, 2025 nuclear executive orders then sent Oklo up 130% in a month and NLR up 28% in May, and PJM auctions set further records at $329 (July 2025) and $333 (December 2025).",
+      "evidence": "VST +261.5% and CEG +92.7% in 2024; CEG +32.2% in Sept 2024 on the Microsoft TMI PPA; PJM capacity price $269.92/MW-day (2025/26) then $329.17 (2026/27)",
+      "sources": [
+        {
+          "title": "Motley Fool: Here's why this stock soared 32% in September (Constellation)",
+          "url": "https://www.fool.com/investing/2024/10/03/heres-why-this-stock-soared-322-in-september-makin"
+        },
+        {
+          "title": "Utility Dive: PJM capacity auction, Vistra and Constellation",
+          "url": "https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-vistra-constellation/722872/"
+        },
+        {
+          "title": "Benzinga: Uranium stocks hit 17-year highs as May 2025 rally marks best month on record",
+          "url": "https://www.benzinga.com/government/regulations/25/05/45650179/uranium-stocks-hit-17-year-highs-as-mays-rally-marks-best-month-on-record"
+        },
+        {
+          "title": "ChartRow VST calendar-year returns",
+          "url": "https://chartrow.com/quote/vst/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2024-nar-commission-settlement",
+      "date": "2024-03-15",
+      "end_date": "2024-08-17",
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "regulatory",
+      "title": "NAR's $418m commission settlement hits brokerages and portals",
+      "summary": "The National Association of Realtors agreed on March 15, 2024 to pay $418m and end the practice of listing buyer-agent compensation on MLSs, threatening the 5-6% commission pool; Zillow fell 13.5%, Compass 14.3%, eXp 9.9% and Redfin 4.9% that day while CoStar (Homes.com) rose 8%. The rule change took effect in August 2024 and accelerated brokerage consolidation.",
+      "evidence": "Z -13.5%, COMP -14.3%, EXPI -9.9%, RDFN -4.9% on Mar 15, 2024; CSGP +8%",
+      "sources": [
+        {
+          "title": "BAM: Wall Street reacts to the NAR settlement",
+          "url": "https://nowbam.com/wall-street-reacts-to-the-nar-settlement/"
+        },
+        {
+          "title": "TipRanks/The Fly: Zillow, Redfin drop after realtor group agrees to cut commissions",
+          "url": "https://www.tipranks.com/news/the-fly/zillow-redfin-drop-after-realtor-group-agrees-to-cut-commissions-2"
+        }
+      ]
+    },
+    {
+      "id": "re-2024-fed-cut-rally-and-reversal",
+      "date": "2024-07-01",
+      "end_date": "2024-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "net_lease_specialty_reits",
+        "residential_reits",
+        "healthcare_reits",
+        "mortgage_reits",
+        "self_storage_reits"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Q3 2024 rate-cut rally (+16.8%) and the Q4 reversal",
+      "summary": "Softer inflation and the Fed's 50bp cut on September 18, 2024 produced the best REIT quarter since 2009 (+16.8% in Q3), led by bond proxies: Realty Income went from about $50 to $65 and health care, apartments and storage re-rated. When the 10-year rebounded from 3.8% to 4.58% after the election, REITs gave back 8.15% in Q4 and finished 2024 up only 4.9% versus 25% for the S&P 500.",
+      "evidence": "All Equity REITs +16.79% in Q3 2024 and -8.15% in Q4 2024 (10-year yield 3.81% to 4.58%); O rose from ~$50 to ~$65 by Oct 2024",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2024",
+          "url": "https://www.reit.com/sites/default/files/2025-01/MediaFactSheet_Dec-2024.pdf"
+        },
+        {
+          "title": "Motley Fool: 1 growth stock down 25% to buy right now (Realty Income, Oct 2024)",
+          "url": "https://www.fool.com/investing/2024/10/06/1-growth-stock-down-25-to-buy-right-now/"
+        }
+      ]
+    },
+    {
+      "id": "ind-2025-ai-services-substitution-fear",
+      "date": "2025-01-02",
+      "end_date": "2026-03-15",
+      "sector": "industrials",
+      "subindustries": [
+        "professional_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "AI substitution fears crush staffing and data/payroll services",
+      "summary": "Robert Half lost 59% in 2025 and ADP 10% as investors concluded that AI agents would replace white-collar hiring, payroll seats and data lookups; the selloff climaxed on February 3, 2026 when Anthropic's Claude Cowork plug-ins triggered a $285bn one-day rout across software, information services and asset managers, with Thomson Reuters down a record 16% and the S&P software & services index falling 13% in five sessions. Staffing names bottomed in February-March 2026.",
+      "evidence": "RHI -59.1% in 2025 and ADP -10.2% in 2025; S&P 500 Software & Services index -13% over five sessions to Feb 4, 2026",
+      "sources": [
+        {
+          "title": "BNN Bloomberg: US software stocks hit by Anthropic wake-up call (Feb 4, 2026)",
+          "url": "https://www.bnnbloomberg.ca/business/2026/02/04/us-software-stocks-hit-by-anthropic-wake-up-call-on-ai-disruption/"
+        },
+        {
+          "title": "Seeking Alpha: ADP, the selloff made it cheap",
+          "url": "https://seekingalpha.com/article/4918527-automatic-data-processing-the-selloff-automatically-made-it-cheap"
+        },
+        {
+          "title": "ChartRow RHI calendar-year returns",
+          "url": "https://chartrow.com/quote/rhi/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-refiners-closures-rally",
+      "date": "2025-01-02",
+      "end_date": "2025-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Refinery closures tighten product markets; refiners rally in a flat oil year",
+      "summary": "With roughly 400k b/d of US capacity closing and cheap crude from OPEC+ hikes, refiners decoupled from oil again: Valero returned 37% and the CRAK ETF 39% in 2025 while XLE gained 8% and E&Ps fell. Diesel tightness ahead of the 2026 war made the group the best-positioned energy sub-sector going into the Hormuz shock.",
+      "evidence": "VLO +37.0% and CRAK +39.1% in 2025 vs XLE +7.9% and XOP -2.2%",
+      "sources": [
+        {
+          "title": "ChartRow CRAK calendar-year returns",
+          "url": "https://chartrow.com/quote/crak/returns"
+        },
+        {
+          "title": "ChartRow VLO calendar-year returns",
+          "url": "https://chartrow.com/quote/vlo/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-mortgage-reit-rally",
+      "date": "2025-01-02",
+      "end_date": "2025-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "mortgage_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Agency mortgage REITs rally 26% on Fed cuts and a steeper curve",
+      "summary": "Three Fed cuts, a steeper curve, the end of QT and talk of releasing Fannie and Freddie from conservatorship made agency mortgage REITs the best-performing REIT group of 2025: the Nareit Mortgage REIT index returned 16% (home financing +26.4%, Annaly +40%) while equity REITs gained 2.3%. Net interest spreads were still compressing (AGNC 1.92% vs 3.06% in 2023), so the rally was mostly multiple and book-value recovery.",
+      "evidence": "FTSE Nareit Mortgage REITs +16.02% and Home Financing +26.37% in 2025 vs All Equity REITs +2.27%; NLY +40.0% in 2025",
+      "sources": [
+        {
+          "title": "Nareit: REITs post narrow gains in 2025",
+          "url": "https://www.reit.com/news/blog/market-commentary/reits-post-narrow-gains-2025"
+        },
+        {
+          "title": "Motley Fool: Why AGNC's net interest spread matters more than its 14% yield",
+          "url": "https://www.fool.com/investing/2026/05/25/why-agnc-investments-net-interest-spread-matters-m/"
+        },
+        {
+          "title": "ChartRow NLY calendar-year returns",
+          "url": "https://chartrow.com/quote/nly/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2025-deepseek-power-selloff",
+      "date": "2025-01-27",
+      "end_date": "2025-01-27",
+      "sector": "industrials",
+      "subindustries": [
+        "electrical_equipment"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "tech_cycle",
+      "title": "DeepSeek shock: AI power-equipment stocks crash in a day",
+      "summary": "DeepSeek's claim that its model was trained at a fraction of US costs raised doubts about data-center electricity demand; GE Vernova fell as much as 18% and Vertiv 24% intraday on January 27, 2025, alongside 20-30% drops at the independent power producers. The move was the first real stress test of the AI power trade, and most of it was recovered within months as hyperscaler capex guidance kept rising.",
+      "evidence": "GEV -18% and VRT -24% intraday on Jan 27, 2025 (Barron's); CEG -20%, VST -28% (S&P Global)",
+      "sources": [
+        {
+          "title": "Barron's via Tiger: Constellation, Vertiv and GE Vernova tumble",
+          "url": "https://itiger.com/news/2506937248"
+        },
+        {
+          "title": "S&P Global: IPP shares plunge in selloff tied to AI development",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/independent-power-producer-shares-plunge-in-selloff-tied-to-ai-development-87276103"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-deepseek-ipp-crash",
+      "date": "2025-01-27",
+      "end_date": "2025-01-27",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "DeepSeek day: independent power producers are the worst S&P stocks",
+      "summary": "On January 27, 2025 DeepSeek's cheap-training claims made independent power producers the worst-performing group in the S&P 500: Constellation fell 20%, Vistra 28% and Talen 22% as investors questioned the data-center load forecasts underpinning their PPAs. The group recovered within months, but the day marked the AI-power trade's dependence on hyperscaler capex narratives.",
+      "evidence": "CEG -20%, VST -28%, TLN -22% on Jan 27, 2025",
+      "sources": [
+        {
+          "title": "S&P Global: IPP shares plunge in selloff tied to AI development",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/independent-power-producer-shares-plunge-in-selloff-tied-to-ai-development-87276103"
+        },
+        {
+          "title": "Bloomberg: Power providers drop with Big Tech on DeepSeek AI worry",
+          "url": "https://www.bloomberg.com/news/articles/2025-01-27/global-tech-stock-selloff-spreads-to-power-equipment-providers"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-data-center-reit-reset",
+      "date": "2025-01-27",
+      "end_date": "2025-12-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "2025 data-center REIT reset: DeepSeek, Equinix's capex guide and a -14% year",
+      "summary": "After two years of leadership, data-center REITs were the worst REIT sector of 2025 at -14.2%: DeepSeek knocked Equinix 7% and Digital Realty 12% on January 27, Equinix's June investor day raised capex and cut near-term AFFO growth guidance, and rates stayed high. Equinix lost 17% and Digital Realty 10% in 2025 even as hyperscale leasing stayed at records.",
+      "evidence": "Data Center REITs -14.20% in 2025 (worst sector); EQIX -16.9% and DLR -10.1% in 2025; EQIX -7%, DLR -12% on Jan 27, 2025",
+      "sources": [
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2025",
+          "url": "https://www.reit.com/sites/default/files/2026-01/MediaFactSheet_Dec-2025.pdf"
+        },
+        {
+          "title": "Barchart: Analyst says ignore the panic and buy these 2 data center AI stocks",
+          "url": "https://www.barchart.com/story/news/30776762/analyst-ignore-the-panic-and-buy-these-2-data-center-ai-stocks"
+        },
+        {
+          "title": "ChartRow EQIX calendar-year returns",
+          "url": "https://chartrow.com/quote/eqix/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2025-rearm-europe-nato-5pct",
+      "date": "2025-02-17",
+      "end_date": "2025-06-25",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "ReArm Europe and NATO's 5% target: the European defense supercycle",
+      "summary": "After Munich Security Conference remarks that NATO's target would be 'considerably more than 3%', Rheinmetall jumped 8% on February 17, 2025; the EU's €800bn ReArm Europe plan on March 4 and Germany's debt-brake exemption drove BAE, Thales and Rheinmetall to records, and the June 25 Hague summit set 5% of GDP (3.5% core) by 2035. US primes benefited from the global re-rating, with ITA returning 48.6% in 2025.",
+      "evidence": "ITA +48.6% in 2025 vs SPY +17.7%; EU ReArm plan sized at €800bn (Mar 4, 2025); NATO 5% of GDP by 2035 agreed June 2025",
+      "sources": [
+        {
+          "title": "Fortune: Europe announces unprecedented $840 billion rearmament plan",
+          "url": "https://fortune.com/europe/2025/03/04/europe-announces-unprecedented-840-billion-rearmament-plan-tackle-grave-threats-defense-giants-bae-thales-rheinmetall/"
+        },
+        {
+          "title": "XTB: Rheinmetall shares pop 8% to new ATH",
+          "url": "https://www.xtb.com/en/market-analysis/rheinmetall-shares-pop-8-setting-new-ath-european-defense-sector-surges-on-budget-spending-shift"
+        },
+        {
+          "title": "Oninvest: NATO countries will raise defense spending to 5% of GDP",
+          "url": "https://en.oninvest.com/article/nato-countries-will-raise-defense-spending-to-5-of-gdp-which-arms-manufacturers-will-benefit"
+        },
+        {
+          "title": "ChartRow ITA calendar-year returns",
+          "url": "https://chartrow.com/quote/ita/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2025-defense-doge-whiplash",
+      "date": "2025-02-19",
+      "end_date": "2025-04-07",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "DOGE 8% cut memo, then a $1 trillion budget: defense whipsaws",
+      "summary": "On February 19, 2025 Defense Secretary Hegseth ordered plans for 8% annual cuts through 2030 and defense primes and Palantir sold off; on April 7 Trump said the FY2026 budget would be roughly $1 trillion and the group rallied, with the eventual request including reconciliation money for Golden Dome and shipbuilding. The episode showed that the Trump-era defense trade depends on priority shifts (missile defense, drones) more than on the topline.",
+      "evidence": "Feb 19, 2025 memo directed 8%/yr cut plans; Apr 7, 2025 $1T budget statement lifted defense stocks",
+      "sources": [
+        {
+          "title": "Military Times: White House eyes 8% cut to defense budget",
+          "url": "https://www.militarytimes.com/news/pentagon-congress/2025/02/19/white-house-eyes-8-cut-to-defense-budget-to-boost-trump-priorities/"
+        },
+        {
+          "title": "Motley Fool: Defense stocks surge on trillion-dollar budget talk",
+          "url": "https://www.fool.com/investing/2025/04/08/defense-stocks-surge-on-trillion-dollar-budget-tal"
+        }
+      ]
+    },
+    {
+      "id": "ind-2025-liberation-day-tariffs",
+      "date": "2025-04-02",
+      "end_date": "2025-04-09",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery",
+        "transportation",
+        "industrial_distribution",
+        "commercial_aerospace"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "Liberation Day tariffs hit heavy equipment and transports hardest",
+      "summary": "The April 2, 2025 reciprocal tariffs sent the S&P 500 down more than 12% in four sessions, with heavy-equipment makers (Caterpillar, Deere) and airlines falling more than the market before the April 9 90-day pause produced a 9.5% one-day rebound. Industrials recovered to lead for the year as the AI-capex and defense themes dominated, XLI returning 19.3% in 2025, but import-dependent transports and small-cap distributors lagged.",
+      "evidence": "S&P 500 -12%+ from Apr 2 to Apr 8, 2025 then +9.5% on Apr 9; XLI +19.3% for 2025 vs SPY +17.7%",
+      "sources": [
+        {
+          "title": "Finviz/Motley Fool: Why heavy equipment manufacturer stocks are falling (Apr 3, 2025)",
+          "url": "https://finviz.com/news/16792/why-heavy-equipment-manufacturer-stocks-are-falling-today"
+        },
+        {
+          "title": "Stocktwits: Liberation Day tariffs one year on (GE, DE, MMM)",
+          "url": "https://stocktwits.com/news-articles/markets/equity/liberation-day-tariffs-one-year-ge-de-mmm-stocks/cZ7xNdYRIFD"
+        },
+        {
+          "title": "ChartRow XLI calendar-year returns",
+          "url": "https://chartrow.com/quote/xli/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-tariffs-opec-double-hit",
+      "date": "2025-04-02",
+      "end_date": "2025-12-31",
+      "sector": "energy",
+      "subindustries": [
+        "exploration_production",
+        "integrated",
+        "oilfield_services"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Liberation Day tariffs plus OPEC+ output hikes send oil to a four-year low",
+      "summary": "The day after the April 2 tariffs, OPEC+ tripled its planned May increase to 411,000 b/d; Brent fell 6% on April 3 and WTI closed the week at $61.99, the lowest since 2021, with XLE down about 7% in a day and nearly 13% for the week. OPEC+ kept unwinding cuts all year, oil spent 2025 in the $60s, and XLE returned only 7.9% (XOP -2.2%) against 17.7% for the S&P 500 as E&Ps cut rigs.",
+      "evidence": "OPEC+ raised May 2025 output by 411k b/d (vs ~135k expected); WTI $61.99 on Apr 4, 2025, lowest since early 2021; XLE -~13% that week; XOP -2.2% for 2025",
+      "sources": [
+        {
+          "title": "Bloomberg: Oil tumbles as surprise OPEC+ hike, Trump tariffs depress prices",
+          "url": "https://www.bloomberg.com/news/articles/2025-04-03/surprise-opec-hike-and-growth-sapping-tariffs-send-oil-plunging"
+        },
+        {
+          "title": "Arabian Post: Oil prices plummet amid OPEC+ output surge and tariffs",
+          "url": "https://thearabianpost.com/oil-prices-plummet-amid-opec-output-surge-and-escalating-trade-tariffs/"
+        },
+        {
+          "title": "ChartRow XOP calendar-year returns",
+          "url": "https://chartrow.com/quote/xop/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-tariff-logistics-selloff",
+      "date": "2025-04-02",
+      "end_date": "2025-04-30",
+      "sector": "real_estate",
+      "subindustries": [
+        "industrial_logistics_reits"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "policy",
+      "title": "Liberation Day tariffs: warehouse REITs fall to five-year lows",
+      "summary": "Industrial REITs were the hardest-hit property type after the April 2, 2025 tariffs, on fears of lower import volumes: the All Equity REIT index fell more than 9% from April 2 to April 30, Prologis dropped about 21% to a nearly five-year low and was double-downgraded by Scotiabank, and Piper Sandler cut EastGroup and Terreno. The group had already lost 17.8% in 2024 on oversupply; it recovered to +17% for 2025 as reshoring and data-center land demand took over.",
+      "evidence": "All Equity REITs -9%+ from Apr 2 to Apr 30, 2025; PLD -~21% in early April 2025 to a near five-year low; Industrial REITs -17.78% (2024) then +17.05% (2025)",
+      "sources": [
+        {
+          "title": "Propmodo: Sifting through the rubble of the tariff REIT selloff",
+          "url": "https://propmodo.com/sifting-through-the-rubble-of-the-tariff-reit-selloff/"
+        },
+        {
+          "title": "Bisnow: Prologis downgraded by Scotiabank amid tariff turmoil",
+          "url": "https://www.bisnow.com/news/national/industrial/prologis-scotiabank-128830"
+        },
+        {
+          "title": "Nareit REIT Industry Fact Sheet Dec 2025",
+          "url": "https://www.reit.com/sites/default/files/2026-01/MediaFactSheet_Dec-2025.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ind-2025-waste-soft-patch",
+      "date": "2025-05-01",
+      "end_date": "2025-07-31",
+      "sector": "industrials",
+      "subindustries": [
+        "waste"
+      ],
+      "direction": "out",
+      "magnitude": "minor",
+      "driver_type": "positioning",
+      "title": "Risk-on summer leaves waste stocks behind",
+      "summary": "As the market rallied from the April 2025 tariff low, investors rotated out of defensives: waste stocks fell by mid-single digits over May-July 2025 while the S&P 500 gained about 6%, with volume softness and a premium multiple cited. WM still finished 2025 up 10.5%, but the episode showed the group trades as a bond-proxy/low-vol factor rather than on its own fundamentals.",
+      "evidence": "Waste stocks fell mid-single digits over two months to July 2025 vs S&P 500 +6% (Barron's); WM +10.5% in 2025 vs SPY +17.7%",
+      "sources": [
+        {
+          "title": "Barron's via Tiger: Garbage stocks have hit a soft spot",
+          "url": "https://www-web.itiger.com/news/2552449235"
+        },
+        {
+          "title": "ChartRow WM calendar-year returns",
+          "url": "https://chartrow.com/quote/wm/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2025-obbba-ira-phaseout",
+      "date": "2025-05-22",
+      "end_date": "2025-07-04",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "policy",
+      "title": "One Big Beautiful Bill Act phases out IRA credits; solar whipsaws",
+      "summary": "Sunrun fell 39% and Enphase 19% when the House passed its bill on May 22, 2025, and Sunrun dropped another 40% on June 17 when the Senate draft ended credits by 2028; the final law signed July 4 ended the 25D residential credit after 2025 and phased out wind/solar credits from mid-2026 but preserved third-party leasing, so Sunrun rebounded 7.8% on passage. The year ended with a split: First Solar (+48%) and ICLN (+47%) up on tariffs, FEOC rules and AI power demand, Enphase down 53%.",
+      "evidence": "RUN -39% and ENPH -19% on May 22, 2025; RUN -40% on Jun 17, 2025; ENPH -53.3% vs FSLR +48.2% for 2025",
+      "sources": [
+        {
+          "title": "TipRanks: Sunrun plummets 40% as Senate targets solar credits",
+          "url": "https://www.tipranks.com/news/article/sunrun-stock-run-plummets-40-as-u-s-senate-targets-solar-credits"
+        },
+        {
+          "title": "Benzinga: Solar stocks get a reprieve as Big Beautiful Bill lands softer than feared",
+          "url": "https://benzinga.com/z/46300815"
+        },
+        {
+          "title": "ChartRow ENPH calendar-year returns",
+          "url": "https://chartrow.com/quote/enph/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-opendoor-meme-squeeze",
+      "date": "2025-07-14",
+      "end_date": "2025-07-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "mixed",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "Opendoor becomes the new meme stock",
+      "summary": "A hedge-fund manager's $82 target and WallStreetBets attention sent Opendoor from about $0.55 at the start of July 2025 to a $4.97 high on July 21 (intraday +121% that day, ~+600% for the month) with 22% of the float short; it then fell 40% in a week. The episode showed how little institutional ownership remained in the iBuying/brokerage names, which still ended 2025 up 264% before losing 69% in 2026 as mortgage rates rose back above 7%.",
+      "evidence": "OPEN rose from ~$0.50-0.60 at the start of July 2025 to a $4.97 high; +42.7% close on Jul 21, 2025; OPEN +264.4% in 2025 and -69.3% YTD 2026",
+      "sources": [
+        {
+          "title": "Bloomberg: Opendoor shares jump as traders flock to newest meme stock",
+          "url": "https://www.bloomberg.com/news/articles/2025-07-21/opendoor-shares-swing-as-traders-flock-to-newest-meme-stock"
+        },
+        {
+          "title": "XTB: Opendoor up 90% and nearly 600% since the beginning of July",
+          "url": "https://www.xtb.com/sca-en/market-analysis/news-and-research/opendoor-up-90-and-nearly-600-since-the-beginning-of-july-the-next-gamestop"
+        },
+        {
+          "title": "ChartRow OPEN calendar-year returns",
+          "url": "https://chartrow.com/quote/open/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2025-compass-anywhere-merger",
+      "date": "2025-09-22",
+      "end_date": "2026-01-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "real_estate_services"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "ma",
+      "title": "Compass buys Anywhere: brokerage consolidation after the NAR settlement",
+      "summary": "Compass agreed on September 22, 2025 to buy Anywhere Real Estate (Coldwell Banker, Century 21, Sotheby's) for $1.6bn in stock at an 84% premium plus $2.6bn of debt, creating a ~$10bn enterprise with 340,000 agents and $225m of targeted synergies; the deal closed in January 2026 after 99% of Compass holders approved. Lower commissions and depressed existing-home sales (near 30-year lows) made scale the only defensible strategy.",
+      "evidence": "Compass-Anywhere all-stock deal $1.6bn equity / ~$10bn EV at $13.01 per Anywhere share (84% premium), announced Sep 22, 2025",
+      "sources": [
+        {
+          "title": "GlobeSt: Compass and Anywhere agree to $1.6B all-stock merger",
+          "url": "https://www.globest.com/amp/2025/09/22/compass-and-anywhere-real-estate-agree-to-16b-all-stock-merger/"
+        },
+        {
+          "title": "Elite Agent: Compass and Anywhere mega merger to close after shareholder approval",
+          "url": "https://eliteagent.com/compass-and-anywhere-mega-merger-to-close-after-overwhelming-shareholder-approval/"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-commodity-rotation",
+      "date": "2026-01-02",
+      "end_date": "2026-02-27",
+      "sector": "industrials",
+      "subindustries": [
+        "machinery"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "positioning",
+      "title": "January 2026 rotation out of tech into materials, energy and industrials",
+      "summary": "Hedge funds that moved billions from tech into cyclicals and defensives in Q4 2025 kept rotating in January 2026: materials and energy were up 7.5% and industrials 5.9% by January 14 against 1.2% for the S&P 500. Ag and construction machinery was a major beneficiary, with Deere up 44% year to date by November 5, 2026 after two down years in farm income.",
+      "evidence": "XLI +5.9% YTD vs SPY +1.2% at Jan 14, 2026; DE +43.6% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Investing.com: Materials and energy stocks take early lead in 2026",
+          "url": "https://www.investing.com/analysis/materials-and-energy-stocks-take-early-lead-in-2026-200673302"
+        },
+        {
+          "title": "ChartRow DE calendar-year returns",
+          "url": "https://chartrow.com/quote/de/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-ipp-affordability-reversal",
+      "date": "2026-01-02",
+      "end_date": "2026-11-06",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "regulatory",
+      "title": "Power-price backlash: IPPs give back the AI premium",
+      "summary": "After three record PJM auctions turned capacity costs into a political affordability issue (PJM's price cap, state pushback, local opposition to data centers that Bernstein says touches 56% of the 433 GW pipeline), the merchant generators that led 2024-25 sold off: Constellation is down 32% and Vistra 30% year to date in 2026 even as oil-driven inflation lifted power prices. Higher rates and the Democratic midterm sweep added to regulatory risk.",
+      "evidence": "CEG -31.9% and VST -29.7% YTD at Nov 5, 2026; PJM Dec 2025 auction cleared at the $333.44/MW-day cap, the third straight record",
+      "sources": [
+        {
+          "title": "Energy Connects: Pressure mounts to fix key US grid as costs hit new highs (Dec 2025)",
+          "url": "https://www.energyconnects.com/news/gas-lng/2025/december/pressure-mounts-to-fix-key-us-grid-as-costs-hit-new-highs"
+        },
+        {
+          "title": "24/7 Wall St: Bernstein on election-day data center fears (Nov 3, 2026)",
+          "url": "https://247wallst.com/investing/2026/11/03/ge-vernova-rallies-7-as-bernstein-calls-election-day-data-center-fears-overblown-eaton-climbs-6-vertiv-gains-5/"
+        },
+        {
+          "title": "ChartRow CEG calendar-year returns",
+          "url": "https://chartrow.com/quote/ceg/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-data-center-rebound",
+      "date": "2026-01-02",
+      "end_date": "2026-11-05",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "2026: data-center REITs lead again on record 340 MW quarter",
+      "summary": "Digital Realty signed a record 340 MW of leases in Q1 2026 at 12-year terms and Equinix's same-store revenue grew 11%; data-center REITs were up 22% by mid-March and 28% by September 30 (33% in the first half), the best REIT sector for a third year in four, with Equinix up 32% year to date. Valuations are back to 25-30x forward FFO versus 15-18x for traditional REITs.",
+      "evidence": "Data Center REITs +28.0% YTD at Sep 30, 2026 and +33.2% in 1H 2026; DLR record 340 MW of new leases in Q1 2026; EQIX +32.2% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Datacentres.com: Data centre REITs outperform broader market with 22% YTD returns (Mar 2026)",
+          "url": "https://www.datacentres.com/news/data-centre-reit-performance-q1-2026"
+        },
+        {
+          "title": "Nareit property sector returns Sep 30, 2026",
+          "url": "https://www.reit.com/sites/default/files/returns/prop.pdf"
+        },
+        {
+          "title": "ChartRow EQIX calendar-year returns",
+          "url": "https://chartrow.com/quote/eqix/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-lodging-boom",
+      "date": "2026-01-02",
+      "end_date": "2026-10-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "lodging_reits"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "macro",
+      "title": "Lodging REITs return 57% as travel demand outruns the oil shock",
+      "summary": "Strong leisure, group and business travel plus no new hotel supply made lodging the top REIT sector of 2026: +42.8% in the first half, +37.6% through September and +57.3% through October after a 14.3% October gain, with Host Hotels up 47% year to date. The group had lagged for five years (-5.1% in 2025), so much of the move is multiple recovery as RevPAR and group bookings reached records despite higher airfares.",
+      "evidence": "Lodging/Resorts REITs +57.3% YTD through Oct 2026 (+14.3% in October) and +42.8% in 1H 2026; HST +47.1% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "WealthManagement/Nareit: REIT returns climb 4.7% as telecom surges in October",
+          "url": "https://www.wealthmanagement.com/alternative-investments/q-a-reits-bounce-back-in-october"
+        },
+        {
+          "title": "Nareit 2026 mid-year update",
+          "url": "https://www.reit.com/news/blog/market-commentary/2026-mid-year-update-reits-rebound-poised-future-gains-and-growth"
+        },
+        {
+          "title": "ChartRow HST calendar-year returns",
+          "url": "https://chartrow.com/quote/hst/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-storage-and-malls-recover",
+      "date": "2026-01-02",
+      "end_date": "2026-11-05",
+      "sector": "real_estate",
+      "subindustries": [
+        "self_storage_reits",
+        "retail_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "earnings",
+      "title": "Storage and malls rebound: Public Storage +35%, Simon's best rent growth in a decade",
+      "summary": "Two of 2025's laggards led the non-digital REITs in 2026: self storage returned 10% through September (Public Storage +35% year to date as street rates stabilized and consolidation continued) and regional malls 13.4% through September and 28.9% on 2nd Market Capital's measure, with Simon posting its highest rent growth in a decade and up 26% year to date. Both groups are seen as late-cycle beneficiaries of zero new supply.",
+      "evidence": "Self Storage REITs +10.0% and Regional Malls +13.4% YTD at Sep 30, 2026; PSA +35.2% and SPG +26.5% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Nareit property sector returns Sep 30, 2026",
+          "url": "https://www.reit.com/sites/default/files/returns/prop.pdf"
+        },
+        {
+          "title": "Morningstar: Are REITs still a buy after their 2026 runup?",
+          "url": "https://indexes.morningstar.com/insights/perspective/bltb73e23968a7c3ab1/are-reits-still-a-buy-after-their-2026-runup"
+        },
+        {
+          "title": "ChartRow PSA calendar-year returns",
+          "url": "https://chartrow.com/quote/psa/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-iran-war-airlines-fuel",
+      "date": "2026-02-28",
+      "end_date": "2026-06-04",
+      "sector": "industrials",
+      "subindustries": [
+        "transportation"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Iran war doubles jet fuel; airlines cut capacity then rally on fares",
+      "summary": "The Israel-US-Iran war that began February 28, 2026 pushed crude from about $60 to the $90-110 range and jet fuel to roughly double its early-2026 level ('an unprecedented spike', per Delta's CEO). Airlines cut capacity and 2026 EPS estimates were slashed (United $13.33 to $9.46, Delta $7.19 to $5.54), but fare increases and robust premium demand produced a rebound from June, with Delta up 17% year to date by June 4; JETS is roughly flat for 2026.",
+      "evidence": "United 2026 EPS consensus cut from $13.33 to $9.46 and Delta from $7.19 to $5.54 within three months; JETS +1.0% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Motley Fool: The surprising reason airline stocks are soaring (Jun 4, 2026)",
+          "url": "https://www.fool.com/investing/2026/06/04/surprising-reason-airline-stocks-soar-dal-ual/"
+        },
+        {
+          "title": "Al Jazeera: Oil prices surge as US-Iran strikes intensify (Sep 7, 2026)",
+          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+        },
+        {
+          "title": "ChartRow JETS calendar-year returns",
+          "url": "https://chartrow.com/quote/jets/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-iran-war-defense-budget",
+      "date": "2026-02-28",
+      "end_date": "2026-11-03",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Operation Epic Fury, a $200bn supplemental and a $1.5 trillion FY2027 request",
+      "summary": "The US launched Operation Epic Fury against Iran on February 28, 2026; Hegseth sought ~$200bn in supplemental funding and on April 21 the Pentagon unveiled a $1.5 trillion FY2027 request (42% above the $901bn baseline) centered on Golden Dome, drones and AI. Munitions and missile-defense names led: Lockheed is up 21% year to date, although ITA is slightly negative because Boeing/GE Aerospace weigh on the ETF and CBO's May estimate that Golden Dome would cost $1.2 trillion raised doubts about affordability.",
+      "evidence": "FY2027 request $1.5T (+42% y/y) unveiled Apr 21, 2026; CBO Golden Dome estimate $1.2T (May 12, 2026); LMT +21.3% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Defense News: Pentagon seeks funds for Golden Dome, drones, AI in largest-ever budget request",
+          "url": "https://www.defensenews.com/pentagon/2026/04/21/pentagon-seeks-funds-for-golden-dome-drones-ai-in-largest-ever-budget-request/"
+        },
+        {
+          "title": "Defense One: Golden Dome plan would cost $1.2 trillion, CBO finds",
+          "url": "https://www.defenseone.com/defense-systems/2026/05/golden-dome-cost-trillion-cbo/413485/"
+        },
+        {
+          "title": "ChartRow LMT calendar-year returns",
+          "url": "https://chartrow.com/quote/lmt/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-iran-war-hormuz-upstream",
+      "date": "2026-02-28",
+      "end_date": "2026-11-06",
+      "sector": "energy",
+      "subindustries": [
+        "integrated",
+        "exploration_production",
+        "oilfield_services"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "geopolitical",
+      "title": "Iran war closes the Strait of Hormuz: the 2026 oil shock",
+      "summary": "Israel struck Iran on February 28, 2026 and the US launched Operation Epic Fury; drones hit Saudi Arabia's Ras Tanura refinery and Qatar's Ras Laffan LNG plant, insurers cancelled Hormuz war-risk cover and transits collapsed from a baseline of 85 a day to near zero. Brent went from the $60s in January to $84 on March 3, $109 on March 9 and $115 in late October before easing toward $98-100 in early November; XLE is up 41% and XOP 40% year to date versus 8% for the S&P 500, Exxon up 40% and SLB 32% as Middle East service work and non-Gulf barrels re-priced.",
+      "evidence": "Brent $109.4 on Mar 9, 2026; Hormuz transits 2/day (Oct 25, 2026) vs 85/day pre-crisis; XLE +40.6% and XOM +40.1% YTD at Nov 5, 2026 vs SPY +8.3%",
+      "sources": [
+        {
+          "title": "Oilprice/Yahoo: 24-hour energy shock (Mar 3, 2026)",
+          "url": "https://finance.yahoo.com/news/24-hour-energy-shock-world-160000254.html"
+        },
+        {
+          "title": "Gulf News: Brent crude oil price spikes to $109 amid Iran-US-Israel war",
+          "url": "https://gulfnews.com/business/energy/brent-crude-oil-price-spikes-to-1071-amid-iran-us-israel-war-1.500467933"
+        },
+        {
+          "title": "Straits Daily Brief Nov 6, 2026",
+          "url": "https://www.straits.live/briefs/2026-11-06"
+        },
+        {
+          "title": "Fortune: Current price of oil as of October 27, 2026",
+          "url": "https://fortune.com/article/price-of-oil-10-27-2026/"
+        },
+        {
+          "title": "ChartRow XLE calendar-year returns",
+          "url": "https://chartrow.com/quote/xle/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-refiners-diesel-squeeze",
+      "date": "2026-02-28",
+      "end_date": "2026-11-06",
+      "sector": "energy",
+      "subindustries": [
+        "refining"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "commodity",
+      "title": "Diesel at $5.90 and record crack spreads: refiners double",
+      "summary": "With Gulf refineries hit, Asian naphtha cracks at highs not seen since 2022 and US diesel reaching an all-time high of $5.85-5.90 a gallon in September 2026, US refiners captured the product shortage: Valero is up 119% and the CRAK ETF 51% year to date, with Marathon and Phillips 66 at records. The group is the best-performing energy sub-industry of the war.",
+      "evidence": "VLO +119.0% and CRAK +50.9% YTD at Nov 5, 2026; US diesel record $5.85/gal (early Sept 2026)",
+      "sources": [
+        {
+          "title": "Al Jazeera: Oil prices surge as US-Iran strikes intensify (Sep 7, 2026)",
+          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz"
+        },
+        {
+          "title": "ChartRow VLO calendar-year returns",
+          "url": "https://chartrow.com/quote/vlo/returns"
+        },
+        {
+          "title": "ChartRow CRAK calendar-year returns",
+          "url": "https://chartrow.com/quote/crak/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-staffing-rebound",
+      "date": "2026-03-01",
+      "end_date": "2026-08-18",
+      "sector": "industrials",
+      "subindustries": [
+        "professional_services"
+      ],
+      "direction": "in",
+      "magnitude": "major",
+      "driver_type": "positioning",
+      "title": "Staffing stocks 'defy gravity' after the AI-demise call",
+      "summary": "From their February-March 2026 lows the staffing group staged one of the year's biggest short squeezes: by August 18, 2026 ManpowerGroup was up about 120% and Robert Half 94% as hiring data stayed firm and Goldman argued the valuation collapse priced a 'worst-case disruption scenario' rather than actual customer behavior. Robert Half is up 68% and ADP 22% year to date through November 5, 2026.",
+      "evidence": "ManpowerGroup +~120% from its March 2026 low and Robert Half +~94% from its February low by Aug 18, 2026; RHI +68.1% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Bloomberg Government: Staffing stocks defy gravity after analysts warned of AI demise",
+          "url": "https://news.bgov.com/daily-labor-report/staffing-stocks-defy-gravity-after-analysts-warned-of-ai-demise"
+        },
+        {
+          "title": "Barron's via Tiger: 8 services stocks are AI winners, Goldman says",
+          "url": "https://www.itiger.com/news/2631587290"
+        },
+        {
+          "title": "ChartRow RHI calendar-year returns",
+          "url": "https://chartrow.com/quote/rhi/returns"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-lng-hormuz-premium",
+      "date": "2026-03-02",
+      "end_date": "2026-11-06",
+      "sector": "energy",
+      "subindustries": [
+        "midstream"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "geopolitical",
+      "title": "Qatar's Ras Laffan halt makes US LNG and gas pipelines strategic assets",
+      "summary": "Qatar halted production at Ras Laffan after Iranian drone attacks in early March 2026 and LNG prices jumped about $15/MMBtu, sending buyers to US Gulf Coast exporters (Trafigura signed a five-year deal with Venture Global). Cheniere is up 45% year to date, Kinder Morgan 14% and AMLP 13%, lagging the upstream rally because fee-based pipelines have little direct oil exposure but benefiting from LNG feedgas growth.",
+      "evidence": "LNG prices +$15/MMBtu after Ras Laffan halt (Mar 2026); LNG (Cheniere) +44.8%, KMI +14.0%, AMLP +12.7% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Oilprice/Yahoo: 24-hour energy shock (Mar 3, 2026)",
+          "url": "https://finance.yahoo.com/news/24-hour-energy-shock-world-160000254.html"
+        },
+        {
+          "title": "ChartRow LNG calendar-year returns",
+          "url": "https://chartrow.com/quote/lng/returns"
+        },
+        {
+          "title": "ChartRow AMLP calendar-year returns",
+          "url": "https://chartrow.com/quote/amlp/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-ai-power-backlog-election-risk",
+      "date": "2026-04-22",
+      "end_date": "2026-11-03",
+      "sector": "industrials",
+      "subindustries": [
+        "electrical_equipment",
+        "building_products_construction"
+      ],
+      "direction": "mixed",
+      "magnitude": "major",
+      "driver_type": "tech_cycle",
+      "title": "AI power trade year three: record backlogs, higher rates and data-center politics",
+      "summary": "GE Vernova's Q3 2026 orders hit $29.3bn (+96% organic) with backlog heading above $200bn and Eaton posted record $8.9bn sales (+28%), but the group traded sideways for much of 2026 as rates rose and local opposition to data centers became a midterm issue; the GRID ETF is flat and EMCOR slightly down year to date while GE Vernova is up 18-41% depending on the date. On November 3 Bernstein called election-day data-center fears overblown and GEV rose 7%, Eaton 6% and Vertiv 5%.",
+      "evidence": "GE Vernova Q3 2026 orders $29.3bn (+96% organic); GEV +7%, ETN +6%, VRT +5% on Nov 3, 2026; GRID ETF 0.0% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "24/7 Wall St: GE Vernova rallies 7% as Bernstein calls election-day data center fears overblown",
+          "url": "https://247wallst.com/investing/2026/11/03/ge-vernova-rallies-7-as-bernstein-calls-election-day-data-center-fears-overblown-eaton-climbs-6-vertiv-gains-5/"
+        },
+        {
+          "title": "GE Vernova Q3 2026 press release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm"
+        },
+        {
+          "title": "ChartRow GRID calendar-year returns",
+          "url": "https://chartrow.com/quote/grid/returns"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-fed-hike-reit-selloff",
+      "date": "2026-08-03",
+      "end_date": "2026-09-30",
+      "sector": "real_estate",
+      "subindustries": [
+        "net_lease_specialty_reits",
+        "mortgage_reits",
+        "residential_reits",
+        "office_reits",
+        "self_storage_reits"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "rates",
+      "title": "Fed hikes to 3.75-4% and the 10-year hits 5.1%: REITs fall 5.7% in September",
+      "summary": "Oil-driven inflation pushed the Fed to its first hike since 2023 on September 16, 2026 and the 10-year yield to 5.10% on September 23 (5.36% in early October), the highest since 2007; every REIT property type fell in September, with free-standing net lease -10.6%, mortgage REITs -13.7%, office -8.2% and apartments -6.9%, and the 30-year mortgage reached 7.19%. Mortgage REITs are down 12.4% for 2026 (REM -16.6%); REITs rebounded 4.7% in October once the Fed paused.",
+      "evidence": "All Equity REITs -5.7% in Sep 2026; Free Standing -10.6%, Mortgage REITs -13.7%, Office -8.2% in September; 10-year yield 5.104% on Sep 23, 2026",
+      "sources": [
+        {
+          "title": "Nareit property sector returns Sep 30, 2026",
+          "url": "https://www.reit.com/sites/default/files/returns/prop.pdf"
+        },
+        {
+          "title": "CNBC: 10-year Treasury yield rockets to 19-year high (Sep 23, 2026)",
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+        },
+        {
+          "title": "CNBC: Fed approves interest rate hike (Sep 16, 2026)",
+          "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+        },
+        {
+          "title": "ChartRow REM calendar-year returns",
+          "url": "https://chartrow.com/quote/rem/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-fed-hike-building-products",
+      "date": "2026-08-21",
+      "end_date": "2026-10-15",
+      "sector": "industrials",
+      "subindustries": [
+        "building_products_construction",
+        "industrial_distribution"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "rates",
+      "title": "Fed hikes for the first time since 2023; mortgage rates back above 7%",
+      "summary": "Oil-driven inflation (headline PCE projected at 3.7% for 2026) led the Fed to raise rates to 3.75-4.00% on September 16, 2026, with the 10-year yield reaching 5.10% on September 23 (highest since 2007) and 5.36% in early October; the 30-year mortgage rate hit 7.19%. Rate-sensitive building products, HVAC and housing-linked distributors fell with homebuilders, while non-residential/data-center construction names held up better.",
+      "evidence": "Fed funds raised 25bp to 3.75%-4.00% on Sep 16, 2026; 10-year Treasury 5.104% on Sep 23, 2026; 30-year mortgage 7.19%",
+      "sources": [
+        {
+          "title": "CNBC: Fed approves interest rate hike, signals one more (Sep 16, 2026)",
+          "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+        },
+        {
+          "title": "CNBC: 10-year Treasury yield rockets to 19-year high (Sep 23, 2026)",
+          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+        }
+      ]
+    },
+    {
+      "id": "re-2026-tower-spacex-reversal",
+      "date": "2026-10-01",
+      "end_date": "2026-10-31",
+      "sector": "real_estate",
+      "subindustries": [
+        "data_center_tower_reits"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "tech_cycle",
+      "title": "SpaceX cellular fears reverse: telecom REITs jump 18% in October",
+      "summary": "Tower REITs had lagged all year (-10.6% through September) after SpaceX announced plans for its own cellular network; in October analysts concluded a full network still needs terrestrial towers and the group gained 18.4%, the best property type of the month, with American Tower up 14% for the year. Towers remain below their 2021 highs on carrier-capex and leverage concerns.",
+      "evidence": "Telecommunications REITs +18.4% in Oct 2026 after -10.6% YTD through Sep 30; AMT +13.9% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "WealthManagement/Nareit: REIT returns climb 4.7% as telecom surges in October",
+          "url": "https://www.wealthmanagement.com/alternative-investments/q-a-reits-bounce-back-in-october"
+        },
+        {
+          "title": "Nareit property sector returns Sep 30, 2026",
+          "url": "https://www.reit.com/sites/default/files/returns/prop.pdf"
+        },
+        {
+          "title": "ChartRow AMT calendar-year returns",
+          "url": "https://chartrow.com/quote/amt/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-boeing-737-ramp-delay",
+      "date": "2026-10-27",
+      "end_date": "2026-11-06",
+      "sector": "industrials",
+      "subindustries": [
+        "commercial_aerospace"
+      ],
+      "direction": "out",
+      "magnitude": "major",
+      "driver_type": "earnings",
+      "title": "Boeing pushes the 737 ramp out a year; stock drops 10% to a 52-week low",
+      "summary": "With Q3 2026 results Boeing said it will miss its ~500-jet 2026 737 delivery target, that stabilizing at 47 a month will slip into 2027 (52/month in 2H27), and guided free cash flow to just $2bn in 2026 and $3bn in 2027 versus consensus above $5bn; the stock fell 10-11% on October 27 and is down about 21% for 2026 against an S&P 500 up 8%. 777X certification is still targeted for mid-2027.",
+      "evidence": "BA -10.7% on Oct 27, 2026; FCF guide $2bn (2026) / $3bn (2027) vs Visible Alpha consensus $5.3bn for 2027; BA -20.6% YTD at Nov 5, 2026",
+      "sources": [
+        {
+          "title": "Motley Fool: Boeing stock slumps again (Oct 31, 2026)",
+          "url": "https://www.fool.com/investing/2026/10/31/boeing-stock-slumps-again-time-to-buy-or-throw-in/"
+        },
+        {
+          "title": "Stocktwits: BA drops over 5% after CEO says 737 production still not stable",
+          "url": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-drops-over-5-percent-after-ceo-says-737-production-is-still-not-stable-777x-deliveries-still-on-track-for-2027/cZtYt70RBPY"
+        },
+        {
+          "title": "ChartRow BA calendar-year returns",
+          "url": "https://chartrow.com/quote/ba/returns"
+        }
+      ]
+    },
+    {
+      "id": "ind-2026-midterm-defense-selloff",
+      "date": "2026-11-04",
+      "end_date": "2026-11-05",
+      "sector": "industrials",
+      "subindustries": [
+        "defense"
+      ],
+      "direction": "out",
+      "magnitude": "moderate",
+      "driver_type": "election",
+      "title": "Democratic sweep of Congress sinks defense primes",
+      "summary": "Democrats won both chambers on November 3, 2026 and the $1.5 trillion FY2027 request was immediately judged dead; on November 4 Lockheed fell 6.9% (worst day since July 2025), L3Harris 6.5%, Northrop 4.5% and RTX 2.6%, while ITA fell only about 2% because commercial-aerospace holdings cushioned it. Jefferies expects the final number to land near the House's $1.15 trillion; TD Cowen called Golden Dome effectively dead.",
+      "evidence": "LMT -6.88%, LHX -6.46%, NOC -4.53%, RTX -2.64% on Nov 4, 2026; ITA -1.5% to -2%",
+      "sources": [
+        {
+          "title": "24/7 Wall St: Defense stocks sank as Democrats took Congress",
+          "url": "https://247wallst.com/investing/2026/11/05/defense-stocks-sank-as-democrats-took-congress-and-the-1-5-trillion-budget-looks-doomed/"
+        },
+        {
+          "title": "US News: Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget",
+          "url": "https://www.usnews.com/news/top-news/articles/2026-11-04/defense-firms-fall-as-democratic-victory-stokes-fears-of-tighter-pentagon-budget"
+        }
+      ]
+    },
+    {
+      "id": "en-2026-midterm-clean-energy-rally",
+      "date": "2026-11-04",
+      "end_date": "2026-11-06",
+      "sector": "energy",
+      "subindustries": [
+        "new_energy_power"
+      ],
+      "direction": "in",
+      "magnitude": "moderate",
+      "driver_type": "election",
+      "title": "Democratic sweep revives clean-energy hopes",
+      "summary": "The November 3, 2026 midterms gave Democrats both chambers and traders bet on restoration of the solar credits curbed by the 2025 tax law: First Solar and Enphase rose 9% and Sunrun 8% on November 4. The rebound is from a low base (First Solar -23% and Sunrun -49% year to date) and a presidential veto remains the obstacle, with Kalshi pricing only a 28% chance of a veto override before 2028.",
+      "evidence": "FSLR +9%, ENPH +9%, RUN +8% on Nov 4, 2026; FSLR -23% and RUN -49% YTD",
+      "sources": [
+        {
+          "title": "24/7 Wall St: First Solar jumps 9% as Democratic sweep revives clean-energy hopes",
+          "url": "https://247wallst.com/investing/2026/11/04/first-solar-jumps-9-as-democratic-sweep-revives-clean-energy-hopes-enphase-surges-9-solaredge-sinks-8/"
+        },
+        {
+          "title": "ChartRow FSLR calendar-year returns",
+          "url": "https://chartrow.com/quote/fslr/returns"
+        }
+      ]
+    }
+  ]
+}

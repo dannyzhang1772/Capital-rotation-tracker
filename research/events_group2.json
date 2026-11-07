@@ -1,0 +1,2547 @@
+{
+ "events": [
+  {
+   "id": "cs-1999-old-economy-rotation",
+   "date": "1999-01-04",
+   "end_date": "2002-10-09",
+   "sector": "consumer_staples",
+   "subindustries": [],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Staples dumped for internet stocks in 1999, then rebought as the 'old economy' refuge",
+   "summary": "In 1999 investors sold slower-growing companies to buy internet names, so staples fell even as the Nasdaq rose 85.6%; the reversal began in March 2000, when the Nasdaq fell 2.6% in a month in which the S&P 500 rose 2.4% as money moved back into established businesses. Through the 2000-2002 bear market food, household and tobacco stocks were among the few groups that held value, cementing staples' role as the defensive leg of every rotation since.",
+   "evidence": "Nasdaq +85.6% in 1999 while 'old economy' stocks were sold; March 2000 Nasdaq -2.6% vs S&P 500 +2.4% as the rotation reversed",
+   "sources": [
+    {
+     "title": "Wikipedia: Dot-com bubble",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   ]
+  },
+  {
+   "id": "cd-2000-dotcom-bust",
+   "date": "2000-03-10",
+   "end_date": "2002-10-09",
+   "sector": "consumer_discretionary",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Dot-com bust guts internet retail; capital rotates to 'old economy' consumer names",
+   "summary": "The Nasdaq Composite peaked at 5,048.62 on March 10 2000 and fell 78% to its October 2002 low, taking internet retailers (Amazon, eBay, Priceline, Webvan, Pets.com) down with it; in March 2000 alone the Nasdaq fell 2.6% while the S&P 500 rose 2.4% as money moved into established companies that had been dumped in 1999. For consumer discretionary this meant two and a half years in which homebuilders, auto parts and brick-and-mortar retailers outperformed online retail by a wide margin.",
+   "evidence": "Nasdaq Composite peak 5,048.62 on 2000-03-10, -78% to October 2002",
+   "sources": [
+    {
+     "title": "Wikipedia: Dot-com bubble",
+     "url": "https://en.wikipedia.org/wiki/Dot-com_bubble"
+    }
+   ]
+  },
+  {
+   "id": "hc-2000-genome-bubble",
+   "date": "2000-03-14",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "Clinton-Blair genome statement pops the genomics bubble",
+   "summary": "The Nasdaq Biotech Index fell about 12.5% and the Amex Biotech Index 13.2% in a single day after a Clinton-Blair statement calling for open access to raw genome data was read as undermining gene patents. The sell-off came on top of a bubble that had already begun deflating in early March 2000; Celera fell from $276 at the start of March to $122.50 right after the announcement. Biotech then traded as a high-beta appendage of the Nasdaq through the 2000-2002 bear market.",
+   "evidence": "Nasdaq Biotech Index -12.5% on 2000-03-14; Celera from $276 (early March) to $122.50 after the statement",
+   "sources": [
+    {
+     "title": "BioCentury: $10.4B knocked off genomics stocks",
+     "url": "https://www.biocentury.com/article/57468/10-4b-knocked-off-genomics-stocks"
+    },
+    {
+     "title": "CNN Money, March 14 2000: biotech sell-off",
+     "url": "https://money.cnn.com/2000/03/14/companies/biotech/"
+    }
+   ]
+  },
+  {
+   "id": "cs-2000-engle-verdict",
+   "date": "2000-07-14",
+   "end_date": "2000-07-14",
+   "sector": "consumer_staples",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "Engle jury awards $145 billion against tobacco",
+   "summary": "A Florida jury awarded roughly $145 billion in punitive damages to a class of up to 700,000 smokers, about $74 billion of it attributed to Philip Morris USA, the largest verdict in US history. Tobacco stocks had already been de-rated to all-time lows by the 1998 Master Settlement and litigation fears; the verdict kept the group a deep-value, high-yield outcast until the award was overturned on appeal, after which Altria became one of the best performers of the 2000s.",
+   "evidence": "Punitive award of ~$145B on 2000-07-14, $74B attributed to Philip Morris USA (Altria SEC filings)",
+   "sources": [
+    {
+     "title": "Wikipedia: Howard Engle",
+     "url": "https://en.wikipedia.org/wiki/Howard_Engle"
+    },
+    {
+     "title": "Mother Jones: Big tobacco's big loss",
+     "url": "https://fullsite.motherjones.com/politics/2000/07/big-tobaccos-big-loss"
+    },
+    {
+     "title": "Altria 10-K exhibit referencing Engle",
+     "url": "https://www.sec.gov/Archives/edgar/data/764180/000076418019000023/R109.htm"
+    }
+   ]
+  },
+  {
+   "id": "cd-2001-sept11",
+   "date": "2001-09-11",
+   "end_date": "2001-12-31",
+   "sector": "consumer_discretionary",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "geopolitical",
+   "title": "September 11 attacks shut markets and crush travel, hotels and leisure",
+   "summary": "US exchanges stayed closed until September 17 2001, and when they reopened travel and entertainment stocks fell hardest; Midway Airlines stopped flying immediately, Swissair was grounded on October 2, tens of thousands of airline workers were laid off within a week, New York hotel occupancy fell below 40% and Congress passed $15 billion of airline aid and guarantees. Online travel agencies were hit especially hard. Cruise lines, hotels and theme parks took several quarters to recover demand.",
+   "evidence": "NYC hotel occupancy below 40% in the week after the attacks; $10B loan guarantees plus $5B short-term airline assistance",
+   "sources": [
+    {
+     "title": "Wikipedia: Economic effects of the September 11 attacks",
+     "url": "https://en.wikipedia.org/wiki/Economic_effects_of_the_September_11_attacks"
+    }
+   ]
+  },
+  {
+   "id": "hc-2003-mma-part-d",
+   "date": "2003-12-08",
+   "end_date": "2005-12-31",
+   "sector": "healthcare",
+   "subindustries": [],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Medicare Modernization Act creates Part D and Medicare Advantage",
+   "summary": "The MMA, signed December 8 2003, created the Part D drug benefit and the modern Medicare Advantage program, handing private insurers a large new government-funded market. Managed care stocks re-rated through 2004-2005: by February 2005 Humana's shares had rallied so far that analysts no longer saw a valuation case, and UnitedHealth and Humana took the largest Part D shares at the January 2006 launch. Exact index moves were not retrievable; the direction is well documented.",
+   "evidence": "UnitedHealth held 27% and Humana 18% of Part D enrollment at the 2006 launch (CMS count via FierceHealthcare); Motley Fool noted Humana's 'strong rally' following the MMA (Feb 2005)",
+   "sources": [
+    {
+     "title": "Motley Fool: Humana offers some reassurance (Feb 2005)",
+     "url": "https://www.fool.com/investing/high-growth/2005/02/07/humana-offers-some-reassurance.aspx"
+    },
+    {
+     "title": "FierceHealthcare: UnitedHealth leads in Part D race",
+     "url": "https://www.fiercehealthcare.com/healthcare/unitedhealth-leads-part-d-race"
+    }
+   ]
+  },
+  {
+   "id": "hc-2004-vioxx",
+   "date": "2004-09-30",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "Merck withdraws Vioxx; big pharma's safety discount deepens",
+   "summary": "Merck pulled its $2.5 billion-a-year painkiller Vioxx on cardiovascular safety data and the stock fell roughly 27% in one day, erasing about $25 billion of market value, with a further ~10% drop a month later on reports of what Merck knew. The episode extended a multi-year de-rating of large-cap pharma that began with the late-1990s patent-cliff worries and turned the group into a value/defensive trade for the rest of the decade.",
+   "evidence": "MRK fell $12.07 (-27%) to $33.00 on 2004-09-30, about $25B of market value",
+   "sources": [
+    {
+     "title": "CNN Money: Merck pulls Vioxx (Sept 30 2004)",
+     "url": "https://money.cnn.com/2004/09/30/news/fortune500/merck/"
+    },
+    {
+     "title": "NPR: Merck stock dives on Vioxx news",
+     "url": "https://www.npr.org/2004/09/30/4055360/merck-stock-dives-on-vioxx-news"
+    }
+   ]
+  },
+  {
+   "id": "cs-2005-pg-gillette",
+   "date": "2005-01-28",
+   "end_date": "2005-10-01",
+   "sector": "consumer_staples",
+   "subindustries": [],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "ma",
+   "title": "Procter & Gamble buys Gillette",
+   "summary": "P&G announced a stock deal for Gillette in late January 2005 worth more than $50 billion (reported at about $54-57 billion), the largest consumer-products merger to date, with FTC clearance on September 30 2005 and Berkshire Hathaway as the key endorsing shareholder. The deal set the template for scale-driven consolidation in household products and marked the peak of confidence in branded-goods pricing power before the private-label and retailer-consolidation pressures of the following decade.",
+   "evidence": "P&G-Gillette stock deal announced January 2005 (WSJ: $54B), FTC approval 2005-09-30",
+   "sources": [
+    {
+     "title": "Wikipedia: Gillette",
+     "url": "https://en.wikipedia.org/wiki/Gillette"
+    }
+   ]
+  },
+  {
+   "id": "cd-2005-gm-ford-junk",
+   "date": "2005-05-05",
+   "end_date": null,
+   "sector": "consumer_discretionary",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "macro",
+   "title": "S&P cuts GM and Ford to junk",
+   "summary": "S&P downgraded GM two notches to BB and Ford to BB+ on May 5 2005, citing lost confidence in management, collapsing SUV sales and health-care costs. GM fell almost 6% to $30.86 and the downgrade of roughly $450 billion of combined debt rattled credit markets. It marked the start of the Detroit distress trade that ended in the 2009 bankruptcies and pushed capital toward foreign and parts makers.",
+   "evidence": "GM -6% to $30.86 on 2005-05-05 after the two-notch cut to BB",
+   "sources": [
+    {
+     "title": "NPR: Credit ratings for GM, Ford downgraded",
+     "url": "https://www.npr.org/2005/05/05/4632485/credit-ratings-for-gm-ford-downgraded"
+    },
+    {
+     "title": "New York Sun: S&P cuts debt ratings of GM, Ford to junk",
+     "url": "https://www.nysun.com/article/business-s-p-cuts-debt-ratings-of-general-motors-ford"
+    }
+   ]
+  },
+  {
+   "id": "cd-2005-homebuilder-peak",
+   "date": "2005-07-20",
+   "end_date": "2005-11-15",
+   "sector": "consumer_discretionary",
+   "subindustries": [],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "rates",
+   "title": "Homebuilder stocks peak in July 2005",
+   "summary": "After tripling during the 2003-2005 housing boom, homebuilder stocks topped in late July 2005 as the Fed's rate-hike cycle and stretched affordability bit: the group fell about 24% by mid-November 2005 and Toll Brothers, which cut its sales forecast in November, peaked at $58.25. It was the beginning of a drawdown that exceeded 70% for the group by 2008.",
+   "evidence": "Homebuilder index topped in July 2005 and fell ~24% by mid-November 2005; TOL peak $58.25",
+   "sources": [
+    {
+     "title": "Builder Online: Builder stocks slide (2005)",
+     "url": "https://builderonline.com/money/mortgage-finance/builder-stocks-slide_o"
+    },
+    {
+     "title": "Kiplinger: Time to buy homebuilder stocks? (2008)",
+     "url": "https://kiplinger.com/article/investing/t038-c008-s001-time-to-buy-homebuilder-stocks.html"
+    }
+   ]
+  },
+  {
+   "id": "cd-2006-2008-housing-bust",
+   "date": "2006-01-03",
+   "end_date": "2008-11-20",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "housing"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "macro",
+   "title": "Housing bust: builders lose more than 70% from the 2005 peak",
+   "summary": "House prices peaked in July 2006 (Case-Shiller -21.8% by September 2008) and builder equities, which had already rolled over in 2005, kept falling as cancellations, land write-downs and the subprime collapse hit: by August 2008 Toll Brothers was down 62% from its peak and Pulte 73%, with the group down more than 70%. Home-improvement retailers and furniture makers fell in sympathy, and the sub-industry did not regain its 2005 high until 2020.",
+   "evidence": "TOL -62% and PHM -73% from July 2005 peak by late August 2008; Case-Shiller -21.8% from July 2006 peak by Sept 2008",
+   "sources": [
+    {
+     "title": "Kiplinger: Time to buy homebuilder stocks?",
+     "url": "https://kiplinger.com/article/investing/t038-c008-s001-time-to-buy-homebuilder-stocks.html"
+    },
+    {
+     "title": "Motley Fool: A bigger housing knockdown in '09",
+     "url": "https://www.fool.com/investing/general/2008/12/22/a-bigger-housing-knockdown-in-09.aspx"
+    }
+   ]
+  },
+  {
+   "id": "cs-2008-defensive-outperformance",
+   "date": "2008-01-02",
+   "end_date": "2008-12-31",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail",
+    "food_beverage_tobacco",
+    "household_personal"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "macro",
+   "title": "Staples are the 2008 sector outperformer; Walmart gains share in the crisis",
+   "summary": "In the 2008 crash XLP was the best-performing sector fund in both halves of the year, down only mid-single digits by October while the S&P 500 was down roughly 35-40%, as investors crowded into non-cyclical earnings and dividends. Walmart's revenue still climbed 7% to $401 billion as shoppers traded down, making it one of the few large-cap stocks to rise in 2008. The relative gain reversed in 2009 when staples lagged the risk rally (staples -9.7% vs S&P -8.9% by late March 2009).",
+   "evidence": "XLP was the sector outperformer in both halves of 2008 and down only ~5% YTD in October 2008 (TraderFeed); Walmart FY revenue +7% to $401.2B",
+   "sources": [
+    {
+     "title": "TraderFeed: A look at the rotating bear market (Oct 2008)",
+     "url": "https://traderfeed.blogspot.com/2008/10/look-at-rotating-bear-market.html"
+    },
+    {
+     "title": "Motley Fool: Sector strategy, stick with consumer staples (March 2009)",
+     "url": "https://www.fool.com/investing/general/2009/03/24/sector-strategy-stick-with-consumer-staples.aspx"
+    }
+   ]
+  },
+  {
+   "id": "hc-2008-election-insurers",
+   "date": "2008-11-04",
+   "end_date": "2009-03-09",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care",
+    "healthcare_facilities_services"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "election",
+   "title": "Obama win and reform debate hit managed care into the 2009 low",
+   "summary": "Health insurers sold off after the 2008 election as investors priced universal-coverage proposals, minimum medical-loss ratios and Medicare Advantage cuts on top of recession-driven enrollment losses. Within a month of the election UnitedHealth was down 11.7%, WellPoint 14.6% and Cigna 39.8%, and 2008 industry profits fell sharply (UNH net income -36%). Hospital operators were simultaneously squeezed by rising bad debt. Managed care only recovered once the final bill looked survivable in late 2009.",
+   "evidence": "Post-election declines to 2008-12-01: UNH -11.7%, WLP -14.6%, CI -39.8% (Capital IQ via Motley Fool)",
+   "sources": [
+    {
+     "title": "Motley Fool: Health insurers' universal uncertainty (Dec 2008)",
+     "url": "https://www.fool.com/investing/general/2008/12/01/health-insurers-universal-uncertainty.aspx"
+    },
+    {
+     "title": "WellPoint FY2008 10-K",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000119312509033022/d10k.htm"
+    }
+   ]
+  },
+  {
+   "id": "cd-2008-circuit-city",
+   "date": "2008-11-10",
+   "end_date": "2009-03-09",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "specialty_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "macro",
+   "title": "Circuit City files Chapter 11 and liquidates",
+   "summary": "The second-largest US electronics chain filed for bankruptcy on November 10 2008 citing the recession, collapsing consumer spending and competition from Best Buy, and announced full liquidation on January 16 2009, closing on March 8 and eliminating more than 30,000 jobs. It was the emblem of the 2008-2009 specialty-retail washout (Linens 'n Things, Mervyn's, Sharper Image also failed) that cleared capacity for survivors like Best Buy and the off-price chains.",
+   "evidence": "Chapter 11 filed 2008-11-10; liquidation of all stores announced 2009-01-16",
+   "sources": [
+    {
+     "title": "Wikipedia: Circuit City",
+     "url": "https://en.wikipedia.org/wiki/Circuit_City"
+    }
+   ]
+  },
+  {
+   "id": "cd-2009-gm-bankruptcy",
+   "date": "2008-12-19",
+   "end_date": "2009-07-10",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "autos"
+   ],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "macro",
+   "title": "Auto bailout, Chrysler and GM bankruptcies",
+   "summary": "GM and Chrysler took $17.4 billion of federal aid in December 2008; Chrysler filed on April 30 2009 and GM on June 1 2009 with $82.3 billion of assets against $172.8 billion of liabilities, its shares having fallen to 75 cents. Ford, which had mortgaged its assets in 2006, avoided bankruptcy and returned to profit by Q2 2009, and its stock became the vehicle for the 2009-2010 auto recovery trade while GM equity holders were wiped out.",
+   "evidence": "GM filed Chapter 11 on 2009-06-01 with $82.29B assets and $172.81B debt; shares had fallen to $0.75",
+   "sources": [
+    {
+     "title": "Patterson Belknap: GM files for bankruptcy",
+     "url": "https://www.pbwt.com/publications/gm-files-for-bankruptcy"
+    },
+    {
+     "title": "History.com: Obama announces auto industry shakeup",
+     "url": "https://www.history.com/this-day-in-history/march-30/president-obama-announces-auto-industry-shakeup"
+    },
+    {
+     "title": "Washington Times: GM bankruptcy spurs hope",
+     "url": "https://m.washingtontimes.com/news/2009/jun/2/gm-bankruptcy-spurs-hope-but-experts-expect-long-r/"
+    }
+   ]
+  },
+  {
+   "id": "cd-2009-homebuyer-credit",
+   "date": "2009-01-01",
+   "end_date": "2010-04-30",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "housing"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "policy",
+   "title": "First-time homebuyer tax credit props up builders",
+   "summary": "The $8,000 first-time buyer credit ran from January 2009, was extended and widened in late October 2009, and required contracts by April 30 2010. It produced a sales spike that lifted builder stocks off their 2008-2009 lows, followed by a sharp drop in sales when it expired; analysts judged it had mostly pulled forward demand, and the sub-industry did not establish a durable recovery until 2012.",
+   "evidence": "Credit in effect January 2009 through April 30 2010 contracts; sales fell after expiry (Washington Times, Sept 2010)",
+   "sources": [
+    {
+     "title": "Calculated Risk: Tax credits, vehicle and existing home",
+     "url": "https://www.calculatedriskblog.com/2010/02/tax-credits-vehicle-and-existing-home.html"
+    },
+    {
+     "title": "Washington Times: Charting the market, sales reflect tax credit expiration",
+     "url": "https://m.washingtontimes.com/news/2010/sep/23/charting-the-market-sales-reflect-tax-credit-expir/"
+    }
+   ]
+  },
+  {
+   "id": "cd-2009-cash-for-clunkers",
+   "date": "2009-07-24",
+   "end_date": "2009-08-24",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "autos"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "policy",
+   "title": "Cash for Clunkers pulls auto demand forward",
+   "summary": "The Car Allowance Rebate System ran in practice from late July to August 24 2009 and pushed July auto sales to their highest level of the year; dealer stocks such as AutoNation jumped (with executives selling into the rally) and parts suppliers followed. Economists later concluded it mostly pulled sales forward, but it anchored the bottom in auto equities alongside the GM restructuring.",
+   "evidence": "July 2009 US auto sales were the highest of the year; AutoNation shares jumped on the program",
+   "sources": [
+    {
+     "title": "CS Monitor: Auto sales revive amid Cash for Clunkers",
+     "url": "https://www.csmonitor.com/Business/2009/0803/auto-sales-revive-amid-cash-for-clunkers-program"
+    },
+    {
+     "title": "AOL: AutoNation execs cashing out as stock jumps on Cash for Clunkers",
+     "url": "https://www.aol.com/2009/08/10/autonation-execs-cashing-out-as-stock-jumps-on-cash-for-clunkers"
+    }
+   ]
+  },
+  {
+   "id": "hc-2010-aca-passage",
+   "date": "2010-03-22",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_facilities_services",
+    "managed_care"
+   ],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "ACA passes the House: hospitals rally, big insurers lag",
+   "summary": "After the House passed the Affordable Care Act 219-212 on March 21 2010, hospital operators jumped on the prospect of 32 million newly insured patients while large commercial insurers fell on new MLR floors and taxes. Tenet rose about 9% and Health Management Associates 11%; UnitedHealth fell 3.2%, WellPoint 1.1% and Humana 1.4%. Medicaid-focused insurers rallied. Much of the move was relief after a year of overhang.",
+   "evidence": "THC +9%, HMA +11.3%, UNH -3.2% on 2010-03-22",
+   "sources": [
+    {
+     "title": "CNN Money: Health care stocks after reform vote",
+     "url": "https://money.cnn.com/2010/03/22/news/companies/health_care_stocks/index.htm"
+    },
+    {
+     "title": "Lawrence Journal-World/AP: health stocks rise after House passes overhaul",
+     "url": "https://www2.ljworld.com/news/2010/mar/23/most-major-health-care-stocks-rise-modestly-after/"
+    }
+   ]
+  },
+  {
+   "id": "hc-2012-2015-biotech-bull",
+   "date": "2012-01-03",
+   "end_date": "2015-07-20",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_large",
+    "biotech_smid"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "tech_cycle",
+   "title": "The 2012-2015 biotech bull market",
+   "summary": "A wave of approvals (hepatitis C, immuno-oncology, gene therapy), the 2012 JOBS Act and near-zero rates drove a three-year surge in biotech. The Nasdaq Biotech Index nearly tripled from 2010 and IBB was up about 214% from the start of 2012 by 2015; biotech IPO pricing went from a median 25% below range before 2012 to at-range afterward. The sector peaked in July 2015 with widespread bubble talk.",
+   "evidence": "IBB +214% from 2012-01 to mid-2015 (BioSpace); Nasdaq Biotech Index nearly tripled since 2010 (Motley Fool, April 2015)",
+   "sources": [
+    {
+     "title": "BioSpace: The coming crash in biotech stocks",
+     "url": "https://www.biospace.com/b-biopharm-executive-b-the-coming-crash-in-biotech-stocks"
+    },
+    {
+     "title": "Motley Fool: Has the biotech bubble already popped? (April 2015)",
+     "url": "https://www.fool.com/investing/general/2015/04/04/has-the-biotech-bubble-already-popped.aspx"
+    },
+    {
+     "title": "LifeSciVC: Evolution of the biotech IPO markets",
+     "url": "https://lifescivc.com/?p=10360"
+    }
+   ]
+  },
+  {
+   "id": "hc-2012-scotus-aca",
+   "date": "2012-06-28",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_facilities_services",
+    "managed_care",
+    "medical_devices"
+   ],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "Supreme Court upholds the ACA: hospitals soar, insurers slip",
+   "summary": "The Court upheld the individual mandate as a tax. Hospital stocks surged as coverage expansion was secured (HCA +10.75% to $29.47; HMA and Community Health roughly +10%), Medicaid managed-care names jumped, and large commercial insurers fell 3-4% as the MLR and fee provisions stayed in place. The ruling also preserved the 2.3% medical device excise tax, a mild negative for devices.",
+   "evidence": "HCA closed +10.75% at $29.47 on 2012-06-28; major health insurers fell about 3-4%",
+   "sources": [
+    {
+     "title": "KFF Health News: Hospital stocks soar as court upholds health act",
+     "url": "https://kffhealthnews.org/news/hospital-stocks-soar-as-court-upholds-health-act/"
+    },
+    {
+     "title": "CNN Money: Health care stocks divided after ruling",
+     "url": "https://money.cnn.com/2012/06/28/investing/healthcare-stocks/index.htm"
+    }
+   ]
+  },
+  {
+   "id": "hc-2013-device-tax",
+   "date": "2013-01-01",
+   "end_date": "2019-12-20",
+   "sector": "healthcare",
+   "subindustries": [
+    "medical_devices"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "policy",
+   "title": "2.3% medical device excise tax takes effect, then is suspended and repealed",
+   "summary": "The ACA's 2.3% excise tax on device sales began January 1 2013, a direct hit to margins for small and mid-cap device makers that became a persistent lobbying theme. Congress suspended it for 2016-2017, extended the moratorium through 2019, and repealed it in the December 20 2019 appropriations act. The repeal removed a multi-year overhang and coincided with the sector's re-rating into 2020.",
+   "evidence": "IRS: 2.3% tax on sales after 2012-12-31; moratorium 2016-2019; repealed by the Further Consolidated Appropriations Act, 2020 (signed 2019-12-20)",
+   "sources": [
+    {
+     "title": "IRS: Medical device excise tax FAQ",
+     "url": "https://www.irs.gov/newsroom/medical-device-excise-tax-frequently-asked-questions"
+    }
+   ]
+  },
+  {
+   "id": "hc-2015-2016-biotech-crash",
+   "date": "2015-07-20",
+   "end_date": "2016-02-09",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_smid",
+    "biotech_large"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "2015-2016 biotech crash: XBI nearly halves",
+   "summary": "From the July 2015 peak to February 2016, XBI fell about 49% and IBB about 40% (roughly $400 to $240), the worst biotech drawdown since 2000-2002 and far worse than the S&P 500's single-digit correction. Drivers were drug-pricing politics (Clinton, Valeant, Turing), the China/global-growth scare of August 2015 and a collapse of the IPO window. XBI was the worst-performing ETF of early 2016.",
+   "evidence": "XBI drawdown -49.25% from July 2015 to February 2016 (PortfoliosLab); XBI -30% YTD by 2016-02-16 (CNBC)",
+   "sources": [
+    {
+     "title": "PortfoliosLab: XBI drawdowns",
+     "url": "https://portfolioslab.com/symbol/XBI"
+    },
+    {
+     "title": "CNBC: Is the worst ETF of 2016 about to get even worse?",
+     "url": "https://www.cnbc.com/2016/02/16/is-the-worst-etf-of-2016-about-to-get-even-worse.html"
+    },
+    {
+     "title": "ETF Trends: Biotechs, buying opportunity or warning sign?",
+     "url": "https://www.etftrends.com/?p=179248"
+    }
+   ]
+  },
+  {
+   "id": "hc-2015-clinton-tweet",
+   "date": "2015-09-21",
+   "end_date": "2015-09-25",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_large",
+    "biotech_smid",
+    "pharma"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "Hillary Clinton's drug-pricing tweet starts the biotech bear market",
+   "summary": "Reacting to Turing's 5,000% Daraprim price hike, Clinton tweeted that she would lay out a plan to stop 'price gouging'. IBB went from flat to down about 4.6% that day, wiping roughly $40 billion from biotech, and the group fell about 13% for the week. The tweet crystallised drug-pricing as an election-year risk and marked the top of the 2012-2015 bull run.",
+   "evidence": "IBB -4.6% on 2015-09-21; biotech index -13% for the week",
+   "sources": [
+    {
+     "title": "CNN Money: Hillary Clinton biotech price gouging",
+     "url": "https://money.cnn.com/2015/09/21/investing/hillary-clinton-biotech-price-gouging/"
+    },
+    {
+     "title": "CNBC: Biotech falls on Clinton price gouging comments",
+     "url": "https://www.cnbc.com/2015/09/21/biotech-falls-on-clinton-price-gouging-comments.html"
+    },
+    {
+     "title": "Fortune: Biotech stocks fall into bear market",
+     "url": "https://fortune.com/2015/09/25/biotech-stocks-fall-bear-market"
+    }
+   ]
+  },
+  {
+   "id": "cd-2015-chipotle-ecoli",
+   "date": "2015-10-31",
+   "end_date": "2016-02-08",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "travel_leisure_restaurants"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "regulatory",
+   "title": "Chipotle's E. coli and norovirus outbreaks end the fast-casual premium",
+   "summary": "A multi-state E. coli outbreak (55 infections in 11 states) forced Chipotle to close 43 stores in October-November 2015, followed by a second outbreak and a 140-person norovirus incident in December; all stores closed for a food-safety meeting on February 8 2016. Revenue fell from $4.50 billion in 2015 to $3.90 billion in 2016 and net income from $476 million to $23 million, and the stock lost roughly half its value, a template for how single-name food-safety shocks hit high-multiple restaurant stocks.",
+   "evidence": "2016 revenue $3,904M vs $4,501M in 2015; net income $23M vs $476M",
+   "sources": [
+    {
+     "title": "Wikipedia: Chipotle Mexican Grill",
+     "url": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill"
+    }
+   ]
+  },
+  {
+   "id": "hc-2016-trump-election",
+   "date": "2016-11-09",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_facilities_services",
+    "managed_care",
+    "pharma",
+    "biotech_large"
+   ],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "election",
+   "title": "Trump wins: hospital stocks crater, pharma and biotech rally",
+   "summary": "Trump's surprise win was read as the end of the ACA. Tenet closed down 25% and HCA about 10.8% on November 9 as investors priced lost coverage and higher bad debt; Medicaid-focused Molina fell about 15%. Pharma and biotech rallied on the removal of the Clinton price-control threat. Note: contrary to the common narrative, large commercial insurers did not uniformly rally on day one; they sold off before rebounding over the following weeks as repeal looked less likely.",
+   "evidence": "THC -24.96% and HCA -10.8% at the close on 2016-11-09; Molina -15%",
+   "sources": [
+    {
+     "title": "Fox Business: Trump's win causes a tremendous sell-off in hospital stocks",
+     "url": "https://foxbusiness.com/markets/trumps-win-is-causing-a-tremendous-sell-off-in-hospital-stocks"
+    },
+    {
+     "title": "Healthcare Dive: Specter of ACA repeal sends hospital stocks down",
+     "url": "https://www.healthcaredive.com/news/specter-of-aca-repeal-sends-hospital-stocks-down/430116/"
+    },
+    {
+     "title": "Becker's: Post-election healthcare stock report",
+     "url": "https://www.beckershospitalreview.com/finance/post-election-healthcare-stock-report.html"
+    }
+   ]
+  },
+  {
+   "id": "cd-2017-retail-apocalypse",
+   "date": "2017-01-03",
+   "end_date": "2017-11-09",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "specialty_retail"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "The 2017 'retail apocalypse'",
+   "summary": "A record roughly 8,000 store-closure announcements (Sears, JCPenney, Macy's, Payless, Toys R Us' September bankruptcy) and Amazon's share gains made 2017 the year investors abandoned mall retail: the equal-weight XRT was down 8.6% through November 9 2017 while the S&P 500 rose about 15%, before a Q3 earnings rebound trimmed the gap. Capital rotated within the sub-industry to off-price (TJX, Ross), auto parts and home improvement.",
+   "evidence": "XRT -8.6% YTD through 2017-11-09 vs S&P 500 +15%; ~8,000 store closures announced in 2017",
+   "sources": [
+    {
+     "title": "Fox Business/Motley Fool: Why retail stocks sank in Trump's first year",
+     "url": "https://www.foxbusiness.com/markets/why-retail-stocks-sank-in-trumps-first-year-in-office"
+    },
+    {
+     "title": "Zacks: Is a wave of store closures troubling retail ETFs?",
+     "url": "https://www.zacks.com/amp/stock/news/254223/is-a-wave-of-store-closures-troubling-retail-etfs"
+    }
+   ]
+  },
+  {
+   "id": "cs-2018-bond-proxy-derating",
+   "date": "2017-01-03",
+   "end_date": "2018-05-16",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "household_personal",
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "rates",
+   "title": "Bond-proxy de-rating: staples trail the S&P 500 by 17 points in 2017 and fall 13% in early 2018",
+   "summary": "After five years of being bought as bond substitutes, staples were abandoned when yields rose: XLP fell 2.1% in 2017 while SPY gained 15.4%, then dropped about 13% by mid-May 2018 as the 10-year yield rose from 2.4% to 3.1%, putting it on track for its worst year since 2008's 17% decline. P&G, Kraft Heinz, General Mills and Campbell were hit by private-label share loss and retailer pressure on top of the rate effect; staples was the worst sector of Q1 2018.",
+   "evidence": "XLP -2.1% in 2017 vs SPY +15.4%; XLP ~-13% YTD on 2018-05-16 while the S&P 500 was up ~1%",
+   "sources": [
+    {
+     "title": "CNBC: One key group of stocks is on track for its worst year since 2008",
+     "url": "https://www.cnbc.com/2018/05/16/one-key-group-of-stocks-is-on-track-for-its-worst-year-since-2008.html"
+    },
+    {
+     "title": "InvestmentNews: Safest assets provide no protection amid the brewing rate storm",
+     "url": "https://www.investmentnews.com/equities/safest-assets-provide-no-protection-amid-the-brewing-rate-storm/74363"
+    }
+   ]
+  },
+  {
+   "id": "hc-2017-ahca-pulled",
+   "date": "2017-03-24",
+   "end_date": "2017-07-28",
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_facilities_services",
+    "managed_care"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "ACA repeal fails: hospitals squeeze higher",
+   "summary": "When House Republicans pulled the American Health Care Act on March 24 2017, heavily shorted hospital stocks rallied (Tenet up as much as 8%, Universal Health up 5.4% the next session) with short interest near 21% of float in Tenet and Community Health. Gains faded as repeal talk revived, and the final Senate 'skinny repeal' failure on July 28 2017 closed the repeal window, leaving the ACA coverage base intact for providers and Medicaid insurers.",
+   "evidence": "THC up as much as 8% on 2017-03-24; short interest ~21% of shares outstanding in THC and CYH (Thomson Reuters)",
+   "sources": [
+    {
+     "title": "Reuters via StreetInsider: Hospital shares surge as market absorbs Republican health bill failure",
+     "url": "https://www.streetinsider.com/Reuters/Hospitals+shares+surge+as+market+absorbs+Republican+health+bill+failure/12708780.html"
+    },
+    {
+     "title": "Kiplinger: Hospital stocks rally on failed Obamacare repeal",
+     "url": "https://www.kiplinger.com/article/investing/T052-C008-S001-hospital-stocks-rally-on-failed-obamacare-repeal.html"
+    },
+    {
+     "title": "Bloomberg: Hospitals gain as Republican health repeal bill is pulled",
+     "url": "https://www.bloomberg.com/news/articles/2017-03-24/hospitals-insurers-gain-as-republican-health-bill-is-pulled"
+    }
+   ]
+  },
+  {
+   "id": "cd-2017-amazon-whole-foods",
+   "date": "2017-06-16",
+   "end_date": null,
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "internet_retail"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "ma",
+   "title": "Amazon buys Whole Foods: the 'Amazon effect' goes physical",
+   "summary": "Amazon's $13.7 billion deal for Whole Foods lifted AMZN 2.4% and erased about $29 billion from grocers and mass merchants in a day (Kroger -9.2%, Costco -7.2%, Target -5.2%, Walmart -4.7%). The deal confirmed that the internet-retail premium came partly from the market's willingness to fund Amazon's entry into any category, and it kicked off a two-year period in which every Amazon announcement moved incumbents (pharmacy, healthcare, logistics).",
+   "evidence": "AMZN +2.4%, KR -9.2%, COST -7.2%, TGT -5.2%, WMT -4.7% at the close on 2017-06-16",
+   "sources": [
+    {
+     "title": "TechCrunch: Other grocery stocks plummet as Amazon buys Whole Foods",
+     "url": "https://techcrunch.com/2017/06/16/foodpocalypse"
+    },
+    {
+     "title": "Reuters via Business Standard: Wall St falls as Amazon-Whole Foods deal crushes retailers",
+     "url": "https://www.business-standard.com/amp/article/reuters/wall-st-falls-as-amazon-whole-foods-deal-crushes-retailers-117061601315_1.html"
+    }
+   ]
+  },
+  {
+   "id": "cs-2017-whole-foods-grocers",
+   "date": "2017-06-16",
+   "end_date": "2017-06-19",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "ma",
+   "title": "Amazon-Whole Foods erases $29 billion from grocers in a day",
+   "summary": "Amazon's $13.7 billion Whole Foods deal was read as the start of a price war in groceries: Kroger closed down 9.2%, Costco 7.2%, Target 5.2% and Walmart 4.7% (Kroger was down 12% intraday), with about $29 billion of market value lost across grocery-related stocks; Target, Walmart and Costco were still lower the following Monday. Grocers spent the next three years investing in delivery and price, compressing margins and leaving the sub-industry's returns to Walmart and Costco.",
+   "evidence": "KR -9.2%, COST -7.2%, TGT -5.2%, WMT -4.7% at the close on 2017-06-16; ~$29B of grocery market value lost",
+   "sources": [
+    {
+     "title": "TechCrunch: Other grocery stocks plummet as Amazon buys Whole Foods",
+     "url": "https://techcrunch.com/2017/06/16/foodpocalypse"
+    },
+    {
+     "title": "CNBC: Target, Wal-Mart endure the aftermath of Amazon's Whole Foods buy",
+     "url": "https://www.cnbc.com/2017/06/19/target-wal-mart-endure-the-aftermath-of-amazons-whole-foods-buy-stocks-still-falling.html"
+    }
+   ]
+  },
+  {
+   "id": "cs-2017-fda-nicotine",
+   "date": "2017-07-28",
+   "end_date": null,
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "FDA proposes cutting nicotine to non-addictive levels; Altria drops 17%",
+   "summary": "FDA Commissioner Gottlieb announced a plan to begin rulemaking on lowering nicotine in cigarettes to non-addictive levels while easing the path for reduced-risk products. Altria fell more than 17% (as much as 19% intraday, its biggest drop since 1999), BAT 3%, while Philip Morris International recovered within hours because it has no US combustible exposure. The rule has never been finalised, but the day priced a permanent regulatory discount into US tobacco.",
+   "evidence": "MO -17% at the close on 2017-07-28 (intraday -19%, biggest since 1999)",
+   "sources": [
+    {
+     "title": "CNBC: Altria shares fall after FDA releases roadmap to curb tobacco-related deaths",
+     "url": "https://www.cnbc.com/2017/07/28/altria-shares-fall-after-fda-releases-roadmap-to-curb-tobacco-related-deaths-.html"
+    },
+    {
+     "title": "BNN Bloomberg: FDA looks to cut nicotine in cigarettes to non-addictive level",
+     "url": "https://www.bnnbloomberg.ca/fda-looks-to-cut-nicotine-in-cigarettes-to-non-addictive-level-1.816272"
+    }
+   ]
+  },
+  {
+   "id": "hc-2018-amazon-berkshire-jpm",
+   "date": "2018-01-30",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_facilities_services",
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "Amazon-Berkshire-JPMorgan venture spooks PBMs, pharmacies and insurers",
+   "summary": "The three companies announced a non-profit venture to cut employee health costs. Express Scripts fell as much as 11% at the open, CVS 6.4%, and UnitedHealth, Cigna and Anthem 4-7%; McKesson lost about 3% and roughly $69 billion of health-care market value evaporated. The threat never materialised (Haven was wound down in 2021) but the day captured the 'Amazon disruption' fear that weighed on PBMs and drug distributors through 2018-2019.",
+   "evidence": "ESRX -11% and CVS -6.4% at the open on 2018-01-30; ~$69B of healthcare market cap lost",
+   "sources": [
+    {
+     "title": "Bloomberg: Health stocks fall after Amazon, JPMorgan, Berkshire deal",
+     "url": "https://www.bloomberg.com/news/articles/2018-01-30/health-stocks-slump-as-amazon-led-group-unveils-efficiency-plans"
+    },
+    {
+     "title": "Becker's: Healthcare stocks lost $69B on news of Amazon-JPMorgan-Berkshire deal",
+     "url": "https://beckershospitalreview.com/finance/healthcare-stocks-lost-69b-on-news-of-amazon-jpmorgan-berkshire-hathaway-deal.html"
+    }
+   ]
+  },
+  {
+   "id": "cs-2019-kraft-heinz-writedown",
+   "date": "2019-02-22",
+   "end_date": null,
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Kraft Heinz's $15.4 billion writedown and SEC subpoena",
+   "summary": "Kraft Heinz disclosed a $15.4 billion impairment of the Kraft and Oscar Mayer brands, a $12.6 billion quarterly loss, a dividend cut and an SEC subpoena over procurement accounting; the stock fell as much as 28% to $34.90, a record low, on February 22 2019 and Berkshire took a multi-billion mark. The day discredited the 3G cost-cutting model for packaged food and began a six-year period in which the big food companies were valued as melting ice cubes (Kraft Heinz was down ~60% from the 2015 merger by 2025).",
+   "evidence": "KHC fell as much as 28% to $34.90 on 2019-02-22; $15.4B impairment, $12.6B Q4 net loss",
+   "sources": [
+    {
+     "title": "BNN Bloomberg: Kraft Heinz plunges to record low on $15.4B writedown",
+     "url": "https://www.bnnbloomberg.ca/kraft-heinz-plunges-to-record-low-on-us-15-4b-writedown-1.1218151"
+    },
+    {
+     "title": "Reuters via Business Standard: Kraft Heinz forecasts gloomy 2019, writes down iconic brands",
+     "url": "https://www.business-standard.com/amp/article/reuters/kraft-heinz-forecasts-gloomy-2019-writes-down-value-of-iconic-brands-119022200165_1.html"
+    }
+   ]
+  },
+  {
+   "id": "hc-2019-medicare-for-all",
+   "date": "2019-04-15",
+   "end_date": "2019-04-18",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care",
+    "healthcare_facilities_services"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "Medicare for All scare: $150B wiped from health care in four days",
+   "summary": "With Sanders' Medicare for All bill gaining Democratic co-sponsors, UnitedHealth's CEO used the April 16 earnings call to warn the plan would 'destabilize' the system, which only amplified fears. S&P 500 health care lost about $150 billion between April 15 and April 18, the managed-care index fell 4% on the Thursday to its lowest since January, and HCA had its worst day since the 2016 election. The episode made 'political beta' the dominant factor for insurers through the 2020 primaries.",
+   "evidence": "S&P 500 Health Care Index companies lost ~$150B of market value from 2019-04-15 to 2019-04-18 (Becker's)",
+   "sources": [
+    {
+     "title": "Becker's: Healthcare stocks take $150B beating over 4 days",
+     "url": "https://www.beckershospitalreview.com/finance/healthcare-stocks-take-150b-beating-over-4-days.html"
+    },
+    {
+     "title": "Axios: Wall Street is still freaking out over health care stocks",
+     "url": "https://www.axios.com/2019/04/22/health-care-stocks-medicare-for-all"
+    },
+    {
+     "title": "Bloomberg: HCA sinks most since post-Trump election sell-off",
+     "url": "https://www.bloombergquint.com/onweb/hca-healthcare-stuns-street-with-worst-plunge-since-16-election"
+    }
+   ]
+  },
+  {
+   "id": "cd-2019-list4-tariffs",
+   "date": "2019-08-01",
+   "end_date": "2020-01-15",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "apparel_luxury",
+    "specialty_retail"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Trade-war List 4 tariffs reach apparel, footwear and consumer goods",
+   "summary": "Having raised tariffs on $200 billion of Chinese goods to 25% in May 2019, Trump announced on August 1 a 10% tariff on the remaining $300 billion; 15% took effect on about $112 billion on September 1 2019, bringing more than two-thirds of Chinese consumer goods under tariff, with a second tranche delayed past Christmas and then cancelled by the December 13 Phase One deal (signed January 15 2020). Apparel and footwear brands sourcing from China led the summer-2019 sell-offs and accelerated moves to Vietnam, the exposure that would hurt them in 2025.",
+   "evidence": "15% tariff on ~$112B of Chinese imports effective 2019-09-01; Phase One deal signed 2020-01-15",
+   "sources": [
+    {
+     "title": "Wikipedia: China-United States trade war",
+     "url": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_trade_war"
+    }
+   ]
+  },
+  {
+   "id": "cs-2020-pantry-loading",
+   "date": "2020-03-02",
+   "end_date": "2020-04-30",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco",
+    "household_personal",
+    "staples_retail"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "COVID hoarding: Clorox, Campbell and the grocers become momentum stocks",
+   "summary": "Panic buying sent the S&P 500 packaged-food index up 4.7% on March 2 2020 (Campbell +6.3%, its biggest day in nine months), Clorox rose 7.9% in a day, the most since 2011, and was up about 20% over the month, and Kroger was up 15% year-to-date on March 18 while the S&P 500 was down 26%. Staples retail (Walmart, Costco, Kroger) and cleaning/food names led the market through the March crash and only gave up leadership when the reopening trade began in November.",
+   "evidence": "S&P 500 packaged-food index +4.7% and CPB +6.3% on 2020-03-02; KR +15% YTD vs S&P 500 -26% on 2020-03-18",
+   "sources": [
+    {
+     "title": "Bloomberg: Panic buying spurs investors to stock up on packaged food shares",
+     "url": "https://www.bloomberg.com/news/articles/2020-03-02/panic-buying-spurs-investors-to-stock-up-on-packaged-food-shares"
+    },
+    {
+     "title": "Motley Fool: These 3 stocks have crushed the coronavirus (Clorox)",
+     "url": "https://www.fool.com/investing/2020/03/18/these-3-stocks-have-crushed-the-coronavirus.aspx"
+    },
+    {
+     "title": "Motley Fool: Kroger is hiring to meet high coronavirus demand",
+     "url": "https://www.fool.com/investing/2020/03/18/kroger-is-hiring-to-meet-high-coronavirus-demand.aspx"
+    }
+   ]
+  },
+  {
+   "id": "cd-2020-cruise-collapse",
+   "date": "2020-03-09",
+   "end_date": "2020-04-02",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "travel_leisure_restaurants"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "COVID sinks cruise lines, hotels, casinos and restaurants",
+   "summary": "After the State Department told Americans to avoid ship travel, Norwegian fell 26.7% and Royal Caribbean 25.8% on March 9 2020; by March 11 Carnival was down about 60% year-to-date, Royal Caribbean 67% and Norwegian 75%, and the three lost about $54 billion (70%) of value in under two months while the S&P 500 fell roughly 30%. Norwegian lost 70.6% in March alone. Hotels, casinos, theme parks and full-service restaurants suffered similar drawdowns and the whole group had to raise rescue capital.",
+   "evidence": "NCLH -26.7% and RCL -25.8% on 2020-03-09; CCL/RCL/NCLH lost ~$54B (70%) of market value in under two months",
+   "sources": [
+    {
+     "title": "Cruise Industry News: Black Monday for cruise line stocks",
+     "url": "https://cruiseindustrynews.com/cruise-news/2020/03/black-monday-for-cruise-line-stocks"
+    },
+    {
+     "title": "CNN live blog, March 11 2020",
+     "url": "https://amp.cnn.com/cnn/business/live-news/stock-market-news-today-031120/index.html"
+    },
+    {
+     "title": "Motley Fool: Why Norwegian Cruise Line plummeted 70.6% in March",
+     "url": "https://www.fool.com/investing/2020/04/02/why-norwegian-cruise-lines-plummeted-706-in-march.aspx"
+    }
+   ]
+  },
+  {
+   "id": "hc-2020-covid-tools-boom",
+   "date": "2020-03-16",
+   "end_date": "2021-12-31",
+   "sector": "healthcare",
+   "subindustries": [
+    "life_sciences_tools"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "COVID testing and vaccine manufacturing supercharge life-science tools",
+   "summary": "Thermo Fisher won FDA emergency authorisation for a SARS-CoV-2 PCR test in March 2020, built out testing-supply capacity and signed mRNA vaccine manufacturing deals with Pfizer and Moderna; Danaher, Bio-Rad and the bioprocessing suppliers saw similar demand. The group re-rated as 'growth plus defensiveness', and Thermo used its windfall to buy the CRO PPD for $17.4 billion in April 2021. Exact 2020 COVID revenue figures were not retrievable from the sources used; the direction and scale are qualitative here.",
+   "evidence": "Thermo Fisher agreed to acquire PPD for $17.4B cash plus ~$3.5B net debt (April 2021), funded by pandemic-era cash generation",
+   "sources": [
+    {
+     "title": "Wikipedia: Thermo Fisher Scientific (COVID-19 response, PPD acquisition)",
+     "url": "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific"
+    }
+   ]
+  },
+  {
+   "id": "hc-2020-telehealth-boom",
+   "date": "2020-03-16",
+   "end_date": "2021-02-16",
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_technology"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "Telehealth boom: Teladoc triples and buys Livongo",
+   "summary": "Lockdowns made virtual care the default and Teladoc's shares ran from about $83 at the start of 2020 to $294 by mid-February 2021, a 3.5x gain against a roughly 20% S&P 500 rise. Teladoc paid $18.5 billion in cash and stock for Livongo in October 2020 at the peak of the enthusiasm. Digital-health SPACs and IPOs (Hims, Oscar, Clover) followed in the same window.",
+   "evidence": "TDOC from ~$83 (2020-01) to $294 (2021-02); Livongo acquired for $18.5B (Oct 2020)",
+   "sources": [
+    {
+     "title": "IG: Where next for Teladoc shares after their 88% collapse?",
+     "url": "https://www.ig.com/en/news-and-trade-ideas/where-next-for-teladoc-shares-after-their-88--collapse--220502"
+    }
+   ]
+  },
+  {
+   "id": "cd-2020-travel-liquidity-crunch",
+   "date": "2020-03-17",
+   "end_date": "2020-06-30",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "travel_leisure_restaurants"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "Cruise lines, hotels and airlines scramble for cash",
+   "summary": "With revenue near zero, cruise lines, hotel owners and airlines drew down revolvers and raised emergency debt and equity in March-June 2020; S&P warned of downgrades for Carnival and Royal Caribbean on diminished demand and rising leverage, and the cruise operators were excluded from the US CARES Act because of their foreign domiciles. The dilution and leverage taken on in this window (Carnival, Norwegian and Royal Caribbean issued tens of billions of dollars of debt and equity) is why the group's share prices never regained 2019 levels even as 2023-2025 bookings hit records.",
+   "evidence": "S&P Global Ratings placed Carnival and Royal Caribbean on review for downgrade in March 2020 on diminished demand and rising leverage; hotels, airlines and cruise lines all raised emergency liquidity",
+   "sources": [
+    {
+     "title": "Fortune: Airlines, cruise ships, hotels race for cash in the coronavirus crisis",
+     "url": "https://fortune.com/2020/03/17/airlines-cruise-ships-hotels-cash-coronavirus-crisis/"
+    },
+    {
+     "title": "Seatrade Cruise News: Cruise shares hammered after US says avoid ship travel",
+     "url": "https://www.seatrade-cruise.com/news/cruise-shares-hammered-after-us-says-avoid-ship-travel"
+    }
+   ]
+  },
+  {
+   "id": "hc-2020-covid-elective-halt",
+   "date": "2020-03-18",
+   "end_date": "2020-06-30",
+   "sector": "healthcare",
+   "subindustries": [
+    "medical_devices",
+    "healthcare_facilities_services"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "CMS tells hospitals to postpone elective surgery",
+   "summary": "On March 18 2020 CMS recommended that all elective surgeries and non-essential procedures be postponed to preserve PPE, beds and staff. Procedure-driven device makers (orthopaedics, surgical robotics, structural heart) and hospital operators lost their revenue base overnight and lagged the market through the spring, while diagnostics, PPE and ventilator names and telehealth rallied. Volumes recovered from the summer as deferred procedures returned.",
+   "evidence": "CMS recommendation to postpone all elective surgeries and non-essential medical, surgical and dental procedures, issued 2020-03-18",
+   "sources": [
+    {
+     "title": "CMS: Recommendations on adult elective surgeries (March 18 2020)",
+     "url": "https://www.cms.gov/newsroom/press-releases/cms-releases-recommendations-adult-elective-surgeries-non-essential-medical-surgical-and-dental"
+    }
+   ]
+  },
+  {
+   "id": "hc-2020-2021-biotech-peak",
+   "date": "2020-03-23",
+   "end_date": "2021-02-08",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_smid",
+    "healthcare_technology"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Zero rates and the SPAC/IPO window push XBI to a February 2021 record",
+   "summary": "Emergency rate cuts, a flood of retail and crossover capital and the mRNA halo drove SMID biotech to a record on February 8 2021, with the IPO calendar and SPAC mergers running at the fastest pace in the sector's history. The gain proved entirely cyclical: the subsequent 64% drawdown wiped out every dollar of the post-COVID rally by mid-2022, and XBI has not regained its 2021 high as of late 2026.",
+   "evidence": "XBI peak close 2021-02-08; the following drawdown erased all gains since the COVID low (Bloomberg)",
+   "sources": [
+    {
+     "title": "BNN Bloomberg: Biotech fund wipes out last of its gains since COVID started",
+     "url": "https://www.bnnbloomberg.ca/biotech-fund-wipes-out-last-of-its-gains-since-covid-started-1.1763436"
+    },
+    {
+     "title": "Driehaus: XBI and M2",
+     "url": "https://www.driehaus.com/perspectives/XBI-and-M2"
+    }
+   ]
+  },
+  {
+   "id": "cd-2020-retail-bankruptcies",
+   "date": "2020-05-04",
+   "end_date": "2020-08-03",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "apparel_luxury",
+    "specialty_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "Lockdowns trigger a wave of apparel and department-store bankruptcies",
+   "summary": "US retail sales fell a record 16.4% in April 2020 and the weakest apparel names failed in quick succession: J.Crew (May 4), Neiman Marcus (May 7), JCPenney (May 15) and Brooks Brothers (July 8), with 43 retailer bankruptcies counted by August 3 and Coresight projecting up to 25,000 store closures. Capital fled mall apparel and department stores for e-commerce and home categories; the survivors (Nike, Lululemon, off-price) emerged with share gains in 2021.",
+   "evidence": "US retail sales -16.4% in April 2020 (record); 43 US retailer bankruptcies by 2020-08-03",
+   "sources": [
+    {
+     "title": "Wikipedia: Impact of the COVID-19 pandemic on retail",
+     "url": "https://en.wikipedia.org/wiki/Impact_of_the_COVID-19_pandemic_on_retail"
+    }
+   ]
+  },
+  {
+   "id": "cd-2020-home-improvement-boom",
+   "date": "2020-05-19",
+   "end_date": "2021-02-24",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "housing"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "Nesting and stimulus drive a home-improvement and housing boom",
+   "summary": "Stuck at home with stimulus checks and sub-3% mortgages, consumers poured money into DIY and housing: Home Depot's Q2 2020 sales rose a record 23.4%, Lowe's Q4 US comps rose 28.6%, and over the following year Lowe's stock gained more than 65% and Home Depot 29%. Builders rallied to records on the suburban migration, and the sub-industry became the pandemic's biggest 'goods' winner alongside e-commerce.",
+   "evidence": "HD Q2 2020 sales +23.4% (record); LOW stock +65% over the year to early 2021 vs HD +29%",
+   "sources": [
+    {
+     "title": "CNBC: Home Depot and Lowe's earnings boosted by pandemic-induced nesting",
+     "url": "https://www.cnbc.com/2020/11/20/home-depot-and-lowes-earnings-boosted-by-pandemic-induced-nesting.html"
+    },
+    {
+     "title": "Axios: Lowe's CEO, the quest for the top spot continues",
+     "url": "https://www.axios.com/local/charlotte/2021/03/08/lowes-ceo-the-quest-for-the-top-spot-continues-250108"
+    }
+   ]
+  },
+  {
+   "id": "hc-2020-vaccine-day",
+   "date": "2020-11-09",
+   "end_date": "2020-12-18",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_large",
+    "pharma"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "Pfizer/BioNTech 90% efficacy and the mRNA vaccine trade",
+   "summary": "Pfizer and BioNTech's announcement that their mRNA vaccine was more than 90% effective triggered a violent rotation on November 9 2020: the Dow rallied more than 800 points led by cyclicals while stay-at-home winners sold off (Amazon -5%, Zoom -17%). Moderna received its EUA on December 18 2020 and booked $18.5 billion of revenue and $12.2 billion of net income in 2021, making mRNA the sector's defining growth story before the 2022-2025 collapse (Moderna revenue fell to $1.9 billion by 2025).",
+   "evidence": "Dow +800 points, Nasdaq -1.5%, Amazon -5%, Zoom -17% on 2020-11-09; Moderna 2021 revenue $18.5B vs $1.9B in 2025",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news, November 9 2020",
+     "url": "https://www.cnbc.com/2020/11/09/stock-market-futures-open-to-close-news.html"
+    },
+    {
+     "title": "Wikipedia: Moderna (EUA, financials)",
+     "url": "https://en.wikipedia.org/wiki/Moderna"
+    }
+   ]
+  },
+  {
+   "id": "cd-2020-vaccine-reopening-rotation",
+   "date": "2020-11-09",
+   "end_date": "2021-03-31",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "travel_leisure_restaurants",
+    "internet_retail"
+   ],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "pandemic",
+   "title": "Vaccine day: reopening trade in, stay-at-home trade out",
+   "summary": "Pfizer's 90% efficacy announcement on November 9 2020 produced the sharpest one-day rotation of the pandemic: the Dow rallied more than 800 points led by cyclicals (cruise lines, airlines, hotels, casinos) while Amazon fell 5%, Zoom 17% and Netflix sold off. The reopening trade ran into spring 2021 and set up the eventual unwind of pandemic winners in 2022.",
+   "evidence": "Dow +800 points, Nasdaq -1.5%, AMZN -5%, ZM -17% on 2020-11-09",
+   "sources": [
+    {
+     "title": "CNBC: Stock market news, November 9 2020",
+     "url": "https://www.cnbc.com/2020/11/09/stock-market-futures-open-to-close-news.html"
+    }
+   ]
+  },
+  {
+   "id": "cd-2020-tesla-sp500",
+   "date": "2020-11-16",
+   "end_date": "2020-12-21",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "autos"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Tesla joins the S&P 500 after a 743% year",
+   "summary": "S&P announced on November 16 2020 that Tesla would join the index in one step on December 21, the largest addition ever; the stock jumped about 12% on the news and index funds were estimated to need roughly $80 billion of the shares. Tesla rose 743% in 2020, the best in the S&P 500, and its weight turned the consumer discretionary sector into a two-stock (AMZN, TSLA) index that would dominate XLY's behaviour thereafter.",
+   "evidence": "TSLA +743% in 2020; ~$80B of index-fund buying for the 2020-12-21 inclusion",
+   "sources": [
+    {
+     "title": "Motley Fool: Why Tesla stock climbed 24.3% in December (2020 gain)",
+     "url": "https://www.fool.com/investing/2021/01/04/why-tesla-stock-climbed-243-in-december/"
+    },
+    {
+     "title": "Al Jazeera: Tesla shares up 12 percent as automaker zooms to join S&P 500",
+     "url": "https://www.aljazeera.com/economy/2020/11/16/tesla-shares-up-12-after-announcement-it-will-zoom-onto-sp-500"
+    }
+   ]
+  },
+  {
+   "id": "cd-2021-gamestop-squeeze",
+   "date": "2021-01-28",
+   "end_date": "2021-02-02",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "specialty_retail"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "GameStop short squeeze",
+   "summary": "Retail traders coordinated on Reddit drove GameStop from $17.25 at the start of January 2021 to an intraday $483 on January 28 with short interest around 140% of float; AMC rose 480% and Bed Bath & Beyond 78% in the same week before brokerages restricted buying and GME fell 60% on February 2. It was the extreme of the 2021 liquidity-driven, retail-led flows into distressed specialty retail, and it forced short-biased hedge funds to de-gross across the sector.",
+   "evidence": "GME intraday high $483.00 on 2021-01-28 from $17.25 at the start of January; short interest ~140% of float on 2021-01-22",
+   "sources": [
+    {
+     "title": "Wikipedia: GameStop short squeeze",
+     "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze"
+    }
+   ]
+  },
+  {
+   "id": "hc-2021-2022-xbi-bear",
+   "date": "2021-02-08",
+   "end_date": "2022-05-11",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_smid",
+    "biotech_large",
+    "life_sciences_tools",
+    "healthcare_technology"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "rates",
+   "title": "Rate shock: XBI's 64% drawdown, the deepest in its history",
+   "summary": "As real yields rose from deeply negative levels and the Fed turned hawkish, long-duration, cash-burning biotech was repriced first and hardest. XBI fell 63.9% from its February 8 2021 close to the May 11 2022 trough (about 16 months), worse than the 2015-16 and 2008 episodes, and the IPO window shut. Life-science tools and digital health suffered second-order damage as biotech customers cut spending. The S&P 500's own drawdown over the same window was roughly 20%.",
+   "evidence": "XBI maximum drawdown -63.89% from 2021-02-08 to 2022-05-11 (PortfoliosLab/ChartRow)",
+   "sources": [
+    {
+     "title": "PortfoliosLab: SPDR S&P Biotech ETF (XBI)",
+     "url": "https://portfolioslab.com/symbol/XBI"
+    },
+    {
+     "title": "ChartRow: XBI drawdown",
+     "url": "https://chartrow.com/quote/xbi/drawdown"
+    },
+    {
+     "title": "Investing.com: Biotech's bounce, expecting continued strength (June 2022)",
+     "url": "https://uk.investing.com/analysis/biotechs-bounce-expecting-continued-strength-200524709"
+    }
+   ]
+  },
+  {
+   "id": "hc-2021-tmo-ppd",
+   "date": "2021-04-15",
+   "end_date": "2021-12-08",
+   "sector": "healthcare",
+   "subindustries": [
+    "life_sciences_tools"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "Thermo Fisher buys PPD: tools roll up the CRO space",
+   "summary": "Thermo Fisher agreed to buy clinical research organisation PPD for $17.4 billion in cash plus about $3.5 billion of net debt, valuing it near $20.9 billion, extending the tools-and-services consolidation (ICON-PRA, Danaher-Aldevron the same year). The deal marked the peak of confidence in biopharma R&D outsourcing just before the 2022 funding collapse.",
+   "evidence": "PPD purchase price $17.4B cash, enterprise value ~$20.9B (announced April 2021)",
+   "sources": [
+    {
+     "title": "Wikipedia: Thermo Fisher Scientific",
+     "url": "https://en.wikipedia.org/wiki/Thermo_Fisher_Scientific"
+    }
+   ]
+  },
+  {
+   "id": "cd-2022-amazon-unwind",
+   "date": "2022-01-03",
+   "end_date": "2022-12-29",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "internet_retail",
+    "specialty_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "rates",
+   "title": "2022 consumer rotation: Amazon halves, pandemic winners give back everything",
+   "summary": "Rising rates, inflation and a hangover from pandemic over-building drove Amazon down 51% in 2022, its worst year since 2000, giving back all of its pandemic gains and dropping below a $1 trillion valuation in November; Tesla fell 68%. Spending rotated from goods to services and from discretionary to staples, and retailers that over-ordered inventory (Target, Walmart, Gap, Kohl's) took margin hits in May 2022. XLY was among the worst sectors of the year.",
+   "evidence": "AMZN -51% in 2022, biggest decline since 2000; TSLA -68%",
+   "sources": [
+    {
+     "title": "CNBC: Amazon shed half its value in 2022 as tech stocks got crushed",
+     "url": "https://www.cnbc.com/2022/12/29/amazon-shed-half-its-value-in-2022-as-tech-stocks-got-crushed.html"
+    },
+    {
+     "title": "CNBC: Amazon sell-off pushes market cap below $1 trillion",
+     "url": "https://www.cnbc.com/amp/2022/11/01/amazon-plunge-pushes-valuation-below-1-trillion-first-time-since-2020.html"
+    }
+   ]
+  },
+  {
+   "id": "cd-2022-housing-rate-shock",
+   "date": "2022-01-03",
+   "end_date": "2022-12-30",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "housing"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "rates",
+   "title": "Mortgage rates at 21-year highs: homebuilder ETFs fall ~28% in 2022",
+   "summary": "As the Fed hiked and 30-year mortgage rates climbed to levels not seen in 21 years, ITB lost 28.9% and XHB 26.3% in 2022 against an 18% fall in the S&P 500. Existing-home transactions froze on the lock-in effect and home-improvement retailers, furniture and appliance makers guided down. The sub-industry's drawdown was concentrated in the first nine months before rates peaked in October.",
+   "evidence": "ITB -28.9% and XHB -26.3% in 2022 vs S&P 500 -18%",
+   "sources": [
+    {
+     "title": "Nasdaq/TipRanks: XHB, this homebuilder ETF is quietly surging",
+     "url": "https://www.nasdaq.com/articles/xhb:-this-homebuilder-etf-is-quietly-surging.-can-it-continue"
+    },
+    {
+     "title": "etf.com: Housing downturn making itself felt in ETFs",
+     "url": "https://www.etf.com/sections/news/housing-downturn-making-itself-felt-etfs"
+    }
+   ]
+  },
+  {
+   "id": "hc-2022-teladoc-crash",
+   "date": "2022-04-28",
+   "end_date": "2022-07-28",
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_technology"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Teladoc writes down Livongo; digital health capitulates",
+   "summary": "Teladoc fell about 40% on April 28 2022 after taking a $6.6 billion goodwill impairment on Livongo and cutting revenue guidance from $2.6 billion to $2.45 billion; a further impairment in July took 2022 write-downs to $13.4 billion. By then the stock was down roughly 88% from its 2021 peak, the clearest marker of the unwind of the pandemic telehealth trade as patients returned to in-person care and rates rose.",
+   "evidence": "TDOC -40% on 2022-04-28 on a $6.6B goodwill impairment; shares -88% from peak",
+   "sources": [
+    {
+     "title": "Motley Fool: Why Teladoc stock cratered on Thursday",
+     "url": "https://www.fool.com/investing/2022/04/28/why-teladoc-health-stock-cratered-on-thursday"
+    },
+    {
+     "title": "Healthcare Dive: Teladoc records $6.6B impairment on Livongo",
+     "url": "https://www.healthcaredive.com/news/teladoc-records-66b-impairment-charge-on-livongo-acquisition-spurring-re/622793/"
+    }
+   ]
+  },
+  {
+   "id": "cs-2022-target-walmart-margin-shock",
+   "date": "2022-05-17",
+   "end_date": "2022-05-18",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Walmart and Target margin shocks: inflation and inventory glut",
+   "summary": "Walmart fell about 11% on May 17 2022 after inflated inventory and fuel costs crushed Q1 profit, and Target fell 25% the next day, its worst day since 1987, as its operating margin collapsed to 5.3% from 9.8% and comparable sales fell for the fourth straight quarter; the Dow had its biggest drop since 2020. The pair showed that even 'defensive' retailers could not pass through costs fast enough, and that consumers were rotating from discretionary goods to food and fuel, which later favoured Walmart's grocery mix over Target's.",
+   "evidence": "WMT -11% on 2022-05-17; TGT -24.9% on 2022-05-18 (worst since 1987), operating margin 5.3% vs 9.8%",
+   "sources": [
+    {
+     "title": "Motley Fool: Target headed toward its biggest plunge since 1987",
+     "url": "https://www.fool.com/investing/2022/05/18/target-headed-toward-its-biggest-plunge-since-1987"
+    },
+    {
+     "title": "IBTimes: Dow plunges 1,100 points in biggest selloff since 2020",
+     "url": "https://www.ibtimes.com/stock-market-today-dow-plunges-1100-points-biggest-selloff-2020-3512559"
+    },
+    {
+     "title": "Motley Fool: Why Walmart stock fell again today",
+     "url": "https://www.fool.com/investing/2022/05/18/why-walmart-stock-fell-again-today"
+    }
+   ]
+  },
+  {
+   "id": "hc-2022-ira-signed",
+   "date": "2022-08-16",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma",
+    "biotech_large"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Inflation Reduction Act brings Medicare drug-price negotiation",
+   "summary": "Signed August 16 2022 after a 51-50 Senate vote, the IRA let Medicare negotiate prices on 10 drugs from 2026 (rising to more than 20 a year by 2029), capped Part D out-of-pocket costs at $2,000, capped insulin at $35 and extended enhanced ACA subsidies for three years. Pharma's reaction was muted on the day because the provisions had been telegraphed, but the law introduced a permanent revenue haircut on the biggest Medicare drugs and a 'pill penalty' that shifted R&D incentives toward biologics.",
+   "evidence": "IRA signed 2022-08-16; negotiation of 10 drugs effective 2026, $2,000 Part D cap, $35 insulin cap",
+   "sources": [
+    {
+     "title": "Wikipedia: Inflation Reduction Act",
+     "url": "https://en.wikipedia.org/wiki/Inflation_Reduction_Act"
+    },
+    {
+     "title": "CMS: Inflation Reduction Act and Medicare",
+     "url": "https://www.cms.gov/inflation-reduction-act-and-medicare"
+    }
+   ]
+  },
+  {
+   "id": "cd-2023-homebuilder-rally",
+   "date": "2023-01-03",
+   "end_date": "2023-12-29",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "housing"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "rates",
+   "title": "Builders rally despite 7% mortgages, then surge on the Fed pivot",
+   "summary": "With existing-home inventory locked up, builders captured an outsized share of transactions using rate buy-downs: XHB was up 30.3% and ITB 38.3% by early autumn 2023 even with soft sales, and both hit records after the Fed's December 2023 pivot signalled rate cuts. The move inverted the 2022 trade and showed builders can outperform the index when supply, not demand, is the binding constraint.",
+   "evidence": "XHB +30.3% and ITB +38.3% YTD by early autumn 2023; record highs after the December 2023 Fed meeting",
+   "sources": [
+    {
+     "title": "Zacks: Here's why housing ETFs are up in 2023 despite soft sales",
+     "url": "https://www.zacks.com/amp/stock/news/2043889/heres-why-housing-etfs-are-up-in-2023-despite-soft-sales"
+    },
+    {
+     "title": "etf.com: Homebuilder ETFs rally, hit records after Fed comments",
+     "url": "https://www.etf.com/sections/news/homebuilder-etfs-rally-hit-records-after-fed-comments"
+    }
+   ]
+  },
+  {
+   "id": "hc-2023-tools-destocking",
+   "date": "2023-04-25",
+   "end_date": "2023-10-25",
+   "sector": "healthcare",
+   "subindustries": [
+    "life_sciences_tools"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Bioprocessing destocking and biotech funding drought hit tools",
+   "summary": "Danaher cut its 2023 outlook on April 25 as large customers worked down pandemic-era inventories of filters and single-use bags, and the stock tumbled; Thermo Fisher followed on October 25 (shares -5.5%, $458.26 to $433.18) citing bioprocessing orders that failed to normalise, weak early-stage biotech funding and China. The group, a pandemic winner, became one of 2023's worst healthcare sub-sectors while the S&P 500 rose 24%.",
+   "evidence": "TMO -5.5% from $458.26 to $433.18 after its 2023-10-25 guidance cut; DHR guidance cut 2023-04-25 on bioprocessing destocking",
+   "sources": [
+    {
+     "title": "CNBC: Danaher's guidance weighs on the stock (April 2023)",
+     "url": "https://www.cnbc.com/2023/04/25/danahers-guidance-weighs-on-the-stock-forces-reassessment-.html"
+    },
+    {
+     "title": "MedTech Dive: Thermo Fisher cuts 2023 guidance",
+     "url": "https://www.medtechdive.com/news/thermo-fisher-Q3-cuts-2023-guidance/697768/"
+    },
+    {
+     "title": "GEN: Danaher, Thermo Fisher revenue declines rattle analysts",
+     "url": "https://genengnews.com/gen-edge/stockwatch-danaher-thermo-fisher-revenue-declines-rattle-analysts"
+    }
+   ]
+  },
+  {
+   "id": "hc-2023-utilization-shock",
+   "date": "2023-06-14",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care",
+    "medical_devices",
+    "healthcare_facilities_services"
+   ],
+   "direction": "mixed",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "UnitedHealth flags surging outpatient surgery: insurers fall, devices and hospitals rally",
+   "summary": "At the Goldman Sachs conference UnitedHealth's CFO said seniors were returning for deferred procedures, pushing its medical-cost ratio to the top of its range. UNH closed about 6% lower, Humana fell 11% and Elevance 7%, while the same news lifted procedure beneficiaries: Stryker +5%, Medtronic +3%, HCA +3%, Tenet +4%. It was the start of the Medicare Advantage cost-trend problem that would dominate managed care for the next three years.",
+   "evidence": "UNH -6%, HUM -11%, ELV -7%; SYK +5%, HCA +3% on 2023-06-14",
+   "sources": [
+    {
+     "title": "CNBC: Health insurance stocks slide after UnitedHealth warns of higher medical costs",
+     "url": "https://www.cnbc.com/2023/06/14/health-stocks-slide-after-unitedhealth-warns-of-higher-medical-costs.html"
+    },
+    {
+     "title": "InsuranceNewsNet: UnitedHealth slumps, rival insurers follow",
+     "url": "https://insurancenewsnet.com/oarticle/unitedhealth-slumps-rival-insurers-follow-on-worries-over-rising-medical-costs-4"
+    }
+   ]
+  },
+  {
+   "id": "hc-2023-glp1-scare-devices",
+   "date": "2023-10-04",
+   "end_date": "2023-12-31",
+   "sector": "healthcare",
+   "subindustries": [
+    "medical_devices"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "GLP-1 scare trade hits diabetes devices, CPAP and bariatric names",
+   "summary": "Walmart's US CEO said GLP-1 users were already buying less food, and the 'Ozempic trade' spread from staples to devices. Insulin-pump and CGM makers were already under pressure (Dexcom -30% and Insulet -54% year-to-date by October 2023), and CPAP makers including ResMed fell when sleep-apnea trial data showed reduced need for therapy. Intuitive Surgical flagged softer bariatric volumes. The device sub-sector lagged the S&P 500 in 2023 before fears were judged overdone in 2024.",
+   "evidence": "DXCM -30% and PODD -54% YTD as of October 2023; CPAP makers fell on sleep-apnea GLP-1 data",
+   "sources": [
+    {
+     "title": "Yahoo Finance: Wall Street is still jittery on GLP-1s",
+     "url": "https://sg.finance.yahoo.com/news/wall-street-is-still-jittery-on-glp-1s-193106560.html"
+    },
+    {
+     "title": "Business Insider: Food retailers and producers slammed as GLP-1 alarms grow",
+     "url": "https://businessinsider.nl/food-retailers-and-producers-are-getting-slammed-as-glp-1-drugs-like-ozempic-raise-growing-alarms-about-demand"
+    }
+   ]
+  },
+  {
+   "id": "cd-2023-glp1-restaurants",
+   "date": "2023-10-04",
+   "end_date": "2023-10-31",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "travel_leisure_restaurants"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "The Ozempic scare reaches restaurants, snacks and beer",
+   "summary": "Walmart's comment that GLP-1 users were buying less food broadened the 'Ozempic trade' into restaurants, candy, beer and even airlines in the first week of October 2023; sell-side notes listed quick-service and casual-dining chains as volume losers. The move was sentiment-driven (consumer staples had its worst week since September 2022) and restaurant fundamentals did not show a GLP-1 effect in 2024, but the theme has resurfaced with every price cut since.",
+   "evidence": "Selloff in candy and beer stocks on GLP-1 fears the week of 2023-10-04; staples gauge -2.7% on the Friday",
+   "sources": [
+    {
+     "title": "Central Maine/Bloomberg: Ozempic threat is causing a selloff in candy and beer stocks",
+     "url": "https://www.centralmaine.com/2023/10/06/ozempic-threat-is-causing-a-selloff-in-candy-and-beer-stocks/"
+    },
+    {
+     "title": "Word & Brown: Food, clothing, airlines, Ozempic is coming for these industries",
+     "url": "https://jrreport.wordandbrown.com/2023/10/10/food-clothing-airlines-ozempic-is-coming-for-these-industries-and-more/"
+    }
+   ]
+  },
+  {
+   "id": "cs-2023-glp1-food-scare",
+   "date": "2023-10-04",
+   "end_date": "2024-01-31",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco",
+    "staples_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Walmart says GLP-1 users buy less; packaged food de-rates",
+   "summary": "Walmart US CEO John Furner told Bloomberg on October 4 2023 that GLP-1 users were already buying less, and the consumer staples gauge fell as much as 2.7% on October 6, its worst week since September 2022, with Walmart, Costco and Kroger also down; snack, candy and beer names led the declines. Over the following year the five largest pure-play packaged-food stocks fell roughly 18% while the S&P 500 gained 24%, and although fears eased in 2024 they returned in 2025 as GLP-1 prices were cut.",
+   "evidence": "Staples gauge -2.7% on 2023-10-06, worst week since Sept 2022; five largest packaged-food stocks -18% vs S&P 500 +24% over the following year",
+   "sources": [
+    {
+     "title": "Business Insider: Food retailers and producers slammed as GLP-1 drugs raise alarms",
+     "url": "https://businessinsider.nl/food-retailers-and-producers-are-getting-slammed-as-glp-1-drugs-like-ozempic-raise-growing-alarms-about-demand"
+    },
+    {
+     "title": "Manhattan Institute: Will GLP-1 drugs transform the food business?",
+     "url": "https://manhattan.institute/article/will-glp-1-drugs-transform-the-food-business"
+    },
+    {
+     "title": "Penn Mutual AM: GLP-1 drugs drop more than just weight",
+     "url": "https://www.pennmutualam.com/market-insights-news/blogs/chart-of-the-week/2023-10-19-glp-1-drugs-drop-more-than-just-weight"
+    }
+   ]
+  },
+  {
+   "id": "cs-2023-estee-lauder-collapse",
+   "date": "2023-11-01",
+   "end_date": null,
+   "sector": "consumer_staples",
+   "subindustries": [
+    "household_personal"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Estee Lauder's China travel-retail bust",
+   "summary": "Estee Lauder cut its fiscal 2024 outlook on a slower recovery in Asia travel retail (Hainan, Korea) and mainland China and fell 18.9% to $104.51 on November 1 2023, its largest one-day drop since the 1995 IPO and a six-year low; organic sales were down 8% in the quarter. From a January 2022 peak above $370 the company lost more than $100 billion of value over three years, the clearest casualty of the post-COVID China consumer disappointment within staples.",
+   "evidence": "EL -18.9% to $104.51 on 2023-11-01, largest drop since 1995 IPO; peak above $370 in January 2022",
+   "sources": [
+    {
+     "title": "AlphaStreet: Estee Lauder lowers FY2024 outlook on slow growth in China",
+     "url": "https://news.alphastreet.com/estee-lauder-el-lowers-full-year-2024-outlook-on-slow-growth-in-china"
+    },
+    {
+     "title": "Fortune via AOL: Estee Lauder has lost $100 billion in value in three years",
+     "url": "https://www.aol.com/finance/est-e-lauder-lost-100-103000729.html"
+    },
+    {
+     "title": "Investing.com/Reuters: Estee Lauder cuts annual profit outlook on weaker Asia travel retail",
+     "url": "https://m.investing.com/news/stock-market-news/estee-lauder-cuts-annual-profit-outlook-on-weaker-recovery-in-asia-travel-retail-3216792?ampMode=1"
+    }
+   ]
+  },
+  {
+   "id": "hc-2023-glp1-boom",
+   "date": "2023-11-08",
+   "end_date": "2024-06-30",
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "tech_cycle",
+   "title": "GLP-1 boom: Zepbound approval and the Lilly/Novo re-rating",
+   "summary": "The FDA approved Lilly's Zepbound (tirzepatide) for obesity on November 8 2023 after trials showing about 18% placebo-adjusted weight loss, following Novo's Wegovy outcomes data earlier in the year. Capital poured into the two GLP-1 leaders at the expense of the rest of pharma: Novo became Europe's most valuable company in 2023 and hit a $604 billion market cap in March 2024, while Lilly went on to a $1 trillion valuation on November 21 2025, the first for a health-care company.",
+   "evidence": "Zepbound approved 2023-11-08 (18% weight loss at 15 mg vs placebo); Novo market cap $604B in March 2024; Lilly $1T on 2025-11-21",
+   "sources": [
+    {
+     "title": "FDA: FDA approves new medication for chronic weight management (Zepbound)",
+     "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management"
+    },
+    {
+     "title": "Wikipedia: Novo Nordisk",
+     "url": "https://en.wikipedia.org/wiki/Novo_Nordisk"
+    },
+    {
+     "title": "Wikipedia: Eli Lilly and Company",
+     "url": "https://en.wikipedia.org/wiki/Eli_Lilly_and_Company"
+    }
+   ]
+  },
+  {
+   "id": "hc-2024-change-healthcare",
+   "date": "2024-02-21",
+   "end_date": "2024-04-16",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care",
+    "healthcare_technology",
+    "healthcare_facilities_services"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Change Healthcare ransomware attack",
+   "summary": "Hackers breached UnitedHealth's Change Healthcare claims-clearing unit on February 21 2024, paralysing provider payments for weeks. The attack cost $872 million in Q1 alone, an estimated $1.15-1.35 per share for the year, and UnitedHealth advanced about $9 billion of interest-free loans to providers. UNH was down about 15% year-to-date going into April earnings; providers and health-IT names with claims exposure were hit on cash-flow fears.",
+   "evidence": "Q1 2024 cyberattack cost $872M; full-year impact $1.15-1.35 per share; ~$9B of provider advances (UNH 10-Q)",
+   "sources": [
+    {
+     "title": "Healthcare Dive: Change cyberattack cost UnitedHealth $872M in Q1",
+     "url": "https://www.healthcaredive.com/news/change-cyberattack-unitedhealth-cost-q1-earnings/713288/"
+    },
+    {
+     "title": "UnitedHealth Group 10-Q, Q1 2024",
+     "url": "https://www.sec.gov/Archives/edgar/data/731766/000073176624000155/unh-20240331.htm"
+    }
+   ]
+  },
+  {
+   "id": "hc-2024-ma-final-rate",
+   "date": "2024-04-02",
+   "end_date": "2024-04-05",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "2025 Medicare Advantage final rate notice disappoints",
+   "summary": "CMS finalised 2025 MA payment rates essentially unchanged from the January advance notice (a 3.7% headline that was effectively flat on benchmarks), breaking the pattern of final rates coming in above the proposal. Insurers fell 6-12% on April 2 and Humana, the most MA-exposed, lost about 11% for the week. CMS also said it saw no late-2023 utilisation surge, contradicting the insurers, which investors read as a margin squeeze into 2025.",
+   "evidence": "Health insurers fell ~6% to 12% on 2024-04-02; HUM -10.9% for the week",
+   "sources": [
+    {
+     "title": "Reuters via Investing.com: US health insurers slide as final MA rate sparks margin fears",
+     "url": "https://m.investing.com/news/stock-market-news/us-health-insurers-slide-as-final-medicare-advantage-rate-sparks-margin-hit-fears-3361136?ampMode=1"
+    },
+    {
+     "title": "Motley Fool: Why Humana stock fell 10.9% this week",
+     "url": "https://www.fool.com/investing/2024/04/05/why-humana-stock-fell-109-this-week"
+    }
+   ]
+  },
+  {
+   "id": "hc-2024-hims-compounded-glp1",
+   "date": "2024-05-20",
+   "end_date": "2025-02-21",
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_technology"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "regulatory",
+   "title": "Hims & Hers rides compounded GLP-1s during the semaglutide shortage",
+   "summary": "With Ozempic and Wegovy on the FDA shortage list, Hims & Hers began selling compounded injectable semaglutide in May 2024 at a fraction of branded prices, turning a telehealth platform into the fastest-growing GLP-1 channel and the standout digital-health stock of 2024. The trade depended entirely on the shortage designation, which the FDA lifted in February 2025, setting up the 2025 confrontation with Novo.",
+   "evidence": "Hims launched compounded semaglutide in May 2024 following the national shortage of branded Ozempic/Wegovy",
+   "sources": [
+    {
+     "title": "Wikipedia: Hims & Hers Health",
+     "url": "https://en.wikipedia.org/wiki/Hims_%26_Hers_Health"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-walgreens-take-private",
+   "date": "2024-06-27",
+   "end_date": "2025-08-29",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "ma",
+   "title": "Walgreens' collapse ends in a $10 billion take-private",
+   "summary": "Walgreens said in June 2024 that only about 75% of its 8,600 US stores were profitable and it would close more than 2,000 by 2027; the stock fell more than 55% between January and July 2024 and was removed from the Dow in February 2024 in favour of Amazon. In March 2025 Sycamore Partners agreed to take it private at $11.45 a share (about $10 billion equity, up to $23.7 billion including debt and contingent payments), closing in August 2025. Drugstores had become a value trap within staples retail as reimbursement pressure and front-end share loss compounded.",
+   "evidence": "WBA -55% from January to July 2024; Sycamore deal at $11.45/share (~$10B equity) announced March 2025, closed August 2025",
+   "sources": [
+    {
+     "title": "NBC News: Walgreens to go private in roughly $10 billion deal",
+     "url": "https://www.nbcnews.com/business/business-news/walgreens-go-private-roughly-10-billion-deal-rcna195243"
+    },
+    {
+     "title": "Wikipedia: Walgreens Boots Alliance",
+     "url": "https://en.wikipedia.org/wiki/Walgreens_Boots_Alliance"
+    }
+   ]
+  },
+  {
+   "id": "cd-2024-nike-plunge",
+   "date": "2024-06-28",
+   "end_date": null,
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "apparel_luxury"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Nike's worst day on record on a surprise sales-decline forecast",
+   "summary": "Nike fell 20% on June 28 2024, its biggest one-day drop ever, wiping about $28.4 billion of value, after guiding to a fiscal 2025 sales decline on China weakness, lifestyle-franchise fatigue and share loss to On and Hoka; at least six brokers downgraded. The stock had already lagged for two years, and the day confirmed that capital had rotated from the mega-brands to challenger brands and off-price retailers.",
+   "evidence": "NKE -20% on 2024-06-28, worst day on record, ~$28.41B of market value lost",
+   "sources": [
+    {
+     "title": "Al Jazeera: Nike stock plunges on surprise forecast of drop in sales",
+     "url": "https://www.aljazeera.com/economy/2024/6/28/nike-stock-plunges-on-surprise-forecast-of-drop-in-sales"
+    },
+    {
+     "title": "Motley Fool: Nike's stock crashes, just do it and buy the dip",
+     "url": "https://www.fool.com/investing/2024/07/02/nikes-stock-crashes-just-do-it-and-buy-the-dip"
+    }
+   ]
+  },
+  {
+   "id": "hc-2024-first-negotiated-prices",
+   "date": "2024-08-15",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma",
+    "biotech_large"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "policy",
+   "title": "CMS publishes first 10 negotiated Medicare drug prices",
+   "summary": "CMS announced the outcome of the first IRA negotiation cycle: prices for 10 drugs (including Eliquis, Jardiance, Xarelto, Januvia, Imbruvica and Enbrel) effective 2026 that would have cut aggregate net Medicare spending by about 22%, or roughly $6 billion, had they applied in 2023. Stocks barely moved because the discounts were close to existing net prices, which reassured investors that the program was manageable, but it set the template for successive annual rounds.",
+   "evidence": "Negotiated prices equal to 22% lower aggregate net spending (~$6B) vs 2023; announced 2024-08-15",
+   "sources": [
+    {
+     "title": "CMS fact sheet: Negotiated prices for initial price applicability year 2026",
+     "url": "https://www.cms.gov/newsroom/fact-sheets/medicare-drug-price-negotiation-program-negotiated-prices-initial-price-applicability-year-2026"
+    }
+   ]
+  },
+  {
+   "id": "cs-2024-dollar-general-plunge",
+   "date": "2024-08-29",
+   "end_date": "2024-12-31",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Dollar General's 32% drop exposes the low-income consumer",
+   "summary": "Dollar General fell 32% on August 29 2024, its biggest drop since its 2009 IPO, after cutting full-year guidance and saying its core lower-income customers were financially constrained; Dollar Tree fell in sympathy. The stock ended 2024 down 44% as Walmart took share from dollar stores, splitting staples retail into winners (Walmart, Costco) and losers (dollar stores, drugstores) that persisted into 2025-2026.",
+   "evidence": "DG -32% on 2024-08-29, biggest decline since its 2009 IPO; DG -44% in 2024",
+   "sources": [
+    {
+     "title": "Bloomberg: Dollar General drops as forecast cut amid faltering turnaround",
+     "url": "https://www.bloomberg.com/news/articles/2024-08-29/dollar-general-drops-as-forecast-cut-amid-faltering-turnaround"
+    },
+    {
+     "title": "Motley Fool: Why Dollar General stock fell 44% in 2024",
+     "url": "https://www.fool.com/investing/2025/01/14/why-dollar-general-stock-fell-44-in-2024"
+    }
+   ]
+  },
+  {
+   "id": "hc-2024-rfk-nomination",
+   "date": "2024-11-14",
+   "end_date": "2025-02-13",
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma",
+    "biotech_large"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "election",
+   "title": "Trump picks RFK Jr. for HHS; vaccine makers sell off",
+   "summary": "Nine days after the 2024 election, reports that Trump would nominate vaccine sceptic Robert F. Kennedy Jr. as HHS Secretary sent Moderna down about 5.6%, Novavax 7%, Pfizer 2.6% and GSK 2% on November 14 2024, with further drops as the nomination advanced in January and was confirmed on February 13 2025. The move began a prolonged de-rating of vaccine and mRNA names and raised the perceived regulatory risk premium across pharma and biotech.",
+   "evidence": "MRNA -5.6%, NVAX -7%, PFE -2.6% on 2024-11-14",
+   "sources": [
+    {
+     "title": "NBC News: Vaccine maker stocks fall as Trump chooses RFK Jr. to lead HHS",
+     "url": "https://www.nbcnews.com/business/markets/vaccine-maker-stocks-fall-trump-chooses-rfk-jr-lead-hhs-rcna180236"
+    },
+    {
+     "title": "Sherwood: Vaccine stocks tumbling on RFK Jr. nomination",
+     "url": "https://sherwood.news/business/vaccine-stocks-are-tumbling-on-news-of-rfk-jr-nomination-to-lead-hhs"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-nih-cuts",
+   "date": "2025-01-22",
+   "end_date": "2026-01-31",
+   "sector": "healthcare",
+   "subindustries": [
+    "life_sciences_tools"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "NIH funding freeze and grant terminations hit academic tools demand",
+   "summary": "On January 22 2025 the new administration froze NIH meetings, travel and hiring (affecting $47.4 billion of activity), followed by the proposed 15% cap on indirect costs and mass grant terminations; more than 5,800 grants were cancelled or suspended within a year and about 2,600 worth $1.4 billion remained suspended in January 2026. Academic and government labs are a mid-single-digit to low-teens share of tools revenue, so instrument makers (Bruker, Waters, Agilent, Thermo) guided to softer academic demand through 2025.",
+   "evidence": "More than 5,800 NIH grants cancelled or suspended within a year; ~2,600 grants worth $1.4B still suspended as of January 2026",
+   "sources": [
+    {
+     "title": "Wikipedia: National Institutes of Health (2025 funding disruptions)",
+     "url": "https://en.wikipedia.org/wiki/National_Institutes_of_Health"
+    }
+   ]
+  },
+  {
+   "id": "cd-2025-auto-tariffs",
+   "date": "2025-03-26",
+   "end_date": "2025-03-27",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "autos"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "25% tariffs on imported vehicles and parts",
+   "summary": "Trump's March 26 2025 proclamation imposed 25% tariffs on all imported cars and light trucks (effective April 3) and on certain parts (by May 3). GM, the most Mexico-exposed, fell more than 7% on March 27, Ford more than 3% and Stellantis about 1%, while Tesla, with all US assembly, was unchanged; Toyota and European makers also fell. The tariff was later layered with the Section 232 regime that survived the 2026 IEEPA ruling.",
+   "evidence": "GM -7%+, F -3%+, STLA -1% on 2025-03-27; TSLA flat",
+   "sources": [
+    {
+     "title": "CNBC: Why GM stock is getting hit the hardest by Trump auto tariffs",
+     "url": "https://www.cnbc.com/2025/03/27/gm-stock-trump-auto-tariffs.html"
+    },
+    {
+     "title": "Forbes: US and global auto stocks tumble after Trump's 25% tariff announcement",
+     "url": "https://www.forbes.com/sites/siladityaray/2025/03/27/us-and-global-auto-stocks-tumble-after-trumps-25-tariff-announcement-tesla-shares-unaffected/"
+    }
+   ]
+  },
+  {
+   "id": "cd-2025-liberation-day-apparel",
+   "date": "2025-04-02",
+   "end_date": "2025-04-09",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "apparel_luxury",
+    "specialty_retail"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "'Liberation Day' tariffs: 46% on Vietnam hammers apparel and footwear",
+   "summary": "The April 2 2025 reciprocal tariffs put 46% on Vietnam, 32% on Indonesia and 34% on China, the three countries that make most US footwear and apparel. Nike, which sources about half its shoes from Vietnam, fell 10-13% on April 3; Lululemon, Deckers, Abercrombie, Gap, American Eagle and Wayfair dropped as much as 11%; Stifel estimated a $1.69 hit to Nike's EPS. Specialty and discount retailers importing from Asia (Five Below, Dollar Tree) were hit as hard, and the sub-industry only stabilised after the April 9 pause.",
+   "evidence": "NKE -10% to -13% on 2025-04-03 after the 46% Vietnam tariff; LULU, DECK, ANF, GAP down up to 11%",
+   "sources": [
+    {
+     "title": "CNBC: Trump's 46% Vietnam tariffs pummel Nike, American Eagle and Wayfair",
+     "url": "https://www.cnbc.com/2025/04/02/trump-tariffs-on-vietnam-could-raise-prices-for-shoes-furniture-toys.html"
+    },
+    {
+     "title": "Bloomberg: Nike, Adidas stocks fall as Trump's tariffs hit Vietnam",
+     "url": "https://www.bloomberg.com/news/articles/2025-04-02/trump-tariffs-poised-to-make-nike-adidas-shoes-more-expensive"
+    },
+    {
+     "title": "GuruFocus: Lululemon's Vietnam bet backfires as Trump slaps 46% tariff",
+     "url": "https://www.gurufocus.com/news/2762037/lululemons-vietnam-bet-backfires-as-trump-slaps-46-tariff"
+    }
+   ]
+  },
+  {
+   "id": "cd-2025-de-minimis-end",
+   "date": "2025-04-02",
+   "end_date": "2025-08-29",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "internet_retail"
+   ],
+   "direction": "mixed",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "End of the de minimis exemption",
+   "summary": "Executive Order 14256 (April 2 2025) ended duty-free de minimis treatment for Chinese and Hong Kong parcels, and EO 14324 (signed July 30) extended the suspension to all countries from August 29 2025, subjecting every low-value import to duties. The change removed the cost advantage of Temu, Shein and AliExpress direct-from-China shipping and was read as a relative positive for Amazon, Etsy and domestic marketplaces, while raising costs for small cross-border sellers.",
+   "evidence": "EO 14324 signed 2025-07-30 suspending de minimis for all countries effective 2025-08-29, following the China/HK suspension under EO 14256 (2025-04-02)",
+   "sources": [
+    {
+     "title": "White House: Suspending duty-free de minimis treatment for all countries",
+     "url": "https://www.whitehouse.gov/presidential-actions/2025/07/suspending-duty-free-de-minimis-treatment-for-all-countries/"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-unh-collapse",
+   "date": "2025-04-17",
+   "end_date": "2025-12-31",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "UnitedHealth collapses: guidance cut, CEO exit, DOJ probe",
+   "summary": "UnitedHealth fell 23% on April 17 2025 after cutting 2025 adjusted EPS guidance to $26-26.50 from $29.50-30 on Medicare Advantage costs 'far above' plan. On May 13 CEO Andrew Witty resigned and guidance was suspended; on May 15 a WSJ report of a DOJ criminal Medicare-fraud probe took the stock down a further 13%, and in July the company confirmed criminal and civil investigations (-4.7%). UNH ended 2025 at $330.11 versus $505.86 at end-2024, a 35% loss in a year the S&P 500 rose, dragging the whole managed-care group.",
+   "evidence": "UNH -23.1% on 2025-04-17; -13% on 2025-05-15; closed 2025 at $330.11 vs $505.86 at end-2024",
+   "sources": [
+    {
+     "title": "Fierce Healthcare: UnitedHealth cuts profit outlook, shares plunge",
+     "url": "https://www.fiercehealthcare.com/payers/unitedhealth-group-cuts-profit-outlook-citing-higher-expected-medicare-advantage-care-costs"
+    },
+    {
+     "title": "CNBC: UnitedHealth shares plunge 13% on report of DOJ probe",
+     "url": "https://www.cnbc.com/2025/05/15/unitedhealth-group-stock-doj-investigation-report.html"
+    },
+    {
+     "title": "Wikipedia: UnitedHealth Group",
+     "url": "https://en.wikipedia.org/wiki/UnitedHealth_Group"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-maha-food-dyes",
+   "date": "2025-04-22",
+   "end_date": "2026-12-31",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "regulatory",
+   "title": "MAHA: HHS moves to phase out synthetic food dyes",
+   "summary": "HHS Secretary Kennedy and the FDA announced on April 22 2025 a plan to remove six synthetic dyes (including Red 40 and Yellow 5) from the food supply by the end of 2026, stopping short of a formal ban and relying on voluntary industry action; Campbell and Nestle pledged compliance while Mondelez and Coca-Cola did not commit. The announcement added reformulation cost and 'ultra-processed food' headline risk to a packaged-food group already de-rated by GLP-1 fears. A measurable same-day stock reaction was not found.",
+   "evidence": "Plan to eliminate six synthetic dyes by end-2026 announced 2025-04-22; two of eight large food companies had pledged by the Reuters review",
+   "sources": [
+    {
+     "title": "NPR: RFK Jr. wants the food industry to stop using synthetic dyes",
+     "url": "https://www.npr.org/sections/shots-health-news/2025/04/22/nx-s1-5372637/food-dyes-ban-fda-rfk-kennedy"
+    },
+    {
+     "title": "Reuters via Investing.com: RFK Jr. pushed food companies to cut artificial dyes, why they're moving slowly",
+     "url": "https://www.investing.com/news/stock-market-news/rfk-jr-pushed-food-companies-to-cut-artificial-dyes-heres-why-theyre-moving-slowly-4469634"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-mfn-executive-order",
+   "date": "2025-05-12",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma",
+    "biotech_large",
+    "biotech_smid"
+   ],
+   "direction": "mixed",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Most-favored-nation drug pricing order: sell the rumour, buy the news",
+   "summary": "Trump signed an executive order directing drugmakers to match the lowest prices paid in other rich countries. Because the threat had been telegraphed and investors doubted it could be implemented without legislation, pharma and biotech rallied on the day (XBI up more than 4% by midday; Merck, Pfizer, Lilly higher). The order nonetheless became the lever for the September-November 2025 company-by-company pricing deals and the TrumpRx channel.",
+   "evidence": "XBI +4% intraday on 2025-05-12 despite the MFN order (STAT)",
+   "sources": [
+    {
+     "title": "STAT: Trump's drug-pricing order takes a hard line; investors shrugged",
+     "url": "https://www.statnews.com/2025/05/12/trump-drug-pricing-order-most-favored-nations-market-reaction/"
+    },
+    {
+     "title": "CNBC: Trump to sign most favored nation drug pricing order",
+     "url": "https://www.cnbc.com/2025/05/12/trump-drug-pricing-order-most-favored-nation.html"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-hims-novo-breakup",
+   "date": "2025-06-23",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_technology"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "Novo ends Hims & Hers partnership; HIMS falls 35%",
+   "summary": "Two months after agreeing in April 2025 to sell branded Wegovy through Hims & Hers, Novo Nordisk unilaterally terminated the collaboration, accusing Hims of 'deceptive promotion' of compounded knock-offs. Hims shares fell roughly 35% in a day and securities class actions followed. The episode showed how dependent the GLP-1 telehealth trade was on regulatory tolerance of compounding after the FDA ended the shortage designation.",
+   "evidence": "HIMS fell ~35% on 2025-06-23 after Novo terminated the Wegovy collaboration",
+   "sources": [
+    {
+     "title": "Wikipedia: Hims & Hers Health",
+     "url": "https://en.wikipedia.org/wiki/Hims_%26_Hers_Health"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-centene-guidance",
+   "date": "2025-07-01",
+   "end_date": "2025-07-02",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Centene pulls guidance on ACA exchange risk adjustment",
+   "summary": "Centene withdrew its 2025 guidance after Wakely data covering 22 of its 29 marketplace states implied a $1.8 billion cut to risk-adjustment revenue (about $2.75 of EPS) because exchange enrollees were sicker and growth slower than priced. The stock fell as much as 40% on July 2 and Molina, Oscar and Elevance sold off in sympathy, as investors re-priced the whole government-sponsored book (Medicaid redeterminations, exchange morbidity) ahead of the subsidy cliff.",
+   "evidence": "CNC withdrew guidance 2025-07-01 citing a $1.8B risk-adjustment shortfall; shares fell as much as 40% on 2025-07-02",
+   "sources": [
+    {
+     "title": "Centene 8-K press release, July 1 2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/1071739/000107173925000128/a7012025formex991pressrele.htm"
+    },
+    {
+     "title": "Fierce Healthcare: Centene stock sinks as insurer withdraws 2025 guidance",
+     "url": "https://www.fiercehealthcare.com/payers/centene-stock-sinks-insurer-withdraws-2025-guidance"
+    },
+    {
+     "title": "AdvisorHub/Bloomberg: Centene plunges in foreboding sign for health insurers",
+     "url": "https://www.advisorhub.com/centene-plunges-in-foreboding-sign-for-health-insurers/"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-obbba-medicaid",
+   "date": "2025-07-04",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_facilities_services",
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "One Big Beautiful Bill Act cuts Medicaid by about $1 trillion",
+   "summary": "The OBBBA, signed July 4 2025, imposes 80-hour monthly work requirements, six-monthly eligibility checks, a provider-tax cap falling from 6% to 3.5% by 2031 and tighter retroactive coverage, cutting federal Medicaid/CHIP funding by roughly $1 trillion over ten years; CBO estimated about 10 million more uninsured by 2034 (10.9 million for the House version), partly offset by a $50 billion rural hospital fund. Hospital operators and Medicaid managed-care insurers (Centene, Molina) carry the exposure, with most provisions phasing in from 2027.",
+   "evidence": "CBO: ~$1T reduction in federal Medicaid/CHIP funding over 10 years and ~10M more uninsured by 2034; provider tax cap 6% to 3.5% by 2031",
+   "sources": [
+    {
+     "title": "Wikipedia: One Big Beautiful Bill Act",
+     "url": "https://en.wikipedia.org/wiki/One_Big_Beautiful_Bill_Act"
+    },
+    {
+     "title": "CRS: Health coverage provisions in H.R. 1",
+     "url": "https://www.congress.gov/crs-product/R48569"
+    },
+    {
+     "title": "Select Medical 10-Q (Q3 2025) discussion of OBBBA",
+     "url": "https://www.sec.gov/Archives/edgar/data/1320414/000132041425000015/sem-20250930.htm"
+    }
+   ]
+  },
+  {
+   "id": "cd-2025-ev-credit-expiry",
+   "date": "2025-07-04",
+   "end_date": "2025-09-30",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "autos"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "OBBBA terminates EV tax credits after September 30 2025",
+   "summary": "The One Big Beautiful Bill Act ended the $7,500 new and $4,000 used clean-vehicle credits for purchases after September 30 2025 and the charging-property credit after June 2026. The deadline produced a Q3 2025 EV sales pull-forward followed by a demand cliff in Q4, hitting Rivian, Lucid and the EV programs of GM and Ford, while Tesla's exposure was partly offset by its robotaxi and AI narrative.",
+   "evidence": "Clean-vehicle credits end for purchases after 2025-09-30 (OBBBA, signed 2025-07-04)",
+   "sources": [
+    {
+     "title": "Wikipedia: One Big Beautiful Bill Act",
+     "url": "https://en.wikipedia.org/wiki/One_Big_Beautiful_Bill_Act"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-obbba-snap-cuts",
+   "date": "2025-07-04",
+   "end_date": null,
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail",
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "OBBBA cuts SNAP by $186 billion",
+   "summary": "The One Big Beautiful Bill Act extends SNAP work requirements to ages 18-64, shifts up to 15% of benefit costs and 75% of administration costs to states and restricts Thrifty Food Plan updates, reducing federal nutrition funding by $186 billion over 2025-2034. SNAP is a meaningful share of sales at dollar stores, discount grocers and Walmart and of volumes for packaged-food makers, so the law is a slow-burning headwind for the lower-income staples channel from 2026.",
+   "evidence": "Federal nutrition (SNAP) funding reduced by $186B over 2025-2034; work requirements extended to age 64",
+   "sources": [
+    {
+     "title": "Wikipedia: One Big Beautiful Bill Act",
+     "url": "https://en.wikipedia.org/wiki/One_Big_Beautiful_Bill_Act"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-novo-guidance-cut",
+   "date": "2025-07-29",
+   "end_date": "2025-09-10",
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "earnings",
+   "title": "Novo Nordisk guidance cut: the GLP-1 leader loses its crown",
+   "summary": "Novo slashed 2025 growth guidance on July 29 2025 as compounded semaglutide and Lilly's Zepbound took US share, and the shares plummeted (WSJ: 'Novo Nordisk shares plummet as competition weighs on sales'). Having been the world's second most valuable drugmaker in late 2024, Novo had slipped to fifth by July 2025; a new CEO took over on August 7 and 9,000 job cuts (about 9% of staff) were announced in September. Capital concentrated further in Lilly.",
+   "evidence": "Novo fell from 2nd most valuable drug company (Oct 2024) to 5th by July 2025; 9,000 job cuts announced September 2025",
+   "sources": [
+    {
+     "title": "Wikipedia: Novo Nordisk (2025 developments)",
+     "url": "https://en.wikipedia.org/wiki/Novo_Nordisk"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-kdp-jde-peets",
+   "date": "2025-08-25",
+   "end_date": "2026-04-07",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "ma",
+   "title": "Keurig Dr Pepper buys JDE Peet's for $18 billion and plans to split",
+   "summary": "KDP agreed to buy JDE Peet's for $18 billion (EUR 15.7 billion) and to separate into a global coffee company and a US beverage company; the stock fell 11% on August 25 2025 and S&P put it on CreditWatch negative on leverage and deal complexity. The deal closed in 2026 with 96% of JDE Peet's shares tendered. It was part of a 2025 wave of defensive restructurings in food and beverage (Kraft Heinz split, Kellanova sale) as the group searched for growth.",
+   "evidence": "KDP -11% on 2025-08-25 on the $18B JDE Peet's deal; S&P CreditWatch negative",
+   "sources": [
+    {
+     "title": "Barchart/AP: Dr Pepper buys Peet's for $18 billion and will split",
+     "url": "https://www.barchart.com/story/news/34363048/dr-pepper-buys-peet-s-for-18-billion-and-will-split-into-separate-coffee-and-cold-drink-sellers"
+    },
+    {
+     "title": "JDE Peet's: Keurig Dr Pepper acquires JDE Peet's",
+     "url": "https://www.jdepeets.com/news-container/keurig-dr-pepper-acquires-jde-peets-and--announces-rafael-oliveira-as-ceo-of-future-global-coffee-co.-3266395"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-kraft-heinz-split",
+   "date": "2025-09-02",
+   "end_date": null,
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "Kraft Heinz unwinds the 2015 merger",
+   "summary": "Kraft Heinz's board approved splitting into a sauces/spreads company (Heinz, Kraft Mac & Cheese) and a North American grocery company (Oscar Mayer, Lunchables) at a cost of up to $300 million, a decade after the 3G/Berkshire merger. The shares had lost about 60% since 2015, and the split was read as an admission that scale without growth no longer earns a premium in packaged food.",
+   "evidence": "KHC shares down ~60% since the 2015 merger at the time of the 2025-09-02 split announcement",
+   "sources": [
+    {
+     "title": "Al Jazeera: Kraft Heinz to split into two companies as financial struggles mount",
+     "url": "https://www.aljazeera.com/economy/2025/9/2/kraft-heinz-to-split-into-two-companies-as-financial-struggles-mount"
+    },
+    {
+     "title": "TODAY: Kraft Heinz splits, separating ketchup from hot dogs",
+     "url": "https://www.today.com/food/news/kraft-heinz-split-rcna228512"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-kenvue-tylenol",
+   "date": "2025-09-22",
+   "end_date": "2025-10-31",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "household_personal"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "regulatory",
+   "title": "Trump links Tylenol to autism; Kenvue sells off",
+   "summary": "On September 22 2025 President Trump and HHS announced a claimed link between acetaminophen use in pregnancy and autism, contradicting medical consensus; Kenvue, the Tylenol maker spun out of J&J in May 2023, dropped sharply and stayed depressed on litigation and political risk. The episode showed that under the MAHA agenda even over-the-counter household brands carry regulatory headline risk, and it set up Kenvue as a distressed acquisition target.",
+   "evidence": "Kenvue shares 'dropped sharply' after Trump's Tylenol comments and were still depressed when the KMB bid arrived (Al Jazeera, Nov 2025)",
+   "sources": [
+    {
+     "title": "Al Jazeera: Kimberly-Clark to buy Tylenol maker Kenvue for $40bn",
+     "url": "https://www.aljazeera.com/economy/2025/11/3/kimberly-clark-to-buy-tylenol-maker-kenvue-for-40bn"
+    },
+    {
+     "title": "NBC News: Kimberly-Clark to buy Kenvue in $48.7 billion deal",
+     "url": "https://www.nbcnews.com/business/business-news/kimberly-clark-buy-kenvue-487-billion-deal-rcna241548"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-pharma-tariff-threat",
+   "date": "2025-09-25",
+   "end_date": "2025-11-06",
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma"
+   ],
+   "direction": "mixed",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Trump threatens 100% tariffs on branded drugs unless companies build in the US",
+   "summary": "On September 25 2025 Trump announced 100% tariffs on imported branded or patented drugs from October 1 for any company not building US plants, with exemptions for firms with construction under way. The threat was postponed to extract company-specific deals on pricing and onshoring (Pfizer, AstraZeneca and others announced TrumpRx agreements and US capex pledges), which is why the large caps were little changed while European and Japanese exporters bore the uncertainty. A day-of market move was not retrievable.",
+   "evidence": "100% tariff on patented drugs announced for 2025-10-01 with exemptions for companies building US plants; later postponed pending negotiated agreements",
+   "sources": [
+    {
+     "title": "Fierce Pharma: Trump slaps 100% duties on imported drugs but leaves exceptions",
+     "url": "https://www.fiercepharma.com/pharma/trump-slaps-100-duties-imported-drugs-there-are-plenty-exceptions"
+    },
+    {
+     "title": "BioPharma Dive: Trump revives pharma tariffs with 100% levies",
+     "url": "https://www.biopharmadive.com/news/trump-revives-pharma-tariffs-100-percent-levies/816584/"
+    },
+    {
+     "title": "Freshfields: Trump's pharma tariff ultimatum",
+     "url": "https://www.freshfields.com/en/our-thinking/blogs/a-fresh-take/trumps-pharma-tariff-ultimatum-102mqe9"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-aca-subsidy-cliff",
+   "date": "2025-10-01",
+   "end_date": "2025-12-31",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care",
+    "healthcare_facilities_services"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Shutdown fight over expiring enhanced ACA subsidies",
+   "summary": "The enhanced ACA premium tax credits from the 2021 American Rescue Plan, extended by the IRA, were set to expire at the end of 2025; the dispute drove a federal shutdown that passed 39 days in early November 2025. KFF found insurers proposing a median 18% premium increase for 2026 (versus 7% a year earlier), citing the expiration, with warnings that premiums could more than double for some enrollees and enrollment could fall. Exchange-heavy insurers (Oscar, Centene) and hospitals with high exchange mix carried the risk into 2026.",
+   "evidence": "KFF: median proposed 2026 marketplace premium increase 18% vs 7% the prior year, with insurers citing enhanced-subsidy expiration",
+   "sources": [
+    {
+     "title": "KFF: How much and why ACA marketplace premiums are going up in 2026",
+     "url": "https://www.kff.org/affordable-care-act/issue-brief/how-much-and-why-aca-marketplace-premiums-are-going-up-in-2026/"
+    },
+    {
+     "title": "Wikipedia: Affordable Care Act (2025 shutdown section)",
+     "url": "https://en.wikipedia.org/wiki/Affordable_Care_Act"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-kimberly-clark-kenvue",
+   "date": "2025-11-03",
+   "end_date": "2026-11-02",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "household_personal"
+   ],
+   "direction": "mixed",
+   "magnitude": "major",
+   "driver_type": "ma",
+   "title": "Kimberly-Clark buys Kenvue for $48.7 billion",
+   "summary": "Kimberly-Clark agreed to acquire Kenvue for $3.50 cash plus 0.14625 KMB shares per share ($21.01, a 46% premium, $48.7 billion enterprise value). Kenvue rose about 18% and Kimberly-Clark fell 12.5% on November 3 2025 as shareholders questioned the premium and Tylenol litigation; the deal closed on November 2 2026 and Kenvue left the S&P 500. It is the largest household-products deal since P&G-Gillette and a bet that scale in OTC and personal care can reignite growth.",
+   "evidence": "KVUE +18% and KMB -12.5% on 2025-11-03; $48.7B enterprise value, closed 2026-11-02",
+   "sources": [
+    {
+     "title": "CBS News: Kimberly-Clark to acquire Tylenol maker Kenvue in $48.7 billion deal",
+     "url": "https://www.cbsnews.com/news/kenvue-kimberly-clark-acquisition-tylenol/"
+    },
+    {
+     "title": "Kimberly-Clark: Completes acquisition of Kenvue (Nov 2026)",
+     "url": "https://www.investor.kimberly-clark.com/news-releases/news-release-details/kimberly-clark-completes-acquisition-kenvue-creating-preeminent"
+    }
+   ]
+  },
+  {
+   "id": "hc-2025-glp1-price-deal",
+   "date": "2025-11-06",
+   "end_date": "2026-02-28",
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma",
+    "healthcare_technology"
+   ],
+   "direction": "mixed",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Lilly and Novo cut GLP-1 prices for Medicare and TrumpRx; Lilly hits $1 trillion",
+   "summary": "On November 6 2025 the White House announced deals under which Medicare and Medicaid pay $245 a month for GLP-1s, Medicare covers obesity for about 10% of beneficiaries at a $50 copay, and cash prices on TrumpRx (launched February 2026) start at or below $350 falling to $245, with oral starter doses at $149; the companies received tariff relief. Novo fell about 3.6% on the day; Lilly's volume story was reinforced and it reached a $1 trillion market cap on November 21 2025. Cheaper branded supply is a direct threat to compounded-GLP-1 telehealth models.",
+   "evidence": "Medicare/Medicaid GLP-1 price $245/month and $50 copay announced 2025-11-06; NVO -3.6% intraday; LLY reached $1T market cap on 2025-11-21",
+   "sources": [
+    {
+     "title": "CNBC: Trump announces deals with Eli Lilly, Novo Nordisk to slash weight loss drug prices",
+     "url": "https://www.cnbc.com/2025/11/06/trump-eli-lilly-novo-nordisk-deal-obesity-drug-prices.html"
+    },
+    {
+     "title": "Al Jazeera: Weight-loss drug makers announce pricing agreement with Trump",
+     "url": "https://www.aljazeera.com/economy/2025/11/6/weight-loss-drug-makers-announce-pricing-agreement-with-trump"
+    },
+    {
+     "title": "Wikipedia: Eli Lilly and Company ($1T market value)",
+     "url": "https://en.wikipedia.org/wiki/Eli_Lilly_and_Company"
+    }
+   ]
+  },
+  {
+   "id": "cs-2025-glp1-price-cuts-food",
+   "date": "2025-11-06",
+   "end_date": "2026-02-28",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "policy",
+   "title": "GLP-1 price cuts and Medicare obesity coverage revive the food scare",
+   "summary": "The November 6 2025 Lilly/Novo agreements cut GLP-1 prices to $245 a month for government programs, added Medicare obesity coverage for about 10% of beneficiaries and launched sub-$350 cash prices on TrumpRx (February 2026), with oral starter doses at $149. Wider affordability re-opened the 2023 question of structural volume loss for snacks, confectionery and beer, which had already de-rated after the 2023 scare and fell again in 2025.",
+   "evidence": "Government GLP-1 price $245/month, Medicare coverage for ~10% of beneficiaries, TrumpRx cash prices at or below $350 announced 2025-11-06",
+   "sources": [
+    {
+     "title": "CNBC: Trump announces deals with Eli Lilly, Novo Nordisk to slash weight loss drug prices",
+     "url": "https://www.cnbc.com/2025/11/06/trump-eli-lilly-novo-nordisk-deal-obesity-drug-prices.html"
+    },
+    {
+     "title": "Manhattan Institute: Will GLP-1 drugs transform the food business?",
+     "url": "https://manhattan.institute/article/will-glp-1-drugs-transform-the-food-business"
+    }
+   ]
+  },
+  {
+   "id": "hc-2026-biotech-leads",
+   "date": "2026-01-02",
+   "end_date": "2026-11-03",
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_smid",
+    "biotech_large"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Biotech leads health care in 2026 as devices lag",
+   "summary": "After four years of underperformance, biotech became the sector's leader in 2026: XBI was up about 24.8% and IBB 26.8% year-to-date as of November 3 2026, versus roughly 20% for the broad sector funds and about 12% for the S&P 500 at mid-year readings, helped by lower policy uncertainty after the pricing deals, M&A and falling rates. XBI cooled about 1.5% over the past month. IHI (medical devices) was the only major health-care ETF in negative territory for the year.",
+   "evidence": "XBI +24.82% YTD and IBB +26.79% YTD as of 2026-11-03 (etf.com); IHI the only major healthcare ETF in the red",
+   "sources": [
+    {
+     "title": "etf.com: Healthcare ETFs 2026, biotech leads, medical devices lag",
+     "url": "https://www.etf.com/sections/news/healthcare-etfs-2026-biotech-leads-medical-devices-lag"
+    },
+    {
+     "title": "Yahoo Finance: Biotech ETFs put up strong show in 1H 2026",
+     "url": "https://finance.yahoo.com/healthcare/articles/biotech-etfs-put-strong-show-160000067.html"
+    }
+   ]
+  },
+  {
+   "id": "hc-2026-devices-lag",
+   "date": "2026-01-02",
+   "end_date": "2026-11-03",
+   "sector": "healthcare",
+   "subindustries": [
+    "medical_devices"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "Medical devices are 2026's healthcare laggard",
+   "summary": "Having been the sector's quality-growth refuge in 2024-2025, device makers lost leadership in 2026: IHI was the only major health-care ETF with a negative year-to-date return as of early November 2026 while biotech and the broad sector gained 20%+. Drivers cited in sector commentary were rotation out of crowded quality names into beaten-down biotech, tariff exposure on imported components, and renewed GLP-1 volume worries for diabetes and sleep devices.",
+   "evidence": "IHI negative YTD as of 2026-11-03 while XBI +24.8% and XLV ~+20% (etf.com)",
+   "sources": [
+    {
+     "title": "etf.com: Healthcare ETFs 2026, biotech leads, medical devices lag",
+     "url": "https://www.etf.com/sections/news/healthcare-etfs-2026-biotech-leads-medical-devices-lag"
+    }
+   ]
+  },
+  {
+   "id": "cs-2026-staples-record",
+   "date": "2026-01-02",
+   "end_date": "2026-11-04",
+   "sector": "consumer_staples",
+   "subindustries": [
+    "staples_retail",
+    "food_beverage_tobacco",
+    "household_personal"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "positioning",
+   "title": "Staples' best year since the 1998 launch: XLP +17% and at records",
+   "summary": "Staples had their best start to a year since XLP launched in 1998 (up about 13% by late February 2026) and reached a record high on November 4 2026, up roughly 17% year-to-date while consumer discretionary was flat, as investors rotated into Walmart, Costco, Coca-Cola and P&G on consumer-stress, tariff and AI-capex worries. By February the sector traded at its most expensive relative valuation in about 25 years despite flat 2025 earnings, so the move is positioning-driven rather than earnings-driven.",
+   "evidence": "XLP record high on 2026-11-04, ~+17% YTD (GuruFocus); +13% by late February 2026, best start since 1998 launch (Motley Fool)",
+   "sources": [
+    {
+     "title": "GuruFocus: Consumer Staples ETF XLP hits record high",
+     "url": "https://www.gurufocus.com/news/9170125/consumer-staples-etf-xlp-hits-record-high-driven-by-major-stocks"
+    },
+    {
+     "title": "Motley Fool: Consumer staples just got expensive in a way not seen in 25 years",
+     "url": "https://www.fool.com/investing/2026/02/24/consumer-staples-got-expensive-in-a-way-warning/"
+    },
+    {
+     "title": "MarketBeat: Why consumer staples are winning 2026",
+     "url": "https://www.marketbeat.com/articles/consumer-staples-are-massively-outperforming-the-marketheres-why/"
+    }
+   ]
+  },
+  {
+   "id": "cd-2026-xly-stall",
+   "date": "2026-01-12",
+   "end_date": "2026-10-31",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "internet_retail",
+    "autos"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "Consumer discretionary stalls in 2026 while staples make records",
+   "summary": "XLY set an all-time closing high of 123.75 on January 12 2026 and then went nowhere: the sector index was down about 2.7% year-to-date at October 31 2026 (roughly flat to +3% by early November after a 6% October bounce) while consumer staples rose about 17% and biotech 25%. With Amazon and Tesla dominating the fund, the stall reflected scepticism about AI capex returns at Amazon, the EV demand cliff after the credit expiry, and a defensive rotation as the low-income consumer weakened.",
+   "evidence": "XLY all-time high close 123.75 on 2026-01-12; sector index -2.72% YTD at 2026-10-31 (SSGA) vs XLP ~+17% YTD",
+   "sources": [
+    {
+     "title": "Macrotrends: XLY stock price history",
+     "url": "https://www.macrotrends.net/stocks/charts/XLY/state-street-consumer-discretionary-select-sector-spdr-etf/stock-price-history"
+    },
+    {
+     "title": "SSGA: Consumer Discretionary Select Sector SPDR (XLY)",
+     "url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-consumer-discretionary-select-sector-spdr-etf-xly"
+    },
+    {
+     "title": "GuruFocus: Consumer Staples ETF XLP hits record high",
+     "url": "https://www.gurufocus.com/news/9170125/consumer-staples-etf-xlp-hits-record-high-driven-by-major-stocks"
+    }
+   ]
+  },
+  {
+   "id": "hc-2026-ma-advance-notice",
+   "date": "2026-01-26",
+   "end_date": "2026-01-27",
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "Near-flat 2027 Medicare Advantage proposal: UNH and Humana lose a fifth of their value",
+   "summary": "CMS's advance notice proposed a 0.09% average payment change for 2027 Medicare Advantage plans, far below the increases insurers had assumed for margin recovery. UnitedHealth fell 20.7% and Humana 22% between the release and the following afternoon, with CVS and Elevance also down sharply, in the worst single policy shock to the group since the 2019 Medicare for All scare.",
+   "evidence": "UNH -20.7% and HUM -22% from the 2026-01-26 advance notice to the next afternoon",
+   "sources": [
+    {
+     "title": "CNBC: Humana, UnitedHealth plunge 20% after Trump administration proposes keeping MA rates flat",
+     "url": "https://www.cnbc.com/2026/01/26/health-insurers-tumble-after-trump-proposes-keeping-medicare-rates-flat.html"
+    },
+    {
+     "title": "Morningstar: Managed care stocks plunge following almost-flat Medicare rate proposal",
+     "url": "https://www.morningstar.com/markets/healthcare-managed-care-stocks-plunge-following-almost-flat-medicare-rate-proposal"
+    }
+   ]
+  },
+  {
+   "id": "cd-2026-scotus-ieepa",
+   "date": "2026-02-20",
+   "end_date": "2026-04-20",
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "internet_retail",
+    "apparel_luxury",
+    "specialty_retail"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "regulatory",
+   "title": "Supreme Court strikes down IEEPA tariffs; importers rally",
+   "summary": "On February 20 2026 the Supreme Court held that IEEPA does not authorise tariffs, voiding the 'Liberation Day' reciprocal and fentanyl tariffs (Section 232 and 301 duties were untouched). Consumer discretionary rose about 1% on the day with Amazon, Etsy, Tapestry and Williams-Sonoma up, and apparel names popped because roughly 60% of applied apparel/footwear tariffs were IEEPA-based (Morgan Stanley). The administration replaced them with a 10% Section 122 global tariff from February 24, and the Court of International Trade ordered refunds on April 20 2026, a cash windfall for importers like G-III.",
+   "evidence": "IEEPA tariffs invalidated 2026-02-20; S&P 500 consumer discretionary +~1% intraday; Section 122 10% tariff from 2026-02-24; CIT refund order 2026-04-20",
+   "sources": [
+    {
+     "title": "CNBC: Amazon, Etsy, other e-commerce stocks pop after Supreme Court rules against Trump's tariffs",
+     "url": "https://www.cnbc.com/2026/02/20/supreme-court-decision-amazon-etsy-stocks-tariffs-trump.html"
+    },
+    {
+     "title": "CNBC: How the Supreme Court's ruling on Trump's tariffs could impact consumer stocks",
+     "url": "https://www.cnbc.com/2026/02/19/how-the-supreme-courts-ruling-on-tariffs-could-impact-consumer-stocks.html"
+    },
+    {
+     "title": "G-III Apparel 10-Q (July 2026) on tariff refunds",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000821002/000110465926105950/giii-20260731x10q.htm"
+    }
+   ]
+  },
+  {
+   "id": "hc-2026-pharma-s232-tariffs",
+   "date": "2026-04-02",
+   "end_date": "2026-09-29",
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma",
+    "biotech_large"
+   ],
+   "direction": "mixed",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Section 232 proclamation: 100% tariffs on patented drugs, with deal exemptions",
+   "summary": "A Section 232 proclamation imposed 100% tariffs on patented (Orange/Purple Book) drugs and their APIs, with 15% for the EU, Japan, Korea and Switzerland, 10% or less for the UK, 20% for companies with approved onshoring plans, and exemptions for companies that signed pricing/manufacturing agreements; duties start July 31 2026 for 17 named companies and September 29 for others, and generics are exempt for now. Because the February 2026 Supreme Court ruling voided IEEPA tariffs but not Section 232, this became the binding tariff regime for pharma; companies with deals (Lilly, J&J, Pfizer) are largely shielded, European and Japanese names less so.",
+   "evidence": "Proclamation of 2026-04-02: 100% on patented drugs/APIs, 15% for EU/Japan/Korea/Switzerland, effective 2026-07-31 (Annex III companies) and 2026-09-29 (others)",
+   "sources": [
+    {
+     "title": "White House: Adjusting imports of pharmaceuticals and pharmaceutical ingredients (April 2026)",
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/04/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states/"
+    },
+    {
+     "title": "EY: Section 232 proclamation imposes up to 100% tariffs on patented pharmaceuticals",
+     "url": "https://taxnews.ey.com/news/2026-0787-us-section-232-proclamation-imposes-up-to-100-percent-tariffs-on-patented-pharmaceuticals-and-active-pharmaceutical-ingredients"
+    },
+    {
+     "title": "Arnold & Porter: Trade winds shift for pharma",
+     "url": "https://www.arnoldporter.com/en/perspectives/advisories/2026/04/trade-winds-shift-for-pharma"
+    }
+   ]
+  },
+  {
+   "id": "hc-2026-ma-final-notice",
+   "date": "2026-04-06",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "in",
+   "magnitude": "major",
+   "driver_type": "policy",
+   "title": "CMS finalises a 2.48% 2027 MA rate increase; insurers soar",
+   "summary": "The final 2027 Medicare Advantage notice raised average payments 2.48% (more than $13 billion), versus the 0.09% proposed in January. UnitedHealth jumped as much as 10-11% (its best intraday move since August), Humana 9-11%, and CVS and Elevance about 7%, recovering most of the January losses. UnitedHealth and Humana still announced exits from MA plans covering more than one million members for 2027, so the rally was about margin, not growth.",
+   "evidence": "Final 2027 MA rate +2.48% (>$13B) on 2026-04-06; UNH up as much as 10%, HUM up as much as 11%",
+   "sources": [
+    {
+     "title": "Bloomberg: Humana, UnitedHealth stocks soar as US raises Medicare Advantage rates",
+     "url": "https://www.bloomberg.com/news/articles/2026-04-06/medicare-finalizes-2-48-rate-hike-for-private-insurers-in-2027"
+    },
+    {
+     "title": "TipRanks: UNH, HUM stocks soar after CMS finalizes 2027 MA rate hike",
+     "url": "https://www.tipranks.com/news/unitedhealth-unh-humana-hum-stocks-soar-after-cms-finalizes-2027-medicare-advantage-rate-hike"
+    },
+    {
+     "title": "24/7 Wall St: UnitedHealth rockets 11%, Humana climbs 9%",
+     "url": "https://247wallst.com/investing/2026/04/07/unitedhealth-rockets-11-humana-climbs-9-as-medicare-advantage-rate-decision-crushes-regulatory-fears/"
+    }
+   ]
+  }
+ ]
+}

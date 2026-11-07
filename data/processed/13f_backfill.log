@@ -54,3 +54,267 @@ PermissionError: [WinError 32] The process cannot access the file because it is 
 2026-11-07 01:28:15 INFO downloaded 2014q4_form13f.zip (39.1 MB in 2s)
 2026-11-07 01:28:20 INFO 2014q4 period 2014-09-30: 5465 submissions, 3881 13F-HR(/A) for this period, kept 3776 filings from 3750 filers (105 superseded dropped, 169 filings for other periods ignored)
 2026-11-07 01:28:25 INFO 2014q4 INFOTABLE: 1636491 rows, 1483545 SH/no-option rows, 1362545 in kept filings (13s)
+2026-11-07 01:28:25 INFO 2014q4 unit: thousands (median implied AAPL price 0.1008 raw units); 70 filings rescaled (0 x1000, 70 /1000)
+2026-11-07 01:28:25 INFO 2014q4 done: total 13F value $20.790T from 3724 filers; taxonomy CUSIPs $11.564T; HF filers 78 ($572.8B) [13s]
+2026-11-07 01:28:28 INFO downloaded 2015q1_form13f.zip (42.4 MB in 3s)
+2026-11-07 01:28:36 INFO 2015q1 period 2014-12-31: 6045 submissions, 4206 13F-HR(/A) for this period, kept 4072 filings from 4038 filers (134 superseded dropped, 290 filings for other periods ignored)
+2026-11-07 01:28:40 INFO 2015q1 INFOTABLE: 1768828 rows, 1610099 SH/no-option rows, 1423625 in kept filings (15s)
+2026-11-07 01:28:41 INFO 2015q1 unit: thousands (median implied AAPL price 0.1104 raw units); 76 filings rescaled (0 x1000, 76 /1000)
+2026-11-07 01:28:41 INFO 2015q1 done: total 13F value $21.733T from 4018 filers; taxonomy CUSIPs $12.409T; HF filers 82 ($598.8B) [16s]
+2026-11-07 01:28:44 INFO downloaded 2015q2_form13f.zip (41.3 MB in 3s)
+2026-11-07 01:28:50 INFO 2015q2 period 2015-03-31: 5914 submissions, 4201 13F-HR(/A) for this period, kept 4072 filings from 4054 filers (129 superseded dropped, 200 filings for other periods ignored)
+2026-11-07 01:28:54 INFO 2015q2 INFOTABLE: 1711601 rows, 1583422 SH/no-option rows, 1438133 in kept filings (13s)
+2026-11-07 01:28:55 INFO 2015q2 unit: thousands (median implied AAPL price 0.1244 raw units); 70 filings rescaled (0 x1000, 70 /1000)
+2026-11-07 01:28:55 INFO 2015q2 done: total 13F value $22.610T from 4043 filers; taxonomy CUSIPs $12.519T; HF filers 82 ($641.5B) [14s]
+2026-11-07 01:28:57 INFO downloaded 2015q3_form13f.zip (42.6 MB in 2s)
+2026-11-07 01:29:05 INFO 2015q3 period 2015-06-30: 6000 submissions, 4222 13F-HR(/A) for this period, kept 4100 filings from 4069 filers (122 superseded dropped, 266 filings for other periods ignored)
+2026-11-07 01:29:10 INFO 2015q3 INFOTABLE: 1772870 rows, 1644678 SH/no-option rows, 1468654 in kept filings (15s)
+2026-11-07 01:29:10 INFO 2015q3 unit: thousands (median implied AAPL price 0.1254 raw units); 78 filings rescaled (1 x1000, 77 /1000)
+2026-11-07 01:29:10 INFO 2015q3 done: total 13F value $23.846T from 4051 filers; taxonomy CUSIPs $12.454T; HF filers 83 ($661.3B) [15s]
+2026-11-07 01:29:12 INFO downloaded 2015q4_form13f.zip (41.2 MB in 2s)
+2026-11-07 01:29:19 INFO 2015q4 period 2015-09-30: 5975 submissions, 4184 13F-HR(/A) for this period, kept 4084 filings from 4063 filers (100 superseded dropped, 270 filings for other periods ignored)
+2026-11-07 01:29:23 INFO 2015q4 INFOTABLE: 1695347 rows, 1581579 SH/no-option rows, 1443266 in kept filings (13s)
+2026-11-07 01:29:24 INFO 2015q4 unit: thousands (median implied AAPL price 0.1103 raw units); 67 filings rescaled (0 x1000, 67 /1000)
+2026-11-07 01:29:24 INFO 2015q4 done: total 13F value $20.682T from 4039 filers; taxonomy CUSIPs $11.677T; HF filers 84 ($599.0B) [14s]
+2026-11-07 01:29:26 INFO downloaded 2016q1_form13f.zip (41.7 MB in 3s)
+2026-11-07 01:29:35 INFO 2016q1 period 2015-12-31: 6072 submissions, 4345 13F-HR(/A) for this period, kept 4248 filings from 4233 filers (97 superseded dropped, 194 filings for other periods ignored)
+2026-11-07 01:29:40 INFO 2016q1 INFOTABLE: 1710477 rows, 1591709 SH/no-option rows, 1476986 in kept filings (16s)
+2026-11-07 01:29:40 INFO 2016q1 unit: thousands (median implied AAPL price 0.1053 raw units); 75 filings rescaled (0 x1000, 75 /1000)
+2026-11-07 01:29:41 INFO 2016q1 done: total 13F value $22.452T from 4206 filers; taxonomy CUSIPs $12.792T; HF filers 85 ($614.3B) [17s]
+2026-11-07 01:29:43 INFO downloaded 2016q2_form13f.zip (42.1 MB in 2s)
+2026-11-07 01:29:50 INFO 2016q2 period 2016-03-31: 6034 submissions, 4318 13F-HR(/A) for this period, kept 4213 filings from 4196 filers (105 superseded dropped, 191 filings for other periods ignored)
+2026-11-07 01:29:55 INFO 2016q2 INFOTABLE: 1747959 rows, 1638837 SH/no-option rows, 1482747 in kept filings (14s)
+2026-11-07 01:29:55 INFO 2016q2 unit: thousands (median implied AAPL price 0.1090 raw units); 77 filings rescaled (1 x1000, 76 /1000)
+2026-11-07 01:29:55 INFO 2016q2 done: total 13F value $21.017T from 4169 filers; taxonomy CUSIPs $12.831T; HF filers 85 ($521.8B) [15s]
+2026-11-07 01:29:58 INFO downloaded 2016q3_form13f.zip (42.1 MB in 3s)
+2026-11-07 01:30:05 INFO 2016q3 period 2016-06-30: 6007 submissions, 4325 13F-HR(/A) for this period, kept 4227 filings from 4204 filers (98 superseded dropped, 174 filings for other periods ignored)
+2026-11-07 01:30:10 INFO 2016q3 INFOTABLE: 1742410 rows, 1611179 SH/no-option rows, 1506233 in kept filings (15s)
+2026-11-07 01:30:10 INFO 2016q3 unit: thousands (median implied AAPL price 0.0956 raw units); 67 filings rescaled (0 x1000, 67 /1000)
+2026-11-07 01:30:11 INFO 2016q3 done: total 13F value $21.948T from 4178 filers; taxonomy CUSIPs $13.593T; HF filers 85 ($516.2B) [15s]
+2026-11-07 01:30:13 INFO downloaded 2016q4_form13f.zip (41.8 MB in 2s)
+2026-11-07 01:30:21 INFO 2016q4 period 2016-09-30: 5994 submissions, 4290 13F-HR(/A) for this period, kept 4203 filings from 4179 filers (87 superseded dropped, 216 filings for other periods ignored)
+2026-11-07 01:30:27 INFO 2016q4 INFOTABLE: 1716138 rows, 1610776 SH/no-option rows, 1492039 in kept filings (16s)
+2026-11-07 01:30:27 INFO 2016q4 unit: thousands (median implied AAPL price 0.1130 raw units); 69 filings rescaled (0 x1000, 69 /1000)
+2026-11-07 01:30:27 INFO 2016q4 done: total 13F value $22.040T from 4149 filers; taxonomy CUSIPs $13.513T; HF filers 85 ($562.1B) [17s]
+2026-11-07 01:30:30 INFO downloaded 2017q1_form13f.zip (43.7 MB in 3s)
+2026-11-07 01:30:38 INFO 2017q1 period 2016-12-31: 6210 submissions, 4485 13F-HR(/A) for this period, kept 4377 filings from 4349 filers (108 superseded dropped, 172 filings for other periods ignored)
+2026-11-07 01:30:43 INFO 2017q1 INFOTABLE: 1805106 rows, 1678734 SH/no-option rows, 1566486 in kept filings (15s)
+2026-11-07 01:30:43 INFO 2017q1 unit: thousands (median implied AAPL price 0.1158 raw units); 65 filings rescaled (0 x1000, 65 /1000)
+2026-11-07 01:30:43 INFO 2017q1 done: total 13F value $23.187T from 4287 filers; taxonomy CUSIPs $14.380T; HF filers 84 ($553.8B) [16s]
+2026-11-07 01:30:48 INFO downloaded 2017q2_form13f.zip (43.3 MB in 4s)
+2026-11-07 01:30:55 INFO 2017q2 period 2017-03-31: 6218 submissions, 4457 13F-HR(/A) for this period, kept 4360 filings from 4340 filers (97 superseded dropped, 230 filings for other periods ignored)
+2026-11-07 01:30:59 INFO 2017q2 INFOTABLE: 1790999 rows, 1685256 SH/no-option rows, 1585280 in kept filings (16s)
+2026-11-07 01:31:00 INFO 2017q2 unit: thousands (median implied AAPL price 0.1437 raw units); 65 filings rescaled (0 x1000, 65 /1000)
+2026-11-07 01:31:00 INFO 2017q2 done: total 13F value $25.905T from 4268 filers; taxonomy CUSIPs $15.301T; HF filers 86 ($606.2B) [17s]
+2026-11-07 01:31:02 INFO downloaded 2017q3_form13f.zip (42.6 MB in 2s)
+2026-11-07 01:31:09 INFO 2017q3 period 2017-06-30: 6207 submissions, 4474 13F-HR(/A) for this period, kept 4364 filings from 4348 filers (110 superseded dropped, 204 filings for other periods ignored)
+2026-11-07 01:31:13 INFO 2017q3 INFOTABLE: 1746541 rows, 1650570 SH/no-option rows, 1564048 in kept filings (14s)
+2026-11-07 01:31:14 INFO 2017q3 unit: thousands (median implied AAPL price 0.1440 raw units); 59 filings rescaled (0 x1000, 59 /1000)
+2026-11-07 01:31:14 INFO 2017q3 done: total 13F value $24.649T from 4274 filers; taxonomy CUSIPs $15.507T; HF filers 85 ($614.3B) [14s]
+2026-11-07 01:31:16 INFO downloaded 2017q4_form13f.zip (43.5 MB in 2s)
+2026-11-07 01:31:23 INFO 2017q4 period 2017-09-30: 6174 submissions, 4447 13F-HR(/A) for this period, kept 4358 filings from 4331 filers (89 superseded dropped, 179 filings for other periods ignored)
+2026-11-07 01:31:29 INFO 2017q4 INFOTABLE: 1801866 rows, 1704970 SH/no-option rows, 1573242 in kept filings (14s)
+2026-11-07 01:31:29 INFO 2017q4 unit: thousands (median implied AAPL price 0.1541 raw units); 55 filings rescaled (1 x1000, 54 /1000)
+2026-11-07 01:31:29 INFO 2017q4 done: total 13F value $26.239T from 4256 filers; taxonomy CUSIPs $16.280T; HF filers 85 ($649.8B) [15s]
+2026-11-07 01:31:32 INFO downloaded 2018q1_form13f.zip (45.3 MB in 3s)
+2026-11-07 01:31:39 INFO 2018q1 period 2017-12-31: 6570 submissions, 4830 13F-HR(/A) for this period, kept 4704 filings from 4679 filers (126 superseded dropped, 168 filings for other periods ignored)
+2026-11-07 01:31:45 INFO 2018q1 INFOTABLE: 1879731 rows, 1777860 SH/no-option rows, 1694713 in kept filings (16s)
+2026-11-07 01:31:45 INFO 2018q1 unit: thousands (median implied AAPL price 0.1692 raw units); 61 filings rescaled (0 x1000, 61 /1000)
+2026-11-07 01:31:45 INFO 2018q1 done: total 13F value $30.509T from 4624 filers; taxonomy CUSIPs $17.621T; HF filers 87 ($695.8B) [16s]
+2026-11-07 01:31:49 INFO downloaded 2018q2_form13f.zip (46.5 MB in 4s)
+2026-11-07 01:31:56 INFO 2018q2 period 2018-03-31: 6622 submissions, 4824 13F-HR(/A) for this period, kept 4709 filings from 4688 filers (115 superseded dropped, 236 filings for other periods ignored)
+2026-11-07 01:32:02 INFO 2018q2 INFOTABLE: 1925787 rows, 1818530 SH/no-option rows, 1704197 in kept filings (17s)
+2026-11-07 01:32:03 INFO 2018q2 unit: thousands (median implied AAPL price 0.1678 raw units); 73 filings rescaled (2 x1000, 71 /1000)
+2026-11-07 01:32:03 INFO 2018q2 done: total 13F value $28.454T from 4636 filers; taxonomy CUSIPs $17.213T; HF filers 86 ($686.4B) [18s]
+2026-11-07 01:32:06 INFO downloaded 2018q3_form13f.zip (46.6 MB in 3s)
+2026-11-07 01:32:13 INFO 2018q3 period 2018-06-30: 6647 submissions, 4827 13F-HR(/A) for this period, kept 4714 filings from 4693 filers (113 superseded dropped, 241 filings for other periods ignored)
+2026-11-07 01:32:18 INFO 2018q3 INFOTABLE: 1934475 rows, 1830067 SH/no-option rows, 1738576 in kept filings (15s)
+2026-11-07 01:32:18 INFO 2018q3 unit: thousands (median implied AAPL price 0.1851 raw units); 64 filings rescaled (1 x1000, 63 /1000)
+2026-11-07 01:32:19 INFO 2018q3 done: total 13F value $27.789T from 4637 filers; taxonomy CUSIPs $17.847T; HF filers 86 ($717.7B) [16s]
+2026-11-07 01:32:21 INFO downloaded 2018q4_form13f.zip (48.5 MB in 3s)
+2026-11-07 01:32:28 INFO 2018q4 period 2018-09-30: 6659 submissions, 4831 13F-HR(/A) for this period, kept 4730 filings from 4706 filers (101 superseded dropped, 262 filings for other periods ignored)
+2026-11-07 01:32:34 INFO 2018q4 INFOTABLE: 2040197 rows, 1913933 SH/no-option rows, 1768211 in kept filings (15s)
+2026-11-07 01:32:34 INFO 2018q4 unit: thousands (median implied AAPL price 0.2257 raw units); 62 filings rescaled (1 x1000, 61 /1000)
+2026-11-07 01:32:34 INFO 2018q4 done: total 13F value $29.602T from 4640 filers; taxonomy CUSIPs $19.242T; HF filers 86 ($751.1B) [16s]
+2026-11-07 01:32:37 INFO downloaded 2019q1_form13f.zip (46.5 MB in 2s)
+2026-11-07 01:32:45 INFO 2019q1 period 2018-12-31: 6887 submissions, 5173 13F-HR(/A) for this period, kept 5053 filings from 5030 filers (120 superseded dropped, 136 filings for other periods ignored)
+2026-11-07 01:32:50 INFO 2019q1 INFOTABLE: 1945558 rows, 1809566 SH/no-option rows, 1759131 in kept filings (16s)
+2026-11-07 01:32:51 INFO 2019q1 unit: thousands (median implied AAPL price 0.1577 raw units); 61 filings rescaled (1 x1000, 60 /1000)
+2026-11-07 01:32:51 INFO 2019q1 done: total 13F value $25.559T from 4978 filers; taxonomy CUSIPs $17.002T; HF filers 89 ($581.2B) [17s]
+2026-11-07 01:32:54 INFO downloaded 2019q2_form13f.zip (54.1 MB in 3s)
+2026-11-07 01:33:02 INFO 2019q2 period 2019-03-31: 7144 submissions, 5167 13F-HR(/A) for this period, kept 5049 filings from 5019 filers (118 superseded dropped, 346 filings for other periods ignored)
+2026-11-07 01:33:08 INFO 2019q2 INFOTABLE: 2301992 rows, 2150523 SH/no-option rows, 1813186 in kept filings (17s)
+2026-11-07 01:33:08 INFO 2019q2 unit: thousands (median implied AAPL price 0.1900 raw units); 62 filings rescaled (0 x1000, 62 /1000)
+2026-11-07 01:33:08 INFO 2019q2 done: total 13F value $28.332T from 4963 filers; taxonomy CUSIPs $18.740T; HF filers 88 ($663.9B) [17s]
+2026-11-07 01:33:11 INFO downloaded 2019q3_form13f.zip (49.9 MB in 3s)
+2026-11-07 01:33:19 INFO 2019q3 period 2019-06-30: 6932 submissions, 5112 13F-HR(/A) for this period, kept 5026 filings from 4994 filers (86 superseded dropped, 246 filings for other periods ignored)
+2026-11-07 01:33:24 INFO 2019q3 INFOTABLE: 2116186 rows, 1957894 SH/no-option rows, 1827179 in kept filings (16s)
+2026-11-07 01:33:25 INFO 2019q3 unit: thousands (median implied AAPL price 0.1979 raw units); 63 filings rescaled (0 x1000, 63 /1000)
+2026-11-07 01:33:25 INFO 2019q3 done: total 13F value $30.032T from 4922 filers; taxonomy CUSIPs $19.841T; HF filers 89 ($685.4B) [17s]
+2026-11-07 01:33:29 INFO downloaded 2019q4_form13f.zip (49.5 MB in 4s)
+2026-11-07 01:33:39 INFO 2019q4 period 2019-09-30: 6981 submissions, 5087 13F-HR(/A) for this period, kept 5005 filings from 4989 filers (82 superseded dropped, 247 filings for other periods ignored)
+2026-11-07 01:33:46 INFO 2019q4 INFOTABLE: 2116307 rows, 1957430 SH/no-option rows, 1800939 in kept filings (21s)
+2026-11-07 01:33:47 INFO 2019q4 unit: thousands (median implied AAPL price 0.2240 raw units); 62 filings rescaled (1 x1000, 61 /1000)
+2026-11-07 01:33:47 INFO 2019q4 done: total 13F value $35.611T from 4914 filers; taxonomy CUSIPs $24.999T; HF filers 89 ($645.0B) [22s]
+2026-11-07 01:33:51 INFO downloaded 2020q1_form13f.zip (50.4 MB in 4s)
+2026-11-07 01:34:05 INFO 2020q1 period 2019-12-31: 7285 submissions, 5523 13F-HR(/A) for this period, kept 5418 filings from 5398 filers (105 superseded dropped, 189 filings for other periods ignored)
+2026-11-07 01:34:13 INFO 2020q1 INFOTABLE: 2159065 rows, 2009445 SH/no-option rows, 1895993 in kept filings (26s)
+2026-11-07 01:34:14 INFO 2020q1 unit: thousands (median implied AAPL price 0.2937 raw units); 68 filings rescaled (0 x1000, 68 /1000)
+2026-11-07 01:34:14 INFO 2020q1 done: total 13F value $32.969T from 5332 filers; taxonomy CUSIPs $22.445T; HF filers 92 ($703.8B) [27s]
+2026-11-07 01:34:16 INFO downloaded 2020q2_form13f.zip (49.7 MB in 2s)
+2026-11-07 01:34:27 INFO 2020q2 period 2020-03-31: 7296 submissions, 5483 13F-HR(/A) for this period, kept 5384 filings from 5360 filers (99 superseded dropped, 257 filings for other periods ignored)
+2026-11-07 01:34:33 INFO 2020q2 INFOTABLE: 2163834 rows, 2001687 SH/no-option rows, 1805240 in kept filings (19s)
+2026-11-07 01:34:33 INFO 2020q2 unit: thousands (median implied AAPL price 0.2543 raw units); 70 filings rescaled (0 x1000, 70 /1000)
+2026-11-07 01:34:33 INFO 2020q2 done: total 13F value $25.203T from 5274 filers; taxonomy CUSIPs $17.559T; HF filers 92 ($539.9B) [19s]
+2026-11-07 01:34:37 INFO downloaded 2020q3_form13f.zip (49.1 MB in 4s)
+2026-11-07 01:34:47 INFO 2020q3 period 2020-06-30: 7157 submissions, 5487 13F-HR(/A) for this period, kept 5385 filings from 5359 filers (102 superseded dropped, 146 filings for other periods ignored)
+2026-11-07 01:34:52 INFO 2020q3 INFOTABLE: 2089408 rows, 1895595 SH/no-option rows, 1807298 in kept filings (19s)
+2026-11-07 01:34:53 INFO 2020q3 unit: thousands (median implied AAPL price 0.3648 raw units); 64 filings rescaled (0 x1000, 64 /1000)
+2026-11-07 01:34:53 INFO 2020q3 done: total 13F value $30.447T from 5274 filers; taxonomy CUSIPs $21.399T; HF filers 92 ($688.0B) [20s]
+2026-11-07 01:34:56 INFO downloaded 2020q4_form13f.zip (50.2 MB in 3s)
+2026-11-07 01:35:06 INFO 2020q4 period 2020-09-30: 7237 submissions, 5473 13F-HR(/A) for this period, kept 5373 filings from 5354 filers (100 superseded dropped, 213 filings for other periods ignored)
+2026-11-07 01:35:12 INFO 2020q4 INFOTABLE: 2156794 rows, 1926731 SH/no-option rows, 1841664 in kept filings (19s)
+2026-11-07 01:35:12 INFO 2020q4 unit: thousands (median implied AAPL price 0.1158 raw units); 64 filings rescaled (2 x1000, 62 /1000)
+2026-11-07 01:35:12 INFO 2020q4 done: total 13F value $32.427T from 5264 filers; taxonomy CUSIPs $23.201T; HF filers 92 ($774.0B) [19s]
+2026-11-07 01:35:16 INFO downloaded 2021q1_form13f.zip (56.6 MB in 4s)
+2026-11-07 01:35:28 INFO 2021q1 period 2020-12-31: 7883 submissions, 6034 13F-HR(/A) for this period, kept 5902 filings from 5873 filers (132 superseded dropped, 261 filings for other periods ignored)
+2026-11-07 01:35:35 INFO 2021q1 INFOTABLE: 2454113 rows, 2241412 SH/no-option rows, 2013619 in kept filings (22s)
+2026-11-07 01:35:35 INFO 2021q1 unit: thousands (median implied AAPL price 0.1327 raw units); 69 filings rescaled (1 x1000, 68 /1000)
+2026-11-07 01:35:36 INFO 2021q1 done: total 13F value $37.651T from 5802 filers; taxonomy CUSIPs $26.631T; HF filers 93 ($954.7B) [23s]
+2026-11-07 01:35:39 INFO downloaded 2021q2_form13f.zip (56.2 MB in 3s)
+2026-11-07 01:35:50 INFO 2021q2 period 2021-03-31: 7927 submissions, 6038 13F-HR(/A) for this period, kept 5940 filings from 5911 filers (98 superseded dropped, 269 filings for other periods ignored)
+2026-11-07 01:35:58 INFO 2021q2 INFOTABLE: 2376681 rows, 2177503 SH/no-option rows, 2100689 in kept filings (22s)
+2026-11-07 01:35:58 INFO 2021q2 unit: thousands (median implied AAPL price 0.1222 raw units); 74 filings rescaled (1 x1000, 73 /1000)
+2026-11-07 01:35:59 INFO 2021q2 done: total 13F value $39.330T from 5831 filers; taxonomy CUSIPs $27.533T; HF filers 92 ($979.8B) [23s]
+2026-11-07 01:36:02 INFO downloaded 2021q3_form13f.zip (62.9 MB in 3s)
+2026-11-07 01:36:14 INFO 2021q3 period 2021-06-30: 8096 submissions, 6110 13F-HR(/A) for this period, kept 5976 filings from 5949 filers (134 superseded dropped, 304 filings for other periods ignored)
+2026-11-07 01:36:22 INFO 2021q3 INFOTABLE: 2660728 rows, 2466687 SH/no-option rows, 2172809 in kept filings (23s)
+2026-11-07 01:36:22 INFO 2021q3 unit: thousands (median implied AAPL price 0.1370 raw units); 66 filings rescaled (1 x1000, 65 /1000)
+2026-11-07 01:36:23 INFO 2021q3 done: total 13F value $50.454T from 5866 filers; taxonomy CUSIPs $29.816T; HF filers 92 ($1052.6B) [24s]
+2026-11-07 01:36:25 INFO downloaded 2021q4_form13f.zip (60.8 MB in 3s)
+2026-11-07 01:36:47 INFO 2021q4 period 2021-09-30: 7985 submissions, 6107 13F-HR(/A) for this period, kept 5971 filings from 5953 filers (136 superseded dropped, 238 filings for other periods ignored)
+2026-11-07 01:36:59 INFO 2021q4 INFOTABLE: 2569324 rows, 2369990 SH/no-option rows, 2190807 in kept filings (37s)
+2026-11-07 01:37:00 INFO 2021q4 unit: thousands (median implied AAPL price 0.1415 raw units); 63 filings rescaled (0 x1000, 63 /1000)
+2026-11-07 01:37:01 INFO 2021q4 done: total 13F value $42.446T from 5866 filers; taxonomy CUSIPs $29.824T; HF filers 93 ($1027.7B) [38s]
+2026-11-07 01:37:04 INFO downloaded 2022q1_form13f.zip (64.1 MB in 3s)
+2026-11-07 01:37:18 INFO 2022q1 period 2021-12-31: 8921 submissions, 6844 13F-HR(/A) for this period, kept 6734 filings from 6707 filers (110 superseded dropped, 315 filings for other periods ignored)
+2026-11-07 01:37:26 INFO 2022q1 INFOTABLE: 2684317 rows, 2492294 SH/no-option rows, 2338401 in kept filings (25s)
+2026-11-07 01:37:26 INFO 2022q1 unit: thousands (median implied AAPL price 0.1776 raw units); 83 filings rescaled (1 x1000, 82 /1000)
+2026-11-07 01:37:27 INFO 2022q1 done: total 13F value $48.563T from 6631 filers; taxonomy CUSIPs $33.317T; HF filers 90 ($1034.7B) [26s]
+2026-11-07 01:37:30 INFO downloaded 2022q2_form13f.zip (62.7 MB in 3s)
+2026-11-07 01:37:40 INFO 2022q2 period 2022-03-31: 8906 submissions, 6906 13F-HR(/A) for this period, kept 6758 filings from 6728 filers (148 superseded dropped, 281 filings for other periods ignored)
+2026-11-07 01:37:47 INFO 2022q2 INFOTABLE: 2603731 rows, 2459585 SH/no-option rows, 2360041 in kept filings (20s)
+2026-11-07 01:37:47 INFO 2022q2 unit: thousands (median implied AAPL price 0.1746 raw units); 76 filings rescaled (1 x1000, 75 /1000)
+2026-11-07 01:37:47 INFO 2022q2 done: total 13F value $43.838T from 6645 filers; taxonomy CUSIPs $30.959T; HF filers 90 ($881.2B) [21s]
+2026-11-07 01:37:50 INFO downloaded 2022q3_form13f.zip (63.1 MB in 2s)
+2026-11-07 01:38:04 INFO 2022q3 period 2022-06-30: 8948 submissions, 6869 13F-HR(/A) for this period, kept 6760 filings from 6738 filers (109 superseded dropped, 345 filings for other periods ignored)
+2026-11-07 01:38:12 INFO 2022q3 INFOTABLE: 2632327 rows, 2493351 SH/no-option rows, 2328692 in kept filings (24s)
+2026-11-07 01:38:12 INFO 2022q3 unit: thousands (median implied AAPL price 0.1367 raw units); 64 filings rescaled (1 x1000, 63 /1000)
+2026-11-07 01:38:13 INFO 2022q3 done: total 13F value $36.361T from 6634 filers; taxonomy CUSIPs $25.682T; HF filers 88 ($729.8B) [25s]
+2026-11-07 01:38:16 INFO downloaded 2022q4_form13f.zip (62.8 MB in 3s)
+2026-11-07 01:38:32 INFO 2022q4 period 2022-09-30: 9010 submissions, 6878 13F-HR(/A) for this period, kept 6733 filings from 6724 filers (145 superseded dropped, 328 filings for other periods ignored)
+2026-11-07 01:38:41 INFO 2022q4 INFOTABLE: 2622058 rows, 2479611 SH/no-option rows, 2277742 in kept filings (28s)
+2026-11-07 01:38:42 INFO 2022q4 unit: thousands (median implied AAPL price 0.1382 raw units); 70 filings rescaled (1 x1000, 69 /1000)
+2026-11-07 01:38:42 INFO 2022q4 done: total 13F value $34.931T from 6618 filers; taxonomy CUSIPs $24.501T; HF filers 88 ($727.2B) [29s]
+2026-11-07 01:38:45 INFO downloaded 2023q1_form13f.zip (71.8 MB in 3s)
+2026-11-07 01:39:01 INFO 2023q1 period 2022-12-31: 9201 submissions, 7168 13F-HR(/A) for this period, kept 6935 filings from 6923 filers (233 superseded dropped, 354 filings for other periods ignored)
+2026-11-07 01:39:12 INFO 2023q1 INFOTABLE: 2786017 rows, 2634703 SH/no-option rows, 2345118 in kept filings (30s)
+2026-11-07 01:39:13 INFO 2023q1 unit: dollars (median implied AAPL price 129.9300 raw units); 1110 filings rescaled (1107 x1000, 3 /1000)
+2026-11-07 01:39:13 INFO 2023q1 done: total 13F value $37.154T from 6828 filers; taxonomy CUSIPs $26.787T; HF filers 89 ($737.4B) [31s]
+2026-11-07 01:39:16 INFO downloaded 2023q2_form13f.zip (68.9 MB in 3s)
+2026-11-07 01:39:29 INFO 2023q2 period 2023-03-31: 9113 submissions, 6988 13F-HR(/A) for this period, kept 6873 filings from 6854 filers (115 superseded dropped, 422 filings for other periods ignored)
+2026-11-07 01:39:37 INFO 2023q2 INFOTABLE: 2672308 rows, 2520439 SH/no-option rows, 2330708 in kept filings (24s)
+2026-11-07 01:39:38 INFO 2023q2 unit: dollars (median implied AAPL price 164.9000 raw units); 772 filings rescaled (771 x1000, 1 /1000)
+2026-11-07 01:39:38 INFO 2023q2 done: total 13F value $38.207T from 6756 filers; taxonomy CUSIPs $27.944T; HF filers 90 ($790.4B) [25s]
+2026-11-07 01:39:41 INFO downloaded 2023q3_form13f.zip (70.2 MB in 3s)
+2026-11-07 01:39:53 INFO 2023q3 period 2023-06-30: 9108 submissions, 7039 13F-HR(/A) for this period, kept 6938 filings from 6913 filers (101 superseded dropped, 374 filings for other periods ignored)
+2026-11-07 01:40:03 INFO 2023q3 INFOTABLE: 2724039 rows, 2569556 SH/no-option rows, 2353842 in kept filings (24s)
+2026-11-07 01:40:04 INFO 2023q3 unit: dollars (median implied AAPL price 193.9700 raw units); 694 filings rescaled (694 x1000, 0 /1000)
+2026-11-07 01:40:04 INFO 2023q3 done: total 13F value $41.188T from 6815 filers; taxonomy CUSIPs $30.321T; HF filers 89 ($834.9B) [25s]
+2026-11-07 01:40:07 INFO downloaded 2023q4_form13f.zip (73.0 MB in 3s)
+2026-11-07 01:40:20 INFO 2023q4 period 2023-09-30: 9196 submissions, 7062 13F-HR(/A) for this period, kept 6967 filings from 6946 filers (95 superseded dropped, 457 filings for other periods ignored)
+2026-11-07 01:40:27 INFO 2023q4 INFOTABLE: 2886468 rows, 2712525 SH/no-option rows, 2460908 in kept filings (23s)
+2026-11-07 01:40:28 INFO 2023q4 unit: dollars (median implied AAPL price 171.2100 raw units); 633 filings rescaled (631 x1000, 2 /1000)
+2026-11-07 01:40:29 INFO 2023q4 done: total 13F value $39.783T from 6838 filers; taxonomy CUSIPs $29.277T; HF filers 90 ($835.8B) [25s]
+2026-11-07 01:40:32 INFO downloaded 01jan2024-29feb2024_form13f.zip (73.0 MB in 4s)
+2026-11-07 01:40:53 INFO 01jan2024-29feb2024 period 2023-12-31: 9433 submissions, 7360 13F-HR(/A) for this period, kept 7193 filings from 7179 filers (167 superseded dropped, 395 filings for other periods ignored)
+2026-11-07 01:41:04 INFO 01jan2024-29feb2024 INFOTABLE: 2848736 rows, 2679528 SH/no-option rows, 2497166 in kept filings (35s)
+2026-11-07 01:41:05 INFO 01jan2024-29feb2024 unit: dollars (median implied AAPL price 192.5300 raw units); 589 filings rescaled (588 x1000, 1 /1000)
+2026-11-07 01:41:05 INFO 01jan2024-29feb2024 done: total 13F value $44.954T from 7105 filers; taxonomy CUSIPs $33.409T; HF filers 89 ($878.3B) [37s]
+2026-11-07 01:41:08 INFO downloaded 01mar2024-31may2024_form13f.zip (78.2 MB in 3s)
+2026-11-07 01:41:21 INFO 01mar2024-31may2024 period 2024-03-31: 9884 submissions, 7324 13F-HR(/A) for this period, kept 7234 filings from 7223 filers (90 superseded dropped, 806 filings for other periods ignored)
+2026-11-07 01:41:30 INFO 01mar2024-31may2024 INFOTABLE: 3026705 rows, 2877450 SH/no-option rows, 2497373 in kept filings (25s)
+2026-11-07 01:41:31 INFO 01mar2024-31may2024 unit: dollars (median implied AAPL price 171.4800 raw units); 568 filings rescaled (568 x1000, 0 /1000)
+2026-11-07 01:41:31 INFO 01mar2024-31may2024 done: total 13F value $48.509T from 7151 filers; taxonomy CUSIPs $36.288T; HF filers 88 ($953.1B) [26s]
+2026-11-07 01:41:35 INFO downloaded 01jun2024-31aug2024_form13f.zip (83.9 MB in 3s)
+2026-11-07 01:41:49 INFO 01jun2024-31aug2024 period 2024-06-30: 10117 submissions, 7383 13F-HR(/A) for this period, kept 7305 filings from 7284 filers (78 superseded dropped, 742 filings for other periods ignored)
+2026-11-07 01:41:59 INFO 01jun2024-31aug2024 INFOTABLE: 3278515 rows, 3131749 SH/no-option rows, 2649444 in kept filings (28s)
+2026-11-07 01:42:00 INFO 01jun2024-31aug2024 unit: dollars (median implied AAPL price 210.6200 raw units); 523 filings rescaled (522 x1000, 1 /1000)
+2026-11-07 01:42:01 INFO 01jun2024-31aug2024 done: total 13F value $50.514T from 7203 filers; taxonomy CUSIPs $38.095T; HF filers 88 ($957.0B) [30s]
+2026-11-07 01:42:04 INFO downloaded 01sep2024-30nov2024_form13f.zip (81.7 MB in 3s)
+2026-11-07 01:42:15 INFO 01sep2024-30nov2024 period 2024-09-30: 9891 submissions, 7432 13F-HR(/A) for this period, kept 7354 filings from 7347 filers (78 superseded dropped, 691 filings for other periods ignored)
+2026-11-07 01:42:24 INFO 01sep2024-30nov2024 INFOTABLE: 3201864 rows, 3044126 SH/no-option rows, 2683373 in kept filings (23s)
+2026-11-07 01:42:24 INFO 01sep2024-30nov2024 unit: dollars (median implied AAPL price 233.0000 raw units); 500 filings rescaled (499 x1000, 1 /1000)
+2026-11-07 01:42:25 INFO 01sep2024-30nov2024 done: total 13F value $52.434T from 7246 filers; taxonomy CUSIPs $39.283T; HF filers 88 ($973.5B) [24s]
+2026-11-07 01:42:29 INFO downloaded 01dec2024-28feb2025_form13f.zip (86.5 MB in 4s)
+2026-11-07 01:42:48 INFO 01dec2024-28feb2025 period 2024-12-31: 10605 submissions, 8064 13F-HR(/A) for this period, kept 7964 filings from 7947 filers (100 superseded dropped, 657 filings for other periods ignored)
+2026-11-07 01:42:58 INFO 01dec2024-28feb2025 INFOTABLE: 3362299 rows, 3199701 SH/no-option rows, 2816332 in kept filings (34s)
+2026-11-07 01:43:00 INFO 01dec2024-28feb2025 unit: dollars (median implied AAPL price 250.4200 raw units); 480 filings rescaled (478 x1000, 2 /1000)
+2026-11-07 01:43:02 INFO 01dec2024-28feb2025 done: total 13F value $54.648T from 7859 filers; taxonomy CUSIPs $40.931T; HF filers 88 ($1032.5B) [37s]
+2026-11-07 01:43:07 INFO downloaded 01mar2025-31may2025_form13f.zip (88.3 MB in 5s)
+2026-11-07 01:43:20 INFO 01mar2025-31may2025 period 2025-03-31: 10765 submissions, 8099 13F-HR(/A) for this period, kept 8000 filings from 7987 filers (99 superseded dropped, 799 filings for other periods ignored)
+2026-11-07 01:43:32 INFO 01mar2025-31may2025 INFOTABLE: 3440002 rows, 3289297 SH/no-option rows, 2897491 in kept filings (30s)
+2026-11-07 01:43:32 INFO 01mar2025-31may2025 unit: dollars (median implied AAPL price 222.1300 raw units); 437 filings rescaled (437 x1000, 0 /1000)
+2026-11-07 01:43:33 INFO 01mar2025-31may2025 done: total 13F value $52.155T from 7904 filers; taxonomy CUSIPs $38.766T; HF filers 88 ($971.7B) [31s]
+2026-11-07 01:43:36 INFO downloaded 01jun2025-31aug2025_form13f.zip (86.3 MB in 3s)
+2026-11-07 01:43:36 ERROR 01jun2025-31aug2025 FAILED: 'SUBMISSION.TSV'
+Traceback (most recent call last):
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 683, in main
+    process_zip(ds, cusips, funds, keep_zip=args.keep_zip)
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 432, in process_zip
+    sub = pd.read_csv(z.open(names["SUBMISSION.TSV"]), sep="\t", dtype=str, quoting=csv.QUOTE_NONE,
+                             ~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'SUBMISSION.TSV'
+2026-11-07 01:43:40 INFO downloaded 01sep2025-30nov2025_form13f.zip (85.6 MB in 4s)
+2026-11-07 01:43:53 INFO 01sep2025-30nov2025 period 2025-09-30: 10422 submissions, 8117 13F-HR(/A) for this period, kept 8046 filings from 8024 filers (71 superseded dropped, 453 filings for other periods ignored)
+2026-11-07 01:44:02 INFO 01sep2025-30nov2025 INFOTABLE: 3267091 rows, 3124674 SH/no-option rows, 2924965 in kept filings (26s)
+2026-11-07 01:44:03 INFO 01sep2025-30nov2025 unit: dollars (median implied AAPL price 254.6300 raw units); 346 filings rescaled (346 x1000, 0 /1000)
+2026-11-07 01:44:03 INFO 01sep2025-30nov2025 done: total 13F value $63.755T from 7922 filers; taxonomy CUSIPs $47.392T; HF filers 89 ($1210.5B) [27s]
+2026-11-07 01:44:06 INFO downloaded 01dec2025-28feb2026_form13f.zip (90.3 MB in 3s)
+2026-11-07 01:44:20 INFO 01dec2025-28feb2026 period 2025-12-31: 11372 submissions, 8738 13F-HR(/A) for this period, kept 8636 filings from 8625 filers (102 superseded dropped, 626 filings for other periods ignored)
+2026-11-07 01:44:31 INFO 01dec2025-28feb2026 INFOTABLE: 3473209 rows, 3331535 SH/no-option rows, 3080267 in kept filings (28s)
+2026-11-07 01:44:32 INFO 01dec2025-28feb2026 unit: dollars (median implied AAPL price 271.8600 raw units); 358 filings rescaled (358 x1000, 0 /1000)
+2026-11-07 01:44:33 INFO 01dec2025-28feb2026 done: total 13F value $65.012T from 8531 filers; taxonomy CUSIPs $47.932T; HF filers 86 ($1311.3B) [29s]
+2026-11-07 01:44:36 INFO downloaded 01mar2026-31may2026_form13f.zip (99.4 MB in 3s)
+2026-11-07 01:44:53 INFO 01mar2026-31may2026 period 2026-03-31: 11761 submissions, 8868 13F-HR(/A) for this period, kept 8762 filings from 8741 filers (106 superseded dropped, 848 filings for other periods ignored)
+2026-11-07 01:45:15 INFO 01mar2026-31may2026 INFOTABLE: 3822885 rows, 3661562 SH/no-option rows, 3108355 in kept filings (42s)
+2026-11-07 01:45:17 INFO 01mar2026-31may2026 unit: dollars (median implied AAPL price 253.7900 raw units); 336 filings rescaled (336 x1000, 0 /1000)
+2026-11-07 01:45:17 INFO 01mar2026-31may2026 done: total 13F value $63.108T from 8654 filers; taxonomy CUSIPs $45.787T; HF filers 86 ($1191.7B) [45s]
+2026-11-07 01:45:17 INFO using cached 01jun2026-31aug2026_form13f.zip
+2026-11-07 01:45:54 INFO 01jun2026-31aug2026 period 2026-06-30: 11852 submissions, 9000 13F-HR(/A) for this period, kept 8891 filings from 8857 filers (109 superseded dropped, 900 filings for other periods ignored)
+2026-11-07 01:46:18 INFO 01jun2026-31aug2026 INFOTABLE: 3830274 rows, 3691395 SH/no-option rows, 3299045 in kept filings (61s)
+2026-11-07 01:46:20 INFO 01jun2026-31aug2026 unit: dollars (median implied AAPL price 289.3600 raw units); 320 filings rescaled (319 x1000, 1 /1000)
+2026-11-07 01:46:22 INFO 01jun2026-31aug2026 done: total 13F value $75.655T from 8751 filers; taxonomy CUSIPs $54.783T; HF filers 81 ($1427.6B) [65s]
+2026-11-07 01:46:28 INFO assembled 13f_by_ticker.csv (43790 rows, 53 periods, 941 tickers), 13f_totals.csv (53 quarters), 0 unmapped tickers
+2026-11-07 01:46:28 ERROR failed quarters: 01jun2025-31aug2025
+2026-11-07 01:46:50 INFO data sets to consider: 01jun2025-31aug2025(2025-06-30)
+2026-11-07 01:46:54 INFO downloaded 01jun2025-31aug2025_form13f.zip (86.3 MB in 4s)
+2026-11-07 01:46:54 ERROR 01jun2025-31aug2025 FAILED: 'SUBMISSION.TSV'
+Traceback (most recent call last):
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 683, in main
+    process_zip(ds, cusips, funds, keep_zip=args.keep_zip)
+  File "C:\Users\danny\OneDrive - Wilfrid Laurier University\Danny's Individual Pitches\Capital Rotation Tracker\pipeline\fetch_13f.py", line 432, in process_zip
+    sub = pd.read_csv(z.open(names["SUBMISSION.TSV"]), sep="\t", dtype=str, quoting=csv.QUOTE_NONE,
+                             ~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'SUBMISSION.TSV'
+2026-11-07 01:46:57 INFO assembled 13f_by_ticker.csv (43790 rows, 53 periods, 941 tickers), 13f_totals.csv (53 quarters), 0 unmapped tickers
+2026-11-07 01:46:57 ERROR failed quarters: 01jun2025-31aug2025
+2026-11-07 01:47:29 INFO data sets to consider: 01jun2025-31aug2025(2025-06-30)
+2026-11-07 01:47:29 INFO using cached 01jun2025-31aug2025_form13f.zip
+2026-11-07 01:47:59 INFO 01jun2025-31aug2025 period 2025-06-30: 10799 submissions, 8154 13F-HR(/A) for this period, kept 8054 filings from 8039 filers (100 superseded dropped, 657 filings for other periods ignored)
+2026-11-07 01:48:15 INFO 01jun2025-31aug2025 INFOTABLE: 3360306 rows, 3210616 SH/no-option rows, 2913198 in kept filings (46s)
+2026-11-07 01:48:16 INFO 01jun2025-31aug2025 unit: dollars (median implied AAPL price 205.1700 raw units); 416 filings rescaled (416 x1000, 0 /1000)
+2026-11-07 01:48:17 INFO 01jun2025-31aug2025 done: total 13F value $58.672T from 7940 filers; taxonomy CUSIPs $43.848T; HF filers 89 ($1123.3B) [48s]
+2026-11-07 01:48:20 WARNING could not delete 01jun2025-31aug2025_form13f.zip (still locked); it will be removed at the end of the run
+2026-11-07 01:48:22 INFO assembled 13f_by_ticker.csv (44730 rows, 54 periods, 941 tickers), 13f_totals.csv (54 quarters), 0 unmapped tickers
+2026-11-07 01:48:24 INFO all done

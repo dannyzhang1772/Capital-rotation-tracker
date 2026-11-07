@@ -428,7 +428,11 @@ def process_zip(ds: dict, cusips: set[str], funds: list[dict], keep_zip: bool = 
     else:
         raise RuntimeError(f"no download location worked for {zq}: {last_err}")
     with zipfile.ZipFile(zpath) as z:
-        names = {n.upper(): n for n in z.namelist()}
+        # some data sets nest the TSVs in a folder or vary the case of the file names
+        names = {Path(n).name.upper(): n for n in z.namelist() if not n.endswith("/")}
+        for needed in ("SUBMISSION.TSV", "COVERPAGE.TSV", "INFOTABLE.TSV"):
+            if needed not in names:
+                raise RuntimeError(f"{zq}: {needed} not found in zip; members: {z.namelist()[:20]}")
         sub = pd.read_csv(z.open(names["SUBMISSION.TSV"]), sep="\t", dtype=str, quoting=csv.QUOTE_NONE,
                           encoding="utf-8", encoding_errors="replace")
         cover = pd.read_csv(z.open(names["COVERPAGE.TSV"]), sep="\t", dtype=str, quoting=csv.QUOTE_NONE,

@@ -15,6 +15,7 @@
   const sig = (z, d = 1) => z == null || isNaN(z) ? '–' : `${z > 0 ? '+' : ''}${z.toFixed(d)}σ`;
   const num = (x, d = 0) => x == null || isNaN(x) ? '–' : x.toLocaleString(undefined, { maximumFractionDigits: d });
   const bn = (x) => x == null ? '–' : x >= 1000 ? `$${(x / 1000).toFixed(2)}tn` : `$${x.toFixed(0)}bn`;
+  const ord = (n) => { const v = n % 100; return n + (v >= 11 && v <= 13 ? 'th' : ['th', 'st', 'nd', 'rd'][Math.min(n % 10, 4) < 4 ? n % 10 : 0] || 'th'); };
   const cls = (x) => x == null ? 'muted' : x > 0 ? 'pos' : x < 0 ? 'neg' : '';
   const sectorById = Object.fromEntries(S.sectors.map((s) => [s.id, s]));
   const bucketById = Object.fromEntries(S.buckets.map((b) => [b.id, b]));
@@ -133,11 +134,11 @@
     $('#sub').innerHTML = `${sec.deep_dive ? 'Deep-dive sector' : 'Context sector'} · sector ETF ${esc(sec.etf)}${sec.history_etf && sec.history_etf !== sec.etf ? ` (history spliced from ${esc(sec.history_etf)})` : ''} · ${subs.length} sub-industries${sec.history_note ? ` · ${esc(sec.history_note)}` : ''}`;
     $('#kpis').innerHTML = [
       ['Heat', `${sec.label}`, `score ${sec.heat == null ? '–' : Math.round(sec.heat)}`],
-      ['Weight in universe', wpct(sec.weight, 1), `10y avg ${wpct(sec.weight_mean10y, 1)} · ${sig(sec.weight_z10y)} · ${sec.weight_pctile == null ? '' : Math.round(sec.weight_pctile * 100) + 'th pctile since 2006'}`],
+      ['Weight in universe', wpct(sec.weight, 1), `10y avg ${wpct(sec.weight_mean10y, 1)} · ${sig(sec.weight_z10y)} · ${sec.weight_pctile == null ? '' : ord(Math.round(sec.weight_pctile * 100)) + ' pctile since 2006'}`],
       ['Relative to S&P 500', pct(sec.rel_3m), `3m · 12m ${pct(sec.rel_12m)} · YTD ${pct(sec.rel_ytd)}`],
       ['Absolute', pct(sec.abs_ytd), `YTD · 12m ${pct(sec.abs_12m)}`],
       ['ETF flows (3m)', sec.flows ? pct(sec.flows.flow_3m_pct_aum) : 'pending', sec.flows ? `of AUM · ${sig(sec.flows.flow_3m_z)} vs 5y` : 'issuer flow data loading'],
-      ['Hedge fund share', sec.f13 && sec.f13.hf_share_pct != null ? `${sec.f13.hf_share_pct.toFixed(2)}%` : 'pending', sec.f13 ? `of HF 13F value · ${sec.f13.hf_share_chg_qoq == null ? '' : (sec.f13.hf_share_chg_qoq > 0 ? '+' : '') + sec.f13.hf_share_chg_qoq.toFixed(2) + 'pp q/q'} · ${sec.f13.last_period || ''}` : 'SEC 13F data loading'],
+      ['Hedge fund share', sec.f13 && sec.f13.hf_share_pct != null ? `${sec.f13.hf_share_pct.toFixed(2)}%` : 'pending', sec.f13 ? ['of HF 13F value', sec.f13.hf_share_chg_qoq == null ? null : (sec.f13.hf_share_chg_qoq > 0 ? '+' : '') + sec.f13.hf_share_chg_qoq.toFixed(2) + 'pp q/q', sec.f13.last_period || null].filter(Boolean).join(' · ') : 'SEC 13F data loading'],
     ].map(([l, v, d]) => `<div class="kpi"><div class="label">${esc(l)}</div><div class="value">${esc(v)}</div><div class="delta">${esc(d)}</div></div>`).join('');
 
     // narrative
