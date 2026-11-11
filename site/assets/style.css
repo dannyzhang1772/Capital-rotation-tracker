@@ -38,6 +38,7 @@ header.top { position: sticky; top: 0; z-index: 20; background: #000; border-bot
 header.top .wrap { display: flex; align-items: center; gap: 14px; padding: 7px 12px; flex-wrap: wrap; }
 header.top .brand { font-family: var(--mono); font-weight: 700; font-size: 14px; color: var(--amber); letter-spacing: .06em; text-transform: uppercase; }
 header.top .brand::after { content: " <GO>"; color: #7c7c7c; font-weight: 400; }
+header.top .brand-sub { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-left: 10px; letter-spacing: .04em; text-transform: uppercase; }
 header.top nav { display: flex; gap: 2px; flex-wrap: wrap; }
 header.top nav a { font-family: var(--mono); font-size: 12.5px; color: #d0d0d0; padding: 3px 9px; border: 1px solid #333; background: #111; text-transform: uppercase; letter-spacing: .03em; }
 header.top nav a.active, header.top nav a:hover { color: #000; background: var(--amber); border-color: var(--amber); text-decoration: none; }

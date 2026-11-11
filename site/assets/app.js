@@ -132,7 +132,7 @@
   function renderSector() {
     const sid = params.get('s') || 'industrials'; const sec = sectorById[sid]; if (!sec) { $('#title').textContent = 'Unknown sector'; return; }
     const subs = sec.subindustries.map((id) => bucketById[id]).filter(Boolean);
-    document.title = `${sec.name} · Capital Rotation Tracker`; $('#title').textContent = sec.name;
+    document.title = `${sec.name} · projectmodl.com`; $('#title').textContent = sec.name;
     $('#sub').innerHTML = `${sec.deep_dive ? 'Deep-dive sector' : 'Context sector'} · sector ETF ${esc(sec.etf)}${sec.history_etf && sec.history_etf !== sec.etf ? ` (history spliced from ${esc(sec.history_etf)})` : ''} · ${subs.length} sub-industries${sec.history_note ? ` · ${esc(sec.history_note)}` : ''}`;
     $('#kpis').innerHTML = [
       ['Heat', `${sec.label}`, `score ${sec.heat == null ? '–' : Math.round(sec.heat)}`],

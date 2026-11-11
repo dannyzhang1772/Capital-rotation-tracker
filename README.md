@@ -1,4 +1,4 @@
-# Capital Rotation Tracker
+# projectmodl.com · Capital Rotation Tracker
 
 A static website that tracks where public equity capital sits across 11 sectors and 62 sub-industries, compares it with 1999-to-date history, explains what drove each rotation, and says what would move capital next. Built for a student investment fund.
 

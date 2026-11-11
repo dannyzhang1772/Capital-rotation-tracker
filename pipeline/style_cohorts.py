@@ -153,7 +153,8 @@ for bid, mem in buckets.items():
                       'spread_z': monthly(zs, 2), 'mom_share': [None if pd.isna(v) else round(float(v), 3) for v in mshare.reindex(si.resample('ME').last().index, method='ffill').values]}
     out_b[bid] = rec
     for d, (mom, dfn) in hist.items(): rows.append({'date': d.date(), 'bucket': bid, 'momentum': ' '.join(mom), 'defensive': ' '.join(dfn)})
-    print(f"  {bid:32s} n={len(mem):2d} since {si.index[0].year} spread 3m {rec['spread_3m'] and rec['spread_3m']*100:+.1f}% 12m {rec['spread_12m'] and rec['spread_12m']*100:+.1f}% z {rec['spread_z10y'] and round(rec['spread_z10y'],2)} mom={mom_now[:4]} def={def_now[:4]}")
+    fp = lambda v: '   n/a' if v is None else f"{v*100:+.1f}%"
+    print(f"  {bid:32s} n={len(mem):2d} since {si.index[0].year} spread 3m {fp(rec['spread_3m'])} 12m {fp(rec['spread_12m'])} z {rec['spread_z10y'] and round(rec['spread_z10y'],2)} mom={mom_now[:4]} def={def_now[:4]}")
 
 # market-level: classify across the whole universe
 mr, dr, mshare, hist = cohort_series(lambda p: (lambda df: classify(df) if df is not None else None)(scores_at(p, all_members)), 'market')
