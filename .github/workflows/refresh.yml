@@ -30,6 +30,8 @@ jobs:
       - name: Shares outstanding (Mondays, Toronto time)
         run: cd pipeline && if [ "$(TZ=America/Toronto date +%u)" = "1" ]; then python fetch_shares.py --yahoo || echo "shares refresh failed; keeping last file"; fi
       - name: Macro
+        env:
+          CRT_SKIP_FRED: '1'   # FRED times out from GitHub runners; Yahoo series are used instead
         run: cd pipeline && python fetch_macro.py || echo "macro refresh failed; keeping last file"
       - name: ETF flows
         run: cd pipeline && python fetch_etf_flows.py || echo "flow refresh failed; keeping last file"

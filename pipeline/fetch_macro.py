@@ -12,9 +12,11 @@ OUT = os.path.join(RAW, 'macro.csv')
 
 def fred():
     out = {}
+    if os.environ.get('CRT_SKIP_FRED'):
+        print('FRED skipped (CRT_SKIP_FRED set)'); return out
     for sid, name in FRED.items():
         try:
-            r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=15, headers={'User-Agent': 'Mozilla/5.0'})
+            r = requests.get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}", timeout=(5, 8), headers={'User-Agent': 'Mozilla/5.0'})
             r.raise_for_status(); df = pd.read_csv(io.StringIO(r.text)); df.columns = ['date', name]
             df['date'] = pd.to_datetime(df['date']); df[name] = pd.to_numeric(df[name], errors='coerce')
             out[name] = df.set_index('date')[name]; print('FRED ok', sid, flush=True)
