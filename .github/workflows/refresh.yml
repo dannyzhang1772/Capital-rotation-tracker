@@ -3,36 +3,64 @@ on:
   schedule:
     - cron: '30 22 * * 1-5'   # 22:30 UTC on weekdays, after the US close
   workflow_dispatch:
+  push:
+    branches: [main]          # only acts when the commit message contains [refresh] (see job condition)
 permissions:
   contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
 jobs:
   refresh:
+    if: github.event_name != 'push' || contains(github.event.head_commit.message, '[refresh]')
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: '3.12' }
+        with:
+          python-version: '3.12'
       - run: pip install -r pipeline/requirements.txt
       - name: Prices (incremental)
         run: cd pipeline && python fetch_prices.py
-      - name: Shares outstanding (weekly on Mondays, otherwise skipped)
-        run: cd pipeline && if [ "$(date +%u)" = "1" ]; then python fetch_shares.py --yahoo; fi
+      - name: Shares outstanding (Mondays, Toronto time)
+        run: cd pipeline && if [ "$(TZ=America/Toronto date +%u)" = "1" ]; then python fetch_shares.py --yahoo || echo "shares refresh failed; keeping last file"; fi
       - name: Macro
-        run: cd pipeline && python fetch_macro.py
+        run: cd pipeline && python fetch_macro.py || echo "macro refresh failed; keeping last file"
       - name: ETF flows
         run: cd pipeline && python fetch_etf_flows.py || echo "flow refresh failed; keeping last file"
       - name: 13F (new quarters only)
         run: cd pipeline && python fetch_13f.py || echo "13F refresh failed; keeping last file"
-      - name: Automated event scoring (Mondays or manual run; needs ANTHROPIC_API_KEY secret)
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: cd pipeline && if [ "$(date +%u)" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python auto_events.py || echo "auto scoring failed; continuing"; fi
       - name: Compute site data
         run: cd pipeline && python compute.py
+      - name: Automated event scoring (Mondays Toronto time, manual runs, or a [refresh] push; needs ANTHROPIC_API_KEY)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd pipeline
+          if [ "$(TZ=America/Toronto date +%u)" = "1" ] || [ "${{ github.event_name }}" != "schedule" ]; then
+            python auto_events.py || echo "auto scoring failed; continuing"
+          else
+            echo "not Monday; skipping automated scoring"
+          fi
       - name: Beta Mode (event responses, calibration, opportunities)
         run: cd pipeline && python event_response.py && python calibrate.py
+      - name: Bump asset version
+        run: |
+          v=$(date +%s)
+          for f in site/*.html; do sed -i -E "s/\?v=[0-9]+/?v=$v/g" "$f"; done
       - name: Commit
         run: |
           git config user.name "tracker-bot"; git config user.email "tracker-bot@users.noreply.github.com"
-          git add -A data site/data && git commit -m "data refresh $(date -u +%F)" || echo "nothing to commit"
+          git add -A data site research && git commit -m "data refresh $(date -u +%F)" || echo "nothing to commit"
           git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4
