@@ -1,0 +1,3 @@
+run 2026-11-11 17:58 model claude-opus-5-5
+defense: 25 headlines, 2 recent known events
+done: 1 model calls, 0 events added, tokens in 0 out 0 (dry run)

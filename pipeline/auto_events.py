@@ -15,6 +15,10 @@ from common import load_taxonomy, all_sectors, ROOT
 MODEL = 'claude-opus-5-5'
 DAYS = 7
 EVENTS_PATH = os.path.join(ROOT, 'research', 'events_auto.json')
+LOG_PATH = os.path.join(ROOT, 'data', 'processed', 'auto_events_last_run.txt')
+_log_lines = []
+def log(msg):
+    print(msg, flush=True); _log_lines.append(str(msg))
 RATINGS_PATH = os.path.join(ROOT, 'research', 'event_ratings.json')
 UA = 'Mozilla/5.0 (CapitalRotationTracker research bot)'
 DRIVER_TYPES = ['policy', 'rates', 'macro', 'commodity', 'tech_cycle', 'earnings', 'geopolitical', 'regulatory', 'positioning', 'election', 'pandemic', 'ma']
@@ -111,6 +115,12 @@ def similar(a, b):
     ta = set(re.findall(r'[a-z0-9]+', a.lower())); tb = set(re.findall(r'[a-z0-9]+', b.lower()))
     return len(ta & tb) / max(1, len(ta | tb))
 
+def save_log():
+    os.makedirs(os.path.dirname(LOG_PATH), exist_ok=True)
+    with open(LOG_PATH, 'w', encoding='utf-8') as f:
+        f.write(f'run {dt.datetime.now():%Y-%m-%d %H:%M} model {MODEL}\n')
+        f.write('\n'.join(_log_lines) + '\n')
+
 def main():
     args = sys.argv[1:]
     dry = '--dry-run' in args
@@ -123,9 +133,9 @@ def main():
             import anthropic
             client = anthropic.Anthropic()
         except Exception as e:
-            print('Claude SDK/client unavailable, nothing done:', e); return 0
+            log(f'Claude SDK/client unavailable, nothing done: {e}'); save_log(); return 0
         if not (os.environ.get('ANTHROPIC_API_KEY') or os.environ.get('ANTHROPIC_AUTH_TOKEN')):
-            print('No ANTHROPIC_API_KEY set; skipping automated event scoring.'); return 0
+            log('No ANTHROPIC_API_KEY set; skipping automated event scoring.'); save_log(); return 0
     T = load_taxonomy()
     ratings = load_json(RATINGS_PATH, {})
     rubric = ratings.get('_rubric', {})
@@ -144,7 +154,7 @@ def main():
             q = f"{si['name'].split('(')[0].strip()} " + ' OR '.join(si['basket'][:4]) + ' stock'
             news = fetch_news(q, DAYS); time.sleep(1.0)
             existing = [e for e in all_events if si['id'] in (e.get('subindustries') or []) and e['date'] >= cutoff]
-            print(f"{si['id']}: {len(news)} headlines, {len(existing)} recent known events")
+            log(f"{si['id']}: {len(news)} headlines, {len(existing)} recent known events")
             if not news: continue
             if dry:
                 calls += 1; continue
@@ -159,11 +169,11 @@ def main():
             except Exception as e:
                 import anthropic
                 if isinstance(e, anthropic.RateLimitError): print('  rate limited, sleeping 60s'); time.sleep(60); continue
-                print('  API error:', type(e).__name__, str(e)[:200]); continue
+                log(f'  API error: {type(e).__name__} {str(e)[:300]}'); continue
             calls += 1; time.sleep(0.5)
             usage_in += resp.usage.input_tokens; usage_out += resp.usage.output_tokens
             if resp.stop_reason == 'refusal':
-                print('  model declined this batch'); continue
+                log('  model declined this batch'); continue
             text = next((b.text for b in resp.content if b.type == 'text'), None)
             if not text: continue
             try: data = json.loads(text)
@@ -180,12 +190,12 @@ def main():
                        'sources': [{'title': ev['source_title'], 'url': ev['source_url']}], 'auto': True, 'added': today.isoformat(), 'model': MODEL}
                 auto['events'].append(rec); all_events.append(rec); events_by_id[eid] = rec
                 ratings[eid] = {'e': ev['e'], 'p': int(ev['p']), 'b': int(ev['b']), 'c': int(ev['c']), 'why': ev['why'], 'auto': True, 'reviewed': False, 'model': MODEL, 'added': today.isoformat()}
-                added += 1; print(f"  + {ev['date']} {ev['title'][:80]} -> e={ev['e']} p={ev['p']} b={ev['b']} c={ev['c']}")
+                added += 1; log(f"  + {si['id']} {ev['date']} {ev['title'][:80]} -> e={ev['e']} p={ev['p']} b={ev['b']} c={ev['c']}")
     if not dry and added:
         json.dump(auto, open(EVENTS_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
         json.dump(ratings, open(RATINGS_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    print(f"done: {calls} model calls, {added} events added, tokens in {usage_in} out {usage_out}" + (' (dry run)' if dry else ''))
-    return 0
+    log(f"done: {calls} model calls, {added} events added, tokens in {usage_in} out {usage_out}" + (' (dry run)' if dry else ''))
+    save_log(); return 0
 
 if __name__ == '__main__':
     sys.exit(main())
