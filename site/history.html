@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>26-year history · Capital Rotation Tracker</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794439323">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794428942">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 </head>
@@ -24,6 +24,16 @@
     <div class="chart-card"><h3>Rates backdrop</h3><div class="note">10-year nominal yield, Fed funds and the 10-year real yield.</div><div class="chart-box"><canvas id="macroChart"></canvas></div></div>
     <div class="chart-card"><h3>Size of the tracked universe</h3><div class="note">Sum of market caps of all tracked names versus the S&amp;P 500 rebased to the same start. The gap is new listings and survivorship in the basket.</div><div class="chart-box"><canvas id="capChart"></canvas></div></div>
   </div>
+  <h2>Thirty years of momentum vs defensive, inside the sectors</h2>
+  <p class="sub">Capital does not only move between industries; within each one it rotates between the high-momentum, high-beta names and the steady, low-volatility names (NVDA versus the quality names in semis, the cruise lines versus the hotels in leisure). Every month each sub-industry's members are sorted by style score (12-1 month momentum minus defensiveness, where defensiveness is low volatility and low beta); the top third is the momentum cohort, the bottom third the defensive cohort. Both are cap-weighted, held a month and chain-linked. The spread is momentum divided by defensive.</p>
+  <div class="kpis" id="styleKpis"></div>
+  <div class="grid cols-2">
+    <div class="chart-card"><h3>Market-wide: momentum cohort vs defensive cohort, 1996 to today</h3><div class="note">All tracked stocks sorted within their own bucket, pooled. Rebased to 100 at the start of the range (log scale). Shaded bands are macro regimes.</div><div class="chart-box tall"><canvas id="styleMktChart"></canvas></div></div>
+    <div class="chart-card"><h3>Backdrop: Fama-French daily factors, 1995 to today</h3><div class="note">Kenneth French's academic long-short factors, cumulative, rebased to 100 (log scale). Momentum (winners minus losers) and quality (robust minus weak profitability) are the external check on the cohort series; value and size for context.</div><div class="chart-box tall"><canvas id="styleFFChart"></canvas></div></div>
+  </div>
+  <h3 style="margin-top:14px">Where each sub-industry's style spread stands now</h3>
+  <div class="card" style="overflow:auto;padding:0 8px;max-height:520px" id="styleTable"></div>
+  <p class="tier" style="margin-top:8px">Spread = momentum cohort return minus defensive cohort return, compounded. z (10y) = where the log spread sits against its own trailing ten-year mean and standard deviation. Mom. cap share = the momentum cohort's share of the two cohorts' combined market cap. HF tilt = share of the curated hedge-fund group's 13F value in the bucket that sits in the momentum cohort. Click a row for the sector page.</p>
   <h2>Macro regimes</h2>
   <div class="card" style="overflow:auto;padding:0 8px" id="regimes"></div>
   <h2>Cross-sector themes</h2>
@@ -32,7 +42,7 @@
   <div class="card" id="events"></div>
   <footer>Prices and share counts from Yahoo Finance; macro from FRED. Not investment advice.</footer>
 </main>
-<script src="data/taxonomy.js?v=1794439323"></script><script src="data/snapshot.js?v=1794439323"></script><script src="data/history.js?v=1794439323"></script><script src="data/events.js?v=1794439323"></script><script src="data/narratives.js?v=1794439323"></script><script src="data/blurbs.js?v=1794439323"></script>
-<script src="assets/charts.js?v=1794439323"></script><script src="assets/app.js?v=1794439323"></script>
+<script src="data/taxonomy.js?v=1794428942"></script><script src="data/snapshot.js?v=1794428942"></script><script src="data/history.js?v=1794428942"></script><script src="data/events.js?v=1794428942"></script><script src="data/narratives.js?v=1794428942"></script><script src="data/blurbs.js?v=1794428942"></script><script src="data/style.js?v=1794428942"></script>
+<script src="assets/charts.js?v=1794428942"></script><script src="assets/style_layer.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script>
 </body>
 </html>

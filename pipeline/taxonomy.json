@@ -320,7 +320,7 @@
      ]},
     {"id": "communication_media", "name": "Communication Services (Media & Entertainment)", "deep_dive": false, "sector_etf": "XLC", "sector_etf_start": "2018-06-19", "sector_history_etf": "PBS", "sector_history_etf_start": "2005-06-23",
      "subindustries": [
-       {"id": "media_entertainment", "name": "Media, Entertainment & Gaming", "etf": "PBS", "etf_start": "2005-06-23", "basket": ["DIS", "WBD", "PARA", "FOX", "FOXA", "EA", "TTWO", "RBLX", "OMC", "IPG", "NYT", "SIRI", "NWSA", "ROKU", "FWONA", "MSGS", "EDR"], "factors": {"growth": 0, "value": 1, "momentum": 0, "quality": -1, "low_vol": -1, "size": -1, "rates": -1, "cyclicality": 1},
+       {"id": "media_entertainment", "name": "Media, Entertainment & Gaming", "etf": "PBS", "etf_start": "2005-06-23", "basket": ["DIS", "WBD", "PSKY", "FOX", "FOXA", "EA", "TTWO", "RBLX", "OMC", "IPG", "NYT", "SIRI", "NWSA", "ROKU", "FWONA", "MSGS", "EDR"], "factors": {"growth": 0, "value": 1, "momentum": 0, "quality": -1, "low_vol": -1, "size": -1, "rates": -1, "cyclicality": 1},
         "drivers": ["streaming profitability and cord-cutting", "ad market cycle", "sports rights inflation", "media consolidation and FCC policy", "video game cycle (GTA VI)"]}
      ]}
   ],

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Methodology · Capital Rotation Tracker</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794439323">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794428942">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body data-page="methodology">
@@ -35,6 +35,9 @@
     <li><b>Multi-class shares.</b> Where Yahoo's share history covers one class, the series is rescaled to the implied total from current market cap.</li>
     <li><b>Factor betas.</b> Trailing 252-day regressions of bucket excess returns on growth-minus-value (IWF−IWD), size (IWM−SPY), momentum (MTUM−SPY), quality (QUAL−SPY), low-vol (USMV−SPY), the daily change in the 10-year yield, oil (USO) and the dollar (UUP). They describe the last year, not a structural truth.</li>
   </ul>
+  <h2>Momentum vs defensive inside each sub-industry (style layer)</h2>
+  <p>Rotation also happens inside a bucket: capital moves between its high-momentum, high-beta names and its steady, low-volatility names. At every month-end since 1996, each member of a bucket with at least eight priced names is scored on one axis: <code>style = z(12-1 month momentum) − ½[z(−252-day volatility) + z(−252-day beta to SPY)]</code>, with z-scores taken across the bucket's members. The top third by style is the <b>momentum cohort</b>, the bottom third the <b>defensive cohort</b>; both are cap-weighted, held for the following month, and chain-linked into daily index series. The <b>spread</b> is the momentum series divided by the defensive series, so it rises when money inside the bucket favours its aggressive names and falls when it favours its defensive ones. The same sort pooled across every bucket gives the market-wide series on the history page, and Kenneth French's daily momentum and profitability factors are shown alongside as an external check.</p>
+  <p>Eligibility: a name needs 150 priced days in the lookback, a price above $1, annualised volatility under 120% and a print within five days of the sort date, which keeps penny-stock noise and delisted names out of the cohorts. Reported with the spread are its 1, 3 and 12-month change, a z-score of the log spread against its trailing ten years, the momentum cohort's share of the two cohorts' combined market cap, and (2013 onward) the share of the curated hedge-fund group's 13F value in the bucket that sits in the momentum cohort. Caveats: cohorts are small (three to eight names each) so one stock can dominate a cap-weighted cohort; pre-2006 series are survivor-biased because delisted names are missing; the sort is price-based, so a "defensive" cohort is defensive in behaviour, not necessarily in business model.</p>
   <h2>Heat score</h2>
   <p>Heat = tanh(z / 1.5) × 100 where z is a weighted blend of the available z-scores: relative strength (3y, weight 0.4), market-cap weight (10y, 0.3), 3-month ETF flows (5y, 0.2) and the change in hedge-fund 13F share (0.1). Missing layers are dropped and the remaining weights renormalised. Labels: Hot above 40, Warm 10 to 40, Neutral, Cool −10 to −40, Cold below −40.</p>
   <h2>Update cadence</h2>
@@ -43,7 +46,7 @@
   <div class="card" style="overflow:auto;padding:0 8px" id="coverage"></div>
   <footer>Prices and share counts from Yahoo Finance; ETF flows from issuer disclosures; institutional positioning from SEC Form 13F; macro from FRED. Not investment advice.</footer>
 </main>
-<script src="data/taxonomy.js?v=1794439323"></script><script src="data/snapshot.js?v=1794439323"></script><script src="data/history.js?v=1794439323"></script><script src="data/events.js?v=1794439323"></script><script src="data/narratives.js?v=1794439323"></script><script src="data/blurbs.js?v=1794439323"></script>
-<script src="assets/charts.js?v=1794439323"></script><script src="assets/app.js?v=1794439323"></script>
+<script src="data/taxonomy.js?v=1794428942"></script><script src="data/snapshot.js?v=1794428942"></script><script src="data/history.js?v=1794428942"></script><script src="data/events.js?v=1794428942"></script><script src="data/narratives.js?v=1794428942"></script><script src="data/blurbs.js?v=1794428942"></script><script src="data/style.js?v=1794428942"></script>
+<script src="assets/charts.js?v=1794428942"></script><script src="assets/style_layer.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script>
 </body>
 </html>

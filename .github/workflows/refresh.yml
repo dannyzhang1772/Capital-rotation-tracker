@@ -34,6 +34,8 @@ jobs:
         run: cd pipeline && python fetch_13f.py || echo "13F refresh failed; keeping last file"
       - name: Compute site data
         run: cd pipeline && python compute.py
+      - name: Style layer (momentum vs defensive cohorts)
+        run: cd pipeline && python style_cohorts.py || echo "style layer failed; keeping last file"
       - name: Automated event scoring (Mondays Toronto time, manual runs, or a [refresh] push; needs ANTHROPIC_API_KEY)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

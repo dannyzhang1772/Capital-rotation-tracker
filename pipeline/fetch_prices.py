@@ -6,7 +6,7 @@ import sys, time, os, datetime as dt
 import pandas as pd, numpy as np, yfinance as yf
 from common import load_taxonomy, universe, RAW
 
-START = '1998-12-01'
+START = '1995-01-01'
 PRICES = os.path.join(RAW, 'prices.parquet')
 VOLUME = os.path.join(RAW, 'volume.parquet')
 LOG = os.path.join(RAW, 'fetch_prices.log')

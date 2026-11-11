@@ -5,3 +5,7 @@ data/raw/*.log
 data/processed/13f_quarters/
 __pycache__/
 *.pyc
+data/processed/style_run.out
+data/raw/fetch_retry.out
+data/raw/fetch_prices_1995.out
+data/processed/compute_run.out

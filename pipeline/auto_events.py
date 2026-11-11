@@ -25,7 +25,7 @@ DRIVER_TYPES = ['policy', 'rates', 'macro', 'commodity', 'tech_cycle', 'earnings
 
 SCHEMA = {
     'type': 'object', 'additionalProperties': False, 'required': ['events'],
-    'properties': {'events': {'type': 'array', 'maxItems': 3, 'items': {
+    'properties': {'events': {'type': 'array', 'description': 'at most 3 events; empty if nothing qualifies', 'items': {
         'type': 'object', 'additionalProperties': False,
         'required': ['date', 'title', 'summary', 'evidence', 'direction', 'magnitude', 'driver_type', 'source_title', 'source_url', 'e', 'p', 'b', 'c', 'why'],
         'properties': {
@@ -35,8 +35,8 @@ SCHEMA = {
             'direction': {'type': 'string', 'enum': ['in', 'out', 'mixed']}, 'magnitude': {'type': 'string', 'enum': ['major', 'moderate', 'minor']},
             'driver_type': {'type': 'string', 'enum': DRIVER_TYPES},
             'source_title': {'type': 'string'}, 'source_url': {'type': 'string'},
-            'e': {'type': 'number', 'minimum': -5, 'maximum': 5}, 'p': {'type': 'integer', 'minimum': 1, 'maximum': 3},
-            'b': {'type': 'integer', 'minimum': 1, 'maximum': 3}, 'c': {'type': 'integer', 'minimum': 1, 'maximum': 3},
+            'e': {'type': 'number', 'description': '-5 to +5'}, 'p': {'type': 'integer', 'description': '1, 2 or 3'},
+            'b': {'type': 'integer', 'description': '1, 2 or 3'}, 'c': {'type': 'integer', 'description': '1, 2 or 3'},
             'why': {'type': 'string', 'description': 'one short clause justifying the rating'},
         }}}}}
 
@@ -178,8 +178,10 @@ def main():
             if not text: continue
             try: data = json.loads(text)
             except json.JSONDecodeError: print('  bad JSON from model'); continue
-            for k, ev in enumerate(data.get('events', [])):
+            for k, ev in enumerate(data.get('events', [])[:3]):
                 if not re.match(r'^\d{4}-\d{2}-\d{2}$', ev['date']): continue
+                # the API schema cannot carry numeric bounds, so clamp here
+                ev['e'] = max(-5.0, min(5.0, float(ev['e']))); ev['p'], ev['b'], ev['c'] = (max(1, min(3, int(ev[k2]))) for k2 in ('p', 'b', 'c'))
                 dup = any(similar(ev['title'], e['title']) > 0.5 and abs((dt.date.fromisoformat(ev['date']) - dt.date.fromisoformat(e['date'])).days) <= 5
                           for e in all_events if si['id'] in (e.get('subindustries') or []) and re.match(r'^\d{4}-\d{2}-\d{2}$', e['date']))
                 if dup: print('  duplicate skipped:', ev['title'][:70]); continue

@@ -13,6 +13,7 @@ pipeline/   Python scripts that fetch data and compute everything the site shows
   fetch_etf_flows.py  issuer shares-outstanding and NAV -> daily ETF creation/redemption flows
   fetch_13f.py        SEC Form 13F structured data -> institutional and hedge-fund ownership by ticker
   compute.py          bucket indices, weights, relative strength, factor betas, heat scores -> site/data/*.js
+  style_cohorts.py    momentum vs defensive cohorts inside each sub-industry since 1996 (+ Fama-French backdrop) -> site/data/style.js
   event_response.py   measures what each sub-industry did (vs S&P and vs its sector) after every researched event
   calibrate.py        Beta Mode: blind materiality ratings (research/event_ratings.json) vs measured reactions, calibration fit, backtest, long/short stances -> site/data/beta.js
 research/   events_*.json (dated, sourced rotation events), regimes.json, per-sector narratives (.md), blurbs.json (catalyst notes)
@@ -33,6 +34,7 @@ python fetch_macro.py
 python fetch_etf_flows.py
 python fetch_13f.py                # slow on first run (downloads ~50 quarterly SEC zips)
 python compute.py
+python style_cohorts.py
 python event_response.py
 python calibrate.py
 ```

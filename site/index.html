@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Capital Rotation Tracker</title>
 <meta name="description" content="Where public equity capital sits across 62 sub-industries, versus history, and what would move it next.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794439323">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794428942">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
 <body data-page="dashboard">
@@ -29,14 +29,14 @@
     <span class="muted small" id="rowCount"></span>
   </div>
   <div class="card" style="overflow:auto;padding:0 8px"><table class="data sticky-head"><thead><tr id="tblHead"></tr></thead><tbody id="tblBody"></tbody></table></div>
-  <p class="tier" style="margin-top:8px">Weight = share of tracked universe market cap. "vs 10y avg" is the current weight's z-score against its own ten-year mean (bar centred on the mean). Rel = total return minus S&amp;P 500 over the window. Heat blends relative-strength z-score (3y), weight z-score (10y), 3-month ETF flow z-score and the change in hedge-fund 13F share, each where available.</p>
+  <p class="tier" style="margin-top:8px">Weight = share of tracked universe market cap. "vs 10y avg" is the current weight's z-score against its own ten-year mean (bar centred on the mean). Rel = total return minus S&amp;P 500 over the window. Heat blends relative-strength z-score (3y), weight z-score (10y), 3-month ETF flow z-score and the change in hedge-fund 13F share, each where available. Mom−Def = the momentum-minus-defensive spread inside the bucket over three months (its high-momentum, high-beta members versus its low-vol members) and that spread's z-score against ten years; hover a cell for the current cohorts.</p>
   <div class="chart-card" style="margin-top:14px"><h3>Heat score: hottest and coldest buckets in the current filter</h3><div class="note">Diverging scale: blue = capital concentrating in, red = capital leaving. Score runs from −100 to +100.</div><div class="chart-box"><canvas id="heatChart"></canvas></div></div>
   <h2>Cross-sector themes (overlays)</h2>
   <p class="sub">Themes cut across the buckets above and are shown separately so nothing is double counted.</p>
   <div class="grid cols-3" id="themes"></div>
   <footer>Prices and share counts from Yahoo Finance; ETF flows from issuer disclosures; institutional positioning from SEC Form 13F; macro from FRED. Not investment advice. Built for a student investment fund.</footer>
 </main>
-<script src="data/taxonomy.js?v=1794439323"></script><script src="data/snapshot.js?v=1794439323"></script><script src="data/history.js?v=1794439323"></script><script src="data/events.js?v=1794439323"></script><script src="data/narratives.js?v=1794439323"></script><script src="data/blurbs.js?v=1794439323"></script>
-<script src="assets/charts.js?v=1794439323"></script><script src="assets/app.js?v=1794439323"></script>
+<script src="data/taxonomy.js?v=1794428942"></script><script src="data/snapshot.js?v=1794428942"></script><script src="data/history.js?v=1794428942"></script><script src="data/events.js?v=1794428942"></script><script src="data/narratives.js?v=1794428942"></script><script src="data/blurbs.js?v=1794428942"></script><script src="data/style.js?v=1794428942"></script>
+<script src="assets/charts.js?v=1794428942"></script><script src="assets/style_layer.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script>
 </body>
 </html>

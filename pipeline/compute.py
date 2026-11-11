@@ -3,7 +3,7 @@ Reads data/raw/* and research/*; writes site/data/*.js (window.CRT_* globals so 
 """
 import os, json, glob, math, datetime as dt
 import numpy as np, pandas as pd
-from common import load_taxonomy, all_sectors, RAW, PROC, SITE_DATA, ROOT
+from common import load_taxonomy, all_sectors, RAW, PROC, SITE_DATA, ROOT, clean_prices
 
 T = load_taxonomy(); B = T['meta']['benchmarks']
 SUB_START = pd.Timestamp(T['meta']['history_tiers']['subindustry_level'])
@@ -11,8 +11,8 @@ SEC_START = pd.Timestamp(T['meta']['history_tiers']['sector_level'])
 
 # ---------------------------------------------------------------- load
 P = pd.read_parquet(os.path.join(RAW, 'prices.parquet')).sort_index()
-P = P.loc[P.index >= '1998-12-01']
-P = P.where(P > 0)
+P = P.loc[P.index >= '1995-01-01']
+P = clean_prices(P)
 R = P.pct_change(fill_method=None)
 R = R.where(R.abs() < 1.0)  # drop corrupt > +/-100% daily prints
 SPY = P[B['market']]

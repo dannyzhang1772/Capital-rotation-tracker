@@ -84,6 +84,7 @@
       ['Hot sub-industries', `${hot}`, `of ${deep.length} deep-dive buckets · ${cold} cold`],
       ['Best 3-month rotation', top ? top.name : '–', top ? `${pct(top.rel_3m)} vs S&P 500` : ''],
       ['Worst 3-month rotation', bot ? bot.name : '–', bot ? `${pct(bot.rel_3m)} vs S&P 500` : ''],
+      ...(window.CRTStyle && CRTStyle.kpi() ? [CRTStyle.kpi()] : []),
       ['Data layers live', `${['prices', S.universe.flows_available ? 'ETF flows' : null, S.universe.f13_available ? '13F' : null].filter(Boolean).length}`, `${S.universe.flows_available ? 'ETF flows ✓' : 'ETF flows pending'} · ${S.universe.f13_available ? '13F ✓' : '13F pending'}`],
     ].map(([l, v, d]) => `<div class="kpi"><div class="label">${esc(l)}</div><div class="value ${String(v).length > 12 ? 'text' : ''}">${esc(v)}</div><div class="delta">${esc(d)}</div></div>`).join('');
     $('#heatstrip').innerHTML = S.sectors.map((s) => `<a href="sector.html?s=${s.id}"><div class="n">${esc(s.name)}</div><div class="m"><span>${heatPill(s.label, s.heat)}</span><span class="${cls(s.rel_3m)}">${pct(s.rel_3m)} 3m</span></div><div class="m"><span>wt ${wpct(s.weight, 1)}</span><span class="muted">10y avg ${wpct(s.weight_mean10y, 1)}</span></div></a>`).join('');
@@ -94,9 +95,9 @@
       { k: 'sector_name', l: 'Sector', left: true }, { k: 'name', l: 'Sub-industry', left: true }, { k: 'heat', l: 'Heat' },
       { k: 'weight', l: 'Weight' }, { k: 'weight_z10y', l: 'vs 10y avg' }, { k: 'weight_pctile', l: 'Wt pctile' },
       { k: 'rel_1m', l: 'Rel 1m' }, { k: 'rel_3m', l: 'Rel 3m' }, { k: 'rel_12m', l: 'Rel 12m' }, { k: 'abs_ytd', l: 'YTD' },
-      { k: 'flow_3m_pct_aum', l: 'ETF flow 3m' }, { k: 'hf_chg', l: 'HF share Δ' }, { k: 'next', l: 'Next catalyst', left: true },
+      { k: 'flow_3m_pct_aum', l: 'ETF flow 3m' }, { k: 'hf_chg', l: 'HF share Δ' }, ...(window.CRTStyle ? CRTStyle.tableCols() : []), { k: 'next', l: 'Next catalyst', left: true },
     ];
-    const val = (b, k) => k === 'flow_3m_pct_aum' ? (b.flows ? b.flows.flow_3m_pct_aum : null) : k === 'hf_chg' ? (b.f13 ? b.f13.hf_share_chg_qoq : null) : k === 'next' ? (BL[b.id] ? BL[b.id].inflow_if : '') : b[k];
+    const val = (b, k) => k.startsWith('style_') ? CRTStyle.tableVal(b.id, k) : k === 'flow_3m_pct_aum' ? (b.flows ? b.flows.flow_3m_pct_aum : null) : k === 'hf_chg' ? (b.f13 ? b.f13.hf_share_chg_qoq : null) : k === 'next' ? (BL[b.id] ? BL[b.id].inflow_if : '') : b[k];
     function draw() {
       const q = ($('#fSearch').value || '').toLowerCase(); const sec = sel.value; const onlyDeep = $('#fDeep').checked; const lab = $('#fLabel').value;
       let rows = S.buckets.filter((b) => (!sec || b.sector === sec) && (!onlyDeep || b.deep_dive) && (!lab || b.label === lab) && (!q || `${b.name} ${b.sector_name} ${(b.basket || []).join(' ')}`.toLowerCase().includes(q)));
@@ -109,6 +110,7 @@
         <td class="num ${cls(b.rel_1m)}">${pct(b.rel_1m)}</td><td class="num ${cls(b.rel_3m)}">${pct(b.rel_3m)}</td><td class="num ${cls(b.rel_12m)}">${pct(b.rel_12m)}</td><td class="num ${cls(b.abs_ytd)}">${pct(b.abs_ytd)}</td>
         <td class="num ${cls(val(b, 'flow_3m_pct_aum'))}">${b.flows ? pct(b.flows.flow_3m_pct_aum) : '<span class="muted">–</span>'}</td>
         <td class="num ${cls(val(b, 'hf_chg'))}">${b.f13 && b.f13.hf_share_chg_qoq != null ? (b.f13.hf_share_chg_qoq > 0 ? '+' : '') + b.f13.hf_share_chg_qoq.toFixed(2) + 'pp' : '<span class="muted">–</span>'}</td>
+        ${window.CRTStyle ? CRTStyle.tableCols().map((c) => CRTStyle.tableCell(b.id, c.k)).join('') : ''}
         <td class="l next" title="${esc(val(b, 'next') || '')}">${esc((val(b, 'next') || '').length > 110 ? (val(b, 'next') || '').slice(0, 108) + '…' : (val(b, 'next') || ''))}</td></tr>`).join('');
       $$('#tblHead th').forEach((th) => th.addEventListener('click', () => { const k = th.dataset.k; if (sortKey === k) sortAsc = !sortAsc; else { sortKey = k; sortAsc = ['sector_name', 'name', 'next'].includes(k); } draw(); }));
       $$('#tblBody tr.row').forEach((tr) => tr.addEventListener('click', () => (location.href = tr.dataset.href)));
@@ -179,6 +181,8 @@
       const f13 = selB && H.buckets[selId] && H.buckets[selId].f13 ? H.buckets[selId].f13 : hs.f13; const hc = $('#hfCard');
       if (f13 && f13.hf_share) { hc.style.display = ''; C.lines('hfChart', f13.periods, [{ label: 'share of hedge-fund 13F value', data: f13.hf_share }, { label: 'share of all 13F value', data: f13.share_of_13f || [] }], { fmt: (v) => `${v.toFixed(2)}%`, yTick: (v) => `${v}%`, zero: true }); }
       else hc.style.display = 'none';
+      // style layer (momentum vs defensive cohorts)
+      if (window.CRTStyle) CRTStyle.drawSector(sec, subs, selId, start, regimes);
       // macro strip
       if (H.macro && H.macro.ust10y) C.lines('macroChart', labels, [{ label: '10-year Treasury yield', data: cut(H.macro.ust10y) }, H.macro.fed_funds ? { label: 'Fed funds', data: cut(H.macro.fed_funds) } : null].filter(Boolean), { fmt: (v) => `${v.toFixed(2)}%`, yTick: (v) => `${v}%`, regimes, zero: true });
     }
@@ -194,6 +198,7 @@
         <div class="stat"><div class="l">Momentum 12-1</div><div class="v ${cls(b.momentum_12_1)}">${pct(b.momentum_12_1)}</div></div><div class="stat"><div class="l">ETF flow 3m</div><div class="v ${cls(b.flows && b.flows.flow_3m_pct_aum)}">${b.flows ? pct(b.flows.flow_3m_pct_aum) + ' AUM' : '–'}</div></div><div class="stat"><div class="l">HF share</div><div class="v">${b.f13 && b.f13.hf_share_pct != null ? b.f13.hf_share_pct.toFixed(2) + '%' : '–'}</div></div>
       </div>
       ${blurbHtml(b.id)}
+      ${window.CRTStyle ? CRTStyle.bucketHtml(b.id) : ''}
       <details style="margin-top:8px"><summary class="small">Drivers, factor loadings, members</summary><ul class="drivers">${(b.drivers || []).map((d) => `<li>${esc(d)}</li>`).join('')}</ul>${factorTags(b)}<div class="small muted" style="margin-top:6px">${esc((b.basket || []).join(', '))}${b.missing_tickers && b.missing_tickers.length ? `<br>No price data (delisted or unavailable): ${esc(b.missing_tickers.join(', '))}` : ''}${b.history_note ? `<br>${esc(b.history_note)}` : ''}</div></details>
     </div>`).join('');
     drawCharts(); drawEvents();
@@ -213,6 +218,7 @@
       const rs = S.sectors.map((s) => ({ label: s.name, data: rebase(((H.sectors[s.id].rs_etf || H.sectors[s.id].rs_basket) || []).slice(i0), 0), emphasis: s.deep_dive })).filter((x) => x.data.some((v) => v != null));
       C.lines('rsChart', labels, rs.slice(0, 8).concat(rs.slice(8).map((x) => ({ ...x, emphasis: false }))), { fmt: (v) => v.toFixed(1), yTick: (v) => v, refLine: 100, regimes, log: true });
       if (H.macro && H.macro.ust10y) C.lines('macroChart', labels, [{ label: '10-year Treasury yield', data: H.macro.ust10y.slice(i0) }, H.macro.fed_funds ? { label: 'Fed funds', data: H.macro.fed_funds.slice(i0) } : null, H.macro.real10y ? { label: '10-year real yield (TIPS)', data: H.macro.real10y.slice(i0) } : null].filter(Boolean), { fmt: (v) => `${v.toFixed(2)}%`, yTick: (v) => `${v}%`, regimes });
+      if (window.CRTStyle) CRTStyle.drawHistory(start, regimes);
       if (H.universe_cap) C.lines('capChart', labels, [{ label: 'Tracked universe market cap ($tn)', data: H.universe_cap.slice(i0) }, { label: 'S&P 500 (SPY, rebased to universe)', data: (() => { const sp = rebase(H.spy.slice(i0), 0); const u = H.universe_cap.slice(i0); let j = 0; while (j < u.length && u[j] == null) j++; const b = u[j] || 1; return sp.map((v) => (v == null ? null : (v / 100) * b)); })(), color: C.tok().gray }], { fmt: (v) => `$${v.toFixed(2)}tn`, yTick: (v) => `$${v}tn`, regimes, zero: true });
     }
     draw(); window.addEventListener('crt-rerender', draw);

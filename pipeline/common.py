@@ -43,3 +43,24 @@ def benchmark_tickers(t):
 
 def universe(t):
     return sorted(set(etf_tickers(t)) | set(basket_tickers(t)) | set(benchmark_tickers(t)))
+
+
+def clean_prices(P, min_days=60, log=print):
+    """Shared price hygiene: drop near-empty series, blank single-day spikes that fully revert (bad prints),
+    and drop series that are corrupt end to end (many >50% days plus a >10x swing inside five days)."""
+    import numpy as np
+    P = P.where(P > 0)
+    thin = [c for c in P.columns if P[c].notna().sum() < min_days]
+    if thin: P = P.drop(columns=thin)
+    R = P.pct_change(fill_method=None)
+    big = (R.abs() > 0.5).sum()
+    swing = (P.rolling(5).max() / P.rolling(5).min()).max()
+    corrupt = [c for c in P.columns if big[c] >= 10 and swing[c] > 10]
+    if corrupt: P = P.drop(columns=corrupt)
+    # spike that reverts next day: P_t/P_{t-1} outside [0.5, 2] while P_{t+1}/P_{t-1} inside [0.67, 1.5]
+    prev = P.shift(1); nxt = P.shift(-1)
+    spike = ((P / prev > 2) | (P / prev < 0.5)) & ((nxt / prev >= 0.67) & (nxt / prev <= 1.5))
+    n_spike = int(spike.sum().sum())
+    P = P.mask(spike)
+    log(f"clean_prices: dropped {len(thin)} thin series {thin[:12]}{'...' if len(thin) > 12 else ''}; dropped corrupt {corrupt}; blanked {n_spike} reverting spikes")
+    return P

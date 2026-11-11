@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sector · Capital Rotation Tracker</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794439323">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794428942">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 </head>
@@ -31,6 +31,7 @@
     <div class="chart-card"><h3>Relative strength vs S&amp;P 500</h3><div class="note" id="rsNote"></div><div class="chart-box"><canvas id="rsChart"></canvas></div></div>
     <div class="chart-card"><h3>Split of the sector's capital by sub-industry</h3><div class="note">Each sub-industry's share of the sector's market cap. Top seven shown; the rest folded into "Other".</div><div class="chart-box"><canvas id="shareChart"></canvas></div></div>
     <div class="chart-card"><h3>Rates backdrop</h3><div class="note">10-year Treasury yield and Fed funds, same time axis as the charts above.</div><div class="chart-box short"><canvas id="macroChart"></canvas></div></div>
+    <div class="chart-card" id="styleCard" style="grid-column:1 / -1"><h3>Momentum vs defensive inside each sub-industry</h3><div class="note" id="styleNote"></div><div class="chart-box"><canvas id="styleChart"></canvas></div><div class="note" id="styleSum" style="margin-top:6px"></div></div>
     <div class="chart-card" id="flowCard" style="display:none"><h3 id="flowTitle">Net ETF flows</h3><div class="note">Creations minus redemptions, from issuer shares-outstanding and NAV. Blue = inflow, red = outflow.</div><div class="chart-box"><canvas id="flowChart"></canvas></div></div>
     <div class="chart-card" id="hfCard" style="display:none"><h3>Institutional positioning (SEC 13F)</h3><div class="note">Share of the curated hedge-fund group's reported long value, and of all 13F filers. Quarterly, 45-day reporting lag.</div><div class="chart-box"><canvas id="hfChart"></canvas></div></div>
   </div>
@@ -40,7 +41,7 @@
   <div class="card" id="events"></div>
   <footer>Prices and share counts from Yahoo Finance; ETF flows from issuer disclosures; institutional positioning from SEC Form 13F; macro from FRED. Not investment advice.</footer>
 </main>
-<script src="data/taxonomy.js?v=1794439323"></script><script src="data/snapshot.js?v=1794439323"></script><script src="data/history.js?v=1794439323"></script><script src="data/events.js?v=1794439323"></script><script src="data/narratives.js?v=1794439323"></script><script src="data/blurbs.js?v=1794439323"></script>
-<script src="assets/charts.js?v=1794439323"></script><script src="assets/app.js?v=1794439323"></script>
+<script src="data/taxonomy.js?v=1794428942"></script><script src="data/snapshot.js?v=1794428942"></script><script src="data/history.js?v=1794428942"></script><script src="data/events.js?v=1794428942"></script><script src="data/narratives.js?v=1794428942"></script><script src="data/blurbs.js?v=1794428942"></script><script src="data/style.js?v=1794428942"></script>
+<script src="assets/charts.js?v=1794428942"></script><script src="assets/style_layer.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script>
 </body>
 </html>
