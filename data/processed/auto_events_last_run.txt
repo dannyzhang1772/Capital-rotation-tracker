@@ -1,3 +1,126 @@
-run 2026-11-11 17:58 model claude-opus-5-5
+run 2026-11-11 23:21 model claude-opus-5-5
 defense: 25 headlines, 2 recent known events
-done: 1 model calls, 0 events added, tokens in 0 out 0 (dry run)
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzqqtNNuo73BvjSpRPH'}
+commercial_aerospace: 23 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzqxZTsYBtqydGPipeb'}
+transportation: 24 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzr4wgKhJroo6rHecXw'}
+machinery: 26 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrBBya7xCadHSAYZiR'}
+electrical_equipment: 14 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrHRGcwyT8jSezwdhV'}
+industrial_distribution: 6 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrPvCGGh2NmRUzsABi'}
+building_products_construction: 1 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrVvrA4bRvHzT4BGwY'}
+professional_services: 13 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrcCss2EDukTqj3Xkb'}
+waste: 16 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzriZcUjZRpGr6p4QYW'}
+pharma: 24 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrpsPLVEB6hCh7Sv97'}
+biotech_large: 21 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzrw6vk3BYXjJxJgS9E'}
+biotech_smid: 26 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzs3HzVWjpot8M4ATTu'}
+life_sciences_tools: 12 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzs9NNWix1ukMQUVWh1'}
+medical_devices: 14 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsFk6i4htjFfjqo81P'}
+managed_care: 9 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsN2d6TaTPChDAxqFv'}
+healthcare_facilities_services: 2 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsUAxUHcQ4RN3qfLcH'}
+healthcare_technology: 27 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsafPnk419R6YxyktB'}
+semiconductors: 26 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsgzPgJbFRZChqKeCR'}
+semicap: 26 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzso7VbRpJ6CRoC52zW'}
+memory: 29 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsuVDJHC7XbZZLuBGN'}
+application_software: 31 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzt1fHtAwrqUMi1hbHq'}
+infrastructure_software_cyber: 28 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzt7srdsoS9oFNW44Rm'}
+it_services: 25 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztE6f2D4ou98Hf5ADU'}
+internet_platforms: 29 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztLPg2UYUzNCaUgzv2'}
+hardware: 15 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztSrrnGYNLxXCVrJ8K'}
+apple: 40 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztZ8PzWStQGgvJd9aF'}
+fintech_payments: 25 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwztfa5zvkKXhy7ceBdu'}
+telecom: 11 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztnDCXJ97gv6yhzcwQ'}
+internet_retail: 1 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzttMXfVQ98AkE3gRnr'}
+autos: 29 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztzgJ4oCQkxPGdWuN3'}
+housing: 6 headlines, 2 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzu7Tpg1NN1dK3Lin2g'}
+travel_leisure_restaurants: 2 headlines, 3 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuDavHff1Hj4atyaLh'}
+apparel_luxury: 9 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuKaqiPaxxdsUc2spD'}
+specialty_retail: 9 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuRhw2iP9vH6K2EiVC'}
+food_beverage_tobacco: 26 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuYJZ1Vf39NVbJVEUZ'}
+household_personal: 31 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuesCosJvV58pwapgX'}
+staples_retail: 9 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzumCTbZ74dNhSEwMmz'}
+integrated: 29 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzutYyKPT97uNBo5SDu'}
+exploration_production: 23 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzuzfa5aa4zEUfW5RRZ'}
+refining: 29 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzv73JCdUG5ALeyCbAs'}
+midstream: 21 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvD3D728wpmefw4jeW'}
+oilfield_services: 27 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvKKjyMZx61waw9MUn'}
+new_energy_power: 13 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvRnvDo8b8qLheTcYN'}
+industrial_logistics_reits: 9 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvXpaD9g6JF4c362Qp'}
+data_center_tower_reits: 15 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzve8aF1PFd7qWfzDP1'}
+residential_reits: 10 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvkAxaur4BHvMzh74N'}
+office_reits: 7 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvqyDbyVCE9zQZN45U'}
+retail_reits: 16 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvxA3N5rGHmAG8UMXC'}
+net_lease_specialty_reits: 13 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzw47xmkKutoPCRP5L5'}
+healthcare_reits: 26 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwAPznBYhb1qhoeSur'}
+self_storage_reits: 10 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwGJSW5VAoHruRFNhv'}
+lodging_reits: 10 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwNNKQvrMzHhYeunkJ'}
+mortgage_reits: 7 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwUWArrNHhaJyEY6vQ'}
+real_estate_services: 19 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzwb8mQqVEvdp8g9ypx'}
+banks: 27 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwhPJkmwgJE2WzATNL'}
+capital_markets: 28 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwoqWEi43ck3RC2UWZ'}
+insurance: 26 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwvBkM7gsjZsseP7bg'}
+regulated_utilities: 29 headlines, 1 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzx2K6vYTjLmdm59a1o'}
+chemicals: 22 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzx8UvF7mb9xx2BCwEm'}
+metals_mining: 16 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzxEbnXUASKGzXP1BgE'}
+gold_miners: 26 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzxLjsVv1iDjWcVZm1w'}
+media_entertainment: 12 headlines, 0 recent known events
+  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzxSsxKZcrseYrqKbGC'}
+done: 0 model calls, 0 events added, tokens in 0 out 0
