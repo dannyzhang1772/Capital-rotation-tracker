@@ -86,9 +86,10 @@
   <p class="sub">For names with listed options, the at-the-money straddle prices the move the market expects by expiry, and the implied volatility gives a one-month one-standard-deviation range. Where an expiry sits just after an earnings date, the extra variance in that expiry is the implied earnings move. TSX-listed names have no chains on the free feed, so they fall back to three-month realised volatility.</p>
   <div class="kpis" id="mvKpis"></div>
   <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr><th class="l">Holding</th><th>Weight</th><th class="l">Basis</th><th>Implied vol</th><th>Realised vol 3m</th><th>1m expected move (1σ)</th><th>Straddle move</th><th class="l">to expiry</th><th class="l">Next earnings</th><th>Implied earnings move</th><th>Share of book risk</th></tr></thead><tbody id="mvBody"></tbody></table></div>
-  <h3 style="margin-top:14px">If this happens, the book moves by</h3>
-  <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr id="scHead"></tr></thead><tbody id="scBody"></tbody></table></div>
-  <p class="tier" style="margin-top:6px">Scenarios push one factor and pass it through each holding's fitted beta; unhedged US-dollar positions take currency moves one for one. "On equity" scales by leverage, because the margin loan does not shrink when prices fall. These are sensitivities, not forecasts, and betas drift.</p>
+  <h2>If it happened again: this book through past regime shifts</h2>
+  <p class="sub">Rate moves, election outcomes, new laws and shocks, each one a real episode. Every holding's actual return over those dates is applied at today's weights, so the answer is what this exact book would have done, and which positions would have done it.</p>
+  <div class="card" style="overflow:auto;padding:0 8px"><table class="data scen-table"><thead><tr id="scHead"></tr></thead><tbody id="scBody"></tbody></table></div>
+  <p class="tier" style="margin-top:6px">"S&amp;P 500 then" and "10y yield then" are what the market and the 10-year Treasury yield did over the same dates. "vs S&amp;P" is the book's return minus the index's, in points, with both measured in the book's base currency. A star marks a holding that did not trade during the episode; its sector ETF (or its fund's sector mix) stands in. History does not repeat exactly: an episode shows which way the book leans and how hard, not a forecast.</p>
 
   <h2>How to read this page</h2>
   <div class="card prose" id="pfMethod"></div>

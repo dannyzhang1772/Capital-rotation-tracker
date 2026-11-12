@@ -166,3 +166,9 @@ header.top .subnav select { font-family: var(--mono); font-size: 11.5px; color: 
 .example-banner .ex-tag { font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #000; background: var(--amber); padding: 2px 8px; }
 .example-banner button { font-family: var(--mono); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; padding: 8px 16px; background: var(--amber); color: #000; border: 1px solid var(--amber); cursor: pointer; }
 .example-banner button:hover { background: #fff; border-color: #fff; }
+
+/* scenario replay table */
+table.scen-table td.scen { white-space: normal; min-width: 320px; max-width: 520px; }
+table.scen-table td.scen .what { font-family: var(--font); font-size: 11.5px; line-height: 1.3; color: var(--ink-2); margin-top: 2px; }
+table.scen-table tr.grp td { color: var(--amber); font-size: 11px; text-transform: uppercase; letter-spacing: .08em; background: var(--panel-head); padding-top: 6px; }
+table.scen-table td { vertical-align: top; }

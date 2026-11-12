@@ -73,6 +73,39 @@ def get_prices(tickers):
     df = pd.DataFrame({t: _PX[t][1] for t in dict.fromkeys(tickers) if len(_PX[t][1])}).sort_index()
     return df.where(df > 0)
 
+_PXL = {}         # ticker -> (fetched_at, Series) daily closes since 2015, for replaying past episodes
+def get_prices_long(tickers):
+    import yfinance as yf
+    now = time.time(); need = [t for t in dict.fromkeys(tickers) if t not in _PXL or now - _PXL[t][0] > 24 * 3600]
+    if need:
+        got = {}
+        try:
+            df = yf.download(need, start='2015-01-01', auto_adjust=True, progress=False, threads=True, group_by='column')
+            c = df['Close'] if 'Close' in df.columns.get_level_values(0) else df
+            if isinstance(c, pd.Series): c = c.to_frame(need[0])
+            c.index = pd.to_datetime(c.index).tz_localize(None)
+            got = {t: c[t].dropna() for t in need if t in c.columns and c[t].notna().sum() > 0}
+        except Exception:
+            pass
+        for t in need: _PXL[t] = (now, got.get(t, pd.Series(dtype=float)))
+    df = pd.DataFrame({t: _PXL[t][1] for t in dict.fromkeys(tickers) if len(_PXL[t][1])}).sort_index()
+    return df.where(df > 0)
+
+# Past regime shifts replayed on today's holdings: (group, name, close-of start, close-of end, what happened)
+EPISODES = [
+    ('Rates', 'Rates rise fast: the 2022 hiking cycle', '2022-01-03', '2022-10-12', 'The Fed took its policy rate from zero to above 3% in nine months. Long-duration growth and anything valued on distant profits fell hardest; energy and value held up.'),
+    ('Rates', 'Long yields spike: summer to autumn 2023', '2023-07-31', '2023-10-27', 'The 10-year Treasury yield climbed toward 5% on heavy issuance and "higher for longer". Rate-sensitive sectors (utilities, real estate, small caps) led the fall.'),
+    ('Rates', 'Rate cuts get priced in: the late-2023 pivot', '2023-10-27', '2023-12-29', 'The Fed signalled cuts and yields fell by about a point. Almost everything rallied; small caps, banks, real estate and unprofitable growth rallied most.'),
+    ('Politics', 'Democratic sweep: Georgia runoffs, January 2021', '2021-01-04', '2021-01-20', 'Democrats took the Senate and with it unified control. Markets priced more fiscal stimulus and climate spending: cyclicals, small caps and clean energy rose, bond yields rose, mega-cap tech lagged.'),
+    ('Politics', 'Republican sweep: November 2024 election', '2024-11-05', '2024-12-05', 'Markets priced tax cuts, deregulation and tariffs: banks, small caps and domestic cyclicals rose; clean energy, managed care and tariff-exposed importers fell.'),
+    ('Policy and law', 'Tariff shock: April 2025', '2025-04-02', '2025-04-08', 'Sweeping US import tariffs were announced. Global equities fell hard in four sessions; importers, autos, semis and anything with Asian supply chains led down.'),
+    ('Policy and law', 'A major industrial-policy law passes: Inflation Reduction Act, 2022', '2022-07-27', '2022-08-16', 'From the surprise Senate deal to the signing. Clean energy, utilities, and domestic manufacturing and construction names re-rated; drug pricing provisions weighed on pharma.'),
+    ('Shocks', 'Banking stress: March 2023', '2023-03-08', '2023-03-17', 'Silicon Valley Bank failed. Banks and other financials sold off, bond yields collapsed, and money hid in mega-cap tech and gold.'),
+    ('Shocks', 'AI spending scare: January 2025', '2025-01-24', '2025-01-27', 'A cheap Chinese model (DeepSeek) cast doubt on the AI build-out. Semiconductors, data-centre power and electrical-equipment names fell sharply in one session.'),
+    ('Shocks', 'War and oil shock: February to March 2022', '2022-02-23', '2022-03-08', 'Russia invaded Ukraine and oil spiked. Energy, defence and commodity producers rose; consumer, European-exposed and travel names fell.'),
+    ('Shocks', 'Pandemic crash: February to March 2020', '2020-02-19', '2020-03-23', 'The fastest bear market on record. Everything fell; travel, energy, banks and real estate fell most, staples and big tech least.'),
+]
+
 def yahoo_info(y):
     """Instrument facts from Yahoo: type, name, sector/industry, and for funds the top holdings and sector weights."""
     now = time.time()
@@ -411,24 +444,51 @@ def analyze(holdings, with_options=True, log=lambda *a: None):
     contrib = (w * (cov @ w) / port_sigma ** 2) if port_sigma > 0 else w * 0
     risk_contrib = sorted([{'ticker': tk, 'weight': float(W[tk]), 'sigma_1m': float(sig[tk]), 'share_of_variance': float(contrib[i])} for i, tk in enumerate(W.index)], key=lambda r: -r['share_of_variance'])
 
-    unhedged_usd = {tk: (by.loc[tk, 'currency'] == 'USD' and base_ccy == 'CAD' and not inst[tk].get('fx_hedged')) for tk in W.index}
-    unhedged_cad = {tk: (by.loc[tk, 'currency'] == 'CAD' and base_ccy == 'USD' and not inst[tk].get('fx_hedged')) for tk in W.index}
-    top_sector = sec_rows[0]['id'] if sec_rows else None
-    SCEN = [('S&P 500 −10%', 'mkt_us', -0.10), ('S&P 500 +10%', 'mkt_us', 0.10), ('TSX −10%', 'mkt_ca', -0.10)]
-    if top_sector: SCEN.append((f"{SECTOR_NAME.get(top_sector, top_sector)} underperforms the S&P by 15%", 'sector:' + top_sector, -0.15))
-    if top_sector != 'technology' and sec_exp.get('technology', 0) > 0.05: SCEN.append(('Technology underperforms the S&P by 15%', 'sector:technology', -0.15))
-    SCEN += [('Momentum unwind (momentum −10% vs S&P)', 'momentum', -0.10), ('Growth beats value by 10%', 'growth', 0.10), ('Small caps rally +10% vs S&P', 'size', 0.10), ('USD −5% vs CAD', 'fx', -0.05), ('USD +5% vs CAD', 'fx', 0.05)]
+    # ---- scenarios: past regime shifts replayed on today's holdings
+    # A holding that traded through the episode uses its own return; one that did not exist yet uses a stand-in
+    # (its sector ETF, a fund's sector mix, or its home market), marked as a proxy.
+    sector_etfs = sorted(set(SECTOR_ETF.values()))
+    PL = get_prices_long(sorted(set(by.yahoo) | set(sector_etfs) | {'SPY', 'XIU.TO', 'CAD=X', '^TNX'}))
+    def ep_ret(col, d0, d1):
+        if col not in PL.columns: return None
+        ser = PL[col].dropna()
+        if ser.empty or ser.index[0] > d0: return None
+        p0 = ser[ser.index <= d0]; p1 = ser[ser.index <= d1]
+        return float(p1.iloc[-1] / p0.iloc[-1] - 1) if len(p0) and len(p1) else None
+    def proxy_ret(tk, d0, d1):
+        i = inst[tk]; mkt = ep_ret('XIU.TO' if i.get('home') == 'CA' else 'SPY', d0, d1)
+        if i['kind'] != 'stock' and i.get('sector_weights'):
+            tot = 0.0; wsum = 0.0
+            for sct, wt in i['sector_weights'].items():
+                r = ep_ret(SECTOR_ETF.get(sct), d0, d1)
+                if r is None: r = mkt
+                if r is not None: tot += wt * r; wsum += wt
+            if wsum > 0: return tot / wsum
+        r = ep_ret(SECTOR_ETF.get(i.get('sector')), d0, d1) if i.get('sector') else None
+        return r if r is not None else mkt
     scen_rows = []
-    for name, fac, shock in SCEN:
-        parts = []
+    for group, name, s0, s1, what in EPISODES:
+        d0, d1 = pd.Timestamp(s0), pd.Timestamp(s1)
+        fx_usd = ep_ret('CAD=X', d0, d1) or 0.0
+        parts = []; proxy_w = 0.0; missing_w = 0.0
         for tk, wt in W.items():
-            b = betas_by.get(tk, {})
-            if fac == 'fx': eff = (1.0 if unhedged_usd[tk] else -1.0 if unhedged_cad[tk] else b.get('fx_beta', 0.0)) * shock
-            elif fac.startswith('sector:'): eff = b.get('sector', 0.0) * shock if inst[tk].get('sector') == fac.split(':')[1] else 0.0
-            else: eff = b.get(fac, 0.0) * shock
-            parts.append((tk, float(wt * eff)))
-        tot = sum(v for _, v in parts); parts.sort(key=lambda x: abs(x[1]), reverse=True)
-        scen_rows.append({'name': name, 'portfolio_pct': tot, 'equity_pct': tot * leverage, 'portfolio_base': tot * total, 'drivers': [{'ticker': tk, 'pct': v} for tk, v in parts[:4] if abs(v) > 0.0005]})
+            r = ep_ret(by.loc[tk, 'yahoo'], d0, d1); is_proxy = False
+            if r is None: r = proxy_ret(tk, d0, d1); is_proxy = True
+            if r is None: missing_w += float(wt); continue
+            cur = by.loc[tk, 'currency']
+            if cur != base_ccy and not inst[tk].get('fx_hedged'):
+                fxr = fx_usd if (cur == 'USD' and base_ccy == 'CAD') else ((1 / (1 + fx_usd) - 1) if (cur == 'CAD' and base_ccy == 'USD') else 0.0)
+                r = (1 + r) * (1 + fxr) - 1
+            if is_proxy: proxy_w += float(wt)
+            parts.append((tk, float(wt * r), float(r), is_proxy))
+        tot = sum(p[1] for p in parts); parts.sort(key=lambda x: abs(x[1]), reverse=True)
+        tnx0 = PL['^TNX'].dropna() if '^TNX' in PL.columns else pd.Series(dtype=float)
+        y_bp = None
+        if len(tnx0[tnx0.index <= d0]) and len(tnx0[tnx0.index <= d1]): y_bp = float((tnx0[tnx0.index <= d1].iloc[-1] - tnx0[tnx0.index <= d0].iloc[-1]) * 100)
+        spx = ep_ret('SPY', d0, d1)
+        scen_rows.append({'group': group, 'name': name, 'start': s0, 'end': s1, 'what': what, 'spx': spx, 'spx_base': None if spx is None else ((1 + spx) * (1 + fx_usd) - 1 if base_ccy == 'CAD' else spx), 'tsx': ep_ret('XIU.TO', d0, d1), 'y10_bp': y_bp,
+                          'portfolio_pct': tot, 'equity_pct': tot * leverage, 'portfolio_base': tot * total, 'proxy_weight': proxy_w, 'missing_weight': missing_w,
+                          'drivers': [{'ticker': tk, 'pct': v, 'own_return': r, 'proxy': px} for tk, v, r, px in parts[:4] if abs(v) > 0.0005]})
 
     today_d = dt.date.fromisoformat(asof)
     def held(d):
@@ -451,7 +511,8 @@ def analyze(holdings, with_options=True, log=lambda *a: None):
         'decomp': port_decomp, 'stats': stats, 'series': series,
         'risk': {'sigma_1m': port_sigma, 'sigma_1m_base': port_sigma * total, 'sigma_1m_on_equity': port_sigma * leverage, 'contrib': risk_contrib, 'scenarios': scen_rows},
         'method': {'lookback_days': LOOK, 'factors': 'market (S&P 500 for US names, TSX 60 for Canadian; funds use whichever fits better), sector ETF minus S&P 500, growth minus value, small minus large, momentum, quality, low-vol ETF spreads, USDCAD; the residual is idiosyncratic',
-                   'weights': "today's weights held constant (rebalanced daily) for the book series", 'options': 'Yahoo Finance delayed chains; ATM straddle at the first expiry at least 20 days out; implied earnings move from the variance difference between the expiries around the print',
+                   'weights': "today's weights held constant (rebalanced daily) for the book series", 'scenarios': "each scenario is a real past episode replayed on today's holdings: every holding's actual return over those dates, weighted by today's weights; holdings that did not trade then use their sector ETF (or a fund's sector mix) as a stand-in",
+                   'options': 'Yahoo Finance delayed chains; ATM straddle at the first expiry at least 20 days out; implied earnings move from the variance difference between the expiries around the print',
                    'lookthrough': "funds are split by Yahoo's sector weights and top-ten holdings; sub-industry and theme exposure through funds therefore counts only their ten largest names"},
     }
     return _clean(full)
