@@ -96,6 +96,7 @@ EPISODES = [
     ('Rates', 'Rates rise fast: the 2022 hiking cycle', '2022-01-03', '2022-10-12', 'The Fed took its policy rate from zero to above 3% in nine months. Long-duration growth and anything valued on distant profits fell hardest; energy and value held up.'),
     ('Rates', 'Long yields spike: summer to autumn 2023', '2023-07-31', '2023-10-27', 'The 10-year Treasury yield climbed toward 5% on heavy issuance and "higher for longer". Rate-sensitive sectors (utilities, real estate, small caps) led the fall.'),
     ('Rates', 'Rate cuts get priced in: the late-2023 pivot', '2023-10-27', '2023-12-29', 'The Fed signalled cuts and yields fell by about a point. Almost everything rallied; small caps, banks, real estate and unprofitable growth rallied most.'),
+    ('Politics', 'Democrats win Congress: November 2026 midterms', '2026-11-03', None, 'Democrats took both the House and the Senate, leaving divided government under a Republican president. In the first sessions AI leaders sold off, then the broad market rallied; clean energy, health care and consumer staples rose and private-prison operators fell. The window runs from the election-day close for up to 30 days, so the numbers keep moving until then.'),
     ('Politics', 'Democratic sweep: Georgia runoffs, January 2021', '2021-01-04', '2021-01-20', 'Democrats took the Senate and with it unified control. Markets priced more fiscal stimulus and climate spending: cyclicals, small caps and clean energy rose, bond yields rose, mega-cap tech lagged.'),
     ('Politics', 'Republican sweep: November 2024 election', '2024-11-05', '2024-12-05', 'Markets priced tax cuts, deregulation and tariffs: banks, small caps and domestic cyclicals rose; clean energy, managed care and tariff-exposed importers fell.'),
     ('Policy and law', 'Tariff shock: April 2025', '2025-04-02', '2025-04-08', 'Sweeping US import tariffs were announced. Global equities fell hard in four sessions; importers, autos, semis and anything with Asian supply chains led down.'),
@@ -468,7 +469,11 @@ def analyze(holdings, with_options=True, log=lambda *a: None):
         return r if r is not None else mkt
     scen_rows = []
     for group, name, s0, s1, what in EPISODES:
-        d0, d1 = pd.Timestamp(s0), pd.Timestamp(s1)
+        d0 = pd.Timestamp(s0); ongoing = False
+        if s1: d1 = pd.Timestamp(s1)
+        else:   # an episode still unfolding: from its start to the latest close, capped at 30 days
+            d1 = min(PL.index[-1], d0 + pd.Timedelta(days=30)); ongoing = d1 < d0 + pd.Timedelta(days=30); s1 = str(d1.date())
+        if d1 <= d0: continue
         fx_usd = ep_ret('CAD=X', d0, d1) or 0.0
         parts = []; proxy_w = 0.0; missing_w = 0.0
         for tk, wt in W.items():
@@ -486,7 +491,7 @@ def analyze(holdings, with_options=True, log=lambda *a: None):
         y_bp = None
         if len(tnx0[tnx0.index <= d0]) and len(tnx0[tnx0.index <= d1]): y_bp = float((tnx0[tnx0.index <= d1].iloc[-1] - tnx0[tnx0.index <= d0].iloc[-1]) * 100)
         spx = ep_ret('SPY', d0, d1)
-        scen_rows.append({'group': group, 'name': name, 'start': s0, 'end': s1, 'what': what, 'spx': spx, 'spx_base': None if spx is None else ((1 + spx) * (1 + fx_usd) - 1 if base_ccy == 'CAD' else spx), 'tsx': ep_ret('XIU.TO', d0, d1), 'y10_bp': y_bp,
+        scen_rows.append({'group': group, 'name': name, 'start': s0, 'end': s1, 'ongoing': ongoing, 'what': what, 'spx': spx, 'spx_base': None if spx is None else ((1 + spx) * (1 + fx_usd) - 1 if base_ccy == 'CAD' else spx), 'tsx': ep_ret('XIU.TO', d0, d1), 'y10_bp': y_bp,
                           'portfolio_pct': tot, 'equity_pct': tot * leverage, 'portfolio_base': tot * total, 'proxy_weight': proxy_w, 'missing_weight': missing_w,
                           'drivers': [{'ticker': tk, 'pct': v, 'own_return': r, 'proxy': px} for tk, v, r, px in parts[:4] if abs(v) > 0.0005]})
 
