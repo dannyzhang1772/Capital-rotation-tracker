@@ -2,7 +2,7 @@
    portal: the visitor's own book is loaded from the backend (CRT_CONFIG.api), which keeps their brokerage link and last
    analysis, and live quotes are laid on top every minute. Nothing about a visitor's book is ever written into the site. */
 (function () {
-  const DEMO = window.CRT_PORTFOLIO || null; let PF = DEMO; let source = 'demo'; let MINE = null; let LIVE = null; let ME = null;
+  const DEMO = window.CRT_PORTFOLIO || null; let PF = DEMO; let source = 'demo'; let MINE = null; let LIVE = null; let ME = null; let integrateOpen = false;
   const S = window.CRT_SNAPSHOT || { buckets: [] }; const ST = window.CRT_STYLE || { buckets: {} }; const C = window.CRTCharts;
   const CFG = window.CRT_CONFIG || {}; const qs = new URLSearchParams(location.search);
   const LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
@@ -24,8 +24,8 @@
 
   function head() {
     const full = isFull();
-    $('#pfTag').textContent = source === 'demo' ? '· sample book (fictional)' : '· my portfolio · private';
-    $('#pfSub').innerHTML = `Positions as of ${esc(PF.asof)} · base currency ${esc(ccy())} (USDCAD ${num(PF.usdcad, 3)}) · ${PF.instruments.length} holdings across ${PF.accounts.length} account${PF.accounts.length === 1 ? '' : 's'}${source === 'demo' ? ' · a made-up book to show what the page does; sign in to see your own' : ''}${PF.unmodelled && PF.unmodelled.length ? ` · not modelled (no price history): ${PF.unmodelled.map((u) => esc(u.ticker)).join(', ')}` : ''}`;
+    $('#pfTag').textContent = source === 'demo' ? '· example portfolio · made-up holdings' : '· my portfolio · private';
+    $('#pfSub').innerHTML = `Positions as of ${esc(PF.asof)} · base currency ${esc(ccy())} (USDCAD ${num(PF.usdcad, 3)}) · ${PF.instruments.length} holdings across ${PF.accounts.length} account${PF.accounts.length === 1 ? '' : 's'}${source === 'demo' ? ' · an example, not your holdings' : ''}${PF.unmodelled && PF.unmodelled.length ? ` · not modelled (no price history): ${PF.unmodelled.map((u) => esc(u.ticker)).join(', ')}` : ''}`;
     const s1 = (PF.stats || {})['1y'] || (PF.stats || {}).common || {}; const r = PF.risk || {}; const k = [];
     if (full) k.push(['Gross positions', money(PF.total_base), PF.leverage > 1.02 ? `net equity ${money(PF.net_equity_base)} · margin loan ${money(PF.margin_debit_base)}` : `${esc(ccy())} · ${PF.positions.length} positions`]);
     k.push(['Leverage', `${num(PF.leverage, 2)}×`, 'gross positions ÷ net account value']);
@@ -164,13 +164,23 @@
 
   function panel() {
     const vis = (id, on) => { const el = $(id); if (el) el.style.display = on ? '' : 'none'; };
-    const ready = !!API && !!Auth; const signed = !!ME;
+    const ready = !!API && !!Auth; const signed = !!ME; const example = source === 'demo';
+    // the example banner shows whenever the book on screen is not the visitor's own
+    vis('#exampleBanner', example);
+    const tx = $('#exampleText');
+    if (tx) tx.textContent = !signed ? 'These are made-up holdings that show what the page does. They are not yours.'
+      : MINE ? `Signed in as ${ME.email}. You are looking at the example, not your own portfolio.`
+      : `Signed in as ${ME.email}. This is still the example: your own portfolio is not linked yet.`;
+    const ib = $('#btnIntegrate'); if (ib) ib.textContent = signed && MINE ? 'Show my portfolio' : 'Integrate your own';
+    // the account card stays out of the way until asked for, or once the visitor has their own book on screen
+    vis('#portal', integrateOpen || (signed && !example));
     vis('#authOut', ready && !signed); vis('#authIn', signed); vis('#portalOff', !ready);
     if (!signed) return;
     $('#authWho').textContent = ME.email + (ME.analysis_at ? ` · analysis saved ${ME.analysis_at.slice(0, 16).replace('T', ' ')} UTC${ME.source ? ' · from ' + ME.source : ''}` : '');
     const st = ME.snaptrade_available;
     vis('#btnConnect', st && !ME.connected); vis('#btnAdd', st && ME.connected); vis('#btnRefresh', ME.connected || ME.has_analysis); vis('#btnDisconnect', ME.connected);
     vis('#btnPaste', true); vis('#btnMine', !!MINE && source !== 'mine'); vis('#btnDemo', !!DEMO && source === 'mine');
+    const bd = $('#btnDemo'); if (bd) bd.textContent = 'Show the example';
   }
 
   function liveStrip() {
@@ -214,11 +224,11 @@
         if (qs.get('connected')) { history.replaceState(null, '', location.pathname); refresh('Brokerage linked. Pulling your positions (about 20 seconds)…'); }
         else if (j.stale && j.connected) refresh('Saved analysis is from an earlier session; refreshing from your brokerage…');
       } else {
-        ME = j; panel();
+        ME = j; integrateOpen = true; panel();
         if (qs.get('connected')) { history.replaceState(null, '', location.pathname); refresh('Brokerage linked. Pulling your positions (about 20 seconds)…'); }
-        else status('Signed in. Connect a brokerage or type your holdings to build your page.', '');
+        else status('You are signed in and still looking at the example. Link your brokerage (read-only) or type your holdings to replace it with your own.', '');
       }
-    } catch (e) { ME = e.status === 403 ? null : ME; panel(); status(e.message, 'neg'); if (e.status === 403) { const o = $('#authOut'); if (o) o.style.display = ''; } }
+    } catch (e) { ME = e.status === 403 ? null : ME; integrateOpen = true; panel(); status(e.message, 'neg'); if (e.status === 403) { const o = $('#authOut'); if (o) o.style.display = ''; } }
   }
   function parsePaste(text, base) {
     const positions = [];
@@ -232,9 +242,19 @@
     });
     return positions;
   }
+  function openIntegrate() {
+    if (ME && MINE) { show(MINE, 'mine'); pollQuotes(); return; }
+    integrateOpen = true; panel();
+    const card = $('#portal'); if (card) card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (!API || !Auth) { status('Linking your own portfolio opens as soon as the portal service is switched on.', ''); return; }
+    if (!ME) { status('Step 1: sign in with the email you were invited with. Step 2: link your brokerage (read-only) or type your holdings.', ''); const e = $('#authEmail'); if (e) setTimeout(() => e.focus(), 300); return; }
+    status(ME.snaptrade_available ? 'Link your brokerage with read-only access, or type your holdings in.' : 'Type your holdings in below (brokerage linking is not switched on yet).', '');
+    if (!ME.snaptrade_available) { const p = $('#pastePanel'); if (p) p.style.display = ''; }
+  }
   function initPortal() {
     panel();
     const on = (id, fn) => { const el = $(id); if (el) el.addEventListener('click', fn); };
+    on('#btnIntegrate', openIntegrate);
     on('#btnSignIn', async () => {
       const email = ($('#authEmail').value || '').trim(); if (!/^\S+@\S+\.\S+$/.test(email)) { status('Enter the email address you were invited with.', 'neg'); return; }
       try { await Auth.signIn(email); status(Auth.kind === 'dev' ? '' : `Sign-in link sent to ${email}. Open it on this device; the link expires in an hour.`, 'pos'); if (Auth.kind === 'dev') loadMine(); }

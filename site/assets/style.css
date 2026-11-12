@@ -159,3 +159,10 @@ header.top .subnav select { font-family: var(--mono); font-size: 11.5px; color: 
 .loadpanel button.ghost.quiet:hover { background: #333; color: #fff; }
 .kpi.live { border-color: var(--amber); }
 .kpi.live .value.pos { color: var(--up-text); } .kpi.live .value.neg { color: var(--down-text); }
+
+/* example banner on the Trading page */
+.example-banner { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; margin: 12px 0 6px; padding: 10px 14px; border: 1px solid var(--amber); border-left: 6px solid var(--amber); background: rgba(255, 176, 0, 0.08); }
+.example-banner .ex-text { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--ink); }
+.example-banner .ex-tag { font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: #000; background: var(--amber); padding: 2px 8px; }
+.example-banner button { font-family: var(--mono); font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; padding: 8px 16px; background: var(--amber); color: #000; border: 1px solid var(--amber); cursor: pointer; }
+.example-banner button:hover { background: #fff; border-color: #fff; }

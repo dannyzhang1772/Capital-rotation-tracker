@@ -16,7 +16,11 @@
 <main class="wrap">
   <h1>Trading overview <span class="muted small" id="pfTag"></span></h1>
   <p class="sub" id="pfSub"></p>
-  <div class="card loadpanel" id="portal">
+  <div class="example-banner" id="exampleBanner">
+    <div class="ex-text"><span class="ex-tag">Example portfolio</span><span id="exampleText">These are made-up holdings that show what the page does. They are not yours.</span></div>
+    <button id="btnIntegrate">Integrate your own</button>
+  </div>
+  <div class="card loadpanel" id="portal" style="display:none">
     <div id="portalOff" style="display:none"><div class="loadrow"><span class="lbl">Portal</span><span class="tier">Sign-in opens once the portal service is switched on. Until then this page shows a fictional sample book.</span></div></div>
     <div id="authOut" style="display:none">
       <div class="loadrow"><span class="lbl">Sign in</span><input type="email" id="authEmail" placeholder="you@example.com" autocomplete="email"><button class="ghost" id="btnSignIn">Email me a sign-in link</button></div>
