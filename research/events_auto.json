@@ -1,0 +1,1564 @@
+{
+ "events": [
+  {
+   "id": "auto-defense-2026-11-10-0",
+   "date": "2026-11-10",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "defense"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "RTX guides to 2027 growth on a $340 billion backlog at the Baird conference",
+   "summary": "Days after the midterm-driven defense selloff, RTX, the sub-industry's largest member, told investors at the Baird conference that it expects growth in 2027. It pointed to a $340 billion backlog across aerospace and defense. RTX rose 3.32% on Nov 9 heading into the presentation, partly reversing a 5.26% weekly drop on budget fears.",
+   "evidence": "RTX backlog of $340 billion supporting 2027 growth",
+   "sources": [
+    {
+     "title": "RTX Sees 2027 Growth as $340 Billion Backlog Fuels Aerospace and Defense Demand - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUjE0OVBRRGdDbjhSMWlQckE3Wjc5QVJ4bE1DVTNFX0dHZVZfYmlSRTZaWDdYT0tFbkNpUHhnLUlodU9jd09jY3dmakV4RTFCQTNCZDJkZTZ1WlMwVGZoZ3l0eTkxRFNEZGpBNG9iMWhZWGR3bk5ZUHFuckxfRGh0TS1yRjFhQUdGVjViOUFzaDRvcmpQUEh4d29PUW5KMnlyYnVmLU9PUFNwaURibnRXR1pRLW9XRTdyNll5UC1tRG40NnBIMURVWmIyX0Z4QUk3WVNaTU53?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-commercial_aerospace-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "commercial_aerospace"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Boeing to cut 5% of its commercial aircraft workforce as 737 MAX delays persist",
+   "summary": "Boeing is reported to be cutting about 5% of its commercial airplanes workforce after pushing out its 737 ramp. The cuts lower Boeing's costs but signal slower near-term production for the build-rate-dependent supply chain (SPR, HXL, HWM, ATI). BA shares edged up on the news.",
+   "evidence": "Boeing cuts 5% of commercial jet jobs as 737 Max delays persist",
+   "sources": [
+    {
+     "title": "Boeing (BA) Cuts 5% Of Commercial Jet Jobs As 737 Max Delays Persist - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEJPQW43VHZSOUU5SE9FTndTVV80WFlJNmJfQ0R0SWF1YkplX1BONUw4MnRJWU5QT3RfcjJudzE0SEtjMk1YR1lGM1hBUmhpZWZ3ZUh6QS16VURFbGhCQldGTy1nSndxaGJjLVJEOFI0ZWloaTVsVWc5bTd3M1JJOEp3NmZwbmVoMXpoOUlGU21vQzVNQ29nY1E3MlZscUJTdERTNy0tcnl2aElHN2RhLUNuXzNiNHNCcWMxSDhhb1NXcmJT0gHKAUFVX3lxTFBNQ2ZOYklOeENGMEI2QzEtdEtFR01lM3VkRmJPZENlZVR2OTF2OHlQQlU1YnRrTFRZNGxXUkd5eVFyNVJlSDhaR1NYbURiV1ZZQzZFeXEyZW1DTWJjN1ZsUF92dUhfWjFnWlhrT0c0WnRzZWhyMzhjMzhEOUtuRzRybXlrNHBjRDJKYTlHbVVfYmlTN3VzUUU5bS11TmNMSkZHaFdudXlnMFVVOTI3Z3ctNG83elhUSUJ1a2hLLVpkajdsUnRHZF9XUlE?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-commercial_aerospace-2026-11-10-1",
+   "date": "2026-11-10",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "commercial_aerospace"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "TransDigm's fiscal 2027 outlook signals a profit squeeze",
+   "summary": "TransDigm issued a fiscal 2027 outlook that was read as implying margin pressure. TDG is a key aftermarket-heavy member, so the guide tempers the aftermarket pricing narrative but affects a small share of the group.",
+   "evidence": "TransDigm's 2027 Outlook Signals Profit Squeeze",
+   "sources": [
+    {
+     "title": "TransDigm's 2027 Outlook Signals Profit Squeeze - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT0todnF6MWlsQkxnY3Q3R2VfN3FHc2xKY0dQT2dnVUluWmxoSlVGby11eGVhdVZVNmxZUUxwOTlyekYtcjRNMmlMVUpkVE1WV2U2dUhPcndWRDl3bTNoaTktbG9rcU5fdUVLUmJHakpoOVNIWDd3dE53bnFlYkltcG54eVRBWVM4QkVqSkZidXBMUWJpanZybm0zZ3FmQTIzZFExWVRJQ3pvdw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-transportation-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "transportation"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "tech_cycle",
+   "title": "CSX targets higher prices and more freight in 2027 as trucking capacity tightens",
+   "summary": "CSX management, with the CFO outlining the outlook, said it targets higher pricing and more freight volume in 2027. It cited tightening trucking capacity, which points to a firmer freight-rate cycle. A tighter truckload market would support truckers' rates and rail intermodal conversion.",
+   "evidence": "Headline: CSX targets higher prices and more freight in 2027 as trucking capacity tightens",
+   "sources": [
+    {
+     "title": "CSX Targets Higher Prices and More Freight in 2027 as Trucking Capacity Tightens - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWG9Za2ZjMWRmdGVKSVdtNlJMbkJQd3lxY3l3TUxuSWtlQmhVN3NCQXF4enFCaEdFVFNkckJlcEtxTlpxOVpwWkE4ekJLU3YxWkJNM1VnUXRBS1RpWHNZTDlOdkhUVFZvX2I0Z3dieWZIMVhIdDBUOG9rWjhfSjZaa0huUFhHMGZmSVcwVEdsZWRnSm4wZlpCbjE5Yw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-transportation-2026-11-09-1",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "transportation"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "DOJ to review Union Pacific's $72B Norfolk Southern acquisition",
+   "summary": "The Justice Department will assess Union Pacific's $72 billion acquisition of Norfolk Southern, and UNP shares rose. This advances the antitrust review of a transcontinental rail merger that would reshape the Class I landscape and pressure CSX and the other remaining carriers.",
+   "evidence": "$72B Norfolk Southern acquisition under DOJ assessment; UNP shares rose",
+   "sources": [
+    {
+     "title": "DOJ to Assess Union Pacific's $72B Norfolk Southern Acquisition; UNP Shares Rise - GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRzVnUi1NZzM1V2Z4a0VoUEh4Y1FLa2JFS183QzZka3FGdXhJZFVpQmhVeTctcTFLcEZGY2JZa2NBUGg2T2ZqVDhQOHZmMmNkaWtudDBCMXdJeXphNUtSZ1BKUC1BSkJsaWNtaE1GWl85U1NTNWc1Z3ZhQjBkY1ctR1ZFdVRiR2MtTnRLQXFuS3pfWmpUdmRkUDk0b0JvUzUxaWxBdm5NRWlhWGNwVVNGZnFPUHI5aTA?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-electrical_equipment-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "electrical_equipment"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Eaton posts record Q3 sales and raises its 2026 outlook again on data-center demand",
+   "summary": "Eaton reported record third-quarter sales and lifted its 2026 guidance again, citing data-center demand and a record backlog. This came days after AI-power names sold off on financing and political worries. ETN rose about 3% on Nov 6 and another 3.7% on Nov 11, which reinforced the electrical-equipment demand picture beyond the more volatile GEV, VRT and BE names.",
+   "evidence": "Record Q3 sales lift 2026 outlook again; ETN up 3.04% on Nov 6",
+   "sources": [
+    {
+     "title": "Eaton stock: Record Q3 sales lift 2026 outlook again - ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZExzdHRJdy1ydEt4QzA5ejJhelZsaXA3ZzVJdVVjQmZONUlETVprTHdLTmg4ZjU5OGZUR1pELTRUYkZ0UlVHZ1lvUG9aVnRfSHNJNzhoVmY1c2s5NWdKVnctTVJzTGNaUVBxcVdtZXZDbVkwcXpfVXYxQTVoZXVfdmlybXByMm0xTkFJdThyVGpiYk9TMmU2OFA2RTQ4RzVQSmMwN0RmNjh1UjllXzZKdU81cGg?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-professional_services-2026-11-08-0",
+   "date": "2026-11-08",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "professional_services"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "macro",
+   "title": "Strong US jobs report puts payroll and staffing names back in focus",
+   "summary": "A stronger-than-expected jobs report renewed attention on payroll processors such as Paychex and ADP, whose revenue tracks pays-per-control and employment growth. Staffing firms (RHI, MAN, KFY) also benefit from evidence of firmer hiring. This is a single monthly data point, not a regime change.",
+   "evidence": "Simply Wall St: 'Learn Why The Bull Case For Paychex (PAYX) Could Change Following Strong Jobs Report'",
+   "sources": [
+    {
+     "title": "Learn Why The Bull Case For Paychex (PAYX) Could Change Following Strong Jobs Report - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVGFLYnFIcW53NG4tbm1ScnE4VHNUbzlaeWozdXNCY1ZLb3dBaHFmeFM4SFkySzF5ZjJsZmgwaUZGNnhBLTBOOXJkeGtJSGxZNlNWTFY2NHZQcnZiWUU2VGxGTzJNUmNjTTlwTVR4VmhLdUtXUlQ1RmczS29FTGtUU2tZcU1kVDM4cGRYUVR6V2EzVlVSWXpjVllJQ0lzcldEOEpNWHpLLUlDaHJVcENLM2sxcHNWN09Od3ZKOVI5WDEzQzJGOU4xc3Q3YXJ5UXVFU3ow0gHYAUFVX3lxTFB1ejJrN0t6cnJjczM0MkJnOExPRTVmZ00tMDIxZ3BRTjl3YWVjQkc2SHQtXzZjMUQyTzB1dFNvWHVFQkVRWkVrSTMxQTZtMklhYXhtaENjc0s1RGhpM0R4eWpvYnVGZDRUNHU2aGUyWWE4andQZllnNlJzdWJvN2UzYlpzbmlpV0FidlZrTHZrWWJ1aGhwRUhVUUtFVHdvQkZVRXJBUDVfX1M3dExmTnhvRldZbUlNV2tSanYxY1N4Zmx2QVo2SUVPUnQtSHg1amEzczJnc2xFbQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-waste-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "industrials",
+   "subindustries": [
+    "waste"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "Major waste companies spent $1.2B on Q3 2026 M&A, led by GFL",
+   "summary": "A Waste Dive tally shows the large haulers spent about $1.2B on acquisitions in Q3 2026, with GFL the main buyer. Continued tuck-in consolidation supports route density, pricing power and landfill scarcity for the majors (GFL, WM, RSG, WCN). This is a retrospective compilation of completed deals, not a single transformative transaction.",
+   "evidence": "Major waste companies spent $1.2B on Q3 M&A, driven by GFL",
+   "sources": [
+    {
+     "title": "Major waste companies spent $1.2B on Q3 M&A, driven by GFL - Waste Dive",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRS1DSk5uY1pMYkkxQWtSUVF5SzBmeUlZU3hEOEhTMUc1bGN1OXlxbjFjWVNrWG0tU1NrVm5MaE9iOWJ6SkZJWUIzQ2kxZGthM0paRFRQRzlhc3B1TklaMVJuSV9IQXl4amx6aWJ1M2M5S1NYUjB0dWFxaW00ZjgxblZYY2FWN0lLSTZoeERaeXhEWWV4aWRlNw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-pharma-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Lilly's oral obesity pill Foundayo wins Phase 3 in obstructive sleep apnea",
+   "summary": "Eli Lilly reported a Phase 3 win for its oral GLP-1 Foundayo in obstructive sleep apnea and is seeking the first oral OSA approval. This widens the label and addressable market for the largest member of the group. The news came as the pharma ETF IHE hit a 52-week high.",
+   "evidence": "Lilly eyes first oral OSA approval after Phase 3 Foundayo win",
+   "sources": [
+    {
+     "title": "Eli Lilly (LLY) Eyes First Oral OSA Approval After Phase 3 Foundayo Win - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMFlKMEhxOGZsN3ZQU1Jwbm5YeGFXY05QdGQxNkxsWVBscndyS1ZaWTE2VGpZV0ZvMlRwRlBudjRoLTFxT01GNlBsT0M0bUtFN1huVHU1M0Q1d3Fsd1Y5TXFIbFAxYjR1Zkh6WGdfa3dDQzhlS1NWRnUza1dnelhaaUZRODBpZlMwTW0waEFsUk1LTEUxU0hGVFFzOFRjemZhTVBRY1ltWmlTVzNqSElwQXNBRktxbDRNczRqY2xSb3A4eVNGaUlFd3BsTTVjdm9DVVdldDZlSdIB3AFBVV95cUxQY1hiblctS2toVE5VWEdncXRBak8zYjFzckp0RlRFVGlZbzVRZlo3UEg3b0lvUS0wVTd0Ul9RNkZGdEhIb0YyMVZaNWhxVENobEs3YVFHNEZ1U2FHVHJ6QXZKNE9qdjZrYkM1bTMwVVhYellVLVJabkpKS196eklWMVdWaDZpUnl5T2p3WUJ1aGp2a1BNY0plZ1laQXNzeWxwWnBaWThpZlhEQmpnSEVuUTNCcUdPQUd1MUdJdVhtcUlva1haeW5ncHFndlFzdEFTWF9uTUl3M3ZuaUhT?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-pharma-2026-11-06-1",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "pharma"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "regulatory",
+   "title": "J&J wins FDA approval for first dual-targeted head and neck cancer therapy",
+   "summary": "Johnson & Johnson received FDA approval for the first dual-targeted therapy in head and neck cancer. It is a single-product approval at one large member, adding to a busy week of pipeline readouts across the group, including Merck's Phase 3 cancer data.",
+   "evidence": "FDA nod for first dual-targeted head and neck therapy",
+   "sources": [
+    {
+     "title": "Johnson & Johnson (JNJ) Wins FDA Nod For First Dual Targeted Head And Neck Therapy - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPSWxwazFscUMyVTQtNVVMTmVZZ2xvQkJKWXc5TEQtTktWNFVJNWFUNlpVc3NCN3o0bjdSNmRPeVQyZkhhcnFRM0xTYXlac2xzSk5Od0twUHR1Y1lxZGUtQnJhX21zcDhadzVoSTU2QUNVUHJVN1BnTW1kRVNoZmxUemZCa3I0dGc3TkFvRUZ1anUxenBmd2VFZF9ONG9iN3BJRUtlS3F2V2dqUXVhRzAwZ0ZicXh2RmtidWVWc20zMVV1N1p1OUNwdFV3NzFnRnZHbEJiZ2ZnSzk5VWRDR0pV0gHkAUFVX3lxTE9xenJoRUc0dVpEQnRqdG1sUW1DQUlpTGFDUXVKejRtUU9CVDQ5dk9UdExLRzZxRzRBUUtPLTU1Slp2MExyZWVybk1QcjUzSWVoekZxeTltbGVzY3ZuWnhGZVJaZ2t2cXB4WVo1b3BtbWpqZ25nVnREVFlmNGFNSnNYNzBSZXFlcEdiekJ3czNST21LM3hETkUxa0dSZXdya0xfa3o3d3ltRVFIcnpwb3M0UXNJS0VReGdXLXlzQUwxNjdVN1ljWVRkZlkxS19UamE2QTUzRmVVRGRwQjVZY0k5aXE3TQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-biotech_large-2026-11-07-0",
+   "date": "2026-11-07",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_large"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Q3 earnings: Amgen and Vertex raise guidance, Regeneron posts strong quarter",
+   "summary": "Large-cap biotech Q3 prints were broadly positive. Amgen beat and raised guidance, Vertex lifted revenue guidance, and Regeneron reported strong Q3 earnings. Together these members are a large share of the group's market cap.",
+   "evidence": "Amgen (AMGN) Stock Could Be 34% Below Fair Value Following Raised Guidance; Vertex lifts revenue guidance",
+   "sources": [
+    {
+     "title": "Amgen (AMGN) Stock Could Be 34% Below Fair Value Following Raised Guidance - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUEpaZXFIbWF0OEJRZE52amJteFF5cXhQSVZmcUZENmpkQnlBV1V2TVZWd0VERkdmRGtfZVBHX0M0NFVHUVRKTEVqWGg1WVhRZG5lVGdZRXJXWlZYOGo5T2xTRFpFblNYSDNVRHI5QkdkcnR5c1J6cXd3TVJIM1FpTGk5TWROdXQ5ajR6ZzVsOVd6Qi1GWkxkU0hVbThNbDdXcmtfd0ZCdWs0OVc4U21Hbm82a1BrMWh3cE9SMzUwaE5Td3BHOUdXSHRPR2NaSFVWRFppXzFn0gHbAUFVX3lxTE5EcVVMTlNPaFo0Vkp4VVU3MWMweTNJN0JxZG5zWXBvSXhHMjRhR1N6TlNFVWl1VWJsZzBnRHVmbXhXU19KdWJZX1J0Tkw5M0NtNm1yREtYcVZ2RXFCNFctWWRab0VFQm56clU0OEwxdjJGVlNIZzJyZ1NMa0VlWUZlUURxa1k1SVE3ZkRYXzhmQzZwLVpheVdQV29lVEFvSnB6Y3JmdHVTWDVieDM1ZGRxMHdiSUdCdUE2X24zXzRibUo0MmRzQzFmajZFMUZINzdNQTN5QzFhV2g4NA?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-biotech_large-2026-11-08-1",
+   "date": "2026-11-08",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_large"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Regeneron single-dose CIDEB siRNA cuts liver fat up to 80% in MASLD",
+   "summary": "Regeneron reported early data showing that one dose of its experimental CIDEB-targeting siRNA reduced liver fat by up to 80% at 36 weeks. The result opens a potential large liver-disease franchise for REGN and validates the siRNA approach relevant to ALNY.",
+   "evidence": "One dose reduced liver fat by up to 80% at 36 weeks",
+   "sources": [
+    {
+     "title": "One dose of an experimental drug reduced liver fat by up to 80% at 36 weeks - Stock Titan",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaXFqWmFFUTRMZ1VDYlhrekVzcHM0Y3l2TXVMUmptZGtMVXVhNUVxd3VKX19WNUtPTVVnV1dWN2hqc2ppX041RmFvMHpDSHdsMnNLZnd2YkJrdUNkckk2ajIzeFJsWjlfeDJqaGR6MGszTFpTVVoyY1NjMXZvNlNmVkJGbXcwSmxTM1cya0U1SzFkbV9sV3R6cEJZcWJpaDBSYmJRZ2R0QkFRTHQzc1cxSU5GeFNmTXRzR0RmT0RGYw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-biotech_smid-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_smid"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Ionis falls 27% after cutting Tryngolza revenue forecast, following pelacarsen trial failure",
+   "summary": "Ionis Pharmaceuticals lowered its 2026 revenue forecast, citing launch challenges for Tryngolza. The cut came shortly after the pelacarsen trial failure, and the shares fell 27%. RBC cut its price target to $60. The hit is concentrated in one member, but it dents sentiment around commercial launches for SMID biotech.",
+   "evidence": "IONS shares drop 27% after lowered Tryngolza revenue forecast",
+   "sources": [
+    {
+     "title": "Ionis Pharmaceuticals (IONS) Shares Drop 27% After Lowered Tryngolza Revenue Forecast - GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOXpTa0ZLNHU3SWkwSTEyN3prNUJnQWtfTXFiZW8xMDZSUWQ5UlhBNDVxYUlDMjRZcVdoQzh4X3JWbGVPN0JpeGdEbkROVmpESXZaRUJhUXoySVp0dmx4cWkzOUZTRVBSRDBrYUxxclpXOHdjdjl2N3R5LUNsSlctOXNXc3FJYlN1V1Jsb0d6bWU5M3B1TlNQZkoxT1V2NUFwSU52aEQ4T2g0NUoyNGNwbG9NX0dQd1ZLMjFaZV9n?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-biotech_smid-2026-11-05-1",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "biotech_smid"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "regulatory",
+   "title": "Ultragenyx secures two FDA approvals",
+   "summary": "Ultragenyx (RARE) received two FDA approvals, adding commercial rare-disease products. The company is also progressing a UK filing for UX111. This is positive for one member and supports the FDA approval cadence narrative.",
+   "evidence": "Two FDA approvals for Ultragenyx",
+   "sources": [
+    {
+     "title": "How Two FDA Approvals Will Impact Ultragenyx Stock (RARE) - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQekR2d25KR0JtTzJGbGF0dks0VXdIS2tHdklkUzZ1cXkzSV85b2dFY1RNa3JxRTdHVkphdmJWTkQ3amQ2WExRZTQ0eUFyTFRoa1NVUDd0bm9xVDZWSlRScnRkRGQ4OWRMRGpnbUVCOGU1Sksta3FhMGFoLVBKeFBxMU1LcmVXOXJaVF9WTGNWMjVhY0R0Z2hPdzlheFJjMFM0YmRveW9KNTZJMWM0T1RyZklCRkF5ckluR185b3JOa2xtQ0JDTzlBNmcxQnNzT0xiTlZPYzgtbk95Umd3OGhDZkZnOS1QQmF1ZmfSAe8BQVVfeXFMT1g5RnFWdndIZl84aThaSzE4aS02Z0hGVXhmbmdscUlITTFuVEJiSXhaV0F5OWJyTENnaWpRbjBvM3p4THFzblBxZm0xeUZFWF81WFlQekNVQ2N4ZXdILXlDVWdvN1RZMEl6SFJ3S0tIelFRZkFtWkNFakVHLVc3Vm5uY0dQU0Zod0NhZDY3cTVjYjVwZ3M5TzJYNU9HR2RfekJtTHdxNEVjSnhZMXRHRVcyZFl2MkdMZzVESFo5ZjZNcUZEOVBqMVJKU0ZZSF9WdGxkMTQtRVFzZ2JyWkJDd2ZyWE9kaVBBZ0d1Uy1XbzA?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-medical_devices-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "medical_devices"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "regulatory",
+   "title": "Boston Scientific issues global recalls across key device lines",
+   "summary": "Boston Scientific announced global recalls covering several key device lines, adding to the pressure from its third guidance cut of 2026. The recalls affect one large member's revenue and remediation costs rather than the group's demand.",
+   "evidence": "Simply Wall St: 'Boston Scientific (BSX) Issued Global Recalls Across Key Device Lines'",
+   "sources": [
+    {
+     "title": "Boston Scientific (BSX) Issued Global Recalls Across Key Device Lines - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNUDVneENSTU9CbUFHLXNNdnE2Y1FMV1ljRUJ6QWRrdGxSLXROMG03eE1NTFNWTnVpLVhzeUZwOEE3Y2FIZjRVaWRwa080SnpMclFYZXNtcFh3LXBYdkdtWGo1ZlBBVXZlcFh5SEVHYUp6bWxhZDQzS3RNUUx4aDZvZlVTd0xqN08yb21hYk0zdlJaRmRMRmE3UGdJQ3FHSjNwZ3V6Q2x2QXh5RkpOcHpaZDN6aEN2SGlmcmtGSEVNa21zdnlQWkhwUTlZWXZ5ZTBFVlpNLTF30gHWAUFVX3lxTE1QNWd4Q1JNT0JtQUctc012cTZjUUxXWWNFQnpBZGt0bFItdE4wbTd4TU1MU1ZOdWktWHN5RnA4QTdjYUhmNFVpZHBrTzRKekxyUVhlc21wWHctcFh2R21YajVmUEFVdmVwWHlIRUdhSnptbGFkNDNLdE1RTHhoNm9mVVN3TGo3TzJvbWFiTTN2UlpGZExGYTdQZ0lDcUdKM3BndXpDbHZBeHlGSk5welpkM3poQ3ZIaWZya0ZIRU1rbXN2eVBaSHBROVlZdnllMEVWWk0tMXc?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-managed_care-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "UnitedHealth sheds $14 billion in a single after-hours session",
+   "summary": "UnitedHealth, the largest managed-care member, lost about $14 billion of market value after hours. The headline does not state the trigger. A move this size in UNH tends to read through to peers.",
+   "evidence": "UNH lost $14 billion in market cap in one after-hours session",
+   "sources": [
+    {
+     "title": "UnitedHealth Group Sheds $14 Billion in a Single After-Hours Session - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa3JqTzhxazIyNlFmTTJjMFdhaEEwRF92d2hiZVdwME1NQ2Z2UnhVRy1PZTdWS0MyVnN1M2x4WGNfWTJJcGFyX2h6dXpoM1FkaUY0Sm9CbWJiSTRfYzVQZUFEanZnZElIWmNkWnpfTHJJeER1MWd3MUx5THBMTnBoUHhnektFTENUTjhHWUJhNTBvMHc?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-managed_care-2026-11-05-1",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "election",
+   "title": "Democrats sweep the 2026 midterms",
+   "summary": "Democrats swept the midterm elections, which shifts the policy outlook for health insurers. ACA exchange subsidies look more likely to be supported, which helps OSCR, CNC and MOH. Medicare Advantage payments and PBMs may face more scrutiny, a risk for UNH, HUM, CI and ELV.",
+   "evidence": "Headline: 'Democrats Sweep Midterms'",
+   "sources": [
+    {
+     "title": "Democrats Sweep Midterms: What It Means For Pharma And Biotech Holdings (Stocks To Watch) - Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX1o4cVQ3ZTRGcTlaRjR3aFIxeGFXVG9VZGtUSmZwMXpxaVh2Q18zX2dJV0N1eU5RcnVPM0Y1Y1pyek1TSkpDMDI5Z0NsZnhobXR6UEhYVmJ3eFZPVmQtQjhIYzBIYVJzeGVYTUY0Mm9KMXBCY05YQ0pmTzZ2LVVSakNNM25NME5VLXR2OVhQYThHLVYzTl9TSmFnV21URVI0ZVkyR2RRQTZIU2sydG1OZmZfaWpUaDFnc0g0ZkdNM1NEX1BZUnc?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-managed_care-2026-11-09-2",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "managed_care"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Humana raises 2026 profit forecast as medical costs ease in Q3",
+   "summary": "Humana raised its 2026 profit forecast after third-quarter medical costs eased. This is a positive cost-trend signal for Medicare Advantage-heavy insurers.",
+   "evidence": "Humana raised its 2026 profit forecast on easing Q3 medical costs",
+   "sources": [
+    {
+     "title": "Insurer Humana (NYSE: HUM) raises 2026 profit forecast as medical costs ease in Q3 - Beinsure",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbkNiU1FsT1FjYmNJY29xZGJtREtRQzFWT0N0Q3FKZmlodFp5clJYbF9aQ2xISlRGdEViUlBvU3hQNzdnbGs3UkNXUkNLeFV5V0p0LWtDdmM3VWJUUDhkTjZVRlQ4UjdhZnpGbWpwZUZkdEI5UGpDaXgyZVEwVHI3bkZfQTdzMkpfV3FTSzAybzJNTy1NZlVjY3BKTzJ4Mm9PMkJMbUVMaThwQQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-healthcare_technology-2026-11-06-0",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_technology"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "ma",
+   "title": "Hims & Hers signs direct deal with Eli Lilly to offer branded weight-loss drugs",
+   "summary": "Hims & Hers struck a direct partnership with Eli Lilly to offer branded GLP-1 obesity drugs on its platform, shifting it away from compounded supply. HIMS shares surged on the news. This legitimises GLP-1 telehealth volumes for the platform.",
+   "evidence": "IBD: Hims & Hers surges on 'surprising and inevitable' deal with Eli Lilly",
+   "sources": [
+    {
+     "title": "Hims & Hers Surges On 'Surprising And Inevitable' Deal With Eli Lilly - Investor's Business Daily",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdzRRQ3d0blNWZmNRZ2QycWFQaVVhME8tVG9fLXVrOTFQSFFGNjl4aHFuVmxBWlE2bk1MMFZ2Ym5VNlQ0TjU5WU95eHhMYlU4NHVsd0hPdGJ6Y2JiMFlhS0NnSERzRVJreVpTSGw0WFVHVHJBcUV6VWh5QXRPaURyUXQ1ZkpaTWtFc2hUMm5yd0U5RU1mUnVxemZUWG13dXVxOHdr?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-healthcare_technology-2026-11-09-1",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "healthcare",
+   "subindustries": [
+    "healthcare_technology"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Hims & Hers Q3 loss, gross-margin decline and full-year guidance cut",
+   "summary": "Hims & Hers reported a surprise Q3 loss, lower gross margin, weaker subscriber growth and cut full-year sales guidance while resetting marketing spend. Shares plunged about 19% the next day. Five states also joined an FTC privacy lawsuit against the company.",
+   "evidence": "Hims & Hers stock plunges 19% after Q3 loss and weaker subscriber growth",
+   "sources": [
+    {
+     "title": "Hims & Hers stock plunges 19% after Q3 loss and weaker subscriber growth - Invezz",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPby1RZFE0S2xlYzdlNjRNTTdZM3dNa2ZhWUVXdFkwVVF0SmRqRDIxRFhwZzZKYU5QdDBwYm9kZWRGMUJwUFAtN3BJRmV1eE5iaDJoRF9ZYTVKWVVIZGRTc3UzU0lXeEc4MkZOd2JrUEZ3eDBheG9jelFVSFlUTXF5aEJZTmZuNXctd0NXV2FxSDhQY0g0S0FmS2FMSUg1MTBUVTRtSllSenQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-semiconductors-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "semiconductors"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "regulatory",
+   "title": "Nvidia falls on probe into CEO Jensen Huang's affair, reported as a possible spy plot",
+   "summary": "Nvidia shares fell after reports of a probe into CEO Jensen Huang's affair, later framed as a possible espionage matter. Nvidia was the only Philadelphia Semiconductor Index stock to decline during the sector's rebound. Brokers such as Baird stayed bullish, pointing to governance and key-person risk rather than a demand change.",
+   "evidence": "All Philadelphia Semiconductor Index stocks rose except NVDA on Nov. 9",
+   "sources": [
+    {
+     "title": "Nvidia Stock (NVDA) Falls on Probe into CEO’s Affair; Here’s Why Baird Stays Bullish - TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWUFVU2lWYVlHMUFDTVF5aEtzTlh3clZ6ZEwtNzVKSU4yQ3JzRlIzZmVoUk5IdnBNaVJpVlQxUHlKcXotTnhycjV4Rm55TmV0RXNTcF85bnh4aXV1Z2thcUFTVThRV2kxX0VOWW9NbEx2NWM2MV85MUYtUDZRNWlzTF8tR2JtRjJ0SFZWV0hkWGo3elVHUWdZaHZucDhabnVvbFdfOUNFV0s4dlpfdWc?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-semiconductors-2026-11-05-1",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "semiconductors"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "Semiconductor index sinks 11% in a day as Nvidia and AMD lead the AI chip selloff",
+   "summary": "The Philadelphia Semiconductor Index fell 11% as AMD dropped 13% and Nvidia 6%, erasing the post-election rally. The index ended the week down about 15% despite a 4.21% rebound on Nov. 9. The move looks like de-risking of AI exposure rather than a new fundamental datapoint.",
+   "evidence": "Semiconductor index sinks 11%; AMD -13%, NVDA -6%",
+   "sources": [
+    {
+     "title": "US stocks tumble as semiconductor index sinks 11%; Nvidia, AMD lead tech sell-off - CNBC TV18",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRHFXX2M0d0Z0elV3bkVmTXhiV2haZVM4clFaWWZQc1ljd3M5UUxGbEIzcm5GbE5BRUtrazF1VWNsdHFvY0VyQ0FELTVCX09nbm85SmdxeHp4OWdJTllUdGdEX1lHX0hZTUFQOE9sVHlJVWpHWTRvT2RTQ3RGaEQ0UXl0RC1oY1YxV0RYMjNlV2kwa0tnY1B2NjhkSXdOWmIzVG1zU000YjRDY0pndVhuUTV0dnZlaTJtUEFKMWx1bFo4T0hR0gHKAUFVX3lxTFBVaWQ2anNZMG1lcURXUFVaYmxUTy1wcTlsb3BfbGVvS3JnbmN4SHB6dDJTN0Y0cUZISlVjakdhRUxkZE9icWJaQ3ZwTGJTZGFIUjRONWdRaVpnVG0xb3l1bHY1THBNSG12Vm5sUElfdmoxanpmc0lLZjc3SjUwYXRjcHFpRFVDVnhCOW54cGk0d1RWb29rc2RlYkg0dUYtdndxbU9kS0xvbktjMVJXczBhQndMa1lDaWRGeXdyNGE5RmlhbHdtLTRkR0E?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-semicap-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "semicap"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "positioning",
+   "title": "Lam Research announces $25 billion buyback amid semicap rebound",
+   "summary": "Lam Research authorised a $25 billion share repurchase after the stock fell about 16% in a week. LRCX rose roughly 8-10% on the news. KLAC rose 9%, ASML 6% and AMAT also gained in a broad semiconductor rally the same day.",
+   "evidence": "Lam responds to a 16% weekly drop with a $25 billion buyback; LRCX +8% on the plan",
+   "sources": [
+    {
+     "title": "Lam Research Sinks 16%, Applied Materials 15% in a Week. Lam Responds With $25 Billion Buyback - TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUm5hcDJ6RjV0NmlzcXJuZ3FzRXIzdjRUOC14T3ZETG96dzRVcDhiVGtaMU91N2l6QnYyU3dnT0hpNURaWUY1SFRNLVZINV9DYlZnSk9BUUJyTEc2N09PU1dsOTJfbUtWcnRhLTdxdlY0QmNQTWdLNGhVS0RqRzVkWS1jMzNTdE51VzhyTFBpS1BNR3E0cWR1VlJMVnE4RXBrUkJkU0JWMF9INm90R1dHY3RyVlFWdUk?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-semicap-2026-11-05-1",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "semicap"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "positioning",
+   "title": "Semicap sell-off as investors reprice equipment growth",
+   "summary": "Semiconductor equipment stocks sold off sharply. AMAT fell 11.35% and KLA dropped 12.18% as investors repriced the sector's growth expectations, extending AMAT's roughly 30% one-month decline. The headlines do not cite a specific fundamental trigger.",
+   "evidence": "KLA stock dropped 12.18% and AMAT fell 11.35% on Nov 5",
+   "sources": [
+    {
+     "title": "KLA Stocks Drop 12.18% as Investors Reprice Semiconductor Equipment Growth - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZlFZZVJ5TGxPMnNnQ2JMcDZBLU40OU04NzU0RjdRUDBseXd3alBzbS1uSk1tOF9DN0d1WlNPLWVGbHd4MFllTnlVZWJKckJoQ3Nyc3hVZWszUUxRVUNnQWVGV1pOQXJPNmRyVFk0S1NqNjdsZzJNLUY3U3lYR21pb05ibTQyMzFJaHJ4MVlSeThtaWhjNlpYVWZQN2xoMkVnOF80VWZRN09PbVVMRThmdFN2a2RIWXZrVGdVY1ZucE5xbUtaQ2t6U0hXRDI5dw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-memory-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "memory"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "policy",
+   "title": "Lawmaker's call for an AI pause extends the memory and storage rout",
+   "summary": "A lawmaker's call to pause AI build-outs, following the midterm results, deepened fears of curbs on data-center demand. SanDisk slid 7% and Micron and Western Digital fell 5%. MarketBeat reported a 17.4% drop in Western Digital. The policy risk targets the AI storage and HBM demand driving the group's earnings.",
+   "evidence": "Western Digital (NASDAQ:WDC) stock falls 17.4%",
+   "sources": [
+    {
+     "title": "SanDisk Slides 7%, Micron and Western Digital Fall 5% as Lawmaker's Call for AI Pause Extends Memory Rout - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVllxRm9UQlBHNkl1Q1l6TDFvV3lFVGVDcUtNdkZrMF9yTnR6UE1TTGh3SEpUM3VKX1l1YzRxUkh6aTRpem9tQlNHQmtXWEQ1cWVaM0k1djdYcVJadENkTjZnN2ZOYjNiZXE1MERib3FxSmRiSDFhOUNVYTlPWUd3czIxajh0SDVmZWR0bWZ0cVJtc0Z5OXQ1SVZzQXdhSF9MZTJvQzU0UF9XNWJRaHIwaFRaa3VSQnRqX2hKd09VYTJ5Q3pLcDdreDNqV0pPWkVGejNzTzJXbFA2ZFNhQUE?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-memory-2026-11-11-1",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "memory"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "CoreWeave's earnings surprise revives the AI trade; memory stocks surge",
+   "summary": "CoreWeave's better-than-expected results reassured investors that AI infrastructure spending continues. Memory and storage names rallied broadly: Micron rose 7-11%, Seagate 9%, Western Digital 9.4% and SanDisk up to 16%. Evercore separately forecast stable NAND demand amid AI spending.",
+   "evidence": "Seagate spikes 9%, Sandisk surges 8%, Micron climbs 7% on CoreWeave results",
+   "sources": [
+    {
+     "title": "Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave's Results Revive AI Trade; Micron Climbs 7% - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQcnBFUlhQTFFzbE44TmlDVkdlQXJQMzNnSVNPOFlwbEFCU2RjYnlzZGxRNURLVGxvSnl2SG1HdEQyeXZMY080SkUtN3ZlTWVYWGpTRWhMVlR3emFqbXhuNm5pVnJGcVVpcHl0SEU5Y0dFNlB4QTFDQ29Eck5TZ1h6UXhScFphcmdLOFJwVUdhUEFPb2lOWVAwUnloX0dnWlRqYy1weU1CRzAxaDVUaXpQaEJSQlNpTGN0ZkhHRlJWdld0SE5RRUE2ZHlTSQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-application_software-2026-11-10-0",
+   "date": "2026-11-10",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "application_software"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "tech_cycle",
+   "title": "Anthropic's new AI tools reignite agent-disruption fears; ServiceNow falls 5%",
+   "summary": "Anthropic released new AI tools that investors read as a threat to seat-based enterprise workflow software. ServiceNow fell about 5% on the day, extending its post-earnings slide. The move reinforces the AI-agent disruption narrative across application software, though ServiceNow rebounded 3.75% the next day.",
+   "evidence": "ServiceNow (NOW) moved down 5.07% on Nov 10 amid Anthropic's new AI tools",
+   "sources": [
+    {
+     "title": "ServiceNow Stock Drops Amid Anthropic's New AI Tools - Benzinga",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0h5YzRUWW53aUF6OThhOWI4RS1YelpENnZqRXlLWXBVX1E5VFZReTNPM1BNNUwxRHlhX01qblZqcFV0Smc5YnE3a1pZYXpycDk4ZmpDTGdvRm9iRDd6VTZtZHJ4V05ObWNsb0czOTBHTXZSVEEyQkxjTjk4ZkUySU1kU2QwYlhOUUp1dG1NX1NWV3FjVXltUzhNOE9EaVdWd0dnOGlKdFctdkdQNDhaUTB3?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-infrastructure_software_cyber-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "infrastructure_software_cyber"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "regulatory",
+   "title": "AI regulation fears trigger a cybersecurity and software rout",
+   "summary": "Software names seen as AI winners were dumped in Thursday's rout on AI regulation fears. CrowdStrike fell about 9% and Okta dropped 10%, with Palantir also down 10%. The move extended the post-midterm tech selloff into security names, though no change to company guidance was reported.",
+   "evidence": "CrowdStrike moved down 9.29% on Nov 5; Okta dropped 10%",
+   "sources": [
+    {
+     "title": "Palantir Tumbles 10%, CrowdStrike Sinks 9% as Wall Street Dumps Software's AI Winners; Okta Drops 10% - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeHpXTzVTdDhDRHNFQUpoZVhVNG53dldqa2FPci1UTjNSOEtGRlM5TUhfNXdVZUd4SmltT21IQVJCN2pteTN2Z0VZS3VwUWx1dThWeDlQZG5hV3AxeGxqUF9GZ0pGRHI4TWxvU09vaDg0ZGVrNk5SN3MyY195VVZwY1JNNkYtUnhkeS05YkFFaGhMX3RSaWpDa2tfdm1oM1A3RHFLVDdhdzVZUm81RHU3TWhCXzloT18zRjFFQWRTVmNjTU5GYmZKMllJb200Z0tFRUE3NjlB?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-infrastructure_software_cyber-2026-11-09-1",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "infrastructure_software_cyber"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Microsoft exits AI cloud deal with Oracle",
+   "summary": "Reports said Microsoft exited an AI cloud contract with Oracle, pushing Oracle stock toward $100 amid concerns over its AI spending. Microsoft separately raised $25 billion in AI bonds and rose 3.2%. The loss of a marquee OCI customer dents Oracle's backlog-driven growth story.",
+   "evidence": "Oracle stock nears $100 after Microsoft AI cloud deal exit",
+   "sources": [
+    {
+     "title": "Oracle Stock Nears $100 After Microsoft AI Cloud Deal Exit - thedigitalbriefnews.com",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlOERydHE5aC1oNTFjNDdLdVliREVKZ2FNck9jSVY1ODlPb29lVlp1aklPLW9UejFVeGt2WmlJN3ZvTU10MlFXZnpfOTRGSnBOMzNmbkZ5Wm9qZHRsNmZLcVlPUlZhc1B6aGdyTkdCNG92SmV6VjBGNUN2d2hHQQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-infrastructure_software_cyber-2026-11-11-2",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "infrastructure_software_cyber"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "CoreWeave results lift software and security stocks",
+   "summary": "CoreWeave's quarterly results eased AI-infrastructure credit worries and lifted software stocks. Cloudflare and Datadog rose 5% and CrowdStrike climbed about 4%, partially reversing the prior week's rout.",
+   "evidence": "Cloudflare rose 5%; CrowdStrike climbed 3.67% on Nov 11",
+   "sources": [
+    {
+     "title": "Datadog and Cloudflare Rise 5% as CoreWeave's Results Lift Software Stocks; CrowdStrike Climbs 4% - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ3BPWWw5Y21GenhoSkxjclJSZk1VcDY1Vk03LWt0TXJlSUtkd1JUSkgwbmxkMDhHZWd5dWlST0ZVd2JVTHF1SjZFTkM0bmVsdEhaYk9vWVo2VGMyeXZieUZYQ19oYjRRd2RNNGZab3NDX3RWb0p4VDg0amdqV2FPcFBQOGxPaXJDdHJ3X2JzY1ozY0pULVIzd1ZBSklKa1hqWHJSR3ZZcHd6eUdheDlxb2lpQ0RiT0ctX042QjlQc2oxYzdDb0sySDZ3a0JiVTJZZzFv?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-it_services-2026-11-10-0",
+   "date": "2026-11-10",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "it_services"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "policy",
+   "title": "IBM ends visa and green card sponsorship for most IBM Consulting roles",
+   "summary": "IBM said it will end H-1B and green card sponsorship for most roles in its roughly 150,000-person consulting unit, following similar moves reported at Microsoft, Infosys and TCS. The step reflects tightening US immigration policy and points to higher onshore labor costs or more offshoring and AI-driven delivery across labor-based IT services.",
+   "evidence": "IBM tells visa and green card holders in its 150,000-people consulting unit to move abroad or leave",
+   "sources": [
+    {
+     "title": "IBM to end visa, green card sponsorship for most roles in its Consulting arm - Reuters",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVlZScURucjRfQ1FmYkxYLXhJeTRrbzRXMzBMX0tUUWNjQVRzTXVKV0cxamRiOEY5bGhueWJPRDZndGNYODVvdXBXemdhbkcwMGVMNUJEMjhYTW9xd2MyRmJFbVd5SGsxeFFFN3FfUkI5cmo4dElPUlhWZkdXV0kwOFVLSHM4TW0wNmZyZU5VdExWWkV1MVpXa3VRTGxJemFoNDMxdFkwYmo0SFZWZ3BzeEFR?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-it_services-2026-11-05-1",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "it_services"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "EPAM beats Q3 2026 expectations; AI-native services drive growth",
+   "summary": "EPAM beat Q3 2026 expectations and its shares soared. Management cited AI-native services as a growth driver and said North America is stabilizing, a read-through that discretionary engineering spend is recovering for peers such as GLOB and CTSH.",
+   "evidence": "EPAM exceeds Q3 2026 expectations, stock soars; North America stabilizes",
+   "sources": [
+    {
+     "title": "EPAM (NYSE:EPAM) exceeds Q3 2026 expectations, stock soars - StockStory",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc0dIeVZnU201N2x4QkFzREtRRjcwa1NpbzdValF1NG1MeDloeFFZNHFrU29Tb3htcnJsTjFLUWVYQ0txZHJtRVF2SEtpbnVJYWNhZXRRbDNaRFlZUFlqVTl2TmJHa3ZJU2NHbVlJT0dTSm1FazhCWTNZcFRzbjgzN1NKQjhjSElNVVE4cjZyeU1kNndfSnRJUWVzRTFOanVSeGtnb0Jod2M2T3FsOEpIZw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-internet_platforms-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "internet_platforms"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "regulatory",
+   "title": "Google, Meta and TikTok sue to block California youth social media law",
+   "summary": "Google, Meta and TikTok filed suit to stop California's youth social media law from taking effect. The law adds to child-safety regulation that could restrict engagement and ad targeting for younger users on the largest ad-funded platforms, chiefly GOOGL (YouTube) and META. The outcome is uncertain while the litigation is pending.",
+   "evidence": "Reuters: Google, Meta, TikTok sue to block California youth social media law",
+   "sources": [
+    {
+     "title": "Google, Meta, TikTok sue to block California youth social media law - Reuters",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQN3ZhN0lzM1RYWDl3eXBsdjZ2NU13NjJRMjB0clhpbW9rRTAwWnJIaFNGdEdhcW1tbHdfYmVQQXhSOEJUZXd6Z2Y2WVlZVDJpN3RuY1VnTE1rOHVUZkVLRGxBbGo1OWxPZkhmMGE4dkR1YWN6WHdFcnBtZDdoOFJTYU1DbnVCM0R0THhVa19xVVhIdWxpa2dRYWx5M25kNXhWTTNQbWNVV3EtQUU?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-hardware-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "hardware"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "positioning",
+   "title": "Networking rout: Cisco falls 7% on Morgan Stanley downgrade, Arista down 10%",
+   "summary": "A Morgan Stanley downgrade of Cisco set off a broad selloff in networking names. Ciena plunged 15% and Arista tumbled 10%. AI server makers Dell, HPE, Super Micro and HP traded lower the same day.",
+   "evidence": "Cisco -7%, Ciena -15%, Arista -10% on Nov 5",
+   "sources": [
+    {
+     "title": "Cisco Falls 7% on Morgan Stanley Downgrade; Ciena Plunges 15%, Arista Networks Tumbles 10% - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkRiZEVMc2tZVEdlRUtnTTlGTTRiSDcwdmVGSVFkREI3eXdabUlXdTNGek1yeFY3eDBCNHpza2RISlprSlZKa2gzWEJjNmpTZ01IZmI2NmxNdDJyeS1mRVZBbGR1bnhFZ3dtbGQzWngwOU0yZjNCRy1XY3lBUHU1RHpkTUx0Nll5SG9sUTFXUzlxX3hYX1ZPMlV0ZWhfS3E3bWJlTkdyQ2QzUDBmajZsVUlQdW4wSDVYRlRvWmM3RUtRUksxZlVHXw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-hardware-2026-11-09-1",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "hardware"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Arista backs $18.5 billion 2027 outlook with $11.4 billion supplier commitments",
+   "summary": "Arista disclosed $11.4 billion in purchase commitments to suppliers supporting an $18.5 billion 2027 revenue outlook. The disclosure signals sustained AI networking demand. ANET rose 8.46% on Nov 9 after a 5.5% gain on Nov 6.",
+   "evidence": "$11.4 billion supplier commitments; $18.5 billion 2027 outlook",
+   "sources": [
+    {
+     "title": "Arista Just Committed $11.4 Billion to Suppliers. Its $18.5 Billion 2027 Outlook Depends on It - TIKR.com",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUnZsenFRWVRvMXN0b1ZMdFZnV3QwcGM0S0lHbEJySi0zZE1oay1tSWlJRmhLVnJpMGtjU09XWXNrWFZiYWktX241ZWxDNHpobXdBZW9MdjJ3X2EyOFdoSzFaOGZtUlRTcjMtYWhTM1hoLWJjRVhWNV91ZUY2YnMtbTE4eUZwRzZDanRlYTE1YjVlbFJweU5YZmVsZkI1UDdmb3dHTkxzaTJabFQ0MUZBcWdoQUhIbi1MSkhuZjktYkJBcG82ZXFOTEhXY2hwRjlyU21SSWZ2N2szQk1YQ1V1bWU1VlpyOVhsRHM1YzVLZw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-apple-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "apple"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "tech_cycle",
+   "title": "UBS data: iPhone 18 Pro wait times near zero",
+   "summary": "UBS channel data shows lead times for the iPhone 18 Pro have fallen to near zero. That suggests supply has caught up with demand, or that launch demand is cooling. Other coverage that week described record iPhone sales.",
+   "evidence": "UBS data shows iPhone 18 Pro wait times near zero",
+   "sources": [
+    {
+     "title": "Apple iPhone 18 Pro wait times near zero: UBS data (AAPL:NASDAQ) - Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdF82RlFXZU1zRjd1S0Q4VDdveHlsRHItOEhxLWFySlZzRFVFcjhxWmtsSGdtNlRTMlVHVWpRcHR3WFJVYXphaUtCaG44Yy1FX1hWQld1dFRPQzZVdF9rQkR5ci1MdzhldWdVN3JEaUpuM2twb2dDdlkzblVCWl96LWpNc2podGhONjFyVXdyLW4?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-apple-2026-11-05-1",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "apple"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "tech_cycle",
+   "title": "Apple caps internal AI spending under John Ternus",
+   "summary": "Reports say Apple is capping its internal AI spending under John Ternus. That reinforces a capex-light AI strategy, in contrast to the heavy spending of hyperscaler peers. The approach protects free cash flow and buyback capacity but risks Apple falling behind on AI features.",
+   "evidence": "Apple capping internal AI spending under John Ternus",
+   "sources": [
+    {
+     "title": "Why Is Apple (AAPL) Capping Internal AI Spending Under John Ternus? - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS3hLV0xpV0pSWG5nNXNyVm9iMkFSR3p6RDBTQTRtektlVHR0bV9ERlVld2lRRzNwb2JJR3I4SjBLNU1sQ09BbE1uU2xwQ25remduRklyWHFtaGpINVZjeHdGUWM1TjZid1lLLXhZbU4xQlhDWUZod0RKb0R3R1VQd0VYaTBxYW5DYW4xbUU3UVY1RGdFajBIUnRnbw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-apple-2026-11-04-2",
+   "date": "2026-11-04",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "apple"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "election",
+   "title": "Apple jumps 5.3% as Big Tech rallies on midterm results",
+   "summary": "Apple rose 5.3% on Nov 4 as Big Tech gained on the midterm election outcome. Coverage after the vote framed Apple as a post-midterm safe haven. Any change to tariff or regulatory risk is still speculative.",
+   "evidence": "AAPL rose 5.3% on Nov 4",
+   "sources": [
+    {
+     "title": "Apple Stock (AAPL) Rises 5.3% as Big Tech Gains on Midterms (Nov 4) - Gotrade",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40TFN3cG1ONnB1LUNONTZqY1hEQ09ZcEJrX2RvSDhQclk4RU1DZm93c1h6YjdmbjFDZnlLMmt3Y093TWQxdjQ0Q3VwOUxxdTVNLWRndEcxU1hObmJHRzhRTE1VLXpqc3ZoVjhkeEhKWEltaFA1YXNVeTVSVkNpdw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-fintech_payments-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "technology",
+   "subindustries": [
+    "fintech_payments"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "election",
+   "title": "Democratic Congress and bitcoin slide hit crypto-exposed and consumer fintech",
+   "summary": "After the midterm results pointed to a Democratic Congress, fintech names sold off alongside a falling bitcoin price. Robinhood fell 12%, SoFi 9% and Affirm 8%. Investors priced in a less favourable path for crypto and stablecoin legislation and tougher consumer-finance oversight. Large networks such as Visa and Mastercard were less affected.",
+   "evidence": "Robinhood sinks 12%, SoFi tumbles 9%, Affirm drops 8%",
+   "sources": [
+    {
+     "title": "Robinhood Sinks 12%, SoFi Tumbles 9%, Affirm Drops 8% as Bitcoin Slides and Democratic Congress Weighs on Fintech - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQUXV6TTBQd0VKaTVOclFGQ2VMYmd3S09GVGtEbWZuY1Fhd0MxMjZZazlVaWJfYlV2V2tWM3BuTVIyVWI1NHZzdGJqeXRuSko4dG1Nb2FlQlVEcTFFOTZCd3o5djVTejlyb01seGh6M041Y2U2blJzcHliekIxWjVDQndxSFRlb0VteG5KWHNuVVZRbkFrM3gzYko5aW1vb2ZOMmxVWXpieDkzd05Vb0RJSk5GVEtwUG03MlZlYjYxalZ4TUhaS0JWSXItUm1jbGlBVUZYQTVEemlEWmZfbVFrLXRSd2oxY2c?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-apparel_luxury-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "consumer_discretionary",
+   "subindustries": [
+    "apparel_luxury"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Ralph Lauren Q2 beats on strong Asia sales and higher margins",
+   "summary": "Ralph Lauren reported fiscal Q2 earnings above estimates, driven by strong Asia sales and margin expansion. The print supports the view that premium and luxury brands with pricing power are holding up while mass athletic names like Nike struggle.",
+   "evidence": "RL Q2 earnings beat estimates on strong Asia sales, with margins rising",
+   "sources": [
+    {
+     "title": "RL Q2 Earnings Beat Estimates on Strong Asia Sales, Margins Rise - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcjlRV2dPT18yZlAtWFJYMndXbGs5S1FTOVd0SXBVUjVqVFVReDY1a094M3ZtY0FLNVdpT1RVTlRvQ2prSDk5a3VGQzdPcmlPeE9uR2JENFdCRmlBT3hKWmVoSl9DZjhQdTF1bFBOc2oyOEtYekdfVHVCOTZUMkMyclZXSWhCTV9lUjBhbmk2THNRbW50Rnd1YnJVU1l3cUpwQ1A2bzZkdVBnUmNlWHJHa3F2R3NwMktaSm80?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-food_beverage_tobacco-2026-11-08-0",
+   "date": "2026-11-08",
+   "end_date": null,
+   "sector": "consumer_staples",
+   "subindustries": [
+    "food_beverage_tobacco"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Coca-Cola raises its full-year outlook",
+   "summary": "Coca-Cola, one of the largest members of the group, raised its outlook. Follow-up coverage asked whether the higher guidance changes the investment case. This is a modest positive signal for beverage pricing and volume resilience, but it is specific to one company.",
+   "evidence": "Headline: 'Should Raised Outlook Require Action From Coca Cola (KO) Investors?'",
+   "sources": [
+    {
+     "title": "Should Raised Outlook Require Action From Coca Cola (KO) Investors? - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObXNxeUVDdkF3S3ZOU2RUbUN3Z1REb3Z2dk1TWUxHNDlwN1dHZ2JBUENCeDFLanZCNUF6R2hhUmEyZXhySjk1Q1pBZDZ3bGdLRHNKUG45TXRVX191dm1obncxSVJ0U04xT09PVkExZ3VfcWNLLVFSUm5jNy13cmNCS1RicThmcHZoYnY3LVcxMklFY1VoZF80VWNnWkFfbnlMLUQzNWpxbUJNUEZwLXpJYk9NbXdvRjZJV0xlR3kzMUFhZkZoUkV6UzZvSkdRTjl6WDgw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-integrated-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "integrated"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "commodity",
+   "title": "Seven OPEC+ producers keep December output unchanged; crude opens lower",
+   "summary": "Seven OPEC+ producers left December production levels unchanged instead of adding more barrels. Crude still opened lower, so the hold limits added supply without lifting prices. That matters for the upstream earnings of all integrateds (XOM, CVX, SHEL, BP, TTE and others).",
+   "evidence": "Seven OPEC+ producers kept December output unchanged while crude opened lower",
+   "sources": [
+    {
+     "title": "Seven OPEC+ Producers Keep December Output Unchanged While Crude Opens Lower - Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS01Na2JQSDRsZFVDT1VLY2ZYRVE1blBWRkRocVVOQkZSandkQk9WYWVlbEtERGZ5SU5PTGNWc1FMOVJNLXRyaVl5UHVuUF9lWXY2ZWlEb2ctUmpTQ0x3RTFhUWFvam94T2lMR1p4RTFsX05oYVh6UDBWLVVFWDgtNlN6ajVMVjFxSE9oS2s0RS1YV2FfRWdXeEVxTXZaY0RJTWpIQm9PZm9uNVVGWlM5cDB3?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-integrated-2026-11-08-1",
+   "date": "2026-11-08",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "integrated"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "BP lifts divestment target to $9 billion amid Whiting standoff and softer crude",
+   "summary": "BP raised its divestment target to $9 billion to speed up deleveraging in its turnaround. The move comes as a Whiting refinery standoff and softer crude prices pressure cash flow. The impact is mainly on BP's balance sheet rather than the wider group.",
+   "evidence": "BP divestment target raised to $9 billion",
+   "sources": [
+    {
+     "title": "BP Lifts Divestment Target to $9 Billion as Whiting Standoff and Softer Crude Test the Turnaround - ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQY2hybE5fb1k1UmtCa2RRdkdaa2xFamR3bG9wY2d2M2ZXaUVwRk5zQ3JmbjdxYXJ6Y0plbm9MTDhxanM0aGZKOFB3M0dyQnNCdWN6aE92Sk90amRsNlMxQ0N3TURqN3U3WTVEX1NUTGNaSFlDa3N5MFlLdmlkT05sRGVBWHI1ZXNVU29MdDFxMFFQd2Vsb1ctaHk1dWtYU0luekNhTGJNRVlCNkQ4S09VMmRuclJDSmI5Skt3WF9KOE1uYkIxdzZjTzBncXNKTmRCTzM4dS1VWXJCeHlJeGQxdEI3OWd0SFV0MjRRbUtjenJxWFZpWXhySnpCdlI?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-exploration_production-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "exploration_production"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "EOG Q3 2026 beat on record volumes, raises dividend 8%",
+   "summary": "EOG Resources beat Q3 earnings and revenue estimates on record production and strong pricing, and raised its quarterly dividend 8% to $1.10 per share. The call also flagged encouraging South Texas Pearsall tests and a Southern Permian wildcat. The print suggests healthy shale cash generation for a large-cap E&P bellwether.",
+   "evidence": "EOG increases dividend to $1.10 per share, an 8% hike, alongside record Q3 volumes",
+   "sources": [
+    {
+     "title": "EOG Resources Q3 2026 Results: Record Volumes and 8% Dividend Hike - News and Statistics - IndexBox",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONzJ5UmZvNXhtQ1pqak9MTDV3NkZLOGxIWU9CZUUxNThpVW1aQUxHUTNPMFdTejl1c3BUR1dhaTJuSXZCb2x5cDliT3Y4Qk1FMFg1X2lLamU2NGJQamFnZUNSQ3o2U25NLUhvWU5BbHRQekhVc3MyVTM4ZW5DQnNmRW96bnNsRWU4RjY1N0F6bw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-exploration_production-2026-11-09-1",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "exploration_production"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Devon Q3 2026: record production and $2 billion free cash flow",
+   "summary": "Devon Energy reported record production and about $2 billion of free cash flow in Q3 2026. Together with EOG and Occidental's strong Q3 output, it points to continued shale efficiency gains across large Permian producers.",
+   "evidence": "Devon Q3 2026 earnings call highlights record production and $2 billion free cash flow",
+   "sources": [
+    {
+     "title": "Devon Energy Corp (DVN) (Q3 2026) Earnings Call Highlights: Record Production, $2 Billion Free ... By GuruFocus - Investing.com Canada",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTjF0Uzl3bW1fTy1PV3pldDdQZ0JidEpEcHRGQ2IxVHB5S0VOUnprblhHazRPdnRZYTd5dTZXbnhqaGpFdVpYT2kyYy05TzRybzhacW1YM21rVllwcUdubnkyVlFMLTJ5TVBwZE05YXU5d0JGdWVVUGVNVG9fLTg4dVZlYzNLaWJScWNDZ1dmQTZrSEtNdlNUendNcTZwVXNyamNBLVJTZlBNSlRXVmNHOUVrTU96enY5b3ZCS25sbnZuclVIU3pQYU14UUs2RVNKanZGM093?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-midstream-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "midstream"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Energy Transfer Q3: earnings miss but full-year guidance raised and distribution increased",
+   "summary": "Energy Transfer reported Q3 results that missed earnings expectations. However, it raised its full-year outlook on higher EBITDA and lifted its payout. Management pointed to broad-based volume growth and pipeline and storage expansions. This is one of the largest members of the group, and the print signals that fee-based midstream volumes remain healthy.",
+   "evidence": "Energy Transfer raised its full-year guidance and its distribution after a Q3 earnings miss.",
+   "sources": [
+    {
+     "title": "Energy Transfer stock gets higher outlook after Q3 EBITDA surge - ad-hoc-news.de",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ3Y1SEFLc196QTQ3cEFKSW9nbmlFRy1QemdiVFAzUkFfSHJSWTJnbzZhY1F5d2pCLVB1YUlXM1h3aTQwOVktLXlsaFZCOHRSVTZvUF9XV2d4Q0ZfMHpCZE81SHoxcTNfcUthSTJzTnhLc1NTY2tiRTJBOHVONGlzX1dQYTlCOTZpcDVhS1kxRjVWMXpTVy15VVkwRmNJeUlrZ2NLN0FMc005TWlLbFJVdTI1bnh1YURtNTFxVHE4V1dKNjVD?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-oilfield_services-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "oilfield_services"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "geopolitical",
+   "title": "NOV cuts earnings guidance as Iran war raises costs and snarls deliveries",
+   "summary": "Oilfield equipment maker NOV lowered its earnings guidance, citing higher costs and delivery disruptions tied to the Iran war. The cut points to supply-chain and margin pressure for equipment suppliers.",
+   "evidence": "NOV cuts earnings guidance, citing Iran war cost increases and delivery snarls",
+   "sources": [
+    {
+     "title": "Oil-Gear Maker NOV Cuts Earnings Guidance as Iran War Hikes Costs and Snarls Deliveries - EnergyNow.com",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTkc4VE5VcFJuNzNERXo0bDRSdWJkMnQzcGJNUjdRdzM3bDdZYy1lRFppVWhNT0tsSnhmbnZGM2FXaEJtbzV5MlpwYUlqRFNVWnl0RE1lM1FGcEZCYlJ0WFJteS1ZZVM4SWkzY21tX09XOXBSWTNwMlhUWkhIZGdaM3lNZHVtNUhsbWxMcUdwdW5xblFoYXRWX0pSblZxbkVhVE4zVzBGRzhBUTRFaHVfNG1Wbk9UbG1zVUE?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-oilfield_services-2026-11-07-1",
+   "date": "2026-11-07",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "oilfield_services"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "macro",
+   "title": "Oil rally from Iran war fails to spur drilling, squeezing services firms",
+   "summary": "Despite higher crude prices from the Iran war, producers are not adding rigs, leaving services firms with flat activity and rising costs. UBS separately says US oil and gas output can grow without a big increase in rigs. This caps the usual pass-through from oil prices to service demand for land drillers and pressure pumpers.",
+   "evidence": "UBS: U.S. oil and gas production to grow without big increase in rigs",
+   "sources": [
+    {
+     "title": "Services Firms Feel the Squeeze as Oil Rally From Iran War Fails to Spur Drilling - EnergyNow.com",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZXlqdTNaeFJzemNQZEVMa2hMcVgxZXlPVDVNenp5S2ZaMm9zaHExeVNLaE02RjY2cHJaWVhnQ0QxYUUyc0VZeURHQTB6V1FfUzBEQllWT3h0ZmViM01OSWxvM3RvU21wTk4zYmJvQmZ3RVBWNlRxQXRsV1Y4TU9mUWFyRmhJQ3Z3a0dxZ3Q3d0FTZVNPSUlWTm9TUnhfMEpMVFhSS2wyMTlmMThNUV9xRXh3?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-new_energy_power-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "new_energy_power"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "NRG sells $4B of gas plants at 8.0x EBITDA, setting a private-market price check for power assets",
+   "summary": "NRG agreed to sell about $4 billion of gas-fired generation at roughly 8.0x EBITDA. The deal gives a private-market valuation benchmark for independent power producers such as VST, TLN and CEG, and frees capital at NRG. It validates asset values but does not change sector earnings directly.",
+   "evidence": "$4B gas plant sale at 8.0x EBITDA",
+   "sources": [
+    {
+     "title": "NRG's $4B gas plant sale at 8.0x EBITDA gives power stocks a price check - Quantisnow",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTlV0Wjc3QkJXNnNIbmdISWJ5QVpDYmZqclBXbGN6SUlpOG4zVk5GVTFqalRUQ3dqMzJidEpyQ1BPdE10OE56NnZyLWlOSERlanZZUExqYlRvS2Z3WmFWZVFzSl9KSktMZ3dLMm95Q3A1QmhfOTZqZFNENmJGN2pmX01KWGhOa3pCOGNETGJTMHA5MGt3amswUTg0OWMyOXM?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-new_energy_power-2026-11-11-1",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "energy",
+   "subindustries": [
+    "new_energy_power"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "tech_cycle",
+   "title": "Constellation pursues hybrid capacity contracts alongside nuclear uprates",
+   "summary": "Constellation, the sub-industry's largest member, is pursuing hybrid capacity contracts paired with uprates at existing nuclear plants to serve rising data-center demand. If signed, the contracts would add contracted nuclear output without new builds.",
+   "evidence": "Constellation pursuing hybrid capacity contracts tied to nuclear uprates",
+   "sources": [
+    {
+     "title": "Constellation pursues hybrid capacity contracts alongside nuclear uprates - Utility Dive",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeUxZSmxpRnUtYjRnYUNiSF9wZVQ2b29Qb19RUlJjZ2NVakVaRGl6czBQM0pCYWJrd2hSUGhFSkEyQlltUC1BZnpjZ041dmk5TGJpMWxZRW5scVl5MjhPcnJXdjNoWXh0VUFwakNGSG9PTDl1REZQNWJZSmM3UVIzcFZYc0ZrQmlqZG5kdTRoMk1xV3BVRGJOZ1V2Tl8zM0IyeDBvanZuSndIeUJ5Y0Rjem9hRQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-data_center_tower_reits-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "data_center_tower_reits"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Iron Mountain raises dividend 15% as data center revenue surges 34%",
+   "summary": "Iron Mountain reported data center revenue up 34% and raised its dividend by 15%, signalling continued strong AI-driven leasing demand in its data center segment. The impact is concentrated in IRM, a mid-sized member of the group, but it corroborates healthy data center leasing conditions.",
+   "evidence": "Data center revenue +34%; dividend raised 15%",
+   "sources": [
+    {
+     "title": "Iron Mountain Raises Its Dividend 15% as Data Center Revenue Surges 34% - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakhDNnpmeGlSdEJIS2ZzWmJIT015dG0xdnZHSmFtdmpaY3E1aVZSZDlHVUtNRnRxcWpnOTFDNkN1M2F3MVJmMjlHejZwcnNOaHpqMHJSTUFlRTlTWUdnaF8wNUk1a3d3YVNiZ2J4a3RUTG5Ud2tPc0Z5dmQ2bVNzUmhBS2FwZ09mdHNDejB2Ym5nSzI3YW1NT2h6MWh2SnFtY2FaVDkxaGZXWXZDT1pqT3NSOA?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-residential_reits-2026-11-06-0",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "residential_reits"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Q3 apartment REIT guidance splits: Sunbelt MAA cuts, coastal Essex raises",
+   "summary": "Mid-America Apartment Communities lowered its earnings guidance, prompting a Morgan Stanley downgrade and a Cantor target cut. Essex Property Trust raised its guidance. The split fits the known pattern of Sunbelt supply pressure versus coastal scarcity among apartment REITs.",
+   "evidence": "MAA lowered earnings guidance and was downgraded by Morgan Stanley; ESS lifted guidance",
+   "sources": [
+    {
+     "title": "How Lowered Earnings Guidance Will Impact MAA Stock Investors - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPN25uXzRlbi1iUGl4cUtDLVllV3pDcFZCRUI5b2drZ2QzeUxhZUZHWU00UkROUjJmS25EaE5keVVqYmMydGJWcXUwbzB3cC1XSDN2Y3I3VFdFY3U4SGdwaE9DbHJlcFdoUkQ5V1pGbUpzNEY0NEVfUzJCZUdBVHlnc1Y4LWg2YXVBb0Q2NzJ4STFYTEt5cmRYZXA2RGg0VFBHcDUteHJUaElEVy1YYjZGZnc4bkRSTkV3SURQU2I5YkJraEJhc0NBd1dHUkd2ODg2bXR6VEdXbUhpUFVIdTkwUlB5TlMzLTDSAewBQVVfeXFMTVpqWC1JMjBiQU1TcG5mWTA5YWRhbVcxLTZYalowTU5mdFJUeVVRWTh3OUVuVk9hanVmZHczOG9nTnFfTndVSzRWQ2UyMzZsQzZhZHotX09VZ2Y4SkotUzVBNnJUV2VOUkI5cFhNYXAzbEM2VkQ1ZlRBRndmYmwyRDMyV2JuSjRzR0QwVlMydkxmNFpXSm1EeFNuVmFJYi1mcklSVy1zcG5TNjRqR0poYVVvdTBTclFnb3Z6cVNyS3dibVBxTDlmMXpOcS02bDJRM2Rici1NcWJLOHpkVC14dWhVSFhQUWRiTlBVZ2U?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-retail_reits-2026-11-06-0",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "retail_reits"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Simon Property Q3 FFO beats on leasing strength; 2026 FFO guidance and dividend raised",
+   "summary": "Simon Property Group, the largest retail REIT, reported Q3 2026 FFO above estimates on leasing strength and raised its full-year 2026 FFO outlook and dividend. The print reinforces healthy mall leasing demand amid limited new supply; Regency separately highlighted record occupancy.",
+   "evidence": "SPG Q3 FFO tops estimates; full-year 2026 FFO guidance raised alongside a dividend increase",
+   "sources": [
+    {
+     "title": "SPG Q3 FFO Tops Estimates on Leasing Strength, Outlook Raised - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQelhJV0RXaENNcXV6M0RRdVlOTjQyczV3N2RjODdQSlBsSHVuUVI1X25FU0dUNHFZM240eWxoNEhSV2V1S1NzUXMta054aGhKUEdkTmo1bnZxZm9BWjZ1SnR3VW4wMGN3Vkt0M29ObDE5WVZ0b2hBOHdYWGZ3b25GUFc2OWVfNVhjeTllZEpjSW5Hb18yc085ZXAxcG5zSmxDSDJIS2dibXBCMkZQRV9ld2FvVTdidw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-net_lease_specialty_reits-2026-11-10-0",
+   "date": "2026-11-10",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "net_lease_specialty_reits"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Q3 net lease prints: W. P. Carey raises AFFO guidance, NNN core FFO rises",
+   "summary": "W. P. Carey reported Q3 2026 results and raised its full-year AFFO guidance. NNN REIT posted higher core FFO with its payout unchanged, and several brokers lifted price targets, including RBC to $43. Together the reports point to steady operations and acquisition spreads for mid-cap net lease despite high Treasury yields.",
+   "evidence": "RBC Capital raised its NNN price target to $43.00; WPC raised its AFFO guidance",
+   "sources": [
+    {
+     "title": "W. P. Carey (NYSE:WPC) Q3 2026: AFFO Guidance Raised - Kalkine Media",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOckhSME52TFdod3BFbUhyeTZzcnJFSEdrcl9tRm5obHliWlJCTHNyenNoY0k2cTRVUll1aGxvUWdSbjNEWUZ2WjFZZlNHandUNmx6U1hTaVFUckRMblhGQ0xXVl9Kdmp1QjZ1RFlkcXk5QmNrdnl5MTNYd3JRRzJWSEQweVQxMlZoNFFHc2pobjBoN3FWaVhzN0ZTbXVqbjMwZS1NQngxWTlySlBqS2tMSk5B?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-healthcare_reits-2026-11-06-0",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "healthcare_reits"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Q3 2026 prints: Ventas lifts 2026 outlook on senior housing growth; Omega raises guidance",
+   "summary": "Ventas raised its 2026 outlook on continued senior housing operating growth, and Omega Healthcare also raised guidance with leverage at record lows. Analysts followed with higher price targets on Ventas (UBS to $99) and Welltower (JP Morgan to $273, RBC to $266). This confirms that senior housing and skilled nursing fundamentals remain strong across the largest members.",
+   "evidence": "UBS raised its Ventas price target to $99.00 after the company lifted its 2026 outlook",
+   "sources": [
+    {
+     "title": "Ventas (VTR) Lifts 2026 Outlook As Senior Housing Growth Puts Valuation Back In Focus - Simply Wall St",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNHFnR29fcHVlVjNrRVRYR2V6Ujl6UEdVWTl1aUl3bm5BaVAyazlDVEJFVzZtc1lvNzhKM2Vxd1RzRUJpTjBtRzlfaXExd3BIUHhrMXpBbWZSOVQ2SlE3T2tHcGVGZGx3UlQxdDNyT3dMVWZCSm9HQU52ZzJLNFhobmRjY3NWd0hPNHU0Q0JEaDdkaU81dzIxSFI3eUJaVnBVR0VCSkFvUzlxMnBFN2FfamdJSVFwRXI2SktjU2ZQbjlnX0RCZnow0gHHAUFVX3lxTE00cWdHb19wdWVWM2tFVFhHZXpSOXpQR1VZOXVpSXdubkFpUDJrOUNUQkVXNm1zWW83OEozZXF3VHNFQmlOMG1HOV9pcTF3cEhQeGsxekFtZlI5VDZKUTdPa0dwZUZkbHdSVDF0M3JPd0xVZkJKb0dBTnZnMks0WGhuZGNjc1Z3SE80dTRDQkRoN2RpTzV3MjFIUjd5QlpWcFVHRUJKQW9TOXEycEU3YV9qZ0lJUXBFcjZKS2NTZlBuOWdfREJmejA?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-lodging_reits-2026-11-08-0",
+   "date": "2026-11-08",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "lodging_reits"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Park Hotels Q3 2026: occupancy grows and renovation strategy advances; Hawaii and debt remain overhangs",
+   "summary": "Park Hotels & Resorts, one of the larger lodging REITs, reported Q3 results. Coverage highlighted occupancy growth and progress on its renovation strategy. RevPAR strength supported the story, while Hawaii exposure and leverage remained the key constraints. The print adds to Host's earlier read of healthy industry RevPAR trends.",
+   "evidence": "Seeking Alpha: 'Progress On Renovation Strategy In Q3, While Occupancy Grows'; Simply Wall St: 'RevPAR Strength Supports The Story, Hawaii And Debt Still Set The Pace'",
+   "sources": [
+    {
+     "title": "Park Hotels & Resorts: Progress On Renovation Strategy In Q3, While Occupancy Grows (PK) - Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNUZ6Z3c2TXN6RmRxZ1loTE1UZDlXOUpZWE95RkxUbnoyamoxUllZRnUxbFFDQVZrQTFTZFBJQWNYUFVUMUZoMW0yVnd4eHFwTGJwN3FxWkFSTXlGWXA5aXlyT1lfYWpJYU9OU0ZYQ05UWTUzd0FVWjhMRjl2S0JEcEUtS0ZZUWNyRXhTdmpmbzVEMUFRUndrM1VoODBuTEZubElDeGw4bzNKOEhrZjFET05PZDlUdlVQZkNCWkh5OHozNkpQVksyT29R?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-mortgage_reits-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "mortgage_reits"
+   ],
+   "direction": "out",
+   "magnitude": "moderate",
+   "driver_type": "earnings",
+   "title": "Blackstone Mortgage Trust cuts its dividend by 36%",
+   "summary": "Blackstone Mortgage Trust (BXMT), one of the largest commercial mortgage REITs, cut its dividend by 36%. The cut points to lower distributable earnings from commercial real estate lending, likely tied to credit stress in its loan book. It also raises dividend-safety questions for peer commercial mREITs such as STWD, ARI, LADR and ABR. A director bought 10,000 shares days earlier, but that does not change the fundamental signal.",
+   "evidence": "BXMT dividend cut of 36%",
+   "sources": [
+    {
+     "title": "Blackstone Mortgage Trust's 36% Dividend Cut (NYSE:BXMT) - Seeking Alpha",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVGUwS1lHV2xqNHFwb1dBdTl5cUpGXy1hNVJEaHp0UTZQQTBZd2JxcV9BX3lSVWZxa2VNNmlLQjc0bk5yOThKcFZWdG9uQ25fNERlTnF1dEJRRXI5OWlYaEQ2WEo2WXdMUFpaUXNkeHpLMDFSRmZDSnRlNUl4c2lETFNxSkNPNnR3UkwtenpYb2tEeGdfSVE?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-real_estate_services-2026-11-11-0",
+   "date": "2026-11-11",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "real_estate_services"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "macro",
+   "title": "CRE brokerages cut Q4 capital markets forecasts",
+   "summary": "Commercial real estate brokerages lowered their fourth-quarter capital markets forecasts, signalling softer investment sales and debt-placement volumes into year-end. This weighs on transaction-driven revenue at CBRE, JLL, Cushman & Wakefield and Newmark, whose capital markets segments are the most cyclical part of their earnings.",
+   "evidence": "Headline: 'CRE Brokerages Cut Q4 Capital Markets Forecasts' (Yahoo Finance, 2026-11-11)",
+   "sources": [
+    {
+     "title": "CRE Brokerages Cut Q4 Capital Markets Forecasts - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWFJkRGdJRkk2c1JQMGh2WHRXa0tXTTJBVXNwN3pJTmp0Y2tTeHRXV1RoYXcyUHUxOGtKcjgxaDlySDFXUjdfOVoyaVg5dkhuSGJtQUpSdFFjUzFrclZ4aHYxeUJXWFRlZGp6ajhuTEVnSUhFcFE3dnRwTmtOUmZZRWtWWjl6MnRiVDhKLWFnVWZYeFFhdUE?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-real_estate_services-2026-11-06-1",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "real_estate",
+   "subindustries": [
+    "real_estate_services"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "CBRE completes $1 billion senior notes offering to fund Onnec acquisition",
+   "summary": "CBRE, the sub-industry's largest member, completed a $1 billion senior notes offering to finance its acquisition of Onnec. The deal extends CBRE's push into resilient, data-center and building infrastructure services, away from transaction-driven revenue.",
+   "evidence": "$1 billion senior notes offering to fund the Onnec acquisition",
+   "sources": [
+    {
+     "title": "CBRE Group (CBRE) Completes $1 Billion Senior Notes Offering to Fund Onnec Acquisition - GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNlhIYUNrRUdFcjdQRmZXTFpOR3pTRnlIMVNrUGtyb3BJVGZyMXd1SmI0SWJTZ1B6UlBxMlBSVm9kcWJteGczOWtZdURLNVh5ekNGdmU3YVMtQWpkRVZGSVBXQ3dTLWtINW1YeEllRGVzbXZCSHM5SDNpblBJUW85LUxLWWtoWW4ya0ZLZm1WSU9TRWJmaUFmRWxmeFVBSHRJRmcwX0lTa3JyNFJVbHVXcF9PbXBobzhtei1kRHBUTQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-capital_markets-2026-11-09-0",
+   "date": "2026-11-09",
+   "end_date": null,
+   "sector": "financials",
+   "subindustries": [
+    "capital_markets"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "ma",
+   "title": "Morgan Stanley buys Vinyl Equity to capture IPO-linked wealth",
+   "summary": "Morgan Stanley announced the acquisition of Vinyl Equity, aimed at capturing wealth from IPO and equity-compensation events for its wealth management business. MS rose about 4% and Goldman Sachs about 5% on the day, though the headlines do not say why GS moved. The deal is a bolt-on that adds a client-acquisition channel rather than meaningful near-term earnings.",
+   "evidence": "Morgan Stanley climbs 4% on Vinyl Equity deal; Goldman Sachs rises 5%",
+   "sources": [
+    {
+     "title": "Morgan Stanley Climbs 4% on Vinyl Equity Deal to Capture IPO Wealth; Goldman Sachs Rises 5%, JPMorgan Gains 2% - 24/7 Wall St.",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPV3lyR3dvNTJVMFBxd0kzZlRiUGNBV3RlVGJLUkxvUkNuRGxHZGU4ckY3OWxSVHd5WU1NMU9JM0tIQ1gzQldYTWhpWVJlYkpQb2ptd2Q1Zjh6cFBPVmdZQzF1WkF6UklUc1VJRVg0NzJxWm43Ty1laTV6Ny1rMUkyODdEYWlvT0FaYkdYMUVFX3dHdUNfb25VVC01d2NrejJ3NTJtdTlHQjBpWkpLWjFPa0NIZ01GRHo2LTNpVnlpSV92azc3dzVaTUl6dUVCbU93Z2JLSFdmNlFLQmFWb05TRGlzWQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-insurance-2026-11-08-0",
+   "date": "2026-11-08",
+   "end_date": null,
+   "sector": "financials",
+   "subindustries": [
+    "insurance"
+   ],
+   "direction": "mixed",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Berkshire Hathaway Q3 profit falls 28% as investment gains shrink; revenue beats",
+   "summary": "Berkshire Hathaway, the sub-industry's largest member, reported Q3 results in which net profit fell 28% year over year as investment gains shrank, while revenue topped estimates. Coverage also noted the cash pile shrinking as Abel keeps deploying capital. The drop was mainly mark-to-market and investment-gain driven, not a clear deterioration in insurance underwriting.",
+   "evidence": "TipRanks: Berkshire Q3 revenue beats, but profits fall 28%",
+   "sources": [
+    {
+     "title": "Berkshire Hathaway (BRK.B) Q3 Earnings: Revenue Beats, but Profits Fall 28% - TipRanks",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWV5Uk0tX0J5bG1mMVB5cVpEVVFlWHVrNG9LUE1pT3lQbDIyR3J1aU9YMVJLVjRPOXJ1VWpXaHFOcUJOQU9PenVMN3cxMWFwclU0ZDMyeGNoaVJDTldZSzNZa1VtUFFON2lXRHRpSGRBdThPUTR2ZW1iODBaWDZmQzgtRExpSlVERVJXNmlKd0RZNzBJci0ydzNFM09mV0FqWWc?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-regulated_utilities-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "utilities",
+   "subindustries": [
+    "regulated_utilities"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Q3 2026 utility earnings: Dominion reaffirms guidance, Duke beats, PPL lifts growth on data-center demand",
+   "summary": "Large regulated utilities reported Q3 results. Dominion posted strong earnings and reaffirmed guidance, and Duke Energy beat expectations. PPL's call highlighted a higher growth outlook driven by data-center load. Together the prints support the load-growth and rate-base expansion thesis across a sizeable share of the group.",
+   "evidence": "PPL Q3 earnings call highlighted higher growth and data center demand; Dominion reaffirmed guidance after strong Q3",
+   "sources": [
+    {
+     "title": "PPL Q3 Earnings Call Highlights Higher Growth and Data Center Demand - TradingView",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGlXS2UzamFRRGItNkxiVXVVbk82TVluelM3ZHdjcDg1UzA4blJ1ZFJsbEk1VVFPalJRVWJBN1VVZFdQUXB4ZkRIUk1McTUwemVQbk9DSWVDX0hjOWV4QXFFU1RUSWtwV0pRLWRmTk0wOHFybnJZYWFTcHlZd2JVYVBYeURteHhQaTJXV3RJYVlYclIxdWYtUVpKWVowc1RyamxycVZJX0RsM0wxN1FwN3Iwc1JhZW1UUTV3QjVJUEpMUQ?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-chemicals-2026-11-05-0",
+   "date": "2026-11-05",
+   "end_date": null,
+   "sector": "materials",
+   "subindustries": [
+    "chemicals"
+   ],
+   "direction": "in",
+   "magnitude": "minor",
+   "driver_type": "earnings",
+   "title": "Air Products fiscal Q4 beat on volumes, initiates fiscal 2027 guidance",
+   "summary": "Air Products reported fiscal Q4 adjusted EPS of $3.61, in line with FactSet, on higher volumes and sales above estimates. It also took charges mainly tied to project exits and initiated fiscal 2027 guidance. The result supports the industrial-gases read-through for APD and Linde, but it is a single-company print.",
+   "evidence": "Fiscal Q4 adjusted EPS $3.61 vs FactSet est. $3.61; adjusted EPS up 12%",
+   "sources": [
+    {
+     "title": "Air Products and Chemicals Fiscal Q4 Adjusted Earnings, Sales Rise; Initiates Fiscal 2027 Guidance - Yahoo Finance",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEZhRG5CM1Y0MUw3a2xQMHY4Tkdwb0Z1blNjQ0R0V00zQ1RTandyZy1kczZCdVBJQm5rRnBSUU9xQTFJWC10U0gzbEh0cnJTNng2YldhWkktNS11MEI1VnI3cGtJaFphNUJvTVlrS1ZRU1BCLXlJbFBranpJUTM5OUFoaGRiR2VfVkFkME5XcV82eklST2p5ZjF3U3B2dw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-metals_mining-2026-11-06-0",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "materials",
+   "subindustries": [
+    "metals_mining"
+   ],
+   "direction": "out",
+   "magnitude": "minor",
+   "driver_type": "commodity",
+   "title": "Copper falls to July lows amid US midterm uncertainty",
+   "summary": "Copper prices dropped to their lowest level since July as uncertainty around the US midterm elections weighed on the metal. The move hit copper-exposed miners such as FCX, SCCO, TECK, BHP and RIO; FCX was reported down 7.5% around the same time before rebounding later in the week.",
+   "evidence": "Copper prices fell to July lows; FCX shown after a 7.5% decline",
+   "sources": [
+    {
+     "title": "Copper Prices Fall to July Lows Amid U.S. Midterm Uncertainty; F - GuruFocus",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGVzNkN6M3hLMjlCWTUycE14ODBMQkNjZ0hBYUFTR0FzcnZRTjJ1SkFEOTJha2gtSDNKN3JlU093a1lpOFhabnIzWEdLRG9mU2kzUktwLTZwUUNxcXA5MlJnaEFpU013aHI3X1FaMW5qN3NCSmJlVXZVVFlqOTZQaHl5ZWhZOXdjVlhXeFJXZkNFZkNtbGw2ajFYWjZnOU5pb19Ka1hGWkx0YmdHRWc?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  },
+  {
+   "id": "auto-media_entertainment-2026-11-06-0",
+   "date": "2026-11-06",
+   "end_date": null,
+   "sector": "communication_media",
+   "subindustries": [
+    "media_entertainment"
+   ],
+   "direction": "in",
+   "magnitude": "moderate",
+   "driver_type": "ma",
+   "title": "Fox Corp. completes $22 billion acquisition of Roku",
+   "summary": "Fox Corporation closed its $22 billion acquisition of Roku, combining Fox's broadcast, sports and news content with Roku's streaming platform and CTV ad business. Roku founder Anthony Wood was placed in a digital leadership role at Fox. The deal affects FOX/FOXA and ROKU directly and extends the media consolidation and vertical integration trend.",
+   "evidence": "Deadline: Fox Corp. Closes $22 Billion Acquisition Of Roku",
+   "sources": [
+    {
+     "title": "Fox Corp. Closes $22 Billion Acquisition Of Roku - Deadline",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8xdl9Yc1RyTkhoaFc4c09qNnYzMjRmeWMxTWVlcUVlenpITEdwNC0zMTZtWTNUU1dYNXFjMGlZVlc2bUc4WVFCWFRtNVVza3IyU1VnXzl5TWpEdmsxWml3QkN3cUlxN1drTTlCUFhESFNiYVlOak8tUDE5X0k4Zw?oc=5"
+    }
+   ],
+   "auto": true,
+   "added": "2026-11-11",
+   "model": "claude-opus-5-5"
+  }
+ ]
+}

@@ -1,126 +1,129 @@
-run 2026-11-11 23:21 model claude-opus-5-5
+run 2026-11-12 00:08 model claude-opus-5-5
 defense: 25 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzqqtNNuo73BvjSpRPH'}
+  + defense 2026-11-10 RTX guides to 2027 growth on a $340 billion backlog at the Baird conference -> e=1.0 p=2 b=2 c=3
 commercial_aerospace: 23 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzqxZTsYBtqydGPipeb'}
+  + commercial_aerospace 2026-11-09 Boeing to cut 5% of its commercial aircraft workforce as 737 MAX delays persist -> e=-0.5 p=2 b=2 c=3
+  + commercial_aerospace 2026-11-10 TransDigm's fiscal 2027 outlook signals a profit squeeze -> e=-1.0 p=1 b=1 c=3
 transportation: 24 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzr4wgKhJroo6rHecXw'}
+  + transportation 2026-11-11 CSX targets higher prices and more freight in 2027 as trucking capacity tightens -> e=1.0 p=2 b=2 c=2
+  + transportation 2026-11-09 DOJ to review Union Pacific's $72B Norfolk Southern acquisition -> e=0.5 p=3 b=1 c=1
 machinery: 26 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrBBya7xCadHSAYZiR'}
 electrical_equipment: 14 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrHRGcwyT8jSezwdhV'}
+  + electrical_equipment 2026-11-05 Eaton posts record Q3 sales and raises its 2026 outlook again on data-center dem -> e=1.5 p=2 b=2 c=3
 industrial_distribution: 6 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrPvCGGh2NmRUzsABi'}
 building_products_construction: 1 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrVvrA4bRvHzT4BGwY'}
 professional_services: 13 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrcCss2EDukTqj3Xkb'}
-waste: 16 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzriZcUjZRpGr6p4QYW'}
+  + professional_services 2026-11-08 Strong US jobs report puts payroll and staffing names back in focus -> e=0.5 p=1 b=2 c=3
+waste: 17 headlines, 3 recent known events
+  + waste 2026-11-11 Major waste companies spent $1.2B on Q3 2026 M&A, led by GFL -> e=0.5 p=2 b=2 c=3
 pharma: 24 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzrpsPLVEB6hCh7Sv97'}
-biotech_large: 21 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzrw6vk3BYXjJxJgS9E'}
-biotech_smid: 26 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzs3HzVWjpot8M4ATTu'}
+  + pharma 2026-11-09 Lilly's oral obesity pill Foundayo wins Phase 3 in obstructive sleep apnea -> e=1.0 p=3 b=2 c=2
+  + pharma 2026-11-06 J&J wins FDA approval for first dual-targeted head and neck cancer therapy -> e=0.5 p=3 b=1 c=3
+biotech_large: 22 headlines, 0 recent known events
+  + biotech_large 2026-11-07 Q3 earnings: Amgen and Vertex raise guidance, Regeneron posts strong quarter -> e=1.0 p=1 b=2 c=3
+  + biotech_large 2026-11-08 Regeneron single-dose CIDEB siRNA cuts liver fat up to 80% in MASLD -> e=1.0 p=3 b=1 c=2
+biotech_smid: 25 headlines, 1 recent known events
+  + biotech_smid 2026-11-09 Ionis falls 27% after cutting Tryngolza revenue forecast, following pelacarsen t -> e=-1.0 p=2 b=1 c=3
+  + biotech_smid 2026-11-05 Ultragenyx secures two FDA approvals -> e=1.0 p=3 b=1 c=3
 life_sciences_tools: 12 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzs9NNWix1ukMQUVWh1'}
-medical_devices: 14 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsFk6i4htjFfjqo81P'}
-managed_care: 9 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsN2d6TaTPChDAxqFv'}
+medical_devices: 13 headlines, 2 recent known events
+  + medical_devices 2026-11-11 Boston Scientific issues global recalls across key device lines -> e=-1.0 p=1 b=1 c=3
+managed_care: 8 headlines, 0 recent known events
+  + managed_care 2026-11-05 UnitedHealth sheds $14 billion in a single after-hours session -> e=-1.5 p=1 b=2 c=3
+  + managed_care 2026-11-05 Democrats sweep the 2026 midterms -> e=-0.5 p=2 b=3 c=2
+  + managed_care 2026-11-09 Humana raises 2026 profit forecast as medical costs ease in Q3 -> e=1.0 p=1 b=1 c=3
 healthcare_facilities_services: 2 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsUAxUHcQ4RN3qfLcH'}
 healthcare_technology: 27 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsafPnk419R6YxyktB'}
+  + healthcare_technology 2026-11-06 Hims & Hers signs direct deal with Eli Lilly to offer branded weight-loss drugs -> e=1.5 p=3 b=1 c=3
+  + healthcare_technology 2026-11-09 Hims & Hers Q3 loss, gross-margin decline and full-year guidance cut -> e=-2.0 p=1 b=1 c=3
 semiconductors: 26 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsgzPgJbFRZChqKeCR'}
-semicap: 26 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzso7VbRpJ6CRoC52zW'}
-memory: 29 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzsuVDJHC7XbZZLuBGN'}
+  + semiconductors 2026-11-09 Nvidia falls on probe into CEO Jensen Huang's affair, reported as a possible spy -> e=-1.0 p=1 b=2 c=1
+  + semiconductors 2026-11-05 Semiconductor index sinks 11% in a day as Nvidia and AMD lead the AI chip sellof -> e=-1.0 p=1 b=3 c=2
+semicap: 27 headlines, 0 recent known events
+  + semicap 2026-11-09 Lam Research announces $25 billion buyback amid semicap rebound -> e=0.5 p=2 b=1 c=3
+  + semicap 2026-11-05 Semicap sell-off as investors reprice equipment growth -> e=-0.5 p=1 b=3 c=2
+memory: 28 headlines, 2 recent known events
+  + memory 2026-11-05 Lawmaker's call for an AI pause extends the memory and storage rout -> e=-1.5 p=2 b=3 c=1
+  + memory 2026-11-11 CoreWeave's earnings surprise revives the AI trade; memory stocks surge -> e=1.0 p=2 b=3 c=3
 application_software: 31 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzt1fHtAwrqUMi1hbHq'}
-infrastructure_software_cyber: 28 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzt7srdsoS9oFNW44Rm'}
-it_services: 25 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztE6f2D4ou98Hf5ADU'}
+  + application_software 2026-11-10 Anthropic's new AI tools reignite agent-disruption fears; ServiceNow falls 5% -> e=-1.0 p=2 b=2 c=2
+infrastructure_software_cyber: 27 headlines, 2 recent known events
+  + infrastructure_software_cyber 2026-11-05 AI regulation fears trigger a cybersecurity and software rout -> e=-1.0 p=2 b=2 c=1
+  + infrastructure_software_cyber 2026-11-09 Microsoft exits AI cloud deal with Oracle -> e=-2.0 p=2 b=1 c=3
+  + infrastructure_software_cyber 2026-11-11 CoreWeave results lift software and security stocks -> e=0.5 p=1 b=2 c=3
+it_services: 26 headlines, 1 recent known events
+  + it_services 2026-11-10 IBM ends visa and green card sponsorship for most IBM Consulting roles -> e=-1.0 p=2 b=2 c=3
+  + it_services 2026-11-05 EPAM beats Q3 2026 expectations; AI-native services drive growth -> e=1.0 p=2 b=1 c=3
 internet_platforms: 29 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztLPg2UYUzNCaUgzv2'}
-hardware: 15 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztSrrnGYNLxXCVrJ8K'}
+  + internet_platforms 2026-11-05 Google, Meta and TikTok sue to block California youth social media law -> e=-1.0 p=3 b=2 c=2
+hardware: 14 headlines, 3 recent known events
+  + hardware 2026-11-05 Networking rout: Cisco falls 7% on Morgan Stanley downgrade, Arista down 10% -> e=-1.0 p=1 b=2 c=2
+  + hardware 2026-11-09 Arista backs $18.5 billion 2027 outlook with $11.4 billion supplier commitments -> e=1.5 p=2 b=1 c=2
 apple: 40 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztZ8PzWStQGgvJd9aF'}
-fintech_payments: 25 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwztfa5zvkKXhy7ceBdu'}
+  + apple 2026-11-11 UBS data: iPhone 18 Pro wait times near zero -> e=-0.5 p=1 b=3 c=2
+  + apple 2026-11-05 Apple caps internal AI spending under John Ternus -> e=0.5 p=2 b=3 c=2
+  + apple 2026-11-04 Apple jumps 5.3% as Big Tech rallies on midterm results -> e=0.5 p=2 b=3 c=2
+fintech_payments: 24 headlines, 0 recent known events
+  + fintech_payments 2026-11-05 Democratic Congress and bitcoin slide hit crypto-exposed and consumer fintech -> e=-1.5 p=2 b=2 c=2
 telecom: 11 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztnDCXJ97gv6yhzcwQ'}
-internet_retail: 1 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzttMXfVQ98AkE3gRnr'}
+internet_retail: 2 headlines, 1 recent known events
 autos: 29 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwztzgJ4oCQkxPGdWuN3'}
-housing: 6 headlines, 2 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzu7Tpg1NN1dK3Lin2g'}
+housing: 4 headlines, 2 recent known events
 travel_leisure_restaurants: 2 headlines, 3 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuDavHff1Hj4atyaLh'}
 apparel_luxury: 9 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuKaqiPaxxdsUc2spD'}
+  + apparel_luxury 2026-11-05 Ralph Lauren Q2 beats on strong Asia sales and higher margins -> e=1.0 p=1 b=1 c=3
 specialty_retail: 9 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuRhw2iP9vH6K2EiVC'}
 food_beverage_tobacco: 26 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuYJZ1Vf39NVbJVEUZ'}
-household_personal: 31 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzuesCosJvV58pwapgX'}
+  + food_beverage_tobacco 2026-11-08 Coca-Cola raises its full-year outlook -> e=1.0 p=1 b=1 c=3
+household_personal: 29 headlines, 1 recent known events
 staples_retail: 9 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzumCTbZ74dNhSEwMmz'}
 integrated: 29 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzutYyKPT97uNBo5SDu'}
-exploration_production: 23 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzuzfa5aa4zEUfW5RRZ'}
-refining: 29 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzv73JCdUG5ALeyCbAs'}
-midstream: 21 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvD3D728wpmefw4jeW'}
-oilfield_services: 27 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvKKjyMZx61waw9MUn'}
+  + integrated 2026-11-09 Seven OPEC+ producers keep December output unchanged; crude opens lower -> e=0.5 p=1 b=3 c=3
+  + integrated 2026-11-08 BP lifts divestment target to $9 billion amid Whiting standoff and softer crude -> e=0.5 p=2 b=1 c=3
+exploration_production: 24 headlines, 0 recent known events
+  + exploration_production 2026-11-05 EOG Q3 2026 beat on record volumes, raises dividend 8% -> e=0.5 p=1 b=1 c=3
+  + exploration_production 2026-11-09 Devon Q3 2026: record production and $2 billion free cash flow -> e=0.5 p=1 b=1 c=3
+refining: 30 headlines, 0 recent known events
+midstream: 20 headlines, 0 recent known events
+  + midstream 2026-11-05 Energy Transfer Q3: earnings miss but full-year guidance raised and distribution -> e=0.5 p=1 b=1 c=3
+oilfield_services: 26 headlines, 1 recent known events
+  + oilfield_services 2026-11-11 NOV cuts earnings guidance as Iran war raises costs and snarls deliveries -> e=-1.0 p=1 b=1 c=3
+  + oilfield_services 2026-11-07 Oil rally from Iran war fails to spur drilling, squeezing services firms -> e=-1.5 p=2 b=2 c=2
 new_energy_power: 13 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvRnvDo8b8qLheTcYN'}
+  + new_energy_power 2026-11-09 NRG sells $4B of gas plants at 8.0x EBITDA, setting a private-market price check -> e=0.5 p=2 b=2 c=3
+  + new_energy_power 2026-11-11 Constellation pursues hybrid capacity contracts alongside nuclear uprates -> e=1.0 p=3 b=2 c=2
 industrial_logistics_reits: 9 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvXpaD9g6JF4c362Qp'}
-data_center_tower_reits: 15 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzve8aF1PFd7qWfzDP1'}
+data_center_tower_reits: 14 headlines, 1 recent known events
+  + data_center_tower_reits 2026-11-11 Iron Mountain raises dividend 15% as data center revenue surges 34% -> e=1.0 p=2 b=1 c=3
 residential_reits: 10 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvkAxaur4BHvMzh74N'}
+  + residential_reits 2026-11-06 Q3 apartment REIT guidance splits: Sunbelt MAA cuts, coastal Essex raises -> e=-0.5 p=2 b=2 c=3
 office_reits: 7 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvqyDbyVCE9zQZN45U'}
-retail_reits: 16 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzvxA3N5rGHmAG8UMXC'}
+retail_reits: 15 headlines, 1 recent known events
+  + retail_reits 2026-11-06 Simon Property Q3 FFO beats on leasing strength; 2026 FFO guidance and dividend  -> e=1.0 p=1 b=2 c=3
 net_lease_specialty_reits: 13 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzw47xmkKutoPCRP5L5'}
-healthcare_reits: 26 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwAPznBYhb1qhoeSur'}
-self_storage_reits: 10 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwGJSW5VAoHruRFNhv'}
+  + net_lease_specialty_reits 2026-11-10 Q3 net lease prints: W. P. Carey raises AFFO guidance, NNN core FFO rises -> e=0.5 p=1 b=2 c=3
+healthcare_reits: 27 headlines, 0 recent known events
+  + healthcare_reits 2026-11-06 Q3 2026 prints: Ventas lifts 2026 outlook on senior housing growth; Omega raises -> e=1.5 p=2 b=2 c=3
+self_storage_reits: 8 headlines, 1 recent known events
 lodging_reits: 10 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwNNKQvrMzHhYeunkJ'}
+  + lodging_reits 2026-11-08 Park Hotels Q3 2026: occupancy grows and renovation strategy advances; Hawaii an -> e=0.5 p=1 b=1 c=3
 mortgage_reits: 7 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwUWArrNHhaJyEY6vQ'}
-real_estate_services: 19 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzwb8mQqVEvdp8g9ypx'}
+  + mortgage_reits 2026-11-09 Blackstone Mortgage Trust cuts its dividend by 36% -> e=-1.5 p=2 b=1 c=3
+real_estate_services: 18 headlines, 0 recent known events
+  + real_estate_services 2026-11-11 CRE brokerages cut Q4 capital markets forecasts -> e=-1.0 p=1 b=3 c=2
+  + real_estate_services 2026-11-06 CBRE completes $1 billion senior notes offering to fund Onnec acquisition -> e=0.5 p=3 b=2 c=3
 banks: 27 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwhPJkmwgJE2WzATNL'}
 capital_markets: 28 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwoqWEi43ck3RC2UWZ'}
+  + capital_markets 2026-11-09 Morgan Stanley buys Vinyl Equity to capture IPO-linked wealth -> e=0.5 p=3 b=1 c=3
 insurance: 26 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzwvBkM7gsjZsseP7bg'}
+  + insurance 2026-11-08 Berkshire Hathaway Q3 profit falls 28% as investment gains shrink; revenue beats -> e=-0.5 p=1 b=2 c=3
 regulated_utilities: 29 headlines, 1 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzx2K6vYTjLmdm59a1o'}
+  + regulated_utilities 2026-11-05 Q3 2026 utility earnings: Dominion reaffirms guidance, Duke beats, PPL lifts gro -> e=1.0 p=2 b=2 c=3
 chemicals: 22 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011Cgwzx8UvF7mb9xx2BCwEm'}
+  + chemicals 2026-11-05 Air Products fiscal Q4 beat on volumes, initiates fiscal 2027 guidance -> e=0.5 p=1 b=1 c=3
 metals_mining: 16 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzxEbnXUASKGzXP1BgE'}
-gold_miners: 26 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzxLjsVv1iDjWcVZm1w'}
-media_entertainment: 12 headlines, 0 recent known events
-  API error: BadRequestError Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "output_config.format.schema: For 'array' type, property 'maxItems' is not supported"}, 'request_id': 'req_011CgwzxSsxKZcrseYrqKbGC'}
-done: 0 model calls, 0 events added, tokens in 0 out 0
+  + metals_mining 2026-11-06 Copper falls to July lows amid US midterm uncertainty -> e=-1.0 p=1 b=2 c=3
+gold_miners: 25 headlines, 0 recent known events
+media_entertainment: 15 headlines, 0 recent known events
+  + media_entertainment 2026-11-06 Fox Corp. completes $22 billion acquisition of Roku -> e=1.0 p=3 b=1 c=3
+done: 62 model calls, 65 events added, tokens in 476142 out 54811
