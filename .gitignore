@@ -10,3 +10,6 @@ data/raw/fetch_retry.out
 data/raw/fetch_prices_1995.out
 data/processed/compute_run.out
 data/raw/new_tickers.txt
+research/private/
+site/data/portfolio_full.js
+data/raw/portfolio_prices.parquet

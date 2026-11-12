@@ -75,7 +75,7 @@ table.data tr.row:nth-child(even) { background: rgba(255,255,255,0.02); }
 table.data td.next { white-space: normal; max-width: 300px; font-family: var(--font); font-size: 11.5px; line-height: 1.25; color: var(--ink-2); }
 table.data td.sector { color: var(--muted); font-size: 11px; text-transform: uppercase; }
 table.data td b { color: var(--white); font-weight: 600; }
-table.data.sticky-head th { position: sticky; top: 44px; z-index: 2; }
+table.data.sticky-head th { position: sticky; top: 74px; z-index: 2; }
 .pill { display: inline-block; padding: 1px 6px; font-family: var(--mono); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
 .pill.Hot { background: var(--div-pos); color: #000; } .pill.Warm { background: #1b5e20; color: #c8f7c8; } .pill.Neutral { background: #2a2a2a; color: #d0d0d0; }
 .pill.Cool { background: #6b1b1b; color: #ffd0d0; } .pill.Cold { background: var(--div-neg); color: #000; } .pill.na { background: transparent; color: var(--muted); }
@@ -132,3 +132,12 @@ code { font-family: var(--mono); background: var(--surface-2); padding: 0 4px; }
 .style-row .style-head .l { color: var(--amber); font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: .06em; }
 .style-row .cohorts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 8px; margin-top: 4px; }
 .style-row .stat .tier { margin-top: 1px; }
+
+/* two-level navigation: top tabs (Industry Pulse, Trading) and the Industry Pulse sub-navigation */
+header.top nav.tabs a { font-weight: 700; padding: 4px 12px; }
+header.top .subnav { background: #0b0b0b; border-top: 1px solid #262626; }
+header.top .subnav .wrap { display: flex; gap: 2px; align-items: center; padding: 4px 12px; flex-wrap: wrap; }
+header.top .subnav .lbl { font-family: var(--mono); font-size: 10.5px; color: var(--amber); text-transform: uppercase; letter-spacing: .08em; margin-right: 8px; }
+header.top .subnav a { font-family: var(--mono); font-size: 11.5px; color: #c4c4c4; padding: 2px 8px; border: 1px solid #2a2a2a; background: #111; text-transform: uppercase; letter-spacing: .03em; }
+header.top .subnav a.active, header.top .subnav a:hover { color: #000; background: var(--amber); border-color: var(--amber); text-decoration: none; }
+header.top .subnav select { font-family: var(--mono); font-size: 11.5px; color: #c4c4c4; background: #111; border: 1px solid #2a2a2a; padding: 2px 6px; text-transform: uppercase; }

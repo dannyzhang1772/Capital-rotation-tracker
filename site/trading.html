@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trading · projectmodl.com</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794428942">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+</head>
+<body data-page="trading" data-tab="trading">
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">projectmodl.com</a><span class="brand-sub">Capital Rotation Tracker</span>
+  <nav class="tabs"><a href="index.html" data-tab="pulse">1) Industry Pulse</a><a href="trading.html" data-tab="trading">2) Trading</a></nav>
+  <span class="asof" id="asof"></span><button class="ghost" id="themeBtn" title="Toggle light/dark">◐</button>
+</div></header>
+<main class="wrap">
+  <h1>Trading overview <span class="muted small" id="pfTag"></span></h1>
+  <p class="sub" id="pfSub"></p>
+  <div class="kpis" id="pfKpis"></div>
+
+  <h2>Holdings</h2>
+  <div class="filters"><span class="seg" id="holdSeg"><button class="on" data-v="inst">By holding</button><button data-v="pos">By account</button></span><span class="tier" id="holdNote"></span></div>
+  <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr id="holdHead"></tr></thead><tbody id="holdBody"></tbody></table></div>
+
+  <h2>Exposure: where the book actually sits</h2>
+  <p class="sub">ETFs are looked through to their underlying names (approximate constituents), then every name is mapped to the same sub-industries and themes as Industry Pulse. The heat column is that sub-industry's current reading on the tracker.</p>
+  <div class="grid cols-2">
+    <div class="chart-card"><h3>By sector</h3><div class="note">Share of gross positions. "Diversified fund" is the active-extension fund, which has no look-through.</div><div class="chart-box"><canvas id="secChart"></canvas></div></div>
+    <div class="chart-card"><h3>By theme</h3><div class="note">Direct exposure: weight of holdings (after look-through) that sit in each Industry Pulse theme basket.</div><div class="chart-box"><canvas id="themeChart"></canvas></div></div>
+  </div>
+  <div class="grid cols-2" style="margin-top:10px">
+    <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr><th class="l">Sub-industry</th><th class="l">Sector</th><th>Weight</th><th>Heat</th><th>Rel perf vs S&amp;P 500 · 3m</th><th>Mom−Def 3m</th></tr></thead><tbody id="subBody"></tbody></table></div>
+    <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr><th class="l">Theme</th><th>Direct weight</th><th>Beta to theme ETF</th><th class="l">ETF</th></tr></thead><tbody id="themeBody"></tbody></table><p class="tier" style="margin:6px 0">Beta = sensitivity of the whole book's daily return to the theme ETF's return over and above the S&amp;P 500, trailing year. A beta without direct weight means the book moves with the theme through correlated names.</p><h3>Largest underlying names after look-through</h3><div class="factors" id="topNames"></div></div>
+  </div>
+
+  <h2>Returns decomposition: what drove the return</h2>
+  <p class="sub">Each holding's daily return is regressed on the market, its sector, five style factors and the currency over the trailing year; the fitted pieces are then added up over the window you pick. What the factors cannot explain is idiosyncratic: the stock's own news. Numbers are percentage points of return in CAD.</p>
+  <div class="filters"><span class="seg" id="winSeg"><button data-w="1m">1m</button><button class="on" data-w="3m">3m</button><button data-w="6m">6m</button><button data-w="12m">12m</button><button data-w="ytd">YTD</button></span></div>
+  <div class="grid cols-2">
+    <div class="chart-card"><h3>Whole book</h3><div class="note" id="dcNote"></div><div class="chart-box"><canvas id="dcPortChart"></canvas></div></div>
+    <div class="chart-card"><h3>Which holdings did it (contribution to the book's return)</h3><div class="note">Each bar is one holding's weight times its return, split by driver.</div><div class="chart-box"><canvas id="dcHoldChart"></canvas></div></div>
+  </div>
+  <div class="card" style="overflow:auto;padding:0 8px;margin-top:10px"><table class="data"><thead><tr id="dcHead"></tr></thead><tbody id="dcBody"></tbody></table></div>
+  <p class="tier" style="margin-top:6px">Market = S&amp;P 500 for US-listed names, the TSX 60 for Canadian ones. Sector = the sector ETF minus the S&amp;P 500. Style = growth minus value, small minus large, momentum, quality and low-vol ETF spreads. R² is how much of the daily variance the factors explain; 1 − R² is the idiosyncratic share of risk.</p>
+
+  <h2>Key ratios</h2>
+  <div class="grid cols-2">
+    <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr id="ratHead"></tr></thead><tbody id="ratBody"></tbody></table><p class="tier" style="margin:6px 0" id="ratNote"></p></div>
+    <div class="chart-card"><h3>Book vs benchmarks, last 12 months (CAD, rebased to 100)</h3><div class="note">Today's weights held constant through the year, so this is how the current book would have behaved, not the account's actual history.</div><div class="chart-box"><canvas id="perfChart"></canvas></div></div>
+  </div>
+
+  <h2>Expected moves from the options market</h2>
+  <p class="sub">For names with listed options, the at-the-money straddle prices the move the market expects by expiry, and the implied volatility gives a one-month one-standard-deviation range. Where an expiry sits just after an earnings date, the extra variance in that expiry is the implied earnings move. TSX-listed names have no chains on the free feed, so they fall back to three-month realised volatility.</p>
+  <div class="kpis" id="mvKpis"></div>
+  <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr><th class="l">Holding</th><th>Weight</th><th class="l">Basis</th><th>Implied vol</th><th>Realised vol 3m</th><th>1m expected move (1σ)</th><th>Straddle move</th><th class="l">to expiry</th><th class="l">Next earnings</th><th>Implied earnings move</th><th>Share of book risk</th></tr></thead><tbody id="mvBody"></tbody></table></div>
+  <h3 style="margin-top:14px">If this happens, the book moves by</h3>
+  <div class="card" style="overflow:auto;padding:0 8px"><table class="data"><thead><tr id="scHead"></tr></thead><tbody id="scBody"></tbody></table></div>
+  <p class="tier" style="margin-top:6px">Scenarios push one factor and pass it through each holding's fitted beta; unhedged US-dollar positions take currency moves one for one. "On equity" scales by leverage, because the margin loan does not shrink when prices fall. These are sensitivities, not forecasts, and betas drift.</p>
+
+  <h2>How to read this page</h2>
+  <div class="card prose" id="pfMethod"></div>
+  <footer>Positions read from the brokerage on the date shown; prices and option chains from Yahoo Finance (delayed). Exposures and scenarios are descriptive analytics, not investment advice.</footer>
+</main>
+<script src="data/taxonomy.js?v=1794428942"></script><script src="data/snapshot.js?v=1794428942"></script><script src="data/style.js?v=1794428942"></script>
+<script src="data/portfolio.js?v=1794428942"></script><script src="data/portfolio_full.js?v=1794428942" onerror="void 0"></script>
+<script src="assets/charts.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script><script src="assets/trading.js?v=1794428942"></script>
+</body>
+</html>

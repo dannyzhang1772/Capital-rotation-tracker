@@ -36,7 +36,7 @@
     });
   }
   function initNav() {
-    const page = document.body.dataset.page; $$('header.top nav a').forEach((a) => { if (a.dataset.page === page) a.classList.add('active'); });
+    const page = document.body.dataset.page; const tab = document.body.dataset.tab; $$('header.top nav a, header.top .subnav a').forEach((a) => { if ((a.dataset.page && a.dataset.page === page) || (a.dataset.tab && a.dataset.tab === tab)) a.classList.add('active'); });
     const asof = $('#asof'); if (asof) asof.textContent = `Data as of ${S.asof || '–'} · generated ${S.generated || '–'}`;
     const sel = $('#sectorNav'); if (sel) { sel.innerHTML = '<option value="">Sector pages…</option>' + S.sectors.map((s) => `<option value="${s.id}">${esc(s.name)}</option>`).join(''); sel.addEventListener('change', () => { if (sel.value) location.href = `sector.html?s=${sel.value}`; }); }
   }
@@ -236,7 +236,7 @@
 
   function render() {
     const page = document.body.dataset.page;
-    if (page === 'beta') return;  // beta.js owns its own charts
+    if (page === 'beta' || page === 'trading') return;  // those pages own their charts
     C.refresh();
     if (page === 'dashboard') renderDashboard(); else if (page === 'sector') renderSector(); else if (page === 'history') renderHistory(); else if (page === 'methodology') renderMethodology();
   }

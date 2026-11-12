@@ -8,12 +8,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/style.css?v=1794454893">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 </head>
-<body data-page="dashboard">
+<body data-tab="pulse" data-page="dashboard">
 <header class="top"><div class="wrap">
   <a class="brand" href="index.html">projectmodl.com</a><span class="brand-sub">Capital Rotation Tracker</span>
-  <nav><a href="index.html" data-page="dashboard">1) Tracker</a><a href="history.html" data-page="history">2) History</a><select id="sectorNav" class="ghost"></select><a href="beta.html" data-page="beta">4) Beta: Opportunities</a><a href="methodology.html" data-page="methodology">9) Method</a></nav>
+  <nav class="tabs"><a href="index.html" data-tab="pulse">1) Industry Pulse</a><a href="trading.html" data-tab="trading">2) Trading</a></nav>
   <span class="asof" id="asof"></span><button class="ghost" id="themeBtn" title="Toggle light/dark">◐</button>
-</div></header>
+</div><div class="subnav"><div class="wrap"><span class="lbl">Industry Pulse</span><a href="index.html" data-page="dashboard">Tracker</a><a href="history.html" data-page="history">History</a><select id="sectorNav" class="ghost"></select><a href="beta.html" data-page="beta">Beta: Opportunities</a><a href="methodology.html" data-page="methodology">Method</a></div></div></header>
 <main class="wrap">
   <h1>Where institutional equity capital sits right now</h1>
   <p class="sub">Each sub-industry's share of the tracked US equity universe, compared with its own ten-year history, plus relative performance against the S&amp;P 500, ETF creation flows and hedge-fund 13F positioning where loaded. "Hot" means capital is unusually concentrated and still moving in; "Cold" means the opposite. Click any row for the sector's history and the catalysts that would move it next.</p>
