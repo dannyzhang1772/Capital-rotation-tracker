@@ -1,0 +1,12 @@
+{
+  "_note": "Public facts about instruments that Yahoo gets wrong or cannot know. Keyed by the ticker as the broker shows it. Fields override pipeline/portfolio_core.py's automatic mapping.",
+  "UBER": {"note": "If held as a Canadian CDR it is currency-hedged; modelled on the US shares"},
+  "FHQ": {"fx_hedged": true, "home": "US", "note": "AlphaDEX US technology, CAD-hedged"},
+  "TLF": {"home": "US", "note": "mega-cap technology with a covered-call overlay"},
+  "PFAE": {"kind": "fund", "note": "130/30 active-extension long/short fund, Canadian and US equities; sector split from the fund's reported weights"},
+  "ARKX": {"themes": ["space_defence"], "note": "space and defence thematic ETF"},
+  "AS": {"sector": "consumer_discretionary", "subindustry": "apparel_luxury"},
+  "EXP": {"sector": "materials", "subindustry": null, "custom_sub": "Construction Materials (cement, wallboard)", "themes": ["reshoring_infrastructure"]},
+  "MATR": {"sector": "industrials", "subindustry": "electrical_equipment", "note": "composite pipe and wire & cable; mapped to electrical equipment"},
+  "TVK": {"sector": "industrials", "subindustry": "machinery", "note": "tanks, boilers, HVAC; serial acquirer"}
+}

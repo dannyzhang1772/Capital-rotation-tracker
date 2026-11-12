@@ -141,3 +141,14 @@ header.top .subnav .lbl { font-family: var(--mono); font-size: 10.5px; color: va
 header.top .subnav a { font-family: var(--mono); font-size: 11.5px; color: #c4c4c4; padding: 2px 8px; border: 1px solid #2a2a2a; background: #111; text-transform: uppercase; letter-spacing: .03em; }
 header.top .subnav a.active, header.top .subnav a:hover { color: #000; background: var(--amber); border-color: var(--amber); text-decoration: none; }
 header.top .subnav select { font-family: var(--mono); font-size: 11.5px; color: #c4c4c4; background: #111; border: 1px solid #2a2a2a; padding: 2px 6px; text-transform: uppercase; }
+
+/* Trading tab: load-a-portfolio panel */
+.loadpanel { margin: 10px 0; }
+.loadpanel .loadrow { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin: 4px 0; }
+.loadpanel .lbl { color: var(--amber); font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; margin-right: 6px; }
+.loadpanel button.ghost { border-color: var(--amber); color: var(--amber); }
+.loadpanel button.ghost:hover { background: var(--amber); color: #000; }
+.loadpanel textarea { width: 100%; font-family: var(--mono); font-size: 12.5px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--axis); padding: 8px; }
+.loadpanel select { font-family: var(--mono); font-size: 12px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--axis); padding: 2px 6px; }
+.loadpanel code { font-family: var(--mono); background: var(--surface-2); padding: 0 4px; }
+#loadStatus.neg { color: var(--down-text); } #loadStatus.pos { color: var(--up-text); }

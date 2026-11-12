@@ -63,3 +63,11 @@ The SEC's fair-access policy requires a contact in the User-Agent header. Set `C
 - Change baskets, ETFs or drivers in `pipeline/taxonomy.json`, then run `python pipeline/validate_taxonomy.py` and `python compute.py`.
 - Catalyst notes live in `research/blurbs.json`; each note records the heat score at the time it was written and the pipeline flags it as stale when the score moves more than 30 points.
 - Event annotations live in `research/events_*.json` and are merged automatically. Every event needs a rating in `research/event_ratings.json` (rubric components e/p/b/c, see the file header) or Beta Mode will skip it.
+
+## Trading tab and backend
+
+- `pipeline/portfolio_core.py` holds the portfolio analytics (look-through exposure, returns decomposition, ratios, option-implied moves, scenarios). `pipeline/portfolio.py` runs it on the private holdings file (`research/private/`, gitignored) and writes the weights-only demo file `site/data/portfolio.js`.
+- `backend/app.py` is a small FastAPI service that runs the same analytics for visitors. Holdings arrive either typed in (`POST /api/analyze`) or from a brokerage through SnapTrade (`/api/connect/*`, read-only). Nothing is stored: the visitor's SnapTrade user id and secret go back to their browser as one encrypted token.
+- Deploy on Render: New -> Blueprint -> this repository (`render.yaml`). Set `SNAPTRADE_CLIENT_ID` and `SNAPTRADE_CONSUMER_KEY` in the service's Environment tab (never in code). Then put the service URL in `site/assets/config.js`.
+- Run locally: `TOKEN_KEY=dev ALLOWED_ORIGINS=http://localhost:8765 uvicorn backend.app:app --port 8787`, then open `trading.html?api=http://localhost:8787` in the local preview.
+- Admin: `GET /api/admin/users` and `DELETE /api/admin/users/{id}` with the `X-Admin-Token` header list and remove SnapTrade users (the free tier allows five connections).

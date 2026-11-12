@@ -1,0 +1,25 @@
+# Render blueprint for the projectmodl.com backend (Trading tab analytics + SnapTrade connections).
+# Deploy: Render dashboard -> New -> Blueprint -> pick this repository. Then fill in the two SnapTrade values.
+services:
+  - type: web
+    name: projectmodl-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: uvicorn backend.app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: SNAPTRADE_CLIENT_ID
+        sync: false
+      - key: SNAPTRADE_CONSUMER_KEY
+        sync: false
+      - key: TOKEN_KEY
+        generateValue: true
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: https://dannyzhang1772.github.io,https://projectmodl.com,https://www.projectmodl.com
+      - key: FRONTEND_URL
+        value: https://dannyzhang1772.github.io/Capital-rotation-tracker/trading.html

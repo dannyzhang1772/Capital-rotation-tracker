@@ -13,3 +13,4 @@ data/raw/new_tickers.txt
 research/private/
 site/data/portfolio_full.js
 data/raw/portfolio_prices.parquet
+data/processed/backend_local.log

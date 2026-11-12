@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pandas>=2.2
+numpy>=1.26
+yfinance>=0.2.50
+cryptography>=43
+snaptrade-python-sdk>=13.2
