@@ -2215,92 +2215,92 @@ date,bucket,momentum,defensive
 2008-02-29,building_products_construction,J KBR FLR MTZ DY,GVA STRL JCI CSL OC
 2008-03-31,building_products_construction,KBR J FLR MTZ EME,DY STRL JCI CSL OC
 2008-04-30,building_products_construction,KBR FLR J MTZ EME,DY STRL CSL JCI OC
-2008-05-31,building_products_construction,J FLR KBR MTZ EME,GVA STRL JCI CSL OC
-2008-06-30,building_products_construction,FLR J KBR MTZ PWR,TT STRL OC JCI CSL
-2008-07-31,building_products_construction,FLR J PWR KBR MTZ,AOS TT OC CSL JCI
-2008-08-31,building_products_construction,FLR MTZ J PWR EME,JCI GVA DY TT CSL
-2008-09-30,building_products_construction,PWR EME FLR MTZ J,STRL JCI DY TT CSL
-2008-10-31,building_products_construction,MTZ AOS PWR EME GVA,STRL JCI TT KBR CSL
-2008-11-30,building_products_construction,PWR MTZ AOS FLR LII,KBR JCI MAS TT CSL
-2008-12-31,building_products_construction,GVA PWR FLR STRL EME,FIX JCI MAS TT CSL
-2009-01-31,building_products_construction,MTZ PWR GVA EME STRL,OC TT MAS JCI CSL
-2009-02-28,building_products_construction,GVA PWR MTZ STRL EME,LII TT MAS JCI CSL
-2009-03-31,building_products_construction,MTZ GVA PWR STRL J,FIX TT JCI MAS CSL
-2009-04-30,building_products_construction,MTZ PWR GVA STRL J,MAS FIX TT CSL JCI
-2009-05-31,building_products_construction,GVA STRL MTZ PWR EME,FIX MAS TT JCI CSL
-2009-06-30,building_products_construction,DY GVA MTZ EME STRL,KBR TT JCI FIX CSL
-2009-07-31,building_products_construction,GVA DY PWR EME STRL,TT MAS CSL OC JCI
-2009-08-31,building_products_construction,DY KBR GVA STRL AOS,FLR J FIX MTZ JCI
-2009-09-30,building_products_construction,KBR DY FLR TT J,CSL AOS JCI FIX MTZ
-2009-10-31,building_products_construction,TT DY KBR OC EME,PWR FIX LII AOS GVA
-2009-11-30,building_products_construction,DY OC TT MAS EME,FLR LII AOS STRL GVA
-2009-12-31,building_products_construction,OC TT MAS DY JCI,LII J FIX STRL GVA
-2010-01-31,building_products_construction,OC MAS TT DY CSL,FIX PWR MTZ STRL GVA
-2010-02-28,building_products_construction,OC MAS DY TT EME,FIX MTZ STRL PWR GVA
-2010-03-31,building_products_construction,OC MAS TT DY AOS,FIX STRL MTZ PWR GVA
-2010-04-30,building_products_construction,MAS OC TT DY AOS,FIX MTZ PWR STRL GVA
-2010-05-31,building_products_construction,OC MAS TT AOS DY,STRL MTZ JCI PWR GVA
-2010-06-30,building_products_construction,OC MAS TT DY CSL,LII MTZ JCI GVA PWR
-2010-07-31,building_products_construction,OC MAS TT KBR DY,MTZ FIX JCI PWR GVA
-2010-08-31,building_products_construction,OC AOS MAS MTZ DY,J CSL JCI PWR GVA
-2010-09-30,building_products_construction,OC MAS AOS LII DY,MTZ JCI CSL GVA PWR
-2010-10-31,building_products_construction,AOS OC DY MAS FLR,MTZ CSL JCI GVA PWR
-2010-11-30,building_products_construction,DY KBR OC FLR AOS,CSL STRL PWR GVA JCI
-2010-12-31,building_products_construction,DY KBR FLR MAS OC,FIX CSL GVA JCI PWR
-2011-01-31,building_products_construction,DY KBR FLR MAS OC,STRL CSL GVA PWR JCI
-2011-02-28,building_products_construction,DY FLR MAS KBR OC,GVA PWR CSL LII JCI
-2011-03-31,building_products_construction,DY MTZ FLR KBR OC,GVA AOS PWR LII JCI
-2011-04-30,building_products_construction,DY MTZ KBR FLR MAS,EME LII PWR GVA JCI
-2011-05-31,building_products_construction,MTZ DY KBR FLR MAS,GVA TT PWR JCI LII
-2011-06-30,building_products_construction,MTZ DY KBR FLR MAS,FIX AOS PWR JCI LII
-2011-07-31,building_products_construction,DY MTZ KBR CSL FLR,FIX EME PWR JCI LII
-2011-08-31,building_products_construction,DY MTZ KBR FLR CSL,AOS TT EME JCI LII
-2011-09-30,building_products_construction,MTZ DY KBR FLR CSL,TT AOS EME LII JCI
-2011-10-31,building_products_construction,MTZ DY KBR STRL FLR,AOS EME JCI TT LII
-2011-11-30,building_products_construction,DY MTZ KBR STRL FIX,JCI EME AOS TT LII
-2011-12-31,building_products_construction,DY MTZ STRL KBR CSL,JCI J EME TT LII
-2012-01-31,building_products_construction,DY MTZ CSL STRL GVA,EME JCI J TT LII
-2012-02-29,building_products_construction,DY STRL CSL KBR FIX,JCI EME J TT LII
-2012-03-31,building_products_construction,DY GVA KBR MTZ CSL,OC TT EME J LII
-2012-04-30,building_products_construction,DY GVA MAS FIX KBR,TT LII EME J JCI
-2012-05-31,building_products_construction,DY GVA FIX CSL MAS,OC EME TT JCI J
-2012-06-30,building_products_construction,DY MAS GVA FIX CSL,OC EME FLR JCI J
-2012-07-31,building_products_construction,MAS GVA LII FIX PWR,EME OC FLR J JCI
-2012-08-31,building_products_construction,MAS GVA LII FIX TT,DY MTZ J JCI FLR
-2012-09-30,building_products_construction,MAS GVA FIX OC FBIN LII,MTZ DY FLR J PWR JCI
-2012-10-31,building_products_construction,MAS FBIN GVA LII FIX KBR,FLR EME PWR J DY JCI
+2008-05-31,building_products_construction,J FLR KBR MTZ EME ACM,MAS GVA STRL JCI CSL OC
+2008-06-30,building_products_construction,FLR J KBR MTZ PWR EME,LII TT STRL JCI OC CSL
+2008-07-31,building_products_construction,FLR J PWR MTZ KBR EME,GVA AOS TT OC CSL JCI
+2008-08-31,building_products_construction,MTZ FLR J PWR EME KBR,STRL JCI GVA DY TT CSL
+2008-09-30,building_products_construction,PWR EME FLR MTZ J LII,GVA STRL JCI DY TT CSL
+2008-10-31,building_products_construction,MTZ AOS PWR EME GVA FLR,DY STRL JCI TT KBR CSL
+2008-11-30,building_products_construction,PWR MTZ FLR AOS LII EME,DY KBR JCI MAS TT CSL
+2008-12-31,building_products_construction,GVA PWR FLR ACM STRL EME,LII FIX JCI MAS TT CSL
+2009-01-31,building_products_construction,MTZ PWR GVA EME ACM STRL,FIX OC TT MAS JCI CSL
+2009-02-28,building_products_construction,GVA PWR MTZ STRL EME DY,AOS LII TT MAS JCI CSL
+2009-03-31,building_products_construction,MTZ GVA PWR STRL ACM J,OC FIX TT JCI MAS CSL
+2009-04-30,building_products_construction,MTZ PWR GVA STRL J EME,OC MAS FIX TT CSL JCI
+2009-05-31,building_products_construction,GVA STRL MTZ PWR EME DY,KBR FIX MAS TT JCI CSL
+2009-06-30,building_products_construction,DY GVA MTZ EME STRL LII,FLR KBR TT JCI FIX CSL
+2009-07-31,building_products_construction,ACM GVA DY PWR EME J,TT MAS FIX OC CSL JCI
+2009-08-31,building_products_construction,DY ACM KBR GVA STRL AOS,CSL FLR J MTZ FIX JCI
+2009-09-30,building_products_construction,KBR DY FLR ACM TT J,GVA CSL AOS JCI FIX MTZ
+2009-10-31,building_products_construction,TT DY KBR OC EME MAS,JCI PWR FIX LII AOS GVA
+2009-11-30,building_products_construction,DY OC TT MAS EME MTZ,FLR LII AOS STRL ACM GVA
+2009-12-31,building_products_construction,OC TT MAS DY JCI KBR,J LII FIX STRL ACM GVA
+2010-01-31,building_products_construction,OC MAS TT DY CSL EME,FIX PWR MTZ ACM STRL GVA
+2010-02-28,building_products_construction,OC MAS DY TT EME KBR,FIX MTZ STRL PWR ACM GVA
+2010-03-31,building_products_construction,OC MAS TT DY AOS KBR,FIX STRL MTZ PWR ACM GVA
+2010-04-30,building_products_construction,MAS OC TT DY AOS KBR,FIX MTZ ACM PWR STRL GVA
+2010-05-31,building_products_construction,OC MAS TT AOS DY FIX,STRL MTZ JCI PWR GVA ACM
+2010-06-30,building_products_construction,OC MAS TT DY CSL EME,LII MTZ JCI GVA PWR ACM
+2010-07-31,building_products_construction,OC MAS TT KBR DY AOS,MTZ FIX JCI PWR GVA ACM
+2010-08-31,building_products_construction,OC AOS MAS MTZ DY EME,J CSL JCI PWR ACM GVA
+2010-09-30,building_products_construction,OC MAS AOS LII DY KBR,MTZ JCI CSL ACM GVA PWR
+2010-10-31,building_products_construction,AOS OC DY MAS FLR KBR,MTZ ACM CSL JCI GVA PWR
+2010-11-30,building_products_construction,DY KBR OC FLR AOS J,CSL STRL ACM PWR GVA JCI
+2010-12-31,building_products_construction,DY KBR FLR MAS OC MTZ,FIX CSL ACM GVA JCI PWR
+2011-01-31,building_products_construction,DY KBR FLR MAS OC J,STRL CSL GVA ACM PWR JCI
+2011-02-28,building_products_construction,DY FLR MAS KBR OC J,GVA PWR CSL LII ACM JCI
+2011-03-31,building_products_construction,DY MTZ FLR KBR OC MAS,GVA AOS PWR LII ACM JCI
+2011-04-30,building_products_construction,DY MTZ KBR FLR MAS STRL,EME LII PWR GVA ACM JCI
+2011-05-31,building_products_construction,MTZ DY KBR FLR MAS J,GVA TT PWR ACM JCI LII
+2011-06-30,building_products_construction,MTZ DY KBR FLR MAS CSL,FIX ACM AOS PWR JCI LII
+2011-07-31,building_products_construction,DY MTZ KBR CSL FLR STRL,EME FIX ACM PWR JCI LII
+2011-08-31,building_products_construction,DY MTZ KBR FLR CSL STRL,AOS TT EME ACM JCI LII
+2011-09-30,building_products_construction,MTZ DY KBR FLR CSL STRL,TT AOS ACM EME LII JCI
+2011-10-31,building_products_construction,MTZ DY KBR STRL FLR PWR,AOS EME JCI TT LII ACM
+2011-11-30,building_products_construction,DY MTZ KBR STRL FIX PWR,JCI EME AOS TT LII ACM
+2011-12-31,building_products_construction,DY MTZ STRL KBR CSL GVA,JCI J EME TT LII ACM
+2012-01-31,building_products_construction,DY MTZ CSL STRL GVA KBR,EME JCI J TT LII ACM
+2012-02-29,building_products_construction,DY STRL CSL KBR FIX GVA,JCI EME J TT LII ACM
+2012-03-31,building_products_construction,DY GVA KBR MTZ CSL MAS,STRL TT EME J LII ACM
+2012-04-30,building_products_construction,DY GVA MAS FIX KBR MTZ,TT LII EME JCI J ACM
+2012-05-31,building_products_construction,DY GVA FIX MAS CSL KBR,OC EME TT JCI J ACM
+2012-06-30,building_products_construction,DY MAS GVA FIX CSL PWR,OC EME FLR JCI J ACM
+2012-07-31,building_products_construction,MAS GVA LII FIX DY PWR,EME OC FLR J JCI ACM
+2012-08-31,building_products_construction,MAS GVA LII FIX TT OC,DY MTZ J JCI FLR ACM
+2012-09-30,building_products_construction,MAS GVA FIX OC FBIN LII,DY FLR J PWR ACM JCI
+2012-10-31,building_products_construction,MAS FBIN GVA LII FIX KBR,EME ACM PWR J DY JCI
 2012-11-30,building_products_construction,MAS FBIN LII MTZ FIX OC,FLR STRL PWR J DY JCI
 2012-12-31,building_products_construction,MAS FBIN LII OC MTZ TT,EME J STRL DY PWR JCI
-2013-01-31,building_products_construction,MAS FBIN MTZ LII AOS GVA,EME PWR DY JCI STRL J
+2013-01-31,building_products_construction,MAS FBIN MTZ LII AOS GVA,EME PWR DY JCI J STRL
 2013-02-28,building_products_construction,MAS FBIN MTZ OC LII AOS,TT FLR STRL DY J JCI
-2013-03-31,building_products_construction,MAS FBIN MTZ LII AOS FIX,KBR PWR FLR J JCI DY
-2013-04-30,building_products_construction,FBIN MAS MTZ FIX LII AOS,TT STRL PWR CSL JCI DY
-2013-05-31,building_products_construction,MAS FBIN MTZ FIX AOS OC,TT STRL PWR CSL JCI DY
-2013-06-30,building_products_construction,MTZ FBIN MAS FIX KBR OC,GVA TT JCI CSL STRL PWR
-2013-07-31,building_products_construction,MTZ FBIN FIX MAS OC DY,GVA TT JCI CSL PWR STRL
-2013-08-31,building_products_construction,FBIN FIX MAS MTZ DY J,OC GVA CSL JCI PWR STRL
-2013-09-30,building_products_construction,DY FIX MTZ MAS FBIN AOS,GVA KBR CSL JCI PWR STRL
-2013-10-31,building_products_construction,DY FIX MAS FBIN FLR MTZ,OC EME JCI STRL CSL PWR
-2013-11-30,building_products_construction,FIX DY FBIN MAS MTZ FLR,STRL EME JCI OC PWR CSL
-2013-12-31,building_products_construction,FIX MAS FBIN AOS DY FLR,GVA EME OC JCI CSL PWR
-2014-01-31,building_products_construction,FIX FBIN MAS TT AOS DY,STRL JCI KBR CSL OC PWR
+2013-03-31,building_products_construction,MAS FBIN MTZ ACM AOS LII,KBR PWR FLR J JCI DY
+2013-04-30,building_products_construction,FBIN MAS MTZ ACM FIX LII,TT STRL PWR CSL JCI DY
+2013-05-31,building_products_construction,MAS FBIN ACM MTZ FIX AOS,TT STRL PWR CSL JCI DY
+2013-06-30,building_products_construction,MTZ FBIN ACM MAS FIX KBR,EME TT JCI CSL STRL PWR
+2013-07-31,building_products_construction,MTZ FBIN FIX ACM MAS OC,GVA TT JCI CSL PWR STRL
+2013-08-31,building_products_construction,ACM FBIN FIX MAS MTZ DY,TT GVA CSL JCI PWR STRL
+2013-09-30,building_products_construction,FIX DY MTZ MAS FBIN ACM,GVA KBR CSL JCI PWR STRL
+2013-10-31,building_products_construction,DY FIX MAS FBIN ACM FLR,OC EME JCI STRL CSL PWR
+2013-11-30,building_products_construction,FIX DY FBIN MAS ACM MTZ,STRL EME JCI OC PWR CSL
+2013-12-31,building_products_construction,FIX FBIN MAS AOS DY FLR,GVA EME OC JCI CSL PWR
+2014-01-31,building_products_construction,FIX FBIN MAS AOS TT DY,STRL JCI KBR CSL OC PWR
 2014-02-28,building_products_construction,FIX FBIN DY LII TT MAS,EME JCI PWR OC CSL STRL
-2014-03-31,building_products_construction,DY FBIN MTZ FIX MAS TT,JCI EME J CSL KBR STRL
+2014-03-31,building_products_construction,DY FBIN FIX MTZ MAS TT,EME JCI J CSL KBR STRL
 2014-04-30,building_products_construction,DY MTZ GVA FIX FBIN MAS,AOS JCI OC CSL KBR STRL
 2014-05-31,building_products_construction,DY GVA TT FIX MTZ FBIN,CSL JCI OC J STRL KBR
 2014-06-30,building_products_construction,GVA DY TT FLR FIX MAS,STRL JCI OC EME J KBR
 2014-07-31,building_products_construction,GVA TT DY FLR FIX PWR,JCI EME MTZ OC KBR J
-2014-08-31,building_products_construction,GVA TT MAS DY PWR FLR,EME AOS OC MTZ KBR J
-2014-09-30,building_products_construction,GVA DY PWR TT MAS FBIN,CSL AOS LII OC J KBR
-2014-10-31,building_products_construction,MTZ PWR GVA DY MAS TT,OC LII FIX AOS J KBR
-2014-11-30,building_products_construction,GVA MTZ PWR DY CSL TT,AOS STRL FIX OC KBR J
-2014-12-31,building_products_construction,DY MTZ GVA ALLE CSL MAS,STRL JCI FIX OC KBR J
-2015-01-31,building_products_construction,DY GVA MAS CSL MTZ PWR,FLR JCI LII OC KBR J
-2015-02-28,building_products_construction,DY GVA MAS CSL TT FIX,ALLE FLR KBR JCI OC J
+2014-08-31,building_products_construction,GVA TT MAS DY ACM PWR,AOS EME OC MTZ KBR J
+2014-09-30,building_products_construction,GVA ACM DY PWR TT MAS,CSL AOS LII OC J KBR
+2014-10-31,building_products_construction,MTZ PWR ACM GVA DY MAS,LII OC FIX AOS J KBR
+2014-11-30,building_products_construction,GVA ACM MTZ PWR DY CSL,AOS STRL FIX OC KBR J
+2014-12-31,building_products_construction,DY MTZ ACM GVA ALLE CSL,JCI STRL OC FIX KBR J
+2015-01-31,building_products_construction,DY GVA ACM MAS CSL MTZ,JCI FLR LII OC KBR J
+2015-02-28,building_products_construction,DY GVA MAS CSL ACM TT,ALLE FLR KBR JCI OC J
 2015-03-31,building_products_construction,DY FIX STRL AOS MAS TT,LII FLR KBR JCI OC J
 2015-04-30,building_products_construction,DY STRL FIX MAS AOS FBIN,EME OC JCI FLR KBR J
-2015-05-31,building_products_construction,DY STRL FIX MAS AOS CSL,ALLE FLR KBR J OC JCI
-2015-06-30,building_products_construction,DY FIX STRL AOS MAS MTZ,LII OC ALLE FLR J JCI
+2015-05-31,building_products_construction,DY STRL FIX MAS ACM AOS,ALLE FLR KBR J OC JCI
+2015-06-30,building_products_construction,DY FIX STRL AOS ACM MAS,LII OC ALLE FLR J JCI
 2015-07-31,building_products_construction,DY STRL FIX MTZ MAS AOS,TT FLR ALLE LII J JCI
 2015-08-31,building_products_construction,DY FIX STRL AOS MTZ MAS,GVA EME J TT FLR JCI
 2015-09-30,building_products_construction,DY FIX STRL MTZ MAS OC,ALLE J FLR EME TT JCI
@@ -2309,69 +2309,69 @@ date,bucket,momentum,defensive
 2015-12-31,building_products_construction,DY FIX MTZ AOS KBR MAS,LII ALLE EME CSL TT JCI
 2016-01-31,building_products_construction,DY STRL FIX AOS MTZ MAS,LII EME PWR CSL TT JCI
 2016-02-29,building_products_construction,STRL DY FIX AOS MAS MTZ,J EME PWR CSL TT JCI
-2016-03-31,building_products_construction,DY FIX MAS MTZ AOS STRL,CSL EME J PWR TT JCI
-2016-04-30,building_products_construction,DY FIX MTZ MAS GVA AOS,FLR EME CSL PWR TT JCI
+2016-03-31,building_products_construction,DY FIX MAS MTZ STRL AOS,CSL EME J PWR TT JCI
+2016-04-30,building_products_construction,DY FIX MTZ MAS GVA AOS,FLR EME PWR CSL TT JCI
 2016-05-31,building_products_construction,DY MTZ STRL FIX MAS GVA,EME KBR CSL PWR TT JCI
 2016-06-30,building_products_construction,DY MTZ FIX MAS STRL J,JCI PWR TT KBR CSL EME
-2016-07-31,building_products_construction,DY MTZ FIX GVA AOS MAS,ALLE TT CSL EME KBR PWR
-2016-08-31,building_products_construction,MTZ DY GVA AOS MAS J,PWR ALLE EME KBR FIX CSL
-2016-09-30,building_products_construction,MTZ GVA DY STRL AOS J,PWR ALLE KBR OC FIX CSL
-2016-10-31,building_products_construction,MTZ STRL GVA DY PWR AOS,FBIN ALLE OC CSL FIX LII
-2016-11-30,building_products_construction,MTZ STRL PWR GVA DY TT,KBR FBIN OC ALLE LII FIX
-2016-12-31,building_products_construction,MTZ PWR DY GVA STRL J,FIX CSL ALLE FBIN OC LII
-2017-01-31,building_products_construction,MTZ PWR DY STRL KBR GVA,FIX CSL ALLE OC FBIN LII
-2017-02-28,building_products_construction,MTZ PWR DY STRL KBR GVA,MAS OC CSL FBIN ALLE LII
-2017-03-31,building_products_construction,MTZ DY STRL PWR GVA KBR,MAS OC ALLE LII FBIN CSL
-2017-04-30,building_products_construction,MTZ STRL DY PWR GVA EME,MAS JCI ALLE LII FBIN CSL
-2017-05-31,building_products_construction,MTZ STRL DY GVA PWR KBR,OC ALLE JCI LII FBIN CSL
-2017-06-30,building_products_construction,MTZ STRL GVA PWR DY EME,FLR JCI ALLE FBIN LII CSL
+2016-07-31,building_products_construction,DY MTZ FIX GVA AOS MAS,ALLE TT CSL EME PWR KBR
+2016-08-31,building_products_construction,MTZ DY GVA AOS ACM MAS,PWR ALLE EME KBR FIX CSL
+2016-09-30,building_products_construction,MTZ GVA STRL DY AOS J,PWR ALLE OC KBR FIX CSL
+2016-10-31,building_products_construction,MTZ STRL GVA DY PWR AOS,FBIN OC ALLE CSL FIX LII
+2016-11-30,building_products_construction,MTZ STRL PWR GVA DY TT,KBR FBIN OC LII ALLE FIX
+2016-12-31,building_products_construction,MTZ PWR ACM DY STRL GVA,FIX CSL ALLE OC FBIN LII
+2017-01-31,building_products_construction,MTZ PWR ACM DY STRL KBR,FIX CSL OC FBIN ALLE LII
+2017-02-28,building_products_construction,MTZ PWR DY ACM STRL KBR,MAS OC CSL FBIN ALLE LII
+2017-03-31,building_products_construction,MTZ STRL DY PWR ACM GVA,OC MAS ALLE LII FBIN CSL
+2017-04-30,building_products_construction,MTZ STRL DY PWR ACM GVA,FLR JCI ALLE LII FBIN CSL
+2017-05-31,building_products_construction,MTZ STRL DY GVA PWR ACM,OC ALLE JCI LII FBIN CSL
+2017-06-30,building_products_construction,MTZ STRL PWR GVA DY ACM,FLR JCI ALLE FBIN LII CSL
 2017-07-31,building_products_construction,STRL MTZ DY GVA KBR PWR,FLR JCI ALLE FBIN LII CSL
-2017-08-31,building_products_construction,STRL MTZ GVA DY KBR PWR,J FLR FBIN JCI LII CSL
-2017-09-30,building_products_construction,STRL MTZ GVA KBR OC PWR,ALLE FBIN JCI LII FLR CSL
-2017-10-31,building_products_construction,STRL MTZ GVA OC KBR DY,J FBIN FLR LII JCI CSL
+2017-08-31,building_products_construction,STRL MTZ GVA DY KBR PWR,J FBIN FLR JCI LII CSL
+2017-09-30,building_products_construction,STRL MTZ GVA ACM OC KBR,ALLE FBIN JCI LII CSL FLR
+2017-10-31,building_products_construction,STRL MTZ ACM GVA OC KBR,J FBIN LII FLR JCI CSL
 2017-11-30,building_products_construction,STRL DY MTZ FIX GVA OC,ALLE J FBIN JCI FLR CSL
 2017-12-31,building_products_construction,STRL DY GVA OC MTZ FIX,LII TT FBIN FLR CSL JCI
 2018-01-31,building_products_construction,STRL DY MTZ OC KBR GVA,FBIN TT ALLE FLR CSL JCI
 2018-02-28,building_products_construction,STRL KBR DY OC MTZ GVA,FIX FLR ALLE PWR JCI CSL
-2018-03-31,building_products_construction,STRL MTZ GVA OC KBR AOS,FLR ALLE PWR FBIN JCI CSL
+2018-03-31,building_products_construction,STRL MTZ GVA OC KBR AOS,ACM ALLE PWR FBIN JCI CSL
 2018-04-30,building_products_construction,STRL KBR OC LII GVA AOS,ALLE TT PWR CSL FBIN JCI
 2018-05-31,building_products_construction,KBR STRL DY FLR GVA J,OC TT ALLE CSL JCI FBIN
 2018-06-30,building_products_construction,KBR GVA J STRL FIX DY,TT CSL OC ALLE FBIN JCI
 2018-07-31,building_products_construction,KBR FIX STRL J GVA MTZ,MAS CSL OC ALLE JCI FBIN
-2018-08-31,building_products_construction,FIX STRL KBR DY FLR J,EME PWR JCI ALLE FBIN OC
-2018-09-30,building_products_construction,KBR FIX FLR J DY STRL,MAS JCI PWR ALLE FBIN OC
-2018-10-31,building_products_construction,FLR J KBR DY MTZ TT,FBIN PWR JCI GVA EME OC
-2018-11-30,building_products_construction,KBR J MTZ FLR FIX TT,AOS EME MAS FBIN CSL OC
+2018-08-31,building_products_construction,FIX STRL KBR DY FLR J,ACM PWR JCI ALLE FBIN OC
+2018-09-30,building_products_construction,KBR FIX FLR J DY STRL,JCI PWR ALLE ACM FBIN OC
+2018-10-31,building_products_construction,FLR J KBR DY MTZ TT,PWR ACM JCI EME GVA OC
+2018-11-30,building_products_construction,KBR J MTZ FLR FIX TT,EME ACM MAS FBIN CSL OC
 2018-12-31,building_products_construction,KBR MTZ J TT FLR FIX,EME AOS CSL MAS FBIN OC
-2019-01-31,building_products_construction,KBR MTZ STRL TT J LII,JCI MAS EME AOS FBIN OC
+2019-01-31,building_products_construction,KBR MTZ STRL TT J LII,ACM MAS EME AOS FBIN OC
 2019-02-28,building_products_construction,KBR STRL J MTZ DY FIX,JCI FBIN MAS EME AOS OC
-2019-03-31,building_products_construction,KBR STRL J MTZ FIX DY,JCI FBIN ALLE EME AOS OC
-2019-04-30,building_products_construction,KBR J MTZ STRL LII TT,JCI GVA FBIN EME AOS OC
-2019-05-31,building_products_construction,KBR MTZ TT J FLR DY,JCI FBIN EME GVA OC AOS
-2019-06-30,building_products_construction,KBR DY LII MTZ TT J,EME FIX MAS GVA OC AOS
+2019-03-31,building_products_construction,KBR STRL J MTZ FIX DY,FBIN ALLE ACM EME AOS OC
+2019-04-30,building_products_construction,KBR J MTZ STRL LII TT,GVA FBIN EME ACM AOS OC
+2019-05-31,building_products_construction,KBR MTZ TT J FLR DY,FBIN ACM EME GVA OC AOS
+2019-06-30,building_products_construction,KBR DY LII MTZ TT J,FIX MAS ACM GVA OC AOS
 2019-07-31,building_products_construction,KBR MTZ DY J ALLE TT,CSL MAS JCI OC FIX AOS
 2019-08-31,building_products_construction,KBR MTZ DY TT J FBIN,STRL CSL JCI GVA FIX AOS
 2019-09-30,building_products_construction,MTZ KBR DY J MAS FBIN,LII FLR GVA ALLE AOS FIX
 2019-10-31,building_products_construction,MTZ KBR DY MAS FBIN OC,EME FLR ALLE LII AOS FIX
 2019-11-30,building_products_construction,KBR DY MTZ FBIN MAS STRL,ALLE JCI FIX AOS LII GVA
-2019-12-31,building_products_construction,KBR DY MTZ FBIN MAS OC,ALLE FIX GVA JCI AOS LII
+2019-12-31,building_products_construction,KBR DY MTZ FBIN MAS ACM,ALLE FIX GVA JCI AOS LII
 2020-01-31,building_products_construction,KBR DY FBIN MTZ MAS CSL,PWR GVA FIX JCI AOS LII
-2020-02-29,building_products_construction,KBR FBIN DY MTZ FLR OC,PWR JCI FIX GVA AOS LII
-2020-03-31,building_products_construction,KBR FBIN OC DY ALLE J,PWR FLR JCI LII GVA AOS
-2020-04-30,building_products_construction,KBR DY FBIN J ALLE OC,EME FLR JCI AOS LII GVA
-2020-05-31,building_products_construction,KBR FBIN DY MAS OC J,TT AOS EME JCI GVA LII
-2020-06-30,building_products_construction,KBR DY FBIN MAS OC PWR,AOS EME STRL JCI GVA LII
-2020-07-31,building_products_construction,FBIN DY MAS KBR FIX OC,TT CSL EME JCI LII GVA
+2020-02-29,building_products_construction,KBR ACM DY FBIN MTZ FLR,PWR GVA JCI FIX AOS LII
+2020-03-31,building_products_construction,KBR ACM FBIN OC DY ALLE,PWR FLR JCI GVA LII AOS
+2020-04-30,building_products_construction,KBR DY FBIN ACM J ALLE,EME FLR JCI AOS LII GVA
+2020-05-31,building_products_construction,KBR ACM FBIN DY MAS OC,TT AOS EME JCI GVA LII
+2020-06-30,building_products_construction,KBR DY FBIN ACM MAS OC,AOS EME STRL JCI GVA LII
+2020-07-31,building_products_construction,FBIN DY MAS KBR FIX ACM,AOS CSL EME JCI LII GVA
 2020-08-31,building_products_construction,FBIN DY FIX MAS KBR OC,J EME JCI LII CSL AOS
 2020-09-30,building_products_construction,DY FBIN KBR FIX PWR MAS,EME CSL J JCI GVA AOS
 2020-10-31,building_products_construction,DY FBIN OC PWR FIX TT,J JCI AOS ALLE EME CSL
 2020-11-30,building_products_construction,DY PWR FBIN TT OC STRL,JCI AOS LII ALLE EME CSL
-2020-12-31,building_products_construction,DY PWR FBIN TT STRL OC,JCI MAS LII AOS ALLE CSL
+2020-12-31,building_products_construction,DY PWR FBIN TT ACM STRL,JCI MAS LII AOS ALLE CSL
 2021-01-31,building_products_construction,DY PWR STRL KBR MTZ OC,J AOS MAS CSL LII ALLE
 2021-02-28,building_products_construction,DY MTZ STRL GVA PWR KBR,MAS J CSL AOS ALLE LII
-2021-03-31,building_products_construction,DY FLR MTZ GVA STRL PWR,AOS LII ALLE MAS CSL J
+2021-03-31,building_products_construction,DY FLR MTZ GVA STRL PWR OC,KBR AOS LII ALLE MAS CSL J
 2021-04-30,building_products_construction,DY FLR GVA MTZ STRL FIX CARR,TT AOS LII CSL J ALLE MAS
-2021-05-31,building_products_construction,DY MTZ FLR STRL GVA PWR FIX,FBIN CSL J ALLE LII AOS MAS
+2021-05-31,building_products_construction,DY MTZ FLR STRL GVA PWR FIX,ACM CSL J ALLE LII AOS MAS
 2021-06-30,building_products_construction,MTZ DY STRL GVA FLR PWR FIX,FBIN CSL J AOS LII ALLE MAS
 2021-07-31,building_products_construction,MTZ STRL GVA DY FLR PWR OC,TT J AOS ALLE FBIN LII MAS
 2021-08-31,building_products_construction,FLR GVA MTZ STRL CARR DY PWR,CSL J AOS ALLE FBIN LII MAS
@@ -2383,60 +2383,60 @@ date,bucket,momentum,defensive
 2022-02-28,building_products_construction,FLR FIX CSL DY KBR PWR STRL,MAS J GVA MTZ TT ALLE LII
 2022-03-31,building_products_construction,STRL PWR DY CSL FIX OC KBR,J TT MTZ MAS ALLE LII GVA
 2022-04-30,building_products_construction,STRL PWR FLR DY APG OC FIX,MTZ TT EME GVA LII MAS ALLE
-2022-05-31,building_products_construction,DY FLR PWR CSL STRL APG FIX,MAS EME TT MTZ ALLE GVA LII
+2022-05-31,building_products_construction,DY FLR PWR CSL STRL APG ACM,MAS EME TT MTZ ALLE GVA LII
 2022-06-30,building_products_construction,FLR DY PWR OC STRL APG FIX,AOS EME JCI TT GVA ALLE LII
 2022-07-31,building_products_construction,DY FLR PWR FIX STRL OC CSL,CARR EME JCI GVA TT LII ALLE
 2022-08-31,building_products_construction,DY FLR PWR FIX OC STRL APG,EME CARR LII JCI TT ALLE GVA
-2022-09-30,building_products_construction,DY FLR FIX PWR CSL OC STRL,CARR TT EME JCI J ALLE GVA
+2022-09-30,building_products_construction,DY FLR FIX PWR CSL OC STRL,TT CARR EME JCI J ALLE GVA
 2022-10-31,building_products_construction,DY FLR PWR CSL FIX OC STRL,EME MAS JCI ALLE J GVA AOS
 2022-11-30,building_products_construction,DY FLR PWR FIX OC STRL MTZ,TT CARR MAS JCI GVA J AOS
 2022-12-31,building_products_construction,FLR PWR STRL FIX OC DY MTZ,ALLE TT MAS JCI GVA J AOS
 2023-01-31,building_products_construction,FLR PWR STRL FIX DY OC APG,KBR MAS JCI ALLE GVA J AOS
-2023-02-28,building_products_construction,FLR FIX MTZ PWR OC APG STRL,EME JCI ALLE CSL AOS J KBR
-2023-03-31,building_products_construction,FIX STRL FLR MTZ APG OC FBIN,AOS CARR ALLE CSL JCI KBR J
-2023-04-30,building_products_construction,FIX STRL MTZ APG PWR FLR DY,AOS MAS ALLE JCI CSL KBR J
-2023-05-31,building_products_construction,FIX STRL APG LII FBIN EME PWR,CARR JCI ALLE GVA KBR CSL J
-2023-06-30,building_products_construction,STRL FIX APG MTZ OC LII FBIN,JCI ALLE TT GVA KBR CSL J
-2023-07-31,building_products_construction,STRL FIX APG MTZ OC FBIN LII,GVA PWR AOS TT KBR CSL J
-2023-08-31,building_products_construction,STRL APG MTZ OC LII FIX FBIN,AOS DY TT JCI KBR CSL J
-2023-09-30,building_products_construction,STRL MTZ APG LII OC FBIN FIX,PWR GVA TT JCI CSL KBR J
-2023-10-31,building_products_construction,STRL LII OC FBIN CARR APG FIX,TT GVA CSL DY J JCI KBR
-2023-11-30,building_products_construction,STRL FIX LII OC APG FLR CARR,CSL AOS TT ALLE J JCI KBR
-2023-12-31,building_products_construction,STRL FIX LII OC APG FBIN MAS,CSL DY MTZ ALLE JCI J KBR
-2024-01-31,building_products_construction,STRL FIX LII OC APG FBIN MAS,GVA TT EME ALLE JCI J KBR
-2024-02-29,building_products_construction,STRL FIX LII OC APG FBIN DY,EME GVA ALLE AOS JCI J KBR
-2024-03-31,building_products_construction,STRL FIX LII OC APG FBIN FLR,CARR GVA ALLE JCI AOS J KBR
-2024-04-30,building_products_construction,STRL FIX MTZ FLR CSL APG PWR,TT MAS ALLE AOS JCI J KBR
-2024-05-31,building_products_construction,STRL FIX EME CSL TT FLR OC,MAS DY AOS ALLE J JCI KBR
-2024-06-30,building_products_construction,STRL FIX EME MTZ PWR CSL GVA,FBIN MAS JCI ALLE AOS J KBR
-2024-07-31,building_products_construction,STRL FIX DY EME TT FLR MTZ,FBIN MAS AOS JCI J ALLE KBR
-2024-08-31,building_products_construction,FIX STRL DY GVA EME CSL TT,CARR MAS JCI ALLE AOS J KBR
-2024-09-30,building_products_construction,FIX STRL MTZ DY GVA EME PWR,MAS OC JCI ALLE AOS J KBR
-2024-10-31,building_products_construction,STRL FIX MTZ DY EME PWR TT,JCI MAS APG ALLE AOS J KBR
-2024-11-30,building_products_construction,STRL FIX MTZ EME PWR DY FLR,FBIN APG KBR MAS J ALLE AOS
-2024-12-31,building_products_construction,STRL FIX EME MTZ PWR DY FLR,APG FBIN J MAS KBR ALLE AOS
-2025-01-31,building_products_construction,STRL FIX MTZ EME PWR GVA DY,CSL KBR J FBIN MAS ALLE AOS
-2025-02-28,building_products_construction,MTZ STRL FIX EME DY GVA FLR,APG J MAS FBIN KBR ALLE AOS
+2023-02-28,building_products_construction,FLR FIX MTZ PWR OC APG STRL,JCI ALLE ACM CSL AOS J KBR
+2023-03-31,building_products_construction,FIX STRL FLR MTZ APG OC FBIN,CARR ALLE CSL ACM JCI KBR J
+2023-04-30,building_products_construction,FIX STRL MTZ APG PWR FLR DY,MAS ALLE ACM JCI CSL KBR J
+2023-05-31,building_products_construction,FIX STRL APG LII FBIN EME PWR,JCI ALLE GVA ACM KBR CSL J
+2023-06-30,building_products_construction,STRL FIX APG MTZ OC LII FBIN,ALLE TT GVA ACM KBR CSL J
+2023-07-31,building_products_construction,STRL FIX APG MTZ OC LII FBIN,PWR TT AOS KBR ACM CSL J
+2023-08-31,building_products_construction,STRL APG OC MTZ LII FIX FBIN,TT DY JCI KBR ACM CSL J
+2023-09-30,building_products_construction,STRL MTZ APG LII OC FBIN FIX,GVA TT JCI CSL KBR J ACM
+2023-10-31,building_products_construction,STRL LII OC FBIN CARR APG FIX,GVA CSL DY J JCI ACM KBR
+2023-11-30,building_products_construction,STRL FIX LII OC APG FLR CARR,AOS TT ALLE J JCI ACM KBR
+2023-12-31,building_products_construction,STRL FIX LII OC APG FBIN MAS,DY MTZ ALLE J JCI ACM KBR
+2024-01-31,building_products_construction,STRL FIX LII OC APG FBIN MAS,GVA EME ALLE JCI ACM J KBR
+2024-02-29,building_products_construction,STRL FIX LII OC APG FBIN DY,GVA ALLE AOS JCI J ACM KBR
+2024-03-31,building_products_construction,STRL FIX LII OC APG FBIN FLR,GVA ALLE JCI AOS J ACM KBR
+2024-04-30,building_products_construction,STRL FIX MTZ FLR CSL APG PWR,TT ALLE AOS JCI ACM J KBR
+2024-05-31,building_products_construction,STRL FIX EME CSL TT FLR OC,DY AOS ALLE J ACM JCI KBR
+2024-06-30,building_products_construction,STRL FIX EME MTZ PWR CSL GVA,MAS JCI ALLE AOS ACM J KBR
+2024-07-31,building_products_construction,STRL FIX DY EME TT FLR MTZ,MAS AOS JCI J ALLE ACM KBR
+2024-08-31,building_products_construction,FIX STRL DY GVA EME CSL TT,MAS JCI ALLE AOS ACM J KBR
+2024-09-30,building_products_construction,FIX STRL MTZ DY GVA EME PWR,OC JCI ALLE AOS ACM J KBR
+2024-10-31,building_products_construction,STRL FIX MTZ DY EME PWR TT,MAS APG ALLE ACM AOS J KBR
+2024-11-30,building_products_construction,STRL FIX MTZ EME PWR DY FLR,APG KBR MAS J ALLE ACM AOS
+2024-12-31,building_products_construction,STRL FIX EME MTZ PWR DY FLR,FBIN ACM J MAS KBR ALLE AOS
+2025-01-31,building_products_construction,STRL FIX MTZ EME PWR GVA DY,ACM KBR J FBIN MAS ALLE AOS
+2025-02-28,building_products_construction,MTZ STRL FIX EME DY GVA FLR,ACM J MAS FBIN KBR ALLE AOS
 2025-03-31,building_products_construction,MTZ STRL FIX GVA EME JCI LII,CSL J MAS ALLE FBIN KBR AOS
-2025-04-30,building_products_construction,MTZ STRL FIX JCI GVA EME LII,ALLE OC J FBIN CSL KBR AOS
+2025-04-30,building_products_construction,MTZ STRL FIX JCI GVA EME LII,OC ACM J FBIN CSL KBR AOS
 2025-05-31,building_products_construction,STRL FIX MTZ GVA JCI PWR EME,J OC CSL FBIN MAS KBR AOS
-2025-06-30,building_products_construction,STRL FIX MTZ JCI DY EME PWR,FBIN OC J CSL MAS KBR AOS
+2025-06-30,building_products_construction,STRL FIX MTZ JCI DY EME PWR,FBIN J OC CSL MAS KBR AOS
 2025-07-31,building_products_construction,STRL FIX MTZ EME PWR JCI DY,CSL J FBIN MAS ALLE KBR AOS
-2025-08-31,building_products_construction,STRL FIX MTZ EME FLR PWR DY,FBIN J CSL ALLE MAS KBR AOS
-2025-09-30,building_products_construction,STRL FIX MTZ EME APG FLR JCI,CARR CSL ALLE FBIN MAS KBR AOS
-2025-10-31,building_products_construction,STRL FIX MTZ EME DY FLR PWR,ALLE CARR J MAS CSL KBR AOS
+2025-08-31,building_products_construction,STRL FIX MTZ EME FLR PWR DY,J CSL ALLE ACM MAS KBR AOS
+2025-09-30,building_products_construction,STRL FIX MTZ EME APG FLR JCI,CARR ALLE CSL FBIN MAS KBR AOS
+2025-10-31,building_products_construction,STRL FIX MTZ EME DY FLR PWR,FBIN CARR J MAS CSL KBR AOS
 2025-11-30,building_products_construction,STRL FIX MTZ EME DY FLR PWR,ALLE GVA LII MAS CSL KBR AOS
-2025-12-31,building_products_construction,FIX STRL MTZ DY EME PWR APG,CARR MAS LII CSL J KBR AOS
-2026-01-31,building_products_construction,STRL FIX MTZ DY EME FLR PWR,TT CSL MAS ALLE J KBR AOS
-2026-02-28,building_products_construction,STRL FIX MTZ DY FLR EME PWR,GVA TT MAS LII KBR ALLE AOS
-2026-03-31,building_products_construction,FIX STRL MTZ FLR DY EME PWR,TT MAS GVA J KBR ALLE AOS
-2026-04-30,building_products_construction,FIX STRL MTZ FLR EME DY PWR,LII CSL J TT AOS ALLE KBR
-2026-05-31,building_products_construction,STRL FIX MTZ DY FLR EME PWR,CSL CARR J TT AOS ALLE KBR
-2026-06-30,building_products_construction,STRL FIX MTZ DY PWR EME FLR,CARR MAS TT J KBR AOS ALLE
-2026-07-31,building_products_construction,STRL FIX MTZ DY PWR EME FLR,CARR CSL TT J KBR AOS ALLE
-2026-08-31,building_products_construction,STRL FIX PWR DY MTZ EME FLR,GVA TT LII J ALLE AOS KBR
-2026-09-30,building_products_construction,FIX STRL PWR FLR MTZ EME DY,GVA TT J LII KBR ALLE AOS
-2026-10-31,building_products_construction,FIX STRL PWR JCI FLR EME MTZ,CARR FBIN LII J ALLE AOS KBR
+2025-12-31,building_products_construction,FIX STRL MTZ DY EME PWR APG,MAS LII CSL J ACM KBR AOS
+2026-01-31,building_products_construction,STRL FIX MTZ DY EME FLR PWR,CSL ALLE MAS J ACM KBR AOS
+2026-02-28,building_products_construction,STRL FIX MTZ DY FLR EME PWR,TT MAS LII ACM KBR ALLE AOS
+2026-03-31,building_products_construction,FIX STRL MTZ FLR DY EME PWR,MAS GVA J ACM KBR ALLE AOS
+2026-04-30,building_products_construction,FIX STRL MTZ FLR EME DY PWR,CSL J TT ACM AOS ALLE KBR
+2026-05-31,building_products_construction,STRL FIX MTZ DY FLR EME PWR,CARR J TT ACM AOS ALLE KBR
+2026-06-30,building_products_construction,STRL FIX MTZ DY PWR EME FLR,MAS TT J ACM KBR AOS ALLE
+2026-07-31,building_products_construction,STRL FIX MTZ DY PWR EME FLR,CSL TT J KBR AOS ACM ALLE
+2026-08-31,building_products_construction,STRL FIX PWR DY MTZ EME FLR,TT LII J ALLE AOS KBR ACM
+2026-09-30,building_products_construction,FIX STRL PWR FLR MTZ EME DY,TT J LII KBR ALLE AOS ACM
+2026-10-31,building_products_construction,STRL FIX PWR JCI FLR DY EME,CARR LII J ALLE AOS KBR ACM
 1997-10-31,professional_services,RHI EXPO,CTAS FCN
 1997-12-31,professional_services,RHI EXPO,CTAS MAN
 1998-02-28,professional_services,FCN PAYX,EFX MAN
@@ -6890,7 +6890,7 @@ date,bucket,momentum,defensive
 2010-02-28,hardware,FLEX JBL CLS TEL SMCI,APH COHR CSCO HPQ ZBRA
 2010-03-31,hardware,JBL FLEX SMCI CLS CIEN,APH GLW CSCO HPQ ZBRA
 2010-04-30,hardware,SMCI FLEX JBL CLS CIEN,GLW APH HPQ CSCO ZBRA
-2010-05-31,hardware,SMCI JBL FLEX CIEN GRMN,MSI CSCO LOGI HPQ ZBRA
+2010-05-31,hardware,SMCI JBL FLEX CIEN GRMN,CSCO MSI LOGI HPQ ZBRA
 2010-06-30,hardware,JBL SMCI FLEX CIEN TEL,MSI CSCO GLW HPQ ZBRA
 2010-07-31,hardware,SMCI JBL CIEN FLEX GRMN,MSI LOGI CSCO HPQ ZBRA
 2010-08-31,hardware,JBL COHR APH GLW,CSCO LOGI ZBRA HPQ
@@ -9208,7 +9208,7 @@ date,bucket,momentum,defensive
 2015-05-31,specialty_retail,KMX LAD ULTA BURL BBY TSCO,KSS TJX M AZO GAP ANF
 2015-06-30,specialty_retail,TSCO LAD KMX ULTA BURL AEO,TJX M KSS AZO GAP ANF
 2015-07-31,specialty_retail,LAD AEO TSCO KMX ULTA BURL,TJX M AZO KSS GAP ANF
-2015-08-31,specialty_retail,LAD BURL ULTA TSCO KMX ORLY,M AZO TJX KSS ANF GAP
+2015-08-31,specialty_retail,LAD BURL TSCO ULTA KMX ORLY,M AZO TJX KSS ANF GAP
 2015-09-30,specialty_retail,LAD ORLY TSCO KMX BURL BBY,FIVE TJX M ANF KSS GAP
 2015-10-31,specialty_retail,LAD ORLY BURL BBY TSCO ULTA,FIVE TJX ANF M KSS GAP
 2015-11-30,specialty_retail,LAD ORLY TSCO BURL ULTA ROST,TJX DKS FIVE M KSS GAP
@@ -10559,7 +10559,7 @@ date,bucket,momentum,defensive
 2019-09-30,integrated,PBR CVE CVX YPF,E TTE IMO EQNR
 2019-10-31,integrated,CVE CVX PBR SU,BP E EQNR IMO
 2019-11-30,integrated,CVE PBR EC CVX,XOM BP EQNR IMO
-2019-12-31,integrated,CVE EC PBR SU,TTE EQNR BP E
+2019-12-31,integrated,CVE EC PBR SU,SHEL EQNR BP E
 2020-01-31,integrated,CVE EC PBR YPF,IMO SHEL E BP
 2020-02-29,integrated,CVE EC PBR CVX,SHEL BP XOM E
 2020-03-31,integrated,PBR CVE EC SU,SHEL E YPF XOM
@@ -11327,7 +11327,7 @@ date,bucket,momentum,defensive
 2017-06-30,midstream,ET WMB LNG TRGP,MPLX TRP ENB EPD
 2017-07-31,midstream,ET WMB TRGP OKE,ENB KMI TRP EPD
 2017-08-31,midstream,OKE ET WMB TRGP,TRP ENB EPD KMI
-2017-09-30,midstream,ET OKE MPLX LNG,EPD ENB KMI PAA
+2017-09-30,midstream,ET OKE MPLX LNG,ENB EPD KMI PAA
 2017-10-31,midstream,ET LNG OKE TRGP,ENB EPD PAA WES
 2017-11-30,midstream,ET LNG MPLX OKE,EPD WES KMI PAA
 2017-12-31,midstream,LNG ET MPLX WMB,EPD KMI PAA WES
