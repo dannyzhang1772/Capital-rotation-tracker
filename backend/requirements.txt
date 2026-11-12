@@ -5,3 +5,4 @@ numpy>=1.26
 yfinance>=0.2.50
 cryptography>=43
 snaptrade-python-sdk>=13.2
+requests>=2.32

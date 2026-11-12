@@ -1,12 +1,12 @@
-/* Trading tab: one portfolio's holdings, exposures, returns decomposition, ratios and option-implied moves.
-   The page opens on the demo book (data/portfolio.js: weights only; data/portfolio_full.js adds dollar values in the local preview).
-   A visitor can load their own book through the backend (CRT_CONFIG.api): connect a brokerage via SnapTrade or type holdings in.
-   Their results come back to this browser only and are kept in sessionStorage until the tab closes. */
+/* Trading tab. Signed out, the page shows a fictional sample book (data/portfolio.js). Signed in (Supabase), it becomes a
+   portal: the visitor's own book is loaded from the backend (CRT_CONFIG.api), which keeps their brokerage link and last
+   analysis, and live quotes are laid on top every minute. Nothing about a visitor's book is ever written into the site. */
 (function () {
-  const DEMO = window.CRT_PORTFOLIO || null; let PF = DEMO; let source = 'demo';
+  const DEMO = window.CRT_PORTFOLIO || null; let PF = DEMO; let source = 'demo'; let MINE = null; let LIVE = null; let ME = null;
   const S = window.CRT_SNAPSHOT || { buckets: [] }; const ST = window.CRT_STYLE || { buckets: {} }; const C = window.CRTCharts;
   const CFG = window.CRT_CONFIG || {}; const qs = new URLSearchParams(location.search);
-  const API = (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) && qs.get('api')) || CFG.api || '';
+  const LOCAL = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  const API = (LOCAL && qs.get('api')) || CFG.api || '';
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -24,8 +24,8 @@
 
   function head() {
     const full = isFull();
-    $('#pfTag').textContent = source === 'demo' ? (full ? '· demo book · private view' : '· demo book · weights only') : `· ${PF.label || 'your portfolio'} · visible in this browser only`;
-    $('#pfSub').innerHTML = `Positions as of ${esc(PF.asof)} · base currency ${esc(ccy())} (USDCAD ${num(PF.usdcad, 3)}) · ${PF.instruments.length} holdings across ${PF.accounts.length} account${PF.accounts.length === 1 ? '' : 's'}${full ? '' : ' · dollar amounts, quantities and costs are hidden on the published demo'}${PF.unmodelled && PF.unmodelled.length ? ` · not modelled (no price history): ${PF.unmodelled.map((u) => esc(u.ticker)).join(', ')}` : ''}`;
+    $('#pfTag').textContent = source === 'demo' ? '· sample book (fictional)' : '· my portfolio · private';
+    $('#pfSub').innerHTML = `Positions as of ${esc(PF.asof)} · base currency ${esc(ccy())} (USDCAD ${num(PF.usdcad, 3)}) · ${PF.instruments.length} holdings across ${PF.accounts.length} account${PF.accounts.length === 1 ? '' : 's'}${source === 'demo' ? ' · a made-up book to show what the page does; sign in to see your own' : ''}${PF.unmodelled && PF.unmodelled.length ? ` · not modelled (no price history): ${PF.unmodelled.map((u) => esc(u.ticker)).join(', ')}` : ''}`;
     const s1 = (PF.stats || {})['1y'] || (PF.stats || {}).common || {}; const r = PF.risk || {}; const k = [];
     if (full) k.push(['Gross positions', money(PF.total_base), PF.leverage > 1.02 ? `net equity ${money(PF.net_equity_base)} · margin loan ${money(PF.margin_debit_base)}` : `${esc(ccy())} · ${PF.positions.length} positions`]);
     k.push(['Leverage', `${num(PF.leverage, 2)}×`, 'gross positions ÷ net account value']);
@@ -48,10 +48,11 @@
       $('#holdNote').textContent = PF.accounts.map((a) => `${a.type}: ${pct(a.weight, 0, false)} of positions${a.leverage && a.leverage > 1.02 ? `, ${num(a.leverage, 2)}× levered` : ''}`).join(' · ');
       return;
     }
-    const cols = ['Holding', 'Type', 'Weight'].concat(full ? [`Value (${c})`, `P&L (${c})`] : []).concat(['P&L %', '12m return', 'Vol (1y)', 'Sharpe (1y)', 'Market beta', 'Idio share of risk', '1m expected move', 'Next earnings']);
+    const live = (LIVE && source === 'mine') ? Object.fromEntries(LIVE.holdings.map((h) => [h.ticker, h])) : null;
+    const cols = ['Holding', 'Type', 'Weight'].concat(live ? ['Today'] : []).concat(full ? [`Value (${c})`, `P&L (${c})`] : []).concat(['P&L %', '12m return', 'Vol (1y)', 'Sharpe (1y)', 'Market beta', 'Idio share of risk', '1m expected move', 'Next earnings']);
     $('#holdHead').innerHTML = cols.map((x, i) => `<th class="${i < 2 ? 'l' : ''}">${esc(x)}</th>`).join('');
     $('#holdBody').innerHTML = PF.instruments.map((i) => { const st = i.stats_1y || {}; const d = i.decomp || {}; const b = d.betas || {}; const mb = b[d.market_factor];
-      return `<tr title="${esc(i.note || i.sub_name || '')}"><td class="l"><b>${esc(i.ticker)}</b> <span class="muted">${esc(i.name)}</span></td><td class="l sector">${esc(i.kind)}${i.fx_hedged ? ' · hedged' : ''}</td><td class="num">${pct(i.weight, 1, false)}</td>${full ? `<td class="num">${money(i.value_base)}</td><td class="num ${cls(i.pnl_base)}">${money(i.pnl_base)}</td>` : ''}<td class="num ${cls(i.pnl_pct)}">${pct(i.pnl_pct)}</td><td class="num ${cls(st.cum_return)}">${pct(st.cum_return)}</td><td class="num">${pct(st.ann_vol, 0, false)}</td><td class="num ${cls(st.sharpe)}">${num(st.sharpe, 2)}</td><td class="num">${num(mb, 2)}</td><td class="num">${d.r2 == null ? '–' : pct(1 - d.r2, 0, false)}</td><td class="num">±${i.moves ? (i.moves.sigma_1m * 100).toFixed(1) : '–'}%</td><td class="l">${esc((i.moves && i.moves.earnings) || '–')}</td></tr>`; }).join('');
+      return `<tr title="${esc(i.note || i.sub_name || '')}"><td class="l"><b>${esc(i.ticker)}</b> <span class="muted">${esc(i.name)}</span></td><td class="l sector">${esc(i.kind)}${i.fx_hedged ? ' · hedged' : ''}</td><td class="num">${pct(i.weight, 1, false)}</td>${live ? `<td class="num ${cls(live[i.ticker] && live[i.ticker].day_pct)}">${live[i.ticker] ? pct(live[i.ticker].day_pct, 2) : '–'}</td>` : ''}${full ? `<td class="num">${money(live && live[i.ticker] && live[i.ticker].value_base != null ? live[i.ticker].value_base : i.value_base)}</td><td class="num ${cls(i.pnl_base)}">${money(i.pnl_base)}</td>` : ''}<td class="num ${cls(i.pnl_pct)}">${pct(i.pnl_pct)}</td><td class="num ${cls(st.cum_return)}">${pct(st.cum_return)}</td><td class="num">${pct(st.ann_vol, 0, false)}</td><td class="num ${cls(st.sharpe)}">${num(st.sharpe, 2)}</td><td class="num">${num(mb, 2)}</td><td class="num">${d.r2 == null ? '–' : pct(1 - d.r2, 0, false)}</td><td class="num">±${i.moves ? (i.moves.sigma_1m * 100).toFixed(1) : '–'}%</td><td class="l">${esc((i.moves && i.moves.earnings) || '–')}</td></tr>`; }).join('');
     $('#holdNote').textContent = 'Hover a row for the mapping note. Idio share = 1 − R² of the factor regression: how much of the name\'s daily risk is its own.';
   }
 
@@ -134,22 +135,90 @@
 
   function drawAll() { C.refresh(); head(); holdings($('#holdSeg button.on').dataset.v); exposure(); decomp(); ratios(); moves(); method(); }
 
-  // ---------------------------------------------------------------- loading a visitor's own book
-  const TOKEN_KEY = 'pm-connect-token', RESULT_KEY = 'pm-portfolio';
-  const store = { get: (k, s = localStorage) => { try { return s.getItem(k); } catch (e) { return null; } }, set: (k, v, s = localStorage) => { try { s.setItem(k, v); } catch (e) {} }, del: (k, s = localStorage) => { try { s.removeItem(k); } catch (e) {} } };
+  // ---------------------------------------------------------------- portal: sign-in, the visitor's own book, live quotes
   const status = (msg, kind) => { const el = $('#loadStatus'); if (el) { el.textContent = msg || ''; el.className = 'tier ' + (kind || ''); } };
-  async function call(path, body) {
-    const r = await fetch(API + path, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body || {}) });
+  const Auth = (() => {
+    if (CFG.supabaseUrl && CFG.supabaseAnonKey && window.supabase && window.supabase.createClient) {
+      const sb = window.supabase.createClient(CFG.supabaseUrl, CFG.supabaseAnonKey);
+      return { kind: 'supabase',
+        session: async () => { const { data } = await sb.auth.getSession(); return data && data.session ? { token: data.session.access_token, email: data.session.user.email } : null; },
+        signIn: async (email) => { const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin + location.pathname } }); if (error) throw new Error(error.message); },
+        signOut: async () => { await sb.auth.signOut(); },
+        onChange: (cb) => sb.auth.onAuthStateChange(() => cb()) };
+    }
+    if (LOCAL && qs.get('dev')) {   // local development only: the backend must run with DEV_AUTH=1
+      let on = true; const email = qs.get('dev');
+      return { kind: 'dev', session: async () => (on ? { token: 'dev:' + email, email } : null), signIn: async () => { on = true; }, signOut: async () => { on = false; }, onChange: () => {} };
+    }
+    return null;
+  })();
+  async function api(path, method, body) {
+    const sess = Auth ? await Auth.session() : null; if (!sess) throw new Error('sign in first');
+    const r = await fetch(API + path, { method: method || 'GET', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + sess.token }, body: body ? JSON.stringify(body) : undefined });
     let j = null; try { j = await r.json(); } catch (e) {}
-    if (!r.ok) throw new Error((j && j.detail) || `request failed (${r.status})`);
+    if (!r.ok) { const err = new Error((j && j.detail) || `request failed (${r.status})`); err.status = r.status; throw err; }
     return j;
   }
-  function show(pf, src) { PF = pf; source = src; if (src !== 'demo') store.set(RESULT_KEY, JSON.stringify({ pf, src }), sessionStorage); drawAll(); refreshPanel(); window.scrollTo({ top: 0 }); }
-  function refreshPanel() {
-    const has = !!store.get(TOKEN_KEY); const own = source !== 'demo';
-    const b = (id, on) => { const el = $(id); if (el) el.style.display = on ? '' : 'none'; };
-    b('#btnConnect', !!API && !has); b('#btnLoad', !!API && has); b('#btnAdd', !!API && has); b('#btnDisconnect', !!API && has); b('#btnPaste', !!API); b('#btnDemo', own && !!DEMO);
-    if (!API) status('Live connections switch on once the analysis service is deployed. Until then this page shows the demo book.', '');
+  function show(pf, src) { PF = pf; source = src; if (src !== 'mine') { LIVE = null; liveStrip(); } drawAll(); panel(); }
+  function setMine(j) { ME = j; if (j.portfolio) { MINE = j.portfolio; show(MINE, 'mine'); pollQuotes(); } else panel(); }
+
+  function panel() {
+    const vis = (id, on) => { const el = $(id); if (el) el.style.display = on ? '' : 'none'; };
+    const ready = !!API && !!Auth; const signed = !!ME;
+    vis('#authOut', ready && !signed); vis('#authIn', signed); vis('#portalOff', !ready);
+    if (!signed) return;
+    $('#authWho').textContent = ME.email + (ME.analysis_at ? ` · analysis saved ${ME.analysis_at.slice(0, 16).replace('T', ' ')} UTC${ME.source ? ' · from ' + ME.source : ''}` : '');
+    const st = ME.snaptrade_available;
+    vis('#btnConnect', st && !ME.connected); vis('#btnAdd', st && ME.connected); vis('#btnRefresh', ME.connected || ME.has_analysis); vis('#btnDisconnect', ME.connected);
+    vis('#btnPaste', true); vis('#btnMine', !!MINE && source !== 'mine'); vis('#btnDemo', !!DEMO && source === 'mine');
+  }
+
+  function liveStrip() {
+    const el = $('#liveKpis'); if (!el) return;
+    if (!LIVE || source !== 'mine') { el.style.display = 'none'; el.innerHTML = ''; return; }
+    el.style.display = ''; const L = LIVE; const lev = PF.leverage > 1.02;
+    const best = [...L.holdings].filter((h) => h.day_pct != null).sort((a, b) => b.day_pct - a.day_pct);
+    el.innerHTML = [
+      ['Value now', money(L.total_base), `${esc(L.base_currency)} · positions at latest quotes`],
+      ['Today', `${L.day_change_base >= 0 ? '+' : '−'}${money(Math.abs(L.day_change_base))}`, `${pct(L.day_pct, 2)} on positions${lev && L.net_equity_base ? ` · ${pct(L.day_change_base / (L.net_equity_base - L.day_change_base), 2)} on equity` : ''}`],
+      lev ? ['Net equity now', money(L.net_equity_base), 'positions minus the margin loan, plus cash'] : null,
+      best.length ? ['Best / worst today', `${best[0].ticker} ${pct(best[0].day_pct, 1)}`, `${best[best.length - 1].ticker} ${pct(best[best.length - 1].day_pct, 1)}`] : null,
+      ['Quotes', new Date(L.asof).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }), 'refreshed every minute · about 15 min delayed'],
+    ].filter(Boolean).map(([l, v, d]) => `<div class="kpi live"><div class="label">${esc(l)}</div><div class="value ${String(v).length > 12 ? 'text' : ''} ${l === 'Today' ? cls(L.day_change_base) : ''}">${esc(v)}</div><div class="delta">${esc(d)}</div></div>`).join('');
+  }
+  let pollTimer = null;
+  async function pollQuotes() {
+    if (source !== 'mine' || document.hidden) return;
+    try { const j = await api('/api/me/quotes'); if (j.status === 'ok') { LIVE = j.live; liveStrip(); if ($('#holdSeg button.on').dataset.v === 'inst') holdings('inst'); } } catch (e) { /* keep the last quotes on screen */ }
+  }
+  function startPolling() { if (pollTimer) clearInterval(pollTimer); pollTimer = setInterval(pollQuotes, 60000); document.addEventListener('visibilitychange', () => { if (!document.hidden) pollQuotes(); }); }
+
+  async function refresh(msg) {
+    status(msg || 'Reading your accounts and running the analysis (about 20 seconds)…', '');
+    try {
+      const j = await api('/api/me/refresh', 'POST');
+      if (j.status === 'ok') { setMine(j); status(`Up to date: ${j.portfolio.instruments.length} holdings.${j.skipped && j.skipped.length ? ` Left out (not priced): ${j.skipped.map((s) => s.ticker).join(', ')}.` : ''}`, 'pos'); }
+      else if (j.status === 'no_connection') { ME = j; panel(); status('No brokerage is linked yet. Finish the connection in the portal tab, then press "Refresh".', ''); }
+      else if (j.status === 'no_positions') { ME = j; panel(); status('The brokerage is linked but returned no stock or fund positions.', ''); }
+      else { ME = j; panel(); status('Nothing saved yet: connect a brokerage or type your holdings.', ''); }
+    } catch (e) { status(e.message, 'neg'); }
+  }
+  async function loadMine() {
+    const sess = Auth ? await Auth.session() : null;
+    if (!sess) { ME = null; MINE = null; if (source === 'mine' && DEMO) show(DEMO, 'demo'); panel(); return; }
+    status('Loading your portfolio…', '');
+    try {
+      const j = await api('/api/me/portfolio');
+      if (j.status === 'ok') {
+        setMine(j); status('', '');
+        if (qs.get('connected')) { history.replaceState(null, '', location.pathname); refresh('Brokerage linked. Pulling your positions (about 20 seconds)…'); }
+        else if (j.stale && j.connected) refresh('Saved analysis is from an earlier session; refreshing from your brokerage…');
+      } else {
+        ME = j; panel();
+        if (qs.get('connected')) { history.replaceState(null, '', location.pathname); refresh('Brokerage linked. Pulling your positions (about 20 seconds)…'); }
+        else status('Signed in. Connect a brokerage or type your holdings to build your page.', '');
+      }
+    } catch (e) { ME = e.status === 403 ? null : ME; panel(); status(e.message, 'neg'); if (e.status === 403) { const o = $('#authOut'); if (o) o.style.display = ''; } }
   }
   function parsePaste(text, base) {
     const positions = [];
@@ -163,48 +232,46 @@
     });
     return positions;
   }
-  async function loadConnected(quiet) {
-    const token = store.get(TOKEN_KEY); if (!token) return;
-    status('Reading your accounts and running the analysis (about 20 seconds)…', '');
-    try {
-      const j = await call('/api/connect/portfolio', { token });
-      if (j.status === 'ok') { show(j.portfolio, 'broker'); status(`Loaded ${j.portfolio.instruments.length} holdings from your brokerage.${j.skipped && j.skipped.length ? ` Left out: ${j.skipped.map((s) => s.ticker).join(', ')}.` : ''}`, 'pos'); }
-      else if (j.status === 'no_connection') status(quiet ? '' : 'No brokerage is linked yet. Finish the connection in the portal tab, then press "Load my accounts".', '');
-      else status('The brokerage is linked but returned no stock or fund positions.', '');
-    } catch (e) { status(e.message, 'neg'); }
-  }
-  function initPanel() {
-    refreshPanel();
+  function initPortal() {
+    panel();
     const on = (id, fn) => { const el = $(id); if (el) el.addEventListener('click', fn); };
-    const startPortal = async () => {
+    on('#btnSignIn', async () => {
+      const email = ($('#authEmail').value || '').trim(); if (!/^\S+@\S+\.\S+$/.test(email)) { status('Enter the email address you were invited with.', 'neg'); return; }
+      try { await Auth.signIn(email); status(Auth.kind === 'dev' ? '' : `Sign-in link sent to ${email}. Open it on this device; the link expires in an hour.`, 'pos'); if (Auth.kind === 'dev') loadMine(); }
+      catch (e) { status(e.message, 'neg'); }
+    });
+    const portalLink = async () => {
       status('Opening the secure connection portal…', '');
-      try { const j = await call('/api/connect/start', { token: store.get(TOKEN_KEY) }); store.set(TOKEN_KEY, j.token); refreshPanel(); window.open(j.portal_url, '_blank', 'noopener'); status('Log in to your brokerage in the tab that just opened (read-only access). When it says connected, come back and press "Load my accounts".', ''); }
+      try { const j = await api('/api/me/connect/start', 'POST'); window.open(j.portal_url, '_blank', 'noopener'); status('Log in to your brokerage in the tab that just opened (read-only access). When it says connected, come back here and press "Refresh".', ''); ME = { ...ME, connected: true }; panel(); }
       catch (e) { status(e.message, 'neg'); }
     };
-    on('#btnConnect', startPortal); on('#btnAdd', startPortal); on('#btnLoad', () => loadConnected(false));
+    on('#btnConnect', portalLink); on('#btnAdd', portalLink); on('#btnRefresh', () => refresh());
     on('#btnDisconnect', async () => {
-      if (!confirm('Remove the brokerage connection? This deletes it at SnapTrade and clears it from this browser.')) return;
-      try { await call('/api/connect/disconnect', { token: store.get(TOKEN_KEY) }); } catch (e) { status(e.message, 'neg'); return; }
-      store.del(TOKEN_KEY); store.del(RESULT_KEY, sessionStorage); if (DEMO) show(DEMO, 'demo'); status('Connection removed.', '');
+      if (!confirm('Remove the brokerage connection and the saved analysis? You stay signed in.')) return;
+      try { const j = await api('/api/me/disconnect', 'POST'); ME = j; MINE = null; if (DEMO) show(DEMO, 'demo'); else panel(); status('Connection removed.', ''); } catch (e) { status(e.message, 'neg'); }
     });
+    on('#btnDelete', async () => {
+      if (!confirm('Delete everything held for you: the brokerage connection, saved holdings and analysis, and your sign-in account? This cannot be undone.')) return;
+      try { await api('/api/me', 'DELETE'); await Auth.signOut(); ME = null; MINE = null; if (DEMO) show(DEMO, 'demo'); panel(); status('Your data has been deleted.', ''); } catch (e) { status(e.message, 'neg'); }
+    });
+    on('#btnSignOut', async () => { await Auth.signOut(); ME = null; MINE = null; if (DEMO) show(DEMO, 'demo'); panel(); status('Signed out.', ''); });
     on('#btnPaste', () => { const p = $('#pastePanel'); p.style.display = p.style.display === 'none' ? '' : 'none'; });
     on('#btnAnalyse', async () => {
       const base = $('#pasteBase').value; const positions = parsePaste($('#pasteText').value, base);
       if (!positions.length) { status('Nothing to analyse: enter one holding per line as TICKER, quantity, average cost.', 'neg'); return; }
       status(`Analysing ${positions.length} holdings (about 15 seconds)…`, '');
-      try { const j = await call('/api/analyze', { holdings: { label: 'Your portfolio', base_currency: base, positions } }); show(j.portfolio, 'paste'); $('#pastePanel').style.display = 'none'; status(`Analysed ${j.portfolio.instruments.length} holdings.`, 'pos'); }
+      try { const j = await api('/api/me/holdings', 'POST', { holdings: { base_currency: base, positions } }); setMine(j); $('#pastePanel').style.display = 'none'; status(`Saved and analysed ${j.portfolio.instruments.length} holdings.`, 'pos'); }
       catch (e) { status(e.message, 'neg'); }
     });
-    on('#btnDemo', () => { store.del(RESULT_KEY, sessionStorage); show(DEMO, 'demo'); status('', ''); });
-    if (qs.get('connected') && store.get(TOKEN_KEY) && API) loadConnected(true);
+    on('#btnDemo', () => show(DEMO, 'demo')); on('#btnMine', () => { show(MINE, 'mine'); pollQuotes(); });
+    if (Auth && API) { Auth.onChange(() => loadMine()); loadMine(); startPolling(); }
   }
 
   document.addEventListener('DOMContentLoaded', () => {
     $$('#holdSeg button').forEach((b) => b.addEventListener('click', () => { $$('#holdSeg button').forEach((x) => x.classList.remove('on')); b.classList.add('on'); holdings(b.dataset.v); }));
     $$('#winSeg button').forEach((b) => b.addEventListener('click', () => { $$('#winSeg button').forEach((x) => x.classList.remove('on')); b.classList.add('on'); win = b.dataset.w; decomp(); }));
     const tb = $('#themeBtn'); if (tb) tb.addEventListener('click', () => setTimeout(() => { if (PF) drawAll(); }, 30));
-    try { const saved = JSON.parse(store.get(RESULT_KEY, sessionStorage) || 'null'); if (saved && saved.pf) { PF = saved.pf; source = saved.src; } } catch (e) {}
-    initPanel();
+    initPortal();
     if (!PF) { $('#pfSub').textContent = 'No portfolio loaded yet.'; return; }
     setTimeout(drawAll, 0);
   });

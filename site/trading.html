@@ -16,23 +16,35 @@
 <main class="wrap">
   <h1>Trading overview <span class="muted small" id="pfTag"></span></h1>
   <p class="sub" id="pfSub"></p>
-  <div class="card loadpanel" id="loadPanel">
-    <div class="loadrow"><span class="lbl">Load a portfolio</span>
-      <button class="ghost" id="btnConnect" style="display:none">Connect a brokerage</button>
-      <button class="ghost" id="btnLoad" style="display:none">Load my accounts</button>
-      <button class="ghost" id="btnAdd" style="display:none">Add another brokerage</button>
-      <button class="ghost" id="btnPaste" style="display:none">Type or paste holdings</button>
-      <button class="ghost" id="btnDemo" style="display:none">Back to the demo book</button>
-      <button class="ghost" id="btnDisconnect" style="display:none">Remove my connection</button>
+  <div class="card loadpanel" id="portal">
+    <div id="portalOff" style="display:none"><div class="loadrow"><span class="lbl">Portal</span><span class="tier">Sign-in opens once the portal service is switched on. Until then this page shows a fictional sample book.</span></div></div>
+    <div id="authOut" style="display:none">
+      <div class="loadrow"><span class="lbl">Sign in</span><input type="email" id="authEmail" placeholder="you@example.com" autocomplete="email"><button class="ghost" id="btnSignIn">Email me a sign-in link</button></div>
+      <p class="tier">Invite-only beta. No password: the link in the email signs you in on this device. Signed out, you are looking at a fictional sample book.</p>
     </div>
-    <div id="pastePanel" style="display:none">
-      <p class="tier">One holding per line: <b>TICKER, quantity, average cost</b>, then optionally currency (CAD or USD) and an account name. Example: <code>SHOP, 20, 90.50, CAD, TFSA</code>. Use the ticker as your broker shows it; Canadian listings are found automatically for CAD lines.</p>
-      <textarea id="pasteText" rows="7" spellcheck="false" placeholder="XEQT, 400, 30.10, CAD, TFSA&#10;NVDA, 30, 95, USD, RRSP&#10;RY, 25, 130, CAD"></textarea>
-      <div class="loadrow"><label class="tier">Base currency <select id="pasteBase"><option>CAD</option><option>USD</option></select></label><button class="ghost" id="btnAnalyse">Analyse</button></div>
+    <div id="authIn" style="display:none">
+      <div class="loadrow"><span class="lbl">Signed in</span><span class="tier" id="authWho"></span></div>
+      <div class="loadrow">
+        <button class="ghost" id="btnConnect" style="display:none">Connect a brokerage</button>
+        <button class="ghost" id="btnRefresh" style="display:none">Refresh</button>
+        <button class="ghost" id="btnAdd" style="display:none">Add another brokerage</button>
+        <button class="ghost" id="btnPaste">Type or paste holdings</button>
+        <button class="ghost" id="btnMine" style="display:none">Show my portfolio</button>
+        <button class="ghost" id="btnDemo" style="display:none">Show the sample book</button>
+        <button class="ghost quiet" id="btnDisconnect" style="display:none">Remove my connection</button>
+        <button class="ghost quiet" id="btnDelete">Delete my data</button>
+        <button class="ghost quiet" id="btnSignOut">Sign out</button>
+      </div>
+      <div id="pastePanel" style="display:none">
+        <p class="tier">One holding per line: <b>TICKER, quantity, average cost</b>, then optionally currency (CAD or USD) and an account name. Example: <code>SHOP, 20, 90.50, CAD, TFSA</code>. Use the ticker as your broker shows it; Canadian listings are found automatically for CAD lines. Typed holdings replace whatever is saved.</p>
+        <textarea id="pasteText" rows="7" spellcheck="false" placeholder="XEQT, 400, 30.10, CAD, TFSA&#10;NVDA, 30, 95, USD, RRSP&#10;RY, 25, 130, CAD"></textarea>
+        <div class="loadrow"><label class="tier">Base currency <select id="pasteBase"><option>CAD</option><option>USD</option></select></label><button class="ghost" id="btnAnalyse">Save and analyse</button></div>
+      </div>
+      <p class="tier">Brokerage links go through SnapTrade with read-only access: this site never sees your brokerage password and cannot place trades. Your holdings and analysis are kept on the projectmodl service so this page opens instantly on any device you sign in from; they are never published. "Delete my data" removes all of it.</p>
     </div>
     <p class="tier" id="loadStatus"></p>
-    <p class="tier">Brokerage links go through SnapTrade with read-only access; this site never sees your brokerage password and cannot place trades. Holdings are sent to the projectmodl analysis service, analysed and returned to this browser. They are not stored on the server or published, and they disappear from this browser when the tab closes.</p>
   </div>
+  <div class="kpis" id="liveKpis" style="display:none"></div>
   <div class="kpis" id="pfKpis"></div>
 
   <h2>Holdings</h2>
@@ -79,7 +91,7 @@
   <footer>Positions read from the brokerage on the date shown; prices and option chains from Yahoo Finance (delayed). Exposures and scenarios are descriptive analytics, not investment advice.</footer>
 </main>
 <script src="data/taxonomy.js?v=1794428942"></script><script src="data/snapshot.js?v=1794428942"></script><script src="data/style.js?v=1794428942"></script>
-<script src="data/portfolio.js?v=1794428942"></script><script src="data/portfolio_full.js?v=1794428942" onerror="void 0"></script>
-<script src="assets/config.js?v=1794428942"></script><script src="assets/charts.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script><script src="assets/trading.js?v=1794428942"></script>
+<script src="data/portfolio.js?v=1794428942"></script>
+<script src="assets/config.js?v=1794428942"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script><script src="assets/charts.js?v=1794428942"></script><script src="assets/app.js?v=1794428942"></script><script src="assets/trading.js?v=1794428942"></script>
 </body>
 </html>

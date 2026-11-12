@@ -1,5 +1,7 @@
-# Render blueprint for the projectmodl.com backend (Trading tab analytics + SnapTrade connections).
-# Deploy: Render dashboard -> New -> Blueprint -> pick this repository. Then fill in the two SnapTrade values.
+# Render blueprint for the projectmodl.com backend (signed-in Trading portal).
+# Deploy: Render dashboard -> New -> Blueprint -> pick this repository, then fill in the five values it asks for:
+# SUPABASE_URL, SUPABASE_SERVICE_KEY (the secret key), ALLOWED_EMAILS (comma-separated invite list),
+# SNAPTRADE_CLIENT_ID and SNAPTRADE_CONSUMER_KEY. TOKEN_KEY and ADMIN_TOKEN are generated once and must not change.
 services:
   - type: web
     name: projectmodl-api
@@ -11,6 +13,12 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.7
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: ALLOWED_EMAILS
+        sync: false
       - key: SNAPTRADE_CLIENT_ID
         sync: false
       - key: SNAPTRADE_CONSUMER_KEY

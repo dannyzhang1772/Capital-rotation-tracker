@@ -64,10 +64,19 @@ The SEC's fair-access policy requires a contact in the User-Agent header. Set `C
 - Catalyst notes live in `research/blurbs.json`; each note records the heat score at the time it was written and the pipeline flags it as stale when the score moves more than 30 points.
 - Event annotations live in `research/events_*.json` and are merged automatically. Every event needs a rating in `research/event_ratings.json` (rubric components e/p/b/c, see the file header) or Beta Mode will skip it.
 
-## Trading tab and backend
+## Trading tab and portal
 
-- `pipeline/portfolio_core.py` holds the portfolio analytics (look-through exposure, returns decomposition, ratios, option-implied moves, scenarios). `pipeline/portfolio.py` runs it on the private holdings file (`research/private/`, gitignored) and writes the weights-only demo file `site/data/portfolio.js`.
-- `backend/app.py` is a small FastAPI service that runs the same analytics for visitors. Holdings arrive either typed in (`POST /api/analyze`) or from a brokerage through SnapTrade (`/api/connect/*`, read-only). Nothing is stored: the visitor's SnapTrade user id and secret go back to their browser as one encrypted token.
-- Deploy on Render: New -> Blueprint -> this repository (`render.yaml`). Set `SNAPTRADE_CLIENT_ID` and `SNAPTRADE_CONSUMER_KEY` in the service's Environment tab (never in code). Then put the service URL in `site/assets/config.js`.
-- Run locally: `TOKEN_KEY=dev ALLOWED_ORIGINS=http://localhost:8765 uvicorn backend.app:app --port 8787`, then open `trading.html?api=http://localhost:8787` in the local preview.
-- Admin: `GET /api/admin/users` and `DELETE /api/admin/users/{id}` with the `X-Admin-Token` header list and remove SnapTrade users (the free tier allows five connections).
+Signed out, `trading.html` shows a fictional sample book (`research/sample_portfolio.json` -> `python pipeline/portfolio.py --sample` -> `site/data/portfolio.js`). Signed in, it is a private portal: each invited user's brokerage link and last analysis are kept by the backend, and live quotes are laid on top every minute.
+
+- `pipeline/portfolio_core.py`: the analytics (fund look-through exposure, returns decomposition, ratios, option-implied moves, scenarios) for any set of tickers.
+- `backend/app.py`: FastAPI service. Every route needs a Supabase sign-in whose email is in `ALLOWED_EMAILS`. Routes: `/api/me`, `/api/me/portfolio`, `/api/me/refresh`, `/api/me/holdings`, `/api/me/quotes`, `/api/me/connect/start`, `/api/me/disconnect`, `DELETE /api/me`.
+- `backend/supabase_schema.sql`: the one table (`pm_users`), row level security on with no policies, so only the backend can touch it. Brokerage secrets are encrypted with `TOKEN_KEY` before they are stored.
+
+Setup (once)
+1. Supabase: create a project; run `backend/supabase_schema.sql` in the SQL editor; under Authentication -> URL Configuration set the Site URL to the Trading page URL and add it to Redirect URLs.
+2. Render: New -> Blueprint -> this repository (`render.yaml`). Fill in `SUPABASE_URL`, `SUPABASE_SERVICE_KEY` (the secret key), `ALLOWED_EMAILS`, `SNAPTRADE_CLIENT_ID`, `SNAPTRADE_CONSUMER_KEY`. Never put these in code or chat.
+3. Put the three public values in `site/assets/config.js`: the Render service URL, the Supabase project URL and the Supabase publishable (anon) key.
+
+Local development: `DEV_AUTH=1 TOKEN_KEY=dev ALLOWED_EMAILS=me@test.dev ALLOWED_ORIGINS=http://localhost:8765 uvicorn backend.app:app --port 8787`, then open `trading.html?api=http://localhost:8787&dev=me@test.dev` in the local preview. `DEV_AUTH` must never be set on the host.
+
+Admin: `GET /api/admin/snaptrade-users` and `DELETE /api/admin/snaptrade-users/{id}` with the `X-Admin-Token` header (the free SnapTrade tier allows five connections).

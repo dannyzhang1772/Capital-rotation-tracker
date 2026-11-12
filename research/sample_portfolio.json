@@ -1,0 +1,20 @@
+{
+  "_note": "FICTIONAL sample book for the public Trading page. Not anyone's real holdings.",
+  "label": "Sample book",
+  "base_currency": "CAD",
+  "accounts": {"TFSA": {"type": "TFSA", "total": null}, "RRSP": {"type": "RRSP", "total": null}, "Margin": {"type": "Non-registered margin", "total": null}},
+  "positions": [
+    {"ticker": "XEQT", "qty": 520, "avg_cost": 29.40, "currency": "CAD", "account": "TFSA", "first_buy": "2022-03-14"},
+    {"ticker": "SHOP", "qty": 45, "avg_cost": 88.00, "currency": "CAD", "account": "TFSA", "first_buy": "2023-05-02"},
+    {"ticker": "CNQ", "qty": 180, "avg_cost": 41.50, "currency": "CAD", "account": "TFSA", "first_buy": "2024-01-22"},
+    {"ticker": "VFV", "qty": 90, "avg_cost": 104.00, "currency": "CAD", "account": "RRSP", "first_buy": "2021-11-08"},
+    {"ticker": "MSFT", "qty": 22, "avg_cost": 310.00, "currency": "USD", "account": "RRSP", "first_buy": "2022-10-19"},
+    {"ticker": "LLY", "qty": 8, "avg_cost": 540.00, "currency": "USD", "account": "RRSP", "first_buy": "2023-09-12"},
+    {"ticker": "COST", "qty": 6, "avg_cost": 610.00, "currency": "USD", "account": "RRSP", "first_buy": "2024-02-06"},
+    {"ticker": "RY", "qty": 70, "avg_cost": 128.00, "currency": "CAD", "account": "Margin", "first_buy": "2023-03-27"},
+    {"ticker": "ENB", "qty": 220, "avg_cost": 48.50, "currency": "CAD", "account": "Margin", "first_buy": "2022-06-15"},
+    {"ticker": "NVDA", "qty": 60, "avg_cost": 62.00, "currency": "USD", "account": "Margin", "first_buy": "2023-08-24"},
+    {"ticker": "GEV", "qty": 12, "avg_cost": 330.00, "currency": "USD", "account": "Margin", "first_buy": "2025-01-15"},
+    {"ticker": "UBER", "qty": 85, "avg_cost": 66.00, "currency": "USD", "account": "Margin", "first_buy": "2024-08-09"}
+  ]
+}
