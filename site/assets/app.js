@@ -94,7 +94,7 @@
     const cols = [
       { k: 'sector_name', l: 'Sector', left: true }, { k: 'name', l: 'Sub-industry', left: true }, { k: 'heat', l: 'Heat' },
       { k: 'weight', l: 'Weight' }, { k: 'weight_z10y', l: 'vs 10y avg' }, { k: 'weight_pctile', l: 'Wt pctile' },
-      { k: 'rel_1m', l: 'Rel 1m' }, { k: 'rel_3m', l: 'Rel 3m' }, { k: 'rel_12m', l: 'Rel 12m' }, { k: 'abs_ytd', l: 'YTD' },
+      { k: 'rel_1m', l: 'Rel perf vs S&P 500 · 1m' }, { k: 'rel_3m', l: 'Rel perf vs S&P 500 · 3m' }, { k: 'rel_12m', l: 'Rel perf vs S&P 500 · 12m' }, { k: 'abs_ytd', l: 'YTD' },
       { k: 'flow_3m_pct_aum', l: 'ETF flow 3m' }, { k: 'hf_chg', l: 'HF share Δ' }, ...(window.CRTStyle ? CRTStyle.tableCols() : []), { k: 'next', l: 'Next catalyst', left: true },
     ];
     const val = (b, k) => k.startsWith('style_') ? CRTStyle.tableVal(b.id, k) : k === 'flow_3m_pct_aum' ? (b.flows ? b.flows.flow_3m_pct_aum : null) : k === 'hf_chg' ? (b.f13 ? b.f13.hf_share_chg_qoq : null) : k === 'next' ? (BL[b.id] ? BL[b.id].inflow_if : '') : b[k];
@@ -108,7 +108,7 @@
         <td>${heatPill(b.label, b.heat)}</td><td class="num">${wpct(b.weight)}</td><td class="num"><span class="bar-cell">${wbar(b.weight, b.weight_mean10y)}<span class="${cls(b.weight_z10y)}">${sig(b.weight_z10y)}</span></span></td>
         <td class="num">${b.weight_pctile == null ? '–' : Math.round(b.weight_pctile * 100) + '%'}</td>
         <td class="num ${cls(b.rel_1m)}">${pct(b.rel_1m)}</td><td class="num ${cls(b.rel_3m)}">${pct(b.rel_3m)}</td><td class="num ${cls(b.rel_12m)}">${pct(b.rel_12m)}</td><td class="num ${cls(b.abs_ytd)}">${pct(b.abs_ytd)}</td>
-        <td class="num ${cls(val(b, 'flow_3m_pct_aum'))}">${b.flows ? pct(b.flows.flow_3m_pct_aum) : '<span class="muted">–</span>'}</td>
+        <td class="num ${cls(val(b, 'flow_3m_pct_aum'))}">${b.flows ? pct(b.flows.flow_3m_pct_aum) : '<span class="muted" title="no ETF of its own">–</span>'}</td>
         <td class="num ${cls(val(b, 'hf_chg'))}">${b.f13 && b.f13.hf_share_chg_qoq != null ? (b.f13.hf_share_chg_qoq > 0 ? '+' : '') + b.f13.hf_share_chg_qoq.toFixed(2) + 'pp' : '<span class="muted">–</span>'}</td>
         ${window.CRTStyle ? CRTStyle.tableCols().map((c) => CRTStyle.tableCell(b.id, c.k)).join('') : ''}
         <td class="l next" title="${esc(val(b, 'next') || '')}">${esc((val(b, 'next') || '').length > 110 ? (val(b, 'next') || '').slice(0, 108) + '…' : (val(b, 'next') || ''))}</td></tr>`).join('');
@@ -124,7 +124,7 @@
     draw();
     // themes
     $('#themes').innerHTML = S.themes.map((t) => `<div class="card"><div class="head" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><b>${esc(t.name)}</b> ${heatPill(t.label, t.heat)} <span class="muted small">${t.etf ? esc(t.etf) + ' · ' : ''}since ${esc(t.theme_start || '')}</span></div>
-      <div class="stats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:6px;margin-top:8px"><div><div class="tier">weight</div><b>${wpct(t.weight, 1)}</b></div><div><div class="tier">rel 3m</div><b class="${cls(t.rel_3m)}">${pct(t.rel_3m)}</b></div><div><div class="tier">rel 12m</div><b class="${cls(t.rel_12m)}">${pct(t.rel_12m)}</b></div><div><div class="tier">YTD</div><b class="${cls(t.abs_ytd)}">${pct(t.abs_ytd)}</b></div></div>
+      <div class="stats" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(90px,1fr));gap:6px;margin-top:8px"><div><div class="tier">weight</div><b>${wpct(t.weight, 1)}</b></div><div><div class="tier">rel perf vs S&amp;P 500 · 3m</div><b class="${cls(t.rel_3m)}">${pct(t.rel_3m)}</b></div><div><div class="tier">rel perf vs S&amp;P 500 · 12m</div><b class="${cls(t.rel_12m)}">${pct(t.rel_12m)}</b></div><div><div class="tier">YTD</div><b class="${cls(t.abs_ytd)}">${pct(t.abs_ytd)}</b></div></div>
       <div class="small muted" style="margin-top:6px">${esc((t.basket || []).slice(0, 12).join(', '))}${t.basket && t.basket.length > 12 ? '…' : ''}</div>${factorTags(t)}</div>`).join('');
   }
 
@@ -137,7 +137,7 @@
     $('#kpis').innerHTML = [
       ['Heat', `${sec.label}`, `score ${sec.heat == null ? '–' : Math.round(sec.heat)}`],
       ['Weight in universe', wpct(sec.weight, 1), `10y avg ${wpct(sec.weight_mean10y, 1)} · ${sig(sec.weight_z10y)} · ${sec.weight_pctile == null ? '' : ord(Math.round(sec.weight_pctile * 100)) + ' pctile since 2006'}`],
-      ['Relative to S&P 500', pct(sec.rel_3m), `3m · 12m ${pct(sec.rel_12m)} · YTD ${pct(sec.rel_ytd)}`],
+      ['Rel performance vs S&P 500', pct(sec.rel_3m), `3m · 12m ${pct(sec.rel_12m)} · YTD ${pct(sec.rel_ytd)}`],
       ['Absolute', pct(sec.abs_ytd), `YTD · 12m ${pct(sec.abs_12m)}`],
       ['ETF flows (3m)', sec.flows ? pct(sec.flows.flow_3m_pct_aum) : 'pending', sec.flows ? `of AUM · ${sig(sec.flows.flow_3m_z)} vs 5y` : 'issuer flow data loading'],
       ['Hedge fund share', sec.f13 && sec.f13.hf_share_pct != null ? `${sec.f13.hf_share_pct.toFixed(2)}%` : 'pending', sec.f13 ? ['of HF 13F value', sec.f13.hf_share_chg_qoq == null ? null : (sec.f13.hf_share_chg_qoq > 0 ? '+' : '') + sec.f13.hf_share_chg_qoq.toFixed(2) + 'pp q/q', sec.f13.last_period || null].filter(Boolean).join(' · ') : 'SEC 13F data loading'],
@@ -191,11 +191,11 @@
       $('#evCount').textContent = `${evts.length} events`; $('#events').innerHTML = eventsList([...evts].reverse());
     }
     // bucket cards
-    $('#buckets').innerHTML = subs.map((b) => `<div class="bucket-card" id="${b.id}"><div class="head"><h3>${esc(b.name)}</h3>${heatPill(b.label, b.heat)}<span class="muted small">${b.etf ? `ETF ${esc(b.etf)}${b.etf_start ? ' since ' + esc(b.etf_start.slice(0, 7)) : ''}` : b.reference_etf ? `reference ETF ${esc(b.reference_etf)} · basket-driven` : 'basket-driven'} · ${b.n_members_now} names · ${bn(b.cap_usd_bn)}</span></div>
+    $('#buckets').innerHTML = subs.map((b) => `<div class="bucket-card" id="${b.id}"><div class="head"><h3>${esc(b.name)}</h3>${heatPill(b.label, b.heat)}<span class="muted small">${b.etf ? `ETF ${esc(b.etf)}${b.etf_start ? ' since ' + esc(b.etf_start.slice(0, 7)) : ''}` : b.reference_etf ? `no ETF of its own (${esc(b.reference_etf)} for charts only) · basket-driven` : 'basket-driven'} · ${b.n_members_now} names · ${bn(b.cap_usd_bn)}</span></div>
       <div class="stats">
         <div class="stat"><div class="l">Weight</div><div class="v">${wpct(b.weight)}</div></div><div class="stat"><div class="l">vs 10y avg</div><div class="v ${cls(b.weight_z10y)}">${sig(b.weight_z10y)}</div></div><div class="stat"><div class="l">Wt percentile</div><div class="v">${b.weight_pctile == null ? '–' : Math.round(b.weight_pctile * 100) + '%'}</div></div>
-        <div class="stat"><div class="l">Rel 3m</div><div class="v ${cls(b.rel_3m)}">${pct(b.rel_3m)}</div></div><div class="stat"><div class="l">Rel 12m</div><div class="v ${cls(b.rel_12m)}">${pct(b.rel_12m)}</div></div><div class="stat"><div class="l">RS z (3y)</div><div class="v ${cls(b.rs_z3y)}">${sig(b.rs_z3y)}</div></div>
-        <div class="stat"><div class="l">Momentum 12-1</div><div class="v ${cls(b.momentum_12_1)}">${pct(b.momentum_12_1)}</div></div><div class="stat"><div class="l">ETF flow 3m</div><div class="v ${cls(b.flows && b.flows.flow_3m_pct_aum)}">${b.flows ? pct(b.flows.flow_3m_pct_aum) + ' AUM' : '–'}</div></div><div class="stat"><div class="l">HF share</div><div class="v">${b.f13 && b.f13.hf_share_pct != null ? b.f13.hf_share_pct.toFixed(2) + '%' : '–'}</div></div>
+        <div class="stat"><div class="l">Rel perf vs S&amp;P 500 · 3m</div><div class="v ${cls(b.rel_3m)}">${pct(b.rel_3m)}</div></div><div class="stat"><div class="l">Rel perf vs S&amp;P 500 · 12m</div><div class="v ${cls(b.rel_12m)}">${pct(b.rel_12m)}</div></div><div class="stat"><div class="l">RS z (3y)</div><div class="v ${cls(b.rs_z3y)}">${sig(b.rs_z3y)}</div></div>
+        <div class="stat"><div class="l">Momentum 12-1</div><div class="v ${cls(b.momentum_12_1)}">${pct(b.momentum_12_1)}</div></div><div class="stat"><div class="l">ETF flow 3m</div><div class="v ${cls(b.flows && b.flows.flow_3m_pct_aum)}">${b.flows ? pct(b.flows.flow_3m_pct_aum) + ' AUM' : '<span class="muted" title="No ETF tracks this sub-industry on its own, so no flow number is shown">no own ETF</span>'}</div></div><div class="stat"><div class="l">HF share</div><div class="v">${b.f13 && b.f13.hf_share_pct != null ? b.f13.hf_share_pct.toFixed(2) + '%' : '–'}</div></div>
       </div>
       ${blurbHtml(b.id)}
       ${window.CRTStyle ? CRTStyle.bucketHtml(b.id) : ''}

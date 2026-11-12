@@ -237,7 +237,7 @@ for bid, (sec, si) in bucket_info.items():
     etf_rs = None
     if etf_idx is not None:
         etf_rs = etf_idx / SPY_IDX.reindex(etf_idx.index); etf_rs = etf_rs / etf_rs.dropna().iloc[0] * 100
-    fl = etf_flow_block(etf if etf else ref)
+    fl = etf_flow_block(etf) if etf else None  # a reference ETF is for charts only; its flows are not this bucket's
     f13b = f13_block(si['basket'])
     betas = factor_betas(ret)
     rsz = last(rs_z3); wz = last(w_z)

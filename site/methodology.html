@@ -21,7 +21,7 @@
   <ul>
     <li><b>Market-cap weight (1999 sector, 2006 sub-industry).</b> Each bucket's share of the tracked universe's market value. This is where capital <i>sits</i>. It conflates price with earnings and share issuance, so it is read against its own ten-year mean (z-score and percentile), not in isolation.</li>
     <li><b>Relative strength (1999 / 2006).</b> Bucket total return divided by the S&amp;P 500, with a three-year z-score of the log ratio. This is the cleanest free signal of rotation because it strips out the market.</li>
-    <li><b>ETF creations and redemptions (2006 onward for most sub-industry ETFs).</b> Daily change in shares outstanding times NAV, from issuer disclosures. These are real dollars, but ETFs are a minority of institutional ownership, so they are a sentiment gauge rather than a census.</li>
+    <li><b>ETF creations and redemptions (2006 onward for most sub-industry ETFs).</b> Daily change in shares outstanding times NAV, from issuer disclosures. These are real dollars, but ETFs are a minority of institutional ownership, so they are a sentiment gauge rather than a census. Only a sub-industry with an ETF of its own gets a flow number and a flow term in its heat score; where the taxonomy lists a reference ETF (a broader fund used for charts, such as SOXX for Memory &amp; Storage) its flows are not attributed to the bucket.</li>
     <li><b>SEC Form 13F (2013 onward).</b> Quarterly long positions of institutions above $100m, aggregated by ticker, with a curated hedge-fund subset. Reported with a 45-day lag; shorts and derivatives are not included.</li>
   </ul>
   <h2>Universe and baskets</h2>
