@@ -3899,6 +3899,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,CARZ,90.25,450019.0,40614234.0,1720.67,firsttrust_pricehistory_xlsx
 2026-11-09,CARZ,93.64,450000.0,42137957.0,-1842.13,firsttrust_pricehistory_xlsx
 2026-11-10,CARZ,93.1,450025.0,41897359.0,2401.75,firsttrust_pricehistory_xlsx
+2026-11-11,CARZ,95.57,450005.0,43006967.0,-1954.59,firsttrust_pricehistory_xlsx
 2015-07-07,CIBR,19.78,99993.0,1977857.0,,firsttrust_pricehistory_xlsx
 2015-07-08,CIBR,19.57,100024.0,1957475.0,616.48,firsttrust_pricehistory_xlsx
 2015-07-09,CIBR,19.94,450001.0,8973024.0,6978540.02,firsttrust_pricehistory_xlsx
@@ -6754,6 +6755,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,CIBR,91.0,173443901.0,15783395019.0,-1151919.97,firsttrust_pricehistory_xlsx
 2026-11-09,CIBR,94.57,172940933.0,16355024064.0,-47565682.67,firsttrust_pricehistory_xlsx
 2026-11-10,CIBR,94.49,172958851.0,16342881826.0,1693036.67,firsttrust_pricehistory_xlsx
+2026-11-11,CIBR,96.2,173598147.0,16700141737.0,61500275.88,firsttrust_pricehistory_xlsx
 2015-08-18,CRAK,19.7471,100000.0,1974712.45,,vaneck_fundhistoprices_xlsx
 2015-08-19,CRAK,19.6019,100000.0,1960193.9,1.47,vaneck_fundhistoprices_xlsx
 2015-08-20,CRAK,19.2417,100000.0,1924167.22,-6.61,vaneck_fundhistoprices_xlsx
@@ -9611,6 +9613,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,CRAK,55.6675,8975000.0,499615819.84,-58450617.4,vaneck_fundhistoprices_xlsx
 2026-11-09,CRAK,56.5704,8499996.0,480848197.86,-26871149.6,vaneck_fundhistoprices_xlsx
 2026-11-10,CRAK,56.3605,8500004.0,479064457.86,409.25,vaneck_fundhistoprices_xlsx
+2026-11-11,CRAK,57.4327,8499992.0,488177489.25,-672.56,vaneck_fundhistoprices_xlsx
 2006-10-11,EVX,7.9991,4500101.0,35996757.17,,vaneck_fundhistoprices_xlsx
 2006-10-12,EVX,8.1439,4500027.0,36647770.74,-601.04,vaneck_fundhistoprices_xlsx
 2006-10-13,EVX,8.2014,4499998.0,36906284.87,-237.43,vaneck_fundhistoprices_xlsx
@@ -14851,6 +14854,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,EVX,40.3077,2454999.0,98955383.3,82.88,vaneck_fundhistoprices_xlsx
 2026-11-09,EVX,41.2224,2454999.0,101200954.34,-17.0,vaneck_fundhistoprices_xlsx
 2026-11-10,EVX,40.8191,2454998.0,100210805.03,-48.18,vaneck_fundhistoprices_xlsx
+2026-11-11,EVX,40.9869,2455002.0,100622936.16,182.48,vaneck_fundhistoprices_xlsx
 2006-06-23,FDN,20.64,150025.0,3096506.0,,firsttrust_pricehistory_xlsx
 2006-06-26,FDN,20.78,150015.0,3117311.0,-198.43,firsttrust_pricehistory_xlsx
 2006-06-27,FDN,20.31,149995.0,3046395.0,-408.97,firsttrust_pricehistory_xlsx
@@ -19979,6 +19983,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,FDN,260.65,18000042.0,4691710972.0,-44813.89,firsttrust_pricehistory_xlsx
 2026-11-09,FDN,268.54,17950140.0,4820330648.0,-13400656.13,firsttrust_pricehistory_xlsx
 2026-11-10,FDN,267.87,17949763.0,4808202909.0,-101145.07,firsttrust_pricehistory_xlsx
+2026-11-11,FDN,272.41,17899714.0,4876061094.0,-13633737.23,firsttrust_pricehistory_xlsx
 2006-05-22,GDX,37.2224,1352502.0,50343359.01,,vaneck_fundhistoprices_xlsx
 2006-05-23,GDX,37.9934,1402501.0,53285770.62,1899632.8,vaneck_fundhistoprices_xlsx
 2006-05-24,GDX,36.4966,1402500.0,51186483.87,-23.68,vaneck_fundhistoprices_xlsx
@@ -25321,6 +25326,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,GDX,87.3705,307952633.0,26905975532.34,-30553517.95,vaneck_fundhistoprices_xlsx
 2026-11-09,GDX,91.2444,309702600.0,28258627939.01,159674701.21,vaneck_fundhistoprices_xlsx
 2026-11-10,GDX,86.8618,309552484.0,26888285965.38,-13039357.74,vaneck_fundhistoprices_xlsx
+2026-11-11,GDX,85.4732,309552573.0,26458448968.47,7582.54,vaneck_fundhistoprices_xlsx
 2009-11-17,GRID,29.89,100008.0,2989243.0,,firsttrust_pricehistory_xlsx
 2009-11-18,GRID,30.03,200023.0,6006679.0,3003434.86,firsttrust_pricehistory_xlsx
 2009-11-19,GRID,29.33,249979.0,7331872.0,1465208.83,firsttrust_pricehistory_xlsx
@@ -29592,6 +29598,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,GRID,154.56,67550795.0,10440650949.0,-22788737.23,firsttrust_pricehistory_xlsx
 2026-11-09,GRID,161.05,67001702.0,10790624064.0,-88431547.65,firsttrust_pricehistory_xlsx
 2026-11-10,GRID,159.49,66948416.0,10677602864.0,-8498545.3,firsttrust_pricehistory_xlsx
+2026-11-11,GRID,162.56,66949423.0,10883298185.0,163683.95,firsttrust_pricehistory_xlsx
 2006-05-01,IAI,48.41,500000.0,24205000.0,,ishares_fund_document_historical
 2006-05-02,IAI,49.07,500000.0,24535000.0,0.0,ishares_fund_document_historical
 2006-05-03,IAI,48.93,500000.0,24465000.0,0.0,ishares_fund_document_historical
@@ -34759,6 +34766,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IAI,181.737757,7100000.0,1290338074.7,-9086887.85,ishares_fund_document_historical
 2026-11-10,IAI,182.524967,7150000.0,1305053514.05,9126248.35,ishares_fund_document_historical
 2026-11-11,IAI,184.997115,7150000.0,1322729372.25,0.0,ishares_fund_document_historical
+2026-11-12,IAI,182.626478,7150000.0,1305779317.7,0.0,ishares_fund_document_historical
 2001-02-05,IBB,33.221636,300000.0,9966490.8,,ishares_fund_document_historical
 2001-02-06,IBB,34.252504,300000.0,10275751.2,0.0,ishares_fund_document_historical
 2001-02-07,IBB,33.785369,300000.0,10135610.7,0.0,ishares_fund_document_historical
@@ -41240,6 +41248,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IBB,219.454201,51200000.0,11236055091.2,-131672520.6,ishares_fund_document_historical
 2026-11-10,IBB,217.123823,52250000.0,11344719751.75,227980014.15,ishares_fund_document_historical
 2026-11-11,IBB,218.141316,52300000.0,11408790826.8,10907065.8,ishares_fund_document_historical
+2026-11-12,IBB,213.566844,52200000.0,11148189256.8,-21356684.4,ishares_fund_document_historical
 2008-06-24,ICLN,51.816699,100000.0,5181669.9,,ishares_fund_document_historical
 2008-06-25,ICLN,52.511965,100000.0,5251196.5,0.0,ishares_fund_document_historical
 2008-06-26,ICLN,50.830404,100000.0,5083040.4,0.0,ishares_fund_document_historical
@@ -45866,6 +45875,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,ICLN,16.614453,128700000.0,2138280101.1,0.0,ishares_fund_document_historical
 2026-11-10,ICLN,16.177479,128700000.0,2082041547.3,0.0,ishares_fund_document_historical
 2026-11-11,ICLN,16.307194,128700000.0,2098735867.8,0.0,ishares_fund_document_historical
+2026-11-12,ICLN,15.942462,128700000.0,2051794859.4,0.0,ishares_fund_document_historical
 2001-07-10,IGV,9.824,750000.0,7368000.0,,ishares_fund_document_historical
 2001-07-11,IGV,9.764,750000.0,7323000.0,0.0,ishares_fund_document_historical
 2001-07-12,IGV,10.52,750000.0,7890000.0,0.0,ishares_fund_document_historical
@@ -52452,6 +52462,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IGV,101.41524,125750000.0,12752966430.0,15212286.0,ishares_fund_document_historical
 2026-11-10,IGV,100.33487,128150000.0,12857913590.5,240803688.0,ishares_fund_document_historical
 2026-11-11,IGV,102.251318,127300000.0,13016592781.4,-86913620.3,ishares_fund_document_historical
+2026-11-12,IGV,101.474953,127100000.0,12897466526.3,-20294990.6,ishares_fund_document_historical
 2006-05-01,IHE,16.6,2100000.0,34860000.0,,ishares_fund_document_historical
 2006-05-02,IHE,16.566667,2100000.0,34790000.7,0.0,ishares_fund_document_historical
 2006-05-03,IHE,16.53,2100000.0,34713000.0,0.0,ishares_fund_document_historical
@@ -57784,6 +57795,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IHE,109.73546,15100000.0,1657005446.0,-43894184.0,ishares_fund_document_historical
 2026-11-10,IHE,110.448491,15500000.0,1711951610.5,44179396.4,ishares_fund_document_historical
 2026-11-11,IHE,111.033569,15550000.0,1726571997.95,5551678.45,ishares_fund_document_historical
+2026-11-12,IHE,110.143704,15550000.0,1712734597.2,0.0,ishares_fund_document_historical
 2006-05-01,IHF,9.92,2500000.0,24800000.0,,ishares_fund_document_historical
 2006-05-02,IHF,9.932,2500000.0,24830000.0,0.0,ishares_fund_document_historical
 2006-05-03,IHF,9.622,2500000.0,24055000.0,0.0,ishares_fund_document_historical
@@ -63116,6 +63128,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IHF,59.683644,25700000.0,1533869650.8,2984182.2,ishares_fund_document_historical
 2026-11-10,IHF,60.532238,25700000.0,1555678516.6,0.0,ishares_fund_document_historical
 2026-11-11,IHF,60.640942,25800000.0,1564536303.6,6064094.2,ishares_fund_document_historical
+2026-11-12,IHF,60.421453,25950000.0,1567936705.35,9063217.95,ishares_fund_document_historical
 2006-05-01,IHI,8.238333,3000000.0,24714999.0,,ishares_fund_document_historical
 2006-05-02,IHI,8.213333,3000000.0,24639999.0,0.0,ishares_fund_document_historical
 2006-05-03,IHI,8.153333,3000000.0,24459999.0,0.0,ishares_fund_document_historical
@@ -68283,6 +68296,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IHI,58.588031,69350000.0,4063079949.85,-32223417.05,ishares_fund_document_historical
 2026-11-10,IHI,58.069469,70150000.0,4073573250.35,46455575.2,ishares_fund_document_historical
 2026-11-11,IHI,58.175529,70100000.0,4078104582.9,-2908776.45,ishares_fund_document_historical
+2026-11-12,IHI,57.455726,70200000.0,4033391965.2,5745572.6,ishares_fund_document_historical
 2006-05-01,ITA,8.43,900000.0,7587000.0,,ishares_fund_document_historical
 2006-05-02,ITA,8.506667,900000.0,7656000.3,0.0,ishares_fund_document_historical
 2006-05-03,ITA,8.506667,3000000.0,25520001.0,17864000.7,ishares_fund_document_historical
@@ -73641,6 +73655,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,ITA,71.656561,169750000.0,12163701229.75,-10748484.15,ishares_fund_document_historical
 2026-11-10,ITA,72.392966,170200000.0,12321282813.2,32576834.7,ishares_fund_document_historical
 2026-11-11,ITA,73.282459,170000000.0,12458018030.0,-14656491.8,ishares_fund_document_historical
+2026-11-12,ITA,71.699971,170000000.0,12188995070.0,0.0,ishares_fund_document_historical
 2006-05-01,ITB,49.5,500000.0,24750000.0,,ishares_fund_document_historical
 2006-05-02,ITB,48.82,500000.0,24410000.0,0.0,ishares_fund_document_historical
 2006-05-03,ITB,48.83,500000.0,24415000.0,0.0,ishares_fund_document_historical
@@ -78808,6 +78823,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,ITB,99.456351,23300000.0,2317332978.3,-4972817.55,ishares_fund_document_historical
 2026-11-10,ITB,96.194698,22750000.0,2188429379.5,-52907083.9,ishares_fund_document_historical
 2026-11-11,ITB,95.471543,22800000.0,2176751180.4,4773577.15,ishares_fund_document_historical
+2026-11-12,ITB,93.802417,22350000.0,2096484019.95,-42211087.65,ishares_fund_document_historical
 2000-06-12,IYE,16.93,450000.0,7618500.0,,ishares_fund_document_historical
 2000-06-13,IYE,16.946667,450000.0,7626000.15,0.0,ishares_fund_document_historical
 2000-06-14,IYE,17.03,450000.0,7663500.0,0.0,ishares_fund_document_historical
@@ -85512,6 +85528,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYE,65.493653,27050000.0,1771603313.65,-3274682.65,ishares_fund_document_historical
 2026-11-10,IYE,65.754626,26900000.0,1768799439.4,-9863193.9,ishares_fund_document_historical
 2026-11-11,IYE,66.996637,27000000.0,1808909199.0,6699663.7,ishares_fund_document_historical
+2026-11-12,IYE,67.897245,26950000.0,1829830752.75,-3394862.25,ishares_fund_document_historical
 2000-06-12,IYH,11.906,750000.0,8929500.0,,ishares_fund_document_historical
 2000-06-13,IYH,12.268,750000.0,9201000.0,0.0,ishares_fund_document_historical
 2000-06-14,IYH,12.438,750000.0,9328500.0,0.0,ishares_fund_document_historical
@@ -92379,6 +92396,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYH,79.025681,61050000.0,4824517825.05,0.0,ishares_fund_document_historical
 2026-11-10,IYH,79.096105,61050000.0,4828817210.25,0.0,ishares_fund_document_historical
 2026-11-11,IYH,79.16833,61050000.0,4833226546.5,0.0,ishares_fund_document_historical
+2026-11-12,IYH,78.554284,61100000.0,4799666752.4,3927714.2,ishares_fund_document_historical
 2000-06-12,IYJ,29.054,300000.0,8716200.0,,ishares_fund_document_historical
 2000-06-13,IYJ,29.49511,300000.0,8848533.0,0.0,ishares_fund_document_historical
 2000-06-14,IYJ,29.376115,300000.0,8812834.5,0.0,ishares_fund_document_historical
@@ -99024,6 +99042,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYJ,160.172681,11500000.0,1841985831.5,0.0,ishares_fund_document_historical
 2026-11-10,IYJ,160.078287,11650000.0,1864912043.55,24011743.05,ishares_fund_document_historical
 2026-11-11,IYJ,161.791659,11650000.0,1884872827.35,0.0,ishares_fund_document_historical
+2026-11-12,IYJ,159.928224,11650000.0,1863163809.6,0.0,ishares_fund_document_historical
 2000-06-12,IYR,34.485,300000.0,10345500.0,,ishares_fund_document_historical
 2000-06-13,IYR,34.621441,300000.0,10386432.3,0.0,ishares_fund_document_historical
 2000-06-14,IYR,35.241088,300000.0,10572326.4,0.0,ishares_fund_document_historical
@@ -105669,6 +105688,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYR,103.156008,38850000.0,4007610910.8,-41262403.2,ishares_fund_document_historical
 2026-11-10,IYR,102.947836,38450000.0,3958344294.2,-41179134.4,ishares_fund_document_historical
 2026-11-11,IYR,102.791731,37900000.0,3895806604.9,-56535452.05,ishares_fund_document_historical
+2026-11-12,IYR,102.117869,38250000.0,3906008489.25,35741254.15,ishares_fund_document_historical
 2003-10-06,IYT,12.555,1600000.0,20088000.0,,ishares_fund_document_historical
 2003-10-07,IYT,12.5675,1600000.0,20108000.0,0.0,ishares_fund_document_historical
 2003-10-08,IYT,12.53,1600000.0,20048000.0,0.0,ishares_fund_document_historical
@@ -111671,6 +111691,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYT,83.721417,25900000.0,2168384700.3,0.0,ishares_fund_document_historical
 2026-11-10,IYT,83.808013,26000000.0,2179008338.0,8380801.3,ishares_fund_document_historical
 2026-11-11,IYT,84.464972,26100000.0,2204535769.2,8446497.2,ishares_fund_document_historical
+2026-11-12,IYT,83.524913,26200000.0,2188352720.6,8352491.3,ishares_fund_document_historical
 2000-05-15,IYW,29.14125,600000.0,17484750.0,,ishares_fund_document_historical
 2000-05-16,IYW,30.047435,600000.0,18028461.0,0.0,ishares_fund_document_historical
 2000-05-17,IYW,29.507502,600000.0,17704501.2,0.0,ishares_fund_document_historical
@@ -118335,6 +118356,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYW,233.946373,99600000.0,23301058750.8,35091955.95,ishares_fund_document_historical
 2026-11-10,IYW,230.861683,99900000.0,23063082131.7,69258504.9,ishares_fund_document_historical
 2026-11-11,IYW,236.742294,99900000.0,23650555170.6,0.0,ishares_fund_document_historical
+2026-11-12,IYW,235.341136,99950000.0,23522346543.2,11767056.8,ishares_fund_document_historical
 2000-05-22,IYZ,56.81,150000.0,8521500.0,,ishares_fund_document_historical
 2000-05-23,IYZ,54.755154,150000.0,8213273.1,0.0,ishares_fund_document_historical
 2000-05-24,IYZ,55.849018,150000.0,8377352.7,0.0,ishares_fund_document_historical
@@ -124994,6 +125016,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,IYZ,38.889906,14050000.0,546403179.3,-19444953.0,ishares_fund_document_historical
 2026-11-10,IYZ,38.981128,13700000.0,534041453.6,-13643394.8,ishares_fund_document_historical
 2026-11-11,IYZ,40.044845,13500000.0,540605407.5,-8008969.0,ishares_fund_document_historical
+2026-11-12,IYZ,40.01151,13350000.0,534153658.5,-6001726.5,ishares_fund_document_historical
 2005-12-30,KBE,51.938957,950000.0,49342009.37,,ssga_navhist_xlsx
 2006-02-21,KBE,52.783027,150000.0,7917454.09,-42226421.6,ssga_navhist_xlsx
 2006-02-22,KBE,53.91928,650000.0,35047532.17,26959640.0,ssga_navhist_xlsx
@@ -130212,6 +130235,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,KBE,65.89753,23152118.0,1525667382.83,-52718024.0,ssga_navhist_xlsx
 2026-11-09,KBE,67.086691,23152118.0,1553198992.32,0.0,ssga_navhist_xlsx
 2026-11-10,KBE,66.756188,23852118.0,1592276483.5,46729331.6,ssga_navhist_xlsx
+2026-11-11,KBE,66.646967,23402118.0,1559680176.73,-29991135.15,ssga_navhist_xlsx
 2005-12-30,KIE,52.490855,1200000.0,62989025.76,,ssga_navhist_xlsx
 2006-02-21,KIE,51.931732,1200000.0,62318078.35,0.0,ssga_navhist_xlsx
 2006-02-22,KIE,52.815113,1200000.0,63378135.46,0.0,ssga_navhist_xlsx
@@ -135430,6 +135454,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,KIE,64.256776,8550000.0,549395430.89,-3212838.8,ssga_navhist_xlsx
 2026-11-09,KIE,64.883598,8500000.0,551510586.67,-3244179.9,ssga_navhist_xlsx
 2026-11-10,KIE,65.818181,8450000.0,556163627.24,-3290909.05,ssga_navhist_xlsx
+2026-11-11,KIE,65.683965,8550000.0,561597897.99,6568396.5,ssga_navhist_xlsx
 2006-06-20,KRE,47.866848,500000.0,23933423.79,,ssga_navhist_xlsx
 2006-06-21,KRE,48.234408,500000.0,24117203.79,0.0,ssga_navhist_xlsx
 2006-06-22,KRE,47.910447,500000.0,23955223.53,0.0,ssga_navhist_xlsx
@@ -140564,6 +140589,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,KRE,72.196694,59802585.0,4317548934.47,-368203139.4,ssga_navhist_xlsx
 2026-11-09,KRE,73.367034,58302585.0,4277487738.2,-110050551.0,ssga_navhist_xlsx
 2026-11-10,KRE,73.082576,60652585.0,4432647178.46,171744053.6,ssga_navhist_xlsx
+2026-11-11,KRE,72.895016,59802585.0,4359310376.8,-61960763.6,ssga_navhist_xlsx
 2007-08-13,NLR,120.5406,116667.0,14063082.23,,vaneck_fundhistoprices_xlsx
 2007-08-14,NLR,117.5825,116667.0,13717953.64,-16.62,vaneck_fundhistoprices_xlsx
 2007-08-15,NLR,112.5498,116667.0,13130805.02,-0.49,vaneck_fundhistoprices_xlsx
@@ -145439,6 +145465,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,NLR,88.41,33266622.0,2941102080.22,-4421512.56,vaneck_fundhistoprices_xlsx
 2026-11-09,NLR,94.4842,33141638.0,3131361164.51,-11809033.07,vaneck_fundhistoprices_xlsx
 2026-11-10,NLR,91.6977,32916617.0,3018378112.43,-20633877.46,vaneck_fundhistoprices_xlsx
+2026-11-11,NLR,92.3957,32816632.0,3032115680.98,-9238230.43,vaneck_fundhistoprices_xlsx
 2011-12-20,OIH,761.1589,1530543.0,1164986531.0,,vaneck_fundhistoprices_xlsx
 2011-12-21,OIH,764.8324,1530543.0,1170609005.72,24.5,vaneck_fundhistoprices_xlsx
 2011-12-22,OIH,770.8987,1470543.0,1133639819.32,-46253920.43,vaneck_fundhistoprices_xlsx
@@ -149215,6 +149242,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,OIH,356.4,5000543.0,1782193476.73,35640151.4,vaneck_fundhistoprices_xlsx
 2026-11-09,OIH,360.4673,4850542.0,1748461908.26,-54070276.46,vaneck_fundhistoprices_xlsx
 2026-11-10,OIH,359.6428,4900543.0,1762444834.28,17982198.2,vaneck_fundhistoprices_xlsx
+2026-11-11,OIH,369.7847,4900543.0,1812145813.72,167.23,vaneck_fundhistoprices_xlsx
 2011-12-20,PPH,35.9581,10738142.0,386123193.66,,vaneck_fundhistoprices_xlsx
 2011-12-21,PPH,36.0817,10738147.0,387450588.38,160.34,vaneck_fundhistoprices_xlsx
 2011-12-22,PPH,36.1936,10738148.0,388652244.2,57.2,vaneck_fundhistoprices_xlsx
@@ -152991,6 +153019,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,PPH,118.8367,9038135.0,1074062178.19,-17826171.37,vaneck_fundhistoprices_xlsx
 2026-11-09,PPH,121.2191,9038135.0,1095594547.32,-84.51,vaneck_fundhistoprices_xlsx
 2026-11-10,PPH,121.5791,8988136.0,1092769475.36,-6078800.43,vaneck_fundhistoprices_xlsx
+2026-11-11,PPH,121.7215,8988141.0,1094049983.42,597.51,vaneck_fundhistoprices_xlsx
 2007-05-01,REM,199.56,125000.0,24945000.0,,ishares_fund_document_historical
 2007-05-02,REM,200.36,125000.0,25045000.0,0.0,ishares_fund_document_historical
 2007-05-03,REM,200.52,125000.0,25065000.0,0.0,ishares_fund_document_historical
@@ -157907,6 +157936,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,REM,17.384302,25300000.0,439822840.6,869215.1,ishares_fund_document_historical
 2026-11-10,REM,17.059013,25450000.0,434151880.85,2558851.95,ishares_fund_document_historical
 2026-11-11,REM,16.718585,25400000.0,424652059.0,-835929.25,ishares_fund_document_historical
+2026-11-12,REM,16.195475,25400000.0,411365065.0,0.0,ishares_fund_document_historical
 2007-05-01,REZ,49.37,500000.0,24685000.0,,ishares_fund_document_historical
 2007-05-02,REZ,49.38,500000.0,24690000.0,0.0,ishares_fund_document_historical
 2007-05-03,REZ,49.49,500000.0,24745000.0,0.0,ishares_fund_document_historical
@@ -162823,6 +162853,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,REZ,95.641681,8850000.0,846428876.85,0.0,ishares_fund_document_historical
 2026-11-10,REZ,95.494315,8850000.0,845124687.75,0.0,ishares_fund_document_historical
 2026-11-11,REZ,95.065278,8900000.0,846080974.2,4753263.9,ishares_fund_document_historical
+2026-11-12,REZ,94.129674,8950000.0,842460582.3,4706483.7,ishares_fund_document_historical
 2011-07-06,SKYY,20.28,600141.0,12170863.0,,firsttrust_pricehistory_xlsx
 2011-07-07,SKYY,20.5,700069.0,14351407.0,2048512.94,firsttrust_pricehistory_xlsx
 2011-07-08,SKYY,20.39,1550303.0,31610671.0,17336271.55,firsttrust_pricehistory_xlsx
@@ -166684,6 +166715,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,SKYY,146.46,20650215.0,3024430528.0,50144.57,firsttrust_pricehistory_xlsx
 2026-11-09,SKYY,150.74,20599470.0,3105164149.0,-7649300.34,firsttrust_pricehistory_xlsx
 2026-11-10,SKYY,149.93,20599432.0,3088472769.0,-5809.08,firsttrust_pricehistory_xlsx
+2026-11-11,SKYY,154.26,20600059.0,3177765034.0,96726.48,firsttrust_pricehistory_xlsx
 2011-12-20,SMH,14.9765,28641862.0,428954848.74,,vaneck_fundhistoprices_xlsx
 2011-12-21,SMH,14.8229,28641917.0,424556276.07,817.36,vaneck_fundhistoprices_xlsx
 2011-12-22,SMH,15.2272,28641870.0,436135479.56,-723.68,vaneck_fundhistoprices_xlsx
@@ -170460,6 +170492,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,SMH,464.0173,130791886.0,60689697642.47,672837674.57,vaneck_fundhistoprices_xlsx
 2026-11-09,SMH,487.2301,128541867.0,62629466626.73,-1096276899.02,vaneck_fundhistoprices_xlsx
 2026-11-10,SMH,483.8437,131191871.0,63476360478.99,1282188030.07,vaneck_fundhistoprices_xlsx
+2026-11-11,SMH,507.0857,129641863.0,65739534646.42,-785987308.17,vaneck_fundhistoprices_xlsx
 2001-07-10,SOXX,7.294444,1350000.0,9847499.4,,ishares_fund_document_historical
 2001-07-11,SOXX,7.434444,1350000.0,10036499.4,0.0,ishares_fund_document_historical
 2001-07-12,SOXX,8.108889,1350000.0,10947000.15,0.0,ishares_fund_document_historical
@@ -177072,6 +177105,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-09,SOXX,146.729825,255750000.0,37526152743.75,-4438577206.25,ishares_fund_document_historical
 2026-11-10,SOXX,146.478893,282850000.0,41431554885.05,3969578000.3,ishares_fund_document_historical
 2026-11-11,SOXX,155.368785,281700000.0,43767386734.5,-178674102.75,ishares_fund_document_historical
+2026-11-12,SOXX,154.967093,288700000.0,44738999749.1,1084769651.0,ishares_fund_document_historical
 2011-09-28,XAR,50.0,100000.0,5000000.0,,ssga_navhist_xlsx
 2011-09-29,XAR,50.512829,100000.0,5051282.85,0.0,ssga_navhist_xlsx
 2011-09-30,XAR,49.508716,100000.0,4950871.55,0.0,ssga_navhist_xlsx
@@ -180877,6 +180911,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XAR,224.151051,22250000.0,4987360886.59,-33622657.65,ssga_navhist_xlsx
 2026-11-09,XAR,236.292228,22250000.0,5257502078.15,0.0,ssga_navhist_xlsx
 2026-11-10,XAR,236.802568,22250000.0,5268857136.41,0.0,ssga_navhist_xlsx
+2026-11-11,XAR,240.068434,22125000.0,5311514103.31,-30008554.25,ssga_navhist_xlsx
 2006-02-21,XBI,51.024366,600000.0,30614619.49,,ssga_navhist_xlsx
 2006-02-22,XBI,51.925113,600000.0,31155067.71,0.0,ssga_navhist_xlsx
 2006-02-23,XBI,52.087173,600000.0,31252303.94,0.0,ssga_navhist_xlsx
@@ -186094,6 +186129,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XBI,152.300596,67700000.0,10310750374.84,30460119.2,ssga_navhist_xlsx
 2026-11-09,XBI,156.847356,67125000.0,10528378767.79,-90187229.7,ssga_navhist_xlsx
 2026-11-10,XBI,154.982231,67750000.0,10500046136.89,96863894.38,ssga_navhist_xlsx
+2026-11-11,XBI,156.264646,67775000.0,10590836413.6,3906616.15,ssga_navhist_xlsx
 2006-06-20,XES,27.405429,500000.0,13702714.28,,ssga_navhist_xlsx
 2006-06-21,XES,28.323242,500000.0,14161620.98,0.0,ssga_navhist_xlsx
 2006-06-22,XES,28.306432,500000.0,14153215.78,0.0,ssga_navhist_xlsx
@@ -191228,6 +191264,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XES,96.292782,2715000.0,261434902.66,-33702473.7,ssga_navhist_xlsx
 2026-11-09,XES,97.906853,2715000.0,265817105.68,0.0,ssga_navhist_xlsx
 2026-11-10,XES,97.691055,2715000.0,265231214.15,0.0,ssga_navhist_xlsx
+2026-11-11,XES,100.629421,2665000.0,268177405.68,-5031471.05,ssga_navhist_xlsx
 2006-02-21,XHB,45.072841,1850000.0,83384756.31,,ssga_navhist_xlsx
 2006-02-22,XHB,45.885758,1850000.0,84888651.86,0.0,ssga_navhist_xlsx
 2006-02-23,XHB,45.552923,1850000.0,84272907.51,0.0,ssga_navhist_xlsx
@@ -196445,6 +196482,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XHB,102.289755,15200016.0,1554805919.55,-10228975.5,ssga_navhist_xlsx
 2026-11-09,XHB,105.936943,15200016.0,1610243223.96,0.0,ssga_navhist_xlsx
 2026-11-10,XHB,103.20131,15350016.0,1584141765.46,15480196.5,ssga_navhist_xlsx
+2026-11-11,XHB,103.104848,15000016.0,1546574370.42,-36086696.8,ssga_navhist_xlsx
 2006-05-31,XLB,32.200898,28011537.0,901996634.54,,ssga_navhist_xlsx
 2006-06-01,XLB,32.552975,28011537.0,911858876.99,0.0,ssga_navhist_xlsx
 2006-06-02,XLB,32.81406,28011537.0,919172251.93,0.0,ssga_navhist_xlsx
@@ -201593,6 +201631,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLB,51.969233,162447450.0,8442269300.51,70158464.55,ssga_navhist_xlsx
 2026-11-09,XLB,52.952101,162397450.0,8599286181.93,-2647605.05,ssga_navhist_xlsx
 2026-11-10,XLB,52.834809,160147450.0,8461359866.07,-118878320.25,ssga_navhist_xlsx
+2026-11-11,XLB,53.000399,160247450.0,8493178847.36,5300039.9,ssga_navhist_xlsx
 2018-06-19,XLC,49.956098,500000.0,24978048.78,,ssga_navhist_xlsx
 2018-06-20,XLC,50.57087,500000.0,25285434.79,0.0,ssga_navhist_xlsx
 2018-06-21,XLC,50.235736,500000.0,25117867.79,0.0,ssga_navhist_xlsx
@@ -203704,6 +203743,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLC,104.794,204950000.0,21477530337.23,-178149800.0,ssga_navhist_xlsx
 2026-11-09,XLC,107.332177,206050000.0,22115795144.83,118065394.7,ssga_navhist_xlsx
 2026-11-10,XLC,107.737709,204750000.0,22059295959.64,-140059021.7,ssga_navhist_xlsx
+2026-11-11,XLC,108.614362,204800000.0,22244221408.39,5430718.1,ssga_navhist_xlsx
 2006-05-31,XLE,55.434458,81707571.0,4529414920.85,,ssga_navhist_xlsx
 2006-06-01,XLE,55.717772,77357571.0,4310191510.97,-242372308.2,ssga_navhist_xlsx
 2006-06-02,XLE,56.498484,75157571.0,4246288845.64,-124296664.8,ssga_navhist_xlsx
@@ -208852,6 +208892,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLE,61.63788,657298400.0,40514480083.16,95538714.0,ssga_navhist_xlsx
 2026-11-09,XLE,61.954523,657648400.0,40744292680.37,21684083.05,ssga_navhist_xlsx
 2026-11-10,XLE,62.215893,657948400.0,40934847557.9,18664767.9,ssga_navhist_xlsx
+2026-11-11,XLE,63.374726,656048400.0,41576887809.09,-120411979.4,ssga_navhist_xlsx
 2006-05-31,XLF,32.678825,68113274.0,2225861792.98,,ssga_navhist_xlsx
 2006-06-01,XLF,33.095869,67163274.0,2222826920.71,-31441075.55,ssga_navhist_xlsx
 2006-06-02,XLF,33.225624,66613274.0,2213267591.12,-18274093.2,ssga_navhist_xlsx
@@ -214000,6 +214041,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLF,57.158749,933845427.0,53377436685.33,-771643111.5,ssga_navhist_xlsx
 2026-11-09,XLF,57.970246,924195427.0,53575836320.78,-559412873.9,ssga_navhist_xlsx
 2026-11-10,XLF,58.264204,927695427.0,54051435678.22,203924714.0,ssga_navhist_xlsx
+2026-11-11,XLF,58.609992,925245427.0,54228627143.04,-143594480.4,ssga_navhist_xlsx
 2006-05-31,XLI,33.962259,31507053.0,1070050688.94,,ssga_navhist_xlsx
 2006-06-01,XLI,34.308765,31507053.0,1080968064.86,0.0,ssga_navhist_xlsx
 2006-06-02,XLI,34.305468,31507053.0,1080864202.51,0.0,ssga_navhist_xlsx
@@ -219148,6 +219190,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLI,162.694566,181576000.0,29541428526.09,-284715490.5,ssga_navhist_xlsx
 2026-11-09,XLI,168.842187,181626000.0,30666130998.56,8442109.35,ssga_navhist_xlsx
 2026-11-10,XLI,168.734196,183026000.0,30882744903.14,236227874.4,ssga_navhist_xlsx
+2026-11-11,XLI,170.955595,183176000.0,31314962107.76,25643339.25,ssga_navhist_xlsx
 2006-05-31,XLK,20.432066,73403546.0,1499786112.17,,ssga_navhist_xlsx
 2006-06-01,XLK,20.797397,73403546.0,1526602696.64,0.0,ssga_navhist_xlsx
 2006-06-02,XLK,20.730841,73403546.0,1521717235.68,0.0,ssga_navhist_xlsx
@@ -224296,6 +224339,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLK,164.828268,664661794.0,109555052626.9,148345441.2,ssga_navhist_xlsx
 2026-11-09,XLK,170.855772,668461794.0,114210556140.98,649251933.6,ssga_navhist_xlsx
 2026-11-10,XLK,168.935588,667661794.0,112791837814.02,-135148470.4,ssga_navhist_xlsx
+2026-11-11,XLK,174.33199,668161794.0,116481975426.16,87165995.0,ssga_navhist_xlsx
 2006-05-31,XLP,23.877241,46954018.0,1121132383.94,,ssga_navhist_xlsx
 2006-06-01,XLP,24.009448,46954018.0,1127340062.35,0.0,ssga_navhist_xlsx
 2006-06-02,XLP,23.968431,46954018.0,1125414139.44,0.0,ssga_navhist_xlsx
@@ -229444,6 +229488,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLP,90.110424,161271809.0,14532271068.39,-382969302.0,ssga_navhist_xlsx
 2026-11-09,XLP,90.911475,159671809.0,14515999645.64,-145458360.0,ssga_navhist_xlsx
 2026-11-10,XLP,91.041251,164271809.0,14955511047.59,418789754.6,ssga_navhist_xlsx
+2026-11-11,XLP,91.44615,163921809.0,14990018314.19,-32006152.5,ssga_navhist_xlsx
 2015-10-07,XLRE,30.0,100000.0,3000000.0,,ssga_navhist_xlsx
 2015-10-08,XLRE,30.256859,100000.0,3025685.88,0.0,ssga_navhist_xlsx
 2015-10-09,XLRE,30.185161,100000.0,3018516.09,0.0,ssga_navhist_xlsx
@@ -232234,6 +232279,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLRE,43.98224,189550000.0,8336833573.43,-15393784.0,ssga_navhist_xlsx
 2026-11-09,XLRE,44.643707,190350000.0,8497929558.01,35714965.6,ssga_navhist_xlsx
 2026-11-10,XLRE,44.586303,189700000.0,8458021739.7,-28981096.95,ssga_navhist_xlsx
+2026-11-11,XLRE,44.576476,189050000.0,8427182719.48,-28974709.4,ssga_navhist_xlsx
 2006-05-31,XLU,31.802683,69633629.0,2214536244.96,,ssga_navhist_xlsx
 2006-06-01,XLU,32.165967,69983629.0,2251091086.2,11258088.45,ssga_navhist_xlsx
 2006-06-02,XLU,32.522312,69283629.0,2253263791.32,-22765618.4,ssga_navhist_xlsx
@@ -237382,6 +237428,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLU,43.142146,542998320.0,23426112600.79,-392593528.6,ssga_navhist_xlsx
 2026-11-09,XLU,43.808354,543598320.0,23814147631.58,26285012.4,ssga_navhist_xlsx
 2026-11-10,XLU,43.722631,556748320.0,24342501211.19,574952597.65,ssga_navhist_xlsx
+2026-11-11,XLU,43.83747,541348320.0,23731340753.2,-675097038.0,ssga_navhist_xlsx
 2006-05-31,XLV,30.34036,55953600.0,1697652367.08,,ssga_navhist_xlsx
 2006-06-01,XLV,30.773828,55503600.0,1708058261.47,-13848222.6,ssga_navhist_xlsx
 2006-06-02,XLV,30.874775,55503600.0,1713661168.06,0.0,ssga_navhist_xlsx
@@ -242530,6 +242577,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLV,184.762684,268915324.0,49685516968.43,-212477086.6,ssga_navhist_xlsx
 2026-11-09,XLV,188.347522,268315324.0,50536526401.68,-113008513.2,ssga_navhist_xlsx
 2026-11-10,XLV,188.86068,266615324.0,50353151451.94,-321063156.0,ssga_navhist_xlsx
+2026-11-11,XLV,188.966571,267315324.0,50513660136.55,132276599.7,ssga_navhist_xlsx
 2006-05-31,XLY,33.53929,14401125.0,483003502.63,,ssga_navhist_xlsx
 2006-06-01,XLY,34.078502,13951125.0,475433443.83,-15335325.9,ssga_navhist_xlsx
 2006-06-02,XLY,33.936815,13951125.0,473456748.92,0.0,ssga_navhist_xlsx
@@ -247678,6 +247726,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XLY,117.589776,193256504.0,22724988950.5,-235179552.0,ssga_navhist_xlsx
 2026-11-09,XLY,120.966803,192156504.0,23244558036.81,-133063483.3,ssga_navhist_xlsx
 2026-11-10,XLY,121.055292,192906504.0,23352353184.51,90791469.0,ssga_navhist_xlsx
+2026-11-11,XLY,120.960867,192706504.0,23309945782.15,-24192173.4,ssga_navhist_xlsx
 2006-06-20,XME,43.333074,500000.0,21666536.75,,ssga_navhist_xlsx
 2006-06-21,XME,45.333339,500000.0,22666669.39,0.0,ssga_navhist_xlsx
 2006-06-22,XME,45.093152,500000.0,22546576.24,0.0,ssga_navhist_xlsx
@@ -252812,6 +252861,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XME,93.519842,36900230.0,3450903690.59,-14027976.3,ssga_navhist_xlsx
 2026-11-09,XME,98.578561,36800230.0,3627713734.71,-9857856.1,ssga_navhist_xlsx
 2026-11-10,XME,96.613831,36550230.0,3531257737.96,-24153457.75,ssga_navhist_xlsx
+2026-11-11,XME,97.269,36400230.0,3540613988.93,-14590350.0,ssga_navhist_xlsx
 2006-06-20,XOP,33.504674,500000.0,16752337.04,,ssga_navhist_xlsx
 2006-06-21,XOP,34.345036,500000.0,17172517.8,0.0,ssga_navhist_xlsx
 2006-06-22,XOP,34.582877,500000.0,17291438.33,0.0,ssga_navhist_xlsx
@@ -257946,6 +257996,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XOP,173.725273,22800000.0,3960936217.88,43431318.25,ssga_navhist_xlsx
 2026-11-09,XOP,174.095545,22550000.0,3925854539.37,-43523886.25,ssga_navhist_xlsx
 2026-11-10,XOP,175.45721,22550000.0,3956560086.1,0.0,ssga_navhist_xlsx
+2026-11-11,XOP,180.215033,22350000.0,4027805995.91,-36043006.6,ssga_navhist_xlsx
 2006-06-20,XPH,31.42839,500000.0,15714195.17,,ssga_navhist_xlsx
 2006-06-21,XPH,31.490897,500000.0,15745448.49,0.0,ssga_navhist_xlsx
 2006-06-22,XPH,31.246675,500000.0,15623337.51,0.0,ssga_navhist_xlsx
@@ -263080,6 +263131,7 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XPH,64.917839,7350270.0,477163645.59,-6491783.9,ssga_navhist_xlsx
 2026-11-09,XPH,67.380349,7350270.0,495263758.65,0.0,ssga_navhist_xlsx
 2026-11-10,XPH,67.937979,7600270.0,516346981.32,16984494.75,ssga_navhist_xlsx
+2026-11-11,XPH,68.837618,7700270.0,530068245.23,6883761.8,ssga_navhist_xlsx
 2006-06-20,XRT,36.749787,500000.0,18374893.42,,ssga_navhist_xlsx
 2006-06-21,XRT,37.281299,500000.0,18640649.42,0.0,ssga_navhist_xlsx
 2006-06-22,XRT,37.149469,500000.0,18574734.42,0.0,ssga_navhist_xlsx
@@ -268214,3 +268266,4 @@ date,ticker,nav,shares_outstanding,aum_usd,flow_usd,source
 2026-11-06,XRT,89.500689,6600226.0,590724772.45,-40275310.05,ssga_navhist_xlsx
 2026-11-09,XRT,92.775449,5650226.0,524202253.49,-88136676.55,ssga_navhist_xlsx
 2026-11-10,XRT,92.387126,6550226.0,605156556.07,83148413.4,ssga_navhist_xlsx
+2026-11-11,XRT,92.308424,6600226.0,609256462.46,4615421.2,ssga_navhist_xlsx
